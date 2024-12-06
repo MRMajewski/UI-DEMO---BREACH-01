@@ -23,7 +23,7 @@ public class WelcomingUIPanel : SimpleUIPanelMobiles
 
         panelCanvasGroup.DOFade(1, blinkDuration).SetEase(Ease.InOutSine);
 
-       continueTextGameObject.DOFade(0, blinkDuration)
+       continueTextGameObject.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime)
            .SetLoops(-1,LoopType.Yoyo)
            .SetEase(Ease.InOutSine);
     }
@@ -37,7 +37,7 @@ public class WelcomingUIPanel : SimpleUIPanelMobiles
     {
         continueTextGameObject.DOKill(false);
 
-        panelCanvasGroup.DOFade(0, blinkDuration).SetEase(Ease.InOutSine).
+        panelCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).
            OnComplete(() => this.gameObject.SetActive(false));
         
     }

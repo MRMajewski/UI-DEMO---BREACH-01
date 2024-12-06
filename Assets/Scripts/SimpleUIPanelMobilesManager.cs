@@ -17,14 +17,25 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
     public SimpleUIPanelMobiles PreviousPanel { get; }
 
     [SerializeField]
-    private List<SimpleUIPanelMobiles> Panels;
+    private List<Panels> SimplePanels;
 
+    [System.Serializable]
+    public struct Panels
+    {
+        [SerializeField]
+        string panelName;
+        [SerializeField]
+        SimpleUIPanelMobiles simplePanel;
+    }
 
     [SerializeField]
-    private float transitionDelay = 0.5f; 
+    private float transitionTime = 0.5f;
+    public float TransitionTime { get; }
 
     [SerializeField]
-    private bool isTransitioning = false; 
+    private bool isTransitioning = false;
+
+
 
 
     private void Awake()
@@ -73,7 +84,7 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
     private IEnumerator EnablePanelAfterDelay()
     {
         isTransitioning = true;
-        yield return new WaitForSecondsRealtime(transitionDelay);
+        yield return new WaitForSecondsRealtime(transitionTime);
         currentPanel.EnablePanel();
         isTransitioning = false;
     }
