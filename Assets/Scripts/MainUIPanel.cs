@@ -7,8 +7,6 @@ using UnityEngine.UI;
 public class MainUIPanel : SimpleUIPanelMobiles
 {
     [SerializeField]
-    private CanvasGroup panelsCanvasGroup;
-    [SerializeField]
     private List<Button> categoryButtons;
 
     public override void DisablePanel()

@@ -3,12 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class DiceRollerPanelManager : MonoBehaviour
+public class DiceRollerPanelManager : SimpleUIPanelMobiles
 {
 
     [SerializeField]
     private List<CanvasGroup> diceRollerPanels; // Lista paneli, które maj¹ byæ zarz¹dzane
+    public override void DisablePanel()
+    {
+        panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).
+        OnComplete(() => this.gameObject.SetActive(false));
+    }
 
+    public override void EnablePanel()
+    {
+        this.gameObject.SetActive(true);
+
+        panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
+    }
     public void ShowPanel(CanvasGroup panelToShow)
     {
         foreach (var panel in diceRollerPanels)

@@ -1,3 +1,5 @@
+using DG.Tweening;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,20 +25,28 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
     public struct Panels
     {
         [SerializeField]
-        string panelName;
+        public SimplePanelNames panelName;
         [SerializeField]
-        SimpleUIPanelMobiles simplePanel;
+        public SimpleUIPanelMobiles simplePanel;
     }
 
     [SerializeField]
     private float transitionTime = 0.5f;
-    public float TransitionTime { get; }
+    public float TransitionTime { get=>transitionTime; }
 
     [SerializeField]
     private bool isTransitioning = false;
 
+    [Header("Transition Elements")]
+    [SerializeField] private RectTransform leftCurtain;  
+    [SerializeField] private RectTransform rightCurtain; 
 
-
+    public enum SimplePanelNames
+    {
+        Welcome,
+        Main,
+        Dice         
+    }
 
     private void Awake()
     {
@@ -65,11 +75,17 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
 
     private void InitSimpleUIPanels()
     {
-        SwitchPanel(firstPanel);
+        isTransitioning = true;
+        currentPanel = firstPanel;
+        currentPanel.EnablePanel();
+        isTransitioning = false;
+
     }
     public void SwitchPanel(SimpleUIPanelMobiles newPanel)
     {
         if (isTransitioning) return;
+
+        PlayCurtainScaleAnimation();
 
         if (currentPanel != null)
         {
@@ -81,12 +97,46 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         StartCoroutine(EnablePanelAfterDelay());
     }
 
+    public void SwitchPanel(string name)
+    {
+        Enum.TryParse(name, out SimplePanelNames result);
+
+
+        foreach (var panel in  SimplePanels)
+        {
+            if(panel.panelName== result)
+            {
+                SwitchPanel(panel.simplePanel);
+                break;
+            }
+        }
+    }
+
     private IEnumerator EnablePanelAfterDelay()
     {
         isTransitioning = true;
         yield return new WaitForSecondsRealtime(transitionTime);
         currentPanel.EnablePanel();
         isTransitioning = false;
+    }
+
+    public void PlayCurtainScaleAnimation()
+    {
+        leftCurtain.localScale = new Vector3(0, 1, 1);
+        rightCurtain.localScale = new Vector3(0, 1, 1);
+
+        Sequence curtainSequence = DOTween.Sequence();
+
+        curtainSequence
+            .Append(leftCurtain.DOScaleX(1, transitionTime).SetEase(Ease.InOutQuad))
+            .Join(rightCurtain.DOScaleX(1, transitionTime).SetEase(Ease.InOutQuad))
+
+            .AppendInterval(transitionTime / 2)
+
+            .Append(leftCurtain.DOScaleX(0, transitionTime).SetEase(Ease.InOutQuad))
+            .Join(rightCurtain.DOScaleX(0, transitionTime).SetEase(Ease.InOutQuad));
+
+          //  .OnComplete(() => Debug.Log("Animacja kurtyn zakoñczona!"));
     }
 
     private void HandleBackButton()

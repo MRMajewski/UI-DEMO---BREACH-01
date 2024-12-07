@@ -4,6 +4,8 @@ using UnityEngine;
 
 public abstract class SimpleUIPanelMobiles : MonoBehaviour, ISimpleUIPanelMobiles
 {
+    [SerializeField]
+    protected CanvasGroup panelsCanvasGroup;
     public List<IUISelectionElement> SelectionQueue => throw new System.NotImplementedException();
 
     public virtual void DisablePanel()

@@ -7,8 +7,6 @@ using TMPro;
 public class WelcomingUIPanel : SimpleUIPanelMobiles
 {
     [SerializeField]
-    private CanvasGroup panelCanvasGroup;
-    [SerializeField]
     private CanvasGroup continueTextGameObject;
 
     [SerializeField] 
@@ -21,7 +19,9 @@ public class WelcomingUIPanel : SimpleUIPanelMobiles
             this.gameObject.SetActive(true);
         }
 
-        panelCanvasGroup.DOFade(1, blinkDuration).SetEase(Ease.InOutSine);
+        panelsCanvasGroup.DOFade(1, blinkDuration).SetEase(Ease.InOutSine);
+
+        continueTextGameObject.alpha = 1;
 
        continueTextGameObject.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime)
            .SetLoops(-1,LoopType.Yoyo)
@@ -37,8 +37,8 @@ public class WelcomingUIPanel : SimpleUIPanelMobiles
     {
         continueTextGameObject.DOKill(false);
 
-        panelCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).
-           OnComplete(() => this.gameObject.SetActive(false));
-        
+        panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).SetUpdate(UpdateType.Normal).SetUpdate(true);
+        //   OnComplete(() => this.gameObject.SetActive(false));
+        continueTextGameObject.alpha = 0;
     }
 }
