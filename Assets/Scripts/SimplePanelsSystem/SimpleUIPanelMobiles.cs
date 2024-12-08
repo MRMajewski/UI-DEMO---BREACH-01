@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,11 +10,16 @@ public abstract class SimpleUIPanelMobiles : MonoBehaviour, ISimpleUIPanelMobile
     public List<IUISelectionElement> SelectionQueue => throw new System.NotImplementedException();
 
     public virtual void DisablePanel()
-    {     
+    {
+        panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).
+        OnComplete(() => this.gameObject.SetActive(false));
     }
 
     public virtual void EnablePanel()
-    {    
+    {
+        this.gameObject.SetActive(true);
+
+        panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
     }
 
 }

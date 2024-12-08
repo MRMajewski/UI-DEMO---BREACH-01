@@ -52,26 +52,29 @@ public class DiceRollerMiscPanel : DiceRollerBasePanel
     public override void RollDice()
     {
         int modifier = ParseInput(modifierInputField.text);
-
+        int diceRoll = 0;
         int totalRoll;
 
         switch (currentMode)
         {
             case DamageRollMode.Normal:
-                totalRoll = RollNormal(1);
+                diceRoll = RollNormal(1);
                 break;
             case DamageRollMode.Advantage:
-                totalRoll = RollAdvantage(1);
+                diceRoll = RollAdvantage(1);
                 break;
             case DamageRollMode.Disadvantage:
-                totalRoll = RollDisadvantage(1);
+                diceRoll = RollDisadvantage(1);
                 break;
             default:
                 resultText.text = "Nieznany tryb rzutu.";
                 return;
         }
-        totalRoll = totalRoll + modifier;
-        resultText.text = $"Wynik ({currentMode}): {totalRoll}";
+        totalRoll = diceRoll + modifier;
+
+
+        resultText.text = $"{diceRoll} + {modifier}  = {totalRoll}";
+      //  resultText.text = $" {totalRoll}";
     }
     protected override int RollNormal(int diceCount)
     {
@@ -96,6 +99,7 @@ public class DiceRollerMiscPanel : DiceRollerBasePanel
         {
             total += rolls[i];
         }
+        string details = $"{string.Join(", ", rolls)}";
         return total;
     }
 
@@ -112,6 +116,7 @@ public class DiceRollerMiscPanel : DiceRollerBasePanel
         {
             total += rolls[i];
         }
+        string details = $"{string.Join(", ", rolls)}";
         return total;
     }
 }

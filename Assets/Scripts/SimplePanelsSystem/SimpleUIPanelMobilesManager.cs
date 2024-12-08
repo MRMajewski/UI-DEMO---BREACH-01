@@ -8,11 +8,15 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
 {
     [SerializeField]
     private SimpleUIPanelMobiles firstPanel;
+    [SerializeField]
+    private SimpleUIPanelMobiles panelBeforeApplicationQuit;
 
     public static SimpleUIPanelMobilesManager Instance { get; private set; }
 
     [SerializeField]
     private SimpleUIPanelMobiles currentPanel;
+
+
     [SerializeField]
     private SimpleUIPanelMobiles previousPanel;
     public SimpleUIPanelMobiles CurrentPanel { get; }
@@ -45,7 +49,8 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
     {
         Welcome,
         Main,
-        Dice         
+        Dice,
+        Knowledge
     }
 
     private void Awake()
@@ -77,7 +82,19 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
     {
         isTransitioning = true;
         currentPanel = firstPanel;
-        currentPanel.EnablePanel();
+
+        foreach (var simplePanel in SimplePanels)
+        {
+            if (simplePanel.simplePanel == firstPanel)
+            {
+                simplePanel.simplePanel.EnablePanel();
+            }
+            else
+            {
+                simplePanel.simplePanel.DisablePanel();
+            }
+        }      
+    //    currentPanel.EnablePanel();
         isTransitioning = false;
 
     }
@@ -117,6 +134,7 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         isTransitioning = true;
         yield return new WaitForSecondsRealtime(transitionTime);
         currentPanel.EnablePanel();
+        yield return new WaitForSecondsRealtime(transitionTime*2f);
         isTransitioning = false;
     }
 
@@ -141,7 +159,8 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
 
     private void HandleBackButton()
     {
-        if (currentPanel == firstPanel)
+      
+        if (currentPanel == panelBeforeApplicationQuit)
         {
             Application.Quit();
             return;

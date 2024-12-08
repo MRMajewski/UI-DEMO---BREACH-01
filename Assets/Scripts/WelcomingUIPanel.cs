@@ -37,8 +37,8 @@ public class WelcomingUIPanel : SimpleUIPanelMobiles
     {
         continueTextGameObject.DOKill(false);
 
-        panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).SetUpdate(UpdateType.Normal).SetUpdate(true);
-        //   OnComplete(() => this.gameObject.SetActive(false));
+        panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).
+        OnComplete(() => this.gameObject.SetActive(false));
         continueTextGameObject.alpha = 0;
     }
 }
