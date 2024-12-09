@@ -9,25 +9,22 @@ using DG.Tweening;
 
 public class KnowledgePanel : SimpleUIPanelMobiles
 {
-    private bool refrehAnswers = true;
 
     [SerializeField]
     private KnowledgeBaseData knowledgeBaseData;
 
-    public List<KnowledgeNode> knowledgeBaseNodes = new List<KnowledgeNode>();
+    public List<KnowledgeNodeBase> knowledgeBaseNodes = new List<KnowledgeNodeBase>();
+
+    public List<KnowledgeSectionNode> knowledgeSectionNodes = new List<KnowledgeSectionNode>();
 
     [SerializeField]
     KnowledgeNode exampleKnowledgeNode;
 
     [SerializeField]
-    KnowledgeNode exampleKnowledgeSection;
+    KnowledgeSectionNode exampleKnowledgeSection;
 
     [SerializeField]
     Transform content;
-
-
-    //[SerializeField]
-    //private ScrollRectScroller scrollRectScroller;
 
     [Header("Expand All references")]
     [SerializeField]
@@ -43,26 +40,6 @@ public class KnowledgePanel : SimpleUIPanelMobiles
     [SerializeField]
     private Button ExpandAllButton;
 
-    //[SerializeField]
-    //private TabGroupCanvasKnowledge tabGroup;
-
-    //[TabGroup("Budowanie FAQ")]
-    //[Button("Build FAQ"), GUIColor(0, .5f, 0f)]
-
-    private void OnEnable()
-    {
-        if (refrehAnswers)
-        {
-            foreach (KnowledgeNode node in knowledgeBaseNodes)
-            {
-                if (!node.IsSectionName)
-                {
-                    //node.answerTranslate.Refresh();
-                }
-            }
-            refrehAnswers = false;
-        }
-    }
     public override void DisablePanel()
     {
         this.gameObject.SetActive(false);
@@ -73,11 +50,11 @@ public class KnowledgePanel : SimpleUIPanelMobiles
     public override void EnablePanel()
     {
         this.gameObject.SetActive(true);
-        BuildFAQ();
+        BuildKnowledgeBase();
         panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
     }
 
-    void BuildFAQ()
+    void BuildKnowledgeBase()
     {
         DestroyPreviousNodes();
 
@@ -85,71 +62,74 @@ public class KnowledgePanel : SimpleUIPanelMobiles
         exampleKnowledgeSection.gameObject.SetActive(true);
         foreach (KnowledgeBaseDataSection faqDataSection in knowledgeBaseData.KnowledgeDataSectionList)
         {
-            BuildFAQSection(faqDataSection);
+            BuildKnowledgeSection(faqDataSection);
         }
         exampleKnowledgeNode.gameObject.SetActive(false);
         exampleKnowledgeSection.gameObject.SetActive(false);
-     //   RefreshButtonNavigations();
-
-      //  changePanel.firstSelected = faqNodes[0].QuestionButton.gameObject;
     }
 
-    private void BuildFAQSection(KnowledgeBaseDataSection faqDataSection)
+    private void BuildKnowledgeSection(KnowledgeBaseDataSection knowledgeBaseDataSection)
     {
-        KnowledgeNode newFAQSectionHeader = Instantiate(exampleKnowledgeSection, content);
+        KnowledgeSectionNode newKnowledgeSectionHeader = Instantiate(exampleKnowledgeSection, content);
 
-        newFAQSectionHeader.TitleText.text = faqDataSection.knowledgeDataSectionName;
-        knowledgeBaseNodes.Add(newFAQSectionHeader);
+        newKnowledgeSectionHeader.TitleText.text = knowledgeBaseDataSection.knowledgeDataSectionName;
+        knowledgeBaseNodes.Add(newKnowledgeSectionHeader);
+        knowledgeSectionNodes.Add(newKnowledgeSectionHeader);
 
-        foreach (KnowledgeBaseDataNode faqDataNode in faqDataSection.KnowledgeBaseDataNodesList)
+        foreach (KnowledgeBaseDataNode knowledgeDataNode in knowledgeBaseDataSection.KnowledgeBaseDataNodesList)
         {
-            BuildFAQNode(faqDataNode);
+            BuildKnowledgeBaseNode(knowledgeDataNode, newKnowledgeSectionHeader.ContentPanel);       
         }
-    }
-    private void BuildFAQNode(KnowledgeBaseDataNode faqDataNode)
-    {
-        KnowledgeNode newFAQNode = Instantiate(exampleKnowledgeNode, content);
 
-        newFAQNode.TitleText.text = faqDataNode.titleText;
-        newFAQNode.ContentText.text = faqDataNode.contentInfoText;
-        knowledgeBaseNodes.Add(newFAQNode);
     }
+    private void BuildKnowledgeBaseNode(KnowledgeBaseDataNode knowledgeBaseDataNode, Transform sectionContent)
+    {
+        KnowledgeNode newKnowledgeNode = Instantiate(exampleKnowledgeNode, sectionContent);
+
+        newKnowledgeNode.TitleText.text = knowledgeBaseDataNode.titleText;
+        newKnowledgeNode.ContentText.text = knowledgeBaseDataNode.contentInfoText;
+        knowledgeBaseNodes.Add(newKnowledgeNode);
+    }
+
     private void DestroyPreviousNodes()
     {
-        foreach (var node in knowledgeBaseNodes)
+        foreach (var node in knowledgeSectionNodes)
         {
             DestroyImmediate(node.gameObject);
         }
         knowledgeBaseNodes.Clear();
+        knowledgeSectionNodes.Clear();
     }
 
     public void RefreshExpandAll()
     {
         areAllTabsExpanded = AreAllTabsExpandedCheck();
 
-        foreach (KnowledgeNode faqNode in knowledgeBaseNodes)
+        foreach (KnowledgeNodeBase knowledgeNode in knowledgeBaseNodes)
         {
-            if (faqNode.IsOpen == areAllTabsExpanded)
+            if (knowledgeNode.IsOpen == areAllTabsExpanded)
             {
                 continue;
             }
             else
             {
-                if (!faqNode.IsSectionName)
-                    faqNode.SelectionClick();
+                if(knowledgeNode.GetComponent<KnowledgeSectionNode>()!=null)
+                {
+                   knowledgeNode.SelectionClick();
+                }
+             
             }
         }
         areAllTabsExpanded = !areAllTabsExpanded;
         RefreshExpandAllIconAndText();
 
-      //  SetSelectedFirstFAQNode();
     }
 
     public bool AreAllTabsExpandedCheck()
     {
-        foreach (KnowledgeNode faqNode in knowledgeBaseNodes)
+        foreach (KnowledgeNodeBase knowledgeNode in knowledgeBaseNodes)
         {
-            if (!faqNode.IsOpen)
+            if (!knowledgeNode.IsOpen)
             {
                 continue;
             }
