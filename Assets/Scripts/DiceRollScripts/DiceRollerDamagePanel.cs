@@ -10,6 +10,7 @@ public class DiceRollerDamagePanel : DiceRollerBasePanel
     {
         modeDropdown.onValueChanged.AddListener(OnModeChanged);
         OnModeChanged(modeDropdown.value);
+        diceInputField.text = "1";
     }
     public override void RollDice()
     {

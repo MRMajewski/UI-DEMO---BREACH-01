@@ -5,13 +5,17 @@ using DG.Tweening;
 
 public class DiceRollerPanelManager : SimpleUIPanelMobiles
 {
-
     [SerializeField]
-    private List<CanvasGroup> diceRollerPanels; // Lista paneli, które maj¹ byæ zarz¹dzane
+    private List<CanvasGroup> diceRollerPanels; 
     public override void DisablePanel()
     {
         panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).
         OnComplete(() => this.gameObject.SetActive(false));
+    }
+
+    public override void InitializePanel()
+    {
+        ShowPanel(diceRollerPanels[0]);
     }
 
     public override void EnablePanel()
@@ -44,7 +48,6 @@ public class DiceRollerPanelManager : SimpleUIPanelMobiles
         buttonGameObject.transform.DOScale(1.15f,0.15f).SetEase(Ease.InOutBounce)
                         .OnComplete(() =>
                         {
-                            // Powrót do oryginalnego rozmiaru
                             buttonGameObject.transform.DOScale(1f, .15f).SetEase(Ease.InOutBounce);
                         });
     }
