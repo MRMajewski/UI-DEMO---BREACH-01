@@ -31,8 +31,8 @@ public class KnowledgeSectionNode : KnowledgeNodeBase
         base.SelectionClick();
         contentPanel.gameObject.SetActive(isOpen);
 
-        layoutGroup.enabled = false;
-        layoutGroup.enabled = true;
+        //layoutGroup.enabled = false;
+        //layoutGroup.enabled = true;
 
     }
 }

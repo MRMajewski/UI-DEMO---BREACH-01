@@ -4,7 +4,9 @@ using UnityEngine;
 
 public interface ISimpleUIPanelMobiles
 {
+    public void InitializePanel();
     public void EnablePanel();
     public void DisablePanel();
+   
     public  List<IUISelectionElement> SelectionQueue { get; }
 }

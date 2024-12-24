@@ -1,6 +1,7 @@
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public abstract class SimpleUIPanelMobiles : MonoBehaviour, ISimpleUIPanelMobiles
@@ -20,6 +21,10 @@ public abstract class SimpleUIPanelMobiles : MonoBehaviour, ISimpleUIPanelMobile
         this.gameObject.SetActive(true);
 
         panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
+    }
+    public virtual void InitializePanel()
+    {
+
     }
 
 }

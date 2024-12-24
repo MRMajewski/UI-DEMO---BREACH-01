@@ -28,6 +28,12 @@ public class ButtonsGeneralReactionsManager :  MonoBehaviour
     [SerializeField]
     private float tweenTime = 0.2f;
 
+    [SerializeField]
+    private Ease easeTypeScale;
+
+    [SerializeField]
+    private Ease easeTypeColor;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -55,7 +61,7 @@ public class ButtonsGeneralReactionsManager :  MonoBehaviour
     }
     public void ScaleUp(Transform buttonTransform)
     {
-        buttonTransform.DOScale(bigSize, tweenTime).SetEase(Ease.OutBounce);
+        buttonTransform.DOScale(bigSize, tweenTime).SetEase(easeTypeScale);
     }
     public void HighlightColor(Transform buttonTransform)
     {
@@ -83,7 +89,7 @@ public class ButtonsGeneralReactionsManager :  MonoBehaviour
 
     public void ScaleDown(Transform buttonTransform)
     {
-        buttonTransform.DOScale(normalSize, tweenTime).SetEase(Ease.InBounce);
+        buttonTransform.DOScale(normalSize, tweenTime).SetEase(easeTypeScale);
     }
 
     public void NormalColor(Transform buttonTransform)

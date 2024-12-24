@@ -9,9 +9,12 @@ public class MainUIPanel : SimpleUIPanelMobiles
     [SerializeField]
     private List<Button> categoryButtons;
 
+    [SerializeField]
+    private Ease easeType;
+
     public override void DisablePanel()
     {
-        panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).
+        panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(easeType).
         OnComplete(() => this.gameObject.SetActive(false));
     }
 
@@ -19,7 +22,7 @@ public class MainUIPanel : SimpleUIPanelMobiles
     {
        this.gameObject.SetActive(true);
 
-        panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
+        panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(easeType);
     }
 
 }

@@ -36,21 +36,22 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
 
     [SerializeField]
     private float transitionTime = 0.5f;
-    public float TransitionTime { get=>transitionTime; }
+    public float TransitionTime { get => transitionTime; }
 
     [SerializeField]
     private bool isTransitioning = false;
 
     [Header("Transition Elements")]
-    [SerializeField] private RectTransform leftCurtain;  
-    [SerializeField] private RectTransform rightCurtain; 
+    [SerializeField] private RectTransform leftCurtain;
+    [SerializeField] private RectTransform rightCurtain;
 
     public enum SimplePanelNames
     {
         Welcome,
         Main,
         Dice,
-        Knowledge
+        Knowledge,
+        Armory
     }
 
     private void Awake()
@@ -85,6 +86,8 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
 
         foreach (var simplePanel in SimplePanels)
         {
+            simplePanel.simplePanel.InitializePanel();
+
             if (simplePanel.simplePanel == firstPanel)
             {
                 simplePanel.simplePanel.EnablePanel();
@@ -93,11 +96,10 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
             {
                 simplePanel.simplePanel.DisablePanel();
             }
-        }      
-    //    currentPanel.EnablePanel();
+        }
         isTransitioning = false;
-
     }
+
     public void SwitchPanel(SimpleUIPanelMobiles newPanel)
     {
         if (isTransitioning) return;
@@ -109,7 +111,6 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
             previousPanel = currentPanel;
             previousPanel.DisablePanel();
         }
-
         currentPanel = newPanel;
         StartCoroutine(EnablePanelAfterDelay());
     }
@@ -118,10 +119,9 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
     {
         Enum.TryParse(name, out SimplePanelNames result);
 
-
-        foreach (var panel in  SimplePanels)
+        foreach (var panel in SimplePanels)
         {
-            if(panel.panelName== result)
+            if (panel.panelName == result)
             {
                 SwitchPanel(panel.simplePanel);
                 break;
@@ -134,7 +134,7 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         isTransitioning = true;
         yield return new WaitForSecondsRealtime(transitionTime);
         currentPanel.EnablePanel();
-        yield return new WaitForSecondsRealtime(transitionTime*2f);
+        yield return new WaitForSecondsRealtime(transitionTime * 2f);
         isTransitioning = false;
     }
 
@@ -154,12 +154,10 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
             .Append(leftCurtain.DOScaleX(0, transitionTime).SetEase(Ease.InOutQuad))
             .Join(rightCurtain.DOScaleX(0, transitionTime).SetEase(Ease.InOutQuad));
 
-          //  .OnComplete(() => Debug.Log("Animacja kurtyn zakoñczona!"));
     }
 
     private void HandleBackButton()
     {
-      
         if (currentPanel == panelBeforeApplicationQuit)
         {
             Application.Quit();

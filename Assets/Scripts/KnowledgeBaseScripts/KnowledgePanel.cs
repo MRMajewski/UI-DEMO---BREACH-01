@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
-using static Unity.VisualScripting.Icons;
 using UnityEngine.UI;
 using DG.Tweening;
 
@@ -40,6 +39,12 @@ public class KnowledgePanel : SimpleUIPanelMobiles
     [SerializeField]
     private Button ExpandAllButton;
 
+
+    public override void InitializePanel()
+    {
+        BuildKnowledgeBase();
+    }
+
     public override void DisablePanel()
     {
         this.gameObject.SetActive(false);
@@ -50,7 +55,7 @@ public class KnowledgePanel : SimpleUIPanelMobiles
     public override void EnablePanel()
     {
         this.gameObject.SetActive(true);
-        BuildKnowledgeBase();
+     //   BuildKnowledgeBase();
         panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
     }
 
