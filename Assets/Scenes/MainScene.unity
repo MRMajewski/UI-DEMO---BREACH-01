@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 1
+  m_HorizontalFit: 2
   m_VerticalFit: 0
 --- !u!1 &53832539
 GameObject:
@@ -6573,6 +6573,8 @@ MonoBehaviour:
   selectedCategoryColor: {r: 0, g: 0, b: 0, a: 0}
   defaultCategoryColor: {r: 0, g: 0, b: 0, a: 0}
   dynamicGridLayout: {fileID: 0}
+  filterContainerRectTransform: {fileID: 0}
+  isJustified: 0
 --- !u!114 &632890631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15299,9 +15301,7 @@ GameObject:
   - component: {fileID: 1498731916}
   - component: {fileID: 1498731915}
   - component: {fileID: 1498731917}
-  - component: {fileID: 1498731918}
   - component: {fileID: 1498731921}
-  - component: {fileID: 1498731920}
   - component: {fileID: 1498731919}
   m_Layer: 5
   m_Name: FiltersPanel
@@ -15388,30 +15388,8 @@ MonoBehaviour:
   selectedCategoryColor: {r: 1, g: 1, b: 1, a: 1}
   defaultCategoryColor: {r: 0.87058824, g: 0.87058824, b: 0.87058824, a: 0.78431374}
   dynamicGridLayout: {fileID: 1498731921}
---- !u!114 &1498731918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498731913}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_StartCorner: 0
-  m_StartAxis: 0
-  m_CellSize: {x: 150, y: 50}
-  m_Spacing: {x: 14, y: 5}
-  m_Constraint: 0
-  m_ConstraintCount: 2
+  filterContainerRectTransform: {fileID: 1498731914}
+  isJustified: 1
 --- !u!114 &1498731919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15424,28 +15402,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HorizontalFit: 1
+  m_HorizontalFit: 2
   m_VerticalFit: 2
---- !u!114 &1498731920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498731913}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: 170
-  m_PreferredWidth: -1
-  m_PreferredHeight: 0
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: 2
-  m_LayoutPriority: 1
 --- !u!114 &1498731921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15458,9 +15416,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82cd2223b0cf5034d92483601b810c85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spacing: 20
+  spacing: 10
   rowHeight: 50
-  padding: 100
+  padding: 60
   parentRect: {fileID: 1498731914}
   rowMaxWIdth: 10
 --- !u!1 &1502591910

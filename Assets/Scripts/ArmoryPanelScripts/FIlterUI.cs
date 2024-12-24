@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class FilterUI : MonoBehaviour
 {
     [Header("Filter Buttons")]
-    public Transform filterButtonContainer; // Kontener na przyciski kategorii
-    public GameObject filterButtonPrefab;  // Prefab przycisku kategorii
+    public Transform filterButtonContainer;
+    public GameObject filterButtonPrefab; 
 
     private HashSet<ItemCategory> selectedCategories = new HashSet<ItemCategory>();
     [SerializeField]
@@ -28,6 +28,8 @@ public class FilterUI : MonoBehaviour
     [SerializeField]
     private DynamicGridLayout dynamicGridLayout;
 
+    [SerializeField]
+    private RectTransform filterContainerRectTransform;
 
     public void CreateCategoryButtons()
     {
@@ -43,7 +45,6 @@ public class FilterUI : MonoBehaviour
         }
         allCategoriesButtons.Clear();
         allCategoriesButtons.TrimExcess();
-
 
         foreach (var category in allCategories)
         {
@@ -62,17 +63,25 @@ public class FilterUI : MonoBehaviour
             button.onClick.AddListener(() => ToggleCategory(category, button));
         }
         filterButtonPrefab.SetActive(false);
-
-
-      //  LayoutRebuilder.ForceRebuildLayoutImmediate(filterButtonContainer.GetComponent<RectTransform>());
-      //  dynamicGridLayout.UpdateLayout();
     }
 
     public void UpdateFiltersLayout()
     {
-        LayoutRebuilder.ForceRebuildLayoutImmediate(filterButtonContainer.GetComponent<RectTransform>());
+        UpdateFiltersContentElements();
+
         dynamicGridLayout.UpdateLayout();
-        LayoutRebuilder.ForceRebuildLayoutImmediate(filterButtonContainer.GetComponent<RectTransform>());
+    }
+    public void UpdateFiltersContentElements()
+    {        
+        foreach (Transform child in filterButtonContainer)
+        {
+            RectTransform childRect = child as RectTransform;
+            if (childRect != null)
+            {
+                LayoutRebuilder.ForceRebuildLayoutImmediate(childRect);
+            }
+        }
+        LayoutRebuilder.ForceRebuildLayoutImmediate(filterContainerRectTransform);
     }
 
     private void ToggleCategory(ItemCategory category, Button button)
@@ -87,7 +96,6 @@ public class FilterUI : MonoBehaviour
            selectedCategories.Add(category);
             SetButtonState(button, true); 
         }
-
         itemPanel.OnCategorySelected(new List<ItemCategory>(selectedCategories));
     }
 
