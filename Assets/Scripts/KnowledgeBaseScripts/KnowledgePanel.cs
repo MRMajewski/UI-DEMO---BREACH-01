@@ -8,7 +8,6 @@ using DG.Tweening;
 
 public class KnowledgePanel : SimpleUIPanelMobiles
 {
-
     [SerializeField]
     private KnowledgeBaseData knowledgeBaseData;
 
@@ -39,7 +38,6 @@ public class KnowledgePanel : SimpleUIPanelMobiles
     [SerializeField]
     private Button ExpandAllButton;
 
-
     public override void InitializePanel()
     {
         BuildKnowledgeBase();
@@ -48,14 +46,11 @@ public class KnowledgePanel : SimpleUIPanelMobiles
     public override void DisablePanel()
     {
         this.gameObject.SetActive(false);
-        //   panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).
-        //  OnComplete(() => this.gameObject.SetActive(false));
     }
 
     public override void EnablePanel()
     {
         this.gameObject.SetActive(true);
-     //   BuildKnowledgeBase();
         panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
     }
 
@@ -161,65 +156,6 @@ public class KnowledgePanel : SimpleUIPanelMobiles
         ExpandAllText.text = ExpandAllText.text.ToUpper();
     }
 
-
-
-
-
-
-
-
-    //public void RefreshButtonNavigations(Selectable selectableAboveFirstNode = null)
-    //{
-    //    List<FAQNode> activeNodes = faqNodes.Where(x => x.gameObject.activeSelf && !x.IsSectionName).ToList();
-
-    //    switch (activeNodes.Count)
-    //    {
-    //        case 1:
-    //            selectableAboveFirstNode.SetNavigationDown(activeNodes[0].QuestionButton);
-    //            ExpandAllButton.SetNavigationDown(activeNodes[0].QuestionButton);
-    //            activeNodes[0].QuestionButton.SetNavigationUp(selectableAboveFirstNode);
-    //            break;
-    //        case 2:
-    //            activeNodes[0].QuestionButton.SetNavigationDown(activeNodes[1].QuestionButton);
-
-    //            activeNodes[activeNodes.Count - 1].QuestionButton.SetNavigationDown(null);
-    //            activeNodes[activeNodes.Count - 1].QuestionButton.SetNavigationUp(activeNodes[activeNodes.Count - 2].QuestionButton);
-    //            goto case 1;
-    //        case >= 3:
-    //            for (int i = 1; i < activeNodes.Count - 1; i++)
-    //            {
-    //                activeNodes[i].QuestionButton.SetNavigationDown(activeNodes[i + 1].QuestionButton);
-    //                activeNodes[i].QuestionButton.SetNavigationUp(activeNodes[i - 1].QuestionButton);
-    //            }
-    //            goto case 2;
-    //        default:
-    //            return;
-    //    }
-    //}
-
-    //private void SetSelectedFirstFAQNode()
-    //{
-    //    Touchscreen.Instance.eventSystem.SetSelectedGameObject(GetFirstActiveObject());
-
-    //}
-    //public virtual GameObject GetFirstActiveObject()
-    //{
-    //    GameObject gameObject = null;
-    //    int i = 0;
-
-    //    int activeChildrenCount = content.GetComponentsInChildren<FAQNode>().GetLength(0);
-
-    //    while (i < activeChildrenCount)
-    //    {
-    //        if (content.transform.GetChild(i).gameObject.activeSelf)
-    //        {
-    //            gameObject = content.transform.GetChild(i).GetComponent<FAQNode>().QuestionButton.gameObject;
-    //            return gameObject;
-    //        }
-    //        i++;
-    //    }
-    //    return gameObject;
-    //}
     public void OnSelectionExpandAllCheck()
     {
         areAllTabsExpanded = AreAllTabsExpandedCheck();

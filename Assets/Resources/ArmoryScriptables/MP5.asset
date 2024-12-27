@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05b7059f1707af84cbc04659ff8b3aac, type: 3}
-  m_Name: Pistol
+  m_Name: MP5
   m_EditorClassIdentifier: 
-  itemName: Pistol
-  icon: {fileID: 21300000, guid: b398547bc6b5b6f41a761b6fbc476d89, type: 3}
+  itemName: MP5
+  icon: {fileID: 21300000, guid: 3679d2ad00cf5d34b98cea18fb4385df, type: 3}
   description: 
-  categories: 000000000300000008000000
+  categories: 00000000030000000900000006000000

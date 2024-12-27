@@ -7,13 +7,12 @@ using UnityEngine.UI;
 
 public class ArmoryPanel : SimpleUIPanelMobiles
 {
-    public Transform itemListContainer; // Kontener dla elementów UI
- //   public GameObject itemUIPrefab;     // Prefab dla
-    public ItemElementUI itemUIPrefab;     // Prefab dla przedmiotów
-    public ItemDatabase itemDatabase;  // Referencja do bazy danych przedmiotów
+    public Transform itemListContainer;
+    public ItemElementUI itemUIPrefab; 
+    public ItemDatabase itemDatabase; 
 
-    private List<ItemCategory> selectedCategories = new List<ItemCategory>(); // Wybrane kategorie
-    private string currentSearchText = ""; // Tekst wyszukiwania
+    private List<ItemCategory> selectedCategories = new List<ItemCategory>(); 
+    private string currentSearchText = ""; 
 
     [SerializeField]
     private FilterUI filterUI;
@@ -31,18 +30,8 @@ public class ArmoryPanel : SimpleUIPanelMobiles
   
     public override void InitializePanel()
     {
-        if (itemDatabase == null)
-        {
-            Debug.LogError("ItemDatabase is not assigned!");
-            return;
-        }
-
-        // Wczytanie przedmiotów z bazy danych
-        RefreshUI(itemDatabase.AllItems);
-
         filterUI.CreateCategoryButtons();
-
-        FilterAndRefreshUI();
+        RefreshUI(itemDatabase.AllItems);
 
         currentItems[0].button.onClick.Invoke();
     }
@@ -55,11 +44,8 @@ public class ArmoryPanel : SimpleUIPanelMobiles
     {
         this.gameObject.SetActive(true);
 
-        //filterUI.CreateCategoryButtons();
-        //InitArmoryDatabase();
         panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
 
-     //   filterUI.UpdateFiltersLayout();
         StartCoroutine(UpdateFiltersLayoutCoroutine());
     }
 
@@ -70,32 +56,23 @@ public class ArmoryPanel : SimpleUIPanelMobiles
         filterUI.UpdateFiltersLayout();
     }
 
-
-    // Wywo³ywane, gdy zmienia siê pole wyszukiwania
     public void OnSearchInputChanged(string searchText)
     {
         currentSearchText = searchText;
         FilterAndRefreshUI();
     }
 
-    // Wywo³ywane, gdy zmieniaj¹ siê wybrane kategorie
     public void OnCategorySelected(List<ItemCategory> newSelectedCategories)
     {
         selectedCategories = newSelectedCategories;
         FilterAndRefreshUI();
     }
 
-    // Filtruje i odœwie¿a UI
     private void FilterAndRefreshUI()
     {
-      //  selectedCategories.Clear();
-      //  selectedCategories.TrimExcess();
-
         var filteredItems = itemDatabase.AllItems.Where(item =>
-            // Filtruj na podstawie wyszukiwania
             (string.IsNullOrEmpty(currentSearchText) ||
              item.itemName.ToLower().Contains(currentSearchText.ToLower())) &&
-            // Filtruj na podstawie kategorii
             (selectedCategories.Count == 0 ||
              item.categories.Any(category => selectedCategories.Contains(category)))
         ).ToList();
@@ -103,11 +80,10 @@ public class ArmoryPanel : SimpleUIPanelMobiles
         RefreshUI(filteredItems);
     }
 
-    // Aktualizuje UI na podstawie listy przedmiotów
     private void RefreshUI(List<ItemData> items)
     {
         itemUIPrefab.gameObject.SetActive(true);
-        // Czyœci obecne elementy UI
+
         foreach (ItemElementUI itemElement in currentItems)
         {
             Destroy(itemElement.gameObject);
@@ -115,21 +91,17 @@ public class ArmoryPanel : SimpleUIPanelMobiles
         currentItems.Clear();
         currentItems.TrimExcess();
 
-        // Tworzy nowe elementy UI
         foreach (var item in items)
         {
             CreateItemUI(item);
         }
         itemUIPrefab.gameObject.SetActive(false);
 
-
         LayoutRebuilder.ForceRebuildLayoutImmediate(filterUIRectTransform.GetComponent<RectTransform>());
-
   
         AdjustScrollRect();
     }
 
-    // Tworzy UI dla pojedynczego przedmiotu
     private void CreateItemUI(ItemData itemData)
     {
         ItemElementUI newItemUI = Instantiate(itemUIPrefab, itemListContainer);

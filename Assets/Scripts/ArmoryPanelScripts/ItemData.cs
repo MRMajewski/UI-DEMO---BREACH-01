@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewItemData", menuName = "Items/ItemData")]
@@ -10,11 +11,4 @@ public class ItemData : ScriptableObject
 
     [Tooltip("Categories this item belongs to")]
     public ItemCategory[] categories;
-}
-
-[CreateAssetMenu(fileName = "ItemDatabase", menuName = "Items/ItemDatabase")]
-public class ItemDatabase : ScriptableObject
-{
-    [Tooltip("List of all items available in the game.")]
-    public List<ItemData> AllItems = new List<ItemData>();
 }
