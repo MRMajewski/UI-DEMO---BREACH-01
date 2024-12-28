@@ -13,9 +13,13 @@ MonoBehaviour:
   m_Name: SoldierClassData
   m_EditorClassIdentifier: 
   itemName: SOLDIER
-  description: "Z\xF3\u0142dak"
-  subclassesDescription: "Komandos <br> Szturmowiec <br> Ci\u0119\u017Cka artyleria"
+  description: "-Zwi\u0119kszona wytrzyma\u0142o\u015B\u0107 i refleks. Doskonale
+    przeszkolony w korzystaniu  g\u0142\xF3wnie z broni palnej, bo czemu by nie :D
+    Taki kapitan Bomba!"
+  subclassesDescription: " Komandos <br> Szturmowiec <br> Ci\u0119\u017Cka artyleria"
+  classIcon: {fileID: 21300000, guid: 0823326af7dbe614b8d9ece0fca433f6, type: 3}
   skills:
   - Drugi oddech
   - "Podw\xF3jna akcja"
-  - Treing
+  - Trening
+  - Styl Walki

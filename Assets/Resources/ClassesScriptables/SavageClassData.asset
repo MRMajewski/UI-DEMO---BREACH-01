@@ -13,8 +13,12 @@ MonoBehaviour:
   m_Name: SavageClassData
   m_EditorClassIdentifier: 
   itemName: SAVAGE
-  description: Mistrz wpiedolu
-  subclassesDescription: "\u0141owca <br> Juggernaut <br>"
+  description: "-Zwi\u0119kszona si\u0142a i wytrzyma\u0142o\u015B\u0107. Uderza
+    mocno i konkretnie. Lubi walk\u0119 bezpo\u015Bredni\u0105 i brutaln\u0105 z
+    u\u017Cyciem du\u017Cych niebezpiecznych narz\u0119dzi np. rakietowych m\u0142ot\xF3w,
+    albo plazmowych topor\xF3w.  "
+  subclassesDescription: " \u0141owca <br> Juggernaut <br> Wojownik"
+  classIcon: {fileID: 21300000, guid: 3c6ff6ba6df54894a819b59c9cd106ce, type: 3}
   skills:
   - "Sza\u0142"
   - Napierdalanie

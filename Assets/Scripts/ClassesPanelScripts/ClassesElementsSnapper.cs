@@ -2,20 +2,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using System;
 
 public class ClassesElementsSnapper : MonoBehaviour
 {
     public List<RectTransform> panels; // Referencje do paneli
     public RectTransform content;  // Kontener na panele
-    public ScrollRect scrollRect; // Referencja do ScrollRect dla scrollowania w pionie
+  //  public ScrollRect scrollRect; // Referencja do ScrollRect dla scrollowania w pionie
 
     private int currentPanelIndex = 0; // Aktualnie wyœwietlany panel
     private bool isHorizontalSwipe = false; // Flaga okreœlaj¹ca, czy gest to przesuniêcie poziome
 
     private Vector2 touchStartPosition;
 
-    private const float swipeThreshold = 50f; 
+    private const float swipeThreshold = 50f;
 
+    public event Action<int> OnPanelChanged; // Zdarzenie zmiany panelu
     private void Update()
     {
         if (Input.touchCount > 0)
@@ -91,6 +93,8 @@ public class ClassesElementsSnapper : MonoBehaviour
             }
 
             SnapToPanel(currentPanelIndex);
+
+            OnPanelChanged.Invoke(currentPanelIndex);
         }
     }
 

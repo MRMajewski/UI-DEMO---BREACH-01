@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: OfficerClassData
   m_EditorClassIdentifier: 
   itemName: OFFICER
-  description: "Dow\xF3dca oddzia\u0142u"
-  subclassesDescription: "Sier\u017Cant <br> Lider <br> As"
+  description: "Officer to posta\u0107 o zwi\u0119kszonej charyzmie i bystro\u015Bci
+    umys\u0142u, kt\xF3rej g\u0142\xF3wnym zadaniem jest koordynowanie zespo\u0142u.
+    Dzi\u0119ki swoim zdolno\u015Bciom dow\xF3dczym potrafi inspirowa\u0107 towarzyszy,
+    daj\u0105c im buffy i inspiracj\u0119, co pozwala im wykonywa\u0107 swoje zadania
+    z maksymaln\u0105 precyzj\u0105. "
+  subclassesDescription: " Sier\u017Cant <br> Lider <br> As"
+  classIcon: {fileID: 21300000, guid: a87fb805c6e59ef449297a67e1dae86b, type: 3}
   skills:
   - Inspiracja
   - "Dow\xF3dztwo"

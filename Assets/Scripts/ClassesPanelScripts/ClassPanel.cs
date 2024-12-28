@@ -19,6 +19,9 @@ public class ClassPanel : SimpleUIPanelMobiles
     [SerializeField]
     private ClassesElementsSnapper snapper;
 
+    [SerializeField]
+    private MiniatureClassIconsChanger classIconChanger;
+
     /// <summary>
     /// Tworzy i inicjalizuje obiekty typu ClassDataElementUI na podstawie danych ClassesData.
     /// </summary>
@@ -52,17 +55,26 @@ public class ClassPanel : SimpleUIPanelMobiles
         classDataElementPrefab.gameObject.SetActive(false);
 
         snapper.InitPanels(classesDataElementsUIList);
+        classIconChanger.CreateClassIcons(ClassesDataBase);
+
+      //  snapper.OnPanelChanged += classIconChanger.SetAlphaForIndex;
     }
 
 
     public override void InitializePanel()
     {
         InitializeClasses();
+        snapper.OnPanelChanged += classIconChanger.SetAlphaForIndex;
     }
 
     public override void DisablePanel()
     {
         this.gameObject.SetActive(false);
+     //   snapper.OnPanelChanged -= classIconChanger.SetAlphaForIndex;
+    }
+    public void OnDestroy()
+    {
+        snapper.OnPanelChanged -= classIconChanger.SetAlphaForIndex;
     }
 
 }

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1c3593874969348be5b7b6f2f0a687, type: 3}
+  m_Name: SensorClassData
+  m_EditorClassIdentifier: 
+  itemName: SENSOR
+  description: "Sensorzy to mistrzowie percepcji, wyczuleni na subtelne zmiany w
+    otoczeniu. Dzi\u0119ki swoim zaawansowanym zmys\u0142om potrafi\u0105 dostrzega\u0107
+    rzeczy, kt\xF3re umykaj\u0105 zwyk\u0142ym ludziom, a ich zdolno\u015Bci pozwalaj\u0105
+    na wykrywanie, leczenie, przewidywanie przysz\u0142o\u015Bci i manipulowanie
+    energi\u0105 w r\xF3\u017Cnorodny spos\xF3b. "
+  subclassesDescription: ' Biomancer <br> Echo Adept <br> Clairvoyant'
+  classIcon: {fileID: 21300000, guid: a4faa8cf5c945534fbe0e27de6d8a723, type: 3}
+  skills: []
