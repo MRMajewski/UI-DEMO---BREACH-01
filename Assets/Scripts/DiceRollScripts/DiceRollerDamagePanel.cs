@@ -10,20 +10,21 @@ public class DiceRollerDamagePanel : DiceRollerBasePanel
     {
         modeDropdown.onValueChanged.AddListener(OnModeChanged);
         OnModeChanged(modeDropdown.value);
-        diceInputField.text = "1";
+        diceInputField.text =diceAmount.ToString();
+        GetDiceRange();
     }
     public override void RollDice()
     {
-        int diceCount = ParseInput(diceInputField.text);
+        diceAmount = ParseInput(diceInputField.text);
 
-        if(diceCount>10)
+        if(diceAmount>10)
         {
-            diceCount = 10;
-            diceInputField.text=diceCount.ToString();
+            diceAmount = 10;
+            diceInputField.text=diceAmount.ToString();
         }
         int modifier = ParseInput(modifierInputField.text);
 
-        if (diceCount <= 0)
+        if (diceAmount <= 0)
         {
             resultText.text = "WprowadŸ poprawn¹ liczbê koœci.";
             return;
@@ -35,13 +36,13 @@ public class DiceRollerDamagePanel : DiceRollerBasePanel
         switch (currentMode)
         {
             case DamageRollMode.Normal:
-                (totalRoll, rollDetails) = RollNormalDetails(diceCount);
+                (totalRoll, rollDetails) = RollNormalDetails(diceAmount);
                 break;
             case DamageRollMode.Advantage:
-                (totalRoll, rollDetails) = RollAdvantageDetails(diceCount);
+                (totalRoll, rollDetails) = RollAdvantageDetails(diceAmount);
                 break;
             case DamageRollMode.Disadvantage:
-                (totalRoll, rollDetails) = RollDisadvantageDetails(diceCount);
+                (totalRoll, rollDetails) = RollDisadvantageDetails(diceAmount);
                 break;
             default:
                 resultText.text = "Nieznany tryb rzutu.";
@@ -54,61 +55,82 @@ public class DiceRollerDamagePanel : DiceRollerBasePanel
         resultText.text = $"{totalRoll} \n (Rzuty: {rollDetails}) + {modifier}";
     }
 
-    protected (int total, string details) RollNormalDetails(int diceCount)
+    public void IncreaseDiceAmount()
     {
-        int total = 0;
-        List<int> rolls = new List<int>();
-        for (int i = 0; i < diceCount; i++)
+        diceAmount = diceAmount + 1;
+        if (diceAmount > 10)
         {
-            int roll = Random.Range(1, 7);
-            rolls.Add(roll);
-            total += roll;
+            diceAmount = 10;
+         
         }
-
-        string details = string.Join(", ", rolls);
-        return (total, details);
+        diceInputField.text = diceAmount.ToString();
     }
-    protected  (int total, string details) RollAdvantageDetails(int diceCount)
+    public void DecreaseDiceAmount()
     {
-        List<int> rolls = new List<int>();
-        for (int i = 0; i < diceCount * 2; i++)
+        diceAmount = diceAmount - 1;
+        if (diceAmount < 1)
         {
-            rolls.Add(Random.Range(1, 7));
+            diceAmount = 1;
+          
         }
-        rolls.Sort((a, b) => b.CompareTo(a)); // Sortowanie malej¹ce
-
-        int total = 0;
-        List<int> selectedRolls = rolls.GetRange(0, diceCount); // Najwiêksze wartoœci
-        foreach (int roll in selectedRolls)
-        {
-            total += roll;
-        }
-
-    //    string details = $"Wszystkie: [{string.Join(", ", rolls)}], Wybrane: [{string.Join(", ", selectedRolls)}]";
-        string details = $"{string.Join(", ", rolls)}";
-        return (total, details);
+        diceInputField.text = diceAmount.ToString();
     }
 
-    protected (int total, string details) RollDisadvantageDetails(int diceCount)
-    {
-        List<int> rolls = new List<int>();
-        for (int i = 0; i < diceCount * 2; i++)
-        {
-            rolls.Add(Random.Range(1, 7));
-        }
-        rolls.Sort(); // Sortowanie rosn¹ce
+    //protected (int total, string details) RollNormalDetails(int diceCount)
+    //{
+    //    int total = 0;
+    //    List<int> rolls = new List<int>();
+    //    for (int i = 0; i < diceCount; i++)
+    //    {
+    //        int roll = Random.Range(1, 7);
+    //        rolls.Add(roll);
+    //        total += roll;
+    //    }
 
-        int total = 0;
-        List<int> selectedRolls = rolls.GetRange(0, diceCount); // Najmniejsze wartoœci
-        foreach (int roll in selectedRolls)
-        {
-            total += roll;
-        }
+    //    string details = string.Join(", ", rolls);
+    //    return (total, details);
+    //}
+    //protected  (int total, string details) RollAdvantageDetails(int diceCount)
+    //{
+    //    List<int> rolls = new List<int>();
+    //    for (int i = 0; i < diceCount * 2; i++)
+    //    {
+    //        rolls.Add(Random.Range(1, 7));
+    //    }
+    //    rolls.Sort((a, b) => b.CompareTo(a)); // Sortowanie malej¹ce
 
-      //  string details = $"Wszystkie: [{string.Join(", ", rolls)}], Wybrane: [{string.Join(", ", selectedRolls)}]";
-        string details = $"{string.Join(", ", rolls)}";
-        return (total, details);
-    }
+    //    int total = 0;
+    //    List<int> selectedRolls = rolls.GetRange(0, diceCount); // Najwiêksze wartoœci
+    //    foreach (int roll in selectedRolls)
+    //    {
+    //        total += roll;
+    //    }
+
+    ////    string details = $"Wszystkie: [{string.Join(", ", rolls)}], Wybrane: [{string.Join(", ", selectedRolls)}]";
+    //    string details = $"{string.Join(", ", rolls)}";
+    //    return (total, details);
+    //}
+
+    //protected (int total, string details) RollDisadvantageDetails(int diceCount)
+    //{
+    //    List<int> rolls = new List<int>();
+    //    for (int i = 0; i < diceCount * 2; i++)
+    //    {
+    //        rolls.Add(Random.Range(1, 7));
+    //    }
+    //    rolls.Sort(); // Sortowanie rosn¹ce
+
+    //    int total = 0;
+    //    List<int> selectedRolls = rolls.GetRange(0, diceCount); // Najmniejsze wartoœci
+    //    foreach (int roll in selectedRolls)
+    //    {
+    //        total += roll;
+    //    }
+
+    //  //  string details = $"Wszystkie: [{string.Join(", ", rolls)}], Wybrane: [{string.Join(", ", selectedRolls)}]";
+    //    string details = $"{string.Join(", ", rolls)}";
+    //    return (total, details);
+    //}
     //public override void RollDice()
     //{
     //    int diceCount = ParseInput(diceInputField.text);
