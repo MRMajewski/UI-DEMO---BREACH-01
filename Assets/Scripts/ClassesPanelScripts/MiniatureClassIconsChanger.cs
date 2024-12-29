@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class MiniatureClassIconsChanger : MonoBehaviour
 {
     [SerializeField]
-    private Image classIconExample;
+    private Button classIconExample;
 
     [SerializeField]
     private Transform iconsParent;
@@ -14,16 +14,36 @@ public class MiniatureClassIconsChanger : MonoBehaviour
     [SerializeField]
     private List<Image> classIconList;
 
-    public void CreateClassIcons(ClassesDataBase classdata)
+    //public void CreateClassIcons(ClassesDataBase classdata)
+    //{
+    //    classIconList.Clear();
+    //    classIconList.TrimExcess();
+
+    //    foreach (ClassData data in classdata.AllClasses)
+    //    {
+    //        Button newIcon = Instantiate(classIconExample, iconsParent);
+    //        newIcon.GetComponent<Image>().sprite = data.classIcon;
+    //        classIconList.Add(newIcon.GetComponent<Image>());
+    //    }
+    //    classIconExample.gameObject.SetActive(false);
+    //}
+
+    public void CreateClassIcons(ClassesDataBase classdata, ClassesElementsSnapper snapper)
     {
         classIconList.Clear();
         classIconList.TrimExcess();
 
         foreach (ClassData data in classdata.AllClasses)
         {
-            Image newIcon = Instantiate(classIconExample, iconsParent);
-            newIcon.sprite = data.classIcon;
-            classIconList.Add(newIcon);
+            Button newIcon = Instantiate(classIconExample, iconsParent).GetComponent<Button>();
+            Image iconImage = newIcon.GetComponent<Image>();
+            iconImage.sprite = data.classIcon;
+
+            int index = classIconList.Count; // Zapisujemy bie¿¹cy indeks
+            newIcon.onClick.AddListener(() => snapper.SnapToPanelFromButton(index));
+          //  newIcon.onClick.AddListener(() => SetAlphaForIndex(index));
+
+            classIconList.Add(iconImage);
         }
         classIconExample.gameObject.SetActive(false);
     }
@@ -43,5 +63,4 @@ public class MiniatureClassIconsChanger : MonoBehaviour
             classIconList[i].color = color;
         }
     }
-
 }

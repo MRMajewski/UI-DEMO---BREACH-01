@@ -170,4 +170,10 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
             SwitchPanel(previousPanel);
         }
     }
+
+    public void ReturnToPreviousPanel()
+    {
+        if (!isTransitioning)
+            HandleBackButton();
+    }
 }

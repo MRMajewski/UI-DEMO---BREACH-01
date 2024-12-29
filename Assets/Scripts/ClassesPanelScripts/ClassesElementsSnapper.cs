@@ -112,4 +112,15 @@ public class ClassesElementsSnapper : MonoBehaviour
             panels.Add(newPanel);
         }
     }
+
+    public void SnapToPanelFromButton(int panelIndex)
+    {
+       
+        SnapToPanel(panelIndex);
+
+        currentPanelIndex = panelIndex;
+        //  currentPanelIndex = panelIndex;
+
+        OnPanelChanged.Invoke(currentPanelIndex);
+    }
 }

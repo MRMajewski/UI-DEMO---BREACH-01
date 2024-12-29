@@ -55,7 +55,7 @@ public class ClassPanel : SimpleUIPanelMobiles
         classDataElementPrefab.gameObject.SetActive(false);
 
         snapper.InitPanels(classesDataElementsUIList);
-        classIconChanger.CreateClassIcons(ClassesDataBase);
+        classIconChanger.CreateClassIcons(ClassesDataBase, snapper);
 
       //  snapper.OnPanelChanged += classIconChanger.SetAlphaForIndex;
     }
@@ -65,6 +65,7 @@ public class ClassPanel : SimpleUIPanelMobiles
     {
         InitializeClasses();
         snapper.OnPanelChanged += classIconChanger.SetAlphaForIndex;
+        classIconChanger.SetAlphaForIndex(0);
     }
 
     public override void DisablePanel()

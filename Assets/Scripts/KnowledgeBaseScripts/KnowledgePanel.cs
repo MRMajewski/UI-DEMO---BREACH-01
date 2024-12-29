@@ -80,7 +80,6 @@ public class KnowledgePanel : SimpleUIPanelMobiles
         {
             BuildKnowledgeBaseNode(knowledgeDataNode, newKnowledgeSectionHeader.ContentPanel);       
         }
-
     }
     private void BuildKnowledgeBaseNode(KnowledgeBaseDataNode knowledgeBaseDataNode, Transform sectionContent)
     {
@@ -113,16 +112,14 @@ public class KnowledgePanel : SimpleUIPanelMobiles
             }
             else
             {
-                if(knowledgeNode.GetComponent<KnowledgeSectionNode>()!=null)
+                if (knowledgeNode.GetComponent<KnowledgeNodeBase>() != null)
                 {
-                   knowledgeNode.SelectionClick();
+                    knowledgeNode.SelectionClick();
                 }
-             
             }
         }
         areAllTabsExpanded = !areAllTabsExpanded;
         RefreshExpandAllIconAndText();
-
     }
 
     public bool AreAllTabsExpandedCheck()
