@@ -10,10 +10,10 @@ public class DiceRollerBasePanel : MonoBehaviour
     [SerializeField] protected TMP_InputField modifierInputField;
     [SerializeField] protected TMP_Dropdown modeDropdown;
     [SerializeField] protected TextMeshProUGUI resultText;
-    [SerializeField] protected int diceAmount=1;
-    [SerializeField] protected int modifierValue = 0;
 
-    [SerializeField]
+
+    protected int diceAmount=1; 
+    protected int modifierValue = 0;
     protected int diceRange;
 
     public enum DamageRollMode
@@ -70,12 +70,6 @@ public class DiceRollerBasePanel : MonoBehaviour
                 resultText.text = "Nieznany tryb rzutu.";
                 return;
         }
-     //   return diceRange;
-    }
-
-    protected void UpdateDiceRange()
-    {
-
     }
 
     public void IncreaseModifierValue()
@@ -92,7 +86,6 @@ public class DiceRollerBasePanel : MonoBehaviour
         modifierInputField.text = modifierValue.ToString();
     }
 
-    // Funkcja wywo³uj¹ca rzut
     public virtual void RollDice()
     {
         diceAmount = ParseInput(diceInputField.text);
@@ -154,7 +147,6 @@ public class DiceRollerBasePanel : MonoBehaviour
 
     protected virtual int RollDisadvantage(int diceCount)
     {
-     //   GetDiceRange();
         List<int> rolls = new List<int>();
         for (int i = 0; i < diceCount * 2; i++)
         {
@@ -168,9 +160,9 @@ public class DiceRollerBasePanel : MonoBehaviour
         }
         return total;
     }
+
     protected virtual (int total, string details) RollNormalDetails(int diceCount)
     {
-      //  GetDiceRange();
         int total = 0;
         List<int> rolls = new List<int>();
         for (int i = 0; i < diceCount; i++)
@@ -185,44 +177,40 @@ public class DiceRollerBasePanel : MonoBehaviour
     }
     protected virtual (int total, string details) RollAdvantageDetails(int diceCount)
     {
-     //   GetDiceRange();
         List<int> rolls = new List<int>();
         for (int i = 0; i < diceCount * 2; i++)
         {
             rolls.Add(Random.Range(1, diceRange));
         }
-        rolls.Sort((a, b) => b.CompareTo(a)); // Sortowanie malej¹ce
+        rolls.Sort((a, b) => b.CompareTo(a)); 
 
         int total = 0;
-        List<int> selectedRolls = rolls.GetRange(0, diceCount); // Najwiêksze wartoœci
+        List<int> selectedRolls = rolls.GetRange(0, diceCount); 
         foreach (int roll in selectedRolls)
         {
             total += roll;
         }
 
-        //    string details = $"Wszystkie: [{string.Join(", ", rolls)}], Wybrane: [{string.Join(", ", selectedRolls)}]";
         string details = $"{string.Join(", ", rolls)}";
         return (total, details);
     }
 
     protected virtual (int total, string details) RollDisadvantageDetails(int diceCount)
     {
-      //  GetDiceRange();
         List<int> rolls = new List<int>();
         for (int i = 0; i < diceCount * 2; i++)
         {
             rolls.Add(Random.Range(1, diceRange));
         }
-        rolls.Sort(); // Sortowanie rosn¹ce
+        rolls.Sort(); 
 
         int total = 0;
-        List<int> selectedRolls = rolls.GetRange(0, diceCount); // Najmniejsze wartoœci
+        List<int> selectedRolls = rolls.GetRange(0, diceCount); 
         foreach (int roll in selectedRolls)
         {
             total += roll;
         }
 
-        //  string details = $"Wszystkie: [{string.Join(", ", rolls)}], Wybrane: [{string.Join(", ", selectedRolls)}]";
         string details = $"{string.Join(", ", rolls)}";
         return (total, details);
     }
