@@ -24,6 +24,8 @@ public class ArmoryPanel : SimpleUIPanelMobiles
     [SerializeField]
     private RectTransform filterUIRectTransform;
     [SerializeField]
+    private RectTransform detailsRectTransform;
+    [SerializeField]
     private RectTransform armoryContentRectTransform;
     [SerializeField]
     private RectTransform armoryViewportRectTransform;
@@ -54,6 +56,7 @@ public class ArmoryPanel : SimpleUIPanelMobiles
         yield return new WaitForEndOfFrame();
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
         filterUI.UpdateFiltersLayout();
+        AdjustScrollRect();
     }
 
     public void OnSearchInputChanged(string searchText)
@@ -111,9 +114,10 @@ public class ArmoryPanel : SimpleUIPanelMobiles
 
     private void AdjustScrollRect()
     {
-        float contentHeight = filterUIRectTransform.rect.height;
+        float contentHeight = filterUIRectTransform.rect.height + detailsRectTransform.rect.height;
         float parentHeight = armoryContentRectTransform.rect.height;
-        float newViewportHeight = Mathf.Clamp(parentHeight - contentHeight - 10f, 0, parentHeight);
+        float test = parentHeight - contentHeight - 20f;
+        float newViewportHeight = Mathf.Clamp(test, 0, parentHeight);
 
         Vector2 newSize = armoryViewportRectTransform.sizeDelta;
         newSize.y = newViewportHeight;
