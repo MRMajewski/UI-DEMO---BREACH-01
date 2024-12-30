@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e1c3593874969348be5b7b6f2f0a687, type: 3}
   m_Name: MartialArtistClassData
   m_EditorClassIdentifier: 
-  itemName: MARTIAL ARTIST
-  description: "Zwi\u0119kszona szybko\u015B\u0107 i refleks. Szybki, precyzyjny
-    wojownik, walcz\u0105cy bez broni, broni\u0105 lekk\u0105 lub (a co!) kr\xF3tk\u0105
+  className: MARTIAL ARTIST
+  classDescription: "Zwi\u0119kszona szybko\u015B\u0107 i refleks. Szybki, precyzyjny
+    wojownik, walcz\u0105cy bez broni, broni\u0105 lekk\u0105 lub kr\xF3tk\u0105
     broni\u0105 paln\u0105!"
-  subclassesDescription: ' Gun fu <br> Akrobata <br> Fajter<br> Grappler'
   classIcon: {fileID: 21300000, guid: d9ae6730a8b39a74c8558e10bcda695a, type: 3}
-  skills:
-  - Sztuki Walki
-  - Obrona bez pancerza
-  - "Odbijanie pocisk\xF3w"
+  classSkills:
+  - Sztuki walki
+  - Walka bez pancerza
   - Trening
+  subclasses:
+  - Gun Fu
+  - Akrobata
+  - Wojownik
+  - "Zapa\u015Bnik"

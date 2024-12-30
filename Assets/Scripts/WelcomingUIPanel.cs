@@ -70,14 +70,12 @@ public class WelcomingUIPanel : SimpleUIPanelMobiles
     }
     public void SwitchPanelFirst()
     {
-
         if(isAfterOpeningAnim)
         SimpleUIPanelMobilesManager.Instance.SwitchPanel("Main");
     }
 
     public override void DisablePanel()
     {   
-
         continueTextGameObject.DOKill(false);
 
         panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).

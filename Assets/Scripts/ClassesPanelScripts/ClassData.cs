@@ -5,11 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewClassData", menuName = "Classes/ClassData")]
 public class ClassData : ScriptableObject
 {
-    public string itemName;
-    public string description;
-    public string subclassesDescription;
+    public string className;
+    [TextArea(1, 10)]
+    public string classDescription;
     public Sprite classIcon;
 
-    [Tooltip("Categories this item belongs to")]
-    public string[] skills;
+    public string[] classSkills;
+    public string[] subclasses;
 }

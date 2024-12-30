@@ -7,8 +7,7 @@ public class ItemData : ScriptableObject
 {
     public string itemName;
     public Sprite icon;
+    [TextArea(1, 10)]
     public string description;
-
-    [Tooltip("Categories this item belongs to")]
     public ItemCategory[] categories;
 }

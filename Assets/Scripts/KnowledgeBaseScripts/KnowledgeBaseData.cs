@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
     [System.Serializable]
     public class KnowledgeBaseDataNode
-    {
-        public string titleText;
+{
+    [TextArea(1, 2)]
+    public string titleText;
+    [TextArea(1,10)]
         public string contentInfoText;
 
         public KnowledgeBaseDataNode(string title, string info)

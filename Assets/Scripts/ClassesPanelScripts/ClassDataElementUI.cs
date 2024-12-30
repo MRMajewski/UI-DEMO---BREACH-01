@@ -14,16 +14,12 @@ public class ClassDataElementUI : MonoBehaviour
     private TextMeshProUGUI subclassesDescriptionText;
     [SerializeField]
     private TextMeshProUGUI skillsDescriptionText;
- //   [SerializeField]
- //   private Image classIcon;
+
     public void Initialize(ClassData data)
     {
-        classNameText.text = data.itemName;
-        classDescriptionText.text = data.description;
-        subclassesDescriptionText.text = data.subclassesDescription;
-       // classIcon.sprite = data.classIcon;
-
-        // £¹czenie umiejêtnoœci w jeden tekst
-        skillsDescriptionText.text = string.Join(", ", data.skills);
+        classNameText.text = data.className;
+        classDescriptionText.text = "<size=150%>Opis:</size><br>"+data.classDescription;
+        subclassesDescriptionText.text = "<size=150%>Subklasy:</size><br>" + string.Join("<br>", data.subclasses);
+        skillsDescriptionText.text = "<size=150%>Umiejêtnoœci:</size><br>" + string.Join("<br>", data.classSkills);
     }
 }

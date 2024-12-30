@@ -74,7 +74,6 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
             HandleBackButton();
         }
     }
-
     private void Start()
     {
         InitSimpleUIPanels();
@@ -100,9 +99,6 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         }
         isTransitioning = false;
     }
-    
-
-
     public void SwitchPanel(SimpleUIPanelMobiles newPanel)
     {
         if (isTransitioning) return;
@@ -156,7 +152,6 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
 
             .Append(leftCurtain.DOScaleX(0, transitionTime).SetEase(Ease.InOutQuad))
             .Join(rightCurtain.DOScaleX(0, transitionTime).SetEase(Ease.InOutQuad));
-
     }
 
     private void HandleBackButton()

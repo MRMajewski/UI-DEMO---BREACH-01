@@ -12,16 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e1c3593874969348be5b7b6f2f0a687, type: 3}
   m_Name: OfficerClassData
   m_EditorClassIdentifier: 
-  itemName: OFFICER
-  description: "Officer to posta\u0107 o zwi\u0119kszonej charyzmie i bystro\u015Bci
+  className: OFFICER
+  classDescription: "Officer to posta\u0107 o zwi\u0119kszonej charyzmie i bystro\u015Bci
     umys\u0142u, kt\xF3rej g\u0142\xF3wnym zadaniem jest koordynowanie zespo\u0142u.
     Dzi\u0119ki swoim zdolno\u015Bciom dow\xF3dczym potrafi inspirowa\u0107 towarzyszy,
     daj\u0105c im buffy i inspiracj\u0119, co pozwala im wykonywa\u0107 swoje zadania
-    z maksymaln\u0105 precyzj\u0105. "
-  subclassesDescription: " Sier\u017Cant <br> Lider <br> As"
+    z maksymaln\u0105 precyzj\u0105."
   classIcon: {fileID: 21300000, guid: a87fb805c6e59ef449297a67e1dae86b, type: 3}
-  skills:
+  classSkills:
+  - Trening
   - Inspiracja
-  - "Dow\xF3dztwo"
-  - Treing
+  - "Przyw\xF3dztwo"
   - Neolingwistyka
+  subclasses:
+  - "Sier\u017Cant"
+  - Lider
+  - As

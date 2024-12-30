@@ -20,7 +20,6 @@ public class ArmoryPanel : SimpleUIPanelMobiles
     [SerializeField]
     private List<ItemElementUI> currentItems;
 
-
     [SerializeField]
     private RectTransform filterUIRectTransform;
     [SerializeField]
@@ -59,6 +58,16 @@ public class ArmoryPanel : SimpleUIPanelMobiles
         AdjustScrollRect();
     }
 
+    public void UpdateContentLayout()
+    {
+        StartCoroutine(UpdateContentLayoutCoroutine());
+    }
+    public IEnumerator UpdateContentLayoutCoroutine()
+    {
+        yield return new WaitForEndOfFrame();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());     
+        AdjustScrollRect();
+    }
     public void OnSearchInputChanged(string searchText)
     {
         currentSearchText = searchText;

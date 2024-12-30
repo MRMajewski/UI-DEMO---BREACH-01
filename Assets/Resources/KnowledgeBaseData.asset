@@ -21,10 +21,10 @@ MonoBehaviour:
         tajemnicom i niebezpiecznym wrogom. Wprowadzane zmiany w mechanice zosta\u0142y
         zaprojektowane, by:"
     - titleText: Przyspieszenie rozgrywki
-      contentInfoText: "1. dynamiczne Rzuty Obronne i prostsze zasady redukcji obra\u017Ce\u0144
+      contentInfoText: "Dynamiczne Rzuty Obronne i prostsze zasady redukcji obra\u017Ce\u0144
         pozwalaj\u0105 na bardziej p\u0142ynne prowadzenie sesji."
     - titleText: "Wieksza intensywno\u015B\u0107 walk"
-      contentInfoText: "2. obra\u017Cenia w BREACH 01 s\u0105 znacz\u0105ce, co nadaje
+      contentInfoText: "Obra\u017Cenia w BREACH 01 s\u0105 znacz\u0105ce, co nadaje
         starciom bardziej dramatyczny charakter."
     - titleText: Trafienie boli...
       contentInfoText: "W tym \u015Bwiecie trafienie boli, a przetrwanie wymaga sprytu
@@ -54,17 +54,17 @@ MonoBehaviour:
         Typ broni: Np. precyzyjna bro\u0144 mo\u017Ce podnie\u015B\u0107 ST. Warunki:
         Trudne otoczenie (np. \u015Bliska pod\u0142oga) mo\u017Ce zwi\u0119kszy\u0107
         ST uniku o dodatkowe +2\u20133."
-    - titleText: -Wynik rzutu
+    - titleText: Wynik rzutu
       contentInfoText: "Sukces: Gracz unika trafienia, a atak nie zadaje obra\u017Ce\u0144.
         Pora\u017Cka: Gracz zostaje trafiony i otrzymuje obra\u017Cenia zgodnie z
         zasadami broni przeciwnika."
-    - titleText: "-Redukcja obra\u017Ce\u0144 przez pancerz"
+    - titleText: "Redukcja obra\u017Ce\u0144 przez pancerz"
       contentInfoText: "Je\u015Bli gracz zostanie trafiony, obra\u017Cenia s\u0105
         zmniejszane przez noszony pancerz: Lekki pancerz: Redukcja obra\u017Ce\u0144
         o 4\u20136. \u015Aredni pancerz: Redukcja obra\u017Ce\u0144 o 7\u20139. Ci\u0119\u017Cki
         pancerz: Redukcja obra\u017Ce\u0144 o 10\u201312. Pancerz nie wp\u0142ywa
         na wynik rzutu, ale zmniejsza skutki pora\u017Cki."
-    - titleText: "-Przyk\u0142ad rzutu na trafienie "
+    - titleText: "Przyk\u0142ad rzutu na trafienie "
       contentInfoText: "Sytuacja: Goblin z pistoletem atakuje gracza. ST Uniku: Stopie\u0144
         bieg\u0142o\u015Bci goblina: +2 Modyfikator Zr\u0119czno\u015Bci goblina:
         +3 Dodatkowy modyfikator za precyzyjn\u0105 bro\u0144 dystansow\u0105: +1
@@ -73,7 +73,7 @@ MonoBehaviour:
         Wynik 13: Gracz zostaje trafiony. Obra\u017Cenia wynosz\u0105 8. Gracz nosi
         lekki pancerz (redukcja obra\u017Ce\u0144 o 4). Finalne obra\u017Cenia: 8
         - 4 = 4."
-    - titleText: -Dodatkowe modyfikatory ST
+    - titleText: Dodatkowe modyfikatory ST
       contentInfoText: "Os\u0142ony: Lekka os\u0142ona (np. mebel): -2 do ST. Ci\u0119\u017Cka
         os\u0142ona (np. betonowa \u015Bciana): -5 do ST. Warunki bojowe: \u015Aliska
         pod\u0142oga, mg\u0142a: +2\u20133 do ST. Unik w trudnym terenie: dodatkowe
@@ -89,14 +89,13 @@ MonoBehaviour:
         ko\u015Bci k6, z mo\u017Cliwo\u015Bci\u0105 zastosowania modyfikator\xF3w
         oraz efektu U\u0142atwienia (U)."
     - titleText: "Obliczanie obra\u017Ce\u0144"
-      contentInfoText: "1. Bazowa warto\u015B\u0107 obra\u017Ce\u0144: Ka\u017Cda
-        bro\u0144 ma okre\u015Blony poziom obra\u017Ce\u0144, np. k6, 2k6, 3k6 itd.
-        2. U\u0142atwienie (U): Przy obra\u017Ceniach z U\u0142atwieniem rzucasz
-        jedn\u0105 dodatkow\u0105 ko\u015Bci\u0105 i wybierasz najlepszy wynik (np.
-        dla obra\u017Ce\u0144 k6+U rzucasz 2k6 i wybierasz wy\u017Cszy wynik). 3.
-        Modyfikatory broni: Bro\u0144 zaawansowana technologicznie lub wyj\u0105tkowo
-        pot\u0119\u017Cna mo\u017Ce mie\u0107 dodatkowy modyfikator do obra\u017Ce\u0144,
-        np. +6."
+      contentInfoText: "Bazowa warto\u015B\u0107 obra\u017Ce\u0144: Ka\u017Cda bro\u0144
+        ma okre\u015Blony poziom obra\u017Ce\u0144, np. k6, 2k6, 3k6 itd. 2. U\u0142atwienie
+        (U): Przy obra\u017Ceniach z U\u0142atwieniem rzucasz jedn\u0105 dodatkow\u0105
+        ko\u015Bci\u0105 i wybierasz najlepszy wynik (np. dla obra\u017Ce\u0144 k6+U
+        rzucasz 2k6 i wybierasz wy\u017Cszy wynik). 3. Modyfikatory broni: Bro\u0144
+        zaawansowana technologicznie lub wyj\u0105tkowo pot\u0119\u017Cna mo\u017Ce
+        mie\u0107 dodatkowy modyfikator do obra\u017Ce\u0144, np. +6."
     - titleText: "Przyk\u0142ad zaawansowanej broni"
       contentInfoText: "M\u0142ot bojowy z silnikiem rakietowym: 2k6+6 \u2013 po\u0142\u0105czenie
         si\u0142y mechanicznej i technologii. Zaawansowany pistolet maszynowy: 2k6+4
@@ -147,23 +146,24 @@ MonoBehaviour:
         bohaterowie mog\u0105 zdobywa\u0107 zdolno\u015Bci niedost\u0119pne w tradycyjnych
         systemach."
     - titleText: "Przyk\u0142ady Trening\xF3w"
-      contentInfoText: "Trening Fizycznych Rzut\xF3w Obronnych Poziom 1: Zyskaj bieg\u0142o\u015B\u0107
-        w jednym z nast\u0119puj\u0105cych rzut\xF3w obronnych: Si\u0142a, Zr\u0119czno\u015B\u0107
-        lub Kondycja. Poziom 2: Zyskaj +1 do wszystkich rzut\xF3w obronnych wykonywanych
-        za pomoc\u0105 wybranego atrybutu. Poziom 3: Zyskaj +1 do wszystkich rzut\xF3w
-        obronnych wykonywanych za pomoc\u0105 wybranego atrybutu. Poziom 4: Zyskaj
-        przewag\u0119 na wszystkich rzutach obronnych wykonywanych za pomoc\u0105
-        wybranego atrybutu. Szkolenie Czujno\u015Bci Poziom 1: Przy\u0107mione \u015Bwiat\u0142o
-        nie nak\u0142ada na ciebie niekorzystnych warunk\xF3w na testy M\u0105dro\u015Bci
-        (Percepcji) opieraj\u0105ce si\u0119 na wzroku. Poziom 2: Zyskujesz +5 do
-        pasywnej percepcji. Poziom 3: Masz przewag\u0119 na testach M\u0105dro\u015Bci
-        (Percepcji) i Inteligencji (\u015Aledztwa) wykonywanych w celu wykrycia sekretnych
-        drzwi i ukrytych skrytek. Poziom 4: Zyskujesz dodatkowe +5 do pasywnej percepcji.
-        Szkolenie w Strzelectwie Precyzyjnym Poziom 1: Mo\u017Cesz celowa\u0107 jako
-        akcj\u0119 dodatkow\u0105. Poziom 2: Liczysz wrog\xF3w jako maj\u0105cych
-        o jeden poziom os\u0142ony mniej ni\u017C w rzeczywisto\u015Bci. Poziom 3:
-        Mo\u017Cesz poruszy\u0107 si\u0119 o pe\u0142n\u0105 odleg\u0142o\u015B\u0107
-        i nadal korzysta\u0107 z korzy\u015Bci celowania. Poziom 4: Ignorujesz wszystkie
+      contentInfoText: "Trening Fizycznych Rzut\xF3w Obronnych \nPoziom 1: Zyskaj
+        bieg\u0142o\u015B\u0107 w jednym z nast\u0119puj\u0105cych rzut\xF3w obronnych:
+        Si\u0142a, Zr\u0119czno\u015B\u0107 lub Kondycja. \nPoziom 2: Zyskaj +1 do
+        wszystkich rzut\xF3w obronnych wykonywanych za pomoc\u0105 wybranego atrybutu.
+        \nPoziom 3: Zyskaj +1 do wszystkich rzut\xF3w obronnych wykonywanych za pomoc\u0105
+        wybranego atrybutu. \nPoziom 4: Zyskaj przewag\u0119 na wszystkich rzutach
+        obronnych wykonywanych za pomoc\u0105 wybranego atrybutu. \n\nSzkolenie Czujno\u015Bci
+        \nPoziom 1: Przy\u0107mione \u015Bwiat\u0142o nie nak\u0142ada na ciebie
+        niekorzystnych warunk\xF3w na testy M\u0105dro\u015Bci (Percepcji) opieraj\u0105ce
+        si\u0119 na wzroku. \nPoziom 2: Zyskujesz +5 do pasywnej percepcji. \nPoziom
+        3: Masz przewag\u0119 na testach M\u0105dro\u015Bci (Percepcji) i Inteligencji
+        (\u015Aledztwa) wykonywanych w celu wykrycia sekretnych drzwi i ukrytych
+        skrytek. \nPoziom 4: Zyskujesz dodatkowe +5 do pasywnej percepcji.\n\nSzkolenie
+        w Strzelectwie Precyzyjnym \nPoziom 1: Mo\u017Cesz celowa\u0107 jako akcj\u0119
+        dodatkow\u0105. \nPoziom 2: Liczysz wrog\xF3w jako maj\u0105cych o jeden
+        poziom os\u0142ony mniej ni\u017C w rzeczywisto\u015Bci. \nPoziom 3: Mo\u017Cesz
+        poruszy\u0107 si\u0119 o pe\u0142n\u0105 odleg\u0142o\u015B\u0107 i nadal
+        korzysta\u0107 z korzy\u015Bci celowania. \nPoziom 4: Ignorujesz wszystkie
         os\u0142ony podczas obliczania rzut\xF3w obronnych, z wyj\u0105tkiem pe\u0142nej
         os\u0142ony."
     - titleText: "Przyk\u0142ad Rozwoju Postaci"

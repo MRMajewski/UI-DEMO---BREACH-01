@@ -12,13 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e1c3593874969348be5b7b6f2f0a687, type: 3}
   m_Name: BattleDevClassData
   m_EditorClassIdentifier: 
-  itemName: BATTLE DEV
-  description: "Zwi\u0119kszone umiej\u0119tno\u015Bci analityczne. Rzuca czary przy
-    pomocy tableta bojowego z wgranymi algorytmami i szybkimi obliczeniami w my\u015Blach.
-    No jak mag :) Co nie przeszkadza mu strzeli\u0107 z pistoleta! Magia w za\u0142o\u017Ceniu
-    ma by\u0107 bardziej wyka\u0144czaj\u0105ca, ale i bardziej efektywna"
-  subclassesDescription: ' Gravity <br> Time <br> Energy'
+  className: BATTLE DEV
+  classDescription: "Zwi\u0119kszone umiej\u0119tno\u015Bci analityczne. Rzuca czary
+    przy pomocy tableta bojowego z wgranymi algorytmami i szybkimi obliczeniami w
+    my\u015Blach. No jak mag :) Co nie przeszkadza mu strzeli\u0107 z pistoleta!
+    Magia w za\u0142o\u017Ceniu ma by\u0107 bardziej wyka\u0144czaj\u0105ca, ale
+    i bardziej efektywna."
   classIcon: {fileID: 21300000, guid: 65796fc02d0d76f44a1361540104867d, type: 3}
-  skills:
-  - Technomancja
+  classSkills:
+  - Neofizyka
   - Trening
+  subclasses:
+  - Grawitacja
+  - Czas
+  - Energia

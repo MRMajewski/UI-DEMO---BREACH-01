@@ -15,8 +15,7 @@ public class ItemDetailsPanel : MonoBehaviour
         nameText.text = itemData.itemName;
         descriptionText.text = itemData.description;
 
-        // Wyœwietlanie kategorii
         string categories = string.Join(", ", itemData.categories);
-        categoriesText.text = $"Categories: {categories}";
+        categoriesText.text = $"Kategorie : {categories}";
     }
 }

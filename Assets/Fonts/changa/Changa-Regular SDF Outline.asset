@@ -58,11 +58,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: Changa-Regular SDF
+  m_Name: Changa-Regular SDF Outline
   m_EditorClassIdentifier: 
-  hashCode: -1134209212
+  hashCode: -22349308
   material: {fileID: 3309462941086950938}
-  materialHashCode: 2089367524
+  materialHashCode: -1034758620
   m_Version: 1.1.0
   m_SourceFontFileGUID: 71989e32d43c61247b1f9883c9e65c9a
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 71989e32d43c61247b1f9883c9e65c9a, type: 3}
@@ -3941,7 +3941,7 @@ Material:
     - _Reflectivity: 10
     - _ScaleRatioA: 0.8333333
     - _ScaleRatioB: 0.6770833
-    - _ScaleRatioC: 0.43098873
+    - _ScaleRatioC: 0.33854166
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -3955,9 +3955,9 @@ Material:
     - _TextureHeight: 512
     - _TextureWidth: 512
     - _UnderlayDilate: 0
-    - _UnderlayOffsetX: 0.61
+    - _UnderlayOffsetX: 1
     - _UnderlayOffsetY: 0
-    - _UnderlaySoftness: 0.961
+    - _UnderlaySoftness: 1
     - _VertexOffsetX: 0
     - _VertexOffsetY: 0
     - _WeightBold: 0.75
@@ -3972,5 +3972,5 @@ Material:
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

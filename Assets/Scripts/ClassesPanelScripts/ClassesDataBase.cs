@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class ClassesDataBase : MonoBehaviour
 {
-    [Tooltip("List of all items available in the game.")]
     public List<ClassData> AllClasses = new List<ClassData>();
 
     private void Start()

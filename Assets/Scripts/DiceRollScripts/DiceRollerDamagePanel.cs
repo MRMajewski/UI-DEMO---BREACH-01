@@ -50,7 +50,6 @@ public class DiceRollerDamagePanel : DiceRollerBasePanel
         totalRoll += modifier;
 
         resultText.text = $"<size=200%>{totalRoll}</size><br> (Rzuty: {rollDetails}) + {modifier}";
-      //  resultText.text = $"{totalRoll} \n (Rzuty: {rollDetails}) + {modifier}";
     }
 
     public void IncreaseDiceAmount()
@@ -69,8 +68,7 @@ public class DiceRollerDamagePanel : DiceRollerBasePanel
         diceAmount = diceAmount - 1;
         if (diceAmount < 1)
         {
-            diceAmount = 1;
-          
+            diceAmount = 1;       
         }
         diceInputField.text = diceAmount.ToString();
     }

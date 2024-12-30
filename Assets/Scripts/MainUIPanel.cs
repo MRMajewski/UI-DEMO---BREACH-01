@@ -24,5 +24,4 @@ public class MainUIPanel : SimpleUIPanelMobiles
 
         panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(easeType);
     }
-
 }

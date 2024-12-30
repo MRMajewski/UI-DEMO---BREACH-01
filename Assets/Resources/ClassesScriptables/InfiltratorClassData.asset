@@ -12,11 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e1c3593874969348be5b7b6f2f0a687, type: 3}
   m_Name: InfiltratorClassData
   m_EditorClassIdentifier: 
-  itemName: INFILTRATOR
-  description: "Zwi\u0119kszona szybko\u015B\u0107, refleks. Skradacz, agent specjalny"
-  subclassesDescription: ' Snajper <br> Duch <br> Madierfakier'
+  className: INFILTRATOR
+  classDescription: "Zwi\u0119kszona szybko\u015B\u0107, refleks, agent specjalny."
   classIcon: {fileID: 21300000, guid: b8f41e8adb47d854a9f9d503943f048a, type: 3}
-  skills:
+  classSkills:
   - Ukradkowy Atak
-  - "Podst\u0119pna Akcja"
+  - "Podst\u0119pna akcja"
   - Trening
+  - Ekspertyza
+  subclasses:
+  - Snajper
+  - Duch
+  - Oprych

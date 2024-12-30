@@ -78,10 +78,7 @@ public class ButtonsGeneralReactionsManager :  MonoBehaviour
     }
     public void HighlightColor(Transform buttonTransform)
     {
-      //  var renderer = buttonTransform.GetComponent<SpriteRenderer>();
-     //   renderer.DOColor(highlightColor, tweenTime);
     }
-
 
     #endregion
 
@@ -107,8 +104,6 @@ public class ButtonsGeneralReactionsManager :  MonoBehaviour
 
     public void NormalColor(Transform buttonTransform)
     {
-       
-      //  buttonTransform.GetComponent<Button>().DOColor(normalColor, tweenTime);
     }
     #endregion
 }
