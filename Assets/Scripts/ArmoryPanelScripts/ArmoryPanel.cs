@@ -111,7 +111,6 @@ public class ArmoryPanel : SimpleUIPanelMobiles
 
     private void AdjustScrollRect()
     {
-
         float contentHeight = filterUIRectTransform.rect.height;
         float parentHeight = armoryContentRectTransform.rect.height;
         float newViewportHeight = Mathf.Clamp(parentHeight - contentHeight - 10f, 0, parentHeight);

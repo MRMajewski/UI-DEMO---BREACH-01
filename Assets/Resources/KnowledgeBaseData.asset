@@ -251,8 +251,7 @@ MonoBehaviour:
         r\xF3\u017Cnorodno\u015B\u0107 w sposobie leczenia, dzi\u0119ki czemu gracze
         b\u0119d\u0105 mieli wi\u0119kszy wp\u0142yw na to, jak dbaj\u0105 o zdrowie
         swoich postaci. "
-  - knowledgeDataSectionName: "5. Bieg\u0142o\u015B\u0107 w Pancerzach i Redukcja
-      Obra\u017Ce\u0144"
+  - knowledgeDataSectionName: 5. Pancerze
     knowledgeBaseDataNodesList:
     - titleText: "Wst\u0119p"
       contentInfoText: "Pancerze w systemie s\u0142u\u017C\u0105 do redukcji obra\u017Ce\u0144

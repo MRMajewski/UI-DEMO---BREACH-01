@@ -100,6 +100,8 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         }
         isTransitioning = false;
     }
+    
+
 
     public void SwitchPanel(SimpleUIPanelMobiles newPanel)
     {

@@ -13,26 +13,10 @@ public class KnowledgeSectionNode : KnowledgeNodeBase
     [SerializeField]
     private Transform contentPanel;
 
-
     public Transform ContentPanel { get => contentPanel; }
     public override void SelectionClick()
     {
-        //isOpen = !isOpen;
-
-        //if (isOpen)
-        //{
-        //    dropDownImage.sprite = closedSprite;
-
-        //}
-        //else
-        //{
-        //    dropDownImage.sprite = openSprite;
-        //}
         base.SelectionClick();
         contentPanel.gameObject.SetActive(isOpen);
-
-        //layoutGroup.enabled = false;
-        //layoutGroup.enabled = true;
-
     }
 }

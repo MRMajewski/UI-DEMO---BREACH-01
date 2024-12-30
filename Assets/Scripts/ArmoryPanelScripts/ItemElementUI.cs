@@ -3,22 +3,22 @@ using UnityEngine.UI;
 using TMPro;
 public enum ItemCategory
 {
-    Weapon,
-    Armor,
-    Utility,
-    WeaponRanged,
-    WeaponMelee,
-    Civilian,
-    Military,
-    Experimental,
-    Pistol,
+    Broñ,
+    Pancerz,
+    Akcesorium,
+    Broñ_Palna,
+    Broñ_Bia³a,
+    Cywilny,
+    Militarny,
+    Eksperymentalny,
+    Pistolet,
     SMG,
-    Rifle,
-    RifleAssault,
-    Heavy,
-    Shotgun,
-    Tool,
-    Miscellaneous
+    Karabin,
+    Karabin_Szturmowy,
+    Broñ_Ciê¿ka,
+    Strzelba,
+    Narzêdze,
+    Inne
 }
 
 public class ItemElementUI : MonoBehaviour
