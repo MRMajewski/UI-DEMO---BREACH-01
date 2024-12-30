@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05b7059f1707af84cbc04659ff8b3aac, type: 3}
-  m_Name: Pistol
+  m_Name: "RakietowyM\u0142ot"
   m_EditorClassIdentifier: 
-  itemName: "Ci\u0119\u017Cki pistolet"
-  icon: {fileID: 21300000, guid: b398547bc6b5b6f41a761b6fbc476d89, type: 3}
-  description: 
-  categories: 00000000030000000800000006000000
+  itemName: "Rakietowy m\u0142ot"
+  icon: {fileID: 21300000, guid: 148c3a2b7a789c649819c226c9719107, type: 3}
+  description: "Ci\u0119\u017Cki m\u0142ot wspomagany silnikiem rakietowym"
+  categories: 00000000040000000600000007000000

@@ -26,7 +26,7 @@ MonoBehaviour:
     - titleText: "Wieksza intensywno\u015B\u0107 walk"
       contentInfoText: "2. obra\u017Cenia w BREACH 01 s\u0105 znacz\u0105ce, co nadaje
         starciom bardziej dramatyczny charakter."
-    - titleText: Trafienie boli,
+    - titleText: Trafienie boli...
       contentInfoText: "W tym \u015Bwiecie trafienie boli, a przetrwanie wymaga sprytu
         i umiej\u0119tno\u015Bci. Zadaniem graczy jest: Unikn\u0105\u0107 trafienia
         \u2013 poprzez przemy\u015Blane pozycjonowanie, aktywne Rzuty Obronne oraz
@@ -235,7 +235,7 @@ MonoBehaviour:
         umiej\u0119tno\u015Bci mog\u0105 by\u0107 ograniczone liczb\u0105 u\u017Cy\u0107
         na tur\u0119 lub na sesj\u0119, aby zachowa\u0107 balans."
     - titleText: "Dora\u017Ane Leczenie \u2013 Szybka Pomoc"
-      contentInfoText: "\tW krytycznych momentach walki, gracze mog\u0105 wykorzysta\u0107
+      contentInfoText: "W krytycznych momentach walki, gracze mog\u0105 wykorzysta\u0107
         przedmioty i umiej\u0119tno\u015Bci do szybkiej regeneracji zdrowia, co daje
         im czas na przeorganizowanie strategii lub kontynuowanie walki. Z pomoc\u0105
         przedmiot\xF3w takich jak spray leczniczy, medykamenty, a tak\u017Ce umiej\u0119tno\u015Bci
@@ -287,7 +287,7 @@ MonoBehaviour:
         czy specjalne tryby ochrony. 4. Swobodny Styl Walki: Posta\u0107 mo\u017Ce
         korzysta\u0107 z zaawansowanych taktyk, takich jak szybka zmiana pozycji,
         korzystanie z akcji dodatkowych czy rzuty na Skradanie si\u0119 bez ogranicze\u0144."
-  - knowledgeDataSectionName: 6. Nowe Akcje Podstawowe dla Postaci
+  - knowledgeDataSectionName: 6. Nowe Akcje dla Postaci
     knowledgeBaseDataNodesList:
     - titleText: "Ogie\u0144 Zaporowy"
       contentInfoText: "Ka\u017Cda bro\u0144 palna mo\u017Ce by\u0107 u\u017Cyta

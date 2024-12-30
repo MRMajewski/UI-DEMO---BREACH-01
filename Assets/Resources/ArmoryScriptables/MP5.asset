@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: MP5
   icon: {fileID: 21300000, guid: 3679d2ad00cf5d34b98cea18fb4385df, type: 3}
-  description: 
+  description: "Por\u0119czny ma\u0142y pistolet maszynowy"
   categories: 00000000030000000900000006000000

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05b7059f1707af84cbc04659ff8b3aac, type: 3}
   m_Name: BulletproofVest
   m_EditorClassIdentifier: 
-  itemName: Bulletpoof Vest
+  itemName: Kamizelka kuloodporna
   icon: {fileID: 21300000, guid: 79ad09522ed42fb4999fdd8b85962d96, type: 3}
   description: 
-  categories: 0100000006000000
+  categories: 0100000005000000

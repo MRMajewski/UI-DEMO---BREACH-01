@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05b7059f1707af84cbc04659ff8b3aac, type: 3}
   m_Name: Machete
   m_EditorClassIdentifier: 
-  itemName: Machete
+  itemName: Maczeta
   icon: {fileID: 21300000, guid: f77ca217d05a22f4f86cc5b36ba952b3, type: 3}
   description: Pointy and slashy fdfd fd dffdff dd  eee  ff
   categories: 0000000004000000
