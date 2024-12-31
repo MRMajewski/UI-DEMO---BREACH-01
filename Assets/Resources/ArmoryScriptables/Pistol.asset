@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: "Ci\u0119\u017Cki pistolet"
   icon: {fileID: 21300000, guid: b398547bc6b5b6f41a761b6fbc476d89, type: 3}
-  description: 
+  description: "Obra\u017Cenia przebijaj\u0105ce 2k6 + Mod Zr\u0119czno\u015Bci,
+    \nDystans bliski,\u015Bredni\nPrze\u0142adowanie 7"
   categories: 00000000030000000800000006000000

@@ -16,129 +16,130 @@ MonoBehaviour:
   - knowledgeDataSectionName: 0. Komu to potrzebne?
     knowledgeBaseDataNodesList:
     - titleText: "Wst\u0119p"
-      contentInfoText: "Witajcie w BREACH 01 \u2013 systemie RPG osadzonym w niedalekiej
+      contentInfoText: "\tWitajcie w BREACH 01 \u2013 systemie RPG osadzonym w niedalekiej
         przysz\u0142o\u015Bci, gdzie bohaterowie stawiaj\u0105 czo\u0142a mrocznym
-        tajemnicom i niebezpiecznym wrogom. Wprowadzane zmiany w mechanice zosta\u0142y
+        tajemnicom i niebezpiecznym wrogom. \n\tWprowadzane zmiany w mechanice zosta\u0142y
         zaprojektowane, by:"
     - titleText: Przyspieszenie rozgrywki
-      contentInfoText: "Dynamiczne Rzuty Obronne i prostsze zasady redukcji obra\u017Ce\u0144
+      contentInfoText: "\tDynamiczne Rzuty Obronne i prostsze zasady redukcji obra\u017Ce\u0144
         pozwalaj\u0105 na bardziej p\u0142ynne prowadzenie sesji."
     - titleText: "Wieksza intensywno\u015B\u0107 walk"
-      contentInfoText: "Obra\u017Cenia w BREACH 01 s\u0105 znacz\u0105ce, co nadaje
+      contentInfoText: "\tObra\u017Cenia w BREACH 01 s\u0105 znacz\u0105ce, co nadaje
         starciom bardziej dramatyczny charakter."
     - titleText: Trafienie boli...
-      contentInfoText: "W tym \u015Bwiecie trafienie boli, a przetrwanie wymaga sprytu
-        i umiej\u0119tno\u015Bci. Zadaniem graczy jest: Unikn\u0105\u0107 trafienia
-        \u2013 poprzez przemy\u015Blane pozycjonowanie, aktywne Rzuty Obronne oraz
-        modyfikatory zwi\u0105zane z otoczeniem. Zredukowa\u0107 obra\u017Cenia \u2013
-        korzystaj\u0105c z zaawansowanego pancerza i innych narz\u0119dzi ochronnych."
+      contentInfoText: "\tW tym \u015Bwiecie trafienie boli, a przetrwanie wymaga
+        sprytu i umiej\u0119tno\u015Bci. \nZadaniem graczy jest: \n\tUnikn\u0105\u0107
+        trafienia \u2013 poprzez przemy\u015Blane pozycjonowanie, aktywne Rzuty Obronne
+        oraz modyfikatory zwi\u0105zane z otoczeniem. \n\tZredukowa\u0107 obra\u017Cenia
+        \u2013 korzystaj\u0105c z zaawansowanego pancerza i innych narz\u0119dzi
+        ochronnych."
   - knowledgeDataSectionName: 1. Rzuty na Trafienie
     knowledgeBaseDataNodesList:
     - titleText: "Wst\u0119p"
-      contentInfoText: "W systemie BREACH 01 gracze aktywnie unikaj\u0105 atak\xF3w
+      contentInfoText: "\tW systemie BREACH 01 gracze aktywnie unikaj\u0105 atak\xF3w
         przeciwnik\xF3w, wykonuj\u0105c Rzuty Obronne na Zr\u0119czno\u015B\u0107.
-        Mechanika ta zast\u0119puje tradycyjn\u0105 \"Klas\u0119 Pancerza\" znan\u0105
+        \n\tMechanika ta zast\u0119puje tradycyjn\u0105 \"Klas\u0119 Pancerza\" znan\u0105
         z D&D 5e, wprowadzaj\u0105c dynamiczne i bardziej immersyjne podej\u015Bcie
         do obrony."
-    - titleText: "Atak przeciwnika \u2013 ustalanie ST uniku"
-      contentInfoText: "Ka\u017Cdy atak wymaga od gracza wykonania Rzutu Obronnego
+    - titleText: Atak przeciwnika
+      contentInfoText: "\tKa\u017Cdy atak wymaga od gracza wykonania Rzutu Obronnego
         na Zr\u0119czno\u015B\u0107 lub Kondycj\u0119, aby unikn\u0105\u0107 trafienia.
         Stopie\u0144 Trudno\u015Bci (ST) zale\u017Cy od umiej\u0119tno\u015Bci przeciwnika,
         jego cech, u\u017Cywanej broni oraz okoliczno\u015Bci."
     - titleText: "Formu\u0142a obliczania ST uniku:"
-      contentInfoText: "ST = 8 + stopie\u0144 bieg\u0142o\u015Bci atakuj\u0105cego
-        + modyfikator z odpowiedniej cechy atakuj\u0105cego + inne modyfikatory Stopie\u0144
-        bieg\u0142o\u015Bci: Zale\u017Cy od poziomu przeciwnika. Modyfikator cechy:
-        Najcz\u0119\u015Bciej Zr\u0119czno\u015B\u0107 (dla broni dystansowych lub
-        lekkich) lub Si\u0142a (dla broni ci\u0119\u017Ckich). Inne modyfikatory:
+      contentInfoText: "\tST = 8 + stopie\u0144 bieg\u0142o\u015Bci atakuj\u0105cego
+        + modyfikator z odpowiedniej cechy atakuj\u0105cego + inne modyfikatory \n\n\tStopie\u0144
+        bieg\u0142o\u015Bci: Zale\u017Cy od poziomu przeciwnika. \n\tModyfikator
+        cechy: Najcz\u0119\u015Bciej Zr\u0119czno\u015B\u0107 (dla broni dystansowych
+        lub lekkich) lub Si\u0142a (dla broni ci\u0119\u017Ckich). \n\tInne modyfikatory:
         Typ broni: Np. precyzyjna bro\u0144 mo\u017Ce podnie\u015B\u0107 ST. Warunki:
         Trudne otoczenie (np. \u015Bliska pod\u0142oga) mo\u017Ce zwi\u0119kszy\u0107
         ST uniku o dodatkowe +2\u20133."
     - titleText: Wynik rzutu
-      contentInfoText: "Sukces: Gracz unika trafienia, a atak nie zadaje obra\u017Ce\u0144.
+      contentInfoText: "\tSukces: Gracz unika trafienia, a atak nie zadaje obra\u017Ce\u0144.
         Pora\u017Cka: Gracz zostaje trafiony i otrzymuje obra\u017Cenia zgodnie z
         zasadami broni przeciwnika."
     - titleText: "Redukcja obra\u017Ce\u0144 przez pancerz"
-      contentInfoText: "Je\u015Bli gracz zostanie trafiony, obra\u017Cenia s\u0105
-        zmniejszane przez noszony pancerz: Lekki pancerz: Redukcja obra\u017Ce\u0144
-        o 4\u20136. \u015Aredni pancerz: Redukcja obra\u017Ce\u0144 o 7\u20139. Ci\u0119\u017Cki
-        pancerz: Redukcja obra\u017Ce\u0144 o 10\u201312. Pancerz nie wp\u0142ywa
-        na wynik rzutu, ale zmniejsza skutki pora\u017Cki."
+      contentInfoText: "\tJe\u015Bli gracz zostanie trafiony, obra\u017Cenia s\u0105
+        zmniejszane przez noszony pancerz: \n\tLekki pancerz: Redukcja obra\u017Ce\u0144
+        o 4\u20136. \n\t\u015Aredni pancerz: Redukcja obra\u017Ce\u0144 o 7\u20139.
+        \n\tCi\u0119\u017Cki pancerz: Redukcja obra\u017Ce\u0144 o 10\u201312. \nPancerz
+        nie wp\u0142ywa na wynik rzutu, ale zmniejsza skutki pora\u017Cki."
     - titleText: "Przyk\u0142ad rzutu na trafienie "
-      contentInfoText: "Sytuacja: Goblin z pistoletem atakuje gracza. ST Uniku: Stopie\u0144
-        bieg\u0142o\u015Bci goblina: +2 Modyfikator Zr\u0119czno\u015Bci goblina:
-        +3 Dodatkowy modyfikator za precyzyjn\u0105 bro\u0144 dystansow\u0105: +1
-        Finalne ST: 8 + 2 + 3 + 1 = 14.   Rzut gracza: Gracz rzuca k20 i dodaje modyfikator
-        Zr\u0119czno\u015Bci. Wynik 15: Gracz unika ataku i nie otrzymuje obra\u017Ce\u0144.
-        Wynik 13: Gracz zostaje trafiony. Obra\u017Cenia wynosz\u0105 8. Gracz nosi
-        lekki pancerz (redukcja obra\u017Ce\u0144 o 4). Finalne obra\u017Cenia: 8
-        - 4 = 4."
+      contentInfoText: "\tSytuacja: Goblin z pistoletem atakuje gracza. \nST Uniku:
+        Stopie\u0144 bieg\u0142o\u015Bci goblina: +2 Modyfikator Zr\u0119czno\u015Bci
+        goblina: +3 Dodatkowy modyfikator za precyzyjn\u0105 bro\u0144 dystansow\u0105:
+        +1 \nFinalne ST: 8 + 2 + 3 + 1 = 14.   \n\nRzut gracza: Gracz rzuca k20 i
+        dodaje modyfikator Zr\u0119czno\u015Bci. Wynik 15:\n Gracz unika ataku i
+        nie otrzymuje obra\u017Ce\u0144. Wynik 13: Gracz zostaje trafiony. Obra\u017Cenia
+        wynosz\u0105 8. Gracz nosi lekki pancerz (redukcja obra\u017Ce\u0144 o 4).
+        Finalne obra\u017Cenia: 8 - 4 = 4."
     - titleText: Dodatkowe modyfikatory ST
-      contentInfoText: "Os\u0142ony: Lekka os\u0142ona (np. mebel): -2 do ST. Ci\u0119\u017Cka
-        os\u0142ona (np. betonowa \u015Bciana): -5 do ST. Warunki bojowe: \u015Aliska
+      contentInfoText: "\tOs\u0142ony: Lekka os\u0142ona (np. mebel): -2 do ST. Ci\u0119\u017Cka
+        os\u0142ona (np. betonowa \u015Bciana): -5 do ST. \n\tWarunki bojowe: \u015Aliska
         pod\u0142oga, mg\u0142a: +2\u20133 do ST. Unik w trudnym terenie: dodatkowe
-        +2 do ST. Premie z umiej\u0119tno\u015Bci: Niekt\xF3re talenty i cechy mog\u0105
-        obni\u017Ca\u0107 ST "
+        +2 do ST.\n\tPremie z umiej\u0119tno\u015Bci: Niekt\xF3re talenty i cechy
+        mog\u0105 obni\u017Ca\u0107 ST "
   - knowledgeDataSectionName: "2. Zasady obra\u017Ce\u0144"
     knowledgeBaseDataNodesList:
     - titleText: "Wst\u0119p"
-      contentInfoText: "W BREACH 01 obra\u017Cenia s\u0105 zr\xF3\u017Cnicowane w
-        zale\u017Cno\u015Bci od broni i okoliczno\u015Bci ataku. Aby wzmocni\u0107
+      contentInfoText: "\tW BREACH 01 obra\u017Cenia s\u0105 zr\xF3\u017Cnicowane
+        w zale\u017Cno\u015Bci od broni i okoliczno\u015Bci ataku. \nAby wzmocni\u0107
         dynamik\u0119 walki i podkre\u015Bli\u0107 r\xF3\u017Cnice w poziomach zaawansowania
         sprz\u0119tu, obra\u017Cenia zawsze bazuj\u0105 na wielokrotno\u015Bciach
         ko\u015Bci k6, z mo\u017Cliwo\u015Bci\u0105 zastosowania modyfikator\xF3w
         oraz efektu U\u0142atwienia (U)."
     - titleText: "Obliczanie obra\u017Ce\u0144"
-      contentInfoText: "Bazowa warto\u015B\u0107 obra\u017Ce\u0144: Ka\u017Cda bro\u0144
-        ma okre\u015Blony poziom obra\u017Ce\u0144, np. k6, 2k6, 3k6 itd. 2. U\u0142atwienie
-        (U): Przy obra\u017Ceniach z U\u0142atwieniem rzucasz jedn\u0105 dodatkow\u0105
-        ko\u015Bci\u0105 i wybierasz najlepszy wynik (np. dla obra\u017Ce\u0144 k6+U
-        rzucasz 2k6 i wybierasz wy\u017Cszy wynik). 3. Modyfikatory broni: Bro\u0144
-        zaawansowana technologicznie lub wyj\u0105tkowo pot\u0119\u017Cna mo\u017Ce
-        mie\u0107 dodatkowy modyfikator do obra\u017Ce\u0144, np. +6."
+      contentInfoText: "\t1.Ka\u017Cda bro\u0144 ma okre\u015Blony poziom obra\u017Ce\u0144,
+        np. k6, 2k6, 3k6 itd. \n\t2.U\u0142atwienie (U): Przy obra\u017Ceniach z
+        U\u0142atwieniem rzucasz jedn\u0105 dodatkow\u0105 ko\u015Bci\u0105 i wybierasz
+        najlepszy wynik (np. dla obra\u017Ce\u0144 k6+U rzucasz 2k6 i wybierasz wy\u017Cszy
+        wynik). \n\t3. Modyfikatory broni: Bro\u0144 zaawansowana technologicznie
+        lub wyj\u0105tkowo pot\u0119\u017Cna mo\u017Ce mie\u0107 dodatkowy modyfikator
+        do obra\u017Ce\u0144, np. +6."
     - titleText: "Przyk\u0142ad zaawansowanej broni"
-      contentInfoText: "M\u0142ot bojowy z silnikiem rakietowym: 2k6+6 \u2013 po\u0142\u0105czenie
-        si\u0142y mechanicznej i technologii. Zaawansowany pistolet maszynowy: 2k6+4
-        \u2013 kompaktowa, szybka bro\u0144 dystansowa o wysokiej sile ra\u017Cenia.
-        Granat plazmowy: 4k6+U \u2013 niszczycielski efekt eksplozji plazmy."
+      contentInfoText: "\tM\u0142ot bojowy z silnikiem rakietowym: 2k6+6\npo\u0142\u0105czenie
+        si\u0142y mechanicznej i technologii. \n\tZaawansowany pistolet maszynowy:
+        2k6+4\nkompaktowa, szybka bro\u0144 dystansowa o wysokiej sile ra\u017Cenia.
+        \n\tGranat plazmowy: 4k6+U\nniszczycielski efekt eksplozji plazmy."
     - titleText: "Zalety systemu wielokrotno\u015Bci k6"
-      contentInfoText: "Szybkie rzuty: Jednolity system obra\u017Ce\u0144 upraszcza
+      contentInfoText: "\tSzybkie rzuty: Jednolity system obra\u017Ce\u0144 upraszcza
         kalkulacje i sprawia, \u017Ce gra toczy si\u0119 szybciej. Stopniowy rozw\xF3j:
         Przej\u015Bcie od k6 do 4k6 odzwierciedla rosn\u0105c\u0105 pot\u0119g\u0119
-        broni i wyzwania, przed kt\xF3rymi staj\u0105 gracze. Wi\u0119ksza niezawodno\u015B\u0107
+        broni i wyzwania, przed kt\xF3rymi staj\u0105 gracze. \n\tWi\u0119ksza niezawodno\u015B\u0107
         broni: Wi\u0119ksza liczba ko\u015Bci obra\u017Ce\u0144 oznacza wy\u017Csze
         minimalne obra\u017Cenia, eliminuj\u0105c sytuacje, gdzie pot\u0119\u017Cna
-        bro\u0144 zadaje wyj\u0105tkowo ma\u0142e obra\u017Cenia. Dynamiczne wybory:
-        Gracze mog\u0105 decydowa\u0107, czy zainwestowa\u0107 w lepsz\u0105 bro\u0144
-        lub znale\u017A\u0107 sposoby na zwi\u0119kszenie obra\u017Ce\u0144 poprzez
-        modyfikatory."
-  - knowledgeDataSectionName: "3. Rozw\xF3j postaci: Treningi"
+        bro\u0144 zadaje wyj\u0105tkowo ma\u0142e obra\u017Cenia. \n\tDynamiczne
+        wybory: Gracze mog\u0105 decydowa\u0107, czy zainwestowa\u0107 w lepsz\u0105
+        bro\u0144 lub znale\u017A\u0107 sposoby na zwi\u0119kszenie obra\u017Ce\u0144
+        poprzez modyfikatory."
+  - knowledgeDataSectionName: "3. Rozw\xF3j postaci"
     knowledgeBaseDataNodesList:
     - titleText: "Wst\u0119p"
-      contentInfoText: "W systemie BREACH 01 klasyczny rozw\xF3j cech ust\u0119puje
+      contentInfoText: "\tW systemie BREACH 01 klasyczny rozw\xF3j cech ust\u0119puje
         miejsca bardziej dynamicznemu systemowi Trening\xF3w. To w\u0142a\u015Bnie
         Treningi odzwierciedlaj\u0105 post\u0119py bohater\xF3w w opanowywaniu nowych
         umiej\u0119tno\u015Bci, doskonaleniu cech fizycznych i zdobywaniu unikalnych
-        zdolno\u015Bci. System ten pozwala na wi\u0119ksz\u0105 personalizacj\u0119
+        zdolno\u015Bci. \n\tSystem ten pozwala na wi\u0119ksz\u0105 personalizacj\u0119
         postaci, oferuj\u0105c graczom mo\u017Cliwo\u015B\u0107 wyboru spo\u015Br\xF3d
         r\xF3\u017Cnorodnych dr\xF3g rozwoju."
     - titleText: "Podstawowe Zasady Trening\xF3w"
-      contentInfoText: "1. Dwa Treningi na poziom: Na poziomach, na kt\xF3rych gracze
-        otrzymuj\u0105 Treningi, mog\u0105 wybra\u0107 dwa r\xF3\u017Cne Treningi.
+      contentInfoText: "\t1. Dwa Treningi na poziom: Na poziomach, na kt\xF3rych
+        gracze otrzymuj\u0105 Treningi, mog\u0105 wybra\u0107 dwa r\xF3\u017Cne Treningi.
         Nie mo\u017Cna wybra\u0107 tego samego Treningu dwukrotnie na tym samym poziomie.
         Gracze maj\u0105 pe\u0142n\u0105 swobod\u0119 w wyborze nowego Treningu lub
-        rozwijaniu ju\u017C wcze\u015Bniej wybranego. 2. Progresja Trening\xF3w:
+        rozwijaniu ju\u017C wcze\u015Bniej wybranego. \n\t2. Progresja Trening\xF3w:
         Treningi maj\u0105  poziomy, ale dost\u0119p do kolejnych poziom\xF3w zale\u017Cy
-        od og\xF3lnego poziomu postaci: Poziom 1 Treningu: Dost\u0119pny od 1. poziomu
-        postaci. Poziom 2 Treningu: Dost\u0119pny od 3. poziomu postaci. Poziom 3
-        Treningu: Dost\u0119pny od 7. poziomu postaci. Poziom 4 Treningu: Dost\u0119pny
-        od 10. poziomu postaci. 3. Elastyczno\u015B\u0107 wyboru: Treningi zast\u0119puj\u0105
-        system wieloklasowo\u015Bci (multiclassing). Dzi\u0119ki temu bohaterowie
-        mog\u0105 korzysta\u0107 z element\xF3w, kt\xF3re przypominaj\u0105 zdolno\u015Bci
-        innych klas, ale zintegrowane w jedn\u0105 sp\xF3jn\u0105 \u015Bcie\u017Ck\u0119
-        rozwoju."
+        od og\xF3lnego poziomu postaci: \nPoziom 1 Treningu: Dost\u0119pny od 1.
+        poziomu postaci. \nPoziom 2 Treningu: Dost\u0119pny od 3. poziomu postaci.
+        \nPoziom 3 Treningu: Dost\u0119pny od 7. poziomu postaci. \nPoziom 4 Treningu:
+        Dost\u0119pny od 10. poziomu postaci. \n\t3. Elastyczno\u015B\u0107 wyboru:
+        Treningi zast\u0119puj\u0105 system wieloklasowo\u015Bci (multiclassing).
+        Dzi\u0119ki temu bohaterowie mog\u0105 korzysta\u0107 z element\xF3w, kt\xF3re
+        przypominaj\u0105 zdolno\u015Bci innych klas, ale zintegrowane w jedn\u0105
+        sp\xF3jn\u0105 \u015Bcie\u017Ck\u0119 rozwoju."
     - titleText: "Zalety Systemu Trening\xF3w"
-      contentInfoText: "Wi\u0119ksza personalizacja: Gracze mog\u0105 tworzy\u0107
+      contentInfoText: "\tWi\u0119ksza personalizacja: Gracze mog\u0105 tworzy\u0107
         wyj\u0105tkowe postacie, \u0142\u0105cz\u0105c r\xF3\u017Cne style gry w
         ramach jednego bohatera. Szybszy rozw\xF3j: System Trening\xF3w jest prosty
         i szybki do wprowadzenia w grze, co sprzyja p\u0142ynno\u015Bci rozgrywki.
@@ -167,85 +168,84 @@ MonoBehaviour:
         os\u0142ony podczas obliczania rzut\xF3w obronnych, z wyj\u0105tkiem pe\u0142nej
         os\u0142ony."
     - titleText: "Przyk\u0142ad Rozwoju Postaci"
-      contentInfoText: "Bohater na 7. poziomie postaci mo\u017Ce wybra\u0107: Rozw\xF3j
-        Treningu Czujno\u015Bci: Z poziomu 2 na poziom 3. Rozpocz\u0119cie Treningu
-        w Strzelectwie Precyzyjnym na poziomie 1. Na 10. poziomie ten sam bohater
-        mo\u017Ce: Rozwin\u0105\u0107 Strzelectwo Precyzyjne z poziomu 1 na poziom
-        2. Rozwin\u0105\u0107 Czujno\u015B\u0107 z poziomu 3 na poziom 4.  System
+      contentInfoText: "\tBohater na 7. poziomie postaci mo\u017Ce wybra\u0107: \n\tRozw\xF3j
+        Treningu Czujno\u015Bci: Z poziomu 2 na poziom \n3. Rozpocz\u0119cie Treningu
+        w Strzelectwie Precyzyjnym na poziomie 1. \n\tNa 10. poziomie ten sam bohater
+        mo\u017Ce: \nRozwin\u0105\u0107 Strzelectwo Precyzyjne z poziomu 1 na poziom
+        2. Rozwin\u0105\u0107 Czujno\u015B\u0107 z poziomu 3 na poziom 4.  \n\tSystem
         Trening\xF3w daje graczom kontrol\u0119 nad rozwojem swoich postaci i zapewnia
         unikalne mo\u017Cliwo\u015Bci rozgrywki, zach\u0119caj\u0105c do przemy\u015Blanych
         decyzji i eksplorowania nowych mo\u017Cliwo\u015Bci!"
-  - knowledgeDataSectionName: "4. Leczenie i redukcja obra\u017Ce\u0144"
+  - knowledgeDataSectionName: '4. Leczenie '
     knowledgeBaseDataNodesList:
-    - titleText: "Redukcja Obra\u017Ce\u0144 za pomoc\u0105 Hit Dice"
-      contentInfoText: "W tej wersji systemu Hit Dice nie s\u0142u\u017C\u0105 ju\u017C
-        wy\u0142\u0105cznie do leczenia podczas odpoczynku. Teraz, po przyj\u0119ciu
+    - titleText: "Redukcja Obra\u017Ce\u0144"
+      contentInfoText: "\tW tej wersji systemu Hit Dice nie s\u0142u\u017C\u0105
+        ju\u017C wy\u0142\u0105cznie do leczenia podczas odpoczynku. Teraz, po przyj\u0119ciu
         obra\u017Ce\u0144, gracz mo\u017Ce zredukowa\u0107 otrzymane rany w ramach
-        reakcji na atak. Aby to zrobi\u0107, gracz wykonuje rzut na Hit Dice, kt\xF3ry
-        jest zale\u017Cny od klasy postaci (np. k6, k8, k10, k12) i dodaje do tego
-        modyfikator z Kondycji. Wynik rzutu to liczba punkt\xF3w zdrowia, o kt\xF3re
-        gracz zmniejsza obra\u017Cenia przyj\u0119te w tej turze. Przyk\u0142ad:
+        reakcji na atak. \n\tAby to zrobi\u0107, gracz wykonuje rzut na Hit Dice,
+        kt\xF3ry jest zale\u017Cny od klasy postaci (np. k6, k8, k10, k12) i dodaje
+        do tego modyfikator z Kondycji. Wynik rzutu to liczba punkt\xF3w zdrowia,
+        o kt\xF3re gracz zmniejsza obra\u017Cenia przyj\u0119te w tej turze. \n\tPrzyk\u0142ad:
         Je\u015Bli gracz ma klas\u0119, kt\xF3ra u\u017Cywa k10 jako Hit Dice, a
         jego modyfikator z Kondycji wynosi +2, wykonuje rzut na k10 i dodaje wynik
         do redukcji obra\u017Ce\u0144. Je\u017Celi gracz otrzyma\u0142 obra\u017Cenia
         10 punkt\xF3w, a wynik rzutu to 7 (rzut na k10), to obra\u017Cenia zostan\u0105
         zmniejszone o 7+2 punkt\xF3w, a posta\u0107 otrzyma 1 punkt obra\u017Ce\u0144."
     - titleText: Leczenie Przedmiotami
-      contentInfoText: "W grze dost\u0119pne b\u0119d\u0105 r\xF3\u017Cne przedmioty,
+      contentInfoText: "\tW grze dost\u0119pne b\u0119d\u0105 r\xF3\u017Cne przedmioty,
         kt\xF3re pozwalaj\u0105 na leczenie i redukcj\u0119 obra\u017Ce\u0144. Zamiast
         jednej uniwersalnej apteczki, gracze b\u0119d\u0105 mieli do dyspozycji r\xF3\u017Cne
-        opcje, kt\xF3re b\u0119d\u0105 bardziej dostosowane do sytuacji. Apteczka
-        Efekt: Apteczka leczy 2d6 + Modyfikator z Kondycji obra\u017Ce\u0144. Jest
-        to efektywne narz\u0119dzie leczenia, kt\xF3re mo\u017Cna wykorzysta\u0107,
-        gdy posta\u0107 potrzebuje odbudowa\u0107 zdrowie. Ograniczenia: Apteczka
-        mo\u017Ce by\u0107 u\u017Cyta tylko raz na sesj\u0119 lub w okre\u015Blonych
-        odst\u0119pach czasowych, np. 1 raz na 3 walki. Mo\u017Ce by\u0107 tak\u017Ce
-        ograniczona liczb\u0105 dost\u0119pnych apteczek w grze (np. 2 apteczki na
-        kampani\u0119). U\u017Cycie: Apteczka jest u\u017Cywana jako akcja standardowa
-        w turze postaci, co oznacza, \u017Ce posta\u0107 musi po\u015Bwi\u0119ci\u0107
-        swoj\u0105 akcj\u0119, aby si\u0119 uleczy\u0107. Spray Lecz\u0105cy Efekt:
-        Spray Lecz\u0105cy to szybki i dora\u017Any spos\xF3b leczenia, kt\xF3ry
-        przywraca 1d6 + Modyfikator z Kondycji obra\u017Ce\u0144. Jest to mniej pot\u0119\u017Cne
-        rozwi\u0105zanie ni\u017C apteczka, ale pozwala na natychmiastowe leczenie.
-        Ograniczenia: Spray Lecz\u0105cy mo\u017Ce by\u0107 u\u017Cywany 3 razy na
-        sesj\u0119, ale nie wi\u0119cej ni\u017C raz w turze. Mo\u017Ce by\u0107
-        u\u017Cywany cz\u0119\u015Bciej ni\u017C apteczka, ale jego efekt jest mniej
-        pot\u0119\u017Cny. U\u017Cycie: Spray mo\u017Ce by\u0107 u\u017Cywany jako
-        akcja bonusowa lub pe\u0142na, w zale\u017Cno\u015Bci od sytuacji i zasob\xF3w
-        gracza."
+        opcje, kt\xF3re b\u0119d\u0105 bardziej dostosowane do sytuacji. \n\tApteczka
+        leczy 2d6 + Modyfikator z Kondycji obra\u017Ce\u0144. Jest to efektywne narz\u0119dzie
+        leczenia, kt\xF3re mo\u017Cna wykorzysta\u0107, gdy posta\u0107 potrzebuje
+        odbudowa\u0107 zdrowie. \n\tOgraniczenia: Apteczka mo\u017Ce by\u0107 u\u017Cyta
+        tylko raz na sesj\u0119 lub w okre\u015Blonych odst\u0119pach czasowych,
+        np. 1 raz na 3 walki. Mo\u017Ce by\u0107 tak\u017Ce ograniczona liczb\u0105
+        dost\u0119pnych apteczek w grze (np. 2 apteczki na kampani\u0119). \n\tU\u017Cycie:
+        Apteczka jest u\u017Cywana jako akcja standardowa w turze postaci, co oznacza,
+        \u017Ce posta\u0107 musi po\u015Bwi\u0119ci\u0107 swoj\u0105 akcj\u0119,
+        aby si\u0119 uleczy\u0107. \n\n\tSpray Lecz\u0105cy to szybki i dora\u017Any
+        spos\xF3b leczenia, kt\xF3ry przywraca 1d6 + Modyfikator z Kondycji obra\u017Ce\u0144.
+        \n\tJest to mniej pot\u0119\u017Cne rozwi\u0105zanie ni\u017C apteczka, ale
+        pozwala na natychmiastowe leczenie. \n\tOgraniczenia: Spray Lecz\u0105cy
+        mo\u017Ce by\u0107 u\u017Cywany 3 razy na sesj\u0119, ale nie wi\u0119cej
+        ni\u017C raz w turze. Mo\u017Ce by\u0107 u\u017Cywany cz\u0119\u015Bciej
+        ni\u017C apteczka, ale jego efekt jest mniej pot\u0119\u017Cny. \n\tU\u017Cycie:
+        Spray mo\u017Ce by\u0107 u\u017Cywany jako akcja bonusowa lub pe\u0142na,
+        w zale\u017Cno\u015Bci od sytuacji i zasob\xF3w gracza."
     - titleText: Inne Przedmioty Lecznicze
-      contentInfoText: "W grze mog\u0105 pojawi\u0107 si\u0119 r\xF3wnie\u017C inne
-        przedmioty wspomagaj\u0105ce leczenie: 1. Zio\u0142a Lecznicze: Przedmiot,
-        kt\xF3ry leczy 2d6 obra\u017Ce\u0144 przez 3 tury, stosuj\u0105c efekt leczenia
-        stopniowo. 2. Punkty Medyczne: Tymczasowe punkty zdrowia, kt\xF3re zwi\u0119kszaj\u0105
-        ilo\u015B\u0107 punkt\xF3w zdrowia postaci na okre\u015Blony czas, np. +5
-        HP przez 1 godzin\u0119."
+      contentInfoText: "\tW grze mog\u0105 pojawi\u0107 si\u0119 r\xF3wnie\u017C
+        inne przedmioty wspomagaj\u0105ce leczenie: \n\t1. Zio\u0142a Lecznicze:
+        Przedmiot, kt\xF3ry leczy 2d6 obra\u017Ce\u0144 przez 3 tury, stosuj\u0105c
+        efekt leczenia stopniowo. \n\t2. Punkty Medyczne: Tymczasowe punkty zdrowia,
+        kt\xF3re zwi\u0119kszaj\u0105 ilo\u015B\u0107 punkt\xF3w zdrowia postaci
+        na okre\u015Blony czas, np. +5 HP przez 1 godzin\u0119."
     - titleText: "Umiej\u0119tno\u015Bci Leczenia"
-      contentInfoText: "Opr\xF3cz przedmiot\xF3w, postacie mog\u0105 mie\u0107 dost\u0119p
-        do specjalnych umiej\u0119tno\u015Bci leczenia, kt\xF3re umo\u017Cliwiaj\u0105
-        regeneracj\u0119 zdrowia w trakcie walki lub po niej. Drugi Oddech (\u017Bo\u0142nierz)
+      contentInfoText: "\tOpr\xF3cz przedmiot\xF3w, postacie mog\u0105 mie\u0107
+        dost\u0119p do specjalnych umiej\u0119tno\u015Bci leczenia, kt\xF3re umo\u017Cliwiaj\u0105
+        regeneracj\u0119 zdrowia w trakcie walki lub po niej. \n-Drugi Oddech (\u017Bo\u0142nierz)
         Efekt: Umo\u017Cliwia natychmiastowe leczenie 1d6 + Modyfikator z Kondycji.
         Jest to umiej\u0119tno\u015B\u0107, kt\xF3r\u0105 mo\u017Cna wykorzysta\u0107,
         gdy posta\u0107 znajduje si\u0119 w stanie umieraj\u0105cym lub z bardzo
-        niskim zdrowiem. Ograniczenia: Mo\u017Ce by\u0107 u\u017Cyta tylko raz na
-        walk\u0119, aby unikn\u0105\u0107 nadu\u017Cywania tej umiej\u0119tno\u015Bci.
-        Zdolno\u015Bci Leczenia innych postaci \tInne klasy mog\u0105 mie\u0107 umiej\u0119tno\u015Bci
-        zwi\u0105zane z leczeniem towarzyszy, np. Medyk, kt\xF3ry mo\u017Ce leczy\u0107
-        swoich sojusznik\xF3w za pomoc\u0105 1d6 + Modyfikator z Kondycji. Takie
-        umiej\u0119tno\u015Bci mog\u0105 by\u0107 ograniczone liczb\u0105 u\u017Cy\u0107
-        na tur\u0119 lub na sesj\u0119, aby zachowa\u0107 balans."
-    - titleText: "Dora\u017Ane Leczenie \u2013 Szybka Pomoc"
-      contentInfoText: "W krytycznych momentach walki, gracze mog\u0105 wykorzysta\u0107
+        niskim zdrowiem. \n\tOgraniczenia: Mo\u017Ce by\u0107 u\u017Cyta tylko raz
+        na walk\u0119, aby unikn\u0105\u0107 nadu\u017Cywania tej umiej\u0119tno\u015Bci.
+        \n-Zdolno\u015Bci Leczenia innych postaci Inne klasy mog\u0105 mie\u0107
+        umiej\u0119tno\u015Bci zwi\u0105zane z leczeniem towarzyszy, np. Medyk, kt\xF3ry
+        mo\u017Ce leczy\u0107 swoich sojusznik\xF3w za pomoc\u0105 1d6 + Modyfikator
+        z Kondycji. Takie umiej\u0119tno\u015Bci mog\u0105 by\u0107 ograniczone liczb\u0105
+        u\u017Cy\u0107 na tur\u0119 lub na sesj\u0119, aby zachowa\u0107 balans."
+    - titleText: "Dora\u017Ane Leczenie"
+      contentInfoText: "\tW krytycznych momentach walki, gracze mog\u0105 wykorzysta\u0107
         przedmioty i umiej\u0119tno\u015Bci do szybkiej regeneracji zdrowia, co daje
         im czas na przeorganizowanie strategii lub kontynuowanie walki. Z pomoc\u0105
         przedmiot\xF3w takich jak spray leczniczy, medykamenty, a tak\u017Ce umiej\u0119tno\u015Bci
         jak Drugi Oddech, gracze b\u0119d\u0105 w stanie prze\u017Cy\u0107 nawet
         najbardziej niebezpieczne starcia."
     - titleText: Podsumowanie
-      contentInfoText: "Leczenie w tym systemie sta\u0142o si\u0119 bardziej elastyczne
+      contentInfoText: "\tLeczenie w tym systemie sta\u0142o si\u0119 bardziej elastyczne
         i strategiczne, daj\u0105c graczom szereg opcji, kt\xF3re pozwalaj\u0105
         im na szybsze dostosowanie si\u0119 do zmieniaj\u0105cej si\u0119 sytuacji
-        na polu bitwy. Leczenie nie jest ju\u017C tylko kwesti\u0105 odpoczynku,
+        na polu bitwy. \n\tLeczenie nie jest ju\u017C tylko kwesti\u0105 odpoczynku,
         ale wymaga szybkich decyzji o u\u017Cyciu odpowiednich przedmiot\xF3w i umiej\u0119tno\u015Bci,
         aby przetrwa\u0107 w niebezpiecznych starciach. System ten wprowadza tak\u017Ce
         r\xF3\u017Cnorodno\u015B\u0107 w sposobie leczenia, dzi\u0119ki czemu gracze
@@ -254,79 +254,80 @@ MonoBehaviour:
   - knowledgeDataSectionName: 5. Pancerze
     knowledgeBaseDataNodesList:
     - titleText: "Wst\u0119p"
-      contentInfoText: "Pancerze w systemie s\u0142u\u017C\u0105 do redukcji obra\u017Ce\u0144
+      contentInfoText: "\tPancerze w systemie s\u0142u\u017C\u0105 do redukcji obra\u017Ce\u0144
         zamiast zwi\u0119kszania klasy pancerza (AC). Ich efektywno\u015B\u0107 oraz
         wp\u0142yw na posta\u0107 zale\u017C\u0105 od rodzaju pancerza i bieg\u0142o\u015Bci
         w jego u\u017Cywaniu. Postacie mog\u0105 zdobywa\u0107 bieg\u0142o\u015B\u0107
         w lekkich, \u015Brednich i ci\u0119\u017Ckich pancerzach w ramach swojej
         klasy lub dzi\u0119ki treningom."
-    - titleText: "Brak Bieg\u0142o\u015Bci w Pancerzu: Konsekwencje"
-      contentInfoText: "1. Ograniczona Redukcja Obra\u017Ce\u0144: Posta\u0107 bez
-        bieg\u0142o\u015Bci w danym pancerzu korzysta z jego funkcji w ograniczonym
+    - titleText: "Brak Bieg\u0142o\u015Bci w Pancerzu"
+      contentInfoText: "\t1. Ograniczona Redukcja Obra\u017Ce\u0144: Posta\u0107
+        bez bieg\u0142o\u015Bci w danym pancerzu korzysta z jego funkcji w ograniczonym
         zakresie: Lekki Pancerz: Redukcja obra\u017Ce\u0144 zmniejszona o 1 punkt.
         \u015Aredni i Ci\u0119\u017Cki Pancerz: Redukcja obra\u017Ce\u0144 zmniejszona
         o 2 punkty. (Przyk\u0142ad: \u015Aredni pancerz redukuj\u0105cy obra\u017Cenia
         o 4 dzia\u0142a tylko na poziomie 2, je\u015Bli posta\u0107 nie ma w nim
-        bieg\u0142o\u015Bci.) 2. Kary do Test\xF3w Unik\xF3w: \u015Aredni Pancerz:
+        bieg\u0142o\u015Bci.) \n\t2. Kary do Test\xF3w Unik\xF3w: \u015Aredni Pancerz:
         Utrudnienie na testy unikania obra\u017Ce\u0144 wymagaj\u0105ce Zr\u0119czno\u015Bci
         lub Kondycji. Ci\u0119\u017Cki Pancerz: Utrudnienie na wszystkie testy unikania
-        obra\u017Ce\u0144. 3. Ograniczenia Akcji: Lekki Pancerz: Minimalne ograniczenia,
+        obra\u017Ce\u0144. \n\t3. Ograniczenia Akcji: Lekki Pancerz: Minimalne ograniczenia,
         mo\u017Cliwe utrudnienia na Skradanie si\u0119 w specyficznych sytuacjach
         (np. bardzo cichy teren). \u015Aredni Pancerz: Utrudnienia w akcjach wymagaj\u0105cych
         du\u017Cej precyzji i swobody ruchu. Ci\u0119\u017Cki Pancerz: Zwi\u0119kszona
         trudno\u015B\u0107 w wykonywaniu akcji ruchowych i unikania."
     - titleText: "Korzy\u015Bci z Bieg\u0142o\u015Bci w Pancerzach"
-      contentInfoText: "1. Pe\u0142na Redukcja Obra\u017Ce\u0144: Posta\u0107 z bieg\u0142o\u015Bci\u0105
-        w danym pancerzu korzysta z jego maksymalnych mo\u017Cliwo\u015Bci ochronnych.
-        2. Brak Kar do Test\xF3w Unik\xF3w: Bieg\u0142o\u015B\u0107 eliminuje wszelkie
-        utrudnienia w unikaniu atak\xF3w oraz wykonywaniu innych test\xF3w Zr\u0119czno\u015Bci
-        i Kondycji. 3. Dost\u0119p do Zaawansowanych Funkcji: Niekt\xF3re pancerze
-        maj\u0105 specjalne w\u0142a\u015Bciwo\u015Bci, kt\xF3re s\u0105 aktywne
-        tylko przy bieg\u0142o\u015Bci w ich u\u017Cywaniu, np. dodatkowe redukcje
-        obra\u017Ce\u0144 od broni energetycznej, systemy wspomagaj\u0105ce ruch,
-        czy specjalne tryby ochrony. 4. Swobodny Styl Walki: Posta\u0107 mo\u017Ce
-        korzysta\u0107 z zaawansowanych taktyk, takich jak szybka zmiana pozycji,
-        korzystanie z akcji dodatkowych czy rzuty na Skradanie si\u0119 bez ogranicze\u0144."
-  - knowledgeDataSectionName: 6. Nowe Akcje dla Postaci
+      contentInfoText: "\t1. Pe\u0142na Redukcja Obra\u017Ce\u0144: Posta\u0107 z
+        bieg\u0142o\u015Bci\u0105 w danym pancerzu korzysta z jego maksymalnych mo\u017Cliwo\u015Bci
+        ochronnych. \n\t2. Brak Kar do Test\xF3w Unik\xF3w: Bieg\u0142o\u015B\u0107
+        eliminuje wszelkie utrudnienia w unikaniu atak\xF3w oraz wykonywaniu innych
+        test\xF3w Zr\u0119czno\u015Bci i Kondycji. \n\t3. Dost\u0119p do Zaawansowanych
+        Funkcji: Niekt\xF3re pancerze maj\u0105 specjalne w\u0142a\u015Bciwo\u015Bci,
+        kt\xF3re s\u0105 aktywne tylko przy bieg\u0142o\u015Bci w ich u\u017Cywaniu,
+        np. dodatkowe redukcje obra\u017Ce\u0144 od broni energetycznej, systemy
+        wspomagaj\u0105ce ruch, czy specjalne tryby ochrony. \n\t4. Swobodny Styl
+        Walki: Posta\u0107 mo\u017Ce korzysta\u0107 z zaawansowanych taktyk, takich
+        jak szybka zmiana pozycji, korzystanie z akcji dodatkowych czy rzuty na Skradanie
+        si\u0119 bez ogranicze\u0144."
+  - knowledgeDataSectionName: 6. Nowe Akcje
     knowledgeBaseDataNodesList:
     - titleText: "Ogie\u0144 Zaporowy"
-      contentInfoText: "Ka\u017Cda bro\u0144 palna mo\u017Ce by\u0107 u\u017Cyta
-        do ognia zaporowego. W ramach akcji mo\u017Cesz wystrzeli\u0107 w obszar
+      contentInfoText: "\tKa\u017Cda bro\u0144 palna mo\u017Ce by\u0107 u\u017Cyta
+        do ognia zaporowego. \nW ramach akcji mo\u017Cesz wystrzeli\u0107 w obszar
         o wymiarach 3x3 metry (10x10 st\xF3p) w zasi\u0119gu broni, zu\u017Cywaj\u0105c
         maksymalnie 10 sztuk amunicji. Ka\u017Cde stworzenie w obszarze musi wykona\u0107
         rzut obronny na M\u0105dro\u015B\u0107 (ST = 8 + liczba wystrzelonych kul)
-        lub podlega efektowi do pocz\u0105tku twojej nast\u0119pnej tury. Stworzenie
+        lub podlega efektowi do pocz\u0105tku twojej nast\u0119pnej tury. \nStworzenie
         pod wp\u0142ywem ognia zaporowego nie mo\u017Ce dobrowolnie zbli\u017Cy\u0107
         si\u0119 do \u017Ar\xF3d\u0142a ataku. Na krytycznym niepowodzeniu stworzenie
         otrzymuje r\xF3wnie\u017C obra\u017Cenia od broni. Cel automatycznie odnosi
         sukces w rzucie, je\u015Bli jest odporny na efekt Przera\u017Cenie."
     - titleText: Atak Okazjonalny z Dystansu
-      contentInfoText: "Je\u015Bli stworzenie, w kt\xF3re celujesz, poruszy si\u0119
+      contentInfoText: "\tJe\u015Bli stworzenie, w kt\xF3re celujesz, poruszy si\u0119
         o wi\u0119cej ni\u017C 1,5 metra (5 st\xF3p) podczas swojej tury i nie jest
         za zas\u0142on\u0105, mo\u017Cesz w ramach reakcji wykona\u0107 jeden atak
         z u\u017Cyciem uzbrojonej broni dystansowej, pod warunkiem \u017Ce masz zasi\u0119g
         i lini\u0119 widzenia do celu."
     - titleText: Celowanie
-      contentInfoText: "W ramach akcji mo\u017Cesz skupi\u0107 si\u0119 na jednym
+      contentInfoText: "\tW ramach akcji mo\u017Cesz skupi\u0107 si\u0119 na jednym
         celu, uzyskuj\u0105c premi\u0119 +2 do wszystkich atak\xF3w dystansowych
         przeciwko temu celowi. Mo\u017Cesz celowa\u0107 tylko w jeden cel naraz,
         a je\u015Bli cel zniknie z linii widzenia, celowanie musi zosta\u0107 ponownie
         wykonane."
     - titleText: "Ogie\u0144 Seri\u0105"
-      contentInfoText: "Podczas ataku z broni\u0105 posiadaj\u0105c\u0105 w\u0142a\u015Bciwo\u015B\u0107
+      contentInfoText: "\tPodczas ataku z broni\u0105 posiadaj\u0105c\u0105 w\u0142a\u015Bciwo\u015B\u0107
         Seria, mo\u017Cesz wystrzeli\u0107 jedn\u0105 seri\u0119 na ka\u017Cdy mo\u017Cliwy
-        atak twojej postaci. Tw\xF3j atak otrzymuje kar\u0119 -5 za ka\u017Cde przekroczenie
-        zasi\u0119gu broni o jej wielokrotno\u015B\u0107. Ka\u017Cda seria zu\u017Cywa
-        3 sztuki amunicji. Je\u015Bli magazyn broni nie zawiera wystarczaj\u0105cej
-        ilo\u015Bci amunicji, atak traktowany jest jak pojedynczy strza\u0142. Je\u015Bli
-        trafisz cel seri\u0105, uzyskujesz jedno dodatkowe trafienie za ka\u017Cde
-        pe\u0142ne 5 punkt\xF3w, o kt\xF3re wynik ataku przewy\u017Csza ST trafienia
-        celu. Liczba dodatkowych trafie\u0144 nie mo\u017Ce przekroczy\u0107 liczby
-        kul wystrzelonych w danej serii."
+        atak twojej postaci. \n\tTw\xF3j atak otrzymuje kar\u0119 -5 za ka\u017Cde
+        przekroczenie zasi\u0119gu broni o jej wielokrotno\u015B\u0107. Ka\u017Cda
+        seria zu\u017Cywa 3 sztuki amunicji. Je\u015Bli magazyn broni nie zawiera
+        wystarczaj\u0105cej ilo\u015Bci amunicji, atak traktowany jest jak pojedynczy
+        strza\u0142. \n\tJe\u015Bli trafisz cel seri\u0105, uzyskujesz jedno dodatkowe
+        trafienie za ka\u017Cde pe\u0142ne 5 punkt\xF3w, o kt\xF3re wynik ataku przewy\u017Csza
+        ST trafienia celu. Liczba dodatkowych trafie\u0144 nie mo\u017Ce przekroczy\u0107
+        liczby kul wystrzelonych w danej serii."
     - titleText: Tryby Automatyczne
-      contentInfoText: "Bro\u0144 z w\u0142a\u015Bciwo\u015Bci\u0105 Automatyczna
-        umo\u017Cliwia trzy r\xF3\u017Cne tryby ataku: 1. Rozproszenie (Spray): W
-        ramach akcji mo\u017Cesz wybra\u0107 liczb\u0119 s\u0105siaduj\u0105cych
+      contentInfoText: "\tBro\u0144 z w\u0142a\u015Bciwo\u015Bci\u0105 Automatyczna
+        umo\u017Cliwia trzy r\xF3\u017Cne tryby ataku: \n\t1. Rozproszenie (Spray):
+        W ramach akcji mo\u017Cesz wybra\u0107 liczb\u0119 s\u0105siaduj\u0105cych
         cel\xF3w od 1 do maksymalnej warto\u015Bci r\xF3wnej twojemu modyfikatorowi
         Zr\u0119czno\u015Bci. Wykonaj osobny atak przeciwko ka\u017Cdemu celowi,
         stosuj\u0105c kar\u0119 -5 do wszystkich rzut\xF3w za ka\u017Cde dodatkowe
@@ -335,80 +336,81 @@ MonoBehaviour:
         1d4+2 sztuki amunicji na cel. Rzu\u0107 na zu\u017Cycie amunicji po ka\u017Cdym
         ataku. Je\u015Bli zabraknie amunicji, akcja zostaje zako\u0144czona. Przy
         trafieniu celu mo\u017Cesz uzyska\u0107 dodatkowe trafienia na tych samych
-        zasadach jak w Ogniu Seri\u0105. 2. Seria Skupiona (Riddle): W ramach akcji
-        mo\u017Cesz wystrzeli\u0107 liczb\u0119 serii r\xF3wn\u0105 twojemu modyfikatorowi
-        Zr\u0119czno\u015Bci w pojedynczy cel. Ka\u017Cda dodatkowa seria poza pierwsz\u0105
-        nak\u0142ada kar\u0119 -5 do wszystkich rzut\xF3w. Ten tryb zu\u017Cywa 1d4+2
-        sztuki amunicji na ka\u017Cd\u0105 seri\u0119. Je\u015Bli zabraknie amunicji,
-        akcja zostaje zako\u0144czona. Trafienia s\u0105 liczone jak w Ogniu Seri\u0105.
-        3. Kontrolowany Ogie\u0144 (Controlled Burst): W ramach akcji mo\u017Cesz
-        wystrzeli\u0107 jedn\u0105 kontrolowan\u0105 seri\u0119 na ka\u017Cdy mo\u017Cliwy
-        atak twojej postaci. Otrzymujesz kar\u0119 -5 za ka\u017Cde przekroczenie
-        zasi\u0119gu broni o jej wielokrotno\u015B\u0107. Ten tryb zu\u017Cywa 1d4+2
-        sztuki amunicji. Je\u015Bli zabraknie amunicji, atak traktowany jest jak
-        pojedynczy strza\u0142. Trafienia liczone s\u0105 jak w Ogniu Seri\u0105."
+        zasadach jak w Ogniu Seri\u0105. \n\t2. Seria Skupiona (Riddle): W ramach
+        akcji mo\u017Cesz wystrzeli\u0107 liczb\u0119 serii r\xF3wn\u0105 twojemu
+        modyfikatorowi Zr\u0119czno\u015Bci w pojedynczy cel. Ka\u017Cda dodatkowa
+        seria poza pierwsz\u0105 nak\u0142ada kar\u0119 -5 do wszystkich rzut\xF3w.
+        Ten tryb zu\u017Cywa 1d4+2 sztuki amunicji na ka\u017Cd\u0105 seri\u0119.
+        Je\u015Bli zabraknie amunicji, akcja zostaje zako\u0144czona. Trafienia s\u0105
+        liczone jak w Ogniu Seri\u0105. \n\t3. Kontrolowany Ogie\u0144 (Controlled
+        Burst): W ramach akcji mo\u017Cesz wystrzeli\u0107 jedn\u0105 kontrolowan\u0105
+        seri\u0119 na ka\u017Cdy mo\u017Cliwy atak twojej postaci. Otrzymujesz kar\u0119
+        -5 za ka\u017Cde przekroczenie zasi\u0119gu broni o jej wielokrotno\u015B\u0107.
+        Ten tryb zu\u017Cywa 1d4+2 sztuki amunicji. Je\u015Bli zabraknie amunicji,
+        atak traktowany jest jak pojedynczy strza\u0142. Trafienia liczone s\u0105
+        jak w Ogniu Seri\u0105."
   - knowledgeDataSectionName: "7. Zasady Os\u0142ony"
     knowledgeBaseDataNodesList:
     - titleText: "Wst\u0119p"
-      contentInfoText: "W dynamicznych starciach os\u0142ony odgrywaj\u0105 kluczow\u0105
+      contentInfoText: "\tW dynamicznych starciach os\u0142ony odgrywaj\u0105 kluczow\u0105
         rol\u0119, zapewniaj\u0105c ochron\u0119 przed atakami i zwi\u0119kszaj\u0105c
         szanse na przetrwanie. Mechanika os\u0142on w tym systemie skupia si\u0119
         na zmianach poziomu trudno\u015Bci test\xF3w uniku oraz absorpcji obra\u017Ce\u0144
         przez przeszkody fizyczne."
     - titleText: "Rodzaje os\u0142on"
-      contentInfoText: "Mi\u0119kka os\u0142ona Mi\u0119kka os\u0142ona to efekty
-        ograniczaj\u0105ce widoczno\u015B\u0107, takie jak dym, para, g\u0119sta
-        ro\u015Blinno\u015B\u0107 czy mg\u0142a. Chroni\u0105 one g\u0142\xF3wnie
-        przez utrudnianie trafienia celu. Efekty mi\u0119kkiej os\u0142ony: \xBD
-        mi\u0119kka os\u0142ona: ST testu uniku wzrasta o 1. \xBE mi\u0119kka os\u0142ona:
-        ST testu uniku wzrasta o 2. Pe\u0142na mi\u0119kka os\u0142ona: Test uniku
-        wykonywany jest z u\u0142atwieniem. Twarda os\u0142ona Twarda os\u0142ona
-        to fizyczne przeszkody, takie jak mury, barykady czy skrzynie. Chroni\u0105
-        one zar\xF3wno przez zmniejszanie skuteczno\u015Bci atak\xF3w, jak i poprzez
-        absorpcj\u0119 obra\u017Ce\u0144. 1. Redukcja obra\u017Ce\u0144: \xBD twarda
-        os\u0142ona: Redukuje obra\u017Cenia o 2. \xBE twarda os\u0142ona: Redukuje
-        obra\u017Cenia o 5. 2. Efekty dla test\xF3w uniku: \xBD twarda os\u0142ona:
-        ST testu uniku wzrasta o 1. \xBE twarda os\u0142ona: ST testu uniku wzrasta
-        o 2. 3. Pe\u0142na twarda os\u0142ona: Cel za pe\u0142n\u0105 tward\u0105
-        os\u0142on\u0105 nie mo\u017Ce by\u0107 bezpo\u015Brednim celem ataku. Ataki
-        obszarowe mog\u0105 jednak nadal wp\u0142ywa\u0107 na cel, je\u015Bli obejmuj\u0105
-        obszar os\u0142ony."
+      contentInfoText: "\tMi\u0119kka os\u0142ona: Efekty ograniczaj\u0105ce widoczno\u015B\u0107,
+        takie jak dym, para, g\u0119sta ro\u015Blinno\u015B\u0107 czy mg\u0142a.
+        Chroni\u0105 one g\u0142\xF3wnie przez utrudnianie trafienia celu. Efekty
+        mi\u0119kkiej os\u0142ony: \xBD mi\u0119kka os\u0142ona: ST testu uniku wzrasta
+        o 1. \xBE mi\u0119kka os\u0142ona: ST testu uniku wzrasta o 2. Pe\u0142na
+        mi\u0119kka os\u0142ona: Test uniku wykonywany jest z u\u0142atwieniem. \n\tTwarda
+        os\u0142ona: Fizyczne przeszkody, takie jak mury, barykady czy skrzynie.
+        Chroni\u0105 one zar\xF3wno przez zmniejszanie skuteczno\u015Bci atak\xF3w,
+        jak i poprzez absorpcj\u0119 obra\u017Ce\u0144. \n\t1. Redukcja obra\u017Ce\u0144:
+        \n\xBD twarda os\u0142ona: Redukuje obra\u017Cenia o 2. \xBE twarda os\u0142ona:
+        Redukuje obra\u017Cenia o 5. \n\t2. Efekty dla test\xF3w uniku: \xBD twarda
+        os\u0142ona: ST testu uniku wzrasta o 1. \xBE twarda os\u0142ona: ST testu
+        uniku wzrasta o 2. \n\t3. Pe\u0142na twarda os\u0142ona: Cel za pe\u0142n\u0105
+        tward\u0105 os\u0142on\u0105 nie mo\u017Ce by\u0107 bezpo\u015Brednim celem
+        ataku. Ataki obszarowe mog\u0105 jednak nadal wp\u0142ywa\u0107 na cel, je\u015Bli
+        obejmuj\u0105 obszar os\u0142ony."
     - titleText: "Mechanika niszczenia os\u0142on"
-      contentInfoText: "Os\u0142ony mog\u0105 ulec uszkodzeniu pod wp\u0142ywem atak\xF3w.
-        1. Wytrzyma\u0142o\u015B\u0107 os\u0142ony: \xBD os\u0142ona: Wytrzyma\u0142o\u015B\u0107
-        wynosi 25 HP. \xBE os\u0142ona: Wytrzyma\u0142o\u015B\u0107 wynosi 50 HP.
-        Os\u0142ony maj\u0105 odporno\u015B\u0107 na obra\u017Cenia fizyczne i eksplozje.
-        2. Degradacja os\u0142ony: Po utracie po\u0142owy HP, os\u0142ona traci na
-        skuteczno\u015Bci: \xBE os\u0142ona zmienia si\u0119 w \xBD os\u0142on\u0119.
-        \xBD os\u0142ona przestaje zapewnia\u0107 ochron\u0119. 3. Efekty zniszczenia
-        os\u0142ony: Zniszczona os\u0142ona staje si\u0119 trudnym terenem. Nadmiar
-        obra\u017Ce\u0144, kt\xF3re przebi\u0142y si\u0119 przez os\u0142on\u0119,
-        przenosi si\u0119 na chronion\u0105 posta\u0107."
-    - titleText: "Opcjonalna zasada: Koszt ruchu przy korzystaniu z os\u0142ony"
-      contentInfoText: "Aby unikn\u0105\u0107 zbyt cz\u0119stego \u201Ewygl\u0105dania
+      contentInfoText: "\tOs\u0142ony mog\u0105 ulec uszkodzeniu pod wp\u0142ywem
+        atak\xF3w. \n\t1. Wytrzyma\u0142o\u015B\u0107 os\u0142ony: \xBD os\u0142ona:
+        Wytrzyma\u0142o\u015B\u0107 wynosi 25 HP. \xBE os\u0142ona: Wytrzyma\u0142o\u015B\u0107
+        wynosi 50 HP. Os\u0142ony maj\u0105 odporno\u015B\u0107 na obra\u017Cenia
+        fizyczne i eksplozje. \n\t2. Degradacja os\u0142ony: Po utracie po\u0142owy
+        HP, os\u0142ona traci na skuteczno\u015Bci: \xBE os\u0142ona zmienia si\u0119
+        w \xBD os\u0142on\u0119. \xBD os\u0142ona przestaje zapewnia\u0107 ochron\u0119.
+        \n\t3. Efekty zniszczenia os\u0142ony: Zniszczona os\u0142ona staje si\u0119
+        trudnym terenem. Nadmiar obra\u017Ce\u0144, kt\xF3re przebi\u0142y si\u0119
+        przez os\u0142on\u0119, przenosi si\u0119 na chronion\u0105 posta\u0107."
+    - titleText: "Korzystanie z os\u0142ony"
+      contentInfoText: "\tAby unikn\u0105\u0107 zbyt cz\u0119stego \u201Ewygl\u0105dania
         zza os\u0142ony\u201D bez koszt\xF3w: Wej\u015Bcie za os\u0142on\u0119 lub
         wyj\u015Bcie zza niej kosztuje po\u0142ow\u0119 ruchu postaci w tej turze.
         Posta\u0107 nie korzysta z efekt\xF3w os\u0142ony, je\u015Bli nie wyda\u0142a
         ruchu na zaj\u0119cie pozycji za ni\u0105. "
-  - knowledgeDataSectionName: "8. Punkty Heros\xF3w i Punkty Wyrw"
+  - knowledgeDataSectionName: "8. Punkty Heros\xF3w/Wyrwy"
     knowledgeBaseDataNodesList:
     - titleText: "Punkty Heros\xF3w"
-      contentInfoText: "Na pocz\u0105tku rozgrywki liczba Punkt\xF3w Heros\xF3w r\xF3wna
-        jest liczbie graczy. Punkty te tworz\u0105 wsp\xF3ln\u0105 pul\u0119, z kt\xF3rej
-        wszyscy gracze mog\u0105 korzysta\u0107. S\u0142u\u017C\u0105 do: Przerzutu
-        nieudanego testu. Wzmocnienia dzia\u0142ania umiej\u0119tno\u015Bci, ataku
-        lub mocy. Ignorowania negatywnych efekt\xF3w (np. obra\u017Ce\u0144 krytycznych)
-        na okre\u015Blony czas. Punkty Heros\xF3w przyznaje si\u0119 za wyj\u0105tkowe
-        osi\u0105gni\u0119cia, kreatywno\u015B\u0107 i spe\u0142nienie cel\xF3w fabularnych,
-        co motywuje graczy do podejmowania ryzyka i wykazywania si\u0119 pomys\u0142owo\u015Bci\u0105."
+      contentInfoText: "\tNa pocz\u0105tku rozgrywki liczba Punkt\xF3w Heros\xF3w
+        r\xF3wna jest liczbie graczy. Punkty te tworz\u0105 wsp\xF3ln\u0105 pul\u0119,
+        z kt\xF3rej wszyscy gracze mog\u0105 korzysta\u0107. \n\tS\u0142u\u017C\u0105
+        do: \nPrzerzutu nieudanego testu. \nWzmocnienia dzia\u0142ania umiej\u0119tno\u015Bci,
+        ataku lub mocy.\nIgnorowania negatywnych efekt\xF3w (np. obra\u017Ce\u0144
+        krytycznych) na okre\u015Blony czas. \n\tPunkty Heros\xF3w przyznaje si\u0119
+        za wyj\u0105tkowe osi\u0105gni\u0119cia, kreatywno\u015B\u0107 i spe\u0142nienie
+        cel\xF3w fabularnych, co motywuje graczy do podejmowania ryzyka i wykazywania
+        si\u0119 pomys\u0142owo\u015Bci\u0105."
     - titleText: Punkty Wyrw
-      contentInfoText: "Na pocz\u0105tku rozgrywki liczba Punkt\xF3w Wyrw jest o
-        jeden mniejsza ni\u017C liczba graczy. S\u0142u\u017C\u0105 one Mistrzowi
-        Gry (MG) do: Aktywowania specjalnych zdarze\u0144 fabularnych. Utrudniania
+      contentInfoText: "\tNa pocz\u0105tku rozgrywki liczba Punkt\xF3w Wyrw jest
+        o jeden mniejsza ni\u017C liczba graczy.\n\t S\u0142u\u017C\u0105 one Mistrzowi
+        Gry (MG) do: \nAktywowania specjalnych zdarze\u0144 fabularnych. \nUtrudniania
         zada\u0144 bohaterom, np. poprzez wzmocnienie przeciwnik\xF3w lub wprowadzenie
-        dodatkowych komplikacji. Tworzenia nowych przeszk\xF3d, takich jak niszcz\u0105ce
-        si\u0119 otoczenie czy niespodziewane ataki wrog\xF3w. Wymuszania przerzut\xF3w
+        dodatkowych komplikacji. \nTworzenia nowych przeszk\xF3d, takich jak niszcz\u0105ce
+        si\u0119 otoczenie czy niespodziewane ataki wrog\xF3w. \nWymuszania przerzut\xF3w
         graczy, zmuszaj\u0105c ich do ponownego rzutu, nawet je\u015Bli wynik by\u0142
-        dla nich korzystny.  Punkty Wyrw odzwierciedlaj\u0105 reakcj\u0119 otoczenia
+        dla nich korzystny.  \n\tPunkty Wyrw odzwierciedlaj\u0105 reakcj\u0119 otoczenia
         na dzia\u0142ania bohater\xF3w, zwi\u0119kszaj\u0105c napi\u0119cie i dynamik\u0119
         gry."

@@ -7,8 +7,8 @@ using UnityEngine;
 {
     [TextArea(1, 2)]
     public string titleText;
-    [TextArea(1,10)]
-        public string contentInfoText;
+    [TextArea(1,30)]
+    public string contentInfoText;
 
         public KnowledgeBaseDataNode(string title, string info)
         {

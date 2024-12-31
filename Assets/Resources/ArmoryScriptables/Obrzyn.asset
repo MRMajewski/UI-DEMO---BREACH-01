@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Obrzyn
   icon: {fileID: 21300000, guid: cf6f196789c565645a660ae987257b09, type: 3}
-  description: "Kr\xF3tka strzelba z dwoma lufami"
+  description: "Kr\xF3tka strzelba z dwoma lufami\nObra\u017Cenia przebijaj\u0105ce
+    3k6 + Mod Zr\u0119czno\u015Bci/Si\u0142y, \nDystans bliski,\u015Bredni\nDwur\u0119czna,
+    prze\u0142adowanie 2, CQB"
   categories: 00000000030000000d00000005000000

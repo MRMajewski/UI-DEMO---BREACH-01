@@ -130,7 +130,7 @@ public class DynamicGridLayout : MonoBehaviour
         float totalSpacing = parentWidth - padding * 2 - rowWidth;
         float dynamicSpacing = row.Count > 1 ? totalSpacing / (row.Count - 1) : 0f;
 
-        if (isLastRow && dynamicSpacing > parentWidth / 3f)
+        if (isLastRow && dynamicSpacing > parentWidth / 4f)
         {
             dynamicSpacing = spacing; 
         }

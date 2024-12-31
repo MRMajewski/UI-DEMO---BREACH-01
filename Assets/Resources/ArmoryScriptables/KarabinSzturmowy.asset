@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Karabin szturmowy
   icon: {fileID: 21300000, guid: 6f7ae7376ee5abd4baa288400f786705, type: 3}
-  description: Podstawowy karabin szturmowy
+  description: "Podstawowy karabin szturmowy\nObra\u017Cenia przebijaj\u0105ce 3k6U
+    + Mod Zr\u0119czno\u015Bci, \nDystans bliski,\u015Bredni, daleki\nDwur\u0119czna,
+    prze\u0142adowanie 30, automat"
   categories: 00000000030000000b00000006000000

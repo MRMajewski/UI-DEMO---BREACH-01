@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Neosmartfon
   icon: {fileID: 21300000, guid: 0961b18dfacfe2c4ca8e321c57eb6c01, type: 3}
-  description: 
+  description: "Fokus dla postaci pos\u0142uguj\u0105cych si\u0119 neofizyk\u0105.
+    S\u0142u\u017Cy jako przeka\u017Anik do wywo\u0142ywania efekt\xF3w neofizyczncyh
+    jak Formu\u0142y i Sekwencje"
   categories: 020000000e000000

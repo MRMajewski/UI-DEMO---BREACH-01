@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Karabin
   icon: {fileID: 21300000, guid: dccd5f1fff57f3740a873ae5243beffd, type: 3}
-  description: Karabin bez automatycznego trybu ognia
+  description: "Karabin bez automatycznego trybu ognia\nObra\u017Cenia przebijaj\u0105ce
+    3k6 + Mod Zr\u0119czno\u015Bci, \nDystans bliski,\u015Bredni, daleki\nDwur\u0119czna,
+    prze\u0142adowanie 6"
   categories: 000000000300000005000000
