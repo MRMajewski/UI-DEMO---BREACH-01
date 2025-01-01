@@ -2,11 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.UI;
 
 public class DiceRollerPanelManager : SimpleUIPanelMobiles
 {
     [SerializeField]
-    private List<CanvasGroup> diceRollerPanels; 
+    private List<CanvasGroup> diceRollerPanels;
+
+    [SerializeField]
+    private Button firstTab;
+
     public override void DisablePanel()
     {
         panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).
@@ -15,7 +20,8 @@ public class DiceRollerPanelManager : SimpleUIPanelMobiles
 
     public override void InitializePanel()
     {
-        ShowPanel(diceRollerPanels[0]);
+        firstTab.onClick.Invoke();
+      //  ShowPanel(diceRollerPanels[0]);
     }
 
     public override void EnablePanel()

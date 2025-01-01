@@ -6,6 +6,8 @@ public class ClassPanel : SimpleUIPanelMobiles
 {
     [SerializeField]
     private RectTransform container;
+    [SerializeField]
+    private RectTransform viewportRect;
 
     [SerializeField]
     private ClassDataElementUI classDataElementPrefab;
@@ -46,9 +48,17 @@ public class ClassPanel : SimpleUIPanelMobiles
 
     public override void InitializePanel()
     {
+        ResizeClassDataElement();
         InitializeClasses();
         snapper.OnPanelChanged += classIconChanger.SetAlphaForIndex;
         classIconChanger.SetAlphaForIndex(0);
+    }
+
+    public void ResizeClassDataElement()
+    {
+        Debug.Log(viewportRect.rect.width);
+        classDataElementPrefab.GetComponent<RectTransform>().sizeDelta =
+            new Vector2(viewportRect.rect.width, classDataElementPrefab.GetComponent<RectTransform>().sizeDelta.y);
     }
 
     public override void DisablePanel()

@@ -106,11 +106,16 @@ public class ClassesElementsSnapper : MonoBehaviour
 
     public void InitPanels(List<ClassDataElementUI> classesDataElementsUIList)
     {
+
+
+
         foreach (ClassDataElementUI item in classesDataElementsUIList)
         {
             RectTransform newPanel = item.GetComponent<RectTransform>();
             panels.Add(newPanel);
         }
+
+
     }
 
     public void SnapToPanelFromButton(int panelIndex)
