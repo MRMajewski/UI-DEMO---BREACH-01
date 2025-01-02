@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e1c3593874969348be5b7b6f2f0a687, type: 3}
   m_Name: SoldierClassData
   m_EditorClassIdentifier: 
-  className: SOLDIER
+  className: "\u017BO\u0141NIERZ"
   classDescription: "Zwi\u0119kszona wytrzyma\u0142o\u015B\u0107 i refleks. Doskonale
     przeszkolony w korzystaniu  g\u0142\xF3wnie z broni palnej, bo czemu by nie."
   classIcon: {fileID: 21300000, guid: 0823326af7dbe614b8d9ece0fca433f6, type: 3}

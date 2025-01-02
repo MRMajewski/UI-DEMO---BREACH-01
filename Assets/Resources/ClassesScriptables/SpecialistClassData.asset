@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e1c3593874969348be5b7b6f2f0a687, type: 3}
   m_Name: SpecialistClassData
   m_EditorClassIdentifier: 
-  className: SPECIALIST
+  className: SPECJALISTA
   classDescription: "Zwi\u0119kszona wytrzyma\u0142o\u015B\u0107 i bystro\u015B\u0107
     umys\u0142u. Heros wsparcia, specjalizuj\u0105cy si\u0119 w danej dziedzinie.
     Posiada wiele umiej\u0119tno\u015Bci i gad\u017Cet\xF3w buffuj\u0105cych"

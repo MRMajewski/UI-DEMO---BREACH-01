@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e1c3593874969348be5b7b6f2f0a687, type: 3}
   m_Name: OfficerClassData
   m_EditorClassIdentifier: 
-  className: OFFICER
+  className: OFICER
   classDescription: "Officer to posta\u0107 o zwi\u0119kszonej charyzmie i bystro\u015Bci
     umys\u0142u, kt\xF3rej g\u0142\xF3wnym zadaniem jest koordynowanie zespo\u0142u.
     Dzi\u0119ki swoim zdolno\u015Bciom dow\xF3dczym potrafi inspirowa\u0107 towarzyszy,
