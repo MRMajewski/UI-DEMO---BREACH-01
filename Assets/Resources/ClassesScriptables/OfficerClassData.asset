@@ -13,18 +13,57 @@ MonoBehaviour:
   m_Name: OfficerClassData
   m_EditorClassIdentifier: 
   className: OFICER
+  reductionDiceInfos: 0
+  savingThrowInfos: 5
+  abilityInfos: 00000000010000000300000004000000070000000b0000000c000000
   classDescription: "Officer to posta\u0107 o zwi\u0119kszonej charyzmie i bystro\u015Bci
     umys\u0142u, kt\xF3rej g\u0142\xF3wnym zadaniem jest koordynowanie zespo\u0142u.
     Dzi\u0119ki swoim zdolno\u015Bciom dow\xF3dczym potrafi inspirowa\u0107 towarzyszy,
     daj\u0105c im buffy i inspiracj\u0119, co pozwala im wykonywa\u0107 swoje zadania
     z maksymaln\u0105 precyzj\u0105."
   classIcon: {fileID: 21300000, guid: a87fb805c6e59ef449297a67e1dae86b, type: 3}
-  classSkills:
-  - Trening
-  - Inspiracja
-  - "Przyw\xF3dztwo"
-  - Neolingwistyka
   subclasses:
-  - "Sier\u017Cant"
-  - Lider
-  - As
+  - "\t<size=150%>Sier\u017Cant</size>\nBonusy do HP dla towarzyszy, sam r\xF3wnie\u017C
+    potrafi solidnie przywali\u0107 i przyj\u0105\u0107 na klat\u0119"
+  - "\t<size=150%>Lider</size>\nPosiada pul\u0119 dodatkowych ko\u015Bci Rozkaz\xF3w,
+    kt\xF3rych mo\u017Ce u\u017Cy\u0107, aby inna posta\u0107 mia\u0142a w swojej
+    reakcji dodatkow\u0105 akcj\u0119 np. ataku albo wycofania si\u0119 "
+  - "\t<size=150%>As</size>\nAs posiadaj\u0105cy ekspertyz\u0119 w wybranej dziedzinie
+    np. strzelaniu, walce wr\u0119cz, pilotowaniu itp. Mo\u017Ce inspirowa\u0107
+    zar\xF3wno towarzyszy swoimi umiej\u0119tno\u015Bciami, jak i samego siebie"
+  - "\t<size=150%>M\xF3wca</size>\nRozwini\u0119ta Neolingwistyka, dodatkowe sloty
+    i bonusy"
+  levelUpTable:
+  - level: 1
+    skills: "Przyw\xF3dca, NeoLingwistyka"
+    proficiencyBonus: 2
+    skillsDescription: "\t-Trans Bojowy \nPodczas swojej tury mo\u017Cesz wej\u015B\u0107
+      w Trans Bojowy jako akcj\u0119 dodatkow\u0105. Podczas trwania Transu Bojowego
+      zyskujesz nast\u0119puj\u0105ce korzy\u015Bci, je\u015Bli nie nosisz ci\u0119\u017Ckiej
+      zbroi: Masz przewag\u0119 na testy Si\u0142y i rzuty obronne bazuj\u0105ce
+      na Sile. Kiedy wykonujesz atak broni\u0105 do walki wr\u0119cz u\u017Cywaj\u0105c
+      Si\u0142y, otrzymujesz premi\u0119 +2 do rzutu na obra\u017Cenia. Ta premia
+      zwi\u0119ksza si\u0119 wraz z poziomem. Masz odporno\u015B\u0107 na obra\u017Cenia
+      od uderze\u0144, k\u0142ucia i ci\u0119cia. Je\u015Bli potrafisz u\u017Cywa\u0107
+      NeoNauki, nie mo\u017Cesz ich rzuca\u0107 ani utrzymywa\u0107 koncentracji
+      na umiej\u0119tno\u015Bciach podczas trwania Transu. Tw\xF3j Trans trwa przez
+      1 minut\u0119. Ko\u0144czy si\u0119 wcze\u015Bniej, je\u015Bli stracisz przytomno\u015B\u0107.
+      Mo\u017Cesz tak\u017Ce zako\u0144czy\u0107 Trans Bojowy w swojej turze jako
+      akcj\u0119 dodatkow\u0105. Mo\u017Cesz u\u017Cy\u0107 Transu Bojowego okre\u015Blon\u0105
+      liczb\u0119 razy na podstawie swojego poziomu Wojownika. Liczba u\u017Cy\u0107
+      odnawia si\u0119 po d\u0142ugim odpoczynku. \n\n\tDzika Obrona\r\nKiedy nie
+      nosisz \u017Cadnej zbroi, do unikania mo\u017Cesz u\u017Cy\u0107 Modyfikatora
+      z Kondycji zamiast Zr\u0119czno\u015Bci.\r\nDodatkowo, kiedy zadasz obra\u017Cenia
+      przeciwnikowi za pomoc\u0105 ataku, do pocz\u0105tku twojej nast\u0119pnej
+      tury, za ka\u017Cdym razem, gdy otrzymasz obra\u017Cenia od ataku broni\u0105,
+      zmniejszasz te obra\u017Cenia o warto\u015B\u0107 r\xF3wn\u0105 twojemu modyfikatorowi
+      Kondycji.\r\n"
+  - level: 2
+    skills: Inspiracja, Trening
+    proficiencyBonus: 2
+    skillsDescription: "Przeprowadzasz dwa treningi. Nie mo\u017Cna wykona\u0107
+      dw\xF3ch takich samych trening\xF3w w tym samym momencie"
+  - level: 3
+    skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
+    proficiencyBonus: 2
+    skillsDescription: "Opis poni\u017Cej w opisie podklas"

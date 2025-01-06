@@ -13,16 +13,32 @@ MonoBehaviour:
   m_Name: BattleDevClassData
   m_EditorClassIdentifier: 
   className: KODER
+  reductionDiceInfos: 0
+  savingThrowInfos: 3
+  abilityInfos: 02000000040000000500000006000000070000000a0000000b000000
   classDescription: "Zwi\u0119kszone umiej\u0119tno\u015Bci analityczne. Rzuca czary
     przy pomocy tableta bojowego z wgranymi algorytmami i szybkimi obliczeniami w
     my\u015Blach. No jak mag :) Co nie przeszkadza mu strzeli\u0107 z pistoleta!
     Magia w za\u0142o\u017Ceniu ma by\u0107 bardziej wyka\u0144czaj\u0105ca, ale
     i bardziej efektywna."
   classIcon: {fileID: 21300000, guid: 65796fc02d0d76f44a1361540104867d, type: 3}
-  classSkills:
-  - Neofizyka
-  - Trening
   subclasses:
-  - Grawitacja
-  - Czas
-  - Energia
+  - "\t<size=150%>Grawitacja</size>\nManipulacja si\u0142\u0105 przyci\u0105gania
+    dzia\u0142aj\u0105c\u0105 na istoty i przedmioty"
+  - "\t<size=150%>Czas</size>\nManipulacja up\u0142ywu czasu"
+  - "\t<size=150%>Energia</size>\nManipulacja r\xF3\u017Cnymi rodzajami energii np
+    ciep\u0142em, elektryczno\u015Bci\u0105, promieniowaniem"
+  levelUpTable:
+  - level: 1
+    skills: Neofizyka
+    proficiencyBonus: 2
+    skillsDescription: Neo Geo Leo
+  - level: 2
+    skills: Trening
+    proficiencyBonus: 2
+    skillsDescription: "Przeprowadzasz dwa treningi. Nie mo\u017Cna wykona\u0107
+      dw\xF3ch takich samych trening\xF3w w tym samym momencie"
+  - level: 3
+    skills: "Umiej\u0119tno\u015B\u0107 podklasy"
+    proficiencyBonus: 2
+    skillsDescription: "Opis poni\u017Cej w opisie podklas"

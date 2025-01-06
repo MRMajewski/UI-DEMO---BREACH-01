@@ -25,6 +25,5 @@ public class KnowledgeNode : KnowledgeNodeBase
         contentText.gameObject.SetActive(isOpen);
 
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.parent.GetComponent<RectTransform>());
-
     }
 }

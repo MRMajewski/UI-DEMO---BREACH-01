@@ -13,15 +13,53 @@ MonoBehaviour:
   m_Name: SavageClassData
   m_EditorClassIdentifier: 
   className: BOJOWNIK
+  reductionDiceInfos: 2
+  savingThrowInfos: 0
+  abilityInfos: 010000000200000007000000080000000c000000
   classDescription: "Zwi\u0119kszona si\u0142a i wytrzyma\u0142o\u015B\u0107. Uderza
     mocno i konkretnie. Lubi walk\u0119 bezpo\u015Bredni\u0105 i brutaln\u0105 z
     u\u017Cyciem du\u017Cych niebezpiecznych narz\u0119dzi np. rakietowych m\u0142ot\xF3w,
     albo plazmowych topor\xF3w. "
   classIcon: {fileID: 21300000, guid: 3c6ff6ba6df54894a819b59c9cd106ce, type: 3}
-  classSkills:
-  - Bitewny trans
-  - Trening
   subclasses:
-  - "Wata\u017Cka"
-  - "\u0141owca"
-  - Bastion
+  - "\t<size=150%>Wata\u017Cka</size>\nWojownik, specjalista od napieprzania. Dobiera
+    styl walki jak wojownik\t"
+  - "\t<size=150%>\u0141owca</size>\nMy\u015Bliwy, dobry w tropieniu. Bonusy do walki
+    gdy ma fokus na konkretnego przeciwnika. "
+  - "\t<size=150%>Bastion</size>\nPrzyt\u0142aczaj\u0105cy obro\u0144ca. Gdy jest
+    w szale, jest nie do przesuni\u0119cia i  nie do powalenia. Pada, kiedy waga
+    pocisk\xF3w w jego ciele przekracza jego maksymalny ud\u017Awig"
+  levelUpTable:
+  - level: 1
+    skills: Bitewny Trans, Dzika Obrona
+    proficiencyBonus: 2
+    skillsDescription: "\t-Trans Bojowy \nPodczas swojej tury mo\u017Cesz wej\u015B\u0107
+      w Trans Bojowy jako akcj\u0119 dodatkow\u0105. Podczas trwania Transu Bojowego
+      zyskujesz nast\u0119puj\u0105ce korzy\u015Bci, je\u015Bli nie nosisz ci\u0119\u017Ckiej
+      zbroi: Masz przewag\u0119 na testy Si\u0142y i rzuty obronne bazuj\u0105ce
+      na Sile. Kiedy wykonujesz atak broni\u0105 do walki wr\u0119cz u\u017Cywaj\u0105c
+      Si\u0142y, otrzymujesz premi\u0119 +2 do rzutu na obra\u017Cenia. Ta premia
+      zwi\u0119ksza si\u0119 wraz z poziomem. Masz odporno\u015B\u0107 na obra\u017Cenia
+      od uderze\u0144, k\u0142ucia i ci\u0119cia. Je\u015Bli potrafisz u\u017Cywa\u0107
+      NeoNauki, nie mo\u017Cesz ich rzuca\u0107 ani utrzymywa\u0107 koncentracji
+      na umiej\u0119tno\u015Bciach podczas trwania Transu. Tw\xF3j Trans trwa przez
+      1 minut\u0119. Ko\u0144czy si\u0119 wcze\u015Bniej, je\u015Bli stracisz przytomno\u015B\u0107.
+      Mo\u017Cesz tak\u017Ce zako\u0144czy\u0107 Trans Bojowy w swojej turze jako
+      akcj\u0119 dodatkow\u0105. Mo\u017Cesz u\u017Cy\u0107 Transu Bojowego okre\u015Blon\u0105
+      liczb\u0119 razy na podstawie swojego poziomu Wojownika. Liczba u\u017Cy\u0107
+      odnawia si\u0119 po d\u0142ugim odpoczynku. \n\n\tDzika Obrona\r\nKiedy nie
+      nosisz \u017Cadnej zbroi, do unikania mo\u017Cesz u\u017Cy\u0107 Modyfikatora
+      z Kondycji zamiast Zr\u0119czno\u015Bci.\r\nDodatkowo, kiedy zadasz obra\u017Cenia
+      przeciwnikowi za pomoc\u0105 ataku, do pocz\u0105tku twojej nast\u0119pnej
+      tury, za ka\u017Cdym razem, gdy otrzymasz obra\u017Cenia od ataku broni\u0105,
+      zmniejszasz te obra\u017Cenia o warto\u015B\u0107 r\xF3wn\u0105 twojemu modyfikatorowi
+      Kondycji.\r\n"
+  - level: 2
+    skills: Trening
+    proficiencyBonus: 2
+    skillsDescription: "Przeprowadzasz dwa treningi. Nie mo\u017Cna wykona\u0107
+      dw\xF3ch takich samych trening\xF3w w tym samym momencie"
+  - level: 3
+    skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
+    proficiencyBonus: 2
+    skillsDescription: "Opis poni\u017Cej w opisie podklas"

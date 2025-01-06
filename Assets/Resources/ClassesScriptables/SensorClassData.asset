@@ -13,17 +13,35 @@ MonoBehaviour:
   m_Name: SensorClassData
   m_EditorClassIdentifier: 
   className: SENSOR
+  reductionDiceInfos: 0
+  savingThrowInfos: 4
+  abilityInfos: 020000000300000004000000050000000600000007000000080000000a000000
   classDescription: "Sensorzy to mistrzowie percepcji, wyczuleni na subtelne zmiany
     w otoczeniu. Dzi\u0119ki swoim zaawansowanym zmys\u0142om potrafi\u0105 dostrzega\u0107
     rzeczy, kt\xF3re umykaj\u0105 zwyk\u0142ym ludziom, a ich zdolno\u015Bci pozwalaj\u0105
     na wykrywanie, leczenie, przewidywanie przysz\u0142o\u015Bci i manipulowanie
     energi\u0105 w r\xF3\u017Cnorodny spos\xF3b."
   classIcon: {fileID: 21300000, guid: a4faa8cf5c945534fbe0e27de6d8a723, type: 3}
-  classSkills:
-  - "Nadwra\u017Cliwos\u0107"
-  - Neosensoryka
-  - Trening
   subclasses:
-  - Wieszcz
-  - "Gu\u015Blarz"
-  - Echo
+  - "\t<size=150%>Wieszcz</size>\nMistrzowie percepcji i intuicji. Potrafi\u0105
+    przewidywa\u0107 przysz\u0142o\u015B\u0107 na kr\xF3tki okres, co daje im niesamowit\u0105
+    przewag\u0119 w walce i podczas interakcji spo\u0142ecznych. "
+  - "\t<size=150%>Gu\u015Blarz</size>\n>>>W trakcie tworzenia>>>"
+  - "\t<size=150%>Echo</size>\nEcho Adept specjalizuje si\u0119 w wykrywaniu i manipulowaniu
+    falami d\u017Awi\u0119kowymi. Potrafi\u0105 wykorzysta\u0107 te zdolno\u015Bci
+    zar\xF3wno w ofensywie, jak i defensywie. "
+  - "\t<size=150%>Biomancer</size>\n>>>W trakcie tworzenia>>>"
+  levelUpTable:
+  - level: 1
+    skills: "Nadwra\u017Cliwo\u015B\u0107"
+    proficiencyBonus: 2
+    skillsDescription: 
+  - level: 2
+    skills: Trening
+    proficiencyBonus: 2
+    skillsDescription: "Przeprowadzasz dwa treningi. Nie mo\u017Cna wykona\u0107
+      dw\xF3ch takich samych trening\xF3w w tym samym momencie"
+  - level: 3
+    skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
+    proficiencyBonus: 2
+    skillsDescription: "Opis poni\u017Cej w opisie podklas"

@@ -13,15 +13,38 @@ MonoBehaviour:
   m_Name: SpecialistClassData
   m_EditorClassIdentifier: 
   className: SPECJALISTA
+  reductionDiceInfos: 0
+  savingThrowInfos: 3
+  abilityInfos: 020000000300000004000000050000000600000007000000080000000b000000
   classDescription: "Zwi\u0119kszona wytrzyma\u0142o\u015B\u0107 i bystro\u015B\u0107
     umys\u0142u. Heros wsparcia, specjalizuj\u0105cy si\u0119 w danej dziedzinie.
     Posiada wiele umiej\u0119tno\u015Bci i gad\u017Cet\xF3w buffuj\u0105cych"
   classIcon: {fileID: 21300000, guid: bc8e9963558122b43bad1824bb87b2e6, type: 3}
-  classSkills:
-  - Ekspertyza
-  - Trening
-  - "Szybkie d\u0142onie"
   subclasses:
-  - Medyk
-  - Blaster
-  - "In\u017Cynier"
+  - "\t<size=150%>Medyk</size>\nMedyk polowy, healer i buffer. Tw\xF3j najlepszy
+    przyjaciel :) Posk\u0142ada Ci\u0119 w Wyrwie, bo potiony lecz\u0105ce nie s\u0105
+    a\u017C tak tanie i \u0142atwo dost\u0119pne."
+  - "\t<size=150%>Blaster</size>\nSpec od \u0142adunk\xF3w wybuchowych i broni eksperymentalnej"
+  - "\t<size=150%>In\u017Cynier</size>\n Naprawiacz, posiada drony wspieraj\u0105ce
+    do wyboru: Wi\u0119kszy tankuj\u0105cy, albo mniejszy lataj\u0105cy skaut"
+  - "\t<size=150%>Naukowiec</size>\nSkarbnica wiedzy, wiele bieg\u0142o\u015Bci"
+  levelUpTable:
+  - level: 1
+    skills: Ekspertyza, Wykorzystanie przedmiotu
+    proficiencyBonus: 2
+    skillsDescription: 'SDFDFSDfsdfsdfsdfdf
+
+      fdfd
+
+      f
+
+      df'
+  - level: 2
+    skills: "Szybki d\u0142onie, Trening"
+    proficiencyBonus: 2
+    skillsDescription: "Przeprowadzasz dwa treningi. Nie mo\u017Cna wykona\u0107
+      dw\xF3ch takich samych trening\xF3w w tym samym momencie"
+  - level: 3
+    skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
+    proficiencyBonus: 2
+    skillsDescription: "Opis poni\u017Cej w opisie podklas"

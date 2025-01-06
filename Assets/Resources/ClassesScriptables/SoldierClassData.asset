@@ -13,15 +13,32 @@ MonoBehaviour:
   m_Name: SoldierClassData
   m_EditorClassIdentifier: 
   className: "\u017BO\u0141NIERZ"
+  reductionDiceInfos: 1
+  savingThrowInfos: 2
+  abilityInfos: 00000000010000000400000007000000080000000c000000
   classDescription: "Zwi\u0119kszona wytrzyma\u0142o\u015B\u0107 i refleks. Doskonale
     przeszkolony w korzystaniu  g\u0142\xF3wnie z broni palnej, bo czemu by nie."
   classIcon: {fileID: 21300000, guid: 0823326af7dbe614b8d9ece0fca433f6, type: 3}
-  classSkills:
-  - Drugi oddech
-  - Dodatkowa akcja
-  - Trening
-  - Styl walki
   subclasses:
-  - Komandos
-  - "Ci\u0119\u017Cka artyleria"
-  - Szturmowiec
+  - "\t<size=150%>Komandos</size>\nWszechstronnie wyszkolony \u017Co\u0142nierz.
+    Posiada dodatkowy styl walki i critical hit na 19 i 20"
+  - "\t<size=150%>Ci\u0119\u017Cka artyleria</size>\n Ekspert w broni ci\u0119\u017Ckiej
+    typu wyrzutnie rakiet, ogromne karabiny i inne railguny"
+  - "\t<size=150%>Szturmowiec</size>\nSzturmowiec z shotgunem i/lub tarcz\u0105.
+    Spec w walce na kr\xF3tki dystans. Ma bonusy do inicjatywy i do reakcji"
+  levelUpTable:
+  - level: 1
+    skills: Styl Walki, Drugi Oddech
+    proficiencyBonus: 2
+    skillsDescription: 'Styl walki -fdf dfdf
+
+      Drugi oddech: dfdfndf'
+  - level: 2
+    skills: Trening, Dodatkowa akcja
+    proficiencyBonus: 2
+    skillsDescription: "Przeprowadzasz dwa treningi. Nie mo\u017Cna wykona\u0107
+      dw\xF3ch takich samych trening\xF3w w tym samym momencie"
+  - level: 3
+    skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
+    proficiencyBonus: 2
+    skillsDescription: "Opis poni\u017Cej w opisie podklas"

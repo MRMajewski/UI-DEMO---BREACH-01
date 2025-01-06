@@ -13,15 +13,32 @@ MonoBehaviour:
   m_Name: PsionicClassData
   m_EditorClassIdentifier: 
   className: PSIONIK
+  reductionDiceInfos: 0
+  savingThrowInfos: 5
+  abilityInfos: 00000000020000000300000004000000060000000700000008000000090000000a000000
   classDescription: "Zwi\u0119kszona podatno\u015B\u0107 na magi\u0119. Magia z innego
     wymiaru pobudzi\u0142a umys\u0142 tego herosa i mo\u017Ce teraz u\u017Cywa\u0107
     mocy psionicznych :) Do wi\u0119kszo\u015Bci czar\xF3w nie musi u\u017Cywa\u0107
     s\u0142\xF3w i przedmiot\xF3w, a jedynie gest\xF3w."
   classIcon: {fileID: 21300000, guid: 4938a4d82010fcf4a8be352c6ae85209, type: 3}
-  classSkills:
-  - Psionika
-  - Trening
   subclasses:
-  - Telekineza
-  - Pyrokineza
-  - Psychokineza
+  - "\t<size=150%>Telekineza</size>\nPorusza przedmioty i istoty za pomoc\u0105 si\u0142y
+    woli"
+  - "\t<size=150%>Pyrokineza</size>\nMa dodatkowe czary magii ognia :) bonus do obra\u017Ce\u0144
+    od ognia"
+  - "\t<size=150%>Psychokineza</size>\nU\u017Cywa mocy psychicznej do atakowania
+    umys\u0142\xF3w istot"
+  levelUpTable:
+  - level: 1
+    skills: Psionika
+    proficiencyBonus: 2
+    skillsDescription: Psion Psion Psion
+  - level: 2
+    skills: Trening
+    proficiencyBonus: 2
+    skillsDescription: "Przeprowadzasz dwa treningi. Nie mo\u017Cna wykona\u0107
+      dw\xF3ch takich samych trening\xF3w w tym samym momencie"
+  - level: 3
+    skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
+    proficiencyBonus: 2
+    skillsDescription: "Opis poni\u017Cej w opisie podklas"

@@ -13,14 +13,29 @@ MonoBehaviour:
   m_Name: InfiltratorClassData
   m_EditorClassIdentifier: 
   className: INFILTRATOR
+  reductionDiceInfos: 0
+  savingThrowInfos: 1
+  abilityInfos: 000000000100000002000000040000000700000008000000090000000a0000000b0000000d000000
   classDescription: "Zwi\u0119kszona szybko\u015B\u0107, refleks, agent specjalny."
   classIcon: {fileID: 21300000, guid: b8f41e8adb47d854a9f9d503943f048a, type: 3}
-  classSkills:
-  - Ukradkowy Atak
-  - "Podst\u0119pna akcja"
-  - Trening
-  - Ekspertyza
   subclasses:
-  - Snajper
-  - Duch
-  - Oprych
+  - "\t<size=150%>Snajper</size>\nSkrada si\u0119, strzela z bonusami z dystansu,
+    u\u017Cywa min, aby nikt si\u0119 do niego nie zakrad\u0142"
+  - "\t<size=150%>Duch</size>\nTypowy z\u0142odziej od dostawania si\u0119 w pozornie
+    niedost\u0119pne miejsca."
+  - "\t<size=150%>Oprych</size>\nCh\u0142op nie bacz\u0105cy na zasady fair play.
+    Strzela pierwszy i ma do tego bonus"
+  levelUpTable:
+  - level: 1
+    skills: "Ukradkowy Atak, Podst\u0119pna akcja, Ekspertyza"
+    proficiencyBonus: 2
+    skillsDescription: Skradu skradu i ciach od tylca!
+  - level: 2
+    skills: Trening
+    proficiencyBonus: 2
+    skillsDescription: "Przeprowadzasz dwa treningi. Nie mo\u017Cna wykona\u0107
+      dw\xF3ch takich samych trening\xF3w w tym samym momencie"
+  - level: 3
+    skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
+    proficiencyBonus: 2
+    skillsDescription: "Opis poni\u017Cej w opisie podklas"

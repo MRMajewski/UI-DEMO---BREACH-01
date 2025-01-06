@@ -6,18 +6,18 @@ using System;
 
 public class ClassesElementsSnapper : MonoBehaviour
 {
-    public List<RectTransform> panels; // Referencje do paneli
-    public RectTransform content;  // Kontener na panele
-  //  public ScrollRect scrollRect; // Referencja do ScrollRect dla scrollowania w pionie
+    public List<RectTransform> panels; 
+    public RectTransform content;  
 
-    private int currentPanelIndex = 0; // Aktualnie wyœwietlany panel
-    private bool isHorizontalSwipe = false; // Flaga okreœlaj¹ca, czy gest to przesuniêcie poziome
+
+    private int currentPanelIndex = 0; 
+    private bool isHorizontalSwipe = false; 
 
     private Vector2 touchStartPosition;
 
     private const float swipeThreshold = 50f;
 
-    public event Action<int> OnPanelChanged; // Zdarzenie zmiany panelu
+    public event Action<int> OnPanelChanged; 
     private void Update()
     {
         if (Input.touchCount > 0)
@@ -106,25 +106,18 @@ public class ClassesElementsSnapper : MonoBehaviour
 
     public void InitPanels(List<ClassDataElementUI> classesDataElementsUIList)
     {
-
-
-
         foreach (ClassDataElementUI item in classesDataElementsUIList)
         {
             RectTransform newPanel = item.GetComponent<RectTransform>();
             panels.Add(newPanel);
         }
-
-
     }
 
     public void SnapToPanelFromButton(int panelIndex)
-    {
-       
+    {     
         SnapToPanel(panelIndex);
 
         currentPanelIndex = panelIndex;
-        //  currentPanelIndex = panelIndex;
 
         OnPanelChanged.Invoke(currentPanelIndex);
     }
