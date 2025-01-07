@@ -23,17 +23,101 @@ MonoBehaviour:
   classIcon: {fileID: 21300000, guid: 3c6ff6ba6df54894a819b59c9cd106ce, type: 3}
   subclasses:
   - "\t<size=150%>Wata\u017Cka</size>\nWojownik, specjalista od napieprzania. Dobiera
-    styl walki jak wojownik\t"
+    styl walki jak wojownik\n\r\n\t<size=120%>- Styl Walki (Fighting Style):</size>\nNa
+    3. poziomie przyjmujesz okre\u015Blony styl walki jako swoj\u0105 specjalno\u015B\u0107.
+    Wybierz jedn\u0105 z poni\u017Cszych opcji. Nie mo\u017Cesz wybra\u0107 tego
+    samego stylu walki wi\u0119cej ni\u017C raz, nawet je\u015Bli otrzymasz mo\u017Cliwo\u015B\u0107
+    wyboru ponownie.\r\n\t<size=110%>Lista Styl\xF3w Walki:</size>\r\nOd 2. poziomu
+    przyjmujesz okre\u015Blony styl walki jako swoj\u0105 specjalno\u015B\u0107.
+    Wybierz jeden z poni\u017Cszych styl\xF3w. Nie mo\u017Cesz wybra\u0107 tego samego
+    stylu walki wi\u0119cej ni\u017C raz, nawet je\u015Bli otrzymasz mo\u017Cliwo\u015B\u0107
+    wyboru ponownie.\r\n\tWalka w Ciemno\u015Bci (Blind Fighting):\nMasz zdolno\u015B\u0107
+    widzenia w ciemno\u015Bci (blindsight) w promieniu 10 st\xF3p. W tym zasi\u0119gu
+    mo\u017Cesz skutecznie widzie\u0107 wszystko, co nie jest za pe\u0142n\u0105
+    os\u0142on\u0105, nawet je\u015Bli jeste\u015B o\u015Blepiony lub w ciemno\u015Bci.
+    Mo\u017Cesz r\xF3wnie\u017C dostrzec niewidzialne stworzenie w tym zasi\u0119gu,
+    chyba \u017Ce stworzenie skutecznie ukryje si\u0119 przed tob\u0105.\r\n\tObrona
+    (Defense):\nGdy nosisz zbroj\u0119, zyskujesz premi\u0119 +1 do Klasy Pancerza
+    (AC).\r\nSkupienie na Walce Wr\u0119cz (Melee Focus):\nGdy wyrzucisz 1 lub 2
+    na kostce obra\u017Ce\u0144 w wyniku ataku wykonanego broni\u0105 do walki wr\u0119cz,
+    kt\xF3r\u0105 trzymasz, mo\u017Cesz przerzuci\u0107 kostk\u0119. Musisz jednak
+    u\u017Cy\u0107 nowego wyniku, nawet je\u015Bli jest to ponownie 1 lub 2.\r\n\tOchrona
+    (Protection):\nGdy stworzenie, kt\xF3re widzisz, atakuje cel inny ni\u017C ty
+    znajduj\u0105cy si\u0119 w odleg\u0142o\u015Bci 5 st\xF3p od ciebie, mo\u017Cesz
+    u\u017Cy\u0107 swojej reakcji, aby na\u0142o\u017Cy\u0107 na rzut ataku niekorzystny
+    modyfikator (disadvantage).\r\nWalka Dwoma Bro\u0144mi (Two-Weapon Fighting):\nKiedy
+    walczysz dwoma bro\u0144mi, mo\u017Cesz doda\u0107 sw\xF3j modyfikator cechy
+    do obra\u017Ce\u0144 z drugiego ataku.\r\n\tStrzelec (Marksman):\nZyskujesz premi\u0119
+    +1 do rzut\xF3w ataku wykonywanych za pomoc\u0105 dwur\u0119cznych broni dystansowych.\r\n\tSkupienie
+    na Broni Boczej (Side Arm Focus):\nGdy u\u017Cywasz jednor\u0119cznej broni dystansowej
+    i nie trzymasz broni w drugiej r\u0119ce, zadajesz dodatkowe 2 punkty obra\u017Ce\u0144.\r\n\tWalka
+    Bez Broni (Unarmed Combat):\nTwoje ataki bez broni zadaj\u0105 obra\u017Cenia
+    obuchowe r\xF3wne 1d6 + tw\xF3j modyfikator Si\u0142y przy trafieniu. Je\u015Bli
+    nie trzymasz \u017Cadnej broni ani tarczy podczas wykonywania rzutu ataku, kostka
+    obra\u017Ce\u0144 zmienia si\u0119 na 1d8. Na pocz\u0105tku ka\u017Cdej swojej
+    tury mo\u017Cesz zada\u0107 1d4 obra\u017Ce\u0144 obuchowych jednemu stworzeniu,
+    kt\xF3re masz w uchwycie.\r\n\t<size=120%>- Duch Walki (Fighting Spirit):</size>\nOd
+    3. poziomu twoja intensywno\u015B\u0107 w walce mo\u017Ce ci\u0119 os\u0142ania\u0107
+    i pomaga\u0107 w skutecznych atakach. Jako akcj\u0119 dodatkow\u0105 w swojej
+    turze mo\u017Cesz da\u0107 sobie przewag\u0119 na rzuty ataku broni\u0105 do
+    ko\u0144ca bie\u017C\u0105cej tury. Gdy to zrobisz, zyskujesz r\xF3wnie\u017C
+    5 tymczasowych punkt\xF3w wytrzyma\u0142o\u015Bci. Liczba tymczasowych punkt\xF3w
+    wytrzyma\u0142o\u015Bci wzrasta na wy\u017Cszych poziomach tej klasy: 10 punkt\xF3w
+    na 10. poziomie i 15 punkt\xF3w na 15. poziomie.\r \tMo\u017Cesz u\u017Cywa\u0107
+    tej zdolno\u015Bci liczba razy r\xF3wna twojej premii z bieg\u0142o\u015Bci,
+    a wszystkie zu\u017Cyte u\u017Cycia odnawiaj\u0105 si\u0119 po zako\u0144czeniu
+    d\u0142ugiego odpoczynku."
   - "\t<size=150%>\u0141owca</size>\nMy\u015Bliwy, dobry w tropieniu. Bonusy do walki
-    gdy ma fokus na konkretnego przeciwnika. "
+    gdy ma fokus na konkretnego przeciwnika. \n\n\t- Dodatkowe wyszkolenia\nZyskujesz
+    wyszkoleni w dw\xF3ch wybranych umiej\u0119tno\u015Bciach spo\u015Br\xF3d: Przetrwanie 
+    Survival), Percepcja (Perception), Medycyna (Medicine) lub Biologia (Biology).\nJe\u015Bli
+    posiadasz ju\u017C bieg\u0142o\u015B\u0107 w tych umiej\u0119tno\u015Bciach,
+    wybierz inn\u0105 z listy bieg\u0142o\u015Bci dost\u0119pnych dla Dzikusa (Savage).\r\n\t-
+    Zmys\u0142y \u0141owcy (Hunter's Senses, Magia):\nMo\u017Cesz korzysta\u0107
+    z czaru Znak \u0141owcy (Hunter's Mark). Dodatkowo wybierz dwa inne czary z poni\u017Cszej
+    listy:\r\nWykrycie trucizny i choroby (Detect Poison and Disease)\r\nWi\u0119\u017A
+    ze zwierz\u0119ciem (Beast Bond)\r\nPrzyja\u017A\u0144 ze zwierz\u0119ciem (Animal
+    Friendship)\r\nCios wiatru (Zephyr Strike)\r\nWidzenie w ciemno\u015Bci (Darkvision)\r\nZlokalizowanie
+    zwierz\u0105t lub ro\u015Blin (Locate Animals or Plants)\r\nMasz trzy u\u017Cycia
+    dowolnego z tych czar\xF3w.\r\n\t- Naturalny Odkrywca (Natural Explorer):\nSzczeg\xF3lnie
+    dobrze radzisz sobie w jednym wybranym rodzaju \u015Brodowiska naturalnego i
+    potrafisz skutecznie podr\xF3\u017Cowa\u0107 oraz przetrwa\u0107 w takich regionach.
+    Wybierz jeden typ ulubionego terenu: arktyka, wybrze\u017Ce, pustynia, las, \u0142\u0105ka,
+    g\xF3ry, bagna lub Podmrok (Underdark).\nKiedy wykonujesz testy na Inteligencj\u0119
+    lub M\u0105dro\u015B\u0107 zwi\u0105zane z twoim ulubionym terenem, twoja premia
+    z bieg\u0142o\u015Bci jest podwajana, je\u015Bli u\u017Cywasz umiej\u0119tno\u015Bci,
+    w kt\xF3rej masz bieg\u0142o\u015B\u0107.\r\nPodczas podr\xF3\u017Cowania przez
+    godzin\u0119 lub d\u0142u\u017Cej w twoim ulubionym terenie zyskujesz nast\u0119puj\u0105ce
+    korzy\u015Bci:\r\nTrudny teren nie spowalnia podr\xF3\u017Cy twojej grupy.\r\nTwoja
+    grupa nie mo\u017Ce zgubi\u0107 si\u0119 inaczej ni\u017C za pomoc\u0105 magii.\r\nNawet
+    je\u015Bli jeste\u015B zaj\u0119ty inn\u0105 czynno\u015Bci\u0105 podczas podr\xF3\u017Cy
+    (np. nawigacj\u0105 lub \u015Bledzeniem), pozostajesz czujny na niebezpiecze\u0144stwa.\r\nPodczas
+    podr\xF3\u017Cowania samotnie mo\u017Cesz porusza\u0107 si\u0119 ukradkowo w
+    normalnym tempie.\r\n\u015Aledz\u0105c inne stworzenia, poznajesz ich dok\u0142adn\u0105
+    liczb\u0119, rozmiary oraz to, jak dawno przesz\u0142y przez dany teren.\r\n\t-
+    Zmys\u0142 Niebezpiecze\u0144stwa (Danger Sense):\nZyskujesz niezwyk\u0142\u0105
+    intuicj\u0119, gdy co\u015B w twoim otoczeniu wydaje si\u0119 nie na miejscu,
+    co daje ci przewag\u0119 przy unikaniu niebezpiecze\u0144stw. Masz przewag\u0119
+    na rzuty obronne na Zr\u0119czno\u015B\u0107 przeciwko efektom, kt\xF3re widzisz,
+    takim jak pu\u0142apki i czary. Aby korzysta\u0107 z tej zdolno\u015Bci, nie
+    mo\u017Cesz by\u0107 o\u015Blepiony, og\u0142uszony ani unieruchomiony."
   - "\t<size=150%>Bastion</size>\nPrzyt\u0142aczaj\u0105cy obro\u0144ca. Gdy jest
     w szale, jest nie do przesuni\u0119cia i  nie do powalenia. Pada, kiedy waga
-    pocisk\xF3w w jego ciele przekracza jego maksymalny ud\u017Awig"
+    pocisk\xF3w w jego ciele przekracza jego maksymalny ud\u017Awig.\n\n- Dodatkowe
+    Wyszkolenie\nZyskujesz bieg\u0142o\u015B\u0107 w pos\u0142ugiwaniu si\u0119 ci\u0119\u017Ckimi
+    zbrojami.\r\n- Nie do ruszenia (Unmovable):\nWykorzystujesz swoj\u0105 furi\u0119,
+    aby zakotwiczy\u0107 si\u0119 w ziemi, staj\u0105c si\u0119 bastionem si\u0142y.
+    Gdy jeste\u015B w transie bojowym, nie mo\u017Cesz zosta\u0107 powalony (prone)
+    ani przemieszczony po ziemi wbrew swojej woli.\r\n- Niez\u0142omny (Unbreakable):\nGdy
+    stajesz si\u0119 celem ataku lub zakl\u0119cia w trakcie trwania twojego transu
+    bojowego, mo\u017Cesz u\u017Cy\u0107 swojej reakcji, aby zyska\u0107 premi\u0119
+    do Klasy Pancerza r\xF3wn\u0105 twojemu modyfikatorowi obra\u017Ce\u0144 w furii.
+    Premia ta trwa do pocz\u0105tku twojej nast\u0119pnej tury."
   levelUpTable:
   - level: 1
     skills: Bitewny Trans, Dzika Obrona
     proficiencyBonus: 2
-    skillsDescription: "\t-Trans Bojowy \nPodczas swojej tury mo\u017Cesz wej\u015B\u0107
+    skillsDescription: "\tTrans Bojowy \nPodczas swojej tury mo\u017Cesz wej\u015B\u0107
       w Trans Bojowy jako akcj\u0119 dodatkow\u0105. Podczas trwania Transu Bojowego
       zyskujesz nast\u0119puj\u0105ce korzy\u015Bci, je\u015Bli nie nosisz ci\u0119\u017Ckiej
       zbroi: Masz przewag\u0119 na testy Si\u0142y i rzuty obronne bazuj\u0105ce

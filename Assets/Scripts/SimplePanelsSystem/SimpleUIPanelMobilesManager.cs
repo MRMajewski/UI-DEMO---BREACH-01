@@ -52,7 +52,9 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         Dice,
         Knowledge,
         Armory,
-        Classes
+        Classes,
+        Intro,
+        Definitions
     }
 
     private void Awake()
