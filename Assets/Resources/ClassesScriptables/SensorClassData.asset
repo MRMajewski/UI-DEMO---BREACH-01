@@ -45,3 +45,16 @@ MonoBehaviour:
     skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
     proficiencyBonus: 2
     skillsDescription: "Opis poni\u017Cej w opisie podklas"
+  subClassesTable:
+  - subClassName: Wieszcz
+    subClassDescription: "\tMistrzowie percepcji i intuicji. Potrafi\u0105 przewidywa\u0107
+      przysz\u0142o\u015B\u0107 na kr\xF3tki okres, co daje im niesamowit\u0105 przewag\u0119
+      w walce i podczas interakcji spo\u0142ecznych. "
+  - subClassName: "Gu\u015Blarz"
+    subClassDescription: "\t>>>W trakcie tworzenia>>>"
+  - subClassName: Echo
+    subClassDescription: "\tEcho Adept specjalizuje si\u0119 w wykrywaniu i manipulowaniu
+      falami d\u017Awi\u0119kowymi. Potrafi\u0105 wykorzysta\u0107 te zdolno\u015Bci
+      zar\xF3wno w ofensywie, jak i defensywie. "
+  - subClassName: Biomancer
+    subClassDescription: '>>>W trakcie tworzenia>>>'

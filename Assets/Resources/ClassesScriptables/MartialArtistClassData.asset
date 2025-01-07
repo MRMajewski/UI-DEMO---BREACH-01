@@ -63,3 +63,16 @@ MonoBehaviour:
     skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
     proficiencyBonus: 2
     skillsDescription: "Opis poni\u017Cej w opisie podklas"
+  subClassesTable:
+  - subClassName: Gun Fu
+    subClassDescription: "\tBieg\u0142y w u\u017Cywaniu pistolet\xF3w, r\xF3wnie\u017C
+      w bezpo\u015Brednim dystansie. Taki John Wick albo inny Neo."
+  - subClassName: Akrobata
+    subClassDescription: "\tNajszybsza klasa herosa. Bonus do pr\u0119dko\u015Bci
+      poruszania. Potrafi bez problemu wyj\u015B\u0107 z  zwarcia i zaatakowa\u0107
+      ponownie z szar\u017Cy"
+  - subClassName: Wojownik
+    subClassDescription: "\tTypowy Mistrz Sztuk Walki. W odr\xF3\u017Cnieniu od zwyk\u0142ego
+      Monka z DnD, potrafi te\u017C grapplowa\u0107 w akcji bonusowej"
+  - subClassName: "Zapa\u015Bnik"
+    subClassDescription: "\t>>>W trakcie tworzenia>>>"

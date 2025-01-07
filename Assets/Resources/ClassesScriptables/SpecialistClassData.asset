@@ -48,3 +48,15 @@ MonoBehaviour:
     skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
     proficiencyBonus: 2
     skillsDescription: "Opis poni\u017Cej w opisie podklas"
+  subClassesTable:
+  - subClassName: Blaster
+    subClassDescription: "\tSpec od \u0142adunk\xF3w wybuchowych i broni eksperymentalnej"
+  - subClassName: "In\u017Cynier"
+    subClassDescription: "\tNaprawiacz, posiada drony wspieraj\u0105ce do wyboru:
+      Wi\u0119kszy tankuj\u0105cy, albo mniejszy lataj\u0105cy skaut"
+  - subClassName: Medyk
+    subClassDescription: "\tMedyk polowy, healer i buffer. Tw\xF3j najlepszy przyjaciel
+      :) Posk\u0142ada Ci\u0119 w Wyrwie, bo potiony lecz\u0105ce nie s\u0105 a\u017C
+      tak tanie i \u0142atwo dost\u0119pne."
+  - subClassName: Naukowiec
+    subClassDescription: "\tSkarbnica wiedzy, wiele bieg\u0142o\u015Bci"

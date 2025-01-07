@@ -26,6 +26,9 @@ public class ClassData : ScriptableObject
 
     [Header("Ability Infos")]
     public List<LevelUpTable> levelUpTable;
+
+    [Header("Ability Infos")]
+    public List<SubClassInfo> subClassesTable;
 }
 [System.Serializable]
 public struct LevelUpTable
@@ -36,6 +39,14 @@ public struct LevelUpTable
     public int proficiencyBonus; 
     [TextArea(1, 10)]
     public string skillsDescription;
+}
+
+[System.Serializable]
+public struct SubClassInfo
+{
+    public string subClassName;
+    [TextArea(1, 10)]
+    public string subClassDescription;
 }
 
 

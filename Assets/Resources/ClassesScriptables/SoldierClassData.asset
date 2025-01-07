@@ -42,3 +42,13 @@ MonoBehaviour:
     skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
     proficiencyBonus: 2
     skillsDescription: "Opis poni\u017Cej w opisie podklas"
+  subClassesTable:
+  - subClassName: Komandos
+    subClassDescription: "\tWszechstronnie wyszkolony \u017Co\u0142nierz. Posiada
+      dodatkowy styl walki i critical hit na 19 i 20"
+  - subClassName: "Ci\u0119\u017Cka Artyleria"
+    subClassDescription: "\tEkspert w broni ci\u0119\u017Ckiej typu wyrzutnie rakiet,
+      ogromne karabiny i inne railguny"
+  - subClassName: Szturmowiec
+    subClassDescription: "\tSzturmowiec z shotgunem i/lub tarcz\u0105. Spec w walce
+      na kr\xF3tki dystans. Ma bonusy do inicjatywy i do reakcji"

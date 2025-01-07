@@ -39,3 +39,13 @@ MonoBehaviour:
     skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
     proficiencyBonus: 2
     skillsDescription: "Opis poni\u017Cej w opisie podklas"
+  subClassesTable:
+  - subClassName: Snajper
+    subClassDescription: "\tSkrada si\u0119, strzela z bonusami z dystansu, u\u017Cywa
+      min, aby nikt si\u0119 do niego nie zakrad\u0142"
+  - subClassName: Duch
+    subClassDescription: "\tTypowy z\u0142odziej od dostawania si\u0119 w pozornie
+      niedost\u0119pne miejsca."
+  - subClassName: Oprych
+    subClassDescription: "\tCh\u0142op nie bacz\u0105cy na zasady fair play. Strzela
+      pierwszy i ma do tego bonus"

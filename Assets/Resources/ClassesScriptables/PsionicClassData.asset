@@ -42,3 +42,13 @@ MonoBehaviour:
     skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
     proficiencyBonus: 2
     skillsDescription: "Opis poni\u017Cej w opisie podklas"
+  subClassesTable:
+  - subClassName: Telekineza
+    subClassDescription: "\tPorusza przedmioty i istoty za pomoc\u0105 si\u0142y
+      woli"
+  - subClassName: Pyrokineza
+    subClassDescription: "\tMa dodatkowe czary magii ognia :) bonus do obra\u017Ce\u0144
+      od ognia"
+  - subClassName: Psychokineza
+    subClassDescription: "\tU\u017Cywa mocy psychicznej do atakowania umys\u0142\xF3w
+      istot"

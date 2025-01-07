@@ -67,3 +67,17 @@ MonoBehaviour:
     skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
     proficiencyBonus: 2
     skillsDescription: "Opis poni\u017Cej w opisie podklas"
+  subClassesTable:
+  - subClassName: "Sier\u017Cant"
+    subClassDescription: "\tBonusy do HP dla towarzyszy, sam r\xF3wnie\u017C potrafi
+      solidnie przywali\u0107 i przyj\u0105\u0107 na klat\u0119"
+  - subClassName: Lider
+    subClassDescription: "\tPosiada pul\u0119 dodatkowych ko\u015Bci Rozkaz\xF3w,
+      kt\xF3rych mo\u017Ce u\u017Cy\u0107, aby inna posta\u0107 mia\u0142a w swojej
+      reakcji dodatkow\u0105 akcj\u0119 np. ataku albo wycofania si\u0119 "
+  - subClassName: As
+    subClassDescription: "\tAs posiadaj\u0105cy ekspertyz\u0119 w wybranej dziedzinie
+      np. strzelaniu, walce wr\u0119cz, pilotowaniu itp. Mo\u017Ce inspirowa\u0107
+      zar\xF3wno towarzyszy swoimi umiej\u0119tno\u015Bciami, jak i samego siebie"
+  - subClassName: "M\xF3wca"
+    subClassDescription: "\tRozwini\u0119ta Neolingwistyka, dodatkowe sloty i bonusy"

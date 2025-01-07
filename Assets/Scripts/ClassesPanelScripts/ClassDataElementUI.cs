@@ -15,11 +15,17 @@ public class ClassDataElementUI : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI skillsDescriptionText;
 
+ 
+
+    [SerializeField]
+    private ClassLevelUpDetailsElementUI levelUpDetailsPrefab;
     [SerializeField]
     private Transform levelUpDetailsParent;
 
     [SerializeField]
-    private ClassLevelUpDetailsElementUI levelUpDetailsPrefab;
+    private ClassDetailsElementUI subClassDetailsPrefab;
+    [SerializeField]
+    private Transform subClassDetailsParent;
 
     [SerializeField]
     private ClassesDataBase classesDatabase;
@@ -48,6 +54,8 @@ public class ClassDataElementUI : MonoBehaviour
 
 
         GenerateLevelUpDetails(data.levelUpTable);
+
+        GenerateSubClassesDetails(data.subClassesTable);
     }
 
     private void GenerateLevelUpDetails(List<LevelUpTable> levelUpTable)
@@ -63,5 +71,20 @@ public class ClassDataElementUI : MonoBehaviour
         }
 
         levelUpDetailsPrefab.gameObject.SetActive(false);
+    }
+
+    private void GenerateSubClassesDetails(List<SubClassInfo> subClassInfo)
+    {
+        foreach (SubClassInfo subclass in subClassInfo)
+        {
+            ClassDetailsElementUI newSubclassDetails = Instantiate(subClassDetailsPrefab, subClassDetailsParent);
+
+            if (newSubclassDetails != null)
+            {
+                newSubclassDetails.Initialize(subclass);
+            }
+        }
+
+        subClassDetailsPrefab.gameObject.SetActive(false);
     }
 }

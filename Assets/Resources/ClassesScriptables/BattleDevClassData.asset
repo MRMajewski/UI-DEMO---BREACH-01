@@ -42,3 +42,12 @@ MonoBehaviour:
     skills: "Umiej\u0119tno\u015B\u0107 podklasy"
     proficiencyBonus: 2
     skillsDescription: "Opis poni\u017Cej w opisie podklas"
+  subClassesTable:
+  - subClassName: Grawitacja
+    subClassDescription: "Manipulacja si\u0142\u0105 przyci\u0105gania dzia\u0142aj\u0105c\u0105
+      na istoty i przedmioty"
+  - subClassName: Czas
+    subClassDescription: "Manipulacja up\u0142ywu czasu"
+  - subClassName: Energia
+    subClassDescription: "Manipulacja r\xF3\u017Cnymi rodzajami energii np ciep\u0142em,
+      elektryczno\u015Bci\u0105, promieniowaniem"
