@@ -19,7 +19,7 @@ public class ClassPanel : SimpleUIPanelMobiles
     private ClassesDataBase ClassesDataBase;
 
     [SerializeField]
-    private ClassesElementsSnapper snapper;
+    private UIElementsSnapper snapper;
 
     [SerializeField]
     private MiniatureClassIconsChanger classIconChanger;

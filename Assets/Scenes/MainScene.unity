@@ -16127,9 +16127,9 @@ GameObject:
   - component: {fileID: 712716144}
   - component: {fileID: 712716147}
   - component: {fileID: 712716146}
-  - component: {fileID: 712716145}
+  - component: {fileID: 712716148}
   m_Layer: 5
-  m_Name: ClassesInfoContentContainer
+  m_Name: AttributesInfoContentContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16157,23 +16157,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
---- !u!114 &712716145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 712716143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20b827da3449e194bac6b0bfa71313ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panels:
-  - {fileID: 2067832427}
-  - {fileID: 1456008774}
-  - {fileID: 947490676}
-  content: {fileID: 712716144}
 --- !u!114 &712716146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16214,6 +16197,23 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &712716148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712716143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca6ed5796d3e1ec43a2b8e7144a84dcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 2067832427}
+  - {fileID: 1456008774}
+  - {fileID: 947490676}
+  content: {fileID: 712716144}
 --- !u!1 &712846208
 GameObject:
   m_ObjectHideFlags: 0
@@ -18414,7 +18414,7 @@ GameObject:
   - component: {fileID: 810968996}
   - component: {fileID: 810968995}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: SocialAbilitiesButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18482,7 +18482,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 810968996}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ClassesElementsSnapper, Assembly-CSharp
+        m_MethodName: SnapToPanelFromButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 937854336}
+        m_TargetAssemblyTypeName: MiniatureIconsChanger, Assembly-CSharp
+        m_MethodName: SetAlphaForIndex
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &810968996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20286,8 +20310,8 @@ GameObject:
   - component: {fileID: 937854331}
   - component: {fileID: 937854335}
   - component: {fileID: 937854334}
-  - component: {fileID: 937854333}
   - component: {fileID: 937854332}
+  - component: {fileID: 937854336}
   m_Layer: 5
   m_Name: MiniatureIconsPanel
   m_TagString: Untagged
@@ -20343,24 +20367,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &937854333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 937854330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97017b0c45852f849aec2daba1224552, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  classIconExample: {fileID: 1150671570}
-  iconsParent: {fileID: 937854331}
-  classIconList:
-  - {fileID: 1150671571}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &937854334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20399,6 +20405,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937854330}
   m_CullTransparentMesh: 1
+--- !u!114 &937854336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937854330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac24b833782762344870c7838f6caca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  classIconList:
+  - {fileID: 1150671571}
+  - {fileID: 1080825238}
+  - {fileID: 810968996}
 --- !u!1 &947490675
 GameObject:
   m_ObjectHideFlags: 0
@@ -23439,7 +23461,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1080825238}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ClassesElementsSnapper, Assembly-CSharp
+        m_MethodName: SnapToPanelFromButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 937854336}
+        m_TargetAssemblyTypeName: MiniatureIconsChanger, Assembly-CSharp
+        m_MethodName: SetAlphaForIndex
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1080825238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25393,7 +25439,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1150671571}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: ClassesElementsSnapper, Assembly-CSharp
+        m_MethodName: SnapToPanelFromButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 937854336}
+        m_TargetAssemblyTypeName: MiniatureIconsChanger, Assembly-CSharp
+        m_MethodName: SetAlphaForIndex
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1150671571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27740,7 +27810,7 @@ MonoBehaviour:
   - panelName: 6
     simplePanel: {fileID: 1962984726}
   - panelName: 7
-    simplePanel: {fileID: 1585509560}
+    simplePanel: {fileID: 1585509561}
   transitionTime: 0.25
   isTransitioning: 0
   leftCurtain: {fileID: 549869139}
@@ -35219,7 +35289,7 @@ GameObject:
   - component: {fileID: 1585509559}
   - component: {fileID: 1585509558}
   - component: {fileID: 1585509557}
-  - component: {fileID: 1585509560}
+  - component: {fileID: 1585509561}
   m_Layer: 5
   m_Name: ThrowsDefinitionsPanel
   m_TagString: Untagged
@@ -35300,7 +35370,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585509553}
   m_CullTransparentMesh: 1
---- !u!114 &1585509560
+--- !u!114 &1585509561
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -35309,10 +35379,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1585509553}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c31a066486f77643a1dc90c1dbcbda0, type: 3}
+  m_Script: {fileID: 11500000, guid: 05f7bcfde69a76547a8d6ee191d25236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   panelsCanvasGroup: {fileID: 1585509557}
+  snapper: {fileID: 712716148}
+  iconChanger: {fileID: 937854336}
+  iconButtons:
+  - {fileID: 1150671570}
+  - {fileID: 1080825237}
+  - {fileID: 810968995}
 --- !u!1 &1594272379
 GameObject:
   m_ObjectHideFlags: 0
@@ -44100,9 +44176,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97017b0c45852f849aec2daba1224552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  classIconList: []
   classIconExample: {fileID: 445233042}
   iconsParent: {fileID: 1902755749}
-  classIconList: []
 --- !u!1 &1907345520
 GameObject:
   m_ObjectHideFlags: 0
@@ -45660,7 +45736,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1960315920}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20b827da3449e194bac6b0bfa71313ca, type: 3}
+  m_Script: {fileID: 11500000, guid: ca6ed5796d3e1ec43a2b8e7144a84dcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   panels: []

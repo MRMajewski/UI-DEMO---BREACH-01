@@ -4,11 +4,10 @@ using UnityEngine.UI;
 using DG.Tweening;
 using System;
 
-public class ClassesElementsSnapper : MonoBehaviour
+public class UIElementsSnapper : MonoBehaviour
 {
     public List<RectTransform> panels; 
     public RectTransform content;  
-
 
     private int currentPanelIndex = 0; 
     private bool isHorizontalSwipe = false; 
@@ -94,7 +93,7 @@ public class ClassesElementsSnapper : MonoBehaviour
 
             SnapToPanel(currentPanelIndex);
 
-            OnPanelChanged.Invoke(currentPanelIndex);
+            OnPanelChanged?.Invoke(currentPanelIndex);
         }
     }
 
@@ -119,6 +118,6 @@ public class ClassesElementsSnapper : MonoBehaviour
 
         currentPanelIndex = panelIndex;
 
-        OnPanelChanged.Invoke(currentPanelIndex);
+        OnPanelChanged?.Invoke(currentPanelIndex);
     }
 }

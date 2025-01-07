@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MiniatureClassIconsChanger : MonoBehaviour
+public class MiniatureClassIconsChanger : MiniatureIconsChanger
 {
     [SerializeField]
     private Button classIconExample;
@@ -11,24 +11,10 @@ public class MiniatureClassIconsChanger : MonoBehaviour
     [SerializeField]
     private Transform iconsParent;
 
-    [SerializeField]
-    private List<Image> classIconList;
+    //[SerializeField]
+    //private List<Image> classIconList;
 
-    //public void CreateClassIcons(ClassesDataBase classdata)
-    //{
-    //    classIconList.Clear();
-    //    classIconList.TrimExcess();
-
-    //    foreach (ClassData data in classdata.AllClasses)
-    //    {
-    //        Button newIcon = Instantiate(classIconExample, iconsParent);
-    //        newIcon.GetComponent<Image>().sprite = data.classIcon;
-    //        classIconList.Add(newIcon.GetComponent<Image>());
-    //    }
-    //    classIconExample.gameObject.SetActive(false);
-    //}
-
-    public void CreateClassIcons(ClassesDataBase classdata, ClassesElementsSnapper snapper)
+    public void CreateClassIcons(ClassesDataBase classdata, UIElementsSnapper snapper)
     {
         classIconList.Clear();
         classIconList.TrimExcess();
@@ -46,21 +32,5 @@ public class MiniatureClassIconsChanger : MonoBehaviour
             classIconList.Add(iconImage);
         }
         classIconExample.gameObject.SetActive(false);
-    }
-
-    public void SetAlphaForIndex(int index)
-    {
-        if (index < 0 || index >= classIconList.Count)
-        {
-            Debug.LogWarning("Index out of bounds");
-            return;
-        }
-
-        for (int i = 0; i < classIconList.Count; i++)
-        {
-            Color color = classIconList[i].color;
-            color.a = (i == index) ? 1f : 0.5f;
-            classIconList[i].color = color;
-        }
     }
 }
