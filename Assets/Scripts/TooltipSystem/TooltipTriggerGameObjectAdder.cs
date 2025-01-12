@@ -32,10 +32,10 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
         // Zapisz nowy tekst w TextMeshProUGUI
         textMeshProText = newTextMeshPro;
 
-        // Zaktualizuj dane
-        textMeshProText.ForceMeshUpdate();
+        // Zaktualizuj dane przed rozpoczêciem przetwarzania
+        textMeshProText.ForceMeshUpdate();  // Upewnij siê, ¿e siatka jest zaktualizowana
 
-        // Przechodzimy przez s³owa w tekœcie
+        // Przechodzimy przez frazy w triggerach
         string updatedText = textMeshProText.text;
 
         foreach (var trigger in triggersList)
@@ -43,73 +43,102 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
             string triggerName = trigger.TriggerName;
             string tooltipText = trigger.TooltipText;
 
-            // Wyszukaj wszystkie wyst¹pienia triggerName w tekœcie
-            var matches = FindWordMatches(triggerName);
+            // Wyszukaj wszystkie wyst¹pienia triggerName (frazy) w tekœcie
+            var matches = FindPhraseMatches(triggerName);
 
             foreach (var match in matches)
             {
-                // Otaguj znalezione s³owo <b></b>
-                updatedText = AddBoldTagToText(updatedText, match);
+                // Otaguj znalezion¹ frazê <b></b> dla ka¿dego s³owa
+                updatedText = AddBoldTagToText(updatedText, match.GetWord());
+            }
 
-                // Tworzymy nowy obiekt TooltipTrigger
-                CreateTooltipTriggerObject(match, tooltipText);
+            // Zaktualizuj tekst w TextMeshPro
+            textMeshProText.text = updatedText;
+
+            // Upewnij siê, ¿e tekst jest aktualny po modyfikacjach
+            textMeshProText.ForceMeshUpdate();
+
+            // Tworzymy Tooltipy dla ka¿dego s³owa w dopasowanej frazie
+            foreach (var match in matches)
+            {
+                // Tworzymy nowy obiekt TooltipTrigger dla ka¿dego s³owa w frazie
+                CreateTooltipTriggerObjectsForPhrase(new List<TMP_WordInfo> { match }, trigger);
             }
         }
-
-        // Zaktualizuj tekst w TextMeshPro
-        textMeshProText.text = updatedText;
     }
 
-    private List<TMP_WordInfo> FindWordMatches(string triggerName)
+    private List<TMP_WordInfo> FindPhraseMatches(string triggerName)
     {
         List<TMP_WordInfo> matchingWords = new List<TMP_WordInfo>();
+
+        // £¹czymy s³owa w frazê
+        string[] triggerWords = triggerName.Split(' ');
 
         for (int i = 0; i < textMeshProText.textInfo.wordCount; i++)
         {
             var wordInfo = textMeshProText.textInfo.wordInfo[i];
-            if (wordInfo.GetWord().Equals(triggerName, System.StringComparison.OrdinalIgnoreCase))
+
+            // Jeœli s³owo pasuje do jednego z wyrazów w frazie
+            bool isMatch = true;
+            for (int j = 0; j < triggerWords.Length; j++)
             {
-                matchingWords.Add(wordInfo);
+                if (i + j >= textMeshProText.textInfo.wordCount || !textMeshProText.textInfo.wordInfo[i + j].GetWord().Equals(triggerWords[j], System.StringComparison.OrdinalIgnoreCase))
+                {
+                    isMatch = false;
+                    break;
+                }
+            }
+
+            // Jeœli ca³a fraza pasuje
+            if (isMatch)
+            {
+                // Dodajemy wszystkie s³owa z frazy do listy
+                for (int k = 0; k < triggerWords.Length; k++)
+                {
+                    matchingWords.Add(textMeshProText.textInfo.wordInfo[i + k]);
+                }
             }
         }
 
         return matchingWords;
     }
 
-    private string AddBoldTagToText(string text, TMP_WordInfo wordInfo)
+    private string AddBoldTagToText(string text, string word)
     {
-        string word = wordInfo.GetWord();
-
         // Sprawdzamy, czy s³owo nie jest ju¿ otagowane <b>...</b>
         string wordWithTag = "<b>" + word + "</b>";
 
-        // Je¿eli ju¿ jest otagowane, zwróæ tekst bez zmian
-        if (text.Contains(wordWithTag))
+        // Zastêpujemy tylko te s³owa, które nie zawieraj¹ tagu <b>
+        if (!text.Contains(wordWithTag))
         {
-            return text;
+            text = text.Replace(word, wordWithTag);
         }
 
-        // Zastêpujemy tylko te s³owa, które nie zawieraj¹ tagu <b>
-        return text.Replace(word, wordWithTag);
+        return text;
     }
 
-
-
-    private void CreateTooltipTriggerObject(TMP_WordInfo wordInfo, string tooltipText)
+    private void CreateTooltipTriggerObjectsForPhrase(List<TMP_WordInfo> wordInfos, TooltipTriggerTextInfo tooltipInfo)
     {
-        // Tworzymy obiekt
-        GameObject tooltipObject = Instantiate(tooltipPrefab, textMeshProText.transform);
-        tooltipObject.name = "TooltipTrigger_" + wordInfo.GetWord();
+        foreach (var wordInfo in wordInfos)
+        {
+            GameObject tooltipObject = Instantiate(tooltipPrefab, textMeshProText.transform);
+            tooltipObject.name = "TooltipTrigger_" + wordInfo.GetWord();
 
-        // Przypisujemy tekst tooltipa do komponentu TooltipTrigger
-        TooltipTrigger tooltipTrigger = tooltipObject.GetComponent<TooltipTrigger>();
-        tooltipTrigger.TooltipText = tooltipText;
+            TooltipTrigger tooltipTrigger = tooltipObject.GetComponent<TooltipTrigger>();
+            tooltipTrigger.TooltipText = tooltipInfo.TooltipText;
+            tooltipTrigger.Type = tooltipInfo.TooltipType;
+            tooltipTrigger.ActionName = tooltipInfo.ActionName;
 
-        // Repositionujemy obiekt w miejscu s³owa
-        RepositionTooltipObject(wordInfo, tooltipObject);
+            //// Przypisz akcjê, jeœli tooltip jest typu WithButton
+            //if (tooltipInfo.TooltipType == TooltipType.WithButton && tooltipInfo.ActionName != null)
+            //{
+            //}
 
-        createdTooltipObjects.Add(tooltipObject);
+            RepositionTooltipObject(wordInfo, tooltipObject);
+            createdTooltipObjects.Add(tooltipObject);
+        }
     }
+
 
     private void RepositionTooltipObject(TMP_WordInfo wordInfo, GameObject tooltipObject)
     {
@@ -125,6 +154,9 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
         float wordBottomLine = textInfo.characterInfo[startIndex].bottomLeft.y + wordInfo.textComponent.fontSize / 2;
 
         float wordWidth = Mathf.Abs(textInfo.characterInfo[startIndex].bottomLeft.x - textInfo.characterInfo[endIndex].topRight.x);
+
+        // Debugowanie: sprawdzamy pozycjê
+        Debug.Log($"Repositioning tooltip for word '{wordInfo.GetWord()}' at position {wordCenterX}, {wordBottomLine} with width {wordWidth}");
 
         // Ustawiamy rozmiar i pozycjê
         rectTransform.sizeDelta = new Vector2(wordWidth, wordInfo.textComponent.fontSize);

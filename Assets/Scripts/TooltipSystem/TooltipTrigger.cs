@@ -1,10 +1,77 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using UnityEngine.Events;
+using UnityEngine.EventSystems;
+using System.Collections;
 
-public class TooltipTrigger : MonoBehaviour
+public class TooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler
 {
-    [SerializeField]
-    private string tooltipText;
-    public string TooltipText { get => tooltipText; set => tooltipText = value; }
+    [SerializeField] private TooltipType tooltipType;
+    [SerializeField] private string tooltipText;
+    [SerializeField] private string actionName="";
+  //  [SerializeField] private UnityAction buttonAction; // Akcja przycisku
+
+    public TooltipType Type
+    {
+        get => tooltipType;
+        set => tooltipType = value;
+    }
+    public string TooltipText
+    {
+        get => tooltipText;
+        set => tooltipText = value;
+    }
+    public string ActionName
+    {
+        get => actionName;
+        set => actionName = value;
+    }
+
+    public void OnSelect(BaseEventData eventData)
+    {
+        HandleTooltipEnter();
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        HandleTooltipEnter();
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        HandleTooltipExit();
+    }
+
+    public void OnDeselect(BaseEventData eventData)
+    {
+        HandleTooltipExit();
+    }
+
+    private void HandleTooltipEnter()
+    {
+        TooltipManager.Instance.InspectedRectTransform = GetComponent<RectTransform>();
+
+        TooltipManager.Instance.CreateCurrentTooltip();
+
+        TooltipManager.Instance.CurrentTooltip.SetTooltipText(tooltipText, OnTriggerButtonAddAction);
+
+        TooltipManager.Instance.ShowTooltip();
+    }
+
+    public void OnTriggerButtonAddAction()
+    {
+        TooltipManager.Instance.ExecuteAction(this.actionName);
+    }
+
+    private void HandleTooltipExit()
+    {
+        TooltipManager.Instance.CloseTooltipUI();
+          
+    }
+
+    public void HideTooltip()
+    {
+        // TooltipSystem.HideTooltip();
+    }
 }
