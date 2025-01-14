@@ -54,9 +54,15 @@ public class TooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitH
 
         TooltipManager.Instance.CreateCurrentTooltip();
 
+        if(this.actionName=="")
+        {
+            TooltipManager.Instance.CurrentTooltip.SetTooltipText(tooltipText, null);
+        }
+        else
         TooltipManager.Instance.CurrentTooltip.SetTooltipText(tooltipText, OnTriggerButtonAddAction);
 
-        TooltipManager.Instance.ShowTooltip();
+        TooltipManager.Instance.RepositionToolTip();
+        // TooltipManager.Instance.ShowTooltip();
     }
 
     public void OnTriggerButtonAddAction()

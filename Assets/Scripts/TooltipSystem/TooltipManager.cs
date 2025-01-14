@@ -174,9 +174,151 @@ public class TooltipManager : MonoBehaviour
 
     internal void CloseTooltipUI()
     {
-        throw new NotImplementedException();
+      //  Destroy(currentTooltip.gameObject);
+    }
+    public void RepositionToolTip()
+    {
+        currentTooltip.transform.SetParent(tooltipsContainer);
+        currentTooltip.transform.SetAsLastSibling();
+        currentTooltip.transform.localScale = new Vector3(1, 1, 1);
+        currentTooltip.transform.localRotation = Quaternion.identity;
+        offsetTooltipX = inspectedRectTransform.rect.width / 2;
+        offsetTooltipY = inspectedRectTransform.rect.height / 2;
+
+       // currentTooltip.transform.localPosition = GetCurrentTooltipNewPos();
+      
+
+        RectTransform rectTransform = currentTooltip.GetComponent<RectTransform>();
+        rectTransform.position = GetCurrentTooltipNewPos();
+        // currentTooltip.transform.localPosition = AdjustWontOverrlapTrigger(rectTransform);
+        //   currentTooltip.transform.localPosition = AdjustWontLeaveScreen(rectTransform, tooltipsContainer, currentTooltip.transform.localPosition);
+        rectTransform.position = AdjustWontLeaveScreen(rectTransform, tooltipsContainer, rectTransform.localPosition);
     }
 
+    public Vector3 GetCurrentTooltipNewPos()
+    {
+        inspectedRectTransformDummy.transform.SetParent(inspectedRectTransform.transform.parent);
+        inspectedRectTransformDummy.transform.SetAsLastSibling();
+
+        inspectedRectTransformDummy.sizeDelta = inspectedRectTransform.sizeDelta;
+        inspectedRectTransformDummy.pivot = inspectedRectTransform.pivot;
+        inspectedRectTransformDummy.anchoredPosition = inspectedRectTransform.anchoredPosition;
+        inspectedRectTransformDummy.transform.localPosition = inspectedRectTransform.transform.localPosition;
+
+        inspectedRectTransformDummy.transform.SetParent(overrlapCheckContainer);
+        CurrentTooltipNewPosition = inspectedRectTransformDummy.localPosition;
+        return CurrentTooltipNewPosition;
+    }
+
+    public Vector3 AdjustWontOverrlapTrigger(RectTransform currentRect)
+    {
+     //   isPosXFirstChecked = GenerateRandomBool();
+
+        if (isPosXFirstChecked)
+        {
+            currentTooltip.transform.localPosition = AdjustWontOverrlapTriggerPosX(currentRect);
+            if (CheckIfTooltipOverrlapTrigger(currentTooltip.GetComponent<RectTransform>(), inspectedRectTransformDummy))
+                currentTooltip.transform.localPosition = AdjustWontOverrlapTriggerPosY(currentTooltip.GetComponent<RectTransform>());
+        }
+        else
+        {
+            currentTooltip.transform.localPosition = AdjustWontOverrlapTriggerPosY(currentRect);
+            if (CheckIfTooltipOverrlapTrigger(currentTooltip.GetComponent<RectTransform>(), inspectedRectTransformDummy))
+                currentTooltip.transform.localPosition = AdjustWontOverrlapTriggerPosX(currentTooltip.GetComponent<RectTransform>());
+        }
+        return currentTooltip.transform.localPosition;
+    }
+
+    public bool CheckIfTooltipOverrlapTrigger(RectTransform tooltip, RectTransform trigger)
+    {
+        tooltip.transform.SetParent(overrlapCheckContainer);
+        tooltip.transform.SetAsLastSibling();
+
+        Vector2 minMaxValuesX;
+        Vector2 minMaxValuesY;
+
+        minMaxValuesX.x = trigger.localPosition.x - (trigger.rect.width / 2);
+        minMaxValuesX.y = trigger.localPosition.x + (trigger.rect.width / 2);
+        minMaxValuesY.x = trigger.localPosition.y - (trigger.rect.height / 2);
+        minMaxValuesY.y = trigger.localPosition.y + (trigger.rect.height / 2);
+
+        bool isOverrlapping;
+        if (tooltip.localPosition.x >= minMaxValuesX.x & tooltip.localPosition.x <= minMaxValuesX.y)
+        {
+            if (tooltip.localPosition.y >= minMaxValuesY.x & tooltip.localPosition.y <= minMaxValuesY.y)
+            {
+                isOverrlapping = true;
+            }
+            else
+            {
+                isOverrlapping = false;
+            }
+        }
+        else
+        {
+            isOverrlapping = false;
+        }
+        tooltip.transform.SetParent(tooltipsContainer);
+        tooltip.transform.SetAsLastSibling();
+
+        return isOverrlapping;
+    }
+
+    public Vector3 AdjustWontOverrlapTriggerPosX(RectTransform currentRect)
+    {
+        if (CheckIfTooltipOverrlapTrigger(currentRect, inspectedRectTransformDummy))
+        {
+            if (inspectedRectTransformDummy.transform.localPosition.x >= 0)
+            {
+                CurrentTooltipNewPosition.x = CurrentTooltipNewPosition.x - offsetTooltipX - currentRect.rect.width / 2;
+            }
+            else if (inspectedRectTransformDummy.transform.localPosition.x < 0)
+            {
+                CurrentTooltipNewPosition.x = CurrentTooltipNewPosition.x + offsetTooltipX + currentRect.rect.width / 2;
+            }
+        }
+        return CurrentTooltipNewPosition;
+    }
+
+    public Vector3 AdjustWontOverrlapTriggerPosY(RectTransform currentRect)
+    {
+        if (CheckIfTooltipOverrlapTrigger(currentRect, inspectedRectTransformDummy))
+        {
+            if (inspectedRectTransformDummy.transform.localPosition.y >= 0)
+            {
+                CurrentTooltipNewPosition.y = CurrentTooltipNewPosition.y - offsetTooltipY - currentRect.rect.height / 2;
+            }
+            else if (inspectedRectTransformDummy.transform.localPosition.y < 0)
+            {
+                CurrentTooltipNewPosition.y = CurrentTooltipNewPosition.y + offsetTooltipY + currentRect.rect.height / 2;
+            }
+        }
+        return CurrentTooltipNewPosition;
+    }
+
+    //private bool GenerateRandomBool()
+    //{
+        //int randomIndex = Random.Range(0, 100);
+
+        //if (randomIndex > 49)
+        //{
+        //    return true;
+        //}
+        //else return false;
+   // }
+
+    public Vector3 AdjustWontLeaveScreen(RectTransform currentRect, RectTransform CanvasRect, Vector3 newPos)
+    {
+        float minX = (CanvasRect.rect.width - currentRect.sizeDelta.x) * -0.5f;
+        float maxX = (CanvasRect.rect.width - currentRect.sizeDelta.x) * 0.5f;
+        float minY = (CanvasRect.rect.height - currentRect.sizeDelta.y) * -0.5f;
+        float maxY = (CanvasRect.rect.height - currentRect.sizeDelta.y) * 0.5f;
+
+        newPos.x = Mathf.Clamp(newPos.x, minX, maxX);
+        newPos.y = Mathf.Clamp(newPos.y, minY, maxY);
+
+        return newPos;
+    }
 }
 
 public enum MultiTooltipType

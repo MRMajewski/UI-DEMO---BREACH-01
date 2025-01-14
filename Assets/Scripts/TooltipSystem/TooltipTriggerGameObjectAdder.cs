@@ -49,7 +49,7 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
             foreach (var match in matches)
             {
                 // Otaguj znalezion¹ frazê <b></b> dla ka¿dego s³owa
-                updatedText = AddBoldTagToText(updatedText, match.GetWord());
+                updatedText = AddCursiveTagToText(updatedText, match.GetWord());
             }
 
             // Zaktualizuj tekst w TextMeshPro
@@ -103,10 +103,10 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
         return matchingWords;
     }
 
-    private string AddBoldTagToText(string text, string word)
+    private string AddCursiveTagToText(string text, string word)
     {
         // Sprawdzamy, czy s³owo nie jest ju¿ otagowane <b>...</b>
-        string wordWithTag = "<b>" + word + "</b>";
+        string wordWithTag = "<i>" + word + "</i>";
 
         // Zastêpujemy tylko te s³owa, które nie zawieraj¹ tagu <b>
         if (!text.Contains(wordWithTag))
@@ -129,18 +129,13 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
             tooltipTrigger.Type = tooltipInfo.TooltipType;
             tooltipTrigger.ActionName = tooltipInfo.ActionName;
 
-            //// Przypisz akcjê, jeœli tooltip jest typu WithButton
-            //if (tooltipInfo.TooltipType == TooltipType.WithButton && tooltipInfo.ActionName != null)
-            //{
-            //}
-
-            RepositionTooltipObject(wordInfo, tooltipObject);
+            RepositionTooltipTriggerObject(wordInfo, tooltipObject);
             createdTooltipObjects.Add(tooltipObject);
         }
     }
 
 
-    private void RepositionTooltipObject(TMP_WordInfo wordInfo, GameObject tooltipObject)
+    private void RepositionTooltipTriggerObject(TMP_WordInfo wordInfo, GameObject tooltipObject)
     {
         RectTransform rectTransform = tooltipObject.GetComponent<RectTransform>();
 
@@ -159,7 +154,7 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
         Debug.Log($"Repositioning tooltip for word '{wordInfo.GetWord()}' at position {wordCenterX}, {wordBottomLine} with width {wordWidth}");
 
         // Ustawiamy rozmiar i pozycjê
-        rectTransform.sizeDelta = new Vector2(wordWidth, wordInfo.textComponent.fontSize);
+        rectTransform.sizeDelta = new Vector2(wordWidth +6f, wordInfo.textComponent.fontSize+20f);
         Vector3 wordPosition = textMeshProText.transform.TransformPoint(new Vector3(wordCenterX, wordBottomLine, 0f));
         rectTransform.position = wordPosition;
     }
