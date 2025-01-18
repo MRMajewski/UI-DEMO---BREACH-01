@@ -23,7 +23,7 @@ public class TooltipInteractionHandler : MonoBehaviour, IPointerExitHandler, IDe
 
     private void ResetAllTooltips()
     {
-        MultiTooltipManager.Instance.HideAllTooltips();
+     //   MultiTooltipManager.Instance.HideAllTooltips();
         TooltipsQueque.Clear();
     }
 }

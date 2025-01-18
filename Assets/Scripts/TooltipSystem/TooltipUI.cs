@@ -40,12 +40,15 @@ public class TooltipUI : MonoBehaviour
 
     public void ResizeTooltip()
     {
-        StartCoroutine(ResizeCoroutine());
+        LayoutRebuilder.ForceRebuildLayoutImmediate(tooltipText.GetComponent<RectTransform>());
+        LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
+       // StartCoroutine(ResizeCoroutine());
     }
     IEnumerator ResizeCoroutine()
     {
+        LayoutRebuilder.ForceRebuildLayoutImmediate(tooltipText.GetComponent<RectTransform>());
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
         yield return wait;
-        this.gameObjectTooltip.GetComponent<RectTransform>().sizeDelta = tooltipText.GetComponent<RectTransform>().sizeDelta + new Vector2(160, 120);
+
     }
 }

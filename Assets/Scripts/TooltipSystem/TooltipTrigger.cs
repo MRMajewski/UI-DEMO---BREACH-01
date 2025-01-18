@@ -61,8 +61,11 @@ public class TooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitH
         else
         TooltipManager.Instance.CurrentTooltip.SetTooltipText(tooltipText, OnTriggerButtonAddAction);
 
-        TooltipManager.Instance.RepositionToolTip();
-        // TooltipManager.Instance.ShowTooltip();
+        TooltipManager.Instance.CurrentTooltip.ResizeTooltip();
+
+
+        // TooltipManager.Instance.RepositionToolTip();
+        TooltipManager.Instance.ShowTooltip();
     }
 
     public void OnTriggerButtonAddAction()
@@ -72,12 +75,8 @@ public class TooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitH
 
     private void HandleTooltipExit()
     {
-        TooltipManager.Instance.CloseTooltipUI();
+        TooltipManager.Instance.HideTooltip();
           
     }
 
-    public void HideTooltip()
-    {
-        // TooltipSystem.HideTooltip();
-    }
 }

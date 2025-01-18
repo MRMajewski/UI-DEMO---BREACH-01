@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: "Si\u0142a_TooltipTrigger 1"
   m_EditorClassIdentifier: 
   triggerName: "Przyk\u0142ady rzut\xF3w"
-  tooltipText: dfdfdf fd wwe tt
+  tooltipText: dfdfdf fd wwe tt gggggggggggggg tttttttttttt eeeeeeeeee
+  tooltipType: 0
+  actionName: 
