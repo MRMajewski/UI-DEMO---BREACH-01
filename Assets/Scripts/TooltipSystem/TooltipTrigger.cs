@@ -5,7 +5,8 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using System.Collections;
 
-public class TooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler
+public class TooltipTrigger : MonoBehaviour, IPointerClickHandler
+
 {
     [SerializeField] private TooltipType tooltipType;
     [SerializeField] private string tooltipText;
@@ -28,27 +29,33 @@ public class TooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitH
         set => actionName = value;
     }
 
-    public void OnSelect(BaseEventData eventData)
+    //public void OnSelect(BaseEventData eventData)
+    //{
+    //    HandleTooltipEnter();
+    //}
+
+    //public void OnPointerEnter(PointerEventData eventData)
+    //{
+    //    HandleTooltipEnter();
+    //}
+
+    //public void OnPointerExit(PointerEventData eventData)
+    //{
+    //    HandleTooltipExit();
+    //}
+
+    //public void OnDeselect(BaseEventData eventData)
+    //{
+    //    HandleTooltipExit();
+    //}
+
+    
+    public void OnPointerClick(PointerEventData eventData)
     {
         HandleTooltipEnter();
     }
 
-    public void OnPointerEnter(PointerEventData eventData)
-    {
-        HandleTooltipEnter();
-    }
-
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        HandleTooltipExit();
-    }
-
-    public void OnDeselect(BaseEventData eventData)
-    {
-        HandleTooltipExit();
-    }
-
-    private void HandleTooltipEnter()
+private void HandleTooltipEnter()
     {
         TooltipManager.Instance.InspectedRectTransform = GetComponent<RectTransform>();
 
@@ -75,7 +82,7 @@ public class TooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitH
 
     private void HandleTooltipExit()
     {
-        TooltipManager.Instance.HideTooltip();
+      //  TooltipManager.Instance.HideTooltip();
           
     }
 

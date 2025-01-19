@@ -146,7 +146,8 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
 
         // Obliczamy pozycjê s³owa
         float wordCenterX = (textInfo.characterInfo[startIndex].bottomLeft.x + textInfo.characterInfo[endIndex].topRight.x) / 2f;
-        float wordBottomLine = textInfo.characterInfo[startIndex].bottomLeft.y + wordInfo.textComponent.fontSize / 2;
+        float wordBottomLine = textInfo.characterInfo[startIndex].bottomLeft.y + wordInfo.textComponent.fontSize/2;
+      //  float wordBottomLine = textInfo.characterInfo[startIndex].bottomLeft.y - wordInfo.textComponent.fontSize / 2;
 
         float wordWidth = Mathf.Abs(textInfo.characterInfo[startIndex].bottomLeft.x - textInfo.characterInfo[endIndex].topRight.x);
 
@@ -154,8 +155,12 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
         Debug.Log($"Repositioning tooltip for word '{wordInfo.GetWord()}' at position {wordCenterX}, {wordBottomLine} with width {wordWidth}");
 
         // Ustawiamy rozmiar i pozycjê
-        rectTransform.sizeDelta = new Vector2(wordWidth +6f, wordInfo.textComponent.fontSize+20f);
-        Vector3 wordPosition = textMeshProText.transform.TransformPoint(new Vector3(wordCenterX, wordBottomLine, 0f));
+        rectTransform.sizeDelta = new Vector2(wordWidth*1.15f, wordInfo.textComponent.fontSize*1.5f);
+        Vector3 wordPosition = textMeshProText.transform.TransformPoint(new Vector3(wordCenterX, wordBottomLine - wordInfo.textComponent.fontSize/5f , 0f));
         rectTransform.position = wordPosition;
+
+        //rectTransform.sizeDelta = new Vector2(wordWidth * 1.15f, wordInfo.textComponent.fontSize * 1.5f);
+        //Vector3 wordPosition = textMeshProText.transform.TransformPoint(new Vector3(wordCenterX, wordBottomLine - wordInfo.textComponent.fontSize / 4, 0f));
+        //rectTransform.position = wordPosition;
     }
 }

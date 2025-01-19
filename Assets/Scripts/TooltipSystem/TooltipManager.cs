@@ -51,13 +51,7 @@ public class TooltipManager : MonoBehaviour
     public float TimerDelay { get => timerDelay; }
 
     [Space]
-    [Header("Tooltip related refs")]
-    [SerializeField]
-    private MultiTooltipType multiTooltipType = MultiTooltipType.Automatic;
-    public MultiTooltipType MultiTooltipType { get => multiTooltipType; set => multiTooltipType = value; }
-    [SerializeField]
-    private int multiTooltipTypeIndex = 0;
-    [SerializeField]
+ 
     private int previousMultiTooltipTypeIndex;
 
 
@@ -160,6 +154,7 @@ public class TooltipManager : MonoBehaviour
         // Ustaw tooltip jako aktywny
         tooltipInstance.SetActive(true);
 
+        tooltipsQueque.Add(currentTooltip);
 
         // W razie potrzeby dostosuj rozmiar tooltipu
      //   currentTooltip.ResizeTooltip();
@@ -189,7 +184,37 @@ public class TooltipManager : MonoBehaviour
         CloseTooltipUI();
         Destroy(currentTooltip.gameObject);
     }
+    internal void HideTooltip(TooltipUI tooltip)
+    {
+        tooltipsQueque.Remove(tooltip);
+        CloseTooltipUI(tooltip);
+        Destroy(tooltip.gameObject);
+    }
 
+
+    public void HideAllTooltips()
+    {
+        if (tooltipsQueque.Count == 0)
+            return;
+
+        foreach (TooltipUI tooltip in tooltipsQueque)
+        {
+            CloseTooltipUI(tooltip);
+            Destroy(tooltip.gameObject);
+        }
+        tooltipsQueque.Clear();
+        tooltipsQueque.TrimExcess();
+    }
+
+    public void CloseTooltipUI(TooltipUI tooltip)
+    {
+        if (showSequence != null) showSequence.Kill();
+
+        hideSequence = DOTween.Sequence();
+        hideSequence
+        .Append(tooltip.CanvasGroup.DOFade(0f, tweenSpeed))
+        .AppendInterval(tweenSpeed).SetUpdate(true);
+    }
 
     public void CloseTooltipUI()
     {
@@ -200,6 +225,7 @@ public class TooltipManager : MonoBehaviour
         .Append(currentTooltip.CanvasGroup.DOFade(0f, tweenSpeed))
         .AppendInterval(tweenSpeed).SetUpdate(true);
     }
+
     public void RepositionToolTip()
     {
         currentTooltip.transform.SetParent(tooltipsContainer);
