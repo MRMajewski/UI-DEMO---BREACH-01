@@ -41,7 +41,7 @@ public class FilterUI : MonoBehaviour
 
         foreach (Button child in allCategoriesButtons)
         {
-            Destroy(child.gameObject);
+            DestroyImmediate(child.gameObject);
         }
         allCategoriesButtons.Clear();
         allCategoriesButtons.TrimExcess();

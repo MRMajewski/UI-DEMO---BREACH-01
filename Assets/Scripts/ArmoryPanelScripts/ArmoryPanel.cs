@@ -32,6 +32,8 @@ public class ArmoryPanel : SimpleUIPanelMobiles
     public override void InitializePanel()
     {
         filterUI.CreateCategoryButtons();
+
+        //test
         RefreshUI(itemDatabase.AllItems);
 
         currentItems[0].button.onClick.Invoke();

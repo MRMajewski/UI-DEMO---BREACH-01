@@ -23,8 +23,18 @@ public class AttributesInfoPanel : SimpleUIPanelMobiles
             int index = iconButtons.IndexOf(icon);
             icon.onClick.AddListener(() => snapper.SnapToPanelFromButton(index));
         }
-        iconChanger.SetAlphaForIndex(0);
+        //    iconChanger.SetAlphaForIndex(0);
 
-        iconButtons[0].onClick.Invoke();
+        InitializeCategory(0);
+        // iconButtons[0].onClick.Invoke();
+
+        ProcessTooltipTriggers();
+
+    }
+
+
+    public void InitializeCategory(int index)
+    {
+        iconButtons[index].onClick.Invoke();
     }
 }

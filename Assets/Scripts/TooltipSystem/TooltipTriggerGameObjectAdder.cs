@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using System.Collections;
 
 public class TooltipTriggerGameObjectAdder : MonoBehaviour
 {
@@ -9,12 +10,12 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
     private List<TooltipTriggerTextInfo> triggersList;
 
     [SerializeField]
-    private GameObject tooltipPrefab;
+    private GameObject triggerPrefab;
 
     [SerializeField]
     private TextMeshProUGUI textMeshProText;
 
-    private List<GameObject> createdTooltipObjects = new List<GameObject>();
+    private List<GameObject> createdTriggersObjects = new List<GameObject>();
 
     [ContextMenu("TEST")]
     public void Test()
@@ -22,10 +23,31 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
         ProcessText(textMeshProText);
     }
 
-    private void Start()
+    //private void Start()
+    //{
+    //    ProcessText(textMeshProText);
+    //}
+
+    [ContextMenu("TEST")]
+    public void AddTriggersToText()
     {
+        // StartCoroutine(ProcessTextCoroutine());
+
+        foreach (GameObject trigger in createdTriggersObjects)
+        {
+            DestroyImmediate(trigger);
+        }
+        createdTriggersObjects.Clear();
+        createdTriggersObjects.TrimExcess();
+
         ProcessText(textMeshProText);
     }
+
+   //IEnumerator ProcessTextCoroutine()
+   // {
+   //   //  yield return new WaitForEndOfFrame();
+   //     ProcessText(textMeshProText);
+   // }
 
     public void ProcessText(TextMeshProUGUI newTextMeshPro)
     {
@@ -69,6 +91,7 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
 
     private List<TMP_WordInfo> FindPhraseMatches(string triggerName)
     {
+        textMeshProText.ForceMeshUpdate();
         List<TMP_WordInfo> matchingWords = new List<TMP_WordInfo>();
 
         // £¹czymy s³owa w frazê
@@ -121,7 +144,7 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
     {
         foreach (var wordInfo in wordInfos)
         {
-            GameObject tooltipObject = Instantiate(tooltipPrefab, textMeshProText.transform);
+            GameObject tooltipObject = Instantiate(triggerPrefab, textMeshProText.transform);
             tooltipObject.name = "TooltipTrigger_" + wordInfo.GetWord();
 
             TooltipTrigger tooltipTrigger = tooltipObject.GetComponent<TooltipTrigger>();
@@ -130,7 +153,7 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
             tooltipTrigger.ActionName = tooltipInfo.ActionName;
 
             RepositionTooltipTriggerObject(wordInfo, tooltipObject);
-            createdTooltipObjects.Add(tooltipObject);
+            createdTriggersObjects.Add(tooltipObject);
         }
     }
 

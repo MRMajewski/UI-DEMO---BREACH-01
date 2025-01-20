@@ -28,7 +28,7 @@ public class ClassPanel : SimpleUIPanelMobiles
     {
         foreach (ClassDataElementUI classData in classesDataElementsUIList)
         {
-            Destroy(classData.gameObject);
+            DestroyImmediate(classData.gameObject);
         }
         classesDataElementsUIList.Clear();
         classesDataElementsUIList.TrimExcess();

@@ -80,8 +80,15 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
     {
         InitSimpleUIPanels();
     }
+    public void InitPanelsData()
+    {
+        foreach (var simplePanel in SimplePanels)
+        {
+            simplePanel.simplePanel.InitializePanel();
+        }
+    }
 
-    private void InitSimpleUIPanels()
+    public void InitSimpleUIPanels()
     {
         isTransitioning = true;
         currentPanel = firstPanel;
@@ -116,6 +123,24 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         StartCoroutine(EnablePanelAfterDelay());
     }
 
+    public void SwitchPanelWithoutChangingPreviousPanel(SimpleUIPanelMobiles newPanel)
+    {
+        if (isTransitioning) return;
+
+        PlayCurtainScaleAnimation();
+
+        if (currentPanel != null)
+        {
+            currentPanel.DisablePanel();
+        }
+        currentPanel = newPanel;
+
+
+        StartCoroutine(EnablePanelAfterDelay());
+    }
+
+
+
     public void SwitchPanel(string name)
     {
         Enum.TryParse(name, out SimplePanelNames result);
@@ -125,6 +150,20 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
             if (panel.panelName == result)
             {
                 SwitchPanel(panel.simplePanel);
+                break;
+            }
+        }
+    }
+
+    public void SwitchPanelWithoutChangingPreviousPanel(string name)
+    {
+        Enum.TryParse(name, out SimplePanelNames result);
+
+        foreach (var panel in SimplePanels)
+        {
+            if (panel.panelName == result)
+            {
+                SwitchPanelWithoutChangingPreviousPanel(panel.simplePanel);
                 break;
             }
         }

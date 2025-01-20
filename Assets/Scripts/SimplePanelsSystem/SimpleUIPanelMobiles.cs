@@ -10,6 +10,10 @@ public abstract class SimpleUIPanelMobiles : MonoBehaviour, ISimpleUIPanelMobile
     protected CanvasGroup panelsCanvasGroup;
     public List<IUISelectionElement> SelectionQueue => throw new System.NotImplementedException();
 
+    [SerializeField]
+    protected List<TooltipTriggerGameObjectAdder> tooltipTriggerAdders = new List<TooltipTriggerGameObjectAdder>();
+
+
     public virtual void DisablePanel()
     {
         TooltipManager.Instance.HideAllTooltips();
@@ -28,6 +32,17 @@ public abstract class SimpleUIPanelMobiles : MonoBehaviour, ISimpleUIPanelMobile
     public virtual void InitializePanel()
     {
 
+    }
+
+    protected void ProcessTooltipTriggers()
+    {
+        if (tooltipTriggerAdders.Count == 0)
+            return;
+
+        foreach (TooltipTriggerGameObjectAdder adder in tooltipTriggerAdders)
+        {
+            adder.AddTriggersToText();
+        }
     }
 
 }
