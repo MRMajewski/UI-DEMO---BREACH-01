@@ -35,7 +35,45 @@ public class AttributesInfoPanelCustomEditor : Editor
         // Dodanie przycisku
         if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
         {
-            script.InitializePanel();
+            script.InitializePanelData();
+        }
+    }
+}
+
+[CustomEditor(typeof(IntroInfoPanel))]
+public class IntroInfoPanelCustomEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        // Wyœwietl domyœlny inspektor
+        DrawDefaultInspector();
+
+        // Odnoœnik do skryptu
+        IntroInfoPanel script = (IntroInfoPanel)target;
+
+        // Dodanie przycisku
+        if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
+        {
+            script.InitializePanelData();
+        }
+    }
+}
+
+[CustomEditor(typeof(KnowledgePanel))]
+public class KnowledgePanelCustomEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        // Wyœwietl domyœlny inspektor
+        DrawDefaultInspector();
+
+        // Odnoœnik do skryptu
+        KnowledgePanel script = (KnowledgePanel)target;
+
+        // Dodanie przycisku
+        if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
+        {
+            script.InitializePanelData();
         }
     }
 }

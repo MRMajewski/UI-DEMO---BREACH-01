@@ -54,7 +54,8 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         Armory,
         Classes,
         Intro,
-        Definitions
+        Definitions,
+        Neoscience
     }
 
     private void Awake()

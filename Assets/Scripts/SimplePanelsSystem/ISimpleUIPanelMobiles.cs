@@ -5,6 +5,8 @@ using UnityEngine;
 public interface ISimpleUIPanelMobiles
 {
     public void InitializePanel();
+
+    public void InitializePanelData();
     public void EnablePanel();
     public void DisablePanel();
    

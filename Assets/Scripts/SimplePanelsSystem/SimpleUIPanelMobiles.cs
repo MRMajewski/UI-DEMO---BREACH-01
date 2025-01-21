@@ -19,7 +19,6 @@ public abstract class SimpleUIPanelMobiles : MonoBehaviour, ISimpleUIPanelMobile
         TooltipManager.Instance.HideAllTooltips();
         panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).
         OnComplete(() => this.gameObject.SetActive(false));
-
        
     }
 
@@ -45,4 +44,8 @@ public abstract class SimpleUIPanelMobiles : MonoBehaviour, ISimpleUIPanelMobile
         }
     }
 
+    public virtual void InitializePanelData()
+    {
+        ProcessTooltipTriggers();
+    }
 }

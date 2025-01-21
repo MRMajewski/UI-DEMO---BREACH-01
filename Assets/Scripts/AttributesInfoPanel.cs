@@ -27,14 +27,13 @@ public class AttributesInfoPanel : SimpleUIPanelMobiles
 
         InitializeCategory(0);
         // iconButtons[0].onClick.Invoke();
-
-        ProcessTooltipTriggers();
-
+       // ProcessTooltipTriggers();
     }
-
 
     public void InitializeCategory(int index)
     {
         iconButtons[index].onClick.Invoke();
     }
+
+   
 }
