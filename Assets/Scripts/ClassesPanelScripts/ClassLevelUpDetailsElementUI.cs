@@ -12,6 +12,10 @@ public class ClassLevelUpDetailsElementUI : ClassDetailsElementUI
     [SerializeField]
     private TextMeshProUGUI levelProficiencyBonusText;
 
+    [SerializeField]
+    private List<TooltipTriggerGameObjectAdder> triggerAdders;
+    public List<TooltipTriggerGameObjectAdder> TriggerGameObjectAdder { get { return triggerAdders; } }
+
     public void Initialize(LevelUpTable data)
     {
         levelIndexText.text = data.level.ToString();

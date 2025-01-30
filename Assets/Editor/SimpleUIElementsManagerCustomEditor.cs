@@ -78,3 +78,26 @@ public class KnowledgePanelCustomEditor : Editor
     }
 }
 
+[CustomEditor(typeof(ClassPanel))]
+public class ClassPanelCustomEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        // Wyœwietl domyœlny inspektor
+        DrawDefaultInspector();
+
+        // Odnoœnik do skryptu
+        ClassPanel script = (ClassPanel)target;
+
+        // Dodanie przycisku
+        if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
+        {
+            script.InitPanel();
+        }
+        if (GUILayout.Button("Wykonaj Inicjacjê Tooltip Triggerów"))
+        {
+            script.InitializePanelData();
+        }
+    }
+}
+

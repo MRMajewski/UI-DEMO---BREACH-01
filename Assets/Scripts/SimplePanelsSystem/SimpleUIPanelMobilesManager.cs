@@ -55,7 +55,8 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         Classes,
         Intro,
         Definitions,
-        Neoscience
+        Neoscience,
+        Trainings
     }
 
     private void Awake()

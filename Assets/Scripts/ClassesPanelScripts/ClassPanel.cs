@@ -26,12 +26,14 @@ public class ClassPanel : SimpleUIPanelMobiles
 
     public void InitializeClasses()
     {
-        foreach (ClassDataElementUI classData in classesDataElementsUIList)
-        {
-            DestroyImmediate(classData.gameObject);
-        }
-        classesDataElementsUIList.Clear();
-        classesDataElementsUIList.TrimExcess();
+        //foreach (ClassDataElementUI classData in classesDataElementsUIList)
+        //{
+        //    DestroyImmediate(classData.gameObject);
+        //}
+       classesDataElementsUIList.Clear();
+       classesDataElementsUIList.TrimExcess();
+        tooltipTriggerAdders.Clear();
+        tooltipTriggerAdders.TrimExcess();
 
         foreach (var classData in ClassesDataBase.AllClasses)
         {
@@ -39,6 +41,9 @@ public class ClassPanel : SimpleUIPanelMobiles
 
             newElement.Initialize(classData);
             classesDataElementsUIList.Add(newElement);
+
+            tooltipTriggerAdders.AddRange(newElement.TriggerGameObjectAdder);
+
         }
         classDataElementPrefab.gameObject.SetActive(false);
 
@@ -46,7 +51,20 @@ public class ClassPanel : SimpleUIPanelMobiles
         classIconChanger.CreateClassIcons(ClassesDataBase, snapper);
     }
 
+    [ContextMenu("Init")]
+    public override void InitializePanelData()
+    {
+       // InitializePanel();
+        base.InitializePanelData();
+    }
+
+
     public override void InitializePanel()
+    {
+        
+    }
+
+    public void InitPanel()
     {
         ResizeClassDataElement();
         InitializeClasses();
@@ -61,10 +79,10 @@ public class ClassPanel : SimpleUIPanelMobiles
             new Vector2(viewportRect.rect.width, classDataElementPrefab.GetComponent<RectTransform>().sizeDelta.y);
     }
 
-    public override void DisablePanel()
-    {
-        this.gameObject.SetActive(false);
-    }
+    //public override void DisablePanel()
+    //{
+    //    this.gameObject.SetActive(false);
+    //}
     public void OnDestroy()
     {
         snapper.OnPanelChanged -= classIconChanger.SetAlphaForIndex;

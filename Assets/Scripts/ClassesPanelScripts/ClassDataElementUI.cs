@@ -30,6 +30,14 @@ public class ClassDataElementUI : MonoBehaviour
     [SerializeField]
     private ClassesDataBase classesDatabase;
 
+    [SerializeField]
+    private List<TooltipTriggerGameObjectAdder> triggerAdders;
+
+    public List<TooltipTriggerGameObjectAdder> TriggerGameObjectAdder { get { return triggerAdders; } }
+
+    [SerializeField]
+    private TooltipTriggerGameObjectAdder triggerAddersProficiencies;
+
     public void Initialize(ClassData data)
     {
         classNameText.text = data.className;
@@ -56,10 +64,15 @@ public class ClassDataElementUI : MonoBehaviour
         GenerateLevelUpDetails(data.levelUpTable);
 
         GenerateSubClassesDetails(data.subClassesTable);
+
+        triggerAdders.Add(triggerAddersProficiencies);
     }
 
     private void GenerateLevelUpDetails(List<LevelUpTable> levelUpTable)
     {
+      //  triggerAdders.Clear();
+    //    triggerAdders.TrimExcess();
+
         foreach (var levelData in levelUpTable)
         {
             ClassLevelUpDetailsElementUI newLevelUpDetail = Instantiate(levelUpDetailsPrefab, levelUpDetailsParent);
@@ -67,7 +80,9 @@ public class ClassDataElementUI : MonoBehaviour
             if (newLevelUpDetail != null)
             {
                 newLevelUpDetail.Initialize(levelData);
-            }
+
+                triggerAdders.AddRange(newLevelUpDetail.TriggerGameObjectAdder);
+            }      
         }
 
         levelUpDetailsPrefab.gameObject.SetActive(false);

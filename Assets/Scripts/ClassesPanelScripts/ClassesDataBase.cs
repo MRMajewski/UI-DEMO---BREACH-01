@@ -31,12 +31,12 @@ public enum AbilityType
     Medycyna,
     Neonauka,
     Percepcja,
+    Precyzja,
     Przetrwanie,
     Skradanie,
     Œledztwo,
     Technologia,
-    Zastraszanie,
-    ZdolnoœciManualne
+    Zastraszanie
 }
 
 

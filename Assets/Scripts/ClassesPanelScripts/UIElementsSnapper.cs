@@ -105,6 +105,9 @@ public class UIElementsSnapper : MonoBehaviour
 
     public void InitPanels(List<ClassDataElementUI> classesDataElementsUIList)
     {
+       // classesDataElementsUIList.Clear();
+       // classesDataElementsUIList.TrimExcess();
+
         foreach (ClassDataElementUI item in classesDataElementsUIList)
         {
             RectTransform newPanel = item.GetComponent<RectTransform>();

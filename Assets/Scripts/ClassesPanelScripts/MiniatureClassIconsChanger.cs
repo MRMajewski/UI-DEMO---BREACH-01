@@ -16,6 +16,11 @@ public class MiniatureClassIconsChanger : MiniatureIconsChanger
 
     public void CreateClassIcons(ClassesDataBase classdata, UIElementsSnapper snapper)
     {
+        //foreach (var item in classIconList)
+        //{
+        //    DestroyImmediate(item.gameObject);
+        //}
+
         classIconList.Clear();
         classIconList.TrimExcess();
 
@@ -27,7 +32,7 @@ public class MiniatureClassIconsChanger : MiniatureIconsChanger
 
             int index = classIconList.Count; // Zapisujemy bie¿¹cy indeks
             newIcon.onClick.AddListener(() => snapper.SnapToPanelFromButton(index));
-          //  newIcon.onClick.AddListener(() => SetAlphaForIndex(index));
+            newIcon.onClick.AddListener(() => SetAlphaForIndex(index));
 
             classIconList.Add(iconImage);
         }
