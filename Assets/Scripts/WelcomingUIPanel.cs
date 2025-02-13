@@ -20,6 +20,9 @@ public class WelcomingUIPanel : SimpleUIPanelMobiles
     [SerializeField]
     private bool isAfterOpeningAnim=false;
 
+    [SerializeField]
+    private CanvasGroup musicToggle;
+
     private void Init()
     {
         if(!this.gameObject.activeSelf)
@@ -72,6 +75,14 @@ public class WelcomingUIPanel : SimpleUIPanelMobiles
     {
         if(isAfterOpeningAnim)
         SimpleUIPanelMobilesManager.Instance.SwitchPanel("Main");
+        TurnOnMusicToggle();
+
+        void  TurnOnMusicToggle()
+        {
+            musicToggle.alpha = 1;
+            musicToggle.blocksRaycasts= true;
+            musicToggle.interactable = true;
+        }
     }
 
     public override void DisablePanel()

@@ -122,6 +122,7 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
             previousPanel.DisablePanel();
         }
         currentPanel = newPanel;
+        MusicManager.Instance.PlayPanelTransitionSFX();
         StartCoroutine(EnablePanelAfterDelay());
     }
 
@@ -137,6 +138,7 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         }
         currentPanel = newPanel;
 
+        MusicManager.Instance.PlayPanelTransitionSFX();
 
         StartCoroutine(EnablePanelAfterDelay());
     }
