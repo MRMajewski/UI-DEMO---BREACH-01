@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 [CreateAssetMenu(fileName = "NewClassData", menuName = "Classes/ClassData")]
-public class ClassData : ScriptableObject
+public class ClassData : ScriptableObject, ISnapperPanelElement
 {
     public string className;
 
@@ -29,6 +29,16 @@ public class ClassData : ScriptableObject
 
     [Header("Ability Infos")]
     public List<SubClassInfo> subClassesTable;
+
+    public Sprite GetMiniatureIcon()
+    {
+        return classIcon;
+    }
+
+    public void ResizeClassDataElement()
+    {
+        throw new System.NotImplementedException();
+    }
 }
 [System.Serializable]
 public struct LevelUpTable

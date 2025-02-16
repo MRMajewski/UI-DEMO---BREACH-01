@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClassPanel : SimpleUIPanelMobiles
+public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
 {
     [SerializeField]
     private RectTransform container;
@@ -66,18 +66,20 @@ public class ClassPanel : SimpleUIPanelMobiles
 
     public void InitPanel()
     {
-        ResizeClassDataElement();
+       // ResizeClassDataElement();
         InitializeClasses();
         snapper.OnPanelChanged += classIconChanger.SetAlphaForIndex;
         classIconChanger.SetAlphaForIndex(0);
     }
 
-    public void ResizeClassDataElement()
-    {
-        Debug.Log(viewportRect.rect.width);
-        classDataElementPrefab.GetComponent<RectTransform>().sizeDelta =
-            new Vector2(viewportRect.rect.width, classDataElementPrefab.GetComponent<RectTransform>().sizeDelta.y);
-    }
+    //public void ResizeClassDataElement()
+    //{
+    //    Debug.Log(viewportRect.rect.width);
+    //    classDataElementPrefab.GetComponent<RectTransform>().sizeDelta =
+    //        new Vector2(viewportRect.rect.width, classDataElementPrefab.GetComponent<RectTransform>().sizeDelta.y);
+
+
+    //}
 
     //public override void DisablePanel()
     //{
@@ -86,5 +88,22 @@ public class ClassPanel : SimpleUIPanelMobiles
     public void OnDestroy()
     {
         snapper.OnPanelChanged -= classIconChanger.SetAlphaForIndex;
+    }
+
+    public void ResizeSnappedPanel()
+    {
+        Debug.Log(viewportRect.rect.width);
+
+        foreach (ClassDataElementUI classData in classesDataElementsUIList)
+        {
+            classData.GetComponent<RectTransform>().sizeDelta =
+                new Vector2(viewportRect.rect.width, classDataElementPrefab.GetComponent<RectTransform>().sizeDelta.y);
+        }
+    }
+
+    private void OnEnable()
+    {
+        Debug.Log(" ResizeSnappedPanel()");
+        ResizeSnappedPanel();
     }
 }

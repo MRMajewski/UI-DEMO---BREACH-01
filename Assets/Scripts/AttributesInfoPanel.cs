@@ -3,16 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AttributesInfoPanel : SimpleUIPanelMobiles
+public class AttributesInfoPanel : SimpleUIPanelMobiles, ISnapperPanel
 {
     [SerializeField]
-    private UIElementsSnapper snapper;
+    protected UIElementsSnapper snapper;
 
     [SerializeField]
-    private MiniatureIconsChanger iconChanger;
+    protected RectTransform viewportRect;
 
     [SerializeField]
-    private List<Button> iconButtons;
+    protected MiniatureIconsChanger iconChanger;
+
+    [SerializeField]
+    protected List<Button> iconButtons;
+
+    [SerializeField]
+    protected List<RectTransform> snapperPanelsList;
 
     public override void InitializePanel()
     {
@@ -35,5 +41,19 @@ public class AttributesInfoPanel : SimpleUIPanelMobiles
         iconButtons[index].onClick.Invoke();
     }
 
-   
+    protected void OnEnable()
+    {
+        ResizeSnappedPanel();
+    }
+    public void ResizeSnappedPanel()
+    {
+        Debug.Log(viewportRect.rect.width);
+
+        foreach (RectTransform classData in snapperPanelsList)
+        {
+            classData.sizeDelta =
+                new Vector2(viewportRect.rect.width, classData.sizeDelta.y);
+        }
+    }
+
 }

@@ -6,27 +6,22 @@ using UnityEngine.UI;
 public class MiniatureIconsChanger : MonoBehaviour
 {
 
-
-    //[SerializeField]
-    //protected Transform iconsParent;
-
     [SerializeField]
-    protected List<Image> classIconList;
- 
+    protected List<Image> iconList;
 
     public virtual void SetAlphaForIndex(int index)
     {
-        if (index < 0 || index >= classIconList.Count)
+        if (index < 0 || index >= iconList.Count)
         {
             Debug.LogWarning("Index out of bounds");
             return;
         }
 
-        for (int i = 0; i < classIconList.Count; i++)
+        for (int i = 0; i < iconList.Count; i++)
         {
-            Color color = classIconList[i].color;
+            Color color = iconList[i].color;
             color.a = (i == index) ? 1f : 0.5f;
-            classIconList[i].color = color;
+            iconList[i].color = color;
         }
     }
 }
