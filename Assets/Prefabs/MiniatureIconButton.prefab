@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 109241631055748453}
   - component: {fileID: 3338179571715037236}
   - component: {fileID: 8212984520271426183}
+  - component: {fileID: 6863742369358382117}
   m_Layer: 5
   m_Name: MiniatureIconButton
   m_TagString: Untagged
@@ -120,3 +121,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6863742369358382117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170345203564344574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b9a60a455247a2479eb1fc792b3187c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationType: 2

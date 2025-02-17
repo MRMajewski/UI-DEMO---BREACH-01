@@ -14,13 +14,17 @@ public class ButtonsGeneralReactionsManager :  MonoBehaviour
     {
         Scale,
         Color,
-        ScaleSubtle
+        ScaleSubtle,
+        ScaleVerySubtle
     }
     [SerializeField]
     private float bigSize = 1.2f;
 
     [SerializeField]
     private float bigSizeSubtle = 1.1f;
+
+    [SerializeField]
+    private float bigSizeVerySubtle = 1.05f;
 
     [SerializeField]
     private float normalSize = 1f;
@@ -67,6 +71,10 @@ public class ButtonsGeneralReactionsManager :  MonoBehaviour
         {
             ScaleUpSubtle(buttonTransform);
         }
+        else if (animType == ButtonAnimationType.ScaleVerySubtle)
+        {
+            ScaleUpVerySubtle(buttonTransform);
+        }
     }
     public void ScaleUp(Transform buttonTransform)
     {
@@ -75,6 +83,10 @@ public class ButtonsGeneralReactionsManager :  MonoBehaviour
     public void ScaleUpSubtle(Transform buttonTransform)
     {
         buttonTransform.DOScale(bigSizeSubtle, tweenTime).SetEase(easeTypeScale);
+    }
+    public void ScaleUpVerySubtle(Transform buttonTransform)
+    {
+        buttonTransform.DOScale(bigSizeVerySubtle, tweenTime).SetEase(easeTypeScale);
     }
     public void HighlightColor(Transform buttonTransform)
     {
@@ -85,7 +97,7 @@ public class ButtonsGeneralReactionsManager :  MonoBehaviour
     #region Deselect Methods
     public void OnButtonDeselected(ButtonAnimationType animType, Transform buttonTransform)
     {
-        if (animType == ButtonAnimationType.Scale || animType==ButtonAnimationType.ScaleSubtle)
+        if (animType == ButtonAnimationType.Scale || animType==ButtonAnimationType.ScaleSubtle || animType== ButtonAnimationType.ScaleVerySubtle)
         {
             ScaleDown(buttonTransform);
 

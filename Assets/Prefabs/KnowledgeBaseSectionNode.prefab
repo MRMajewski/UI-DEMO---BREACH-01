@@ -451,6 +451,7 @@ GameObject:
   - component: {fileID: 9154117170693309261}
   - component: {fileID: 6290970355357310271}
   - component: {fileID: 4252532916042564846}
+  - component: {fileID: 3786719716545051308}
   m_Layer: 5
   m_Name: KnowledgeBaseSectionNode
   m_TagString: Untagged
@@ -525,6 +526,19 @@ MonoBehaviour:
   layoutGroup: {fileID: 8358090007022804513}
   isSectionName: 1
   contentPanel: {fileID: 109457662125535238}
+--- !u!114 &3786719716545051308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6700404076710394919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b9a60a455247a2479eb1fc792b3187c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationType: 2
 --- !u!1 &7410257721319932846
 GameObject:
   m_ObjectHideFlags: 0
