@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class MiniatureIconsChanger : MonoBehaviour
 {
-
     [SerializeField]
     protected List<Image> iconList;
 

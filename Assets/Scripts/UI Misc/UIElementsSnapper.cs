@@ -91,7 +91,6 @@ public class UIElementsSnapper : MonoBehaviour
             {
                 currentPanelIndex--;
             }
-
             SnapToPanel(currentPanelIndex);
 
             OnPanelChanged?.Invoke(currentPanelIndex);
@@ -106,9 +105,6 @@ public class UIElementsSnapper : MonoBehaviour
 
     public void InitPanels(List<ClassDataElementUI> classesDataElementsUIList)
     {
-        //  classesDataElementsUIList.Clear();
-        // classesDataElementsUIList.TrimExcess();
-
         panels.Clear();
         panels.TrimExcess();
 

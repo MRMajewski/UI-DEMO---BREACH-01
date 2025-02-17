@@ -24,7 +24,6 @@ public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
     [SerializeField]
     private MiniatureClassIconsChanger classIconChanger;
 
-
     public void InitializeClasses()
     {
         foreach (ClassDataElementUI classData in classesDataElementsUIList)
@@ -39,7 +38,6 @@ public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
 
         classDataElementPrefab.gameObject.SetActive(true);
 
-
         foreach (var classData in ClassesDataBase.AllClasses)
         {
             ClassDataElementUI newElement = Instantiate(classDataElementPrefab, container);
@@ -48,51 +46,11 @@ public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
             classesDataElementsUIList.Add(newElement);
 
             tooltipTriggerAdders.AddRange(newElement.TriggerGameObjectAdder);
-
         }
         classDataElementPrefab.gameObject.SetActive(false);
 
         snapper.InitPanels(classesDataElementsUIList);
         classIconChanger.CreateClassIcons(ClassesDataBase, snapper);
-    }
-
-    [ContextMenu("Initialization for Tooltips")]
-    public override void InitializePanelData()
-    {
-       // InitializePanel();
-        base.InitializePanelData();
-    }
-
-    [ContextMenu("Initialization for classPanesl")]
-    //public override void InitializePanel()
-    //{
-    //    InitializeClasses();
-    //}
-
-    public void InitPanel()
-    {
-     //   ResizeClassDataElement();
-      //  InitializeClasses();
-      //  snapper.OnPanelChanged += classIconChanger.SetAlphaForIndex;
-      //  classIconChanger.SetAlphaForIndex(0);
-    }
-
-    //public void ResizeClassDataElement()
-    //{
-    //    Debug.Log(viewportRect.rect.width);
-    //    classDataElementPrefab.GetComponent<RectTransform>().sizeDelta =
-    //        new Vector2(viewportRect.rect.width, classDataElementPrefab.GetComponent<RectTransform>().sizeDelta.y);
-
-
-    //}
-
-    //public override void DisablePanel()
-    //{
-    //    this.gameObject.SetActive(false);
-    //}
-    public void OnDestroy()
-    {
-        snapper.OnPanelChanged -= classIconChanger.SetAlphaForIndex;
     }
 
     public void ResizeSnappedPanel()
@@ -108,16 +66,16 @@ public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
 
     private void OnEnable()
     {
-        Debug.Log(" ResizeSnappedPanel()");
         ResizeSnappedPanel();
     }
 
     private void Start()
     {
-        Debug.Log("  snapper.OnPanelChanged += classIconChanger.SetAlphaForIndex");
         snapper.OnPanelChanged += classIconChanger.SetAlphaForIndex;
         classIconChanger.SetAlphaForIndex(0);
     }
-
-
+    public void OnDestroy()
+    {
+        snapper.OnPanelChanged -= classIconChanger.SetAlphaForIndex;
+    }
 }

@@ -143,8 +143,6 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         StartCoroutine(EnablePanelAfterDelay());
     }
 
-
-
     public void SwitchPanel(string name)
     {
         Enum.TryParse(name, out SimplePanelNames result);
