@@ -92,7 +92,8 @@ public class ClassPanelCustomEditor : Editor
         // Dodanie przycisku
         if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
         {
-            script.InitPanel();
+            //  script.InitPanel();
+            script.InitializeClasses();
         }
         if (GUILayout.Button("Wykonaj Inicjacjê Tooltip Triggerów"))
         {

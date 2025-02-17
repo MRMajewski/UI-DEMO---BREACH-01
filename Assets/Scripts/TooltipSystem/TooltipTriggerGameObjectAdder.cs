@@ -16,6 +16,7 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
     [SerializeField]
     private bool searchIndividualPhrases = false; // Nowy bool
 
+    [SerializeField]
     private List<GameObject> createdTriggersObjects = new List<GameObject>();
 
     [ContextMenu("TEST")]
@@ -28,6 +29,7 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
     {
         foreach (GameObject trigger in createdTriggersObjects)
         {
+            if(trigger!=null)
             DestroyImmediate(trigger);
         }
         createdTriggersObjects.Clear();
@@ -107,6 +109,9 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
 
         string[] triggerWords = triggerName.Split(' ');
 
+
+        Debug.Log("trigger Words" + triggerWords);
+        textMeshProText.ForceMeshUpdate();
         for (int i = 0; i < textMeshProText.textInfo.wordCount; i++)
         {
             var wordInfo = textMeshProText.textInfo.wordInfo[i];

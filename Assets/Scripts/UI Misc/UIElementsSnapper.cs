@@ -106,8 +106,11 @@ public class UIElementsSnapper : MonoBehaviour
 
     public void InitPanels(List<ClassDataElementUI> classesDataElementsUIList)
     {
-       // classesDataElementsUIList.Clear();
-       // classesDataElementsUIList.TrimExcess();
+        //  classesDataElementsUIList.Clear();
+        // classesDataElementsUIList.TrimExcess();
+
+        panels.Clear();
+        panels.TrimExcess();
 
         foreach (ClassDataElementUI item in classesDataElementsUIList)
         {

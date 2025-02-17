@@ -65,7 +65,8 @@ public class ClassDataElementUI : MonoBehaviour
 
         GenerateSubClassesDetails(data.subClassesTable);
 
-        triggerAdders.Add(triggerAddersProficiencies);
+        //test
+      //  triggerAdders.Add(triggerAddersProficiencies);
     }
 
     private void GenerateLevelUpDetails(List<LevelUpTable> levelUpTable)

@@ -40,6 +40,7 @@ public abstract class SimpleUIPanelMobiles : MonoBehaviour, ISimpleUIPanelMobile
 
         foreach (TooltipTriggerGameObjectAdder adder in tooltipTriggerAdders)
         {
+            if(adder!=null)
             adder.AddTriggersToText();
         }
     }
