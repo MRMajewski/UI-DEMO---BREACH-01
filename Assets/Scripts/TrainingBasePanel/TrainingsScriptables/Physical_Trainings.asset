@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trainingDataSectionName: "Trening Si\u0142owy"
   trainingDataSectionIcon: {fileID: 21300000, guid: 1426ef3cfee7ffb49a52dc2bd88495e3, type: 3}
-  trainingDataSectionDescription: 'Wzmocnienie cech fizycznych '
+  trainingDataSectionDescription: "Budowanie si\u0142y fizycznej i wytrzyma\u0142o\u015Bci,
+    zwi\u0119kszaj\u0105ce skuteczno\u015B\u0107 w walce i zdolno\u015B\u0107 do
+    d\u017Awigania ci\u0119\u017Ckiego sprz\u0119tu."
   trainingBaseDataNodesList:
   - titleText: "Trening Si\u0142owy"
     contentInfoText: "<size=150%>Poziom 1 </size>:  Zwi\u0119ksz Si\u0142\u0119 o

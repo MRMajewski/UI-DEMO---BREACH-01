@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trainingDataSectionName: Treningi Taktyczne
   trainingDataSectionIcon: {fileID: 21300000, guid: 2e3d3bca673cac54eacb3f9a0e211cc0, type: 3}
-  trainingDataSectionDescription: "Treningi szkol\u0105ce skuteczniejszego unikania
-    i zyskiwania przewagi poprzez dobre ustawienie"
+  trainingDataSectionDescription: "Nauka skutecznej wsp\xF3\u0142pracy w dru\u017Cynie,
+    planowania dzia\u0142a\u0144 i adaptacji do zmieniaj\u0105cych si\u0119 warunk\xF3w
+    walki."
   trainingBaseDataNodesList:
   - titleText: Trening w Unikaniu
     contentInfoText: "<size=150%>Poziom 1 </size>: Mo\u017Cesz wycofa\u0107 si\u0119

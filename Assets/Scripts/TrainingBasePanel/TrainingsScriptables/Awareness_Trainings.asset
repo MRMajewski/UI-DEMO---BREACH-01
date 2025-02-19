@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trainingDataSectionName: "Treningi Czujno\u015Bci"
   trainingDataSectionIcon: {fileID: 21300000, guid: 38bccbe9d3adfa440b11d2493b287817, type: 3}
-  trainingDataSectionDescription: "Treningi szkol\u0105ce zorientowanie w przestrzeni
-    i unikaniu atakom z zasadzki"
+  trainingDataSectionDescription: "\u0106wiczenie spostrzegawczo\u015Bci, refleksu
+    i intuicji, by szybciej reagowa\u0107 na zagro\u017Cenia i unika\u0107 zasadzek."
   trainingBaseDataNodesList:
-  - titleText: "Szkolenie Czujno\u015Bci "
+  - titleText: "Trening Czujno\u015Bci "
     contentInfoText: "<size=150%>Poziom 1 </size>: Przy\u0107mione \u015Bwiat\u0142o
       nie nak\u0142ada na ciebie niekorzystnych warunk\xF3w na testy M\u0105dro\u015Bci
       (Percepcji) opieraj\u0105ce si\u0119 na wzroku.\r\n<size=150%>Poziom 1 </size>:
@@ -25,7 +25,7 @@ MonoBehaviour:
       na testach M\u0105dro\u015Bci (Percepcji) i Inteligencji (\u015Aledztwa) wykonywanych
       w celu wykrycia sekretnych drzwi i ukrytych skrytek.\r\n<size=150%>Poziom 1
       </size>: Zyskujesz +5 do pasywnej percepcji."
-  - titleText: "Zaawansowane Szkolenie Czujno\u015Bci"
+  - titleText: "Zaawansowany Trening Czujno\u015Bci"
     contentInfoText: "<size=150%>Musisz posiada\u0107 2. poziom szkolenia czujno\u015Bci,
       aby wzi\u0105\u0107 poziomy w tym szkoleniu. </size>:\r\n<size=150%>Poziom
       1 </size>: Masz przewag\u0119 na rzutach inicjatywy.\r\n<size=150%>Poziom 2

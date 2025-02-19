@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trainingDataSectionName: "Trening w walce wr\u0119cz"
   trainingDataSectionIcon: {fileID: 21300000, guid: ab529392da6c4b84387ca1c9b8c163ae, type: 3}
-  trainingDataSectionDescription: 'Wzmocnienie cech fizycznych '
+  trainingDataSectionDescription: "Szlifowanie technik walki w zwarciu, zar\xF3wno
+    z u\u017Cyciem improwizowanej broni, jak i w\u0142asnego cia\u0142a."
   trainingBaseDataNodesList:
-  - titleText: "Szkolenie z broni\u0105 bia\u0142\u0105"
+  - titleText: "Trening z broni\u0105 bia\u0142\u0105"
     contentInfoText: "<size=150%>Ka\u017Cdy poziom tego szkolenia mo\u017Cna podj\u0105\u0107
       raz dla ka\u017Cdej bieg\u0142o\u015Bci w broni.\r\nPoziom 1 </size>:\nZyskujesz
       bieg\u0142o\u015B\u0107 w jednej grupie broni bia\u0142ej. Grupy broni to:
@@ -34,7 +35,7 @@ MonoBehaviour:
       r\xF3wn\u0105 Twojemu bonusowi do Zr\u0119czno\u015Bci (minimalnie 1), zamiast
       tylko raz. Otrzymujesz mo\u017Cliwo\u015B\u0107 ponownego u\u017Cycia tej zdolno\u015Bci
       po zako\u0144czeniu kr\xF3tkiej przerwy."
-  - titleText: "Zaawansowane Szkolenie w Broni Bia\u0142ej"
+  - titleText: "Zaawansowany Trening w Broni Bia\u0142ej"
     contentInfoText: "<size=150%>Musisz mie\u0107 Poziom 2 Szkolenia w Broni Bia\u0142ej,
       aby zdoby\u0107 poziomy z tego szkolenia.\r\nPoziom 1 </size>:\nZyskujesz +1
       do wszystkich atak\xF3w w wybranej grupie broni.\r\n<size=150%>Poziom 2 </size>:\nZyskujesz
@@ -42,7 +43,7 @@ MonoBehaviour:
       3 </size>:\nZyskujesz +1 do wszystkich atak\xF3w w wybranej grupie broni.\r\n<size=150%>Poziom
       4 </size>:\nZyskujesz +1 do wszystkich rzut\xF3w obra\u017Ce\u0144 w wybranej
       grupie broni."
-  - titleText: Szkolenie w walce dwoma broniami
+  - titleText: Trening w walce dwoma broniami
     contentInfoText: "<size=150%>Wymaga Zr\u0119czno\u015Bci 16 lub wy\u017Cszej\r\nPoziom
       1 </size>:\nMo\u017Cesz wykona\u0107 atak bonusowy drug\u0105 r\u0119k\u0105
       przy u\u017Cyciu broni bia\u0142ej, kt\xF3re nie maj\u0105 w\u0142a\u015Bciwo\u015Bci
@@ -52,7 +53,7 @@ MonoBehaviour:
       dwa podstawowe ataki drug\u0105 r\u0119k\u0105 jako akcj\u0119 bonusow\u0105.\r\n<size=150%>Poziom
       4 </size>:\nMo\u017Cesz teraz u\u017Cywa\u0107 dw\xF3ch r\u0119cznych broni,
       ale atakujesz z niekorzy\u015Bci\u0105."
-  - titleText: 'Szkolenie bojowe '
+  - titleText: Trening Bojowy
     contentInfoText: "<size=150%>Poziom 1</size>:\nKiedy u\u017Cywasz broni bia\u0142ej
       lub \u0142uku, mo\u017Cesz ponownie rzuca\u0107 obra\u017Cenia 1 i 2.\r\n<size=150%>Poziom
       2</size>:\nKiedy zadasz cios krytyczny broni\u0105 bia\u0142\u0105 lub \u0142ukiem,
@@ -67,7 +68,7 @@ MonoBehaviour:
       broni\u0105 bia\u0142\u0105 jako akcj\u0119 bonusow\u0105 zamiast jednego.\r\n<size=150%>Poziom
       5</size>:\nKiedy u\u017Cywasz broni bia\u0142ej lub \u0142uku, mo\u017Cesz
       ponownie rzuca\u0107 ka\u017Cde obra\u017Cenie, nie tylko 1 i 2."
-  - titleText: Zaawansowane szkolenie bojowe
+  - titleText: Zaawansowany Trening Bojowy
     contentInfoText: "<size=150%>Wymaga poziomu 2 w Szkoleniu Bojowym, aby zdoby\u0107
       poziomy w tym szkoleniu.\r\nPoziom 1</size>:\nZyskujesz liczb\u0119 Punkt\xF3w
       Techniki Bojowej r\xF3wn\u0105 2 razy liczba poziom\xF3w w Szkoleniu Bojowym

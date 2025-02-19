@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trainingDataSectionName: Treningi mentalne
   trainingDataSectionIcon: {fileID: 21300000, guid: 9208cf04b36a95a42b1e27a81e8f72e1, type: 3}
-  trainingDataSectionDescription: 'Wzmocnienie cech mentalnych '
+  trainingDataSectionDescription: "\u0106wiczenia wzmacniaj\u0105ce odporno\u015B\u0107
+    psychiczn\u0105, kontrol\u0119 emocji i koncentracj\u0119 w stresuj\u0105cych
+    sytuacjach."
   trainingBaseDataNodesList:
   - titleText: Trening Akademicki
     contentInfoText: "<size=150%>Poziom 1 </size>:   Zwi\u0119ksz Inteligencj\u0119
