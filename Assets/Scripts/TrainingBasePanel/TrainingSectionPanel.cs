@@ -24,8 +24,20 @@ public class TrainingSectionPanel : MonoBehaviour
     [SerializeField]
     private Transform trainingNodesContainer;
 
+
+    [SerializeField]
+    private List<TooltipTriggerGameObjectAdder> triggerAdders;
+
+    public List<TooltipTriggerGameObjectAdder> TriggerGameObjectAdder { get { return triggerAdders; } }
+
+
+
     public void InitializeTrainingSection(TrainingBaseDataSection trainingBaseDataSection)
     {
+        triggerAdders.Clear();
+        triggerAdders.TrimExcess();
+
+
         Debug.Log("INITIALIZE " + trainingBaseDataSection.TrainingDataSectionName);
 
         trainingSectionName.text = trainingBaseDataSection.TrainingDataSectionName;
@@ -62,6 +74,8 @@ public class TrainingSectionPanel : MonoBehaviour
             newNode.TitleText.text = trainingDataNode.titleText;
             newNode.ContentText.text = trainingDataNode.contentInfoText;
             trainingNodesList.Add(newNode);
+
+            triggerAdders.AddRange(newNode.TriggerGameObjectAdder);
         }
     }
 }

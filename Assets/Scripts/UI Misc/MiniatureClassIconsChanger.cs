@@ -7,15 +7,8 @@ using UnityEngine.UI;
 
 public class MiniatureClassIconsChanger : MiniatureIconsChanger
 {
-    //[SerializeField]
-    //private Button classIconExample;
-
-    //[SerializeField]
-    //private Transform iconsParent;
-
     public override void CreateIcons(IDataBase dataBase)
-    {
-        
+    {       
     }
     public void CreateIcons(ClassesDataBase classData)
     {
@@ -40,5 +33,4 @@ public class MiniatureClassIconsChanger : MiniatureIconsChanger
         }
         iconExample.gameObject.SetActive(false);
     }
-
 }

@@ -19,6 +19,10 @@ public class TrainingNode : KnowledgeNodeBase
     [SerializeField]
     public Button QuestionButton { get => questionButton; set => questionButton = value; }
 
+    [SerializeField]
+    private List<TooltipTriggerGameObjectAdder> triggerAdders;
+    public List<TooltipTriggerGameObjectAdder> TriggerGameObjectAdder { get { return triggerAdders; } }
+
     public override void SelectionClick()
     {
         base.SelectionClick();

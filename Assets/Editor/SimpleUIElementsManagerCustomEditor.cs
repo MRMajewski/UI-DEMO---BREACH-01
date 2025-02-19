@@ -101,3 +101,26 @@ public class ClassPanelCustomEditor : Editor
     }
 }
 
+[CustomEditor(typeof(TrainingPanel))]
+public class TrainingPanelCustomEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        // Wyœwietl domyœlny inspektor
+        DrawDefaultInspector();
+
+        // Odnoœnik do skryptu
+        TrainingPanel script = (TrainingPanel)target;
+
+        // Dodanie przycisku
+        if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
+        {
+            script.InitailizeTrainingPanelDatabase();
+        }
+        if (GUILayout.Button("Wykonaj Inicjacjê Tooltip Triggerów"))
+        {
+            script.InitializePanelData();
+        }
+    }
+}
+

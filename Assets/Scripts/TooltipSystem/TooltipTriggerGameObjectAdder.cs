@@ -14,7 +14,7 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
     private TextMeshProUGUI textMeshProText;
 
     [SerializeField]
-    private bool searchIndividualPhrases = false; // Nowy bool
+    private bool searchIndividualPhrases = false; 
 
     [SerializeField]
     private List<GameObject> createdTriggersObjects = new List<GameObject>();
@@ -35,7 +35,9 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
         createdTriggersObjects.Clear();
         createdTriggersObjects.TrimExcess();
 
-        ProcessText(textMeshProText);
+        textMeshProText.gameObject.SetActive(true);
+        ProcessText(textMeshProText); 
+        textMeshProText.gameObject.SetActive(false);
     }
 
     public void ProcessText(TextMeshProUGUI newTextMeshPro)

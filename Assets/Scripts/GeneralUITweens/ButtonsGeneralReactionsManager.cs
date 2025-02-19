@@ -27,6 +27,9 @@ public class ButtonsGeneralReactionsManager :  MonoBehaviour
     private float bigSizeVerySubtle = 1.05f;
 
     [SerializeField]
+    private float bigSizeVeryVerySubtle = 1.025f;
+
+    [SerializeField]
     private float normalSize = 1f;
 
     [SerializeField]
@@ -86,7 +89,12 @@ public class ButtonsGeneralReactionsManager :  MonoBehaviour
     }
     public void ScaleUpVerySubtle(Transform buttonTransform)
     {
-        buttonTransform.DOScale(bigSizeVerySubtle, tweenTime).SetEase(easeTypeScale);
+        float scaleValue = bigSizeVerySubtle;
+        if(buttonTransform.GetComponent<RectTransform>().rect.height >1400)
+        {
+            scaleValue = bigSizeVeryVerySubtle;
+        }
+        buttonTransform.DOScale(scaleValue, tweenTime).SetEase(easeTypeScale);
     }
     public void HighlightColor(Transform buttonTransform)
     {

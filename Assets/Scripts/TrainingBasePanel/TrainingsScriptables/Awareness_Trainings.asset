@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb47f03a01de0d4abf88d6bfca95ef3, type: 3}
+  m_Name: Awareness_Trainings
+  m_EditorClassIdentifier: 
+  trainingDataSectionName: "Treningi Czujno\u015Bci"
+  trainingDataSectionIcon: {fileID: 21300000, guid: 38bccbe9d3adfa440b11d2493b287817, type: 3}
+  trainingDataSectionDescription: "Treningi szkol\u0105ce zorientowanie w przestrzeni
+    i unikaniu atakom z zasadzki"
+  trainingBaseDataNodesList:
+  - titleText: "Szkolenie Czujno\u015Bci "
+    contentInfoText: "<size=150%>Poziom 1 </size>: Przy\u0107mione \u015Bwiat\u0142o
+      nie nak\u0142ada na ciebie niekorzystnych warunk\xF3w na testy M\u0105dro\u015Bci
+      (Percepcji) opieraj\u0105ce si\u0119 na wzroku.\r\n<size=150%>Poziom 1 </size>:
+      Zyskujesz +5 do pasywnej percepcji.\r\n<size=150%>Poziom 1 </size>: Masz przewag\u0119
+      na testach M\u0105dro\u015Bci (Percepcji) i Inteligencji (\u015Aledztwa) wykonywanych
+      w celu wykrycia sekretnych drzwi i ukrytych skrytek.\r\n<size=150%>Poziom 1
+      </size>: Zyskujesz +5 do pasywnej percepcji."
+  - titleText: "Zaawansowane Szkolenie Czujno\u015Bci"
+    contentInfoText: "<size=150%>Musisz posiada\u0107 2. poziom szkolenia czujno\u015Bci,
+      aby wzi\u0105\u0107 poziomy w tym szkoleniu. </size>:\r\n<size=150%>Poziom
+      1 </size>: Masz przewag\u0119 na rzutach inicjatywy.\r\n<size=150%>Poziom 2
+      </size>: Szybkie tempo podr\xF3\u017Cy nie nak\u0142ada standardowej kary -5
+      do pasywnej percepcji M\u0105dro\u015Bci.\r\n<size=150%>Poziom 3 </size>: Nie
+      mo\u017Cesz zosta\u0107 zaskoczony, gdy jeste\u015B przytomny.\r\n<size=150%>Poziom
+      4 </size>: Je\u015Bli jeste\u015B w stanie s\u0142ysze\u0107, jeste\u015B \u015Bwiadomy
+      lokalizacji ukrytych lub niewidzialnych stworze\u0144 w odleg\u0142o\u015Bci
+      do 20 st\xF3p od ciebie."
+  - titleText: "Szkolenie Przeciwdzia\u0142ania Zasadzkom"
+    contentInfoText: "<size=150%>Poziom 1 </size>:  Masz przewag\u0119 na testach
+      M\u0105dro\u015Bci (Percepcji) i Inteligencji (\u015Aledztwa) wykonywanych
+      w celu wykrycia pu\u0142apek lub atak\xF3w z zaskoczenia.\r\n<size=150%>Poziom
+      2 </size>:  Masz odporno\u015B\u0107 na obra\u017Cenia zadawane przez niewidocznych
+      dla ciebie wrog\xF3w.\r\n<size=150%>Poziom 3 </size>:  Zyskujesz +5 do klasy
+      pancerza przeciwko atakom od niewidocznych dla ciebie wrog\xF3w.\r\n<size=150%>Poziom
+      4 </size>:  Wrogowie maj\u0105 niekorzystne warunki na ataki przeciwko tobie,
+      je\u015Bli s\u0105 dla ciebie niewidoczni."

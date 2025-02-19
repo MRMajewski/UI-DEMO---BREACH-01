@@ -13,13 +13,11 @@ public abstract class SimpleUIPanelMobiles : MonoBehaviour, ISimpleUIPanelMobile
     [SerializeField]
     protected List<TooltipTriggerGameObjectAdder> tooltipTriggerAdders = new List<TooltipTriggerGameObjectAdder>();
 
-
     public virtual void DisablePanel()
     {
         TooltipManager.Instance.HideAllTooltips();
         panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).
-        OnComplete(() => this.gameObject.SetActive(false));
-       
+        OnComplete(() => this.gameObject.SetActive(false));     
     }
 
     public virtual void EnablePanel()
@@ -30,7 +28,6 @@ public abstract class SimpleUIPanelMobiles : MonoBehaviour, ISimpleUIPanelMobile
     }
     public virtual void InitializePanel()
     {
-
     }
 
     protected void ProcessTooltipTriggers()

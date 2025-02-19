@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb47f03a01de0d4abf88d6bfca95ef3, type: 3}
+  m_Name: Unarmed_Trainings
+  m_EditorClassIdentifier: 
+  trainingDataSectionName: Trening w walce bez broni
+  trainingDataSectionIcon: {fileID: 21300000, guid: 08a9f8eab05682041b207faf8d3756bf, type: 3}
+  trainingDataSectionDescription: 'Wzmocnienie cech fizycznych '
+  trainingBaseDataNodesList:
+  - titleText: 'Szkolenie w Walce Bez Broni '
+    contentInfoText: "<size=150%>Poziom 1 </size>: Zyskujesz bieg\u0142o\u015B\u0107
+      w atakach bez broni. Twoje ataki bez broni zadaj\u0105 1D4 obra\u017Ce\u0144,
+      a do atak\xF3w i obra\u017Ce\u0144 mo\u017Cesz u\u017Cywa\u0107 swojego bonusu
+      do Zr\u0119czno\u015Bci lub Si\u0142y.\r\n<size=150%>Poziom 2 </size>: \nKiedy
+      trafisz stworzenie atakiem bez broni, mo\u017Cesz jako akcj\u0119 bonusow\u0105
+      podj\u0105\u0107 pr\xF3b\u0119 obezw\u0142adnienia celu.\r\n<size=150%>Poziom
+      3 </size>: \nTwoje ataki bez broni zadaj\u0105 1D6 obra\u017Ce\u0144.\r\n<size=150%>Poziom
+      4 </size>: \nMasz przewag\u0119 na rzutach ataku przeciwko stworzeniom, kt\xF3re
+      trzymasz w obezw\u0142adnieniu. Mo\u017Cesz u\u017Cy\u0107 swojej akcji, aby
+      spr\xF3bowa\u0107 przypi\u0105\u0107 stworzenie, kt\xF3re jest obezw\u0142adnione
+      przez Ciebie. Aby to zrobi\u0107, musisz wykona\u0107 kolejny rzut na obezw\u0142adnienie;
+      je\u015Bli si\u0119 uda, Ty i to stworzenie jeste\u015Bcie unieruchomieni do
+      ko\u0144ca obezw\u0142adnienia.\r\n<size=150%>Poziom 5 </size>: \nTwoje ataki
+      bez broni zadaj\u0105 1D8 obra\u017Ce\u0144. Je\u015Bli masz dwie wolne r\u0119ce
+      podczas ataku, mo\u017Cesz u\u017Cy\u0107 1D10 jako ko\u015Bci obra\u017Ce\u0144."
+  - titleText: Zaawansowane Szkolenie w Walce Bez Broni
+    contentInfoText: "<size=150%>Musisz mie\u0107 Poziom 2 w Szkoleniu w Walce Bez
+      Broni, aby zdoby\u0107 poziomy z tego szkolenia.\r\nPoziom 1 </size>:\nZyskujesz
+      liczb\u0119 punkt\xF3w techniki r\xF3wn\u0105 2x liczbie poziom\xF3w w Szkoleniu
+      w Walce Bez Broni i Zaawansowanym Szkoleniu w Walce Bez Broni oraz uczysz si\u0119
+      3 technik r\u0119cznych (patrz poni\u017Cej).\r\n<size=150%>Poziom 2 </size>:\nZyskujesz
+      odporno\u015B\u0107 na obra\u017Cenia obuchowe/subdukcj\u0119.\r\n<size=150%>Poziom
+      3 </size>:\nStworzenia wywo\u0142uj\u0105 ataki oportunistyczne, nawet je\u015Bli
+      u\u017Cywaj\u0105 akcji wycofania.\r\n<size=150%>Poziom 4 </size>:\nUczysz
+      si\u0119 3 nowych technik r\u0119cznych.\r\n<size=150%>Poziom 5 </size>:\nKiedy
+      trafisz stworzenie atakiem oportunistycznym, jego pr\u0119dko\u015B\u0107 staje
+      si\u0119 0 do ko\u0144ca tej tury."
+  - titleText: Punkty Techniki Walki Bez Broni cz I
+    contentInfoText: " <size=150%>Twoje szkolenie pozwala Ci na wykonywanie zaawansowanych
+      akcji z u\u017Cyciem atak\xF3w bez broni. Twoja liczba punkt\xF3w techniki
+      jest okre\u015Blona przez Tw\xF3j poziom treningu.\r\nKiedy wydasz punkt techniki,
+      nie b\u0119dziesz m\xF3g\u0142 go u\u017Cywa\u0107 a\u017C do zako\u0144czenia
+      kr\xF3tkiej lub d\u0142ugiej przerwy, po kt\xF3rej odzyskasz wszystkie wydane
+      punkty techniki. </size>:\n\r\nTechniki Walki Bez Broni\nMo\u017Cesz wyda\u0107
+      punkty techniki, aby wykona\u0107 r\xF3\u017Cne techniki walki bez broni. Na
+      pocz\u0105tku znasz 3 takie techniki. Uczysz si\u0119 kolejnych technik, gdy
+      rozwijasz Zaawansowane Szkolenie w Walce Bez Broni.\r\nNiekt\xF3re z Twoich
+      technik wymagaj\u0105, aby cel wykona\u0142 rzut ratuj\u0105cy, aby opiera\u0107
+      si\u0119 skutkom danej techniki. DC rzutu ratuj\u0105cego oblicza si\u0119
+      w nast\u0119puj\u0105cy spos\xF3b:\r\n\r\nDC rzutu ratuj\u0105cego dla techniki
+      walki bez broni = 8 + Tw\xF3j bonus bieg\u0142o\u015Bci + Tw\xF3j modyfikator
+      Zr\u0119czno\u015Bci lub Si\u0142y (wyb\xF3r nale\u017Cy do Ciebie)."
+  - titleText: Punkty Techniki Walki Bez Broni cz II
+    contentInfoText: "Podw\xF3jny Cios\nBezpo\u015Brednio po wykonaniu akcji Ataku
+      w swojej turze, mo\u017Cesz wyda\u0107 1 punkt techniki walki bez broni, aby
+      wykona\u0107 jeden atak bez broni lub 2 punkty techniki, aby wykona\u0107 dwa
+      ataki bez broni jako akcj\u0119 bonusow\u0105.\r\n\r\nSolidna Obrona\nMo\u017Cesz
+      wyda\u0107 1 punkt techniki walki bez broni, aby wykona\u0107 akcj\u0119 Uniku
+      jako akcj\u0119 bonusow\u0105 w swojej turze.\r\n\r\nPrzemieszczenie\nMo\u017Cesz
+      wyda\u0107 1 punkt techniki walki bez broni, aby wykona\u0107 akcj\u0119 Wycofania
+      lub P\u0119dzenia jako akcj\u0119 bonusow\u0105 w swojej turze.\r\n\r\nZdumiewaj\u0105cy
+      Cios\nKiedy trafisz inne stworzenie atakiem bez broni lub broni biegacza, mo\u017Cesz
+      wyda\u0107 2 punkty techniki, aby spr\xF3bowa\u0107 zada\u0107 zdumiewaj\u0105cy
+      cios. Cel musi zda\u0107 rzut ratuj\u0105cy na Konstytucj\u0119 lub zosta\u0107
+      Og\u0142uszony do ko\u0144ca Twojej nast\u0119pnej tury.\nDok\u0142adny Cios\nMo\u017Cesz
+      wyda\u0107 1 punkt techniki, aby uzyska\u0107 przewag\u0119 na swoim nast\u0119pnym
+      ataku bez broni.\r\n\r\nKnockout\nKiedy trafisz w inn\u0105 istot\u0119 atakiem
+      bez broni, mo\u017Cesz wyda\u0107 3 Punkty Techniki Bezw\u0142adno\u015Bci,
+      aby spr\xF3bowa\u0107 znokautowa\u0107 cel. Cel musi zda\u0107 rzut ratunkowy
+      na Kondycj\u0119, inaczej zostanie nieprzytomny, wykonuj\u0105c nowy rzut na
+      koniec ka\u017Cdej swojej tury. W przypadku sukcesu istota odzyskuje przytomno\u015B\u0107.
+      Istoty odporne na efekty stanu \"og\u0142uszenie\" nie s\u0105 obj\u0119te
+      t\u0105 umiej\u0119tno\u015Bci\u0105.\r\n\r\nSolidny Cios\nPrzed wykonaniem
+      ataku bez broni lub broni Brawlera mo\u017Cesz wyda\u0107 2 Punkty Techniki
+      Bezw\u0142adno\u015Bci. Je\u015Bli tak zrobisz i atak trafi, podw\xF3j obra\u017Cenia.\r\n\r\nCios
+      Rozbrojenia\nKiedy wykonujesz atak wr\u0119cz przeciwko istocie, mo\u017Cesz
+      wyda\u0107 2 Punkty Techniki Bezw\u0142adno\u015Bci, aby spr\xF3bowa\u0107
+      j\u0105 rozbroi\u0107. Po trafieniu istota otrzymuje normalne obra\u017Cenia,
+      a nast\u0119pnie musi zda\u0107 rzut ratunkowy na Si\u0142\u0119, \u017Ceby
+      nie upu\u015Bci\u0107 jednej trzymanej przez siebie rzeczy. Mo\u017Cesz wybra\u0107,
+      by ta rzecz zosta\u0142a przepchni\u0119ta na odleg\u0142o\u015B\u0107 3 metr\xF3w
+      lub by\u015B sam j\u0105 wzi\u0105\u0142 do r\u0119ki.\r\n\r\nObrona\nMo\u017Cesz
+      wyda\u0107 1 Punkt Techniki Bezw\u0142adno\u015Bci, aby wykona\u0107 akcj\u0119
+      Uniku jako akcj\u0119 dodatkow\u0105 podczas swojej tury.\r\n\r\nPrzewr\xF3cenie\nKiedy
+      trafisz w cel atakiem bez broni, mo\u017Cesz wyda\u0107 1 Punkt Techniki Bezw\u0142adno\u015Bci,
+      aby spr\xF3bowa\u0107 przewr\xF3ci\u0107 cel. Cel musi zda\u0107 rzut ratunkowy
+      na Zr\u0119czno\u015B\u0107, inaczej zostanie powalony.\r\n\r\n"

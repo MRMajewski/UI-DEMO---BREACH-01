@@ -15,8 +15,6 @@ public class ClassDataElementUI : MonoBehaviour, ISnapperPanel,ISnapperPanelElem
     [SerializeField]
     private TextMeshProUGUI skillsDescriptionText;
 
- 
-
     [SerializeField]
     private ClassLevelUpDetailsElementUI levelUpDetailsPrefab;
     [SerializeField]
@@ -85,7 +83,6 @@ public class ClassDataElementUI : MonoBehaviour, ISnapperPanel,ISnapperPanelElem
                 triggerAdders.AddRange(newLevelUpDetail.TriggerGameObjectAdder);
             }      
         }
-
         levelUpDetailsPrefab.gameObject.SetActive(false);
     }
 

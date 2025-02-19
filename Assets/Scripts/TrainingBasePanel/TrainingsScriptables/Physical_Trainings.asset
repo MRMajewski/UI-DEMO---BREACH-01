@@ -13,57 +13,65 @@ MonoBehaviour:
   m_Name: Physical_Trainings
   m_EditorClassIdentifier: 
   trainingDataSectionName: "Trening Si\u0142owy"
-  trainingDataSectionIcon: {fileID: 21300000, guid: 08a9f8eab05682041b207faf8d3756bf, type: 3}
+  trainingDataSectionIcon: {fileID: 21300000, guid: 1426ef3cfee7ffb49a52dc2bd88495e3, type: 3}
   trainingDataSectionDescription: 'Wzmocnienie cech fizycznych '
   trainingBaseDataNodesList:
   - titleText: "Trening Si\u0142owy"
-    contentInfoText: "Poziom 1:  Zwi\u0119ksz Si\u0142\u0119 o 1 do maksymalnie 20\r\nPoziom
-      2: Zwi\u0119ksz Si\u0142\u0119 o 1 do maksymalnie 20\r\nPoziom 3 Zwi\u0119ksz
-      Si\u0142\u0119 o 1 do maksymalnie 20\r\nPoziom 4: Zwi\u0119ksz Si\u0142\u0119
-      o 1 do maksymalnie 20\r\nPoziom 5: Zwi\u0119ksz Si\u0142\u0119 o 1 do maksymalnie
-      20"
+    contentInfoText: "<size=150%>Poziom 1 </size>:  Zwi\u0119ksz Si\u0142\u0119 o
+      1 do maksymalnie 20\r\n<size=150%>Poziom 2 </size>: Zwi\u0119ksz Si\u0142\u0119
+      o 1 do maksymalnie 20\r\n<size=150%>Poziom 3 </size>: Zwi\u0119ksz Si\u0142\u0119
+      o 1 do maksymalnie 20\r\n<size=150%>Poziom 4 </size>: Zwi\u0119ksz Si\u0142\u0119
+      o 1 do maksymalnie 20\r\n<size=150%>Poziom 5 </size>: Zwi\u0119ksz Si\u0142\u0119
+      o 1 do maksymalnie 20"
   - titleText: "Trening Zwinno\u015Bci"
-    contentInfoText: "Poziom 1: Zwi\u0119ksz Zr\u0119czno\u015B\u0107 o 1 do maksymalnie
-      20\r\nPoziom 2: Zwi\u0119ksz Zr\u0119czno\u015B\u0107 o 1 do maksymalnie 20\r\nPoziom
-      3 Zwi\u0119ksz Zr\u0119czno\u015B\u0107 o 1 do maksymalnie 20\r\nPoziom 4:
-      Zwi\u0119ksz Zr\u0119czno\u015B\u0107 o 1 do maksymalnie 20\r\nPoziom 5: Zwi\u0119ksz
-      Zr\u0119czno\u015B\u0107 o 1 do maksymalnie 20"
+    contentInfoText: "<size=150%>Poziom 1 </size>: Zwi\u0119ksz Zr\u0119czno\u015B\u0107
+      o 1 do maksymalnie 20\r\n<size=150%>Poziom 2 </size>: Zwi\u0119ksz Zr\u0119czno\u015B\u0107
+      o 1 do maksymalnie 20\r\n<size=150%>Poziom 3 </size>: Zwi\u0119ksz Zr\u0119czno\u015B\u0107
+      o 1 do maksymalnie 20\r\n<size=150%>Poziom 4 </size>: Zwi\u0119ksz Zr\u0119czno\u015B\u0107
+      o 1 do maksymalnie 20\r\n<size=150%>Poziom 5 </size>: Zwi\u0119ksz Zr\u0119czno\u015B\u0107
+      o 1 do maksymalnie 20"
   - titleText: "Trening Wytrzyma\u0142o\u015Bci "
-    contentInfoText: "Poziom 1: Zwi\u0119ksz Kondycj\u0119 o 1 do maksymalnie 20\r\nPoziom
-      2: Zwi\u0119ksz Kondycj\u0119 o 1 do maksymalnie 20\r\nPoziom 3 Zwi\u0119ksz
-      Kondycj\u0119 o 1 do maksymalnie 20\r\nPoziom 4: Zwi\u0119ksz Kondycj\u0119
-      o 1 do maksymalnie 20\r\nPoziom 5: Zwi\u0119ksz Kondycj\u0119 o 1 do maksymalnie
-      20"
+    contentInfoText: "<size=150%>Poziom 1 </size>: Zwi\u0119ksz Kondycj\u0119 o 1
+      do maksymalnie 20\r\n<size=150%>Poziom 2 </size>: Zwi\u0119ksz Kondycj\u0119
+      o 1 do maksymalnie 20\r\n<size=150%>Poziom 3 </size>: Zwi\u0119ksz Kondycj\u0119
+      o 1 do maksymalnie 20\r\n<size=150%>Poziom 4 </size>: Zwi\u0119ksz Kondycj\u0119
+      o 1 do maksymalnie 20\r\n<size=150%>Poziom 5 </size>: Zwi\u0119ksz Kondycj\u0119
+      o 1 do maksymalnie 20"
   - titleText: "Trening Toru Przeszk\xF3d"
-    contentInfoText: "Poziom 1: Wspinaczka nie kosztuje ci\u0119 dodatkowego ruchu.\r\nPoziom
-      2: Gdy jeste\u015B Powalony, wstanie kosztuje tylko 3m ruchu.\r\nPoziom 3:
-      Mo\u017Cesz wykona\u0107 skok w dal lub skok wzwy\u017C z rozbiegu po przemieszczeniu
-      si\u0119 jedynie o 1,5m, zamiast 3m.\r\nPoziom 4: Zyskaj premi\u0119 +1k4 do
-      wszystkich test\xF3w Akrobatyki  i Atletyki."
+    contentInfoText: "<size=150%>Poziom 1 </size>: Wspinaczka nie kosztuje ci\u0119
+      dodatkowego ruchu.\r\n<size=150%>Poziom 2 </size>: Gdy jeste\u015B Powalony,
+      wstanie kosztuje tylko 3m ruchu.\r\n<size=150%>Poziom 3 </size>: Mo\u017Cesz
+      wykona\u0107 skok w dal lub skok wzwy\u017C z rozbiegu po przemieszczeniu si\u0119
+      jedynie o 1,5m, zamiast 3m.\r\n<size=150%>Poziom 4 </size>: Zyskaj premi\u0119
+      +1k4 do wszystkich test\xF3w Akrobatyki  i Atletyki."
   - titleText: "Trening Fizycznych Rzut\xF3w Obronnych"
-    contentInfoText: "Poziom 1: Zyskaj bieg\u0142o\u015B\u0107 w jednym z nast\u0119puj\u0105cych
-      rzut\xF3w obronnych: Si\u0142a, Zr\u0119czno\u015B\u0107 lub Kondycja.\nPoziom
-      2: Zyskaj +1 do wszystkich rzut\xF3w obronnych wykonywanych za pomoc\u0105
-      wybranego atrybutu.\nPoziom 3: Zyskaj +1 do wszystkich rzut\xF3w obronnych
-      wykonywanych za pomoc\u0105 wybranego atrybutu.\nPoziom 4: Zyskaj przewag\u0119
-      na wszystkich rzutach obronnych wykonywanych za pomoc\u0105 wybranego atrybutu. "
+    contentInfoText: "<size=150%>Poziom 1 </size>:  Zyskaj bieg\u0142o\u015B\u0107
+      w jednym z nast\u0119puj\u0105cych rzut\xF3w obronnych: Si\u0142a, Zr\u0119czno\u015B\u0107
+      lub Kondycja.\n<size=150%>Poziom 2 </size>:  Zyskaj +1 do wszystkich rzut\xF3w
+      obronnych wykonywanych za pomoc\u0105 wybranego atrybutu.\n<size=150%>Poziom
+      3 </size>:  Zyskaj +1 do wszystkich rzut\xF3w obronnych wykonywanych za pomoc\u0105
+      wybranego atrybutu.\n<size=150%>Poziom 4 </size>:  Zyskaj przewag\u0119 na
+      wszystkich rzutach obronnych wykonywanych za pomoc\u0105 wybranego atrybutu. "
   - titleText: "Trening Umiej\u0119tno\u015Bci fizycznych"
-    contentInfoText: "Poziom 1: Zyskaj bieg\u0142o\u015B\u0107 w jednej z nast\u0119puj\u0105cych
-      Umiej\u0119tno\u015Bci: Atletyka, Akrobatyka, Zr\u0119czne R\u0119ce lub Skradanie
-      (Mo\u017Cna wykupi\u0107 wielokrotnie) Poziom 2: Zyskaj +1 do wszystkich test\xF3w
-      zwi\u0105zanych z wybran\u0105 bieg\u0142o\u015Bci\u0105 w Umiej\u0119tno\u015Bci.
-      Poziom 3: Mo\u017Cesz zignorowa\u0107 krytyczn\u0105 pora\u017Ck\u0119 w tej
-      umiej\u0119tno\u015Bci. Mo\u017Cliwo\u015B\u0107 ta odnawia si\u0119 po zako\u0144czeniu
-      d\u0142ugiego odpoczynku. Poziom 4: Zyskaj mistrzostwo (ekspertyz\u0119) w
-      wybranej umiej\u0119tno\u015Bci. Poziom 5: Zyskaj +1 do wszystkich test\xF3w
-      zwi\u0105zanych z wybran\u0105 bieg\u0142o\u015Bci\u0105 w Umiej\u0119tno\u015Bci.
-      Poziom 6: Mo\u017Cesz zignorowa\u0107 krytyczn\u0105 pora\u017Ck\u0119 w tej
-      umiej\u0119tno\u015Bci. Mo\u017Cliwo\u015B\u0107 ta odnawia si\u0119 po zako\u0144czeniu
-      kr\xF3tkiego odpoczynku zamiast d\u0142ugiego."
+    contentInfoText: "<size=150%>Poziom 1 </size>:  Zyskaj bieg\u0142o\u015B\u0107
+      w jednej z nast\u0119puj\u0105cych Umiej\u0119tno\u015Bci: Atletyka, Akrobatyka,
+      Zr\u0119czne R\u0119ce lub Skradanie (Mo\u017Cna wykupi\u0107 wielokrotnie)
+      \n<size=150%>Poziom 2 </size>:  Zyskaj +1 do wszystkich test\xF3w zwi\u0105zanych
+      z wybran\u0105 bieg\u0142o\u015Bci\u0105 w Umiej\u0119tno\u015Bci. \n<size=150%>Poziom
+      3 </size>:  Mo\u017Cesz zignorowa\u0107 krytyczn\u0105 pora\u017Ck\u0119 w
+      tej umiej\u0119tno\u015Bci. Mo\u017Cliwo\u015B\u0107 ta odnawia si\u0119 po
+      zako\u0144czeniu d\u0142ugiego odpoczynku. \n<size=150%>Poziom 4 </size>: 
+      Zyskaj mistrzostwo (ekspertyz\u0119) w wybranej umiej\u0119tno\u015Bci. \n<size=150%>Poziom
+      5 </size>:  Zyskaj +1 do wszystkich test\xF3w zwi\u0105zanych z wybran\u0105
+      bieg\u0142o\u015Bci\u0105 w Umiej\u0119tno\u015Bci. \n<size=150%>Poziom 6 </size>: 
+      Mo\u017Cesz zignorowa\u0107 krytyczn\u0105 pora\u017Ck\u0119 w tej umiej\u0119tno\u015Bci.
+      Mo\u017Cliwo\u015B\u0107 ta odnawia si\u0119 po zako\u0144czeniu kr\xF3tkiego
+      odpoczynku zamiast d\u0142ugiego."
   - titleText: Trening Kardio
-    contentInfoText: "Poziom 1: Zyskaj premi\u0119 +5 do wszystkich test\xF3w Atletyki
-      wykonywanych, aby biec lub kontynuowa\u0107 bieg. Poziom 2: Zyskaj +1.5m do
-      szybko\u015Bci poruszania si\u0119. Poziom 3: Mo\u017Cesz u\u017Cy\u0107 akcji
-      sprintu jako akcji dodatkowej. Poziom 4: Zyskaj premi\u0119 +5 do wszystkich
-      test\xF3w Atletyki wykonywanych, aby biec lub kontynuowa\u0107 bieg. Poziom
-      5: Zyskaj +1.5m st\xF3p do szybko\u015Bci poruszania si\u0119."
+    contentInfoText: "<size=150%>Poziom 1 </size>:  Zyskaj premi\u0119 +5 do wszystkich
+      test\xF3w Atletyki wykonywanych, aby biec lub kontynuowa\u0107 bieg. \n<size=150%>Poziom
+      2 </size>:  Zyskaj +1.5m do szybko\u015Bci poruszania si\u0119. \n<size=150%>Poziom
+      3 </size>:  Mo\u017Cesz u\u017Cy\u0107 akcji sprintu jako akcji dodatkowej.
+      \n<size=150%>Poziom 4 </size>:  Zyskaj premi\u0119 +5 do wszystkich test\xF3w
+      Atletyki wykonywanych, aby biec lub kontynuowa\u0107 bieg. Poziom 5: Zyskaj
+      +1.5m st\xF3p do szybko\u015Bci poruszania si\u0119."

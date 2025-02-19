@@ -9,6 +9,8 @@ public class MiniatureIconsChanger : MonoBehaviour
     [SerializeField]
     protected List<Image> iconList;
 
+    public List<Image> IconList { get => iconList; }
+
     [SerializeField]
     protected UIElementsSnapper snapper;
 
@@ -20,7 +22,6 @@ public class MiniatureIconsChanger : MonoBehaviour
 
     public virtual void CreateIcons(IDataBase dataBase)
     {
-
     }
 
     public virtual void SetAlphaForIndex(int index)

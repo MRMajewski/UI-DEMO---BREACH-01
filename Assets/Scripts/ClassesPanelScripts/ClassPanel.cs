@@ -79,5 +79,4 @@ public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
     {
        snapper.OnPanelChanged -= classIconChanger.SetAlphaForIndex;
     }
-
 }
