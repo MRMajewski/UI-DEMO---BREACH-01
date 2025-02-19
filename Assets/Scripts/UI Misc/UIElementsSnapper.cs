@@ -135,6 +135,18 @@ public class UIElementsSnapper : MonoBehaviour
         }
     }
 
+    public void InitPanels(List<TrainingSectionPanel> snapperPanelElementsList)
+    {
+        panels.Clear();
+        panels.TrimExcess();
+
+        foreach (TrainingSectionPanel item in snapperPanelElementsList)
+        {
+            RectTransform newPanel = item.GetComponent<RectTransform>();
+            panels.Add(newPanel);
+        }
+    }
+
     public void SnapToPanelFromButton(int panelIndex)
     {
         SnapToPanel(panelIndex);

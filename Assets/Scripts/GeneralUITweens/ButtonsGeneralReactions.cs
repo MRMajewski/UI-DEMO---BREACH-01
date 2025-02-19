@@ -9,7 +9,7 @@ public class ButtonsGeneralReactions : MonoBehaviour, ISelectHandler, IDeselectH
 {
 
     [SerializeField]
-    private ButtonAnimationType animationType;
+    protected ButtonAnimationType animationType;
 
     public void OnSelect(BaseEventData eventData)
     {

@@ -38,18 +38,11 @@ public enum AbilityType
     Technologia,
     Zastraszanie
 }
+public interface IDataBase
+{
 
-
-
-
-
-
-
-
-
-
-
-public class ClassesDataBase : MonoBehaviour
+}
+public class ClassesDataBase : MonoBehaviour, IDataBase
 {
     [System.Serializable]
     public struct ReductionDiceDescription

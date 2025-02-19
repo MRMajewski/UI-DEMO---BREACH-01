@@ -7,16 +7,17 @@ using UnityEngine.UI;
 
 public class MiniatureClassIconsChanger : MiniatureIconsChanger
 {
-    [SerializeField]
-    private Button classIconExample;
+    //[SerializeField]
+    //private Button classIconExample;
 
-    [SerializeField]
-    private Transform iconsParent;
+    //[SerializeField]
+    //private Transform iconsParent;
 
-    [SerializeField]
-    private UIElementsSnapper snapper;
-
-    public void CreateClassIcons(ClassesDataBase classdata, UIElementsSnapper snapper)
+    public override void CreateIcons(IDataBase dataBase)
+    {
+        
+    }
+    public void CreateIcons(ClassesDataBase classData)
     {
         foreach (var item in iconList)
         {
@@ -26,46 +27,18 @@ public class MiniatureClassIconsChanger : MiniatureIconsChanger
         iconList.Clear();
         iconList.TrimExcess();
 
-        foreach (ISnapperPanelElement data in classdata.AllClasses)
+        foreach (ISnapperPanelData data in classData.AllClasses)
         {
-            classIconExample.gameObject.SetActive(true);
-            Button newIcon = Instantiate(classIconExample, iconsParent).GetComponent<Button>();
+            iconExample.gameObject.SetActive(true);
+            Button newIcon = Instantiate(iconExample, iconsParent).GetComponent<Button>();
             Image iconImage = newIcon.GetComponent<Image>();
             iconImage.sprite = data.GetMiniatureIcon();
-          
-            int index = iconList.Count;
 
-            newIcon.name = newIcon.name + " " + index;
+            int index = iconList.Count;
+            newIcon.name = "Icon " + index;
             iconList.Add(iconImage);
         }
-        classIconExample.gameObject.SetActive(false);
+        iconExample.gameObject.SetActive(false);
     }
 
-    public void AddOnClickMethodsToIcons()
-    {
-        for (int i = 0; i < iconList.Count; i++)
-        {
-            int index = i;
-            Button button = iconList[i].GetComponent<Button>();
-
-            button.onClick.RemoveAllListeners();
-            button.onClick.AddListener(() =>
-            {
-                MethodsOnClick(index);
-
-            });
-        }
-
-        void MethodsOnClick(int index)
-        {
-            snapper.SnapToPanelFromButton(index);
-            SetAlphaForIndex(index);
-        }
-    }
-
-
-    private void Start()
-    { 
-       AddOnClickMethodsToIcons();
-    }
 }

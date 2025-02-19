@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb47f03a01de0d4abf88d6bfca95ef3, type: 3}
+  m_Name: Guns_Trainings
+  m_EditorClassIdentifier: 
+  trainingDataSectionName: "Treningi z broni\u0105 paln\u0105"
+  trainingDataSectionIcon: {fileID: 21300000, guid: 1a8289acea825bf41aa3d62944a64898, type: 3}
+  trainingDataSectionDescription: "Treningi umiej\u0119tno\u015Bci z broni\u0105
+    paln\u0105"
+  trainingBaseDataNodesList:
+  - titleText: 
+    contentInfoText: 
+  - titleText: 
+    contentInfoText: 

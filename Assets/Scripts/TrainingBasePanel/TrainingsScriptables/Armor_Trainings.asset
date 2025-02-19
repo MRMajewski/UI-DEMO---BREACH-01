@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb47f03a01de0d4abf88d6bfca95ef3, type: 3}
+  m_Name: Armor_Trainings
+  m_EditorClassIdentifier: 
+  trainingDataSectionName: Treningi z pancerzy
+  trainingDataSectionIcon: {fileID: 21300000, guid: 188c5415e2dc3894aa475b9f0c112ebe, type: 3}
+  trainingDataSectionDescription: "Treningi z u\u017Cywania pancerzy"
+  trainingBaseDataNodesList:
+  - titleText: Szkolenie z Lekkiej Zbroi
+    contentInfoText: "Poziom 1: Zyskaj bieg\u0142o\u015B\u0107 w lekkiej zbroi.\r\nPoziom
+      2: Zyskaj +1 do redukcji obra\u017Ce\u0144 podczas noszenia lekkiej zbroi.\r\nPoziom
+      3:  Zyskaj +2 do redukcji obra\u017Ce\u0144 podczas noszenia lekkiej zbroi.\r\nPoziom
+      4: Zyskaj Szkolenie w Rzutach Fizycznych Poziom 1 w rzutach obronnych na Zr\u0119czno\u015B\u0107,
+      lub Ekspertyz\u0119 w rzutach na Zr\u0119czno\u015B\u0107, je\u015Bli ju\u017C
+      posiadasz Szkolenie w Rzutach Fizycznych Poziom 1 na Zr\u0119czno\u015B\u0107."
+  - titleText: "Szkolenie ze \u015Aredniej Zbroi"
+    contentInfoText: "Poziom 1: Zyskaj bieg\u0142o\u015B\u0107 w \u015Bredniej zbroi.\r\nPoziom
+      2: Zyskaj dodatkowe punkty \u017Cycia r\xF3wne Twojej bieg\u0142o\u015Bci.\r\nPoziom
+      3: Zyskaj Szkolenie w Rzutach Fizycznych Poziom 1 w rzutach obronnych na Kondycj\u0119,
+      lub Ekspertyz\u0119 w rzutach na Kondycj\u0119, je\u015Bli ju\u017C posiadasz
+      Szkolenie w Rzutach Fizycznych Poziom 1 na Kondycj\u0119.\r\nPoziom 4: Zyskaj
+      dodatkowe punkty \u017Cycia r\xF3wne dwukrotno\u015Bci Twojej bieg\u0142o\u015Bci."
+  - titleText: "Szkolenie z Ci\u0119\u017Ckiej Zbroi"
+    contentInfoText: "Poziom 1: Zyskaj bieg\u0142o\u015B\u0107 w ci\u0119\u017Ckiej
+      zbroi.\r\nPoziom 2: Zyskaj redukcj\u0119 obra\u017Ce\u0144 o 1 ze wszystkich
+      \u017Ar\xF3de\u0142.\r\nPoziom 3: Zyskaj redukcj\u0119 obra\u017Ce\u0144 o
+      2 ze wszystkich \u017Ar\xF3de\u0142.\r\nPoziom 4: Zyskaj redukcj\u0119 obra\u017Ce\u0144
+      o 3 ze wszystkich \u017Ar\xF3de\u0142."

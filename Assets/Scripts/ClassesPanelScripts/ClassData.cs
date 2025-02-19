@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 [CreateAssetMenu(fileName = "NewClassData", menuName = "Classes/ClassData")]
-public class ClassData : ScriptableObject, ISnapperPanelElement
+public class ClassData : ScriptableObject, ISnapperPanelData
 {
     public string className;
 

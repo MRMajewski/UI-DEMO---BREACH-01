@@ -50,7 +50,7 @@ public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
         classDataElementPrefab.gameObject.SetActive(false);
 
         snapper.InitPanels(classesDataElementsUIList);
-        classIconChanger.CreateClassIcons(ClassesDataBase, snapper);
+        classIconChanger.CreateIcons(ClassesDataBase);
     }
 
     public void ResizeSnappedPanel()
@@ -74,8 +74,10 @@ public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
         snapper.OnPanelChanged += classIconChanger.SetAlphaForIndex;
         classIconChanger.SetAlphaForIndex(0);
     }
-    public void OnDestroy()
+
+    private void OnDisable()
     {
-        snapper.OnPanelChanged -= classIconChanger.SetAlphaForIndex;
+       snapper.OnPanelChanged -= classIconChanger.SetAlphaForIndex;
     }
+
 }

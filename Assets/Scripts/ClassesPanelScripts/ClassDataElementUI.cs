@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class ClassDataElementUI : MonoBehaviour
+public class ClassDataElementUI : MonoBehaviour, ISnapperPanel,ISnapperPanelElement
 {
     [SerializeField]
     private TextMeshProUGUI classNameText;
@@ -102,5 +102,10 @@ public class ClassDataElementUI : MonoBehaviour
         }
 
         subClassDetailsPrefab.gameObject.SetActive(false);
+    }
+
+    public void ResizeSnappedPanel()
+    {
+        throw new System.NotImplementedException();
     }
 }
