@@ -1,5 +1,3 @@
-
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,11 +18,7 @@ public class MiniatureIconsChanger : MonoBehaviour
     [SerializeField]
     protected Transform iconsParent;
 
-    public virtual void CreateIcons(IDataBase dataBase)
-    {
-    }
-
-    public virtual void SetAlphaForIndex(int index)
+    public void SetAlphaForIndex(int index)
     {
         if (index < 0 || index >= iconList.Count)
         {
@@ -61,7 +55,7 @@ public class MiniatureIconsChanger : MonoBehaviour
         }
     }
 
-    private void Start()
+    protected void Start()
     {
         AddOnClickMethodsToIcons();
     }

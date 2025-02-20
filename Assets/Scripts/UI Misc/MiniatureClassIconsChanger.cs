@@ -1,36 +1,13 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Reflection;
-using UnityEngine;
-using UnityEngine.UI;
 
-public class MiniatureClassIconsChanger : MiniatureIconsChanger
+public class MiniatureClassIconsChanger : MiniatureIconsCreatorChanger
 {
-    public override void CreateIcons(IDataBase dataBase)
-    {       
-    }
-    public void CreateIcons(ClassesDataBase classData)
+    protected override IEnumerable<ISnapperPanelData> GetIconData(IDataBase dataBase)
     {
-        foreach (var item in iconList)
+        if (dataBase is ClassesDataBase classData)
         {
-            DestroyImmediate(item.gameObject);
+            return classData.AllClasses;
         }
-
-        iconList.Clear();
-        iconList.TrimExcess();
-
-        foreach (ISnapperPanelData data in classData.AllClasses)
-        {
-            iconExample.gameObject.SetActive(true);
-            Button newIcon = Instantiate(iconExample, iconsParent).GetComponent<Button>();
-            Image iconImage = newIcon.GetComponent<Image>();
-            iconImage.sprite = data.GetMiniatureIcon();
-
-            int index = iconList.Count;
-            newIcon.name = "Icon " + index;
-            iconList.Add(iconImage);
-        }
-        iconExample.gameObject.SetActive(false);
+        return new List<ISnapperPanelData>();
     }
 }

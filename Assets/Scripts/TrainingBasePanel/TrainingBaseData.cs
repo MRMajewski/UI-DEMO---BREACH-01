@@ -24,4 +24,5 @@ public class TrainingBaseData : MonoBehaviour, IDataBase
 
     [SerializeField]
     public List<TrainingBaseDataSection> TrainingDataSectionList { get => trainingDataSectionList; }
+
 }

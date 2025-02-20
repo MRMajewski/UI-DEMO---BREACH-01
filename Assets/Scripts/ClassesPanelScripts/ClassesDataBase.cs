@@ -40,7 +40,6 @@ public enum AbilityType
 }
 public interface IDataBase
 {
-
 }
 public class ClassesDataBase : MonoBehaviour, IDataBase
 {
@@ -95,5 +94,4 @@ public class ClassesDataBase : MonoBehaviour, IDataBase
         var description = abilityDescriptions.FirstOrDefault(d => d.type == type).description;
         return string.IsNullOrEmpty(description) ? "Brak opisu dla tej zdolnoœci" : description;
     }
-
 }

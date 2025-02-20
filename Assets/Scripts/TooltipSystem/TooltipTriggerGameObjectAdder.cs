@@ -35,9 +35,11 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
         createdTriggersObjects.Clear();
         createdTriggersObjects.TrimExcess();
 
+        bool wasActive = textMeshProText.gameObject.activeSelf;
+        if (!wasActive)
         textMeshProText.gameObject.SetActive(true);
         ProcessText(textMeshProText); 
-        textMeshProText.gameObject.SetActive(false);
+        textMeshProText.gameObject.SetActive(wasActive);
     }
 
     public void ProcessText(TextMeshProUGUI newTextMeshPro)

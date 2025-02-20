@@ -30,4 +30,9 @@ public class TrainingNode : KnowledgeNodeBase
 
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.parent.GetComponent<RectTransform>());
     }
+
+    private void Start()
+    {
+        contentText.gameObject.SetActive(false);
+    }
 }
