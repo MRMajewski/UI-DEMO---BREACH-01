@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb47f03a01de0d4abf88d6bfca95ef3, type: 3}
   m_Name: Tactical_Trainings
   m_EditorClassIdentifier: 
-  trainingDataSectionName: Treningi Taktyczne
+  trainingDataSectionName: TRENINGI TAKTYCZNE
   trainingDataSectionIcon: {fileID: 21300000, guid: 2e3d3bca673cac54eacb3f9a0e211cc0, type: 3}
   trainingDataSectionDescription: "Nauka skutecznej wsp\xF3\u0142pracy w dru\u017Cynie,
     planowania dzia\u0142a\u0144 i adaptacji do zmieniaj\u0105cych si\u0119 warunk\xF3w

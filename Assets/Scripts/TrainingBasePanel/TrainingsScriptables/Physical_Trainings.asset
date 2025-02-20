@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb47f03a01de0d4abf88d6bfca95ef3, type: 3}
   m_Name: Physical_Trainings
   m_EditorClassIdentifier: 
-  trainingDataSectionName: "Trening Si\u0142owy"
+  trainingDataSectionName: "TRENINGI SI\u0141OWE"
   trainingDataSectionIcon: {fileID: 21300000, guid: 1426ef3cfee7ffb49a52dc2bd88495e3, type: 3}
   trainingDataSectionDescription: "Budowanie si\u0142y fizycznej i wytrzyma\u0142o\u015Bci,
     zwi\u0119kszaj\u0105ce skuteczno\u015B\u0107 w walce i zdolno\u015B\u0107 do
@@ -57,18 +57,17 @@ MonoBehaviour:
   - titleText: "Trening Umiej\u0119tno\u015Bci fizycznych"
     contentInfoText: "<size=150%>Poziom 1 </size>:  Zyskaj bieg\u0142o\u015B\u0107
       w jednej z nast\u0119puj\u0105cych Umiej\u0119tno\u015Bci: Atletyka, Akrobatyka,
-      Zr\u0119czne R\u0119ce lub Skradanie (Mo\u017Cna wykupi\u0107 wielokrotnie)
-      \n<size=150%>Poziom 2 </size>:  Zyskaj +1 do wszystkich test\xF3w zwi\u0105zanych
-      z wybran\u0105 bieg\u0142o\u015Bci\u0105 w Umiej\u0119tno\u015Bci. \n<size=150%>Poziom
-      3 </size>:  Mo\u017Cesz zignorowa\u0107 krytyczn\u0105 pora\u017Ck\u0119 w
-      tej umiej\u0119tno\u015Bci. Mo\u017Cliwo\u015B\u0107 ta odnawia si\u0119 po
-      zako\u0144czeniu d\u0142ugiego odpoczynku. \n<size=150%>Poziom 4 </size>: 
-      Zyskaj mistrzostwo (ekspertyz\u0119) w wybranej umiej\u0119tno\u015Bci. \n<size=150%>Poziom
-      5 </size>:  Zyskaj +1 do wszystkich test\xF3w zwi\u0105zanych z wybran\u0105
-      bieg\u0142o\u015Bci\u0105 w Umiej\u0119tno\u015Bci. \n<size=150%>Poziom 6 </size>: 
+      Prezycja lub Skradanie (Mo\u017Cna wykupi\u0107 wielokrotnie) \n<size=150%>Poziom
+      2 </size>:  Zyskaj +1 do wszystkich test\xF3w zwi\u0105zanych z wybran\u0105
+      bieg\u0142o\u015Bci\u0105 w Umiej\u0119tno\u015Bci. \n<size=150%>Poziom 3 </size>: 
       Mo\u017Cesz zignorowa\u0107 krytyczn\u0105 pora\u017Ck\u0119 w tej umiej\u0119tno\u015Bci.
-      Mo\u017Cliwo\u015B\u0107 ta odnawia si\u0119 po zako\u0144czeniu kr\xF3tkiego
-      odpoczynku zamiast d\u0142ugiego."
+      Mo\u017Cliwo\u015B\u0107 ta odnawia si\u0119 po zako\u0144czeniu d\u0142ugiego
+      odpoczynku. \n<size=150%>Poziom 4 </size>:  Zyskaj mistrzostwo (ekspertyz\u0119)
+      w wybranej umiej\u0119tno\u015Bci. \n<size=150%>Poziom 5 </size>:  Zyskaj +1
+      do wszystkich test\xF3w zwi\u0105zanych z wybran\u0105 bieg\u0142o\u015Bci\u0105
+      w Umiej\u0119tno\u015Bci. \n<size=150%>Poziom 6 </size>:  Mo\u017Cesz zignorowa\u0107
+      krytyczn\u0105 pora\u017Ck\u0119 w tej umiej\u0119tno\u015Bci. Mo\u017Cliwo\u015B\u0107
+      ta odnawia si\u0119 po zako\u0144czeniu kr\xF3tkiego odpoczynku zamiast d\u0142ugiego."
   - titleText: Trening Kardio
     contentInfoText: "<size=150%>Poziom 1 </size>:  Zyskaj premi\u0119 +5 do wszystkich
       test\xF3w Atletyki wykonywanych, aby biec lub kontynuowa\u0107 bieg. \n<size=150%>Poziom

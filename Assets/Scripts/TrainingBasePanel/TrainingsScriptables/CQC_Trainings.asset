@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb47f03a01de0d4abf88d6bfca95ef3, type: 3}
   m_Name: CQC_Trainings
   m_EditorClassIdentifier: 
-  trainingDataSectionName: "Trening w walce wr\u0119cz"
+  trainingDataSectionName: "TRENINGI WALKI WR\u0118CZ"
   trainingDataSectionIcon: {fileID: 21300000, guid: ab529392da6c4b84387ca1c9b8c163ae, type: 3}
   trainingDataSectionDescription: "Szlifowanie technik walki w zwarciu, zar\xF3wno
     z u\u017Cyciem improwizowanej broni, jak i w\u0142asnego cia\u0142a."

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb47f03a01de0d4abf88d6bfca95ef3, type: 3}
   m_Name: Armor_Trainings
   m_EditorClassIdentifier: 
-  trainingDataSectionName: Treningi z pancerzy
+  trainingDataSectionName: TRENINGI Z PANCERZY
   trainingDataSectionIcon: {fileID: 21300000, guid: 79ad09522ed42fb4999fdd8b85962d96, type: 3}
   trainingDataSectionDescription: "Doskonalenie poruszania si\u0119 w r\xF3\u017Cnego
     rodzaju pancerzach, minimalizowanie ogranicze\u0144 ruchowych i optymalne wykorzystanie

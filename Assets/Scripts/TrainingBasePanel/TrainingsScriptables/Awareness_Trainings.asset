@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb47f03a01de0d4abf88d6bfca95ef3, type: 3}
   m_Name: Awareness_Trainings
   m_EditorClassIdentifier: 
-  trainingDataSectionName: "Treningi Czujno\u015Bci"
+  trainingDataSectionName: "TRENINGI CZUJNO\u015ACI"
   trainingDataSectionIcon: {fileID: 21300000, guid: 38bccbe9d3adfa440b11d2493b287817, type: 3}
   trainingDataSectionDescription: "\u0106wiczenie spostrzegawczo\u015Bci, refleksu
     i intuicji, by szybciej reagowa\u0107 na zagro\u017Cenia i unika\u0107 zasadzek."
   trainingBaseDataNodesList:
   - titleText: "Trening Czujno\u015Bci "
     contentInfoText: "<size=150%>Poziom 1 </size>: Przy\u0107mione \u015Bwiat\u0142o
-      nie nak\u0142ada na ciebie niekorzystnych warunk\xF3w na testy M\u0105dro\u015Bci
+      nie nak\u0142ada na ciebie niekorzystnych warunk\xF3w na testy Zmys\u0142\xF3w
       (Percepcji) opieraj\u0105ce si\u0119 na wzroku.\r\n<size=150%>Poziom 1 </size>:
       Zyskujesz +5 do pasywnej percepcji.\r\n<size=150%>Poziom 1 </size>: Masz przewag\u0119
-      na testach M\u0105dro\u015Bci (Percepcji) i Inteligencji (\u015Aledztwa) wykonywanych
+      na testach Zmys\u0142\xF3w (Percepcji) i Inteligencji (\u015Aledztwa) wykonywanych
       w celu wykrycia sekretnych drzwi i ukrytych skrytek.\r\n<size=150%>Poziom 1
       </size>: Zyskujesz +5 do pasywnej percepcji."
   - titleText: "Zaawansowany Trening Czujno\u015Bci"
@@ -30,17 +30,17 @@ MonoBehaviour:
       aby wzi\u0105\u0107 poziomy w tym szkoleniu. </size>:\r\n<size=150%>Poziom
       1 </size>: Masz przewag\u0119 na rzutach inicjatywy.\r\n<size=150%>Poziom 2
       </size>: Szybkie tempo podr\xF3\u017Cy nie nak\u0142ada standardowej kary -5
-      do pasywnej percepcji M\u0105dro\u015Bci.\r\n<size=150%>Poziom 3 </size>: Nie
+      do pasywnej percepcji Zmys\u0142\xF3w.\r\n<size=150%>Poziom 3 </size>: Nie
       mo\u017Cesz zosta\u0107 zaskoczony, gdy jeste\u015B przytomny.\r\n<size=150%>Poziom
       4 </size>: Je\u015Bli jeste\u015B w stanie s\u0142ysze\u0107, jeste\u015B \u015Bwiadomy
       lokalizacji ukrytych lub niewidzialnych stworze\u0144 w odleg\u0142o\u015Bci
       do 20 st\xF3p od ciebie."
   - titleText: "Szkolenie Przeciwdzia\u0142ania Zasadzkom"
     contentInfoText: "<size=150%>Poziom 1 </size>:  Masz przewag\u0119 na testach
-      M\u0105dro\u015Bci (Percepcji) i Inteligencji (\u015Aledztwa) wykonywanych
-      w celu wykrycia pu\u0142apek lub atak\xF3w z zaskoczenia.\r\n<size=150%>Poziom
-      2 </size>:  Masz odporno\u015B\u0107 na obra\u017Cenia zadawane przez niewidocznych
-      dla ciebie wrog\xF3w.\r\n<size=150%>Poziom 3 </size>:  Zyskujesz +5 do klasy
-      pancerza przeciwko atakom od niewidocznych dla ciebie wrog\xF3w.\r\n<size=150%>Poziom
+      Zmys\u0142\xF3w (Percepcji) i Inteligencji (\u015Aledztwa) wykonywanych w celu
+      wykrycia pu\u0142apek lub atak\xF3w z zaskoczenia.\r\n<size=150%>Poziom 2 </size>: 
+      Masz odporno\u015B\u0107 na obra\u017Cenia zadawane przez niewidocznych dla
+      ciebie wrog\xF3w.\r\n<size=150%>Poziom 3 </size>:  Zyskujesz +5 do klasy pancerza
+      przeciwko atakom od niewidocznych dla ciebie wrog\xF3w.\r\n<size=150%>Poziom
       4 </size>:  Wrogowie maj\u0105 niekorzystne warunki na ataki przeciwko tobie,
       je\u015Bli s\u0105 dla ciebie niewidoczni."
