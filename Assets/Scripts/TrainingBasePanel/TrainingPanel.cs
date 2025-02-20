@@ -61,7 +61,7 @@ public class TrainingPanel : AttributesInfoPanel
 
     public override void DisablePanel()
     {
-        this.gameObject.SetActive(false);
+        base.DisablePanel();
         snapper.OnPanelChanged -= trainingsIconChanger.SetAlphaForIndex;
     }
 

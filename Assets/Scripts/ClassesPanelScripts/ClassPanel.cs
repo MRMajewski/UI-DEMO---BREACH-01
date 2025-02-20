@@ -75,8 +75,9 @@ public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
         classIconChanger.SetAlphaForIndex(0);
     }
 
-    private void OnDisable()
+    public override void DisablePanel()
     {
-       snapper.OnPanelChanged -= classIconChanger.SetAlphaForIndex;
+        base.DisablePanel();
+        snapper.OnPanelChanged -= classIconChanger.SetAlphaForIndex;
     }
 }

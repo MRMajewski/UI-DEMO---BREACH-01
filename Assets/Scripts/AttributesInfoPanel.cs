@@ -55,5 +55,4 @@ public class AttributesInfoPanel : SimpleUIPanelMobiles, ISnapperPanel
                 new Vector2(viewportRect.rect.width, classData.sizeDelta.y);
         }
     }
-
 }
