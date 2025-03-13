@@ -11,6 +11,8 @@ public class TooltipTrigger : MonoBehaviour, IPointerClickHandler
     [SerializeField] private string tooltipText;
     [SerializeField] private string actionName="";
 
+    private bool isTriggered = false;
+
     public TooltipType Type
     {
         get => tooltipType;
@@ -26,17 +28,25 @@ public class TooltipTrigger : MonoBehaviour, IPointerClickHandler
         get => actionName;
         set => actionName = value;
     }
-    
+    public bool IsTriggered
+    {
+        get => isTriggered;
+        set => isTriggered = value;
+    }
+
     public void OnPointerClick(PointerEventData eventData)
     {
+        if(!isTriggered)
         HandleTooltipEnter();
     }
 
 private void HandleTooltipEnter()
     {
+        isTriggered = true;
         TooltipManager.Instance.InspectedRectTransform = GetComponent<RectTransform>();
+        TooltipManager.Instance.CurrentlyInspectedTrigger = this;
 
-        TooltipManager.Instance.CreateCurrentTooltip();
+        TooltipManager.Instance.CreateCurrentTooltip(this);
 
         if(this.actionName=="")
         {
@@ -48,6 +58,7 @@ private void HandleTooltipEnter()
         TooltipManager.Instance.CurrentTooltip.ResizeTooltip();
 
         TooltipManager.Instance.ShowTooltip();
+        isTriggered = true;
     }
 
     public void OnTriggerButtonAddAction()
@@ -55,9 +66,4 @@ private void HandleTooltipEnter()
         TooltipManager.Instance.ExecuteAction(this.actionName);
     }
 
-    private void HandleTooltipExit()
-    {
-      //  TooltipManager.Instance.HideTooltip();
-          
-    }
 }

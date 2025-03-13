@@ -25,6 +25,10 @@ public class TooltipManager : MonoBehaviour
     public RectTransform InspectedRectTransform { get => inspectedRectTransform; set => inspectedRectTransform = value; }
 
     [SerializeField]
+    private TooltipTrigger currentlyInspectedTrigger;
+    public TooltipTrigger CurrentlyInspectedTrigger { get => currentlyInspectedTrigger; set => currentlyInspectedTrigger = value; }
+
+    [SerializeField]
     private RectTransform inspectedRectTransformDummy;
 
     [Space]
@@ -47,6 +51,8 @@ public class TooltipManager : MonoBehaviour
     private Sequence hideSequence;
     private Vector3 CurrentTooltipNewPosition;
 
+    public bool IsDuringAnimation { get; private set; } = false;
+
     #endregion
 
     #region Init Methods
@@ -62,14 +68,18 @@ public class TooltipManager : MonoBehaviour
         }
     }
 
-    internal void CreateCurrentTooltip()
+    internal void CreateCurrentTooltip(TooltipTrigger trigger)
     {
+        if (IsDuringAnimation) return;
+
         if (tooltipPrefab == null)
         {
             Debug.LogError("Tooltip prefab is not assigned!");
             return;
         }
         TooltipUI tooltipInstance = Instantiate(tooltipPrefab, tooltipsContainer);
+
+        tooltipInstance.Trigger = trigger;
 
         currentTooltip = tooltipInstance;
 
@@ -98,6 +108,9 @@ public class TooltipManager : MonoBehaviour
     #region Show Tooltips Methods
     internal void ShowTooltip()
     {
+        if (IsDuringAnimation) return;
+
+        IsDuringAnimation = true;
         RepositionToolTip();
         OpenTooltipUI();
     }
@@ -111,6 +124,7 @@ public class TooltipManager : MonoBehaviour
         showSequence = DOTween.Sequence();
         showSequence
         .Append(currentTooltip.CanvasGroup.DOFade(1f, tweenSpeed))
+        .OnComplete(() => IsDuringAnimation = false)
         .SetUpdate(true);
     }
 
@@ -144,7 +158,6 @@ public class TooltipManager : MonoBehaviour
             CurrentTooltipNewPosition = inspectedRectTransformDummy.localPosition;
             return CurrentTooltipNewPosition;
         }
-
 
         void AdjustTooltipPosition(RectTransform triggerRect, RectTransform tooltipRect, RectTransform canvasRect)
         {
@@ -201,15 +214,19 @@ public class TooltipManager : MonoBehaviour
     #region Hide Tooltips Methods
     internal void HideTooltip(TooltipUI tooltip)
     {
+        if (IsDuringAnimation) return;
+
+        IsDuringAnimation = true;
         tooltipsQueque.Remove(tooltip);
         CloseTooltipUI(tooltip);
     }
 
     internal void HideAllTooltips()
     {
-        if (tooltipsQueque.Count == 0)
+        if (IsDuringAnimation || tooltipsQueque.Count == 0)
             return;
 
+        IsDuringAnimation = true;
         foreach (TooltipUI tooltip in tooltipsQueque)
         {
             CloseTooltipUI(tooltip);
@@ -226,7 +243,13 @@ public class TooltipManager : MonoBehaviour
         hideSequence
             .Append(tooltip.CanvasGroup.DOFade(0f, tweenSpeed))
             .AppendInterval(tweenSpeed)
-            .OnComplete(() => Destroy(tooltip.gameObject))
+            .OnComplete(() =>
+            {
+                tooltip.Trigger.IsTriggered = false;
+                IsDuringAnimation = false;
+                Destroy(tooltip.gameObject);
+              
+            })
             .SetUpdate(true);
     }
     #endregion

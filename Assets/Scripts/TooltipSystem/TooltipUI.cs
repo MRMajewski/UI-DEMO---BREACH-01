@@ -22,6 +22,11 @@ public class TooltipUI : MonoBehaviour
     private GameObject gameObjectTooltip;
     public GameObject GameObjectTooltip { get => gameObjectTooltip; set => gameObjectTooltip = value; }
 
+    [SerializeField]
+    private TooltipTrigger trigger;
+
+    public TooltipTrigger Trigger { get => trigger; set => trigger = value; }
+
     public void SetTooltipTextAndAction(string text, UnityAction buttonAction=null)
     {
         tooltipText.text = text;
