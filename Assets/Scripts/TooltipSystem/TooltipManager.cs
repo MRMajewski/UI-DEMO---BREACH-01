@@ -4,22 +4,18 @@ using UnityEngine;
 
 public class TooltipManager : MonoBehaviour
 {
+    #region Variables
+
     public static TooltipManager Instance;
 
     [SerializeField]
-    private GameObject tooltipPrefab;
+    private TooltipUI tooltipPrefab;
 
     private TooltipUI currentTooltip;
+    public TooltipUI CurrentTooltip => currentTooltip;
 
-    public TooltipUI CurrentTooltip
-    {
-        get => currentTooltip; set => currentTooltip = value;
-    }
     [SerializeField]
     private List<TooltipAction> tooltipActions;
-    public List<TooltipAction> TooltipActions => tooltipActions;
-
-    #region Variables
 
     [SerializeField]
     protected RectTransform tooltipsContainer;
@@ -27,19 +23,17 @@ public class TooltipManager : MonoBehaviour
 
     private RectTransform inspectedRectTransform;
     public RectTransform InspectedRectTransform { get => inspectedRectTransform; set => inspectedRectTransform = value; }
+
     [SerializeField]
     private RectTransform inspectedRectTransformDummy;
 
     [Space]
     [Header("Tween related refs")]
-    private Sequence showSequence;
-    private Sequence hideSequence;
 
     [SerializeField]
     private float tweenSpeed;
     [SerializeField]
     private float tweenDelay;
-
 
     [Space]
 
@@ -49,13 +43,13 @@ public class TooltipManager : MonoBehaviour
     [SerializeField]
     private List<TooltipUI> tooltipsQueque;
 
-    [SerializeField]
-    protected RectTransform overrlapCheckContainer;
-
+    private Sequence showSequence;
+    private Sequence hideSequence;
     private Vector3 CurrentTooltipNewPosition;
 
     #endregion
 
+    #region Init Methods
     private void Awake()
     {
         if (Instance == null)
@@ -68,15 +62,6 @@ public class TooltipManager : MonoBehaviour
         }
     }
 
-    public void ExecuteAction(string actionName)
-    {
-        var action = tooltipActions.Find(a => a.actionName == actionName);
-        if (action.actionEvent != null)
-        {
-            action.Invoke();
-        }
-    }
-
     internal void CreateCurrentTooltip()
     {
         if (tooltipPrefab == null)
@@ -84,23 +69,33 @@ public class TooltipManager : MonoBehaviour
             Debug.LogError("Tooltip prefab is not assigned!");
             return;
         }
-        GameObject tooltipInstance = Instantiate(tooltipPrefab, tooltipsContainer);
+        TooltipUI tooltipInstance = Instantiate(tooltipPrefab, tooltipsContainer);
 
-        currentTooltip = tooltipInstance.GetComponent<TooltipUI>();
+        currentTooltip = tooltipInstance;
 
         if (currentTooltip == null)
         {
             Debug.LogError("Tooltip prefab does not contain a TooltipUI component!");
-            Destroy(tooltipInstance);
+            Destroy(tooltipInstance.gameObject);
             return;
         }
 
         RectTransform tooltipRect = tooltipInstance.GetComponent<RectTransform>();
 
-        tooltipInstance.SetActive(true);
+        tooltipInstance.gameObject.SetActive(true);
         tooltipsQueque.Add(currentTooltip);
     }
+    internal void ExecuteAction(string actionName)
+    {
+        var action = tooltipActions.Find(a => a.actionName == actionName);
+        if (action.actionEvent != null)
+        {
+            action.Invoke();
+        }
+    }
+    #endregion
 
+    #region Show Tooltips Methods
     internal void ShowTooltip()
     {
         RepositionToolTip();
@@ -119,51 +114,6 @@ public class TooltipManager : MonoBehaviour
         .SetUpdate(true);
     }
 
-    internal void HideTooltip()
-    {
-        CloseTooltipUI();
-    }
-    internal void HideTooltip(TooltipUI tooltip)
-    {
-        tooltipsQueque.Remove(tooltip);
-        CloseTooltipUI(tooltip);
-    }
-
-    internal void HideAllTooltips()
-    {
-        if (tooltipsQueque.Count == 0)
-            return;
-
-        foreach (TooltipUI tooltip in tooltipsQueque)
-        {
-            CloseTooltipUI(tooltip);
-        }
-        tooltipsQueque.Clear();
-        tooltipsQueque.TrimExcess();
-    }
-
-    public void CloseTooltipUI(TooltipUI tooltip)
-    {
-        if (showSequence != null) showSequence.Kill();
-
-        hideSequence = DOTween.Sequence();
-        hideSequence
-            .Append(tooltip.CanvasGroup.DOFade(0f, tweenSpeed))
-            .AppendInterval(tweenSpeed)
-            .OnComplete(() => Destroy(tooltip.gameObject))
-            .SetUpdate(true);
-    }
-
-    public void CloseTooltipUI()
-    {
-        if (showSequence != null) showSequence.Kill();
-
-        hideSequence = DOTween.Sequence();
-        hideSequence
-        .Append(currentTooltip.CanvasGroup.DOFade(0f, tweenSpeed))
-        .AppendInterval(tweenSpeed).SetUpdate(true);
-    }
-
     public void RepositionToolTip()
     {
         currentTooltip.transform.SetParent(tooltipsContainer);
@@ -172,12 +122,12 @@ public class TooltipManager : MonoBehaviour
         currentTooltip.transform.localRotation = Quaternion.identity;
 
         RectTransform rectTransform = currentTooltip.GetComponent<RectTransform>();
+
         rectTransform.position = GetCurrentTooltipNewPos();
 
         AdjustTooltipPosition(inspectedRectTransform, rectTransform, tooltipsContainer);
 
         rectTransform.anchoredPosition = AdjustWontLeaveScreen(rectTransform, tooltipsContainer, rectTransform.anchoredPosition);
-
 
         Vector3 GetCurrentTooltipNewPos()
         {
@@ -189,7 +139,8 @@ public class TooltipManager : MonoBehaviour
             inspectedRectTransformDummy.anchoredPosition = inspectedRectTransform.anchoredPosition;
             inspectedRectTransformDummy.transform.localPosition = inspectedRectTransform.transform.localPosition;
 
-            inspectedRectTransformDummy.transform.SetParent(overrlapCheckContainer);
+            inspectedRectTransformDummy.transform.SetParent(null);
+            Debug.Log(inspectedRectTransformDummy.transform.parent);
             CurrentTooltipNewPosition = inspectedRectTransformDummy.localPosition;
             return CurrentTooltipNewPosition;
         }
@@ -244,5 +195,40 @@ public class TooltipManager : MonoBehaviour
             return newPos;
         }
     }
+
+    #endregion
+
+    #region Hide Tooltips Methods
+    internal void HideTooltip(TooltipUI tooltip)
+    {
+        tooltipsQueque.Remove(tooltip);
+        CloseTooltipUI(tooltip);
+    }
+
+    internal void HideAllTooltips()
+    {
+        if (tooltipsQueque.Count == 0)
+            return;
+
+        foreach (TooltipUI tooltip in tooltipsQueque)
+        {
+            CloseTooltipUI(tooltip);
+        }
+        tooltipsQueque.Clear();
+        tooltipsQueque.TrimExcess();
+    }
+
+    private void CloseTooltipUI(TooltipUI tooltip)
+    {
+        if (showSequence != null) showSequence.Kill();
+
+        hideSequence = DOTween.Sequence();
+        hideSequence
+            .Append(tooltip.CanvasGroup.DOFade(0f, tweenSpeed))
+            .AppendInterval(tweenSpeed)
+            .OnComplete(() => Destroy(tooltip.gameObject))
+            .SetUpdate(true);
+    }
+    #endregion
 }
 

@@ -22,7 +22,7 @@ public class TooltipUI : MonoBehaviour
     private GameObject gameObjectTooltip;
     public GameObject GameObjectTooltip { get => gameObjectTooltip; set => gameObjectTooltip = value; }
 
-    public void SetTooltipText(string text, UnityAction buttonAction=null)
+    public void SetTooltipTextAndAction(string text, UnityAction buttonAction=null)
     {
         tooltipText.text = text;
 
@@ -35,21 +35,12 @@ public class TooltipUI : MonoBehaviour
         {
             actionButton.gameObject.SetActive(false);
         }
-
     }
 
     public void ResizeTooltip()
     {
         LayoutRebuilder.ForceRebuildLayoutImmediate(tooltipText.GetComponent<RectTransform>());
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
-       // StartCoroutine(ResizeCoroutine());
-    }
-    IEnumerator ResizeCoroutine()
-    {
-        LayoutRebuilder.ForceRebuildLayoutImmediate(tooltipText.GetComponent<RectTransform>());
-        LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
-        yield return wait;
-
     }
 
     public void HandleTooltipExit()

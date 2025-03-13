@@ -40,10 +40,10 @@ private void HandleTooltipEnter()
 
         if(this.actionName=="")
         {
-            TooltipManager.Instance.CurrentTooltip.SetTooltipText(tooltipText, null);
+            TooltipManager.Instance.CurrentTooltip.SetTooltipTextAndAction(tooltipText, null);
         }
         else
-        TooltipManager.Instance.CurrentTooltip.SetTooltipText(tooltipText, OnTriggerButtonAddAction);
+        TooltipManager.Instance.CurrentTooltip.SetTooltipTextAndAction(tooltipText, OnTriggerButtonAddAction);
 
         TooltipManager.Instance.CurrentTooltip.ResizeTooltip();
 

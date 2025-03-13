@@ -60,18 +60,12 @@ public class ClassDataElementUI : MonoBehaviour, ISnapperPanel,ISnapperPanelElem
 
 
         GenerateLevelUpDetails(data.levelUpTable);
-
         GenerateSubClassesDetails(data.subClassesTable);
 
-        //test
-      //  triggerAdders.Add(triggerAddersProficiencies);
     }
 
     private void GenerateLevelUpDetails(List<LevelUpTable> levelUpTable)
     {
-      //  triggerAdders.Clear();
-    //    triggerAdders.TrimExcess();
-
         foreach (var levelData in levelUpTable)
         {
             ClassLevelUpDetailsElementUI newLevelUpDetail = Instantiate(levelUpDetailsPrefab, levelUpDetailsParent);
