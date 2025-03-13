@@ -12,7 +12,7 @@ public class TrainingPanel : AttributesInfoPanel
     private TrainingBaseData trainingBaseData;
 
     [SerializeField]
-    TrainingSectionPanel exampleTrainingSectionPanel;
+    private TrainingSectionPanel exampleTrainingSectionPanel;
 
     [SerializeField]
     private RectTransform container;
@@ -22,20 +22,6 @@ public class TrainingPanel : AttributesInfoPanel
 
     [SerializeField]
     private List<TrainingSectionPanel> trainingSectionPanels = new List<TrainingSectionPanel>();
-
-    //[Header("Expand All references")]
-    //[SerializeField]
-    //private bool areAllTabsExpanded = true;
-    //[SerializeField]
-    //private Sprite ExpandAllSprite;
-    //[SerializeField]
-    //private Sprite CollapseAllSprite;
-    //[SerializeField]
-    //private Image ExpandAllImage;
-    //[SerializeField]
-    //private TextMeshProUGUI ExpandAllText;
-    //[SerializeField]
-    //private Button ExpandAllButton;
 
     public override void EnablePanel()
     {
@@ -98,6 +84,7 @@ public class TrainingPanel : AttributesInfoPanel
             iconButtons.Add(trainingsIconChanger.IconList[i].GetComponent<Button>());
         }
 
+
         void DestroyPreviousNodes()
         {
             foreach (TrainingSectionPanel trainingSection in trainingSectionPanels)
@@ -112,63 +99,4 @@ public class TrainingPanel : AttributesInfoPanel
             snapperPanelsList.TrimExcess();
         }
     }
-
-    //public void RefreshExpandAll()
-    //{
-    //    areAllTabsExpanded = AreAllTabsExpandedCheck();
-
-    //    foreach (KnowledgeNodeBase knowledgeNode in knowledgeBaseNodes)
-    //    {
-    //        if (knowledgeNode.IsOpen == areAllTabsExpanded)
-    //        {
-    //            continue;
-    //        }
-    //        else
-    //        {
-    //            if (knowledgeNode.GetComponent<KnowledgeNodeBase>() != null)
-    //            {
-    //                knowledgeNode.SelectionClick();
-    //            }
-    //        }
-    //    }
-    //    areAllTabsExpanded = !areAllTabsExpanded;
-    //    RefreshExpandAllIconAndText();
-    //}
-
-    //public bool AreAllTabsExpandedCheck()
-    //{
-    //    foreach (KnowledgeNodeBase knowledgeNode in knowledgeBaseNodes)
-    //    {
-    //        if (!knowledgeNode.IsOpen)
-    //        {
-    //            continue;
-    //        }
-    //        else
-    //        {
-    //            return false;
-    //        }
-    //    }
-    //    return true;
-    //}
-
-    //public void RefreshExpandAllIconAndText()
-    //{
-    //    if (areAllTabsExpanded)
-    //    {
-    //        ExpandAllImage.sprite = ExpandAllSprite;
-    //        ExpandAllText.text = "Otwórz wszystko";
-    //    }
-    //    else
-    //    {
-    //        ExpandAllImage.sprite = CollapseAllSprite;
-    //        ExpandAllText.text = "Zamknij wszystko";
-    //    }
-    //    ExpandAllText.text = ExpandAllText.text.ToUpper();
-    //}
-
-    //public void OnSelectionExpandAllCheck()
-    //{
-    //    areAllTabsExpanded = AreAllTabsExpandedCheck();
-    //    RefreshExpandAllIconAndText();
-    //}
 }

@@ -55,6 +55,5 @@ public class TooltipUI : MonoBehaviour
     public void HandleTooltipExit()
     {
         TooltipManager.Instance.HideTooltip(this);
-
     }
 }

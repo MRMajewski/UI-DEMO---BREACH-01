@@ -6,12 +6,10 @@ using UnityEngine.EventSystems;
 using System.Collections;
 
 public class TooltipTrigger : MonoBehaviour, IPointerClickHandler
-
 {
     [SerializeField] private TooltipType tooltipType;
     [SerializeField] private string tooltipText;
     [SerializeField] private string actionName="";
-  //  [SerializeField] private UnityAction buttonAction; // Akcja przycisku
 
     public TooltipType Type
     {
@@ -28,27 +26,6 @@ public class TooltipTrigger : MonoBehaviour, IPointerClickHandler
         get => actionName;
         set => actionName = value;
     }
-
-    //public void OnSelect(BaseEventData eventData)
-    //{
-    //    HandleTooltipEnter();
-    //}
-
-    //public void OnPointerEnter(PointerEventData eventData)
-    //{
-    //    HandleTooltipEnter();
-    //}
-
-    //public void OnPointerExit(PointerEventData eventData)
-    //{
-    //    HandleTooltipExit();
-    //}
-
-    //public void OnDeselect(BaseEventData eventData)
-    //{
-    //    HandleTooltipExit();
-    //}
-
     
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -70,8 +47,6 @@ private void HandleTooltipEnter()
 
         TooltipManager.Instance.CurrentTooltip.ResizeTooltip();
 
-
-        // TooltipManager.Instance.RepositionToolTip();
         TooltipManager.Instance.ShowTooltip();
     }
 
@@ -85,5 +60,4 @@ private void HandleTooltipEnter()
       //  TooltipManager.Instance.HideTooltip();
           
     }
-
 }
