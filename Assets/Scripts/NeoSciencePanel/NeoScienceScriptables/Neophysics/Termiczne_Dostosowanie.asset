@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Termiczne_Dostosowanie
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Termiczne Dostosowanie
+  spellLevel: 0
+  description: "Mo\u017Cesz podnie\u015B\u0107 lub obni\u017Cy\u0107 temperatur\u0119
+    obiektu o \xB120\xB0C. Mo\u017Ce to mie\u0107 nast\u0119puj\u0105ce efekty:\nZimno:
+    Zamra\u017Casz p\u0142yny, os\u0142abiasz materia\u0142y (np. szk\u0142o, plastik,
+    metal). Mo\u017Cesz pokry\u0107 bro\u0144 warstw\u0105 mrozu, spowalniaj\u0105c
+    przeciwnika (kara do ruchu).\nCiep\u0142o: Przyspieszasz topnienie, ogrzewasz
+    przedmioty do poziomu nieprzyjemnego w dotyku. Mo\u017Cesz sprawi\u0107, \u017Ce
+    bro\u0144 stanie si\u0119 gor\u0105ca, zmuszaj\u0105c przeciwnika do jej upuszczenia
+    (je\u015Bli nie zda testu Wytrzyma\u0142o\u015Bci).\nAtak: Mo\u017Cesz u\u017Cy\u0107
+    tej umiej\u0119tno\u015Bci ofensywnie \u2013 je\u015Bli dotkniesz istoty, zadajesz
+    1k6 obra\u017Ce\u0144 od zimna lub ciep\u0142a.\nAkustyczne Wzmocnienie\nManipulujesz
+    d\u017Awi\u0119kiem w wybranym obszarze, pozwalaj\u0105c na:\nWzmocnienie d\u017Awi\u0119ku:
+    Mo\u017Cesz sprawi\u0107, \u017Ce szept staje si\u0119 dono\u015Bny jak krzyk
+    lub zwyk\u0142y d\u017Awi\u0119k eksplozji staje si\u0119 og\u0142uszaj\u0105cy.\nT\u0142umienie
+    d\u017Awi\u0119ku: Mo\u017Cesz wyciszy\u0107 kroki, wyeliminowa\u0107 ha\u0142as
+    broni lub sprawi\u0107, \u017Ce kto\u015B nie b\u0119dzie w stanie krzykn\u0105\u0107.\nOg\u0142uszenie
+    przeciwnika: Je\u015Bli wzmocnisz d\u017Awi\u0119k do skrajnego poziomu, przeciwnik
+    w obszarze dzia\u0142ania musi wykona\u0107 test Zmys\u0142\xF3w \u2013 je\u015Bli
+    go nie zda, zostaje og\u0142uszony na 1 rund\u0119."
+  spellType: 4
+  spellCastingTime: 1 akcja
+  spellRange: 20 m

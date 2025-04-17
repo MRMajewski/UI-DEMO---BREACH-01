@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Rezonansowy_Wybuch
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Rezonansowy Wybuch
+  spellLevel: 3
+  description: "Generujesz fal\u0119 uderzeniow\u0105 o wysokiej cz\u0119stotliwo\u015Bci,
+    kt\xF3ra przenika przez materia\u0142y i struktury, powoduj\u0105c mikrop\u0119kni\u0119cia
+    i dezorientacj\u0119. Obra\u017Cenia to 3k6 d\u017Awi\u0119kowych. Wszystkie
+    istoty w obszarze musz\u0105 wykona\u0107 rzut na Wytrzyma\u0142o\u015B\u0107,
+    by unikn\u0105\u0107 og\u0142uszenia na 1 rund\u0119. Test to rzut na Wytrzyma\u0142o\u015B\u0107
+    (po\u0142owa obra\u017Ce\u0144)."
+  spellType: 4
+  spellCastingTime: 1 akcja
+  spellRange: 8 m (sfera 3 m)

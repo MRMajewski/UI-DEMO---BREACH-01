@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Przewodzenie_Energii
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Przewodzenie Energii
+  spellLevel: 1
+  description: "Mo\u017Cesz przenie\u015B\u0107 ciep\u0142o, elektryczno\u015B\u0107
+    lub inn\u0105 form\u0119 energii z jednego obiektu do drugiego. Mo\u017Cesz np.:\nOgrza\u0107
+    lub och\u0142odzi\u0107 ciecz o 10\xB0C na ka\u017Cdy poziom postaci.\nRoz\u0142adowa\u0107
+    akumulator, uniemo\u017Cliwiaj\u0105c jego dalsze dzia\u0142anie.\nSprawi\u0107,
+    \u017Ce bro\u0144 przeciwnika stanie si\u0119 rozpalona, zadaj\u0105c 1k6 obra\u017Ce\u0144
+    od ognia przy nast\u0119pnym ataku."
+  spellType: 2
+  spellCastingTime: 1 akcja
+  spellRange: Dotyk

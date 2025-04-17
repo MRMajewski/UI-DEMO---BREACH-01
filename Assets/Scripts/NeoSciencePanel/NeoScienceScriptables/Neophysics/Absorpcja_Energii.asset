@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Absorpcja_Energii
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Absorpcja Energii
+  spellLevel: 0
+  description: "Dotykasz obiektu, poch\u0142aniaj\u0105c jego ciep\u0142o lub \u0142adunek
+    elektryczny. Zimne przedmioty staj\u0105 si\u0119 jeszcze ch\u0142odniejsze,
+    a gor\u0105ce mog\u0105 nagle ostygn\u0105\u0107. Je\u015Bli poch\u0142oniesz
+    wystarczaj\u0105c\u0105 ilo\u015B\u0107 energii, mo\u017Cesz u\u017Cy\u0107 jej
+    do wzmocnienia nast\u0119pnej akcji:\nNast\u0119pny atak w ci\u0105gu 1 minuty
+    zadaje dodatkowe 1k6 obra\u017Ce\u0144 (rodzaj zale\u017Cny od poch\u0142oni\u0119tej
+    energii: ciep\u0142o = ogie\u0144, elektryczno\u015B\u0107 = b\u0142yskawice).\nJe\u015Bli
+    u\u017Cyjesz jej do obrony, mo\u017Cesz doda\u0107 +1 do KP na 1 rund\u0119."
+  spellType: 2
+  spellCastingTime: 1 akcja
+  spellRange: Dotyk

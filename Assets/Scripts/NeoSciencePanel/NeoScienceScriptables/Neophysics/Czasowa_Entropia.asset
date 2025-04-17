@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Czasowa_Entropia
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Czasowa Entropia
+  spellLevel: 2
+  description: "Przyspieszasz naturalny proces rozpadu i korozji wybranego obiektu
+    nieo\u017Cywionego. Wybierz jeden przedmiot w zasi\u0119gu, np. bro\u0144, pancerz
+    lub narz\u0119dzie. Cel natychmiast ulega os\u0142abieniu:\nBro\u0144: Ataki
+    ni\u0105 zadaj\u0105 o po\u0142ow\u0119 mniejsze obra\u017Cenia.\nPancerz: Zmniejsza
+    premi\u0119 do KP o 2.\nNarz\u0119dzie: Staje si\u0119 bezu\u017Cyteczne, wymagaj\u0105c
+    naprawy.\nEfekt trwa 1 godzin\u0119 lub do momentu, gdy przedmiot zostanie poddany
+    gruntownemu czyszczeniu i konserwacji."
+  spellType: 1
+  spellCastingTime: 1 akcja
+  spellRange: "9 metr\xF3w"

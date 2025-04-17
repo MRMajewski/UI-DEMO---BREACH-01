@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: "Poch\u0142anianie_Ciep\u0142a"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: "Poch\u0142anianie Ciep\u0142a"
+  spellLevel: 1
+  description: "Pobierasz ciep\u0142o z otoczenia, powoduj\u0105c nag\u0142e ozi\u0119bienie.
+    Istoty w promieniu 3 metr\xF3w otrzymuj\u0105 2k6 + modyfikator z Inteligencji
+    obra\u017Ce\u0144 od mrozu. Dodatkowo:\nMetalowe przedmioty mog\u0105 sta\u0107
+    si\u0119 kruche, co zwi\u0119ksza ich podatno\u015B\u0107 na zniszczenie.\nIstoty
+    ubrane w metalow\u0105 zbroj\u0119 maj\u0105 kara -2 do test\xF3w Zr\u0119czno\u015Bci
+    przez 1 rund\u0119."
+  spellType: 2
+  spellCastingTime: 1 akcja
+  spellRange: "3 metry (promie\u0144)"

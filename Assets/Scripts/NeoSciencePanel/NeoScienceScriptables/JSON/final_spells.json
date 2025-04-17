@@ -1,0 +1,540 @@
+{
+  "spells": [
+    {
+      "name": "Przyciągnięcie",
+      "level": 0,
+      "type": "Grawiturgia",
+      "castingTime": "Akcja",
+      "range": "9 metrów",
+      "description": "Wskazujesz przedmiot o masie do 5 kg w promieniu 9 metrów, który natychmiast przylatuje do twojej ręki. Jeśli obiekt jest trzymany przez inną istotę, wykonuje ona rzut obronny na Siłę (ST 10 + mod. Inteligencji)."
+    },
+    {
+      "name": "Grawitacyjna Szrama",
+      "level": 0,
+      "type": "Grawiturgia",
+      "castingTime": "Akcja",
+      "range": "9 metrów (obszar 3x3 m)",
+      "description": "Zakrzywiasz czasoprzestrzeń, zostawiając niewidzialny ślad. Następna istota, która wejdzie na to miejsce w ciągu 1 rundy, musi wykonać rzut obronny na Zręczność (ST 10 + mod. Inteligencji). W przypadku porażki zostaje przewrócona."
+    },
+    {
+      "name": "Uderzenie Grawitacyjne",
+      "level": 0,
+      "type": "Grawiturgia",
+      "castingTime": "Akcja",
+      "range": "6 metrów",
+      "description": "Tworzysz krótką, skoncentrowaną falę grawitacyjną, która wciska przeciwnika w ziemię. Cel musi wykonać rzut obronny na Siłę (ST 10 + mod. Inteligencji), w przeciwnym razie:\nZostaje powalony na ziemię. Otrzymuje 1k6 obrażeń obuchowych. Po osiągnięciu 5. poziomu, obrażenia wzrastają do 2k6."
+    },
+    {
+      "name": "Piórkospadanie",
+      "level": 1,
+      "type": "Grawiturgia",
+      "castingTime": "Reakcja (gdy ty lub inna istota zaczyna spadać)",
+      "range": "18 metrów",
+      "description": "Spowalniasz upadek do prędkości bezpiecznej dla siebie i do pięciu istot w zasięgu. Cel nie otrzymuje obrażeń od upadku."
+    },
+    {
+      "name": "Grawitacyjna Domena",
+      "level": 1,
+      "type": "Grawiturgia",
+      "castingTime": "1 akcja",
+      "range": "9 metrów (obszar 3x3 m)",
+      "description": "Na niewielkim obszarze modyfikujesz grawitację:\nMożesz ją zwiększyć, co podwaja koszt ruchu i zmniejsza skoki.\nMożesz ją zmniejszyć, co podwaja wysokość skoków i sprawia, że istoty nie zostają przewrócone przez inne efekty.\nIstoty w obszarze mogą wykonać rzut obronny na Zręczność , aby zignorować efekt."
+    },
+    {
+      "name": "Grawitacyjne Uderzenie",
+      "level": 1,
+      "type": "Grawiturgia",
+      "castingTime": "Akcja",
+      "range": "9 metrów",
+      "description": "Uderzasz pojedynczego przeciwnika falą grawitacyjną. Musi wykonać rzut obronny na Siłę (ST sekwencji), w przeciwnym razie:\nZostaje przewrócony.\nOtrzymuje 2k6 obrażeń obuchowych.\nNa wyższym poziomie: Przy rzuceniu na poziomie 3 lub wyższym, zwiększasz obrażenia o 1k6 za każdy poziom powyżej 1.\nZdany ST powoduje, że istota otrzymuje tylko połowę obrażeń."
+    },
+    {
+      "name": "Grawitacyjny Impuls",
+      "level": 2,
+      "type": "Grawiturgia",
+      "castingTime": "1 akcja",
+      "range": "Wokół ciebie (promień 3 m)",
+      "description": "Wytwarzasz silny impuls grawitacyjny, który odrzuca wszystkich wrogów w promieniu 3 metrów o 3 metry od ciebie.\nMuszą wykonać rzut obronny na Siłę (ST sekwencji), w przeciwnym razie zostają odepchnięci i otrzymują 2k6+U obrażeń obuchowych.\nZdany ST zadaje tylko połowę obrażeń"
+    },
+    {
+      "name": "Lewitacja",
+      "level": 2,
+      "type": "Grawiturgia",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Sprawiasz, że ty, sojusznik lub inna istota lewituje na wysokości do 6 metrów nad ziemią. Może poruszać się w poziomie, ale wymaga to akcji. Jeśli cel nie chce poddać się efektowi, może wykonać rzut obronny na Siłę , by go uniknąć."
+    },
+    {
+      "name": "Grawitacyjna Manipulacja Materii",
+      "level": 2,
+      "type": "Grawiturgia",
+      "castingTime": "1 akcja",
+      "range": "18 metrów",
+      "description": "Unosisz w powietrzu przedmioty o wadze do 50 kg, kontrolując ich ruchy. Używając bonusowej akcji możesz poruszyć przedmioty się o 9 metrów na rundę."
+    },
+    {
+      "name": "Grawitacyjne Uderzenie (wersja silniejsza)",
+      "level": 3,
+      "type": "Grawiturgia",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Cel musi wykonać rzut obronny na Siłę  lub zostaje powalony na 1 minutę.\nJego szybkość wynosi 0.\nNie może się poruszać ani wstać.\nNa początku każdej swojej tury otrzymuje 3k6 obrażeń obuchowych, gdy grawitacja miażdży go do podłoża.\nMoże ponawiać rzut obronny na końcu swojej tury, aby się oswobodzić.\nNa wyższym poziomie: Przy rzuceniu na poziomie 5 lub wyższym, obrażenia zwiększają się o 1k6 za każdy poziom powyżej 4."
+    },
+    {
+      "name": "Grawitacyjna Studnia",
+      "level": 3,
+      "type": "Grawiturgia",
+      "castingTime": "1 akcja",
+      "range": "18 metrów (obszar 6×6 m)",
+      "description": "Tworzysz potężne pole grawitacyjne, które nagle zwiększa siłę przyciągania w wyznaczonym obszarze. Wszystkie istoty i przedmioty w jego zasięgu zostają przyciśnięte do ziemi.\nIstoty w obszarze muszą wykonać rzut obronny na Siłę (ST sekwencji). W przypadku niepowodzenia:\nZostają powalone (stan \"przewrócony\").\nIch szybkość spada do 0, dopóki nie oswobodzą się.\nNa początku każdej swojej tury, istoty w obszarze muszą ponownie wykonać rzut obronny na Siłę. Jeśli go nie zdadzą, nadal pozostają powalone i unieruchomione.\nNa wyższym poziomie: Jeśli rzucisz tę sekwencję na poziomie 5 lub wyższym, obszar efektu zwiększa się do 9×9 metrów."
+    },
+    {
+      "name": "Grawitacyjne Obezwładnienie",
+      "level": 3,
+      "type": "Grawiturgia",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Wyłączasz grawitację wybranej istoty. Unosi się w powietrzu i nie może kontrolować swojego ruchu.\nCel musi wykonać rzut obronny na Zręczność (ST sekwencji), w przeciwnym razie zostaje zawieszony w powietrzu.\nMoże powtarzać rzut na końcu swojej tury, aby odzyskać kontrolę."
+    },
+    {
+      "name": "Grawitacyjna Anomalia",
+      "level": 4,
+      "type": "Grawiturgia",
+      "castingTime": "1 akcja",
+      "range": "18 metrów (obszar 9x9 m)",
+      "description": "Na wybranym obszarze grawitacja losowo zmienia siłę i kierunek, dezorientując istoty wewnątrz.\nWrogowie muszą wykonać rzut obronny na Zręczność (ST sekwencji) na początku każdej tury. W przypadku porażki:\nPoruszają się w losowym kierunku (k6: 1-2 północ, 3-4 południe, 5-6 losowy skok).\nOtrzymują 3k6 obrażeń obuchowych od nagłych zmian siły ciążenia."
+    },
+    {
+      "name": "Osobliwość",
+      "level": 4,
+      "type": "Grawiturgia",
+      "castingTime": "1 akcja",
+      "range": "18 metrów",
+      "description": "Tworzysz niestabilną osobliwość, która przyciąga wrogów i zadaje obrażenia.\nWszystkie istoty w promieniu 3 metrów od centrum muszą wykonać rzut obronny na Siłę (ST sekwencji). W przypadku porażki:\nZostają przyciągnięte na 1 metr w stronę centrum.\nOtrzymują 6k6 obrażeń obuchowych."
+    },
+    {
+      "name": "Echo Przyszłości",
+      "level": 0,
+      "type": "Chronoturgia",
+      "castingTime": "1 akcja bonusowa",
+      "range": "Osobisty",
+      "description": "Na moment dostrzegasz cień przyszłości, co pozwala ci dostosować swoje ruchy do nadchodzących wydarzeń. Do końca swojej następnej tury masz przewagę na swój kolejny test Zręczności lub rzut obronny."
+    },
+    {
+      "name": "Przyspieszony Refleks",
+      "level": 0,
+      "type": "Chronoturgia",
+      "castingTime": "1 akcja",
+      "range": "10 metrów",
+      "description": "Manipulujesz tempem postrzegania czasu przez wybraną istotę w zasięgu. W efekcie jej reakcje stają się opóźnione i niezdarne. Wroga istota ma utrudnienie w reakcji na twoją następną akcję (np. atak, który normalnie mógłby skontrować)."
+    },
+    {
+      "name": "Anulowanie Ruchu",
+      "level": 0,
+      "type": "Chronoturgia",
+      "castingTime": "1 akcja",
+      "range": "18 metrów",
+      "description": "Zatrzymujesz na ułamek sekundy ruch wybranej istoty, skutecznie przerywając jej ciągłość działania. Do końca tej rundy cel nie może wykonywać reakcji, co uniemożliwia mu np. kontrataki, ataki okazyjne czy inne działania zależne od reakcji."
+    },
+    {
+      "name": "Zawieszenie Efektu",
+      "level": 0,
+      "type": "Chronoturgia",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Chwytasz czas w dłonie i opóźniasz aktywację jednego efektu lub zdarzenia w zasięgu. Może to być eksplozja, aktywacja pułapki, upadek przedmiotu lub inna sytuacja, która normalnie nastąpiłaby natychmiast. Efekt zostaje zawieszony na jedną rundę, po czym dochodzi do skutku."
+    },
+    {
+      "name": "Efekt Dopplerowski",
+      "level": 0,
+      "type": "Chronoturgia",
+      "castingTime": "1 akcja",
+      "range": "6 metrów",
+      "description": "Tworzysz lokalne zakrzywienie czasoprzestrzeni wokół siebie lub wybranej istoty, na moment przyspieszając lub spowalniając jej ruchy. Jeśli użyjesz tego efektu na sojuszniku, zyskuje on przewagę w testach uniku przed atakami dystansowymi do końca swojej następnej tury. Jeśli użyjesz go na przeciwniku, jego postrzeganie świata zostaje zakłócone, przez co ma utrudnienie w pierwszym ataku wykonanym w swojej następnej turze."
+    },
+    {
+      "name": "Chronoakceleracja",
+      "level": 1,
+      "type": "Chronoturgia",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Przyspieszasz przepływ czasu dla wybranej istoty, sprawiając, że porusza się z nadludzką szybkością. Przez czas trwania efektu cel zyskuje:\nDodatkową akcję ruchu w każdej swojej turze.\nPremię +2 do rzutów obronnych na Zręczność i testów uniku.\nEfekt kończy się przedwcześnie, jeśli istota zostanie unieruchomiona lub straci przytomność."
+    },
+    {
+      "name": "Chronospowolnienie",
+      "level": 1,
+      "type": "Chronoturgia",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Spowalniasz ruchy i postrzeganie wybranej istoty, sprawiając, że jej ciało staje się ociężałe, a reakcje opóźnione. Przez czas trwania efektu cel:\nTraci bonusową akcję w swojej turze.\nOtrzymuje karę -2 do rzutów obronnych na Zręczność i testów uniku.\nPorusza się z połową swojej normalnej prędkości.\nIstota może wykonać rzut obronny na Mądrość (ST sekwencji) na końcu każdej ze swoich tur, aby zakończyć efekt."
+    },
+    {
+      "name": "Zakłócenie Czasu",
+      "level": 2,
+      "type": "Chronoturgia",
+      "castingTime": "1 akcja",
+      "range": "18 metrów (obszar o promieniu 3 metrów)",
+      "description": "Tworzysz niestabilne zakłócenie w strumieniu czasu na wybranym obszarze. Wszystkie istoty w jego obrębie muszą wykonać rzut obronny na Mądrość (ST sekwencji). Przy porażce:\nIch tura zostaje przesunięta na koniec rundy, niezależnie od aktualnej kolejności w inicjatywie.\nDo końca rundy mają utrudnienie na testy Zręczności.\nIstoty odporne na efekty paraliżu lub ogłuszenia wykonują ten rzut z premią +2."
+    },
+    {
+      "name": "Czasowa Entropia",
+      "level": 2,
+      "type": "Chronoturgia",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Przyspieszasz naturalny proces rozpadu i korozji wybranego obiektu nieożywionego. Wybierz jeden przedmiot w zasięgu, np. broń, pancerz lub narzędzie. Cel natychmiast ulega osłabieniu:\nBroń: Ataki nią zadają o połowę mniejsze obrażenia.\nPancerz: Zmniejsza premię do KP o 2.\nNarzędzie: Staje się bezużyteczne, wymagając naprawy.\nEfekt trwa 1 godzinę lub do momentu, gdy przedmiot zostanie poddany gruntownemu czyszczeniu i konserwacji."
+    },
+    {
+      "name": "Masowa Chronoakceleracja",
+      "level": 2,
+      "type": "Chronoturgia",
+      "castingTime": "1 akcja",
+      "range": "9 metrów (obszar)",
+      "description": "Przyspieszasz ruch maksymalnie 6 istot w wybranym obszarze. Każda z nich zyskuje efekt Chronoakceleracji na 1 minutę:\nOtrzymuje dodatkową akcję ruchu w każdej swojej turze.\nMa premię +2 do rzutów obronnych na Zręczność i testów uniku.\nEfekt kończy się przedwcześnie dla danej istoty, jeśli zostanie ona unieruchomiona lub straci przytomność."
+    },
+    {
+      "name": "Masowe Chronospowolnienie",
+      "level": 2,
+      "type": "Chronoturgia",
+      "castingTime": "1 akcja",
+      "range": "9 metrów (obszar)",
+      "description": "Czas trwania: 1 minuta\nSpowalniasz czas dla maksymalnie 6 istot w wybranym obszarze. Każda z nich musi wykonać rzut obronny na Mądrość (ST sekwencji). Przy porażce:\nTraci jedną akcję w swojej turze.\nOtrzymuje karę -2 do rzutów obronnych na Zręczność i testów uniku.\nPorusza się z połową swojej normalnej prędkości.\nKażda istota może ponawiać rzut obronny na końcu swojej tury, aby zakończyć efekt."
+    },
+    {
+      "name": "Strefa Zatrzymania Czasu",
+      "level": 3,
+      "type": "Chronoturgia",
+      "castingTime": "1 akcja",
+      "range": "12 metrów (obszar o promieniu 6 metrów)",
+      "description": "Tworzysz anomalię czasową, która zatrzymuje wszystko w miejscu na jedną rundę. W obszarze działania:\nWszystkie istoty i przedmioty zostają unieruchomione – nie mogą się poruszać, wykonywać akcji ani reakcji.\nEfekty trwające w czasie (np. płomienie, leczenie, trucizny) są zawieszone do końca działania sekwencji.\nAtaki fizyczne i efekty magiczne nie mogą wpłynąć na zatrzymane istoty – wszystko, co miało je trafić, pozostaje w zawieszeniu.\nPo zakończeniu efektu rzeczywistość wraca do normy, a istoty kontynuują swoje działania tak, jakby nic się nie stało."
+    },
+    {
+      "name": "Nagłe Przyspieszenie Życia",
+      "level": 3,
+      "type": "Chronoturgia",
+      "castingTime": "1 akcja",
+      "range": "10 metrów",
+      "description": "Przyspieszasz naturalne procesy wzrostu i regeneracji w wybranym obszarze lub u pojedynczej istoty. Możesz wybrać jeden z trzech efektów:\n1. Wzrost Roślinności – Wszystkie rośliny w promieniu 10 metrów gwałtownie się rozrastają, tworząc trudny teren. Jeśli w obszarze znajdują się wrogowie, muszą wykonać rzut obronny na Zręczność (ST sekwencji). Przy porażce zostają splątani przez wijące się pnącza na 1 minutę (mogą ponawiać rzut obronny na końcu swojej tury). Roślinność może posłużyć także jako zasłona, zapewniając premię +2 do KP dla istot znajdujących się w jej obrębie.\n2. Przyspieszona Regeneracja – Jedna istota w zasięgu zaczyna intensywnie się regenerować, odzyskując 1k6 punktów życia na początku każdej swojej tury przez 1 minutę. Efekt ten działa również na zwierzęta i istoty roślinne, lecz nie wpływa na konstrukty i nieumarłych. Możesz również użyć tej sekwencji do przyspieszenia leczenia ran niezagrażających życiu, skracając czas potrzebny na wyzdrowienie o połowę.\n3. Biologiczne Przyspieszenie – Możesz wpłynąć na wybraną istotę lub organizm, powodując przyspieszenie jego naturalnych procesów:\nCiężarna istota może urodzić wcześniej, jeśli okres ciąży jest bliski końca.\nZatruty cel doświadcza gwałtownej reakcji – trucizna działa szybciej, ale organizm może szybciej się jej pozbyć (rzut obronny na Wytrzymałość; przy sukcesie trucizna przestaje działać, przy porażce działa podwójnie intensywnie przez krótszy czas).\nChoroba rozwija się w przyspieszonym tempie – lekarstwo może zadziałać szybciej, ale jeśli nie zostanie podane, choroba postępuje szybciej niż normalnie.\nOwady i mikroorganizmy mogą ulec gwałtownemu rozmnożeniu – może to być wykorzystane do wywołania zarazy, przyspieszenia rozkładu lub stworzenia roju insektów."
+    },
+    {
+      "name": "Przyspieszone Starzenie",
+      "level": 4,
+      "type": "Chronoturgia",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Przyspieszasz proces starzenia jednej istoty lub przedmiotu w zasięgu. Cel musi wykonać rzut obronny na Kondycję (ST sekwencji). Przy porażce:\nIstoty: Otrzymują 6k6 obrażeń nekrotycznych oraz mają -2 do rzutów ataku i KP przez 1 minutę, gdyż ich ciało staje się kruche i osłabione. Istoty odporne na choroby mają przewagę na rzut obronny.\nPrzedmioty: Jeśli nie są magiczne, natychmiast ulegają zniszczeniu – metal rdzewieje, drewno gnije, a tkaniny rozpadają się w pył. Przedmioty magiczne mogą zostać osłabione na 1 godzinę, tracąc swoje zdolności (ST zależny od potęgi przedmiotu)."
+    },
+    {
+      "name": "Impuls Kinetyczny",
+      "level": 0,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "6 metrów",
+      "description": "Skierowujesz falę kinetycznej energii w stronę celu, powodując jego odrzucenie o 2 metry. Cel otrzymuje 1k6 + modyfikator z Inteligencji obrażeń obuchowych. Jeśli cel uderzy w przeszkodę, otrzymuje dodatkowe obrażenia równe połowie twojego poziomu (zaokrąglone w dół)."
+    },
+    {
+      "name": "Wyładowanie Elektryczne",
+      "level": 0,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "3 metry",
+      "description": "Wystrzeliwujesz krótką błyskawicę, która trafia jedną istotę lub urządzenie w zasięgu. Cel otrzymuje 1k6 + modyfikator z Inteligencji obrażeń elektrycznych. Dodatkowo, jeśli trafiony cel posiada elektroniczne urządzenia, może dojść do ich krótkotrwałego zakłócenia lub resetu (według uznania MG)."
+    },
+    {
+      "name": "Absorpcja Energii",
+      "level": 0,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "Dotyk",
+      "description": "Dotykasz obiektu, pochłaniając jego ciepło lub ładunek elektryczny. Zimne przedmioty stają się jeszcze chłodniejsze, a gorące mogą nagle ostygnąć. Jeśli pochłoniesz wystarczającą ilość energii, możesz użyć jej do wzmocnienia następnej akcji:\nNastępny atak w ciągu 1 minuty zadaje dodatkowe 1k6 obrażeń (rodzaj zależny od pochłoniętej energii: ciepło = ogień, elektryczność = błyskawice).\nJeśli użyjesz jej do obrony, możesz dodać +1 do KP na 1 rundę."
+    },
+    {
+      "name": "Zimne Dotknięcie",
+      "level": 0,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "Dotyk",
+      "description": "Pobierasz ciepło z obiektu lub istoty, momentalnie zamrażając powierzchnię dotkniętego przedmiotu lub skóry wroga. Cel otrzymuje 1k6 + modyfikator z Inteligencji obrażeń od mrozu. Jeśli cel nosi metalową zbroję lub trzyma metalowy przedmiot, jego ruchy mogą zostać spowolnione (kara -2 do testów Zręczności do końca następnej rundy)."
+    },
+    {
+      "name": "Przewodzenie Energii",
+      "level": 1,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "Dotyk",
+      "description": "Możesz przenieść ciepło, elektryczność lub inną formę energii z jednego obiektu do drugiego. Możesz np.:\nOgrzać lub ochłodzić ciecz o 10°C na każdy poziom postaci.\nRozładować akumulator, uniemożliwiając jego dalsze działanie.\nSprawić, że broń przeciwnika stanie się rozpalona, zadając 1k6 obrażeń od ognia przy następnym ataku."
+    },
+    {
+      "name": "Błysk Energetyczny",
+      "level": 1,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "3 metry (stożek)",
+      "description": "Tworzysz nagły rozbłysk światła i fali ciepła. Wrogowie w obszarze stożka muszą wykonać rzut obronny na Zręczność, inaczej otrzymują 2k6 + modyfikator z Inteligencji obrażeń od ognia i są oślepieni do końca następnej rundy."
+    },
+    {
+      "name": "Pochłanianie Ciepła",
+      "level": 1,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "3 metry (promień)",
+      "description": "Pobierasz ciepło z otoczenia, powodując nagłe oziębienie. Istoty w promieniu 3 metrów otrzymują 2k6 + modyfikator z Inteligencji obrażeń od mrozu. Dodatkowo:\nMetalowe przedmioty mogą stać się kruche, co zwiększa ich podatność na zniszczenie.\nIstoty ubrane w metalową zbroję mają kara -2 do testów Zręczności przez 1 rundę."
+    },
+    {
+      "name": "Przeładowanie",
+      "level": 2,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "6 metrów",
+      "description": "Naładowujesz cel ogromną ilością energii. Jeśli jest to istota, może ona wykonać rzut obronny na Zręczność:\nNieudany test: Cel eksploduje energią w promieniu 5 metrów, zadając 3k6 + modyfikator z Inteligencji obrażeń elektrycznych wszystkim w pobliżu.\nUdany test: Cel może wyładować energię w kontrolowany sposób, unikając obrażeń."
+    },
+    {
+      "name": "Energetyczna Bariera",
+      "level": 2,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "5 metrów (promień)",
+      "description": "Tworzysz wokół siebie lub innej istoty pole ochronne, które redukuje o połowę obrażenia od ciepła, elektryczności i kinetyki (np. pociski, uderzenia).\nFala Zamrożenia\nPobierasz ciepło z dużego obszaru, powodując gwałtowne zamrożenie. Przeciwnicy w promieniu 5 metrów otrzymują 3k6 + modyfikator z Inteligencji obrażeń od mrozu i są spowolnieni do końca następnej rundy."
+    },
+    {
+      "name": "Przekierowanie Energii",
+      "level": 3,
+      "type": "Energodynamika",
+      "castingTime": "Reakcja",
+      "range": "10 metrów",
+      "description": "Gdy zostaniesz trafiony atakiem energetycznym (ognistym, elektrycznym, radiacyjnym itp.), możesz przechwycić go i skierować na inny cel w zasięgu. Obrażenia pozostają niezmienione."
+    },
+    {
+      "name": "Erupcja Energetyczna",
+      "level": 3,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "6 metrów (promień)",
+      "description": "Skupiasz ogromną ilość energii i eksplodujesz w wybranym żywiołowym wyładowaniu. Wszystkie istoty w promieniu 6 metrów otrzymują 5k6 obrażeń wybranego typu (ciepło, elektryczność, promieniowanie, mróz). Możesz wybrać maksymalnie 2 obszary w polu rażenia, które pozostaną nietknięte."
+    },
+    {
+      "name": "Anihilacja Termiczna",
+      "level": 3,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "4 metry (promień)",
+      "description": "Tworzysz ekstremalny skok temperatury – gwałtownie spalając powietrze lub zamrażając obszar. Wszystkie istoty w promieniu 4 metrów muszą wykonać test Wytrzymałości:\nNieudany test: Otrzymują 6k6 obrażeń cieplnych lub mrozu (wybierasz typ).\nUdany test: Otrzymują połowę obrażeń."
+    },
+    {
+      "name": "Anihilacja Energetyczna",
+      "level": 4,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "3 metry (promień)",
+      "description": "Tworzysz sferę czystej energii, która pochłania wszystko w promieniu 3 metrów. Każda istota w obszarze musi wykonać test Wytrzymałości:\nNieudany test: Otrzymuje 7k6 obrażeń energetycznych i zostaje odrzucona na 6 metrów.\nUdany test: Otrzymuje połowę obrażeń i nie zostaje odrzucona."
+    },
+    {
+      "name": "Termodynamiczne Wypaczenie",
+      "level": 4,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "6 metrów (promień)",
+      "description": "Czas trwania: 1 minuta\nManipulujesz energią w otoczeniu, tworząc ekstremalne zmiany temperatury. Wybierasz jedną z wersji:\nPiekielna Fala: Temperatura gwałtownie rośnie, zadając 6k6 obrażeń od ciepła wszystkim istotom w obszarze (test Zręczności na połowę obrażeń). Co rundę istoty w strefie otrzymują dodatkowe 2k6 obrażeń.\nKriogeniczna Implozja: Powietrze gwałtownie się ochładza, zadając 6k6 obrażeń od mrozu i spowalniając ruchy przeciwników o połowę na 1 minutę (test Wytrzymałości pozwala uniknąć spowolnienia)."
+    },
+    {
+      "name": "Echolokacja",
+      "level": 0,
+      "type": "Neoakustyka",
+      "castingTime": "1 akcja",
+      "range": "20 m",
+      "description": "Emitujesz falę ultradźwiękową, która odbija się od obiektów, pozwalając Ci wykrywać kształty w ciemności lub przez cienkie ściany. Widzisz kontury obiektów i istot w promieniu 20 m. W trakcie działania możesz wykryć ukryte przejścia, słabe punkty konstrukcji, a nawet ruch w pobliskim pomieszczeniu. Jeśli istota w zasięgu się porusza, możesz określić jej prędkość i kierunek."
+    },
+    {
+      "name": "Magnetyczna Impulsja",
+      "level": 0,
+      "type": "Inne",
+      "castingTime": "1 akcja",
+      "range": "5 m",
+      "description": "Emitujesz silny impuls magnetyczny, który może przyciągać lub odpychać metalowe obiekty i istoty w pancerzach:\nOdpychanie/przyciąganie metalowych przedmiotów o masie do 5 kg (np. wyrywasz komuś broń z rąk, przesuwasz drzwi, rozrzucasz metalowe narzędzia).\nZakłócanie elektroniki na 1 rundę (przeciwnik korzystający ze sprzętu elektronicznego otrzymuje karę do ataku).\nOddziaływanie na wrogów w metalowym pancerzu – jeśli znajdują się w zasięgu, muszą zdać test Siły:\nJeśli ich odpychasz, zostają przewróceni i odsunięci o 2 m.\nJeśli ich przyciągasz, mogą zostać zdezorientowani, tracąc równowagę."
+    },
+    {
+      "name": "Termiczne Dostosowanie",
+      "level": 0,
+      "type": "Neoakustyka",
+      "castingTime": "1 akcja",
+      "range": "20 m",
+      "description": "Możesz podnieść lub obniżyć temperaturę obiektu o ±20°C. Może to mieć następujące efekty:\nZimno: Zamrażasz płyny, osłabiasz materiały (np. szkło, plastik, metal). Możesz pokryć broń warstwą mrozu, spowalniając przeciwnika (kara do ruchu).\nCiepło: Przyspieszasz topnienie, ogrzewasz przedmioty do poziomu nieprzyjemnego w dotyku. Możesz sprawić, że broń stanie się gorąca, zmuszając przeciwnika do jej upuszczenia (jeśli nie zda testu Wytrzymałości).\nAtak: Możesz użyć tej umiejętności ofensywnie – jeśli dotkniesz istoty, zadajesz 1k6 obrażeń od zimna lub ciepła.\nAkustyczne Wzmocnienie\nManipulujesz dźwiękiem w wybranym obszarze, pozwalając na:\nWzmocnienie dźwięku: Możesz sprawić, że szept staje się donośny jak krzyk lub zwykły dźwięk eksplozji staje się ogłuszający.\nTłumienie dźwięku: Możesz wyciszyć kroki, wyeliminować hałas broni lub sprawić, że ktoś nie będzie w stanie krzyknąć.\nOgłuszenie przeciwnika: Jeśli wzmocnisz dźwięk do skrajnego poziomu, przeciwnik w obszarze działania musi wykonać test Zmysłów – jeśli go nie zda, zostaje ogłuszony na 1 rundę."
+    },
+    {
+      "name": "Napięcie Powierzchniowe",
+      "level": 0,
+      "type": "Inne",
+      "castingTime": "1 akcja",
+      "range": "Dotykowy (promień 3 m)",
+      "description": "Manipulujesz napięciem powierzchniowym cieczy, co pozwala na:\nChodzenie po wodzie przez kilka kroków (nie działa na wzburzonych falach).\nTworzenie twardych powierzchni na wodzie, np. chwilowe „mostki” pozwalające na szybkie przejście.\nUnoszenie przedmiotów na wodzie – nawet ciężkie obiekty mogą się nie zanurzyć.\nTworzenie pułapek – możesz zmniejszyć napięcie powierzchniowe, powodując nagłe zanurzenie w wodzie, błocie lub innym płynie."
+    },
+    {
+      "name": "Elektroiskra",
+      "level": 0,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "2 m",
+      "description": "Tworzysz wyładowanie elektryczne, które może:\nPodpalić łatwopalne substancje (np. benzynę, gaz, drewno).\nZakłócić elektronikę (np. wyłączyć światła, wywołać krótkie spięcie).\nZadać obrażenia – jeśli skierujesz iskrę na przeciwnika, zadajesz 1k6 obrażeń elektrycznych i możesz ogłuszyć go na 1 rundę (test Wytrzymałości)."
+    },
+    {
+      "name": "Falowy Impuls",
+      "level": 1,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "8 m (stożek 90°)",
+      "description": "Czas działania: Natychmiastowy\nWypuszczasz falę kinetyczną, która odrzuca przeciwników i przedmioty.\nLekkie przedmioty (do 5 kg) zostają odrzucone na 3 m.\nPrzeciwnicy muszą zdać rzut obronny na Refleks lub zostają odsunięci o 2 m i tracą równowagę (mała kara do następnej akcji).\nMoże zgasić płomienie, przewrócić niestabilne obiekty lub rozproszyć dym/gaz w danym obszarze."
+    },
+    {
+      "name": "Ciśnieniowa Kompresja",
+      "level": 1,
+      "type": "Inne",
+      "castingTime": "1 akcja",
+      "range": "6 m",
+      "description": "Manipulujesz ciśnieniem w określonym miejscu, zwiększając je gwałtownie:\nZgniatanie kruchych obiektów (np. szkło, cienki metal, osłabione konstrukcje).\nOsłabienie struktur – jeśli użyte kilkukrotnie, może np. popękać ściana.\nAtak na przeciwnika: Może utrudnić oddychanie (rzut na Wytrwałość, by uniknąć zadyszki i krótkotrwałego osłabienia)."
+    },
+    {
+      "name": "Wzbudzenie Rezonansu",
+      "level": 1,
+      "type": "Neoakustyka",
+      "castingTime": "1 akcja",
+      "range": "6 m",
+      "description": "Czas działania: 10 sekund\nWprowadzasz obiekt lub powierzchnię w subtelne drgania:\nOsłabienie struktury – kruche lub już uszkodzone obiekty pękają szybciej.\nZakłócenie dźwięku – sprawia, że dźwięki w pobliżu stają się chaotyczne, utrudniając komunikację i nasłuchiwanie.\nAtak na przeciwnika – jeśli nosi metalową zbroję lub trzyma metalowy przedmiot, odczuwa drżenie, które utrudnia precyzyjne ruchy (rzut na Zręczność, by uniknąć kary do trafienia)."
+    },
+    {
+      "name": "Polaryzacja Tarcia",
+      "level": 1,
+      "type": "Inne",
+      "castingTime": "1 akcja",
+      "range": "6 m",
+      "description": "Manipulujesz współczynnikiem tarcia na powierzchni:\nPoślizg – zmniejszasz tarcie, sprawiając, że podłoga staje się śliska. Postacie wchodzące na obszar muszą wykonać test na Zręczność, by uniknąć poślizgnięcia się.\nZwiększone tarcie – trudniej się poruszać (np. unieruchomienie małych obiektów, utrudnienie biegu, ułatwienie wspinaczki).\nEfektywniejsze uderzenie – wzmacniasz tarcie na broni, zwiększając precyzję pierwszego ataku."
+    },
+    {
+      "name": "Aktywacja Kapilarna",
+      "level": 1,
+      "type": "Inne",
+      "castingTime": "1 akcja",
+      "range": "5 m",
+      "description": "Manipulujesz zdolnością cieczy do wchłaniania i rozprowadzania się:\nWzmacnianie absorpcji – sprawiasz, że materiały szybciej nasiąkają cieczami, co może przyspieszyć korozję, rozprowadzenie trucizny lub rozlanie substancji na większym obszarze.\nOdrzucenie cieczy – ciecz przestaje wsiąkać w powierzchnię (np. odpychasz wodę z ubrania, chronisz dokumenty przed zamoczeniem).\nSkupienie substancji – zbierasz rozproszoną ciecz w jedno miejsce, co może pomóc w oczyszczaniu obszaru lub przygotowaniu cieczy do dalszego użycia."
+    },
+    {
+      "name": "Próżniowa Staza",
+      "level": 2,
+      "type": "Inne",
+      "castingTime": "1 akcja",
+      "range": "3 m",
+      "description": "Tworzysz obszar obniżonego ciśnienia, który tłumi dźwięk i odcina dopływ powietrza, uniemożliwiając spalanie i utrudniając oddychanie. Efekt wpływa na wszystkie istoty i przedmioty w strefie działania.\nUżycie slota sekwencji o poziomie 3 powoduje, że efekt obejmuje większy obszar (5 m) i utrzymuje się przez minutę.\nUżycie slota sekwencji o poziomie 4 dodatkowo wywołuje zjawisko implozji, która może osłabić struktury lub ogłuszyć istoty w centrum działania."
+    },
+    {
+      "name": "Elektromagnetyczna Kotwica",
+      "level": 2,
+      "type": "Grawiturgia",
+      "castingTime": "1 akcja",
+      "range": "10 m",
+      "description": "Przyciągasz metalowy obiekt lub przeciwnika noszącego metalowy pancerz z siłą 200 N, powodując destabilizację ruchu lub przewrócenie celu. Możesz także unieruchomić małe mechanizmy.\nUżycie slota sekwencji o poziomie 3 pozwala przyciągnąć większe obiekty i zwiększa siłę do 400 N.\nUżycie slota sekwencji o poziomie 4 pozwala całkowicie unieruchomić przeciwnika na czas działania sekwencji, jeśli nie zda testu siły."
+    },
+    {
+      "name": "Kondensacja",
+      "level": 2,
+      "type": "Inne",
+      "castingTime": "1 akcja",
+      "range": "5 m",
+      "description": "Zagęszczasz wilgoć z otoczenia, tworząc krople wody, cienką warstwę lodu lub kondensując parę wodną. Możesz użyć tej sekwencji, aby ochłodzić gorące przedmioty lub utworzyć śliską powierzchnię.\nUżycie slota sekwencji o poziomie 3 pozwala tworzyć grubsze warstwy lodu, które mogą unieruchomić przedmioty lub stworzyć prowizoryczne osłony.\nUżycie slota sekwencji o poziomie 4 umożliwia natychmiastowe zamrożenie dużych ilości wody oraz tworzenie kolców lodowych, które mogą ranić przeciwników."
+    },
+    {
+      "name": "Holograficzna Dyfrakcja",
+      "level": 2,
+      "type": "Neooptyka",
+      "castingTime": "1 akcja",
+      "range": "10 m",
+      "description": "Tworzysz 2–4 iluzoryczne kopie siebie, które dezorientują przeciwników i sprawiają, że trudniej jest Cię trafić. Kopie poruszają się w synchronizacji z Tobą i znikają, gdy zostaną trafione.\nUżycie slota sekwencji o poziomie 3 pozwala oddalać iluzje o 10 m, co zwiększa ich użyteczność taktyczną.\nUżycie slota sekwencji o poziomie 4 sprawia, że przeciwnicy mają -4 do testów celowania oraz że iluzje mogą symulować rzucanie Formuł, zwiększając dezorientację."
+    },
+    {
+      "name": "Akceleracyjny Skok",
+      "level": 2,
+      "type": "Grawiturgia",
+      "castingTime": "1 akcja",
+      "range": "Osobisty",
+      "description": "Manipulując lokalną bezwładnością i polem magnetycznym, generujesz potężny impuls, który pozwala Ci wykonać błyskawiczny skok na odległość do 6 m w dowolnym kierunku. Możesz także odbić się od powierzchni pod kątem, zmieniając trajektorię lotu. Czas działania natychmiastowy.\nUżycie slota sekwencji o poziomie 3 pozwala wykonać skok na odległość do 12 m oraz ignorować część obrażeń od upadku.\nUżycie slota sekwencji o poziomie 4 pozwala dwukrotnie zmienić kierunek w powietrzu, dając możliwość wykonania złożonych manewrów i unikania ataków."
+    },
+    {
+      "name": "Polaryzacja Materii",
+      "level": 2,
+      "type": "Inne",
+      "castingTime": "1 akcja",
+      "range": "9 m",
+      "description": "Tworzysz różnicę potencjałów między dwoma obiektami, powodując, że przyciągają się one z rosnącą siłą. Może to sprawić, że broń przeciwnika przyklei się do ściany, jego buty przylgną do podłoża lub dwa przedmioty zostaną do siebie przyciągnięte. Czas działania to 30 sekund.\nUżycie slota sekwencji o poziomie 3 pozwala przyciągać wiele obiektów jednocześnie, zwiększając kontrolę nad otoczeniem.\nUżycie slota sekwencji o poziomie 4 pozwala nagle zmieniać polaryzację, sprawiając, że obiekty zaczną się odpychać zamiast przyciągać."
+    },
+    {
+      "name": "Kinetyczna Rezonancja",
+      "level": 2,
+      "type": "Neooptyka",
+      "castingTime": "1 akcja",
+      "range": "Osobisty (lub 3 m na inną istotę)",
+      "description": "Nakładasz rezonans kinetyczny na obiekt lub istotę, wzmacniając każde kolejne uderzenie, które go/ją trafi. Efekt kumuluje się, zwiększając siłę każdego następnego trafienia o 25%.Czas działania to 30 sekund.\nUżycie slota sekwencji o poziomie 3 zwiększa bonus do 50%.\nUżycie slota sekwencji o poziomie 4 pozwala objąć dwa cele jednocześnie.\nZniekształcenie Światła\nManipulujesz światłem wokół siebie, stając się półprzezroczysty i trudniejszy do zauważenia. Wrogowie mają -2 do testów Percepcji przeciwko tobie przez 1 minutę.\nUżycie slota sekwencji o poziomie 3 Możesz stać się całkowicie niewidzialny na 2 rundy, ale każda agresywna akcja przerywa efekt.\nUżycie slota sekwencji o poziomie 4 wydłużą czas niewidzialności do 3 rund"
+    },
+    {
+      "name": "Fotoniczny Błysk",
+      "level": 2,
+      "type": "Neooptyka",
+      "castingTime": "1 akcja",
+      "range": "10 m (obszar 3 m)",
+      "description": "Emitujesz krótki, intensywny rozbłysk światła. Wrogowie muszą wykonać rzut obronny na Zmysły. Niepowodzenie oznacza oślepienie na 1 rundę, sukces – -2 do testów ataku i Percepcji na 1 rundę. Użycie slota sekwencji o poziomie 3  Efekt obejmuje 5 m i wydłuża oślepienie do 2 rund. Użycie slota sekwencji o poziomie 4 Efekt obejmuje 8 m. Osoby bez osłony muszą odwrócić wzrok lub zostać oślepione na 3 rundy."
+    },
+    {
+      "name": "Rezonansowy Wybuch",
+      "level": 3,
+      "type": "Neoakustyka",
+      "castingTime": "1 akcja",
+      "range": "8 m (sfera 3 m)",
+      "description": "Generujesz falę uderzeniową o wysokiej częstotliwości, która przenika przez materiały i struktury, powodując mikropęknięcia i dezorientację. Obrażenia to 3k6 dźwiękowych. Wszystkie istoty w obszarze muszą wykonać rzut na Wytrzymałość, by uniknąć ogłuszenia na 1 rundę. Test to rzut na Wytrzymałość (połowa obrażeń)."
+    },
+    {
+      "name": "Elektropuls",
+      "level": 3,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "15 m",
+      "description": "Emitujesz silny impuls elektromagnetyczny, który powoduje chwilowe wyłączenie lub zakłócenie działania urządzeń elektronicznych w promieniu 15 m. Wszystkie urządzenia wyłączają się na 10 sekund, a zasilane energią pola ochronne i tarcze tracą na ten czas skuteczność.\nIstoty posiadające cyberwszczepy lub inne elektroniczne komponenty muszą wykonać rzut na Wytrzymałość, aby uniknąć krótkotrwałego zwarcia. W przypadku porażki otrzymują 2k6 obrażeń elektrycznych i mają -2 do testów Zręczności przez 1 rundę.  Wrogowie korzystający z zaawansowanej broni energetycznej lub pancerzy wspomaganych mogą doświadczyć ich chwilowej awarii (sędzia decyduje, czy wymaga to dodatkowej akcji na restart).\nDrony, roboty i inne maszyny wykonują rzut obronny na Wytrzymałość – w przypadku porażki są wyłączone na 2 rundy."
+    },
+    {
+      "name": "Kinetyczna Dysrupcja",
+      "level": 3,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "10 m (stożek 60°)",
+      "description": "Emisja fal kinetycznych rozrywa połączenia molekularne, osłabiając struktury i powodując niestabilność w obiektach. Obrażenia to 2k8 obuchowych wobec istot, podwójne obrażenia wobec obiektów i konstruktów. Test to rzut na Wytrzymałość (połowa obrażeń)."
+    },
+    {
+      "name": "Świetlna Dezintegracja",
+      "level": 3,
+      "type": "Neooptyka",
+      "castingTime": "1 akcja",
+      "range": "18 m",
+      "description": "Emitujesz skoncentrowany impuls lasera, który wypala wrogów i topi niektóre materiały. Może również podpalić łatwopalne obiekty. Zadaje obrażenia 3k6 od energii cieplnej  wszystkiemu w prostej linii zasięg 18m. Test to rzut na Zręczność (połowa obrażeń). Użycie slota sekwencji o poziomie 4 zwiększa obrażenia o dodatkowe 2k6"
+    },
+    {
+      "name": "Wir Magnetyczny",
+      "level": 4,
+      "type": "Inne",
+      "castingTime": "1 akcja",
+      "range": "6 m (obszar 3 m)",
+      "description": "Tworzysz silne pole magnetyczne, które gwałtownie przyciąga metalowe obiekty i cząstki, tworząc wirujący chaos. Obrażenia to 3k6+U od wirujących odłamków. Dodatkowo istoty w zbrojach lub posiadające metalowe przedmioty muszą wykonać test na Siłę, by się wydostać, lub zostają unieruchomione na 1 rundę."
+    },
+    {
+      "name": "Nadprzewodzący Kanał",
+      "level": 4,
+      "type": "Energodynamika",
+      "castingTime": "1 akcja",
+      "range": "20 m",
+      "description": "Tworzysz tymczasowy przewodnik dla energii elektrycznej, łącząc dwa punkty. Dzięki temu możesz:\nPrzenieść prąd z jednej maszyny do drugiej (np. podładować wyłączony system).\nPrzekierować atak energetyczny – np. zmienić tor błyskawicy lub skierować impuls elektryczny na inny cel.\nWzmocnić efekt elektryczny – np. sprawić, że broń energetyczna zada podwójne obrażenia, jeśli strzał przejdzie przez kanał.\nCzas działania: 1 runda."
+    },
+    {
+      "name": "Strefa Zerowej Bezwładności",
+      "level": 4,
+      "type": "Grawiturgia",
+      "castingTime": "1 akcja",
+      "range": "10 m (obszar 5 m)",
+      "description": "Manipulujesz lokalną bezwładnością, zmniejszając ją niemal do zera. Obiekty i istoty w obszarze zaczynają unosić się w powietrzu i mają trudności z poruszaniem się. Wrogowie w strefie mają -4 do testów walki wręcz i testów Zręczności, a wszelkie próby poruszania się są utrudnione."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: "Strefa_Zerowej_Bezw\u0142adno\u015Bci"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: "Strefa Zerowej Bezw\u0142adno\u015Bci"
+  spellLevel: 4
+  description: "Manipulujesz lokaln\u0105 bezw\u0142adno\u015Bci\u0105, zmniejszaj\u0105c
+    j\u0105 niemal do zera. Obiekty i istoty w obszarze zaczynaj\u0105 unosi\u0107
+    si\u0119 w powietrzu i maj\u0105 trudno\u015Bci z poruszaniem si\u0119. Wrogowie
+    w strefie maj\u0105 -4 do test\xF3w walki wr\u0119cz i test\xF3w Zr\u0119czno\u015Bci,
+    a wszelkie pr\xF3by poruszania si\u0119 s\u0105 utrudnione."
+  spellType: 0
+  spellCastingTime: 1 akcja
+  spellRange: 10 m (obszar 5 m)

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Grawitacyjna_Anomalia
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Grawitacyjna Anomalia
+  spellLevel: 4
+  description: "Na wybranym obszarze grawitacja losowo zmienia si\u0142\u0119 i kierunek,
+    dezorientuj\u0105c istoty wewn\u0105trz.\nWrogowie musz\u0105 wykona\u0107 rzut
+    obronny na Zr\u0119czno\u015B\u0107 (ST sekwencji) na pocz\u0105tku ka\u017Cdej
+    tury. W przypadku pora\u017Cki:\nPoruszaj\u0105 si\u0119 w losowym kierunku (k6:
+    1-2 p\xF3\u0142noc, 3-4 po\u0142udnie, 5-6 losowy skok).\nOtrzymuj\u0105 3k6
+    obra\u017Ce\u0144 obuchowych od nag\u0142ych zmian si\u0142y ci\u0105\u017Cenia."
+  spellType: 0
+  spellCastingTime: 1 akcja
+  spellRange: "18 metr\xF3w (obszar 9x9 m)"

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: "Prze\u0142adowanie"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: "Prze\u0142adowanie"
+  spellLevel: 2
+  description: "Na\u0142adowujesz cel ogromn\u0105 ilo\u015Bci\u0105 energii. Je\u015Bli
+    jest to istota, mo\u017Ce ona wykona\u0107 rzut obronny na Zr\u0119czno\u015B\u0107:\nNieudany
+    test: Cel eksploduje energi\u0105 w promieniu 5 metr\xF3w, zadaj\u0105c 3k6 +
+    modyfikator z Inteligencji obra\u017Ce\u0144 elektrycznych wszystkim w pobli\u017Cu.\nUdany
+    test: Cel mo\u017Ce wy\u0142adowa\u0107 energi\u0119 w kontrolowany spos\xF3b,
+    unikaj\u0105c obra\u017Ce\u0144."
+  spellType: 2
+  spellCastingTime: 1 akcja
+  spellRange: "6 metr\xF3w"

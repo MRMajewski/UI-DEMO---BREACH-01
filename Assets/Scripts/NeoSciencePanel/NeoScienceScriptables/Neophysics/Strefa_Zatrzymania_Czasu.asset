@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Strefa_Zatrzymania_Czasu
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Strefa Zatrzymania Czasu
+  spellLevel: 3
+  description: "Tworzysz anomali\u0119 czasow\u0105, kt\xF3ra zatrzymuje wszystko
+    w miejscu na jedn\u0105 rund\u0119. W obszarze dzia\u0142ania:\nWszystkie istoty
+    i przedmioty zostaj\u0105 unieruchomione \u2013 nie mog\u0105 si\u0119 porusza\u0107,
+    wykonywa\u0107 akcji ani reakcji.\nEfekty trwaj\u0105ce w czasie (np. p\u0142omienie,
+    leczenie, trucizny) s\u0105 zawieszone do ko\u0144ca dzia\u0142ania sekwencji.\nAtaki
+    fizyczne i efekty magiczne nie mog\u0105 wp\u0142yn\u0105\u0107 na zatrzymane
+    istoty \u2013 wszystko, co mia\u0142o je trafi\u0107, pozostaje w zawieszeniu.\nPo
+    zako\u0144czeniu efektu rzeczywisto\u015B\u0107 wraca do normy, a istoty kontynuuj\u0105
+    swoje dzia\u0142ania tak, jakby nic si\u0119 nie sta\u0142o."
+  spellType: 1
+  spellCastingTime: 1 akcja
+  spellRange: "12 metr\xF3w (obszar o promieniu 6 metr\xF3w)"

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Anihilacja_Energetyczna
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Anihilacja Energetyczna
+  spellLevel: 4
+  description: "Tworzysz sfer\u0119 czystej energii, kt\xF3ra poch\u0142ania wszystko
+    w promieniu 3 metr\xF3w. Ka\u017Cda istota w obszarze musi wykona\u0107 test
+    Wytrzyma\u0142o\u015Bci:\nNieudany test: Otrzymuje 7k6 obra\u017Ce\u0144 energetycznych
+    i zostaje odrzucona na 6 metr\xF3w.\nUdany test: Otrzymuje po\u0142ow\u0119 obra\u017Ce\u0144
+    i nie zostaje odrzucona."
+  spellType: 2
+  spellCastingTime: 1 akcja
+  spellRange: "3 metry (promie\u0144)"

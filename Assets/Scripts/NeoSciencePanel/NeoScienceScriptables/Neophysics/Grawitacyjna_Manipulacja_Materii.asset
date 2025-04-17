@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Grawitacyjna_Manipulacja_Materii
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Grawitacyjna Manipulacja Materii
+  spellLevel: 2
+  description: "Unosisz w powietrzu przedmioty o wadze do 50 kg, kontroluj\u0105c
+    ich ruchy. U\u017Cywaj\u0105c bonusowej akcji mo\u017Cesz poruszy\u0107 przedmioty
+    si\u0119 o 9 metr\xF3w na rund\u0119."
+  spellType: 0
+  spellCastingTime: 1 akcja
+  spellRange: "18 metr\xF3w"

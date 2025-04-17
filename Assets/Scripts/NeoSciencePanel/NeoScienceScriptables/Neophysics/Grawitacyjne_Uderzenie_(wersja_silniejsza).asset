@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Grawitacyjne_Uderzenie_(wersja_silniejsza)
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Grawitacyjne Uderzenie (wersja silniejsza)
+  spellLevel: 3
+  description: "Cel musi wykona\u0107 rzut obronny na Si\u0142\u0119  lub zostaje
+    powalony na 1 minut\u0119.\nJego szybko\u015B\u0107 wynosi 0.\nNie mo\u017Ce
+    si\u0119 porusza\u0107 ani wsta\u0107.\nNa pocz\u0105tku ka\u017Cdej swojej tury
+    otrzymuje 3k6 obra\u017Ce\u0144 obuchowych, gdy grawitacja mia\u017Cd\u017Cy
+    go do pod\u0142o\u017Ca.\nMo\u017Ce ponawia\u0107 rzut obronny na ko\u0144cu
+    swojej tury, aby si\u0119 oswobodzi\u0107.\nNa wy\u017Cszym poziomie: Przy rzuceniu
+    na poziomie 5 lub wy\u017Cszym, obra\u017Cenia zwi\u0119kszaj\u0105 si\u0119
+    o 1k6 za ka\u017Cdy poziom powy\u017Cej 4."
+  spellType: 0
+  spellCastingTime: 1 akcja
+  spellRange: "9 metr\xF3w"

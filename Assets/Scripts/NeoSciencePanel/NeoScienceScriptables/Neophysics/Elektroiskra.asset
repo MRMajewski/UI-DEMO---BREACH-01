@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Elektroiskra
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Elektroiskra
+  spellLevel: 0
+  description: "Tworzysz wy\u0142adowanie elektryczne, kt\xF3re mo\u017Ce:\nPodpali\u0107
+    \u0142atwopalne substancje (np. benzyn\u0119, gaz, drewno).\nZak\u0142\xF3ci\u0107
+    elektronik\u0119 (np. wy\u0142\u0105czy\u0107 \u015Bwiat\u0142a, wywo\u0142a\u0107
+    kr\xF3tkie spi\u0119cie).\nZada\u0107 obra\u017Cenia \u2013 je\u015Bli skierujesz
+    iskr\u0119 na przeciwnika, zadajesz 1k6 obra\u017Ce\u0144 elektrycznych i mo\u017Cesz
+    og\u0142uszy\u0107 go na 1 rund\u0119 (test Wytrzyma\u0142o\u015Bci)."
+  spellType: 2
+  spellCastingTime: 1 akcja
+  spellRange: 2 m

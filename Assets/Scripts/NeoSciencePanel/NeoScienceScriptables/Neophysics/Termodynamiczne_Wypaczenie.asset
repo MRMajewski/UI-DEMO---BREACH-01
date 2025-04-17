@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Termodynamiczne_Wypaczenie
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Termodynamiczne Wypaczenie
+  spellLevel: 4
+  description: "Czas trwania: 1 minuta\nManipulujesz energi\u0105 w otoczeniu, tworz\u0105c
+    ekstremalne zmiany temperatury. Wybierasz jedn\u0105 z wersji:\nPiekielna Fala:
+    Temperatura gwa\u0142townie ro\u015Bnie, zadaj\u0105c 6k6 obra\u017Ce\u0144 od
+    ciep\u0142a wszystkim istotom w obszarze (test Zr\u0119czno\u015Bci na po\u0142ow\u0119
+    obra\u017Ce\u0144). Co rund\u0119 istoty w strefie otrzymuj\u0105 dodatkowe 2k6
+    obra\u017Ce\u0144.\nKriogeniczna Implozja: Powietrze gwa\u0142townie si\u0119
+    och\u0142adza, zadaj\u0105c 6k6 obra\u017Ce\u0144 od mrozu i spowalniaj\u0105c
+    ruchy przeciwnik\xF3w o po\u0142ow\u0119 na 1 minut\u0119 (test Wytrzyma\u0142o\u015Bci
+    pozwala unikn\u0105\u0107 spowolnienia)."
+  spellType: 2
+  spellCastingTime: 1 akcja
+  spellRange: "6 metr\xF3w (promie\u0144)"

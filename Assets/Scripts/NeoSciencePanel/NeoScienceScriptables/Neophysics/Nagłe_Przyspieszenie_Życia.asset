@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: "Nag\u0142e_Przyspieszenie_\u017Bycia"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: "Nag\u0142e Przyspieszenie \u017Bycia"
+  spellLevel: 3
+  description: "Przyspieszasz naturalne procesy wzrostu i regeneracji w wybranym
+    obszarze lub u pojedynczej istoty. Mo\u017Cesz wybra\u0107 jeden z trzech efekt\xF3w:\n1.
+    Wzrost Ro\u015Blinno\u015Bci \u2013 Wszystkie ro\u015Bliny w promieniu 10 metr\xF3w
+    gwa\u0142townie si\u0119 rozrastaj\u0105, tworz\u0105c trudny teren. Je\u015Bli
+    w obszarze znajduj\u0105 si\u0119 wrogowie, musz\u0105 wykona\u0107 rzut obronny
+    na Zr\u0119czno\u015B\u0107 (ST sekwencji). Przy pora\u017Cce zostaj\u0105 spl\u0105tani
+    przez wij\u0105ce si\u0119 pn\u0105cza na 1 minut\u0119 (mog\u0105 ponawia\u0107
+    rzut obronny na ko\u0144cu swojej tury). Ro\u015Blinno\u015B\u0107 mo\u017Ce
+    pos\u0142u\u017Cy\u0107 tak\u017Ce jako zas\u0142ona, zapewniaj\u0105c premi\u0119
+    +2 do KP dla istot znajduj\u0105cych si\u0119 w jej obr\u0119bie.\n2. Przyspieszona
+    Regeneracja \u2013 Jedna istota w zasi\u0119gu zaczyna intensywnie si\u0119 regenerowa\u0107,
+    odzyskuj\u0105c 1k6 punkt\xF3w \u017Cycia na pocz\u0105tku ka\u017Cdej swojej
+    tury przez 1 minut\u0119. Efekt ten dzia\u0142a r\xF3wnie\u017C na zwierz\u0119ta
+    i istoty ro\u015Blinne, lecz nie wp\u0142ywa na konstrukty i nieumar\u0142ych.
+    Mo\u017Cesz r\xF3wnie\u017C u\u017Cy\u0107 tej sekwencji do przyspieszenia leczenia
+    ran niezagra\u017Caj\u0105cych \u017Cyciu, skracaj\u0105c czas potrzebny na wyzdrowienie
+    o po\u0142ow\u0119.\n3. Biologiczne Przyspieszenie \u2013 Mo\u017Cesz wp\u0142yn\u0105\u0107
+    na wybran\u0105 istot\u0119 lub organizm, powoduj\u0105c przyspieszenie jego
+    naturalnych proces\xF3w:\nCi\u0119\u017Carna istota mo\u017Ce urodzi\u0107 wcze\u015Bniej,
+    je\u015Bli okres ci\u0105\u017Cy jest bliski ko\u0144ca.\nZatruty cel do\u015Bwiadcza
+    gwa\u0142townej reakcji \u2013 trucizna dzia\u0142a szybciej, ale organizm mo\u017Ce
+    szybciej si\u0119 jej pozby\u0107 (rzut obronny na Wytrzyma\u0142o\u015B\u0107;
+    przy sukcesie trucizna przestaje dzia\u0142a\u0107, przy pora\u017Cce dzia\u0142a
+    podw\xF3jnie intensywnie przez kr\xF3tszy czas).\nChoroba rozwija si\u0119 w
+    przyspieszonym tempie \u2013 lekarstwo mo\u017Ce zadzia\u0142a\u0107 szybciej,
+    ale je\u015Bli nie zostanie podane, choroba post\u0119puje szybciej ni\u017C
+    normalnie.\nOwady i mikroorganizmy mog\u0105 ulec gwa\u0142townemu rozmno\u017Ceniu
+    \u2013 mo\u017Ce to by\u0107 wykorzystane do wywo\u0142ania zarazy, przyspieszenia
+    rozk\u0142adu lub stworzenia roju insekt\xF3w."
+  spellType: 1
+  spellCastingTime: 1 akcja
+  spellRange: "10 metr\xF3w"

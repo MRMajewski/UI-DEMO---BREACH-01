@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Wir_Magnetyczny
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Wir Magnetyczny
+  spellLevel: 4
+  description: "Tworzysz silne pole magnetyczne, kt\xF3re gwa\u0142townie przyci\u0105ga
+    metalowe obiekty i cz\u0105stki, tworz\u0105c wiruj\u0105cy chaos. Obra\u017Cenia
+    to 3k6+U od wiruj\u0105cych od\u0142amk\xF3w. Dodatkowo istoty w zbrojach lub
+    posiadaj\u0105ce metalowe przedmioty musz\u0105 wykona\u0107 test na Si\u0142\u0119,
+    by si\u0119 wydosta\u0107, lub zostaj\u0105 unieruchomione na 1 rund\u0119."
+  spellType: 5
+  spellCastingTime: 1 akcja
+  spellRange: 6 m (obszar 3 m)

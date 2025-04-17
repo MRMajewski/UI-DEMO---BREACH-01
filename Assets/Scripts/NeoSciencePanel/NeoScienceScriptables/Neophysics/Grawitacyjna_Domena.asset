@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Grawitacyjna_Domena
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Grawitacyjna Domena
+  spellLevel: 1
+  description: "Na niewielkim obszarze modyfikujesz grawitacj\u0119:\nMo\u017Cesz
+    j\u0105 zwi\u0119kszy\u0107, co podwaja koszt ruchu i zmniejsza skoki.\nMo\u017Cesz
+    j\u0105 zmniejszy\u0107, co podwaja wysoko\u015B\u0107 skok\xF3w i sprawia, \u017Ce
+    istoty nie zostaj\u0105 przewr\xF3cone przez inne efekty.\nIstoty w obszarze
+    mog\u0105 wykona\u0107 rzut obronny na Zr\u0119czno\u015B\u0107 , aby zignorowa\u0107
+    efekt."
+  spellType: 0
+  spellCastingTime: 1 akcja
+  spellRange: "9 metr\xF3w (obszar 3x3 m)"

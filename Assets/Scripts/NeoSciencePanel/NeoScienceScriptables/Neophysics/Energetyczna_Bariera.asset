@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Energetyczna_Bariera
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Energetyczna Bariera
+  spellLevel: 2
+  description: "Tworzysz wok\xF3\u0142 siebie lub innej istoty pole ochronne, kt\xF3re
+    redukuje o po\u0142ow\u0119 obra\u017Cenia od ciep\u0142a, elektryczno\u015Bci
+    i kinetyki (np. pociski, uderzenia).\nFala Zamro\u017Cenia\nPobierasz ciep\u0142o
+    z du\u017Cego obszaru, powoduj\u0105c gwa\u0142towne zamro\u017Cenie. Przeciwnicy
+    w promieniu 5 metr\xF3w otrzymuj\u0105 3k6 + modyfikator z Inteligencji obra\u017Ce\u0144
+    od mrozu i s\u0105 spowolnieni do ko\u0144ca nast\u0119pnej rundy."
+  spellType: 2
+  spellCastingTime: 1 akcja
+  spellRange: "5 metr\xF3w (promie\u0144)"

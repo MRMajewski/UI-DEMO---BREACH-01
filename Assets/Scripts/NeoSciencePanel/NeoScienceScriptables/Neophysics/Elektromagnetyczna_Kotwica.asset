@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Elektromagnetyczna_Kotwica
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Elektromagnetyczna Kotwica
+  spellLevel: 2
+  description: "Przyci\u0105gasz metalowy obiekt lub przeciwnika nosz\u0105cego metalowy
+    pancerz z si\u0142\u0105 200 N, powoduj\u0105c destabilizacj\u0119 ruchu lub
+    przewr\xF3cenie celu. Mo\u017Cesz tak\u017Ce unieruchomi\u0107 ma\u0142e mechanizmy.\nU\u017Cycie
+    slota sekwencji o poziomie 3 pozwala przyci\u0105gn\u0105\u0107 wi\u0119ksze
+    obiekty i zwi\u0119ksza si\u0142\u0119 do 400 N.\nU\u017Cycie slota sekwencji
+    o poziomie 4 pozwala ca\u0142kowicie unieruchomi\u0107 przeciwnika na czas dzia\u0142ania
+    sekwencji, je\u015Bli nie zda testu si\u0142y."
+  spellType: 0
+  spellCastingTime: 1 akcja
+  spellRange: 10 m

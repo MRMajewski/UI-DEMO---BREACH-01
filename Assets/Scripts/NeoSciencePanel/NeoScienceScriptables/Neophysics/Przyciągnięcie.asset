@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: "Przyci\u0105gni\u0119cie"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: "Przyci\u0105gni\u0119cie"
+  spellLevel: 0
+  description: "Wskazujesz przedmiot o masie do 5 kg w promieniu 9 metr\xF3w, kt\xF3ry
+    natychmiast przylatuje do twojej r\u0119ki. Je\u015Bli obiekt jest trzymany przez
+    inn\u0105 istot\u0119, wykonuje ona rzut obronny na Si\u0142\u0119 (ST 10 + mod.
+    Inteligencji)."
+  spellType: 0
+  spellCastingTime: Akcja
+  spellRange: "9 metr\xF3w"

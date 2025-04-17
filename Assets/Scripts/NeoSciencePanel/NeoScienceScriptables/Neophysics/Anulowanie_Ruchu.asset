@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Anulowanie_Ruchu
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Anulowanie Ruchu
+  spellLevel: 0
+  description: "Zatrzymujesz na u\u0142amek sekundy ruch wybranej istoty, skutecznie
+    przerywaj\u0105c jej ci\u0105g\u0142o\u015B\u0107 dzia\u0142ania. Do ko\u0144ca
+    tej rundy cel nie mo\u017Ce wykonywa\u0107 reakcji, co uniemo\u017Cliwia mu np.
+    kontrataki, ataki okazyjne czy inne dzia\u0142ania zale\u017Cne od reakcji."
+  spellType: 1
+  spellCastingTime: 1 akcja
+  spellRange: "18 metr\xF3w"

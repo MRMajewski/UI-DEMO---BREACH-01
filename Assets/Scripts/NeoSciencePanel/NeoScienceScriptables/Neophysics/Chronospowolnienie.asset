@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
+  m_Name: Chronospowolnienie
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Chronospowolnienie
+  spellLevel: 1
+  description: "Spowalniasz ruchy i postrzeganie wybranej istoty, sprawiaj\u0105c,
+    \u017Ce jej cia\u0142o staje si\u0119 oci\u0119\u017Ca\u0142e, a reakcje op\xF3\u017Anione.
+    Przez czas trwania efektu cel:\nTraci bonusow\u0105 akcj\u0119 w swojej turze.\nOtrzymuje
+    kar\u0119 -2 do rzut\xF3w obronnych na Zr\u0119czno\u015B\u0107 i test\xF3w uniku.\nPorusza
+    si\u0119 z po\u0142ow\u0105 swojej normalnej pr\u0119dko\u015Bci.\nIstota mo\u017Ce
+    wykona\u0107 rzut obronny na M\u0105dro\u015B\u0107 (ST sekwencji) na ko\u0144cu
+    ka\u017Cdej ze swoich tur, aby zako\u0144czy\u0107 efekt."
+  spellType: 1
+  spellCastingTime: 1 akcja
+  spellRange: "9 metr\xF3w"
