@@ -8,11 +8,11 @@ using UnityEngine.UI;
 public class ArmoryPanel : SimpleUIPanelMobiles
 {
     public Transform itemListContainer;
-    public ItemElementUI itemUIPrefab; 
-    public ItemDatabase itemDatabase; 
+    public ItemElementUI itemUIPrefab;
+    public ItemDatabase itemDatabase;
 
-    private List<ItemCategory> selectedCategories = new List<ItemCategory>(); 
-    private string currentSearchText = ""; 
+    private List<ItemCategory> selectedCategories = new List<ItemCategory>();
+    private string currentSearchText = "";
 
     [SerializeField]
     private FilterUI filterUI;
@@ -28,12 +28,11 @@ public class ArmoryPanel : SimpleUIPanelMobiles
     private RectTransform armoryContentRectTransform;
     [SerializeField]
     private RectTransform armoryViewportRectTransform;
-  
+
     public override void InitializePanel()
     {
         filterUI.CreateCategoryButtons();
 
-        //test
         RefreshUI(itemDatabase.AllItems);
 
         currentItems[0].button.onClick.Invoke();
@@ -67,7 +66,7 @@ public class ArmoryPanel : SimpleUIPanelMobiles
     public IEnumerator UpdateContentLayoutCoroutine()
     {
         yield return new WaitForEndOfFrame();
-        LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());     
+        LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
         AdjustScrollRect();
     }
     public void OnSearchInputChanged(string searchText)
@@ -112,7 +111,7 @@ public class ArmoryPanel : SimpleUIPanelMobiles
         itemUIPrefab.gameObject.SetActive(false);
 
         LayoutRebuilder.ForceRebuildLayoutImmediate(filterUIRectTransform.GetComponent<RectTransform>());
-  
+
         AdjustScrollRect();
     }
 

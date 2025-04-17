@@ -29,11 +29,7 @@ public class AttributesInfoPanel : SimpleUIPanelMobiles, ISnapperPanel
             int index = iconButtons.IndexOf(icon);
             icon.onClick.AddListener(() => snapper.SnapToPanelFromButton(index));
         }
-        //    iconChanger.SetAlphaForIndex(0);
-
         InitializeCategory(0);
-        // iconButtons[0].onClick.Invoke();
-       // ProcessTooltipTriggers();
     }
 
     public void InitializeCategory(int index)
@@ -47,8 +43,6 @@ public class AttributesInfoPanel : SimpleUIPanelMobiles, ISnapperPanel
     }
     public void ResizeSnappedPanel()
     {
-        Debug.Log(viewportRect.rect.width);
-
         foreach (RectTransform classData in snapperPanelsList)
         {
             classData.sizeDelta =

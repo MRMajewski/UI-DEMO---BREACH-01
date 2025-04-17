@@ -7,13 +7,10 @@ public class SimpleUIElementsManagerCustomEditor : Editor
 {
     public override void OnInspectorGUI()
     {
-        // Wyœwietl domyœlny inspektor
         DrawDefaultInspector();
 
-        // Odnoœnik do skryptu
         SimpleUIPanelMobilesManager script = (SimpleUIPanelMobilesManager)target;
 
-        // Dodanie przycisku
         if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
         {
             script.InitPanelsData();
@@ -26,13 +23,10 @@ public class AttributesInfoPanelCustomEditor : Editor
 {
     public override void OnInspectorGUI()
     {
-        // Wyœwietl domyœlny inspektor
         DrawDefaultInspector();
 
-        // Odnoœnik do skryptu
         AttributesInfoPanel script = (AttributesInfoPanel)target;
 
-        // Dodanie przycisku
         if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
         {
             script.InitializePanelData();
@@ -45,13 +39,10 @@ public class IntroInfoPanelCustomEditor : Editor
 {
     public override void OnInspectorGUI()
     {
-        // Wyœwietl domyœlny inspektor
         DrawDefaultInspector();
 
-        // Odnoœnik do skryptu
         IntroInfoPanel script = (IntroInfoPanel)target;
 
-        // Dodanie przycisku
         if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
         {
             script.InitializePanelData();
@@ -64,13 +55,10 @@ public class KnowledgePanelCustomEditor : Editor
 {
     public override void OnInspectorGUI()
     {
-        // Wyœwietl domyœlny inspektor
         DrawDefaultInspector();
 
-        // Odnoœnik do skryptu
         KnowledgePanel script = (KnowledgePanel)target;
 
-        // Dodanie przycisku
         if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
         {
             script.InitializePanelData();
@@ -83,13 +71,10 @@ public class ClassPanelCustomEditor : Editor
 {
     public override void OnInspectorGUI()
     {
-        // Wyœwietl domyœlny inspektor
         DrawDefaultInspector();
 
-        // Odnoœnik do skryptu
         ClassPanel script = (ClassPanel)target;
 
-        // Dodanie przycisku
         if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
         {
             script.InitializeClasses();
@@ -106,13 +91,10 @@ public class TrainingPanelCustomEditor : Editor
 {
     public override void OnInspectorGUI()
     {
-        // Wyœwietl domyœlny inspektor
         DrawDefaultInspector();
 
-        // Odnoœnik do skryptu
         TrainingPanel script = (TrainingPanel)target;
 
-        // Dodanie przycisku
         if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
         {
             script.InitailizeTrainingPanelDatabase();
@@ -124,3 +106,41 @@ public class TrainingPanelCustomEditor : Editor
     }
 }
 
+[CustomEditor(typeof(NeoScienceInfoPanel))]
+public class NeoScienceInfoPanelCustomEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        DrawDefaultInspector();
+
+        NeoScienceInfoPanel script = (NeoScienceInfoPanel)target;
+
+        if (GUILayout.Button("Wykonaj Inicjacjê Spelli na SubPanelach"))
+        {
+            script.InitSubPanelsData();
+        }
+        if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
+        {
+            script.InitializePanel ();
+        }
+        if (GUILayout.Button("Wykonaj Inicjacjê Tooltip Triggerów"))
+        {
+            script.InitializePanelData();
+        }
+    }
+}
+
+[CustomEditor(typeof(NeoScienceDatabase))]
+public class NeoScienceDatabaseCustomEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        DrawDefaultInspector();
+        NeoScienceDatabase script = (NeoScienceDatabase)target;
+
+        if (GUILayout.Button(("Load All NeoScience Scriptables Data")))
+        {
+            script.LoadAllFromFolder();
+        }
+    }
+}

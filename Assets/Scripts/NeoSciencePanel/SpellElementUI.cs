@@ -1,0 +1,29 @@
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+
+public class SpellUIElement : ItemElementUI
+{
+    //public Image icon;
+    //public TextMeshProUGUI nameText;
+    //public Button button;
+
+    private ItemData itemData;
+
+    [SerializeField]
+    private ItemDetailsPanel itemDetailsPanel;
+
+    public void SetUp(ItemData data)
+    {
+        itemData = data;
+        icon.sprite = data.icon;
+        nameText.text = data.itemName;
+        button.onClick.AddListener(ShowItemElementInfo);
+    }
+
+    private void ShowItemElementInfo()
+    {
+        itemDetailsPanel.ShowDetails(itemData);
+    }
+}

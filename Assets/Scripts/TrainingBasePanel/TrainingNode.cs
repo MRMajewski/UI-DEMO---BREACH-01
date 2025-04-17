@@ -14,7 +14,7 @@ public class TrainingNode : KnowledgeNodeBase
     public TextMeshProUGUI ContentText { get => contentText; set => contentText = value; }
 
     [SerializeField]
-    private Button questionButton;
+    protected Button questionButton;
 
     [SerializeField]
     public Button QuestionButton { get => questionButton; set => questionButton = value; }
