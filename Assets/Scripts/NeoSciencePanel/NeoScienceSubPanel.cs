@@ -6,12 +6,11 @@ public class NeoScienceSubPanel : MonoBehaviour
     [SerializeField] private NeoScienceCategory category;
     [SerializeField] private Transform spellListParent;
     [SerializeField] private SpellNode spellPrefab;
-    [SerializeField]
-    private List<SpellNode> instantiatedSpells = new List<SpellNode>();
+    [SerializeField] private List<SpellNode> instantiatedSpells = new();
 
-    public void Setup(List<NeophysicsSpellData> neophysicsSpellsList)
+    public void Setup<T>(List<T> spellList) where T : SpellData
     {
-        // Usuñ stare obiekty UI
+
         foreach (var node in instantiatedSpells)
         {
             if (node != null)
@@ -20,10 +19,10 @@ public class NeoScienceSubPanel : MonoBehaviour
 
         instantiatedSpells.Clear();
 
-        // Twórz nowe UI
-        foreach (var spell in neophysicsSpellsList)
+        foreach (var spell in spellList)
         {
             var spellUI = Instantiate(spellPrefab, spellListParent);
+
             spellUI.Setup(spell);
             instantiatedSpells.Add(spellUI);
         }

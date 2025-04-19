@@ -9,6 +9,12 @@ public class NeoScienceInfoPanel : AttributesInfoPanel
     private NeoScienceDatabase neoScienceDatabase;
 
     [SerializeField] private List<NeoScienceSubPanel> subPanels;
+
+    [SerializeField] private NeoScienceSubPanel neoPhysicsSubPanel;
+    [SerializeField] private NeoScienceSubPanel neoLinguisticSubPanel;
+    [SerializeField] private NeoScienceSubPanel neoSensoricsSubPanel;
+    [SerializeField] private NeoScienceSubPanel PsionicsSubPanel;
+
     public override void InitializePanel()
     {
         base.InitializePanel();
@@ -19,10 +25,9 @@ public class NeoScienceInfoPanel : AttributesInfoPanel
     public void InitSubPanelsData()
     {
 
-        subPanels[0].Setup(neoScienceDatabase.NeophysicsSpellsList);
-        //foreach (NeoScienceSubPanel subPanel in subPanels)
-        //{
-        //    subPanel.Setup();
-        //}
+        neoPhysicsSubPanel.Setup(neoScienceDatabase.NeophysicsSpellsList);
+        neoLinguisticSubPanel.Setup(neoScienceDatabase.NeoLinguisticsSpellsList);
+        neoSensoricsSubPanel.Setup(neoScienceDatabase.NeoSensoricsSpellsList);
+        PsionicsSubPanel.Setup(neoScienceDatabase.PsionicsSpellsList);
     }
 }

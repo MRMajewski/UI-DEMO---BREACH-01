@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: "Fotoniczny_B\u0142ysk"
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: "Fotoniczny B\u0142ysk"
-  spellLevel: 2
-  description: "Emitujesz kr\xF3tki, intensywny rozb\u0142ysk \u015Bwiat\u0142a.
+  spellDescription: "Emitujesz kr\xF3tki, intensywny rozb\u0142ysk \u015Bwiat\u0142a.
     Wrogowie musz\u0105 wykona\u0107 rzut obronny na Zmys\u0142y. Niepowodzenie oznacza
     o\u015Blepienie na 1 rund\u0119, sukces \u2013 -2 do test\xF3w ataku i Percepcji
     na 1 rund\u0119. U\u017Cycie slota sekwencji o poziomie 3  Efekt obejmuje 5 m
     i wyd\u0142u\u017Ca o\u015Blepienie do 2 rund. U\u017Cycie slota sekwencji o
     poziomie 4 Efekt obejmuje 8 m. Osoby bez os\u0142ony musz\u0105 odwr\xF3ci\u0107
     wzrok lub zosta\u0107 o\u015Blepione na 3 rundy."
+  spellLevel: 2
   spellType: 3
   spellCastingTime: 1 akcja
   spellRange: 10 m (obszar 3 m)

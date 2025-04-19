@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: "Nag\u0142e_Przyspieszenie_\u017Bycia"
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: "Nag\u0142e Przyspieszenie \u017Bycia"
-  spellLevel: 3
-  description: "Przyspieszasz naturalne procesy wzrostu i regeneracji w wybranym
+  spellDescription: "Przyspieszasz naturalne procesy wzrostu i regeneracji w wybranym
     obszarze lub u pojedynczej istoty. Mo\u017Cesz wybra\u0107 jeden z trzech efekt\xF3w:\n1.
     Wzrost Ro\u015Blinno\u015Bci \u2013 Wszystkie ro\u015Bliny w promieniu 10 metr\xF3w
     gwa\u0142townie si\u0119 rozrastaj\u0105, tworz\u0105c trudny teren. Je\u015Bli
@@ -44,6 +43,7 @@ MonoBehaviour:
     normalnie.\nOwady i mikroorganizmy mog\u0105 ulec gwa\u0142townemu rozmno\u017Ceniu
     \u2013 mo\u017Ce to by\u0107 wykorzystane do wywo\u0142ania zarazy, przyspieszenia
     rozk\u0142adu lub stworzenia roju insekt\xF3w."
+  spellLevel: 3
   spellType: 1
   spellCastingTime: 1 akcja
   spellRange: "10 metr\xF3w"

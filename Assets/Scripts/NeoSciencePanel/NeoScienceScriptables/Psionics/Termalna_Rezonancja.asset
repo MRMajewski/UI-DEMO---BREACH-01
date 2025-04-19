@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: Termalna_Rezonancja
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: Termalna Rezonancja
+  spellDescription: "Twoje cia\u0142o dostosowuje swoj\u0105 struktur\u0119 do absorpcji
+    i emisji energii cieplnej: Zyskujesz odporno\u015B\u0107 na obra\u017Cenia od
+    ognia.  Gdy otrzymasz obra\u017Cenia od ognia, mo\u017Cesz jako reakcj\u0119
+    uwolni\u0107 nagromadzon\u0105 energi\u0119, zadaj\u0105c 3k6 obra\u017Ce\u0144
+    od ognia istocie w promieniu 3 metr\xF3w. Mo\u017Cesz to zrobi\u0107 maksymalnie
+    3 razy w trakcie dzia\u0142ania zdolno\u015Bci."
+  Spellcategory: 1
+  spellType: 2
+  spellCost: 5

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d47a3c647622b41a3240dcdbdfa6f8, type: 3}
+  m_Name: Fonem_Nieuniknionego_Losu
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Fonem Nieuniknionego Losu
+  spellDescription: "Czas trwania: 1 godzina\nSzepczesz o nieuchronno\u015Bci pewnego
+    wydarzenia, kt\xF3re stopniowo wype\u0142nia umys\u0142 istoty. Wybierz cel w
+    zasi\u0119gu \u2013 musi wykona\u0107 rzut obronny na M\u0105dro\u015B\u0107.
+    W przypadku pora\u017Cki zaczyna wierzy\u0107, \u017Ce to, co mu sugerujesz,
+    jest prawd\u0105."
+  spellLevel: 4
+  spellCastingTime: 1 akcja
+  spellRange: "18 metr\xF3w"

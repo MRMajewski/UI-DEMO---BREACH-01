@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Wzbudzenie_Rezonansu
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Wzbudzenie Rezonansu
-  spellLevel: 1
-  description: "Czas dzia\u0142ania: 10 sekund\nWprowadzasz obiekt lub powierzchni\u0119
+  spellDescription: "Czas dzia\u0142ania: 10 sekund\nWprowadzasz obiekt lub powierzchni\u0119
     w subtelne drgania:\nOs\u0142abienie struktury \u2013 kruche lub ju\u017C uszkodzone
     obiekty p\u0119kaj\u0105 szybciej.\nZak\u0142\xF3cenie d\u017Awi\u0119ku \u2013
     sprawia, \u017Ce d\u017Awi\u0119ki w pobli\u017Cu staj\u0105 si\u0119 chaotyczne,
@@ -23,6 +22,7 @@ MonoBehaviour:
     \u2013 je\u015Bli nosi metalow\u0105 zbroj\u0119 lub trzyma metalowy przedmiot,
     odczuwa dr\u017Cenie, kt\xF3re utrudnia precyzyjne ruchy (rzut na Zr\u0119czno\u015B\u0107,
     by unikn\u0105\u0107 kary do trafienia)."
+  spellLevel: 1
   spellType: 4
   spellCastingTime: 1 akcja
   spellRange: 6 m

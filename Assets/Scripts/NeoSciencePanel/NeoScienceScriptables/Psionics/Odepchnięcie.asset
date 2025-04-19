@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: "Odepchni\u0119cie"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: "Odepchni\u0119cie"
+  spellDescription: "Jako akcj\u0119 wybierasz jedn\u0105 istot\u0119 w promieniu
+    18 metr\xF3w. Cel wykonuje rzut obronny na Si\u0142\u0119. Przy niepowodzeniu
+    otrzymuje 1k6 obra\u017Ce\u0144 od energii kinetycznej za ka\u017Cdy wydany punkt
+    psi oraz zostaje odepchni\u0119ty o 1,5 metra na ka\u017Cdy punkt psi. W przypadku
+    sukcesu obra\u017Cenia s\u0105 o po\u0142ow\u0119 mniejsze."
+  Spellcategory: 1
+  spellType: 1
+  spellCost: 1

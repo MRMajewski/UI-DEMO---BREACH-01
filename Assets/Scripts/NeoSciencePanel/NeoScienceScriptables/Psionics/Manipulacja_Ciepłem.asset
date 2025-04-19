@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: "Manipulacja_Ciep\u0142em"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: "Manipulacja Ciep\u0142em"
+  spellDescription: "Skierowujesz swoj\u0105 wol\u0119 na kontrolowanie temperatury
+    w otoczeniu. Potrafisz podgrza\u0107 lub sch\u0142odzi\u0107 przedmioty w zasi\u0119gu
+    swojej mocy.\n1 psi \u2013 Podgrzewasz lub sch\u0142adzasz pojedynczy obiekt
+    do minimum, np. zapalasz ogie\u0144 w ma\u0142ym kawa\u0142ku drewna, lub zamra\u017Casz
+    wod\u0119 w szklance.\n2 psi \u2013 Tworzysz ma\u0142y ogie\u0144 na d\u0142oni,
+    kt\xF3ry mo\u017Ce rozgrza\u0107 lub spali\u0107 przedmiot w zasi\u0119gu r\u0119ki,
+    np. zapali\u0107 papierosa lub podgrza\u0107 kawa\u0142ek metalu.\n3 psi \u2013
+    Podgrzewasz lub sch\u0142adzisz wi\u0119ksze obiekty w promieniu 5 metr\xF3w,
+    np. rozpalasz ognisko, zamarzasz wod\u0119 w misce.\n4 psi \u2013 Rozprzestrzeniasz
+    temperatur\u0119 w szerszym obszarze, powoduj\u0105c po\u017Car w promieniu 3
+    metr\xF3w lub zamro\u017Cenie wi\u0119kszej przestrzeni."
+  Spellcategory: 1
+  spellType: 2
+  spellCost: 1

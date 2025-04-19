@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: Psychometria
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: Psychometria
+  spellDescription: "Dotykaj\u0105c przedmiotu lub powierzchni, Sensor mo\u017Ce
+    \u201Eodczyta\u0107\u201D intensywne wspomnienia zwi\u0105zane z tym miejscem
+    lub przedmiotem. Widzi wizje, kt\xF3re s\u0105 efektem przesz\u0142ych wydarze\u0144,
+    w kt\xF3rych uczestniczy\u0142y istoty z innych wymiar\xF3w, co daje wgl\u0105d
+    w tajemnice i historie zwi\u0105zane z miejscami o silnych energetycznych oddzia\u0142ywaniach."
+  Spellcategory: 0
+  spellType: 2
+  spellCost: 3

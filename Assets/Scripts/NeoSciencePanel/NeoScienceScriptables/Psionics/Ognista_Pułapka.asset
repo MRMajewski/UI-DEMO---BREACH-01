@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: "Ognista_Pu\u0142apka"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: "Ognista Pu\u0142apka"
+  spellDescription: "Tworzysz pu\u0142apk\u0119 ogniow\u0105, kt\xF3ra wybucha, gdy
+    kto\u015B przejdzie w jej zasi\u0119g.4 psi \u2013 Wybuch w promieniu 1,5 metra,
+    zadaj\u0105cy 3k6 obra\u017Ce\u0144.  5-6 psi \u2013 Powi\u0119kszenie pu\u0142apki
+    do 3 metr\xF3w, zadaj\u0105cej 3k6 obra\u017Ce\u0144 oraz powalaj\u0105cej ofiary."
+  Spellcategory: 1
+  spellType: 2
+  spellCost: 4

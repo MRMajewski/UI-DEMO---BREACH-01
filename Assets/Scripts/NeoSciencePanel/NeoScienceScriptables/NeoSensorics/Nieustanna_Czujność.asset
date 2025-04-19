@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: "Nieustanna_Czujno\u015B\u0107"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: "Nieustanna Czujno\u015B\u0107"
+  spellDescription: "Sensor nie mo\u017Ce zosta\u0107 zaskoczony. Je\u015Bli przeciwnik
+    atakuje go z zaskoczenia, Sensor automatycznie dostaje swoj\u0105 tur\u0119 przed
+    atakiem.\nKoszt: 2"
+  Spellcategory: 0
+  spellType: 0
+  spellCost: 2

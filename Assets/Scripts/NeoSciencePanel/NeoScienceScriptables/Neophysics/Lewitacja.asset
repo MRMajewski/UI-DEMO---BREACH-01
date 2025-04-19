@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Lewitacja
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Lewitacja
+  spellDescription: "Sprawiasz, \u017Ce ty, sojusznik lub inna istota lewituje na
+    wysoko\u015Bci do 6 metr\xF3w nad ziemi\u0105. Mo\u017Ce porusza\u0107 si\u0119
+    w poziomie, ale wymaga to akcji. Je\u015Bli cel nie chce podda\u0107 si\u0119
+    efektowi, mo\u017Ce wykona\u0107 rzut obronny na Si\u0142\u0119 , by go unikn\u0105\u0107."
   spellLevel: 2
-  description: "Sprawiasz, \u017Ce ty, sojusznik lub inna istota lewituje na wysoko\u015Bci
-    do 6 metr\xF3w nad ziemi\u0105. Mo\u017Ce porusza\u0107 si\u0119 w poziomie,
-    ale wymaga to akcji. Je\u015Bli cel nie chce podda\u0107 si\u0119 efektowi, mo\u017Ce
-    wykona\u0107 rzut obronny na Si\u0142\u0119 , by go unikn\u0105\u0107."
   spellType: 0
   spellCastingTime: 1 akcja
   spellRange: "9 metr\xF3w"

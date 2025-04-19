@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Chronoakceleracja
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Chronoakceleracja
-  spellLevel: 1
-  description: "Przyspieszasz przep\u0142yw czasu dla wybranej istoty, sprawiaj\u0105c,
+  spellDescription: "Przyspieszasz przep\u0142yw czasu dla wybranej istoty, sprawiaj\u0105c,
     \u017Ce porusza si\u0119 z nadludzk\u0105 szybko\u015Bci\u0105. Przez czas trwania
     efektu cel zyskuje:\nDodatkow\u0105 akcj\u0119 ruchu w ka\u017Cdej swojej turze.\nPremi\u0119
     +2 do rzut\xF3w obronnych na Zr\u0119czno\u015B\u0107 i test\xF3w uniku.\nEfekt
     ko\u0144czy si\u0119 przedwcze\u015Bnie, je\u015Bli istota zostanie unieruchomiona
     lub straci przytomno\u015B\u0107."
+  spellLevel: 1
   spellType: 1
   spellCastingTime: 1 akcja
   spellRange: "9 metr\xF3w"

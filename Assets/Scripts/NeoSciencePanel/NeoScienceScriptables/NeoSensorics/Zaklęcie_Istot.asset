@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: "Zakl\u0119cie_Istot"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: "Zakl\u0119cie Istot"
+  spellDescription: "Sensor nawi\u0105zuje tymczasowe po\u0142\u0105czenie z istot\u0105
+    z innego wymiaru i prosi j\u0105 o pomoc. Istota mo\u017Ce odpowiedzie\u0107
+    na pro\u015Bb\u0119 w formie informacji, ochrony lub innych us\u0142ug, ale jej
+    odpowied\u017A mo\u017Ce by\u0107 zale\u017Cna od jej natury (np. czy jest przyjazna,
+    neutralna czy wroga wobec tego wymiaru)."
+  Spellcategory: 1
+  spellType: 2
+  spellCost: 2

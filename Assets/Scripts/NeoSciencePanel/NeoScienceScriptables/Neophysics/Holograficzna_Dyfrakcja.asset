@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Holograficzna_Dyfrakcja
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Holograficzna Dyfrakcja
-  spellLevel: 2
-  description: "Tworzysz 2\u20134 iluzoryczne kopie siebie, kt\xF3re dezorientuj\u0105
+  spellDescription: "Tworzysz 2\u20134 iluzoryczne kopie siebie, kt\xF3re dezorientuj\u0105
     przeciwnik\xF3w i sprawiaj\u0105, \u017Ce trudniej jest Ci\u0119 trafi\u0107.
     Kopie poruszaj\u0105 si\u0119 w synchronizacji z Tob\u0105 i znikaj\u0105, gdy
     zostan\u0105 trafione.\nU\u017Cycie slota sekwencji o poziomie 3 pozwala oddala\u0107
@@ -23,6 +22,7 @@ MonoBehaviour:
     slota sekwencji o poziomie 4 sprawia, \u017Ce przeciwnicy maj\u0105 -4 do test\xF3w
     celowania oraz \u017Ce iluzje mog\u0105 symulowa\u0107 rzucanie Formu\u0142,
     zwi\u0119kszaj\u0105c dezorientacj\u0119."
+  spellLevel: 2
   spellType: 3
   spellCastingTime: 1 akcja
   spellRange: 10 m

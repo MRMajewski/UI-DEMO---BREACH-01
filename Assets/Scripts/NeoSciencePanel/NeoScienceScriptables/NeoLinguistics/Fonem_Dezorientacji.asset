@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d47a3c647622b41a3240dcdbdfa6f8, type: 3}
+  m_Name: Fonem_Dezorientacji
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Fonem Dezorientacji
+  spellDescription: "Czas trwania: Koncentracja, do 1 minuty\nTw\xF3j g\u0142os nak\u0142ada
+    si\u0119 na \u015Bwiadomo\u015B\u0107 istot w zasi\u0119gu, powoduj\u0105c zamieszanie
+    i dezorientacj\u0119. Ka\u017Cdy przeciwnik w sto\u017Cku musi wykona\u0107 rzut
+    obronny na Inteligencj\u0119. W przypadku pora\u017Cki zaczyna b\u0142\u0119dnie
+    ocenia\u0107 sytuacj\u0119 i ma 50% szans, \u017Ce zaatakuje swojego sprzymierze\u0144ca
+    zamiast celu. Test ponawia na koniec ka\u017Cdej tury."
+  spellLevel: 3
+  spellCastingTime: 1 akcja
+  spellRange: "4,5 metra (sto\u017Cek)"

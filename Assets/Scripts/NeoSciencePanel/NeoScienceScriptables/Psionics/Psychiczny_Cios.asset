@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: Psychiczny_Cios
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: Psychiczny Cios
+  spellDescription: "Atakujesz umys\u0142 istoty w zasi\u0119gu 36 metr\xF3w. Cel
+    wykonuje rzut obronny na Inteligencj\u0119.\nNiepowodzenie: 1k6 obra\u017Ce\u0144
+    psychicznych.\nObra\u017Cenia rosn\u0105 z poziomem:\n5. poziom= 2k6\n11 poziom=
+    3k6\n15poziom=4k6"
+  Spellcategory: 0
+  spellType: 0
+  spellCost: 0

@@ -5,13 +5,13 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewNeophysicsSpellData", menuName = "NeoScience/NeophysicsSpell")]
 public class NeophysicsSpellData : SpellData
 {
-
+    public int spellLevel;
     public NeoPhysicsCategory spellType;
     public string spellCastingTime;
     public string spellRange;
     private void OnEnable()
     {
-        neoScienceCategory = NeoScienceCategory.Neolinguistics; // Przypisz odpowiedni¹ wartoœæ
+        neoScienceCategory = NeoScienceCategory.Neophysics; // Przypisz odpowiedni¹ wartoœæ
     }
 }
 

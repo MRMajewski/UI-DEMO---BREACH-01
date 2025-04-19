@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: "Napi\u0119cie_Powierzchniowe"
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: "Napi\u0119cie Powierzchniowe"
+  spellDescription: "Manipulujesz napi\u0119ciem powierzchniowym cieczy, co pozwala
+    na:\nChodzenie po wodzie przez kilka krok\xF3w (nie dzia\u0142a na wzburzonych
+    falach).\nTworzenie twardych powierzchni na wodzie, np. chwilowe \u201Emostki\u201D
+    pozwalaj\u0105ce na szybkie przej\u015Bcie.\nUnoszenie przedmiot\xF3w na wodzie
+    \u2013 nawet ci\u0119\u017Ckie obiekty mog\u0105 si\u0119 nie zanurzy\u0107.\nTworzenie
+    pu\u0142apek \u2013 mo\u017Cesz zmniejszy\u0107 napi\u0119cie powierzchniowe,
+    powoduj\u0105c nag\u0142e zanurzenie w wodzie, b\u0142ocie lub innym p\u0142ynie."
   spellLevel: 0
-  description: "Manipulujesz napi\u0119ciem powierzchniowym cieczy, co pozwala na:\nChodzenie
-    po wodzie przez kilka krok\xF3w (nie dzia\u0142a na wzburzonych falach).\nTworzenie
-    twardych powierzchni na wodzie, np. chwilowe \u201Emostki\u201D pozwalaj\u0105ce
-    na szybkie przej\u015Bcie.\nUnoszenie przedmiot\xF3w na wodzie \u2013 nawet ci\u0119\u017Ckie
-    obiekty mog\u0105 si\u0119 nie zanurzy\u0107.\nTworzenie pu\u0142apek \u2013
-    mo\u017Cesz zmniejszy\u0107 napi\u0119cie powierzchniowe, powoduj\u0105c nag\u0142e
-    zanurzenie w wodzie, b\u0142ocie lub innym p\u0142ynie."
   spellType: 5
   spellCastingTime: 1 akcja
   spellRange: "Dotykowy (promie\u0144 3 m)"

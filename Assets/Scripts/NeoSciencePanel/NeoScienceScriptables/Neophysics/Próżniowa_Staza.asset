@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: "Pr\xF3\u017Cniowa_Staza"
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: "Pr\xF3\u017Cniowa Staza"
-  spellLevel: 2
-  description: "Tworzysz obszar obni\u017Conego ci\u015Bnienia, kt\xF3ry t\u0142umi
+  spellDescription: "Tworzysz obszar obni\u017Conego ci\u015Bnienia, kt\xF3ry t\u0142umi
     d\u017Awi\u0119k i odcina dop\u0142yw powietrza, uniemo\u017Cliwiaj\u0105c spalanie
     i utrudniaj\u0105c oddychanie. Efekt wp\u0142ywa na wszystkie istoty i przedmioty
     w strefie dzia\u0142ania.\nU\u017Cycie slota sekwencji o poziomie 3 powoduje,
@@ -23,6 +22,7 @@ MonoBehaviour:
     slota sekwencji o poziomie 4 dodatkowo wywo\u0142uje zjawisko implozji, kt\xF3ra
     mo\u017Ce os\u0142abi\u0107 struktury lub og\u0142uszy\u0107 istoty w centrum
     dzia\u0142ania."
+  spellLevel: 2
   spellType: 5
   spellCastingTime: 1 akcja
   spellRange: 3 m

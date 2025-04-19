@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d47a3c647622b41a3240dcdbdfa6f8, type: 3}
+  m_Name: Fonem_Marionetki
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: Fonem Marionetki
+  spellDescription: "Czas trwania: Koncentracja, do 1 minuty\nS\u0142owa zmieniaj\u0105
+    cel w bezwoln\u0105 marionetk\u0119. Cel musi wykona\u0107 rzut obronny na M\u0105dro\u015B\u0107.
+    W przypadku pora\u017Cki w ka\u017Cdej swojej turze mo\u017Ce wykona\u0107 tylko
+    jedn\u0105 akcj\u0119 \u2013 tak\u0105, jak\u0105 mu wska\u017Cesz (np. \u201EWalcz
+    z sojusznikiem\u201D, \u201EPodejd\u017A do mnie\u201D, \u201ERzu\u0107 bro\u0144\u201D).
+    Co tur\u0119 mo\u017Ce ponawia\u0107 rzut, aby si\u0119 uwolni\u0107."
+  spellLevel: 5
+  spellCastingTime: 1 akcja
+  spellRange: "9 metr\xF3w"

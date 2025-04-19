@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: "Nadprzewodz\u0105cy_Kana\u0142"
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: "Nadprzewodz\u0105cy Kana\u0142"
-  spellLevel: 4
-  description: "Tworzysz tymczasowy przewodnik dla energii elektrycznej, \u0142\u0105cz\u0105c
+  spellDescription: "Tworzysz tymczasowy przewodnik dla energii elektrycznej, \u0142\u0105cz\u0105c
     dwa punkty. Dzi\u0119ki temu mo\u017Cesz:\nPrzenie\u015B\u0107 pr\u0105d z jednej
     maszyny do drugiej (np. pod\u0142adowa\u0107 wy\u0142\u0105czony system).\nPrzekierowa\u0107
     atak energetyczny \u2013 np. zmieni\u0107 tor b\u0142yskawicy lub skierowa\u0107
     impuls elektryczny na inny cel.\nWzmocni\u0107 efekt elektryczny \u2013 np. sprawi\u0107,
     \u017Ce bro\u0144 energetyczna zada podw\xF3jne obra\u017Cenia, je\u015Bli strza\u0142
     przejdzie przez kana\u0142.\nCzas dzia\u0142ania: 1 runda."
+  spellLevel: 4
   spellType: 2
   spellCastingTime: 1 akcja
   spellRange: 20 m

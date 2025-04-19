@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d47a3c647622b41a3240dcdbdfa6f8, type: 3}
+  m_Name: "Fonem_Sennej_Ko\u0142ysanki"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: "Fonem Sennej Ko\u0142ysanki"
+  spellDescription: "Czas trwania: 1 minuta\n\u015Apiewasz melodyjne frazy, kt\xF3re
+    usypiaj\u0105 s\u0142uchaczy. Ka\u017Cda istota w zasi\u0119gu o liczbie punkt\xF3w
+    wytrzyma\u0142o\u015Bci nieprzekraczaj\u0105cej 3k8 zasypia na czas trwania Fonemu.
+    Ha\u0142as lub dotkni\u0119cie budzi ofiar\u0119."
+  spellLevel: 2
+  spellCastingTime: 1 akcja
+  spellRange: "6 metr\xF3w (kula)"

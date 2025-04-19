@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: Mentalna_Forteca
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: Mentalna Forteca
+  spellDescription: "Twoja psychika jest wyj\u0105tkowo odporna na wp\u0142ywy zewn\u0119trzne,
+    a tw\xF3j umys\u0142 potrafi instynktownie odrzuca\u0107 obce ingerencje. Mo\u017Cesz
+    zu\u017Cy\u0107 swoj\u0105 reakcj\u0119, aby zyska\u0107 premi\u0119 +2 do rzut\xF3w
+    obronnych na Inteligencj\u0119, M\u0105dro\u015B\u0107 lub Charyzm\u0119 (wybierasz
+    jeden w trakcie rundy). Je\u015Bli jeste\u015B celem efektu, kt\xF3ry pozwala
+    na rzut obronny, by unikn\u0105\u0107 stanu Oszo\u0142omienia, Przera\u017Cenia
+    lub Zauroczenia, mo\u017Cesz wykona\u0107 ten rzut z przewag\u0105."
+  Spellcategory: 0
+  spellType: 3
+  spellCost: 0

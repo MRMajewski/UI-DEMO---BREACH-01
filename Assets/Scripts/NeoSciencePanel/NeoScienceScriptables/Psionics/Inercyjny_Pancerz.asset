@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: Inercyjny_Pancerz
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: Inercyjny Pancerz
+  spellDescription: "Tworzysz wok\xF3\u0142 siebie pole si\u0142owe na 8 godzin.
+    Zapewnia ono bazow\u0105 KP 14 + Zr\u0119czno\u015B\u0107 oraz odporno\u015B\u0107
+    na obra\u017Cenia od energii kinetycznej. Efekt ko\u0144czy si\u0119 przy za\u0142o\u017Ceniu
+    zbroi."
+  Spellcategory: 1
+  spellType: 1
+  spellCost: 2

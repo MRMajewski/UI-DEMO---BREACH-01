@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: "Przewidywanie_Ruch\xF3w"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: "Przewidywanie Ruch\xF3w"
+  spellDescription: "Przez 1 tur\u0119 Sensor otrzymuje przewag\u0119 na testy obrony
+    przeciwko jednemu wybranemu przeciwnikowi. Je\u015Bli przeciwnik wykonuje atak,
+    Sensor zyskuje r\xF3wnie\u017C przewag\u0119 do testu ataku przeciwko niemu.\nKoszt:
+    2"
+  Spellcategory: 1
+  spellType: 1
+  spellCost: 2

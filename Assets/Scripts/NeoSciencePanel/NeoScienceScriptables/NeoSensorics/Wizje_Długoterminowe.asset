@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: "Wizje_D\u0142ugoterminowe"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: "Wizje D\u0142ugoterminowe"
+  spellDescription: "Sensor uzyskuje wgl\u0105d w potencjaln\u0105 przysz\u0142o\u015B\u0107
+    o istotnym znaczeniu \u2013 politycznym, militarnym lub osobistym. MG przekazuje
+    wskaz\xF3wki dotycz\u0105ce mo\u017Cliwych wydarze\u0144 lub zagro\u017Ce\u0144.\nKoszt:
+    5"
+  Spellcategory: 1
+  spellType: 1
+  spellCost: 5

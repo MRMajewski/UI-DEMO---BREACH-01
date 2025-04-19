@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Anulowanie_Ruchu
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Anulowanie Ruchu
-  spellLevel: 0
-  description: "Zatrzymujesz na u\u0142amek sekundy ruch wybranej istoty, skutecznie
+  spellDescription: "Zatrzymujesz na u\u0142amek sekundy ruch wybranej istoty, skutecznie
     przerywaj\u0105c jej ci\u0105g\u0142o\u015B\u0107 dzia\u0142ania. Do ko\u0144ca
     tej rundy cel nie mo\u017Ce wykonywa\u0107 reakcji, co uniemo\u017Cliwia mu np.
     kontrataki, ataki okazyjne czy inne dzia\u0142ania zale\u017Cne od reakcji."
+  spellLevel: 0
   spellType: 1
   spellCastingTime: 1 akcja
   spellRange: "18 metr\xF3w"

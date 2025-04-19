@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: "Oczy_Spoza_Rzeczywisto\u015Bci"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: "Oczy Spoza Rzeczywisto\u015Bci"
+  spellDescription: "Sensor widzi istoty niematerialne (np. astralne byty, istoty
+    energetyczne, byty z innych wymiar\xF3w) oraz mo\u017Ce wyczuwa\u0107 ich obecno\u015B\u0107,
+    nawet je\u015Bli nie s\u0105 fizycznie obecne w tym wymiarze. Daje to przewag\u0119
+    na testy Percepcji i \u015Aledztwa zwi\u0105zane z wykrywaniem byt\xF3w i energii
+    spoza rzeczywisto\u015Bci.\nKoszt: 2\nPsychometria\nDotykaj\u0105c przedmiotu
+    lub powierzchni, Sensor mo\u017Ce \u201Eodczyta\u0107\u201D intensywne wspomnienia
+    zwi\u0105zane z tym miejscem lub przedmiotem. Widzi wizje, kt\xF3re s\u0105 efektem
+    przesz\u0142ych wydarze\u0144 z udzia\u0142em istot z innych wymiar\xF3w, co
+    daje wgl\u0105d w tajemnice i histori\u0119 tego miejsca.\nKoszt: 3\nWykrywanie
+    S\u0142abo\u015Bci\nWybierasz jedn\u0105 istot\u0119 w zasi\u0119gu wzroku i
+    koncentrujesz si\u0119 na jej budowie cia\u0142a. Przez 1 minut\u0119 twoje ataki
+    przeciwko niej ignoruj\u0105 naturalne pancerze i redukcj\u0119 obra\u017Ce\u0144
+    wynikaj\u0105c\u0105 z jej budowy.\nKoszt: 2\nHemopuls\nZak\u0142\xF3casz przep\u0142yw
+    krwi i dzia\u0142anie organ\xF3w przeciwnika. Cel wykonuje rzut obronny (Kondycja).
+    Je\u015Bli nie zda, wybierasz jeden efekt:\nKrwawienie \u2013 1k6 obra\u017Ce\u0144
+    na pocz. tury przez 1 minut\u0119.\nSpowolnienie \u2013 po\u0142owa pr\u0119dko\u015Bci
+    na 1 minut\u0119.\nOg\u0142uszenie \u2013 brak akcji i reakcji do ko\u0144ca
+    nast\u0119pnej tury.\nKoszt: 3\nPuls \u017Bycia\nWyczuwasz wszystkie \u017Cywe
+    istoty w promieniu 30 m, nawet przez \u015Bciany. Nie poznajesz szczeg\xF3\u0142\xF3w,
+    ale odr\xF3\u017Cniasz \u017Cycie od materii nieo\u017Cywionej. Efekt trwa 1
+    minut\u0119.\nKoszt: 4\nOstateczna Diagnoza\nPoznajesz: aktualne i maksymalne
+    HP celu, aktywne negatywne efekty, podatno\u015Bci oraz czy istota ma mniej ni\u017C
+    25% HP.\nKoszt: 4\nPrzeb\u0142ysk Regeneracji\nLeczy HP r\xF3wne twojemu poziomowi
+    Sensora + modyfikator M\u0105dro\u015Bci. Cel: ty lub sojusznik. Nie dzia\u0142a
+    na istoty martwe.\nKoszt: 4\nWstrz\u0105s Neurokinetyczny\nCel wykonuje rzut
+    obronny (Kondycja). Przy pora\u017Cce:\notrzymuje 3k6 obra\u017Ce\u0144 psychicznych,\nma
+    utrudnienie na testy ataku przez 1 tur\u0119.\nKoszt: 5\nWidmowa Interwencja\nPrzyzywasz
+    istot\u0119 z innego wymiaru, kt\xF3ra pomaga w formie ataku, informacji, zwiadu
+    itd. Rzut k6 okre\u015Bla form\u0119 interwencji.\nKoszt: 3\nEcho Przesz\u0142o\u015Bci\nOdczytujesz
+    przesz\u0142e zdarzenia w miejscu, w tym te zwi\u0105zane z istotami z innych
+    wymiar\xF3w. Poznajesz fragmenty historii i interakcji.\nKoszt: 2\nZakl\u0119cie
+    Istot\nTymczasowe po\u0142\u0105czenie z istot\u0105 z innego wymiaru. Oferuje
+    informacje, ochron\u0119 lub inne us\u0142ugi. Efekty zale\u017Cne od charakteru
+    bytu.\nKoszt: 2\nWymiarowy Dotyk\nDotykasz istoty \u2013 cz\u0119\u015B\u0107
+    jej bytu zostaje przeniesiona do tego wymiaru. Rzut obronny (Charyzma, CD 14)
+    lub:\nOszo\u0142omienie na 1 tur\u0119,\npodatno\u015B\u0107 na obra\u017Cenia
+    energetyczne/nekrotyczne przez 1 minut\u0119.\nKoszt: 3\nPrzywo\u0142anie Obcego
+    Bytu\nPrzyzywasz byt ofensywny (rzut k6):\n1\u20132: s\u0142aby,\n3\u20135: przeci\u0119tny,\n6:
+    pot\u0119\u017Cny (zale\u017Cny od warunk\xF3w).\nKoszt: 4\nPro\u015Bba o Pomoc
+    (Manifestacja Bytu)\nWzywasz byt do pomocy (rzut k6):\n1\u20132: drobna pomoc,\n3\u20135:
+    realne wsparcie (atak, ochrona, info),\n6: pot\u0119\u017Cny efekt (masowy atak,
+    zmiana terenu, burza itp.), ale mo\u017Cliwe konsekwencje.\nKoszt: 5"
+  Spellcategory: 0
+  spellType: 2
+  spellCost: 2

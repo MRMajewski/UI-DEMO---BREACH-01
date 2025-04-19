@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: "Pi\xF3rkospadanie"
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: "Pi\xF3rkospadanie"
-  spellLevel: 1
-  description: "Spowalniasz upadek do pr\u0119dko\u015Bci bezpiecznej dla siebie
+  spellDescription: "Spowalniasz upadek do pr\u0119dko\u015Bci bezpiecznej dla siebie
     i do pi\u0119ciu istot w zasi\u0119gu. Cel nie otrzymuje obra\u017Ce\u0144 od
     upadku."
+  spellLevel: 1
   spellType: 0
   spellCastingTime: "Reakcja (gdy ty lub inna istota zaczyna spada\u0107)"
   spellRange: "18 metr\xF3w"

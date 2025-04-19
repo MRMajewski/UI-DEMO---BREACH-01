@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Przyspieszony_Refleks
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Przyspieszony Refleks
-  spellLevel: 0
-  description: "Manipulujesz tempem postrzegania czasu przez wybran\u0105 istot\u0119
+  spellDescription: "Manipulujesz tempem postrzegania czasu przez wybran\u0105 istot\u0119
     w zasi\u0119gu. W efekcie jej reakcje staj\u0105 si\u0119 op\xF3\u017Anione i
     niezdarne. Wroga istota ma utrudnienie w reakcji na twoj\u0105 nast\u0119pn\u0105
     akcj\u0119 (np. atak, kt\xF3ry normalnie m\xF3g\u0142by skontrowa\u0107)."
+  spellLevel: 0
   spellType: 1
   spellCastingTime: 1 akcja
   spellRange: "10 metr\xF3w"

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d47a3c647622b41a3240dcdbdfa6f8, type: 3}
+  m_Name: "Fonem_Prze\u0142amania"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: "Fonem Prze\u0142amania"
+  spellDescription: "Czas trwania: Natychmiastowy\nEmitujesz fal\u0119 d\u017Awi\u0119kow\u0105
+    precyzyjnie skierowan\u0105 na materia\u0142y nieorganiczne. Wybierz cel w zasi\u0119gu
+    \u2013 je\u015Bli jest to pancerz, bro\u0144 lub inny przedmiot metalowy, wykonuje
+    on test Wytrzyma\u0142o\u015Bci o ST 12. Je\u015Bli nie zda, zostaje os\u0142abiony
+    i otrzymuje -1 do test\xF3w zwi\u0105zanych z wytrzyma\u0142o\u015Bci\u0105 (np.
+    atak\xF3w broni\u0105, pancerza)."
+  spellLevel: 1
+  spellCastingTime: 1 akcja
+  spellRange: 3 metry

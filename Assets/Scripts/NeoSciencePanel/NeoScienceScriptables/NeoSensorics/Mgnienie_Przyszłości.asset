@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: "Mgnienie_Przysz\u0142o\u015Bci"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: "Mgnienie Przysz\u0142o\u015Bci"
+  spellDescription: "Sensor natychmiast wykonuje ruch, kt\xF3ry pozwala mu ca\u0142kowicie
+    unikn\u0105\u0107 ataku lub zmieni\u0107 pozycj\u0119 na bezpieczn\u0105 (w zasi\u0119gu
+    ruchu). Mo\u017Ce u\u017Cy\u0107 tylko w momencie, gdy przewidzi zagro\u017Cenie.\nKoszt:
+    3"
+  Spellcategory: 1
+  spellType: 1
+  spellCost: 3

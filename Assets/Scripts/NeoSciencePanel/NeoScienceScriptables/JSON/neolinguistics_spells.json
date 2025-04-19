@@ -1,0 +1,156 @@
+{
+  "spells": [
+    {
+      "name": "Fonem Wzmocnienia",
+      "level": 1,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Czas trwania: Koncentracja, do 1 minuty\nWypowiadasz wzmacniające frazy, które przenikają do podświadomości wybranej istoty w zasięgu. Cel zyskuje premię +2 do jednego wybranego testu cechy (np. Siła, Zręczność) lub przewagę na wszystkie testy danej cechy do końca działania Fonemu."
+    },
+    {
+      "name": "Fonem Ukojenia",
+      "level": 1,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Czas trwania: 1 minuta\nTwoje słowa uspokajają nerwy i wyciszają umysł. Każda istota w zasięgu, która słyszy ten Fonem, musi wykonać rzut obronny na Charyzmę. W przypadku porażki jej gniew i agresja zostają uśpione – nie może wykonywać ataków, chyba że sama zostanie zaatakowana."
+    },
+    {
+      "name": "Fonem Jednego Słowa",
+      "level": 1,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Czas trwania: 1 runda\nWypowiadasz jedno słowo, które cel musi zinterpretować i wykonać zgodnie ze swoim rozumieniem. Słowo musi być prostym rozkazem, np. „Upadnij”, „Uciekaj”, „Stań”. Cel musi wykonać rzut obronny na Mądrość. W przypadku porażki wykonuje daną czynność w swojej najbliższej turze."
+    },
+    {
+      "name": "Fonem Samozwątpienia",
+      "level": 2,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Czas trwania: Koncentracja, do 1 minuty\nPodsuwasz subtelne sugestie, które osłabiają pewność siebie przeciwnika. Cel musi wykonać rzut obronny na Mądrość. W przypadku porażki zaczyna wątpić w swoje umiejętności, skutkując karą -2 do rzutów ataku oraz testów jednej wybranej cechy (np. Siła, Inteligencja)."
+    },
+    {
+      "name": "Fonem Sennej Kołysanki",
+      "level": 2,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "6 metrów (kula)",
+      "description": "Czas trwania: 1 minuta\nŚpiewasz melodyjne frazy, które usypiają słuchaczy. Każda istota w zasięgu o liczbie punktów wytrzymałości nieprzekraczającej 3k8 zasypia na czas trwania Fonemu. Hałas lub dotknięcie budzi ofiarę."
+    },
+    {
+      "name": "Fonem Wstrętu",
+      "level": 2,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Czas trwania: Koncentracja, do 1 minuty\nTwój głos wpływa na ośrodek wymiotny mózgu, wywołując mdłości i osłabienie. Cel musi wykonać rzut obronny na Kondycję. W przypadku porażki cierpi na silne nudności, co powoduje stan ogłuszenia do końca działania Fonemu."
+    },
+    {
+      "name": "Fonem Fałszywego Przeznaczenia",
+      "level": 2,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Czas trwania: 1 minuta\nTwój głos wmawia przeciwnikowi, że jego porażka jest nieunikniona. Cel musi wykonać rzut obronny na Charyzmę. W przypadku porażki w każdej swojej turze musi wykonać rzut k20 – na wyniku 5 lub niższym traci akcję, tkwiąc w przekonaniu, że nie ma sensu działać."
+    },
+    {
+      "name": "Fonem Mistrzostwa",
+      "level": 3,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Czas trwania: Koncentracja, do 1 minuty\nTwoje słowa budzą w istocie przekonanie o jej doskonałości. Wybierz dwie cechy – cel zyskuje przewagę na wszystkie testy tych cech oraz +2 do rzutów obronnych z nimi związanych."
+    },
+    {
+      "name": "Fonem Dezorientacji",
+      "level": 3,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "4,5 metra (stożek)",
+      "description": "Czas trwania: Koncentracja, do 1 minuty\nTwój głos nakłada się na świadomość istot w zasięgu, powodując zamieszanie i dezorientację. Każdy przeciwnik w stożku musi wykonać rzut obronny na Inteligencję. W przypadku porażki zaczyna błędnie oceniać sytuację i ma 50% szans, że zaatakuje swojego sprzymierzeńca zamiast celu. Test ponawia na koniec każdej tury."
+    },
+    {
+      "name": "Fonem Oświecenia",
+      "level": 3,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Czas trwania: 10 minut\nTwoje słowa otwierają umysł istoty na nowe możliwości. Wybierz cel w zasięgu – do końca działania Fonemu może przerzucić każdy test cechy umysłowej (Inteligencja, Mądrość, Charyzma) raz na turę."
+    },
+    {
+      "name": "Fonem Władczego Głosu",
+      "level": 3,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Czas trwania: 1 minuta\nTwoje słowa narzucają wolę na jedną istotę w zasięgu. Cel musi wykonać rzut obronny na Mądrość. Jeśli go nie zda, przez minutę traktuje cię jako autorytet i wykonuje twoje polecenia, o ile nie są one jawnie szkodliwe dla niego."
+    },
+    {
+      "name": "Fonem Nieuniknionego Losu",
+      "level": 4,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "18 metrów",
+      "description": "Czas trwania: 1 godzina\nSzepczesz o nieuchronności pewnego wydarzenia, które stopniowo wypełnia umysł istoty. Wybierz cel w zasięgu – musi wykonać rzut obronny na Mądrość. W przypadku porażki zaczyna wierzyć, że to, co mu sugerujesz, jest prawdą."
+    },
+    {
+      "name": "Fonem Marionetki",
+      "level": 5,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Czas trwania: Koncentracja, do 1 minuty\nSłowa zmieniają cel w bezwolną marionetkę. Cel musi wykonać rzut obronny na Mądrość. W przypadku porażki w każdej swojej turze może wykonać tylko jedną akcję – taką, jaką mu wskażesz (np. „Walcz z sojusznikiem”, „Podejdź do mnie”, „Rzuć broń”). Co turę może ponawiać rzut, aby się uwolnić."
+    },
+    {
+      "name": "Fonem Wstrząsu",
+      "level": 1,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "3 metry (linia)",
+      "description": "Czas trwania: Natychmiastowy\nEmitujesz falę dźwiękową o niskiej częstotliwości, powodując wibracje w ciałach istot na swojej drodze. Każda istota w linii musi wykonać rzut obronny na Kondycję. W przypadku porażki otrzymuje 1k8 obrażeń dźwiękowych i zostaje odrzucona o 1,5 metra."
+    },
+    {
+      "name": "Fonem Przełamania",
+      "level": 1,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "3 metry",
+      "description": "Czas trwania: Natychmiastowy\nEmitujesz falę dźwiękową precyzyjnie skierowaną na materiały nieorganiczne. Wybierz cel w zasięgu – jeśli jest to pancerz, broń lub inny przedmiot metalowy, wykonuje on test Wytrzymałości o ST 12. Jeśli nie zda, zostaje osłabiony i otrzymuje -1 do testów związanych z wytrzymałością (np. ataków bronią, pancerza)."
+    },
+    {
+      "name": "Fonem Drgającego Uderzenia",
+      "level": 2,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "9 metrów",
+      "description": "Czas trwania: Koncentracja, do 1 minuty\nEmitujesz niesłyszalne wibracje, które wnikają w strukturę ciała ofiary. Cel musi wykonać rzut obronny na Kondycję. W przypadku porażki przez cały czas trwania Fonemu otrzymuje premię +1k4 do obrażeń fizycznych od wszystkich źródeł."
+    },
+    {
+      "name": "Fonem Miażdżącego Rezonansu",
+      "level": 3,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "4,5 metra (kula)",
+      "description": "Czas trwania: Natychmiastowy\nTwój głos emituje fale rezonansowe, które penetrują kości i narządy wewnętrzne przeciwników. Wszystkie istoty w promieniu 4,5 metra muszą wykonać rzut obronny na Kondycję. W przypadku porażki otrzymują 4k6 obrażeń dźwiękowych, a istoty noszące metalowe pancerze mają utrudnienie w rzucie obronnym."
+    },
+    {
+      "name": "Fonem Pulsującego Krzyku",
+      "level": 3,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "4,5 metra (stożek)",
+      "description": "Czas trwania: 3 rundy\nTwoja fala dźwiękowa rozchodzi się w pulsujących interwałach, osłabiając wrogów. Wszystkie istoty w zasięgu muszą wykonać rzut obronny na Kondycję. W przypadku porażki otrzymują 2k6 obrażeń dźwiękowych i są oszołomione do końca następnej tury. Efekt odnawia się przez kolejne dwie rundy."
+    },
+    {
+      "name": "Fonem Kruszącej Fali",
+      "level": 4,
+      "type": "",
+      "castingTime": "1 akcja",
+      "range": "6 metrów (stożek)",
+      "description": "Czas trwania: Natychmiastowy\nWywołujesz falę drgań tak potężnych, że kruszą kamień i łamią kości. Wszystkie istoty w stożku muszą wykonać rzut obronny na Kondycję. W przypadku porażki otrzymują 6k8 obrażeń dźwiękowych i zostają powalone."
+    }
+  ]
+}

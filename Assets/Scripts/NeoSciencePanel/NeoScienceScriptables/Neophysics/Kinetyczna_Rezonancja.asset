@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Kinetyczna_Rezonancja
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Kinetyczna Rezonancja
-  spellLevel: 2
-  description: "Nak\u0142adasz rezonans kinetyczny na obiekt lub istot\u0119, wzmacniaj\u0105c
-    ka\u017Cde kolejne uderzenie, kt\xF3re go/j\u0105 trafi. Efekt kumuluje si\u0119,
-    zwi\u0119kszaj\u0105c si\u0142\u0119 ka\u017Cdego nast\u0119pnego trafienia o
-    25%.Czas dzia\u0142ania to 30 sekund.\nU\u017Cycie slota sekwencji o poziomie
-    3 zwi\u0119ksza bonus do 50%.\nU\u017Cycie slota sekwencji o poziomie 4 pozwala
-    obj\u0105\u0107 dwa cele jednocze\u015Bnie.\nZniekszta\u0142cenie \u015Awiat\u0142a\nManipulujesz
+  spellDescription: "Nak\u0142adasz rezonans kinetyczny na obiekt lub istot\u0119,
+    wzmacniaj\u0105c ka\u017Cde kolejne uderzenie, kt\xF3re go/j\u0105 trafi. Efekt
+    kumuluje si\u0119, zwi\u0119kszaj\u0105c si\u0142\u0119 ka\u017Cdego nast\u0119pnego
+    trafienia o 25%.Czas dzia\u0142ania to 30 sekund.\nU\u017Cycie slota sekwencji
+    o poziomie 3 zwi\u0119ksza bonus do 50%.\nU\u017Cycie slota sekwencji o poziomie
+    4 pozwala obj\u0105\u0107 dwa cele jednocze\u015Bnie.\nZniekszta\u0142cenie \u015Awiat\u0142a\nManipulujesz
     \u015Bwiat\u0142em wok\xF3\u0142 siebie, staj\u0105c si\u0119 p\xF3\u0142przezroczysty
     i trudniejszy do zauwa\u017Cenia. Wrogowie maj\u0105 -2 do test\xF3w Percepcji
     przeciwko tobie przez 1 minut\u0119.\nU\u017Cycie slota sekwencji o poziomie
     3 Mo\u017Cesz sta\u0107 si\u0119 ca\u0142kowicie niewidzialny na 2 rundy, ale
     ka\u017Cda agresywna akcja przerywa efekt.\nU\u017Cycie slota sekwencji o poziomie
     4 wyd\u0142u\u017C\u0105 czas niewidzialno\u015Bci do 3 rund"
+  spellLevel: 2
   spellType: 3
   spellCastingTime: 1 akcja
   spellRange: "Osobisty (lub 3 m na inn\u0105 istot\u0119)"

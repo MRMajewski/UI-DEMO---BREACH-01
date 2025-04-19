@@ -10,38 +10,15 @@ public abstract class SpellData : ScriptableObject
 
     public string spellName;
 
-    public int spellLevel;
+   // public int spellLevel;
 
     [TextArea(1, 10)]
-    public string description;
+    public string spellDescription;
 }
 
-[CreateAssetMenu(fileName = "NewItemData", menuName = "NeoScience/NeoLinguisticsSpellData")]
-public class NeoLinguisticsSpellData : SpellData
-{
-    private void OnEnable()
-    {
-        neoScienceCategory = NeoScienceCategory.Neolinguistics; // Przypisz odpowiedni¹ wartoœæ
-    }
-}
-[CreateAssetMenu(fileName = "NewItemData", menuName = "NeoScience/NeoSensoricsSpellData")]
-public class NeoSensoricsSpellData : SpellData
-{
-    public NeoSensoricsCategory subCategory;
-    private void OnEnable()
-    {
-        neoScienceCategory = NeoScienceCategory.Neosensorics; // Przypisz odpowiedni¹ wartoœæ
-    }
-}
-[CreateAssetMenu(fileName = "NewItemData", menuName = "NeoScience/PsionicsSpellData")]
-public class PsionicsSpellData : SpellData
-{
-    public PsionicsCategory subCategory;
-    private void OnEnable()
-    {
-        neoScienceCategory = NeoScienceCategory.Psionics; // Przypisz odpowiedni¹ wartoœæ
-    }
-}
+
+
+
 
 public enum NeoScienceCategory
 {
@@ -62,17 +39,22 @@ public enum NeoPhysicsCategory
 }
 public enum NeoSensoricsCategory
 {
-    General,
-    Precognition,
-    Biohacking,
-    Spiritism
-
+    Wspólna,
+    Futurispecja,
+    Szamanizm,
+    Biospecja
 }
 public enum PsionicsCategory
 {
-    General,
-    Telekinesis,
-    Pyrokinesis,
-    Psychics
+    Wspólna,
+    Telekineza,
+    Pyrokineza,
+    Psychokineza
+}
+
+public enum TypesCategory
+{
+    Talent,
+    Dyscyplina
 }
 

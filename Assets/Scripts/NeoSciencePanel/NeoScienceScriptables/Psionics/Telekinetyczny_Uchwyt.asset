@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: Telekinetyczny_Uchwyt
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: Telekinetyczny Uchwyt
+  spellDescription: "Jako akcj\u0119 manipulujesz jednym obiektem w promieniu 9 metr\xF3w.
+    Zale\u017Cnie od wydanych punkt\xF3w psi mo\u017Cesz:\n1 psi \u2013 przesun\u0105\u0107
+    ma\u0142y niezabezpieczony obiekt o 3 m (r. obronny Si\u0142a je\u015Bli trzymany).\n2
+    psi \u2013 manipulowa\u0107 prostymi mechanizmami (np. klucz, d\u017Awignia).\n3
+    psi \u2013 wyrwa\u0107 bro\u0144 trzyman\u0105 przez wroga (2x rzut obronny Si\u0142a).\n4
+    psi \u2013 przesun\u0105\u0107 wi\u0119kszy obiekt (do 10 kg) do 6 m.\n5 psi
+    \u2013 porusza\u0107 ci\u0119\u017Cszym obiektem (do 20 kg) lub obs\u0142ugiwa\u0107
+    delikatne mechanizmy."
+  Spellcategory: 1
+  spellType: 1
+  spellCost: 1

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: "Wykrywanie_S\u0142abo\u015Bci"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: "Wykrywanie S\u0142abo\u015Bci"
+  spellDescription: "Wybierasz jedn\u0105 istot\u0119 w zasi\u0119gu wzroku i koncentrujesz
+    si\u0119 na jej budowie cia\u0142a. Przez 1 minut\u0119 zyskujesz wiedz\u0119
+    o jej fizycznych s\u0142abych punktach, a twoje ataki przeciwko tej istocie ignoruj\u0105
+    naturalne pancerze i redukcj\u0119 obra\u017Ce\u0144 wynikaj\u0105c\u0105 z budowy
+    cia\u0142a. "
+  Spellcategory: 1
+  spellType: 3
+  spellCost: 2

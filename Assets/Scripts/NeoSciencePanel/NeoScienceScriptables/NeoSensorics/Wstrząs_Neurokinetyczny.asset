@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: "Wstrz\u0105s_Neurokinetyczny"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: "Wstrz\u0105s Neurokinetyczny"
+  spellDescription: "Atakujesz uk\u0142ad nerwowy przeciwnika, powoduj\u0105c nag\u0142\u0105
+    i bolesn\u0105 reakcj\u0119 cia\u0142a. Cel musi wykona\u0107 rzut obronny (Kondycja).
+    Je\u015Bli go nie zda, otrzymuje 3k6 obra\u017Ce\u0144 psychicznych i przez 1
+    tur\u0119 ma utrudnienie na testy ataku. "
+  Spellcategory: 1
+  spellType: 3
+  spellCost: 5

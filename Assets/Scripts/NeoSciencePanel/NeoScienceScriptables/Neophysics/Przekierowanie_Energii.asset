@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Przekierowanie_Energii
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Przekierowanie Energii
-  spellLevel: 3
-  description: "Gdy zostaniesz trafiony atakiem energetycznym (ognistym, elektrycznym,
+  spellDescription: "Gdy zostaniesz trafiony atakiem energetycznym (ognistym, elektrycznym,
     radiacyjnym itp.), mo\u017Cesz przechwyci\u0107 go i skierowa\u0107 na inny cel
     w zasi\u0119gu. Obra\u017Cenia pozostaj\u0105 niezmienione."
+  spellLevel: 3
   spellType: 2
   spellCastingTime: Reakcja
   spellRange: "10 metr\xF3w"

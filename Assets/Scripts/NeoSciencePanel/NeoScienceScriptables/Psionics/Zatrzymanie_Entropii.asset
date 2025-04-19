@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: Zatrzymanie_Entropii
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: Zatrzymanie Entropii
+  spellDescription: "Zatrzymujesz procesy rozpadu, przywracaj\u0105c obiektom pierwotny
+    stan.\n3 psi \u2013 Spowalniasz rozk\u0142ad obiekt\xF3w w obr\u0119bie 5 metr\xF3w,
+    np. zatrzymujesz korozj\u0119 na metalach.\n4-5 psi \u2013 Ca\u0142kowite zatrzymanie
+    entropii na obiekcie w obr\u0119bie 5 metr\xF3w, np. powstrzymanie procesu psucia
+    si\u0119 \u017Cywno\u015Bci, zatrzymanie starzenia si\u0119 drewna.\n6 psi \u2013
+    Zatrzymanie proces\xF3w chemicznych w wi\u0119kszym obszarze, np. wstrzymanie
+    rozk\u0142adu wody w du\u017Cym zbiorniku."
+  Spellcategory: 1
+  spellType: 2
+  spellCost: 3

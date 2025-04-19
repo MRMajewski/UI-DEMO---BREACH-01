@@ -12,17 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Kondensacja
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Kondensacja
+  spellDescription: "Zag\u0119szczasz wilgo\u0107 z otoczenia, tworz\u0105c krople
+    wody, cienk\u0105 warstw\u0119 lodu lub kondensuj\u0105c par\u0119 wodn\u0105.
+    Mo\u017Cesz u\u017Cy\u0107 tej sekwencji, aby och\u0142odzi\u0107 gor\u0105ce
+    przedmioty lub utworzy\u0107 \u015Blisk\u0105 powierzchni\u0119.\nU\u017Cycie
+    slota sekwencji o poziomie 3 pozwala tworzy\u0107 grubsze warstwy lodu, kt\xF3re
+    mog\u0105 unieruchomi\u0107 przedmioty lub stworzy\u0107 prowizoryczne os\u0142ony.\nU\u017Cycie
+    slota sekwencji o poziomie 4 umo\u017Cliwia natychmiastowe zamro\u017Cenie du\u017Cych
+    ilo\u015Bci wody oraz tworzenie kolc\xF3w lodowych, kt\xF3re mog\u0105 rani\u0107
+    przeciwnik\xF3w."
   spellLevel: 2
-  description: "Zag\u0119szczasz wilgo\u0107 z otoczenia, tworz\u0105c krople wody,
-    cienk\u0105 warstw\u0119 lodu lub kondensuj\u0105c par\u0119 wodn\u0105. Mo\u017Cesz
-    u\u017Cy\u0107 tej sekwencji, aby och\u0142odzi\u0107 gor\u0105ce przedmioty
-    lub utworzy\u0107 \u015Blisk\u0105 powierzchni\u0119.\nU\u017Cycie slota sekwencji
-    o poziomie 3 pozwala tworzy\u0107 grubsze warstwy lodu, kt\xF3re mog\u0105 unieruchomi\u0107
-    przedmioty lub stworzy\u0107 prowizoryczne os\u0142ony.\nU\u017Cycie slota sekwencji
-    o poziomie 4 umo\u017Cliwia natychmiastowe zamro\u017Cenie du\u017Cych ilo\u015Bci
-    wody oraz tworzenie kolc\xF3w lodowych, kt\xF3re mog\u0105 rani\u0107 przeciwnik\xF3w."
   spellType: 5
   spellCastingTime: 1 akcja
   spellRange: 5 m

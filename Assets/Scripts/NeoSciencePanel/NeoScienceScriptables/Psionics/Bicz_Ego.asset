@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: Bicz_Ego
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: Bicz Ego
+  spellDescription: "Wybierasz jedn\u0105 istot\u0119 w promieniu 18 metr\xF3w. Cel
+    wykonuje rzut obronny na Inteligencj\u0119. Przy pora\u017Cce otrzymuje 2k6 obra\u017Ce\u0144
+    psychicznych i mo\u017Ce u\u017Cy\u0107 akcji tylko na Unik, Odsuni\u0119cie
+    si\u0119 lub Ukrycie si\u0119 w swojej nast\u0119pnej turze. Przy sukcesie otrzymuje
+    po\u0142ow\u0119 obra\u017Ce\u0144."
+  Spellcategory: 1
+  spellType: 3
+  spellCost: 3

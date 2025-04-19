@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: "Przeb\u0142ysk_Regeneracji"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: "Przeb\u0142ysk Regeneracji"
+  spellDescription: "Analizuj\u0105c biologi\u0119 istoty, mo\u017Cesz przywr\xF3ci\u0107
+    jej organizm do naturalnej r\xF3wnowagi. Wybierasz cel (mo\u017Ce to by\u0107
+    ty lub sojusznik), kt\xF3ry natychmiast regeneruje punkty wytrzyma\u0142o\u015Bci
+    r\xF3wne twojemu poziomowi Sensora + modyfikator M\u0105dro\u015Bci. Nie dzia\u0142a
+    na istoty martwe. "
+  Spellcategory: 1
+  spellType: 3
+  spellCost: 4

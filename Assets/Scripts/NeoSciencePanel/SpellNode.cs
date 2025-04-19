@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -22,20 +23,41 @@ public class SpellNode : TrainingNode
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.parent.GetComponent<RectTransform>());
     }
 
-    public void Setup(NeophysicsSpellData spellData)
+    public void Setup(SpellData spellData)
     {
-        string cleanName = spellData.spellName.Replace("_", " ");
+       // nameText.text = spellData.spellName.Replace("_", " ");
+        nameText.text = spellData.spellName;
+        levelText.text = spellData is NeophysicsSpellData phys ? phys.spellLevel.ToString() : "";
+        ContentText.text = "Opis: " + spellData.spellDescription;
 
-        nameText.text = cleanName;
-        gameObject.name = cleanName +" - Spell Node";
+        if (spellData is NeophysicsSpellData n)
+        {
+            levelText.text = n.spellLevel.ToString();
+            typeText.text= n.spellType.ToString();
+            ContentText.text += "\nZasiêg: " + n.spellRange;
+            ContentText.text += "\nCzas rzucania: " + n.spellCastingTime;
+        }
+        if (spellData is NeoLinguisticsSpellData l)
+        {
+            levelText.text = l.spellLevel.ToString();
+            typeText.text = "";
+            ContentText.text +=  l.spellRange;
+            ContentText.text += l.spellCastingTime;
+        }
 
-        typeText.text = spellData.spellType.ToString();
-        levelText.text = spellData.spellLevel.ToString();
+        if (spellData is PsionicsSpellData p)
+        {
+            typeText.text = p.spellType.ToString();
+            levelText.text += p.spellCost.ToString();
+        }
 
-        ContentText.text = $"Opis: {spellData.description}\n";
-        ContentText.text += $"Zasiêg: {spellData.spellRange}\n";
-        ContentText.text += $"Czas rzucania: {spellData.spellCastingTime}";
+        if (spellData is NeoSensoricsSpellData s)
+        {
+            typeText.text = s.spellType.ToString();
+            levelText.text = s.spellCost.ToString();
+        }
 
-        contentGameObject.SetActive(isOpen) ;
+        //  gameObject.name = spellData.spellName.Replace("_", " ");
+        gameObject.name = spellData.spellName;
     }
 }

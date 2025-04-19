@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: "Wyostrzony_W\u0119ch"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: "Wyostrzony W\u0119ch"
+  spellDescription: "Sensor otrzymuje +2 do test\xF3w Percepcji i Przetrwania opartych
+    na w\u0119chu, wykrywaj\u0105c subtelne zapachy. Mo\u017Ce wykrywa\u0107 zapachy,
+    kt\xF3rych normalnie nie dostrzegaj\u0105 ludzie, np. \u015Blady krwi, toksyny
+    w powietrzu czy emocje istot (strach, agresj\u0119). Je\u015Bli sp\u0119dzi kilka
+    sekund na analizie, mo\u017Ce odr\xF3\u017Cni\u0107 zapachy poszczeg\xF3lnych
+    os\xF3b i stworze\u0144.\nKoszt: 1"
+  Spellcategory: 0
+  spellType: 0
+  spellCost: 1

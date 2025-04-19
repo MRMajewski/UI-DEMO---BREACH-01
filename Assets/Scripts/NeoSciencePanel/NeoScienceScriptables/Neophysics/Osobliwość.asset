@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: "Osobliwo\u015B\u0107"
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: "Osobliwo\u015B\u0107"
-  spellLevel: 4
-  description: "Tworzysz niestabiln\u0105 osobliwo\u015B\u0107, kt\xF3ra przyci\u0105ga
+  spellDescription: "Tworzysz niestabiln\u0105 osobliwo\u015B\u0107, kt\xF3ra przyci\u0105ga
     wrog\xF3w i zadaje obra\u017Cenia.\nWszystkie istoty w promieniu 3 metr\xF3w
     od centrum musz\u0105 wykona\u0107 rzut obronny na Si\u0142\u0119 (ST sekwencji).
     W przypadku pora\u017Cki:\nZostaj\u0105 przyci\u0105gni\u0119te na 1 metr w stron\u0119
     centrum.\nOtrzymuj\u0105 6k6 obra\u017Ce\u0144 obuchowych."
+  spellLevel: 4
   spellType: 0
   spellCastingTime: 1 akcja
   spellRange: "18 metr\xF3w"

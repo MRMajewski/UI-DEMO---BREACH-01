@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Grawitacyjna_Manipulacja_Materii
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Grawitacyjna Manipulacja Materii
-  spellLevel: 2
-  description: "Unosisz w powietrzu przedmioty o wadze do 50 kg, kontroluj\u0105c
+  spellDescription: "Unosisz w powietrzu przedmioty o wadze do 50 kg, kontroluj\u0105c
     ich ruchy. U\u017Cywaj\u0105c bonusowej akcji mo\u017Cesz poruszy\u0107 przedmioty
     si\u0119 o 9 metr\xF3w na rund\u0119."
+  spellLevel: 2
   spellType: 0
   spellCastingTime: 1 akcja
   spellRange: "18 metr\xF3w"

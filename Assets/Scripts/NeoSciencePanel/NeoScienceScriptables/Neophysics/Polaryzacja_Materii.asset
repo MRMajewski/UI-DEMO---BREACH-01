@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Polaryzacja_Materii
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Polaryzacja Materii
-  spellLevel: 2
-  description: "Tworzysz r\xF3\u017Cnic\u0119 potencja\u0142\xF3w mi\u0119dzy dwoma
-    obiektami, powoduj\u0105c, \u017Ce przyci\u0105gaj\u0105 si\u0119 one z rosn\u0105c\u0105
-    si\u0142\u0105. Mo\u017Ce to sprawi\u0107, \u017Ce bro\u0144 przeciwnika przyklei
-    si\u0119 do \u015Bciany, jego buty przylgn\u0105 do pod\u0142o\u017Ca lub dwa
-    przedmioty zostan\u0105 do siebie przyci\u0105gni\u0119te. Czas dzia\u0142ania
+  spellDescription: "Tworzysz r\xF3\u017Cnic\u0119 potencja\u0142\xF3w mi\u0119dzy
+    dwoma obiektami, powoduj\u0105c, \u017Ce przyci\u0105gaj\u0105 si\u0119 one z
+    rosn\u0105c\u0105 si\u0142\u0105. Mo\u017Ce to sprawi\u0107, \u017Ce bro\u0144
+    przeciwnika przyklei si\u0119 do \u015Bciany, jego buty przylgn\u0105 do pod\u0142o\u017Ca
+    lub dwa przedmioty zostan\u0105 do siebie przyci\u0105gni\u0119te. Czas dzia\u0142ania
     to 30 sekund.\nU\u017Cycie slota sekwencji o poziomie 3 pozwala przyci\u0105ga\u0107
     wiele obiekt\xF3w jednocze\u015Bnie, zwi\u0119kszaj\u0105c kontrol\u0119 nad
     otoczeniem.\nU\u017Cycie slota sekwencji o poziomie 4 pozwala nagle zmienia\u0107
     polaryzacj\u0119, sprawiaj\u0105c, \u017Ce obiekty zaczn\u0105 si\u0119 odpycha\u0107
     zamiast przyci\u0105ga\u0107."
+  spellLevel: 2
   spellType: 5
   spellCastingTime: 1 akcja
   spellRange: 9 m

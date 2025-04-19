@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d47a3c647622b41a3240dcdbdfa6f8, type: 3}
+  m_Name: "Fonem_Krusz\u0105cej_Fali"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: "Fonem Krusz\u0105cej Fali"
+  spellDescription: "Czas trwania: Natychmiastowy\nWywo\u0142ujesz fal\u0119 drga\u0144
+    tak pot\u0119\u017Cnych, \u017Ce krusz\u0105 kamie\u0144 i \u0142ami\u0105 ko\u015Bci.
+    Wszystkie istoty w sto\u017Cku musz\u0105 wykona\u0107 rzut obronny na Kondycj\u0119.
+    W przypadku pora\u017Cki otrzymuj\u0105 6k8 obra\u017Ce\u0144 d\u017Awi\u0119kowych
+    i zostaj\u0105 powalone."
+  spellLevel: 4
+  spellCastingTime: 1 akcja
+  spellRange: "6 metr\xF3w (sto\u017Cek)"

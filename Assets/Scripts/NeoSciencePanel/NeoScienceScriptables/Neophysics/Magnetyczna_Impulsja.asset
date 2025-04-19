@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Magnetyczna_Impulsja
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Magnetyczna Impulsja
-  spellLevel: 0
-  description: "Emitujesz silny impuls magnetyczny, kt\xF3ry mo\u017Ce przyci\u0105ga\u0107
+  spellDescription: "Emitujesz silny impuls magnetyczny, kt\xF3ry mo\u017Ce przyci\u0105ga\u0107
     lub odpycha\u0107 metalowe obiekty i istoty w pancerzach:\nOdpychanie/przyci\u0105ganie
     metalowych przedmiot\xF3w o masie do 5 kg (np. wyrywasz komu\u015B bro\u0144
     z r\u0105k, przesuwasz drzwi, rozrzucasz metalowe narz\u0119dzia).\nZak\u0142\xF3canie
@@ -25,6 +24,7 @@ MonoBehaviour:
     test Si\u0142y:\nJe\u015Bli ich odpychasz, zostaj\u0105 przewr\xF3ceni i odsuni\u0119ci
     o 2 m.\nJe\u015Bli ich przyci\u0105gasz, mog\u0105 zosta\u0107 zdezorientowani,
     trac\u0105c r\xF3wnowag\u0119."
+  spellLevel: 0
   spellType: 5
   spellCastingTime: 1 akcja
   spellRange: 5 m

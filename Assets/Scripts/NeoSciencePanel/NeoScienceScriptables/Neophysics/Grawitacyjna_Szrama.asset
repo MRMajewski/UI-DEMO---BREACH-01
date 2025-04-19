@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Grawitacyjna_Szrama
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Grawitacyjna Szrama
+  spellDescription: "Zakrzywiasz czasoprzestrze\u0144, zostawiaj\u0105c niewidzialny
+    \u015Blad. Nast\u0119pna istota, kt\xF3ra wejdzie na to miejsce w ci\u0105gu
+    1 rundy, musi wykona\u0107 rzut obronny na Zr\u0119czno\u015B\u0107 (ST 10 +
+    mod. Inteligencji). W przypadku pora\u017Cki zostaje przewr\xF3cona."
   spellLevel: 0
-  description: "Zakrzywiasz czasoprzestrze\u0144, zostawiaj\u0105c niewidzialny \u015Blad.
-    Nast\u0119pna istota, kt\xF3ra wejdzie na to miejsce w ci\u0105gu 1 rundy, musi
-    wykona\u0107 rzut obronny na Zr\u0119czno\u015B\u0107 (ST 10 + mod. Inteligencji).
-    W przypadku pora\u017Cki zostaje przewr\xF3cona."
   spellType: 0
   spellCastingTime: Akcja
   spellRange: "9 metr\xF3w (obszar 3x3 m)"

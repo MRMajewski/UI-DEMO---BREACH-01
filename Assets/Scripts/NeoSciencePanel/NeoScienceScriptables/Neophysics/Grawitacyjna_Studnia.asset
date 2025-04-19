@@ -12,20 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Grawitacyjna_Studnia
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Grawitacyjna Studnia
+  spellDescription: "Tworzysz pot\u0119\u017Cne pole grawitacyjne, kt\xF3re nagle
+    zwi\u0119ksza si\u0142\u0119 przyci\u0105gania w wyznaczonym obszarze. Wszystkie
+    istoty i przedmioty w jego zasi\u0119gu zostaj\u0105 przyci\u015Bni\u0119te do
+    ziemi.\nIstoty w obszarze musz\u0105 wykona\u0107 rzut obronny na Si\u0142\u0119
+    (ST sekwencji). W przypadku niepowodzenia:\nZostaj\u0105 powalone (stan \"przewr\xF3cony\").\nIch
+    szybko\u015B\u0107 spada do 0, dop\xF3ki nie oswobodz\u0105 si\u0119.\nNa pocz\u0105tku
+    ka\u017Cdej swojej tury, istoty w obszarze musz\u0105 ponownie wykona\u0107 rzut
+    obronny na Si\u0142\u0119. Je\u015Bli go nie zdadz\u0105, nadal pozostaj\u0105
+    powalone i unieruchomione.\nNa wy\u017Cszym poziomie: Je\u015Bli rzucisz t\u0119
+    sekwencj\u0119 na poziomie 5 lub wy\u017Cszym, obszar efektu zwi\u0119ksza si\u0119
+    do 9\xD79 metr\xF3w."
   spellLevel: 3
-  description: "Tworzysz pot\u0119\u017Cne pole grawitacyjne, kt\xF3re nagle zwi\u0119ksza
-    si\u0142\u0119 przyci\u0105gania w wyznaczonym obszarze. Wszystkie istoty i przedmioty
-    w jego zasi\u0119gu zostaj\u0105 przyci\u015Bni\u0119te do ziemi.\nIstoty w obszarze
-    musz\u0105 wykona\u0107 rzut obronny na Si\u0142\u0119 (ST sekwencji). W przypadku
-    niepowodzenia:\nZostaj\u0105 powalone (stan \"przewr\xF3cony\").\nIch szybko\u015B\u0107
-    spada do 0, dop\xF3ki nie oswobodz\u0105 si\u0119.\nNa pocz\u0105tku ka\u017Cdej
-    swojej tury, istoty w obszarze musz\u0105 ponownie wykona\u0107 rzut obronny
-    na Si\u0142\u0119. Je\u015Bli go nie zdadz\u0105, nadal pozostaj\u0105 powalone
-    i unieruchomione.\nNa wy\u017Cszym poziomie: Je\u015Bli rzucisz t\u0119 sekwencj\u0119
-    na poziomie 5 lub wy\u017Cszym, obszar efektu zwi\u0119ksza si\u0119 do 9\xD79
-    metr\xF3w."
   spellType: 0
   spellCastingTime: 1 akcja
   spellRange: "18 metr\xF3w (obszar 6\xD76 m)"

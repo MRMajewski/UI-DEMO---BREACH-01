@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Falowy_Impuls
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Falowy Impuls
-  spellLevel: 1
-  description: "Czas dzia\u0142ania: Natychmiastowy\nWypuszczasz fal\u0119 kinetyczn\u0105,
+  spellDescription: "Czas dzia\u0142ania: Natychmiastowy\nWypuszczasz fal\u0119 kinetyczn\u0105,
     kt\xF3ra odrzuca przeciwnik\xF3w i przedmioty.\nLekkie przedmioty (do 5 kg) zostaj\u0105
     odrzucone na 3 m.\nPrzeciwnicy musz\u0105 zda\u0107 rzut obronny na Refleks lub
     zostaj\u0105 odsuni\u0119ci o 2 m i trac\u0105 r\xF3wnowag\u0119 (ma\u0142a kara
     do nast\u0119pnej akcji).\nMo\u017Ce zgasi\u0107 p\u0142omienie, przewr\xF3ci\u0107
     niestabilne obiekty lub rozproszy\u0107 dym/gaz w danym obszarze."
+  spellLevel: 1
   spellType: 2
   spellCastingTime: 1 akcja
   spellRange: "8 m (sto\u017Cek 90\xB0)"

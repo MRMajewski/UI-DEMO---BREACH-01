@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d47a3c647622b41a3240dcdbdfa6f8, type: 3}
+  m_Name: "Fonem_W\u0142adczego_G\u0142osu"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: "Fonem W\u0142adczego G\u0142osu"
+  spellDescription: "Czas trwania: 1 minuta\nTwoje s\u0142owa narzucaj\u0105 wol\u0119
+    na jedn\u0105 istot\u0119 w zasi\u0119gu. Cel musi wykona\u0107 rzut obronny
+    na M\u0105dro\u015B\u0107. Je\u015Bli go nie zda, przez minut\u0119 traktuje
+    ci\u0119 jako autorytet i wykonuje twoje polecenia, o ile nie s\u0105 one jawnie
+    szkodliwe dla niego."
+  spellLevel: 3
+  spellCastingTime: 1 akcja
+  spellRange: "9 metr\xF3w"

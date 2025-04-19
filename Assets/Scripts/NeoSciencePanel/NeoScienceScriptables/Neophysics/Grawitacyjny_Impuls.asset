@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Grawitacyjny_Impuls
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Grawitacyjny Impuls
-  spellLevel: 2
-  description: "Wytwarzasz silny impuls grawitacyjny, kt\xF3ry odrzuca wszystkich
+  spellDescription: "Wytwarzasz silny impuls grawitacyjny, kt\xF3ry odrzuca wszystkich
     wrog\xF3w w promieniu 3 metr\xF3w o 3 metry od ciebie.\nMusz\u0105 wykona\u0107
     rzut obronny na Si\u0142\u0119 (ST sekwencji), w przeciwnym razie zostaj\u0105
     odepchni\u0119ci i otrzymuj\u0105 2k6+U obra\u017Ce\u0144 obuchowych.\nZdany
     ST zadaje tylko po\u0142ow\u0119 obra\u017Ce\u0144"
+  spellLevel: 2
   spellType: 0
   spellCastingTime: 1 akcja
   spellRange: "Wok\xF3\u0142 ciebie (promie\u0144 3 m)"

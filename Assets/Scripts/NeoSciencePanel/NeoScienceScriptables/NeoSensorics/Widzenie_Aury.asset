@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: Widzenie_Aury
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: Widzenie Aury
+  spellDescription: "Sensor dostrzega aur\u0119 \u017Cywych istot, rozpoznaj\u0105c
+    ich stan emocjonalny. Przy d\u0142u\u017Cszej obserwacji wykrywa te\u017C choroby
+    i zaburzenia.\nKoszt: 2"
+  Spellcategory: 0
+  spellType: 0
+  spellCost: 2

@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: "Ci\u015Bnieniowa_Kompresja"
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: "Ci\u015Bnieniowa Kompresja"
-  spellLevel: 1
-  description: "Manipulujesz ci\u015Bnieniem w okre\u015Blonym miejscu, zwi\u0119kszaj\u0105c
+  spellDescription: "Manipulujesz ci\u015Bnieniem w okre\u015Blonym miejscu, zwi\u0119kszaj\u0105c
     je gwa\u0142townie:\nZgniatanie kruchych obiekt\xF3w (np. szk\u0142o, cienki
     metal, os\u0142abione konstrukcje).\nOs\u0142abienie struktur \u2013 je\u015Bli
     u\u017Cyte kilkukrotnie, mo\u017Ce np. pop\u0119ka\u0107 \u015Bciana.\nAtak na
     przeciwnika: Mo\u017Ce utrudni\u0107 oddychanie (rzut na Wytrwa\u0142o\u015B\u0107,
     by unikn\u0105\u0107 zadyszki i kr\xF3tkotrwa\u0142ego os\u0142abienia)."
+  spellLevel: 1
   spellType: 5
   spellCastingTime: 1 akcja
   spellRange: 6 m

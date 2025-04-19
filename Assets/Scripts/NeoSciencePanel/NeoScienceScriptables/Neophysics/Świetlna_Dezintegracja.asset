@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: "\u015Awietlna_Dezintegracja"
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: "\u015Awietlna Dezintegracja"
-  spellLevel: 3
-  description: "Emitujesz skoncentrowany impuls lasera, kt\xF3ry wypala wrog\xF3w
+  spellDescription: "Emitujesz skoncentrowany impuls lasera, kt\xF3ry wypala wrog\xF3w
     i topi niekt\xF3re materia\u0142y. Mo\u017Ce r\xF3wnie\u017C podpali\u0107 \u0142atwopalne
     obiekty. Zadaje obra\u017Cenia 3k6 od energii cieplnej  wszystkiemu w prostej
     linii zasi\u0119g 18m. Test to rzut na Zr\u0119czno\u015B\u0107 (po\u0142owa
     obra\u017Ce\u0144). U\u017Cycie slota sekwencji o poziomie 4 zwi\u0119ksza obra\u017Cenia
     o dodatkowe 2k6"
+  spellLevel: 3
   spellType: 3
   spellCastingTime: 1 akcja
   spellRange: 18 m

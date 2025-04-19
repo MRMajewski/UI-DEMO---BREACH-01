@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Polaryzacja_Tarcia
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Polaryzacja Tarcia
-  spellLevel: 1
-  description: "Manipulujesz wsp\xF3\u0142czynnikiem tarcia na powierzchni:\nPo\u015Blizg
+  spellDescription: "Manipulujesz wsp\xF3\u0142czynnikiem tarcia na powierzchni:\nPo\u015Blizg
     \u2013 zmniejszasz tarcie, sprawiaj\u0105c, \u017Ce pod\u0142oga staje si\u0119
     \u015Bliska. Postacie wchodz\u0105ce na obszar musz\u0105 wykona\u0107 test na
     Zr\u0119czno\u015B\u0107, by unikn\u0105\u0107 po\u015Blizgni\u0119cia si\u0119.\nZwi\u0119kszone
@@ -23,6 +22,7 @@ MonoBehaviour:
     obiekt\xF3w, utrudnienie biegu, u\u0142atwienie wspinaczki).\nEfektywniejsze
     uderzenie \u2013 wzmacniasz tarcie na broni, zwi\u0119kszaj\u0105c precyzj\u0119
     pierwszego ataku."
+  spellLevel: 1
   spellType: 5
   spellCastingTime: 1 akcja
   spellRange: 6 m

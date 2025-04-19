@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: "Ulepszona_Mistyczna_D\u0142o\u0144"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: "Ulepszona Mistyczna D\u0142o\u0144"
+  spellDescription: "Tworz\u0105c niewidzialn\u0105 si\u0142\u0119, mo\u017Cesz manipulowa\u0107
+    lub poruszy\u0107 pojedynczy obiekt w promieniu 9 metr\xF3w. Dodatkowo, jako
+    akcj\u0119 dodatkow\u0105, mo\u017Cesz wybra\u0107 jedn\u0105 istot\u0119 i przepchn\u0105\u0107
+    lub poci\u0105gn\u0105\u0107 j\u0105 o 1,5 metra. Je\u015Bli cel si\u0119 opiera,
+    wykonuje rzut obronny na Si\u0142\u0119 przeciwko ST Psioniki. W przypadku niepowodzenia
+    zostaje przesuni\u0119ty zgodnie z twoj\u0105 wol\u0105. Cel mo\u017Ce zdecydowa\u0107
+    si\u0119 na automatyczn\u0105 pora\u017Ck\u0119."
+  Spellcategory: 0
+  spellType: 1
+  spellCost: 0

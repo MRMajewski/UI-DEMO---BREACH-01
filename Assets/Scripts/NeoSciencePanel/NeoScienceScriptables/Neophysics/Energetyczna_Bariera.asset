@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Energetyczna_Bariera
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Energetyczna Bariera
-  spellLevel: 2
-  description: "Tworzysz wok\xF3\u0142 siebie lub innej istoty pole ochronne, kt\xF3re
-    redukuje o po\u0142ow\u0119 obra\u017Cenia od ciep\u0142a, elektryczno\u015Bci
+  spellDescription: "Tworzysz wok\xF3\u0142 siebie lub innej istoty pole ochronne,
+    kt\xF3re redukuje o po\u0142ow\u0119 obra\u017Cenia od ciep\u0142a, elektryczno\u015Bci
     i kinetyki (np. pociski, uderzenia).\nFala Zamro\u017Cenia\nPobierasz ciep\u0142o
     z du\u017Cego obszaru, powoduj\u0105c gwa\u0142towne zamro\u017Cenie. Przeciwnicy
     w promieniu 5 metr\xF3w otrzymuj\u0105 3k6 + modyfikator z Inteligencji obra\u017Ce\u0144
     od mrozu i s\u0105 spowolnieni do ko\u0144ca nast\u0119pnej rundy."
+  spellLevel: 2
   spellType: 2
   spellCastingTime: 1 akcja
   spellRange: "5 metr\xF3w (promie\u0144)"

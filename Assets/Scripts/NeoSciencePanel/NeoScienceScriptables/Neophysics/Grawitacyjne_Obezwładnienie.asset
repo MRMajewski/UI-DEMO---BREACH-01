@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: "Grawitacyjne_Obezw\u0142adnienie"
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: "Grawitacyjne Obezw\u0142adnienie"
-  spellLevel: 3
-  description: "Wy\u0142\u0105czasz grawitacj\u0119 wybranej istoty. Unosi si\u0119
+  spellDescription: "Wy\u0142\u0105czasz grawitacj\u0119 wybranej istoty. Unosi si\u0119
     w powietrzu i nie mo\u017Ce kontrolowa\u0107 swojego ruchu.\nCel musi wykona\u0107
     rzut obronny na Zr\u0119czno\u015B\u0107 (ST sekwencji), w przeciwnym razie zostaje
     zawieszony w powietrzu.\nMo\u017Ce powtarza\u0107 rzut na ko\u0144cu swojej tury,
     aby odzyska\u0107 kontrol\u0119."
+  spellLevel: 3
   spellType: 0
   spellCastingTime: 1 akcja
   spellRange: "9 metr\xF3w"

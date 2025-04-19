@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Elektropuls
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Elektropuls
-  spellLevel: 3
-  description: "Emitujesz silny impuls elektromagnetyczny, kt\xF3ry powoduje chwilowe
-    wy\u0142\u0105czenie lub zak\u0142\xF3cenie dzia\u0142ania urz\u0105dze\u0144
+  spellDescription: "Emitujesz silny impuls elektromagnetyczny, kt\xF3ry powoduje
+    chwilowe wy\u0142\u0105czenie lub zak\u0142\xF3cenie dzia\u0142ania urz\u0105dze\u0144
     elektronicznych w promieniu 15 m. Wszystkie urz\u0105dzenia wy\u0142\u0105czaj\u0105
     si\u0119 na 10 sekund, a zasilane energi\u0105 pola ochronne i tarcze trac\u0105
     na ten czas skuteczno\u015B\u0107.\nIstoty posiadaj\u0105ce cyberwszczepy lub
@@ -28,6 +27,7 @@ MonoBehaviour:
     ich chwilowej awarii (s\u0119dzia decyduje, czy wymaga to dodatkowej akcji na
     restart).\nDrony, roboty i inne maszyny wykonuj\u0105 rzut obronny na Wytrzyma\u0142o\u015B\u0107
     \u2013 w przypadku pora\u017Cki s\u0105 wy\u0142\u0105czone na 2 rundy."
+  spellLevel: 3
   spellType: 2
   spellCastingTime: 1 akcja
   spellRange: 15 m

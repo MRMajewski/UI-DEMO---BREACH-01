@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Zawieszenie_Efektu
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Zawieszenie Efektu
+  spellDescription: "Chwytasz czas w d\u0142onie i op\xF3\u017Aniasz aktywacj\u0119
+    jednego efektu lub zdarzenia w zasi\u0119gu. Mo\u017Ce to by\u0107 eksplozja,
+    aktywacja pu\u0142apki, upadek przedmiotu lub inna sytuacja, kt\xF3ra normalnie
+    nast\u0105pi\u0142aby natychmiast. Efekt zostaje zawieszony na jedn\u0105 rund\u0119,
+    po czym dochodzi do skutku."
   spellLevel: 0
-  description: "Chwytasz czas w d\u0142onie i op\xF3\u017Aniasz aktywacj\u0119 jednego
-    efektu lub zdarzenia w zasi\u0119gu. Mo\u017Ce to by\u0107 eksplozja, aktywacja
-    pu\u0142apki, upadek przedmiotu lub inna sytuacja, kt\xF3ra normalnie nast\u0105pi\u0142aby
-    natychmiast. Efekt zostaje zawieszony na jedn\u0105 rund\u0119, po czym dochodzi
-    do skutku."
   spellType: 1
   spellCastingTime: 1 akcja
   spellRange: "9 metr\xF3w"

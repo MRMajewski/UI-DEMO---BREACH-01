@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b9a60a455247a2479eb1fc792b3187c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationType: 3
+  animationType: 4
 --- !u!114 &5208227186716092170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Trening z Lekkiej Zbroi
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f6143b18bca53a74fb1c43f2cd8b6b99, type: 2}
   m_sharedMaterial: {fileID: 2923086049433324729, guid: f6143b18bca53a74fb1c43f2cd8b6b99, type: 2}
@@ -253,7 +253,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39.5
+  m_fontSize: 32
   m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -595,7 +595,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Neoakustyka
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f6143b18bca53a74fb1c43f2cd8b6b99, type: 2}
   m_sharedMaterial: {fileID: 2923086049433324729, guid: f6143b18bca53a74fb1c43f2cd8b6b99, type: 2}
@@ -729,7 +729,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 1
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f6143b18bca53a74fb1c43f2cd8b6b99, type: 2}
   m_sharedMaterial: {fileID: 2923086049433324729, guid: f6143b18bca53a74fb1c43f2cd8b6b99, type: 2}
@@ -997,7 +997,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1991247343164373300}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5208227186716092170}
+        m_TargetAssemblyTypeName: SpellNode, Assembly-CSharp
+        m_MethodName: SelectionClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2386341999369546089
 MonoBehaviour:
   m_ObjectHideFlags: 0

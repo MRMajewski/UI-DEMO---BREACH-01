@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Kinetyczna_Dysrupcja
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Kinetyczna Dysrupcja
-  spellLevel: 3
-  description: "Emisja fal kinetycznych rozrywa po\u0142\u0105czenia molekularne,
+  spellDescription: "Emisja fal kinetycznych rozrywa po\u0142\u0105czenia molekularne,
     os\u0142abiaj\u0105c struktury i powoduj\u0105c niestabilno\u015B\u0107 w obiektach.
     Obra\u017Cenia to 2k8 obuchowych wobec istot, podw\xF3jne obra\u017Cenia wobec
     obiekt\xF3w i konstrukt\xF3w. Test to rzut na Wytrzyma\u0142o\u015B\u0107 (po\u0142owa
     obra\u017Ce\u0144)."
+  spellLevel: 3
   spellType: 2
   spellCastingTime: 1 akcja
   spellRange: "10 m (sto\u017Cek 60\xB0)"

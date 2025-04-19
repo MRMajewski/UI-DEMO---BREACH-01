@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: "B\u0142ysk_Energetyczny"
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: "B\u0142ysk Energetyczny"
-  spellLevel: 1
-  description: "Tworzysz nag\u0142y rozb\u0142ysk \u015Bwiat\u0142a i fali ciep\u0142a.
+  spellDescription: "Tworzysz nag\u0142y rozb\u0142ysk \u015Bwiat\u0142a i fali ciep\u0142a.
     Wrogowie w obszarze sto\u017Cka musz\u0105 wykona\u0107 rzut obronny na Zr\u0119czno\u015B\u0107,
     inaczej otrzymuj\u0105 2k6 + modyfikator z Inteligencji obra\u017Ce\u0144 od
     ognia i s\u0105 o\u015Blepieni do ko\u0144ca nast\u0119pnej rundy."
+  spellLevel: 1
   spellType: 2
   spellCastingTime: 1 akcja
   spellRange: "3 metry (sto\u017Cek)"

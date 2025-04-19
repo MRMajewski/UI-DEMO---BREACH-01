@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Echolokacja
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Echolokacja
+  spellDescription: "Emitujesz fal\u0119 ultrad\u017Awi\u0119kow\u0105, kt\xF3ra
+    odbija si\u0119 od obiekt\xF3w, pozwalaj\u0105c Ci wykrywa\u0107 kszta\u0142ty
+    w ciemno\u015Bci lub przez cienkie \u015Bciany. Widzisz kontury obiekt\xF3w i
+    istot w promieniu 20 m. W trakcie dzia\u0142ania mo\u017Cesz wykry\u0107 ukryte
+    przej\u015Bcia, s\u0142abe punkty konstrukcji, a nawet ruch w pobliskim pomieszczeniu.
+    Je\u015Bli istota w zasi\u0119gu si\u0119 porusza, mo\u017Cesz okre\u015Bli\u0107
+    jej pr\u0119dko\u015B\u0107 i kierunek."
   spellLevel: 0
-  description: "Emitujesz fal\u0119 ultrad\u017Awi\u0119kow\u0105, kt\xF3ra odbija
-    si\u0119 od obiekt\xF3w, pozwalaj\u0105c Ci wykrywa\u0107 kszta\u0142ty w ciemno\u015Bci
-    lub przez cienkie \u015Bciany. Widzisz kontury obiekt\xF3w i istot w promieniu
-    20 m. W trakcie dzia\u0142ania mo\u017Cesz wykry\u0107 ukryte przej\u015Bcia,
-    s\u0142abe punkty konstrukcji, a nawet ruch w pobliskim pomieszczeniu. Je\u015Bli
-    istota w zasi\u0119gu si\u0119 porusza, mo\u017Cesz okre\u015Bli\u0107 jej pr\u0119dko\u015B\u0107
-    i kierunek."
   spellType: 4
   spellCastingTime: 1 akcja
   spellRange: 20 m

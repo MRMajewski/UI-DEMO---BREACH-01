@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: "Przewidywanie_Wydarze\u0144"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: "Przewidywanie Wydarze\u0144"
+  spellDescription: "Sensor otrzymuje przewag\u0119 na testy Percepcji w celu wykrycia
+    pu\u0142apek, zasadzek lub nadchodz\u0105cych zagro\u017Ce\u0144. Zyskuje tak\u017Ce
+    +1 do rzut\xF3w na Inicjatyw\u0119.\nKoszt: 1"
+  Spellcategory: 0
+  spellType: 1
+  spellCost: 1

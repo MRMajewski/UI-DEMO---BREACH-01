@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: Psychiczna_Bariera
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: Psychiczna Bariera
+  spellDescription: "Reagujesz w odpowiedzi na atak lub efekt mentalny, wzmacniaj\u0105c
+    psychiczn\u0105 os\u0142on\u0119.\nOchrona umys\u0142u: przewaga na rzuty obronne
+    przeciwko strachowi, urokowi i innym efektom psychicznym do ko\u0144ca nast\u0119pnej
+    tury. Redukcja obra\u017Ce\u0144: zmniejszasz obra\u017Cenia fizyczne o 2 za
+    ka\u017Cdy punkt psi. Efekt trwa, dop\xF3ki utrzymujesz koncentracj\u0119 (1
+    min).\nSkalowanie:\n4+ punkt\xF3w: dzia\u0142a te\u017C na nieczyst\u0105 magi\u0119
+    (np. magiczny miecz).\n6+ punkt\xF3w: ataki, kt\xF3re sprowadzi\u0142yby ci\u0119
+    do 0 HP, zostawiaj\u0105 ci\u0119 na 1 HP."
+  Spellcategory: 1
+  spellType: 0
+  spellCost: 1

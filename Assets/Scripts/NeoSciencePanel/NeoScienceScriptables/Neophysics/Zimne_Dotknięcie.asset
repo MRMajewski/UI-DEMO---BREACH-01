@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: "Zimne_Dotkni\u0119cie"
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: "Zimne Dotkni\u0119cie"
-  spellLevel: 0
-  description: "Pobierasz ciep\u0142o z obiektu lub istoty, momentalnie zamra\u017Caj\u0105c
+  spellDescription: "Pobierasz ciep\u0142o z obiektu lub istoty, momentalnie zamra\u017Caj\u0105c
     powierzchni\u0119 dotkni\u0119tego przedmiotu lub sk\xF3ry wroga. Cel otrzymuje
     1k6 + modyfikator z Inteligencji obra\u017Ce\u0144 od mrozu. Je\u015Bli cel nosi
     metalow\u0105 zbroj\u0119 lub trzyma metalowy przedmiot, jego ruchy mog\u0105
     zosta\u0107 spowolnione (kara -2 do test\xF3w Zr\u0119czno\u015Bci do ko\u0144ca
     nast\u0119pnej rundy)."
+  spellLevel: 0
   spellType: 2
   spellCastingTime: 1 akcja
   spellRange: Dotyk

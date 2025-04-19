@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: Psychiczna_Miazga
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: Psychiczna Miazga
+  spellDescription: "Tworzysz sze\u015Bcian o promieniu 6 metr\xF3w w zasi\u0119gu
+    36 metr\xF3w albo sto\u017Cek o d\u0142ugo\u015Bci 18 metr\xF3w wype\u0142niony
+    psioniczn\u0105 energi\u0105. Wszystkie istoty w obszarze wykonuj\u0105 rzut
+    obronny na Inteligencj\u0119. Przy pora\u017Cce otrzymuj\u0105 3k6 obra\u017Ce\u0144
+    psychicznych i s\u0105 og\u0142uszone do ko\u0144ca twojej nast\u0119pnej tury.
+    Przy sukcesie otrzymuj\u0105 po\u0142ow\u0119 obra\u017Ce\u0144."
+  Spellcategory: 1
+  spellType: 3
+  spellCost: 7

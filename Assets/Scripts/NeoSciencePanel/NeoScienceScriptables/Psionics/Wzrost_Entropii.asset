@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: Wzrost_Entropii
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: Wzrost Entropii
+  spellDescription: "Przyspieszasz procesy chemiczne i fizyczne, kt\xF3re prowadz\u0105
+    do rozpadu materia\u0142\xF3w.\n3 psi \u2013 Przyspieszasz rozpad obiekt\xF3w
+    w obr\u0119bie 5 metr\xF3w, np. kruszenie kamienia, rozk\u0142ad materia\u0142\xF3w
+    organicznych.\n4-5 psi \u2013 Uszkodzenie wi\u0119kszych materia\u0142\xF3w,
+    np. topnienie metali, rozpad szk\u0142a, przyspieszony proces kruszenia kamienia.\n6
+    psi \u2013 Ca\u0142kowite zniszczenie obiekt\xF3w w obr\u0119bie 5 metr\xF3w,
+    np. rozpad konstrukcji z metalu i betonu. ."
+  Spellcategory: 1
+  spellType: 2
+  spellCost: 3

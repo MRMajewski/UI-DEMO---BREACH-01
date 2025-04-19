@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: "Przyci\u0105gni\u0119cie"
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: "Przyci\u0105gni\u0119cie"
+  spellDescription: "Wskazujesz przedmiot o masie do 5 kg w promieniu 9 metr\xF3w,
+    kt\xF3ry natychmiast przylatuje do twojej r\u0119ki. Je\u015Bli obiekt jest trzymany
+    przez inn\u0105 istot\u0119, wykonuje ona rzut obronny na Si\u0142\u0119 (ST
+    10 + mod. Inteligencji)."
   spellLevel: 0
-  description: "Wskazujesz przedmiot o masie do 5 kg w promieniu 9 metr\xF3w, kt\xF3ry
-    natychmiast przylatuje do twojej r\u0119ki. Je\u015Bli obiekt jest trzymany przez
-    inn\u0105 istot\u0119, wykonuje ona rzut obronny na Si\u0142\u0119 (ST 10 + mod.
-    Inteligencji)."
   spellType: 0
   spellCastingTime: Akcja
   spellRange: "9 metr\xF3w"

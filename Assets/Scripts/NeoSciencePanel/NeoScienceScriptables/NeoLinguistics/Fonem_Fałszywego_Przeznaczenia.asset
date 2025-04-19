@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d47a3c647622b41a3240dcdbdfa6f8, type: 3}
+  m_Name: "Fonem_Fa\u0142szywego_Przeznaczenia"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 1
+  spellName: "Fonem Fa\u0142szywego Przeznaczenia"
+  spellDescription: "Czas trwania: 1 minuta\nTw\xF3j g\u0142os wmawia przeciwnikowi,
+    \u017Ce jego pora\u017Cka jest nieunikniona. Cel musi wykona\u0107 rzut obronny
+    na Charyzm\u0119. W przypadku pora\u017Cki w ka\u017Cdej swojej turze musi wykona\u0107
+    rzut k20 \u2013 na wyniku 5 lub ni\u017Cszym traci akcj\u0119, tkwi\u0105c w
+    przekonaniu, \u017Ce nie ma sensu dzia\u0142a\u0107."
+  spellLevel: 2
+  spellCastingTime: 1 akcja
+  spellRange: "9 metr\xF3w"

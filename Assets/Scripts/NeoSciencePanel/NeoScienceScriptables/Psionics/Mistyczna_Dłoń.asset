@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: "Mistyczna_D\u0142o\u0144"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: "Mistyczna D\u0142o\u0144"
+  spellDescription: "Manipulujesz lub poruszasz niewielki obiekt w zasi\u0119gu 9
+    metr\xF3w. Obiekt nie mo\u017Ce wa\u017Cy\u0107 wi\u0119cej ni\u017C 5 kg, ani
+    by\u0107 trzymany przez inn\u0105 istot\u0119. Mo\u017Cesz przesun\u0105\u0107
+    go do 9 metr\xF3w, otwiera\u0107 drzwi, przelewa\u0107 p\u0142yny, itd. Je\u015Bli
+    zostawisz go w powietrzu, spada na koniec tury."
+  Spellcategory: 0
+  spellType: 0
+  spellCost: 0

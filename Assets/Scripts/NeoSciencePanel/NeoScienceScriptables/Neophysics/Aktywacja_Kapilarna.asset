@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Aktywacja_Kapilarna
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Aktywacja Kapilarna
+  spellDescription: "Manipulujesz zdolno\u015Bci\u0105 cieczy do wch\u0142aniania
+    i rozprowadzania si\u0119:\nWzmacnianie absorpcji \u2013 sprawiasz, \u017Ce materia\u0142y
+    szybciej nasi\u0105kaj\u0105 cieczami, co mo\u017Ce przyspieszy\u0107 korozj\u0119,
+    rozprowadzenie trucizny lub rozlanie substancji na wi\u0119kszym obszarze.\nOdrzucenie
+    cieczy \u2013 ciecz przestaje wsi\u0105ka\u0107 w powierzchni\u0119 (np. odpychasz
+    wod\u0119 z ubrania, chronisz dokumenty przed zamoczeniem).\nSkupienie substancji
+    \u2013 zbierasz rozproszon\u0105 ciecz w jedno miejsce, co mo\u017Ce pom\xF3c
+    w oczyszczaniu obszaru lub przygotowaniu cieczy do dalszego u\u017Cycia."
   spellLevel: 1
-  description: "Manipulujesz zdolno\u015Bci\u0105 cieczy do wch\u0142aniania i rozprowadzania
-    si\u0119:\nWzmacnianie absorpcji \u2013 sprawiasz, \u017Ce materia\u0142y szybciej
-    nasi\u0105kaj\u0105 cieczami, co mo\u017Ce przyspieszy\u0107 korozj\u0119, rozprowadzenie
-    trucizny lub rozlanie substancji na wi\u0119kszym obszarze.\nOdrzucenie cieczy
-    \u2013 ciecz przestaje wsi\u0105ka\u0107 w powierzchni\u0119 (np. odpychasz wod\u0119
-    z ubrania, chronisz dokumenty przed zamoczeniem).\nSkupienie substancji \u2013
-    zbierasz rozproszon\u0105 ciecz w jedno miejsce, co mo\u017Ce pom\xF3c w oczyszczaniu
-    obszaru lub przygotowaniu cieczy do dalszego u\u017Cycia."
   spellType: 5
   spellCastingTime: 1 akcja
   spellRange: 5 m

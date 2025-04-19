@@ -1,0 +1,214 @@
+{
+  "spells": [
+    {
+        "name": "Psychiczny Młot",
+        "category": "Talent",
+        "type": "Wspólna",
+        "description": "Tworzysz telekinetyczną dłoń, która chwyta jedno stworzenie w zasięgu 36 metrów. Cel wykonuje rzut obronny na Siłę. Niepowodzenie: otrzymuje 1d6 obrażeń od siły i (jeśli jest Duży lub mniejszy) zostaje przesunięty o 3 metry w wybranym kierunku.\nNie można unieść celu w powietrze, chyba że już tam był.",
+        "cost": "0"
+    },
+    {
+        "name": "Mistyczna Dłoń",
+        "category": "Talent",
+        "type": "Wspólna",
+        "description": "Manipulujesz lub poruszasz niewielki obiekt w zasięgu 9 metrów. Obiekt nie może ważyć więcej niż 5 kg, ani być trzymany przez inną istotę. Możesz przesunąć go do 9 metrów, otwierać drzwi, przelewać płyny, itd. Jeśli zostawisz go w powietrzu, spada na koniec tury.",
+        "cost": "0"
+    },
+    {
+        "name": "Psychiczny Cios",
+        "category": "Talent",
+        "type": "Wspólna",
+        "description": "Atakujesz umysł istoty w zasięgu 36 metrów. Cel wykonuje rzut obronny na Inteligencję.\nNiepowodzenie: 1k6 obrażeń psychicznych.\nObrażenia rosną z poziomem:\n5. poziom= 2k6\n11 poziom= 3k6\n15poziom=4k6",
+        "cost": "0"
+    },
+    {
+        "name": "Zjednoczenie Umysłów",
+        "category": "Talent",
+        "type": "Wspólna",
+        "description": "Na turę nawiązujesz telepatyczny kontakt z chętną istotą w zasięgu 36 metrów. Cel musi mieć Inteligencję 2 lub więcej. Nie musicie znać wspólnego języka. Możesz zajrzeć do jednej wybranej przez cel pamięci i zapamiętać ją idealnie.",
+        "cost": "0"
+    },
+    {
+        "name": "Psioniczny Pocisk",
+        "category": "Dyscyplina",
+        "type": "Wspólna",
+        "description": "Atak psychiczny na istotę w zasięgu 18 metrów. Za każdy punkt psi cel otrzymuje 1k6 obrażeń psychicznych (lub +U).",
+        "cost": "1"
+    },
+    {
+        "name": "Psychiczna Bariera",
+        "category": "Dyscyplina",
+        "type": "Wspólna",
+        "description": "Reagujesz w odpowiedzi na atak lub efekt mentalny, wzmacniając psychiczną osłonę.\nOchrona umysłu: przewaga na rzuty obronne przeciwko strachowi, urokowi i innym efektom psychicznym do końca następnej tury. Redukcja obrażeń: zmniejszasz obrażenia fizyczne o 2 za każdy punkt psi. Efekt trwa, dopóki utrzymujesz koncentrację (1 min).\nSkalowanie:\n4+ punktów: działa też na nieczystą magię (np. magiczny miecz).\n6+ punktów: ataki, które sprowadziłyby cię do 0 HP, zostawiają cię na 1 HP.",
+        "cost": "1"
+    },
+    {
+        "name": "Ulepszona Mistyczna Dłoń",
+        "category": "Talent",
+        "type": "Telekineza",
+        "description": "Tworząc niewidzialną siłę, możesz manipulować lub poruszyć pojedynczy obiekt w promieniu 9 metrów. Dodatkowo, jako akcję dodatkową, możesz wybrać jedną istotę i przepchnąć lub pociągnąć ją o 1,5 metra. Jeśli cel się opiera, wykonuje rzut obronny na Siłę przeciwko ST Psioniki. W przypadku niepowodzenia zostaje przesunięty zgodnie z twoją wolą. Cel może zdecydować się na automatyczną porażkę.",
+        "cost": "0"
+    },
+    {
+        "name": "Odepchnięcie",
+        "category": "Dyscyplina",
+        "type": "Telekineza",
+        "description": "Jako akcję wybierasz jedną istotę w promieniu 18 metrów. Cel wykonuje rzut obronny na Siłę. Przy niepowodzeniu otrzymuje 1k6 obrażeń od energii kinetycznej za każdy wydany punkt psi oraz zostaje odepchnięty o 1,5 metra na każdy punkt psi. W przypadku sukcesu obrażenia są o połowę mniejsze.",
+        "cost": "1"
+    },
+    {
+        "name": "Przeniesienie",
+        "category": "Dyscyplina",
+        "type": "Telekineza",
+        "description": "Wybierasz jeden nieprzymocowany i nienoszony obiekt w promieniu 18 metrów. Możesz go przesunąć (do 18 metrów) i ewentualnie rzucić nim w istotę. Jeśli spada na cel, wykonuje on rzut obronny na Zręczność (ST 10), by uniknąć obrażeń zależnych od masy:\n2 psi – 11 kg – 1k6+U\n3 psi – 23 kg – 2k6\n4 psi – 56 kg – 2k6+U\n5 psi – 113 kg – 2k6+U\n6 psi – 227 kg – 3k6\n7 psi – 450 kg – 3k6+U",
+        "cost": "2"
+    },
+    {
+        "name": "Telekinetyczny Uchwyt",
+        "category": "Dyscyplina",
+        "type": "Telekineza",
+        "description": "Jako akcję manipulujesz jednym obiektem w promieniu 9 metrów. Zależnie od wydanych punktów psi możesz:\n1 psi – przesunąć mały niezabezpieczony obiekt o 3 m (r. obronny Siła jeśli trzymany).\n2 psi – manipulować prostymi mechanizmami (np. klucz, dźwignia).\n3 psi – wyrwać broń trzymaną przez wroga (2x rzut obronny Siła).\n4 psi – przesunąć większy obiekt (do 10 kg) do 6 m.\n5 psi – poruszać cięższym obiektem (do 20 kg) lub obsługiwać delikatne mechanizmy.",
+        "cost": "1"
+    },
+    {
+        "name": "Inercyjny Pancerz",
+        "category": "Dyscyplina",
+        "type": "Telekineza",
+        "description": "Tworzysz wokół siebie pole siłowe na 8 godzin. Zapewnia ono bazową KP 14 + Zręczność oraz odporność na obrażenia od energii kinetycznej. Efekt kończy się przy założeniu zbroi.",
+        "cost": "2"
+    },
+    {
+        "name": "Telekinetyczna Bariera",
+        "category": "Dyscyplina",
+        "type": "Telekineza",
+        "description": "Tworzysz przezroczystą ścianę energii (12 m długości, 3 m wysokości, 2,5 cm grubości), której część musi być w promieniu 18 m. Ściana istnieje tak długo, jak utrzymujesz koncentrację (max 10 minut). Każdy 3-metrowy odcinek ma KP 10 i 10 PW.",
+        "cost": "3"
+    },
+    {
+        "name": "Uścisk",
+        "category": "Dyscyplina",
+        "type": "Telekineza",
+        "description": "Wybierasz istotę w promieniu 18 m. Musi ona wykonać rzut obronny na Siłę. Jeśli się nie powiedzie – zostaje chwycona telekinetycznie, dopóki nie wyjdzie poza zasięg lub nie zakończysz koncentracji (max 1 minuta).\nUwięziony cel może próbować się uwolnić (test Atletyki/Akrobatyki przeciwko ST Psioniki). Możesz wydawać dodatkowe punkty psi, by zwiększyć ST ucieczki (+1 za każdy punkt).\nPodczas trzymania celu możesz:\nZmiażdżenie – 1k6 obrażeń obuchowych za każdy punkt psi\nPrzeniesienie – przesunięcie celu o 1,5 m za każdy punkt psi (możesz też unieść w powietrze)",
+        "cost": "3"
+    },
+    {
+        "name": "Ognista Aura",
+        "category": "Talent",
+        "type": "Pyrokineza",
+        "description": "Twoje ciało przystosowuje się do panowania nad ogniem, czyniąc cię odpornym na jego niszczycielską moc. Zyskujesz odporność na obrażenia od ognia. Twoje ataki i zdolności zadające obrażenia od ognia zyskują premię +2 do obrażeń.",
+        "cost": "0"
+    },
+    {
+        "name": "Manipulacja Ciepłem",
+        "category": "Dyscyplina",
+        "type": "Pyrokineza",
+        "description": "Skierowujesz swoją wolę na kontrolowanie temperatury w otoczeniu. Potrafisz podgrzać lub schłodzić przedmioty w zasięgu swojej mocy.\n1 psi – Podgrzewasz lub schładzasz pojedynczy obiekt do minimum, np. zapalasz ogień w małym kawałku drewna, lub zamrażasz wodę w szklance.\n2 psi – Tworzysz mały ogień na dłoni, który może rozgrzać lub spalić przedmiot w zasięgu ręki, np. zapalić papierosa lub podgrzać kawałek metalu.\n3 psi – Podgrzewasz lub schładzisz większe obiekty w promieniu 5 metrów, np. rozpalasz ognisko, zamarzasz wodę w misce.\n4 psi – Rozprzestrzeniasz temperaturę w szerszym obszarze, powodując pożar w promieniu 3 metrów lub zamrożenie większej przestrzeni.",
+        "cost": "1"
+    },
+    {
+        "name": "Spontaniczne Spalenie",
+        "category": "Dyscyplina",
+        "type": "Pyrokineza",
+        "description": "Jako akcja wybierasz istotę lub obiekt w promieniu 36 metrów. Cel wykonuje rzut obronny na Kondycję:Porażka: Otrzymuje 1k6 obrażeń od ognia za każdy wydany punkt psi i staje w płomieniach – otrzymuje 1k6 obrażeń od ognia na koniec każdej swojej tury, dopóki płomienie nie zostaną ugaszone. Sukces: Otrzymuje połowę obrażeń i nie zapala się.",
+        "cost": "1"
+    },
+    {
+        "name": "Detonacja",
+        "category": "Dyscyplina",
+        "type": "Pyrokineza",
+        "description": "Jako akcja tworzysz eksplozję ognia w promieniu 6 metrów w dowolnym punkcie w zasięgu 36 metrów. Każda istota w tym obszarze wykonuje rzut obronny na Kondycję: Porażka: Otrzymuje 4k6 obrażeń od ognia i zostaje powalona na ziemię.\nSukces: Otrzymuje połowę obrażeń i pozostaje na nogach.",
+        "cost": "5"
+    },
+    {
+        "name": "Termalna Rezonancja",
+        "category": "Dyscyplina",
+        "type": "Pyrokineza",
+        "description": "Twoje ciało dostosowuje swoją strukturę do absorpcji i emisji energii cieplnej: Zyskujesz odporność na obrażenia od ognia.  Gdy otrzymasz obrażenia od ognia, możesz jako reakcję uwolnić nagromadzoną energię, zadając 3k6 obrażeń od ognia istocie w promieniu 3 metrów. Możesz to zrobić maksymalnie 3 razy w trakcie działania zdolności.",
+        "cost": "5"
+    },
+    {
+        "name": "Entropiczne Spalanie",
+        "category": "Dyscyplina",
+        "type": "Pyrokineza",
+        "description": "Manipulujesz prawami termodynamiki, powodując przyspieszoną degradację materii w promieniu 6 metrów:\nKażda istota w tym obszarze otrzymuje 2k6 obrażeń od ognia i 2k6 obrażeń od energii na początku swojej tury.\nPrzedmioty pod wpływem efektu ulegać osłabieniu lub zniszczeniu – metal kruszeje, paliwa eksplodują, a elektronika ulega awarii.\nMożesz skupić ten efekt na pojedynczym obiekcie (np. broń, generator, pancerz), by go osłabić lub zniszczyć po 3 rundach ekspozycji.",
+        "cost": "7"
+    },
+    {
+        "name": "Wzrost Entropii",
+        "category": "Dyscyplina",
+        "type": "Pyrokineza",
+        "description": "Przyspieszasz procesy chemiczne i fizyczne, które prowadzą do rozpadu materiałów.\n3 psi – Przyspieszasz rozpad obiektów w obrębie 5 metrów, np. kruszenie kamienia, rozkład materiałów organicznych.\n4-5 psi – Uszkodzenie większych materiałów, np. topnienie metali, rozpad szkła, przyspieszony proces kruszenia kamienia.\n6 psi – Całkowite zniszczenie obiektów w obrębie 5 metrów, np. rozpad konstrukcji z metalu i betonu. .",
+        "cost": "3"
+    },
+    {
+        "name": "Zatrzymanie Entropii",
+        "category": "Dyscyplina",
+        "type": "Pyrokineza",
+        "description": "Zatrzymujesz procesy rozpadu, przywracając obiektom pierwotny stan.\n3 psi – Spowalniasz rozkład obiektów w obrębie 5 metrów, np. zatrzymujesz korozję na metalach.\n4-5 psi – Całkowite zatrzymanie entropii na obiekcie w obrębie 5 metrów, np. powstrzymanie procesu psucia się żywności, zatrzymanie starzenia się drewna.\n6 psi – Zatrzymanie procesów chemicznych w większym obszarze, np. wstrzymanie rozkładu wody w dużym zbiorniku.",
+        "cost": "3"
+    },
+    {
+        "name": "Żarzące się Popioły",
+        "category": "Dyscyplina",
+        "type": "Pyrokineza",
+        "description": "Tworzysz pole pełne gorącego popiołu, który wywołuje ból i osłabia przeciwników. 4 psi – Tworzysz popioły w obrębie 3 metrów, które zadają 2k6 obrażeń od ciepła i utrudniają ruch.  5-6 psi – Rozszerzenie popiołów do 5 metrów, zadające 3k6 obrażeń oraz spowolnienie ofiar, które poruszają się o połowę wolniej.",
+        "cost": "4"
+    },
+    {
+        "name": "Ognista Pułapka",
+        "category": "Dyscyplina",
+        "type": "Pyrokineza",
+        "description": "Tworzysz pułapkę ogniową, która wybucha, gdy ktoś przejdzie w jej zasięg.4 psi – Wybuch w promieniu 1,5 metra, zadający 3k6 obrażeń.  5-6 psi – Powiększenie pułapki do 3 metrów, zadającej 3k6 obrażeń oraz powalającej ofiary.",
+        "cost": "4"
+    },
+    {
+        "name": "Mentalna Forteca",
+        "category": "Talent",
+        "type": "Psychokineza",
+        "description": "Twoja psychika jest wyjątkowo odporna na wpływy zewnętrzne, a twój umysł potrafi instynktownie odrzucać obce ingerencje. Możesz zużyć swoją reakcję, aby zyskać premię +2 do rzutów obronnych na Inteligencję, Mądrość lub Charyzmę (wybierasz jeden w trakcie rundy). Jeśli jesteś celem efektu, który pozwala na rzut obronny, by uniknąć stanu Oszołomienia, Przerażenia lub Zauroczenia, możesz wykonać ten rzut z przewagą.",
+        "cost": "0"
+    },
+    {
+        "name": "Rozpraszająca Mgła",
+        "category": "Dyscyplina",
+        "type": "Psychokineza",
+        "description": "Wybierasz jedną istotę w promieniu 18 metrów. Cel wykonuje rzut obronny na Inteligencję. Przy porażce otrzymuje 1k6 (+U) obrażeń psychicznych za każdy wydany punkt psi i traci zdolność widzenia dalej niż na 3 metry do końca twojej koncentracji. Przy sukcesie otrzymuje połowę obrażeń, ale zachowuje wzrok.",
+        "cost": "1"
+    },
+    {
+        "name": "Otępienie",
+        "category": "Dyscyplina",
+        "type": "Psychokineza",
+        "description": "Wybierasz jedną istotę w promieniu 18 metrów. Cel wykonuje rzut obronny na Inteligencję. Przy porażce zostaje obezwładniony do końca twojej następnej tury lub do momentu otrzymania obrażeń.",
+        "cost": "3"
+    },
+    {
+        "name": "Burza Umysłu",
+        "category": "Dyscyplina",
+        "type": "Psychokineza",
+        "description": "Wybierasz punkt w promieniu 18 metrów. Każda istota w promieniu 6 metrów od tego punktu wykonuje rzut obronny na Mądrość. Przy porażce otrzymuje 3k6 obrażeń psychicznych i karę do wszystkich rzutów obronnych do końca twojej następnej tury. Przy sukcesie otrzymuje połowę obrażeń, bez dalszych efektów.",
+        "cost": "5"
+    },
+    {
+        "name": "Bicz Ego",
+        "category": "Dyscyplina",
+        "type": "Psychokineza",
+        "description": "Wybierasz jedną istotę w promieniu 18 metrów. Cel wykonuje rzut obronny na Inteligencję. Przy porażce otrzymuje 2k6 obrażeń psychicznych i może użyć akcji tylko na Unik, Odsunięcie się lub Ukrycie się w swojej następnej turze. Przy sukcesie otrzymuje połowę obrażeń.",
+        "cost": "3"
+    },
+    {
+        "name": "Insynuacja Id",
+        "category": "Dyscyplina",
+        "type": "Psychokineza",
+        "description": "Wybierasz jedną istotę w promieniu 18 metrów. Cel wykonuje rzut obronny na Inteligencję. Przy porażce otrzymuje 2k6 obrażeń psychicznych i wpada w instynktowny szał: w swojej następnej turze może użyć akcji tylko na Unik lub Atak, a dodatkowo ma 50% szansy na zaatakowanie najbliższej istoty. Przy sukcesie otrzymuje połowę obrażeń.",
+        "cost": "5"
+    },
+    {
+        "name": "Psychiczna Miazga",
+        "category": "Dyscyplina",
+        "type": "Psychokineza",
+        "description": "Tworzysz sześcian o promieniu 6 metrów w zasięgu 36 metrów albo stożek o długości 18 metrów wypełniony psioniczną energią. Wszystkie istoty w obszarze wykonują rzut obronny na Inteligencję. Przy porażce otrzymują 3k6 obrażeń psychicznych i są ogłuszone do końca twojej następnej tury. Przy sukcesie otrzymują połowę obrażeń.",
+        "cost": "7"
+    }
+  ]
+}

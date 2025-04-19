@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c9a058c7952eeb4295374c917720e6f, type: 3}
+  m_Name: "Rozpraszaj\u0105ca_Mg\u0142a"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 3
+  spellName: "Rozpraszaj\u0105ca Mg\u0142a"
+  spellDescription: "Wybierasz jedn\u0105 istot\u0119 w promieniu 18 metr\xF3w. Cel
+    wykonuje rzut obronny na Inteligencj\u0119. Przy pora\u017Cce otrzymuje 1k6 (+U)
+    obra\u017Ce\u0144 psychicznych za ka\u017Cdy wydany punkt psi i traci zdolno\u015B\u0107
+    widzenia dalej ni\u017C na 3 metry do ko\u0144ca twojej koncentracji. Przy sukcesie
+    otrzymuje po\u0142ow\u0119 obra\u017Ce\u0144, ale zachowuje wzrok."
+  Spellcategory: 1
+  spellType: 3
+  spellCost: 1

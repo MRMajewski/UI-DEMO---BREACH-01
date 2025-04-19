@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8fd86531cf18944ab334f8bc900aa36, type: 3}
   m_Name: Termiczne_Dostosowanie
   m_EditorClassIdentifier: 
-  neoScienceCategory: 1
+  neoScienceCategory: 0
   spellName: Termiczne Dostosowanie
-  spellLevel: 0
-  description: "Mo\u017Cesz podnie\u015B\u0107 lub obni\u017Cy\u0107 temperatur\u0119
+  spellDescription: "Mo\u017Cesz podnie\u015B\u0107 lub obni\u017Cy\u0107 temperatur\u0119
     obiektu o \xB120\xB0C. Mo\u017Ce to mie\u0107 nast\u0119puj\u0105ce efekty:\nZimno:
     Zamra\u017Casz p\u0142yny, os\u0142abiasz materia\u0142y (np. szk\u0142o, plastik,
     metal). Mo\u017Cesz pokry\u0107 bro\u0144 warstw\u0105 mrozu, spowalniaj\u0105c
@@ -33,6 +32,7 @@ MonoBehaviour:
     przeciwnika: Je\u015Bli wzmocnisz d\u017Awi\u0119k do skrajnego poziomu, przeciwnik
     w obszarze dzia\u0142ania musi wykona\u0107 test Zmys\u0142\xF3w \u2013 je\u015Bli
     go nie zda, zostaje og\u0142uszony na 1 rund\u0119."
+  spellLevel: 0
   spellType: 4
   spellCastingTime: 1 akcja
   spellRange: 20 m
