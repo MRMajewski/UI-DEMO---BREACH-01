@@ -16,11 +16,11 @@ MonoBehaviour:
   spellName: "Zak\u0142\xF3cenie Czasu"
   spellDescription: "Tworzysz niestabilne zak\u0142\xF3cenie w strumieniu czasu na
     wybranym obszarze. Wszystkie istoty w jego obr\u0119bie musz\u0105 wykona\u0107
-    rzut obronny na M\u0105dro\u015B\u0107 (ST sekwencji). Przy pora\u017Cce:\nIch
-    tura zostaje przesuni\u0119ta na koniec rundy, niezale\u017Cnie od aktualnej
-    kolejno\u015Bci w inicjatywie.\nDo ko\u0144ca rundy maj\u0105 utrudnienie na
-    testy Zr\u0119czno\u015Bci.\nIstoty odporne na efekty parali\u017Cu lub og\u0142uszenia
-    wykonuj\u0105 ten rzut z premi\u0105 +2."
+    rzut obronny na M\u0105dro\u015B\u0107. Przy pora\u017Cce:\nIch tura zostaje
+    przesuni\u0119ta na koniec rundy, niezale\u017Cnie od aktualnej kolejno\u015Bci
+    w inicjatywie.\nDo ko\u0144ca rundy maj\u0105 utrudnienie na testy Zr\u0119czno\u015Bci.\nIstoty
+    odporne na efekty parali\u017Cu lub og\u0142uszenia wykonuj\u0105 ten rzut z
+    premi\u0105 +2."
   spellLevel: 2
   spellType: 1
   spellCastingTime: 1 akcja

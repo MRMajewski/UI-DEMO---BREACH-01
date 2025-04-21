@@ -15,11 +15,11 @@ MonoBehaviour:
   neoScienceCategory: 0
   spellName: Grawitacyjne Uderzenie
   spellDescription: "Uderzasz pojedynczego przeciwnika fal\u0105 grawitacyjn\u0105.
-    Musi wykona\u0107 rzut obronny na Si\u0142\u0119 (ST sekwencji), w przeciwnym
-    razie:\nZostaje przewr\xF3cony.\nOtrzymuje 2k6 obra\u017Ce\u0144 obuchowych.\nNa
-    wy\u017Cszym poziomie: Przy rzuceniu na poziomie 3 lub wy\u017Cszym, zwi\u0119kszasz
-    obra\u017Cenia o 1k6 za ka\u017Cdy poziom powy\u017Cej 1.\nZdany ST powoduje,
-    \u017Ce istota otrzymuje tylko po\u0142ow\u0119 obra\u017Ce\u0144."
+    Musi wykona\u0107 rzut obronny na Si\u0142\u0119, w przeciwnym razie:\nZostaje
+    przewr\xF3cony.\nOtrzymuje 2k6 obra\u017Ce\u0144 obuchowych.\nNa wy\u017Cszym
+    poziomie: Przy rzuceniu na poziomie 3 lub wy\u017Cszym, zwi\u0119kszasz obra\u017Cenia
+    o 1k6 za ka\u017Cdy poziom powy\u017Cej 1.\nZdany ST powoduje, \u017Ce istota
+    otrzymuje tylko po\u0142ow\u0119 obra\u017Ce\u0144."
   spellLevel: 1
   spellType: 0
   spellCastingTime: Akcja

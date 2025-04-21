@@ -16,7 +16,7 @@ MonoBehaviour:
   spellName: Otworzenie Drogi
   spellDescription: "Raz na sesj\u0119 Sensor zyskuje +2 do wszystkich test\xF3w
     ataku przez 1 tur\u0119 oraz ignoruje negatywne efekty \u015Brodowiskowe (pu\u0142apki,
-    przeszkody), dzi\u0119ki wyprzedzeniu zdarze\u0144.\nKoszt: 4"
+    przeszkody), dzi\u0119ki wyprzedzeniu zdarze\u0144."
   Spellcategory: 1
   spellType: 1
   spellCost: 4

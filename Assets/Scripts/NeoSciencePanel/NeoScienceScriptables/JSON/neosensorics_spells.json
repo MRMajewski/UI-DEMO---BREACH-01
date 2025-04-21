@@ -11,119 +11,119 @@
             "name": "Nieustanna Czujność",
             "category": "Talent",
             "type": "Wspólna",
-            "description": "Sensor nie może zostać zaskoczony. Jeśli przeciwnik atakuje go z zaskoczenia, Sensor automatycznie dostaje swoją turę przed atakiem.\nKoszt: 2",
+            "description": "Sensor nie może zostać zaskoczony. Jeśli przeciwnik atakuje go z zaskoczenia, Sensor automatycznie dostaje swoją turę przed atakiem. Przeciwnik traci bonusy wynikające z zaskoczenia",
             "cost": 2
         },
         {
             "name": "Wewnętrzny Radar",
             "category": "Talent",
             "type": "Wspólna",
-            "description": "Sensor czuje ruchome istoty w promieniu 6m, nawet przez ściany i mgłę. Mocniejsza wersja (2 PP): Zasięg rośnie do 12m.\nKoszt: 1",
+            "description": "Sensor czuje ruchome istoty w promieniu 6m, nawet przez ściany i mgłę. Nie ma utrudnień w walce z niewidocznym przeciwnikiem w zasięgu działania zmysłu.. \nMocniejsza wersja (2 PP): Zasięg rośnie do 12m.",
             "cost": 1
         },
         {
-            "name": "Zmysł Drgań (Tremorsense)",
+            "name": "Zmysł Drgań",
             "category": "Talent",
             "type": "Wspólna",
-            "description": "Sensor wykrywa ruch istot stąpających po ziemi w promieniu 6m. Mocniejsza wersja (2 PP): Zasięg rośnie do 12m i wykrywa również drobne zmiany ciśnienia w powietrzu.\nKoszt: 1",
+            "description": "Sensor wykrywa ruch istot stąpających po ziemi w promieniu 6m. Nie ma utrudnień w walce z niewidocznym przeciwnikiem w zasięgu działania zmysłu. \nMocniejsza wersja (2 PP): Zasięg rośnie do 12m oraz wykrywa również drobne zmiany ciśnienia w powietrzu.",
             "cost": 1
         },
         {
             "name": "Termowizja",
             "category": "Talent",
             "type": "Wspólna",
-            "description": "Sensor może dostrzegać źródła ciepła, widząc istoty żywe w ciemności.\nKoszt: 1",
+            "description": "Sensor może dostrzegać źródła ciepła, widząc istoty żywe w ciemności. Nie ma utrudnień w walce z niewidocznym przeciwnikiem w zasięgu działania zmysłu.",
             "cost": 1
         },
         {
             "name": "Widzenie Aury",
             "category": "Talent",
             "type": "Wspólna",
-            "description": "Sensor dostrzega aurę żywych istot, rozpoznając ich stan emocjonalny. Przy dłuższej obserwacji wykrywa też choroby i zaburzenia.\nKoszt: 2",
+            "description": "Sensor dostrzega aurę żywych istot, rozpoznając ich stan emocjonalny. Przy dłuższej obserwacji wykrywa też choroby i zaburzenia.",
             "cost": 2
         },
         {
             "name": "Analiza Ruchu",
             "category": "Talent",
             "type": "Wspólna",
-            "description": "Sensor przewiduje drobne ruchy przeciwników, zwiększając swoją obronę +1 przeciwko atakom wręcz.\nKoszt: 1",
+            "description": "Sensor przewiduje drobne ruchy przeciwników, zwiększając swoją obronę +1 przeciwko atakom wręcz.",
             "cost": 1
         },
         {
             "name": "Świadomość Przestrzenna",
             "category": "Talent",
             "type": "Wspólna",
-            "description": "Sensor zawsze wie, gdzie się znajduje, nawet w kompletnej ciemności lub przy iluzjach przestrzennych.\nKoszt: 1",
+            "description": "Sensor zawsze wie, gdzie się znajduje, nawet w kompletnej ciemności lub przy iluzjach przestrzennych.",
             "cost": 1
         },
         {
             "name": "Wyostrzony Węch",
             "category": "Talent",
             "type": "Wspólna",
-            "description": "Sensor otrzymuje +2 do testów Percepcji i Przetrwania opartych na węchu, wykrywając subtelne zapachy. Może wykrywać zapachy, których normalnie nie dostrzegają ludzie, np. ślady krwi, toksyny w powietrzu czy emocje istot (strach, agresję). Jeśli spędzi kilka sekund na analizie, może odróżnić zapachy poszczególnych osób i stworzeń.\nKoszt: 1",
+            "description": "Sensor otrzymuje +2 do testów Percepcji i Przetrwania opartych na węchu, wykrywając subtelne zapachy. Może wykrywać zapachy, których normalnie nie dostrzegają ludzie, np. ślady krwi, toksyny w powietrzu czy emocje istot (strach, agresję).\nJeśli spędzi kilka sekund na analizie, może odróżnić zapachy poszczególnych osób i stworzeń.",
             "cost": 1
         },
         {
             "name": "Przewidywanie Wydarzeń",
             "category": "Talent",
             "type": "Futurispecja",
-            "description": "Sensor otrzymuje przewagę na testy Percepcji w celu wykrycia pułapek, zasadzek lub nadchodzących zagrożeń. Zyskuje także +1 do rzutów na Inicjatywę.\nKoszt: 1",
+            "description": "Sensor otrzymuje przewagę na testy Percepcji w celu wykrycia pułapek, zasadzek lub nadchodzących zagrożeń. \nZyskuje także +1 do rzutów na Inicjatywę.",
             "cost": 1
         },
         {
             "name": "Przewidywanie Ruchów",
             "category": "Dyscyplina",
             "type": "Futurispecja",
-            "description": "Przez 1 turę Sensor otrzymuje przewagę na testy obrony przeciwko jednemu wybranemu przeciwnikowi. Jeśli przeciwnik wykonuje atak, Sensor zyskuje również przewagę do testu ataku przeciwko niemu.\nKoszt: 2",
+            "description": "Przez 1 turę Sensor otrzymuje przewagę na testy obrony przeciwko jednemu wybranemu przeciwnikowi. \nJeśli przeciwnik wykonuje atak, Sensor zyskuje również przewagę do testu ataku przeciwko niemu.",
             "cost": 2
         },
         {
             "name": "Mgnienie Przyszłości",
             "category": "Dyscyplina",
             "type": "Futurispecja",
-            "description": "Sensor natychmiast wykonuje ruch, który pozwala mu całkowicie uniknąć ataku lub zmienić pozycję na bezpieczną (w zasięgu ruchu). Może użyć tylko w momencie, gdy przewidzi zagrożenie.\nKoszt: 3",
+            "description": "Sensor natychmiast wykonuje ruch, który pozwala mu całkowicie uniknąć ataku lub zmienić pozycję na bezpieczną (w zasięgu ruchu). Może użyć tylko w momencie, gdy przewidzi zagrożenie.",
             "cost": 3
         },
         {
             "name": "Otworzenie Drogi",
             "category": "Dyscyplina",
             "type": "Futurispecja",
-            "description": "Raz na sesję Sensor zyskuje +2 do wszystkich testów ataku przez 1 turę oraz ignoruje negatywne efekty środowiskowe (pułapki, przeszkody), dzięki wyprzedzeniu zdarzeń.\nKoszt: 4",
+            "description": "Raz na sesję Sensor zyskuje +2 do wszystkich testów ataku przez 1 turę oraz ignoruje negatywne efekty środowiskowe (pułapki, przeszkody), dzięki wyprzedzeniu zdarzeń.",
             "cost": 4
         },
         {
             "name": "Wizje Długoterminowe",
             "category": "Dyscyplina",
             "type": "Futurispecja",
-            "description": "Sensor uzyskuje wgląd w potencjalną przyszłość o istotnym znaczeniu – politycznym, militarnym lub osobistym. MG przekazuje wskazówki dotyczące możliwych wydarzeń lub zagrożeń.\nKoszt: 5",
+            "description": "Sensor uzyskuje wgląd w potencjalną przyszłość o istotnym znaczeniu – politycznym, militarnym lub osobistym. MG przekazuje wskazówki dotyczące możliwych wydarzeń lub zagrożeń.",
             "cost": 5
         },
         {
-            "name": "Ultra Instynkt – Wersja Osłabiona",
+            "name": "Ultra Instynkt",
             "category": "Dyscyplina",
             "type": "Futurispecja",
-            "description": "Na 1 turę Sensor otrzymuje przewagę na wszystkie rzuty obronne (dowolnego typu) oraz ułatwienie w ich wykonaniu.\nKoszt: 2",
+            "description": "Na 1 turę Sensor otrzymuje przewagę na wszystkie rzuty obronne (dowolnego typu) oraz ułatwienie w ich wykonaniu.",
             "cost": 2
         },
         {
-            "name": "Ultra Instynkt – Wersja Mistrzowska",
+            "name": "Ultra Instynkt – Mitrz",
             "category": "Dyscyplina",
             "type": "Futurispecja",
-            "description": "Sensor zyskuje dwa ułatwienia na wszystkie rzuty obronne w tej turze. Każdy atak przeciwko niemu ma 50% szansy, by go nie trafić. Dodatkowo może zignorować jedno źródło obrażeń tej tury.\nKoszt: 4",
+            "description": "Sensor zyskuje dwa ułatwienia na wszystkie rzuty obronne w tej turze. Każdy atak przeciwko niemu ma 50% szansy, by go nie trafić. Dodatkowo może zignorować jedno źródło obrażeń tej tury.",
             "cost": 4
         },
         {
             "name": "Przewidywanie Akcji",
             "category": "Dyscyplina",
             "type": "Futurispecja",
-            "description": "Sensor wybiera jednego przeciwnika – MG ujawnia jego planowane działania w nadchodzącej turze. Jeśli przeciwnik wykona ujawnioną akcję, Sensor otrzymuje +2 do ataku lub obrony przeciwko niemu do końca tej tury.\nKoszt: 3",
+            "description": "Sensor wybiera jednego przeciwnika – MG ujawnia jego planowane działania w nadchodzącej turze. Jeśli przeciwnik wykona ujawnioną akcję, Sensor otrzymuje +2 do ataku lub obrony przeciwko niemu do końca tej tury.",
             "cost": 3
         },
         {
             "name": "Sekcja w Czasie Rzeczywistym",
             "category": "Talent",
             "type": "Biospecja",
-            "description": "Twoja znajomość anatomii i zdolność do odczytywania ruchów przeciwnika sprawia, że lepiej trafiasz w słabe punkty. Twoje ataki krytyczne występują na wyniku 19 i 20 na kości k20.\nKoszt: 3",
+            "description": "Twoja znajomość anatomii i zdolność do odczytywania ruchów przeciwnika sprawia, że lepiej trafiasz w słabe punkty. Twoje ataki krytyczne występują na wyniku 19 i 20 na kości k20.",
             "cost": 3
         },
 
@@ -145,7 +145,7 @@
             "name": "Hemopuls",
             "category": "Dyscyplina",
             "type": "Biospecja",
-            "description": "Zakłócasz przepływ krwi i działanie organów przeciwnika, powodując poważne osłabienie. Cel musi wykonać rzut obronny (Kondycja). Jeśli go nie zda, wybierasz jeden z efektów: Krwawienie – Cel otrzymuje 1k6 obrażeń na początku swojej tury przez 1 minutę (może zakończyć stan testem Kondycji na końcu każdej tury).  Spowolnienie – Cel ma o połowę zmniejszoną prędkość na 1 minutę. Ogłuszenie – Cel nie może wykonywać akcji ani reakcji do końca swojej następnej tury.  ",
+            "description": "Zakłócasz przepływ krwi i działanie organów przeciwnika, powodując poważne osłabienie. Cel musi wykonać rzut obronny (Kondycja). Jeśli go nie zda, wybierasz jeden z efektów: \nKrwawienie – Cel otrzymuje 1k6 obrażeń na początku swojej tury przez 1 minutę (może zakończyć stan testem Kondycji na końcu każdej tury).  \n Spowolnienie – Cel ma o połowę zmniejszoną prędkość na 1 minutę. \n Ogłuszenie – Cel nie może wykonywać akcji ani reakcji do końca swojej następnej tury.",
             "cost": 3
         },
         {
@@ -159,7 +159,7 @@
             "name": "Ostateczna Diagnoza",
             "category": "Dyscyplina",
             "type": "Biospecja",
-            "description": "Twoje sensoryczne zdolności pozwalają ci natychmiast ocenić krytyczny stan istoty. Wybierasz jedno stworzenie w zasięgu wzroku i poznajesz następujące informacje: Obecny poziom punktów wytrzymałości (HP) oraz ich maksymalną wartość. Obecne negatywne efekty i stany, na które istota jest podatna (np. zatrucie, paraliż). Czy istota jest bliska śmierci (jeśli jej HP jest poniżej 25% maksymalnej wartości). ",
+            "description": "Twoje sensoryczne zdolności pozwalają ci natychmiast ocenić krytyczny stan istoty. Wybierasz jedno stworzenie w zasięgu wzroku i poznajesz następujące informacje: \n Obecny poziom punktów wytrzymałości oraz ich maksymalną wartość. \n Obecne negatywne efekty i stany, na które istota jest podatna (np. zatrucie, paraliż). \n Czy istota jest bliska śmierci (jeśli jej HP jest poniżej 25% maksymalnej wartości). ",
             "cost": 4
         },
         {
@@ -180,58 +180,51 @@
             "name": "Oczy Spoza Rzeczywistości",
             "category": "Talent",
             "type": "Szamanizm",
-            "description": "Sensor widzi istoty niematerialne (np. astralne byty, istoty energetyczne, byty z innych wymiarów) oraz może wyczuwać ich obecność, nawet jeśli nie są fizycznie obecne w tym wymiarze. Daje to przewagę na testy Percepcji i Śledztwa związane z wykrywaniem bytów i energii spoza rzeczywistości.\nKoszt: 2\nPsychometria\nDotykając przedmiotu lub powierzchni, Sensor może „odczytać” intensywne wspomnienia związane z tym miejscem lub przedmiotem. Widzi wizje, które są efektem przeszłych wydarzeń z udziałem istot z innych wymiarów, co daje wgląd w tajemnice i historię tego miejsca.\nKoszt: 3\nWykrywanie Słabości\nWybierasz jedną istotę w zasięgu wzroku i koncentrujesz się na jej budowie ciała. Przez 1 minutę twoje ataki przeciwko niej ignorują naturalne pancerze i redukcję obrażeń wynikającą z jej budowy.\nKoszt: 2\nHemopuls\nZakłócasz przepływ krwi i działanie organów przeciwnika. Cel wykonuje rzut obronny (Kondycja). Jeśli nie zda, wybierasz jeden efekt:\nKrwawienie – 1k6 obrażeń na pocz. tury przez 1 minutę.\nSpowolnienie – połowa prędkości na 1 minutę.\nOgłuszenie – brak akcji i reakcji do końca następnej tury.\nKoszt: 3\nPuls Życia\nWyczuwasz wszystkie żywe istoty w promieniu 30 m, nawet przez ściany. Nie poznajesz szczegółów, ale odróżniasz życie od materii nieożywionej. Efekt trwa 1 minutę.\nKoszt: 4\nOstateczna Diagnoza\nPoznajesz: aktualne i maksymalne HP celu, aktywne negatywne efekty, podatności oraz czy istota ma mniej niż 25% HP.\nKoszt: 4\nPrzebłysk Regeneracji\nLeczy HP równe twojemu poziomowi Sensora + modyfikator Mądrości. Cel: ty lub sojusznik. Nie działa na istoty martwe.\nKoszt: 4\nWstrząs Neurokinetyczny\nCel wykonuje rzut obronny (Kondycja). Przy porażce:\notrzymuje 3k6 obrażeń psychicznych,\nma utrudnienie na testy ataku przez 1 turę.\nKoszt: 5\nWidmowa Interwencja\nPrzyzywasz istotę z innego wymiaru, która pomaga w formie ataku, informacji, zwiadu itd. Rzut k6 określa formę interwencji.\nKoszt: 3\nEcho Przeszłości\nOdczytujesz przeszłe zdarzenia w miejscu, w tym te związane z istotami z innych wymiarów. Poznajesz fragmenty historii i interakcji.\nKoszt: 2\nZaklęcie Istot\nTymczasowe połączenie z istotą z innego wymiaru. Oferuje informacje, ochronę lub inne usługi. Efekty zależne od charakteru bytu.\nKoszt: 2\nWymiarowy Dotyk\nDotykasz istoty – część jej bytu zostaje przeniesiona do tego wymiaru. Rzut obronny (Charyzma, CD 14) lub:\nOszołomienie na 1 turę,\npodatność na obrażenia energetyczne/nekrotyczne przez 1 minutę.\nKoszt: 3\nPrzywołanie Obcego Bytu\nPrzyzywasz byt ofensywny (rzut k6):\n1–2: słaby,\n3–5: przeciętny,\n6: potężny (zależny od warunków).\nKoszt: 4\nProśba o Pomoc (Manifestacja Bytu)\nWzywasz byt do pomocy (rzut k6):\n1–2: drobna pomoc,\n3–5: realne wsparcie (atak, ochrona, info),\n6: potężny efekt (masowy atak, zmiana terenu, burza itp.), ale możliwe konsekwencje.\nKoszt: 5",
-            "cost": 2
-        },
-        {
-            "name": "Psychometria",
-            "category": "Talent",
-            "type": "Szamanizm",
-            "description": "Dotykając przedmiotu lub powierzchni, Sensor może „odczytać” intensywne wspomnienia związane z tym miejscem lub przedmiotem. Widzi wizje, które są efektem przeszłych wydarzeń, w których uczestniczyły istoty z innych wymiarów, co daje wgląd w tajemnice i historie związane z miejscami o silnych energetycznych oddziaływaniach.",
+            "description": "Sensor widzi istoty niematerialne (np. astralne byty, istoty energetyczne, byty z innych wymiarów) oraz może wyczuwać ich obecność, nawet jeśli nie są fizycznie obecne w tym wymiarze. Daje to przewagę na testy Percepcji i Śledztwa związane z wykrywaniem bytów i energii spoza rzeczywistości. ",
             "cost": 3
         },
-        {
-            "name": "Widmowa Interwencja",
-            "category": "Dyscyplina",
-            "type": "Szamanizm",
-            "description": "Sensor może przyzwać istotę z innego wymiaru (np. energię, byta astralnego lub byt energetyczny), która udziela wsparcia. Efekt zależy od rzutu k6 i kontekstu miejsca, a istota może zaoferować pomoc w formie ataku, informacji, zwiadu lub innych form wsparcia.",
-            "cost": 3
-        },
-        {
-            "name": "Echo Przeszłości",
-            "category": "Dyscyplina",
-            "type": "Szamanizm",
-            "description": "Sensor może przyzwać istotę z innego wymiaru (np. energię, byta astralnego lub byt energetyczny), która udziela wsparcia. Efekt zależy od rzutu k6 i kontekstu miejsca, a istota może zaoferować pomoc w formie ataku, informacji, zwiadu lub innych form wsparcia.",
-            "cost": 2
-        },
-        {
-            "name": "Zaklęcie Istot",
-            "category": "Dyscyplina",
-            "type": "Szamanizm",
-            "description": "Sensor nawiązuje tymczasowe połączenie z istotą z innego wymiaru i prosi ją o pomoc. Istota może odpowiedzieć na prośbę w formie informacji, ochrony lub innych usług, ale jej odpowiedź może być zależna od jej natury (np. czy jest przyjazna, neutralna czy wroga wobec tego wymiaru).",
-            "cost": 2
-        },
-        {
-            "name": "Wymiarowy Dotyk",
-            "category": "Dyscyplina",
-            "type": "Szamanizm",
-            "description": "Sensor może dotknąć istoty, sprawiając, że część jej bytu jest tymczasowo wyciągnięta z innego wymiaru do fizycznego świata. Cel musi wykonać rzut obronny na Charyzmę (CD 14) lub otrzymuje stan Oszołomienia na 1 turę i staje się bardziej podatny na obrażenia energetyczne lub nekrotyczne przez 1 minutę.",
-            "cost": 3
-        },
-        {
-            "name": "Przywołanie Obcego Bytu",
-            "category": "Dyscyplina",
-            "type": "Szamanizm",
-            "description": "Sensor może przyzwać istotę z innego wymiaru, która wykona określoną ofensywną akcję w walce. Rzut k6 określa moc przyzwanego bytu: 1–2: Słaby byt, mało efektywny. 3–5: Zwykła istota, średnia pomoc w walce. 6: Potężny byt, którego pomoc zależy od okoliczności (np. wzmocniony przez warunki lokalne, zależny od energii miejsca).",
-            "cost": 4
-        },
-        {
-            "name": "Prośba o Pomoc (Manifestacja Bytu)",
-            "category": "Talent",
-            "type": "Szamanizm",
-            "description": "Sensor może przyzwać do pomocy istotę z innego wymiaru, wykorzystując ich unikalne właściwości w ofensywie. Rzut k6 decyduje, jak silna będzie przyzwana istota: 1–2: Przywołany byt jest słaby, oferuje tylko podstawowe wsparcie, np. ostrzeżenie przed atakiem lub drobną pomoc w walce (np. mały atak energetyczny lub informacja o przeciwniku).  3–5: Zwykła istota, która może zaoferować bardziej znaczące wsparcie, np. wystrzelić energetyczny pocisk, wywołać osłonę lub zaoferować lepsze informacje o przeciwniku, środowisku lub sytuacji. Możliwość interakcji z przeciwnikiem, jak z neutralnym bytem.  6: Potężny byt, który może wywołać ogromne zmiany w walce, np. zniszczyć przeszkody, wywołać masowy atak energetyczny lub wywołać naturalne zjawisko, takie jak burzę czy trzęsienie ziemi (w zależności od okoliczności). Efekt jest potężny, ale wymaga dużych umiejętności kontrolowania tego typu bytów. Może to także wpłynąć na otoczenie, tworząc trwałe zmiany w świecie lub przyciągając inne istoty z innych wymiarów. ",
-            "cost": 5
-        }
+            {
+                "name": "Psychometria",
+                "category": "Talent",
+                "type": "Szamanizm",
+                "description": "Dotykając przedmiotu lub powierzchni, Sensor może „odczytać” intensywne wspomnienia związane z tym miejscem lub przedmiotem. Widzi wizje, które są efektem przeszłych wydarzeń, w których uczestniczyły istoty z innych wymiarów, co daje wgląd w tajemnice i historie związane z miejscami o silnych energetycznych oddziaływaniach.",
+                "cost": 3
+            },
+            {
+                "name": "Widmowa Interwencja",
+                "category": "Dyscyplina",
+                "type": "Szamanizm",
+                "description": "Sensor może przyzwać istotę z innego wymiaru (np. energię, byta astralnego lub byt energetyczny), która udziela wsparcia. Efekt zależy od rzutu k6 i kontekstu miejsca, a istota może zaoferować pomoc w formie ataku, informacji, zwiadu lub innych form wsparcia.",
+                "cost": 3
+            },
+            {
+                "name": "Echo Przeszłości",
+                "category": "Dyscyplina",
+                "type": "Szamanizm",
+                "description": "Sensor może przyzwać istotę z innego wymiaru (np. energię, byta astralnego lub byt energetyczny), która udziela wsparcia. Efekt zależy od rzutu k6 i kontekstu miejsca, a istota może zaoferować pomoc w formie ataku, informacji, zwiadu lub innych form wsparcia.",
+                "cost": 2
+            },
+            {
+                "name": "Zaklęcie Istot",
+                "category": "Dyscyplina",
+                "type": "Szamanizm",
+                "description": "Sensor nawiązuje tymczasowe połączenie z istotą z innego wymiaru i prosi ją o pomoc. Istota może odpowiedzieć na prośbę w formie informacji, ochrony lub innych usług, ale jej odpowiedź może być zależna od jej natury (np. czy jest przyjazna, neutralna czy wroga wobec tego wymiaru).",
+                "cost": 2
+            },
+            {
+                "name": "Wymiarowy Dotyk",
+                "category": "Dyscyplina",
+                "type": "Szamanizm",
+                "description": "Sensor może dotknąć istoty, sprawiając, że część jej bytu jest tymczasowo wyciągnięta z innego wymiaru do fizycznego świata. Cel musi wykonać rzut obronny na Charyzmę (CD 14) lub otrzymuje stan Oszołomienia na 1 turę i staje się bardziej podatny na obrażenia energetyczne lub nekrotyczne przez 1 minutę.",
+                "cost": 3
+            },
+            {
+                "name": "Prośba o Pomoc",
+                "category": "Dyscyplina",
+                "type": "Szamanizm",
+                "description": "Sensor może przyzwać do pomocy istotę z innego wymiaru, wykorzystując ich unikalne właściwości w ofensywie. Rzut k6 decyduje, jak silna będzie przyzwana istota: \n 1–2: Przywołany byt jest słaby, oferuje tylko podstawowe wsparcie, np. ostrzeżenie przed atakiem lub drobną pomoc w walce (np. mały atak energetyczny lub informacja o przeciwniku).  \n 3–5: Zwykła istota, która może zaoferować bardziej znaczące wsparcie, np. wystrzelić energetyczny pocisk, wywołać osłonę lub zaoferować lepsze informacje o przeciwniku, środowisku lub sytuacji. Możliwość interakcji z przeciwnikiem, jak z neutralnym bytem.  \n 6: Potężny byt, który może wywołać ogromne zmiany w walce, np. zniszczyć przeszkody, wywołać masowy atak energetyczny lub wywołać naturalne zjawisko, takie jak burzę czy trzęsienie ziemi (w zależności od okoliczności). Efekt jest potężny, ale wymaga dużych umiejętności kontrolowania tego typu bytów. Może to także wpłynąć na otoczenie, tworząc trwałe zmiany w świecie lub przyciągając inne istoty z innych wymiarów. ",
+                "cost": 5
+            }
 
     ]
 }

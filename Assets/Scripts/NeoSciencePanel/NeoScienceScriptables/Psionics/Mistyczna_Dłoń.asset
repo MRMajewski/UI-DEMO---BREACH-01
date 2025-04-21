@@ -16,7 +16,7 @@ MonoBehaviour:
   spellName: "Mistyczna D\u0142o\u0144"
   spellDescription: "Manipulujesz lub poruszasz niewielki obiekt w zasi\u0119gu 9
     metr\xF3w. Obiekt nie mo\u017Ce wa\u017Cy\u0107 wi\u0119cej ni\u017C 5 kg, ani
-    by\u0107 trzymany przez inn\u0105 istot\u0119. Mo\u017Cesz przesun\u0105\u0107
+    by\u0107 trzymany przez inn\u0105 istot\u0119. \n Mo\u017Cesz przesun\u0105\u0107
     go do 9 metr\xF3w, otwiera\u0107 drzwi, przelewa\u0107 p\u0142yny, itd. Je\u015Bli
     zostawisz go w powietrzu, spada na koniec tury."
   Spellcategory: 0

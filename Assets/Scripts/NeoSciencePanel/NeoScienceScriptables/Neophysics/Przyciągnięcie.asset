@@ -16,8 +16,7 @@ MonoBehaviour:
   spellName: "Przyci\u0105gni\u0119cie"
   spellDescription: "Wskazujesz przedmiot o masie do 5 kg w promieniu 9 metr\xF3w,
     kt\xF3ry natychmiast przylatuje do twojej r\u0119ki. Je\u015Bli obiekt jest trzymany
-    przez inn\u0105 istot\u0119, wykonuje ona rzut obronny na Si\u0142\u0119 (ST
-    10 + mod. Inteligencji)."
+    przez inn\u0105 istot\u0119, wykonuje ona rzut obronny na Si\u0142\u0119."
   spellLevel: 0
   spellType: 0
   spellCastingTime: Akcja

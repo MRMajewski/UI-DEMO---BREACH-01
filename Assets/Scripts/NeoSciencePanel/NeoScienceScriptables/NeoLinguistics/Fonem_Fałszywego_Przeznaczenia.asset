@@ -18,7 +18,8 @@ MonoBehaviour:
     \u017Ce jego pora\u017Cka jest nieunikniona. Cel musi wykona\u0107 rzut obronny
     na Charyzm\u0119. W przypadku pora\u017Cki w ka\u017Cdej swojej turze musi wykona\u0107
     rzut k20 \u2013 na wyniku 5 lub ni\u017Cszym traci akcj\u0119, tkwi\u0105c w
-    przekonaniu, \u017Ce nie ma sensu dzia\u0142a\u0107."
+    przekonaniu, \u017Ce nie ma sensu dzia\u0142a\u0107. Test ponawia na koniec ka\u017Cdej
+    tury."
   spellLevel: 2
   spellCastingTime: 1 akcja
   spellRange: "9 metr\xF3w"

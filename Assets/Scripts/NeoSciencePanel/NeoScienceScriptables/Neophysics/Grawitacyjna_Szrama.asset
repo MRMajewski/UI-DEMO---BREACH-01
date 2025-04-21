@@ -16,8 +16,8 @@ MonoBehaviour:
   spellName: Grawitacyjna Szrama
   spellDescription: "Zakrzywiasz czasoprzestrze\u0144, zostawiaj\u0105c niewidzialny
     \u015Blad. Nast\u0119pna istota, kt\xF3ra wejdzie na to miejsce w ci\u0105gu
-    1 rundy, musi wykona\u0107 rzut obronny na Zr\u0119czno\u015B\u0107 (ST 10 +
-    mod. Inteligencji). W przypadku pora\u017Cki zostaje przewr\xF3cona."
+    1 rundy, musi wykona\u0107 rzut obronny na Zr\u0119czno\u015B\u0107. W przypadku
+    pora\u017Cki zostaje przewr\xF3cona."
   spellLevel: 0
   spellType: 0
   spellCastingTime: Akcja

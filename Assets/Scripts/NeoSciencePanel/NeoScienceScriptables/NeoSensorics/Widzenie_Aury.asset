@@ -16,7 +16,7 @@ MonoBehaviour:
   spellName: Widzenie Aury
   spellDescription: "Sensor dostrzega aur\u0119 \u017Cywych istot, rozpoznaj\u0105c
     ich stan emocjonalny. Przy d\u0142u\u017Cszej obserwacji wykrywa te\u017C choroby
-    i zaburzenia.\nKoszt: 2"
+    i zaburzenia."
   Spellcategory: 0
   spellType: 0
   spellCost: 2

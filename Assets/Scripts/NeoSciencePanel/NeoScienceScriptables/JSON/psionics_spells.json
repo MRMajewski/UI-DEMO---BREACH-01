@@ -4,21 +4,21 @@
         "name": "Psychiczny Młot",
         "category": "Talent",
         "type": "Wspólna",
-        "description": "Tworzysz telekinetyczną dłoń, która chwyta jedno stworzenie w zasięgu 36 metrów. Cel wykonuje rzut obronny na Siłę. Niepowodzenie: otrzymuje 1d6 obrażeń od siły i (jeśli jest Duży lub mniejszy) zostaje przesunięty o 3 metry w wybranym kierunku.\nNie można unieść celu w powietrze, chyba że już tam był.",
+        "description": "Tworzysz telekinetyczną dłoń, która chwyta jedno stworzenie w zasięgu 36 metrów. Cel wykonuje rzut obronny na Siłę. \n Niepowodzenie: otrzymuje 1d6 obrażeń od siły i (jeśli jest Duży lub mniejszy) zostaje przesunięty o 3 metry w wybranym kierunku.\nNie można unieść celu w powietrze, chyba że już tam był.",
         "cost": "0"
     },
     {
         "name": "Mistyczna Dłoń",
         "category": "Talent",
         "type": "Wspólna",
-        "description": "Manipulujesz lub poruszasz niewielki obiekt w zasięgu 9 metrów. Obiekt nie może ważyć więcej niż 5 kg, ani być trzymany przez inną istotę. Możesz przesunąć go do 9 metrów, otwierać drzwi, przelewać płyny, itd. Jeśli zostawisz go w powietrzu, spada na koniec tury.",
+        "description": "Manipulujesz lub poruszasz niewielki obiekt w zasięgu 9 metrów. Obiekt nie może ważyć więcej niż 5 kg, ani być trzymany przez inną istotę. \n Możesz przesunąć go do 9 metrów, otwierać drzwi, przelewać płyny, itd. Jeśli zostawisz go w powietrzu, spada na koniec tury.",
         "cost": "0"
     },
     {
         "name": "Psychiczny Cios",
         "category": "Talent",
         "type": "Wspólna",
-        "description": "Atakujesz umysł istoty w zasięgu 36 metrów. Cel wykonuje rzut obronny na Inteligencję.\nNiepowodzenie: 1k6 obrażeń psychicznych.\nObrażenia rosną z poziomem:\n5. poziom= 2k6\n11 poziom= 3k6\n15poziom=4k6",
+        "description": "Atakujesz umysł istoty w zasięgu 36 metrów. Cel wykonuje rzut obronny na Inteligencję.\nNiepowodzenie: 1k6 obrażeń psychicznych.\n Obrażenia rosną z poziomem:\n 5. poziom= 2k6\n 11 poziom= 3k6 \n 15 poziom=4k6",
         "cost": "0"
     },
     {
@@ -39,7 +39,7 @@
         "name": "Psychiczna Bariera",
         "category": "Dyscyplina",
         "type": "Wspólna",
-        "description": "Reagujesz w odpowiedzi na atak lub efekt mentalny, wzmacniając psychiczną osłonę.\nOchrona umysłu: przewaga na rzuty obronne przeciwko strachowi, urokowi i innym efektom psychicznym do końca następnej tury. Redukcja obrażeń: zmniejszasz obrażenia fizyczne o 2 za każdy punkt psi. Efekt trwa, dopóki utrzymujesz koncentrację (1 min).\nSkalowanie:\n4+ punktów: działa też na nieczystą magię (np. magiczny miecz).\n6+ punktów: ataki, które sprowadziłyby cię do 0 HP, zostawiają cię na 1 HP.",
+        "description": "Reagujesz w odpowiedzi na atak lub efekt mentalny, wzmacniając psychiczną osłonę.\n Ochrona umysłu: przewaga na rzuty obronne przeciwko strachowi, urokowi i innym efektom psychicznym do końca następnej tury. \n Redukcja obrażeń: zmniejszasz obrażenia fizyczne o 2 za każdy punkt psi. Efekt trwa, dopóki utrzymujesz koncentrację (1 min).\n Skalowanie:\n 4+ punktów: działa też na nieczystą magię (np. magiczny miecz).\n6+ punktów: ataki, które sprowadziłyby cię do 0 HP, zostawiają cię na 1 HP.",
         "cost": "1"
     },
     {

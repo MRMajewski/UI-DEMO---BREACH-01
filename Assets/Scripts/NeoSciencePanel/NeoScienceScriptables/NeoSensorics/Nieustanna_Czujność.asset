@@ -16,7 +16,7 @@ MonoBehaviour:
   spellName: "Nieustanna Czujno\u015B\u0107"
   spellDescription: "Sensor nie mo\u017Ce zosta\u0107 zaskoczony. Je\u015Bli przeciwnik
     atakuje go z zaskoczenia, Sensor automatycznie dostaje swoj\u0105 tur\u0119 przed
-    atakiem.\nKoszt: 2"
+    atakiem. Przeciwnik traci bonusy wynikaj\u0105ce z zaskoczenia"
   Spellcategory: 0
   spellType: 0
   spellCost: 2

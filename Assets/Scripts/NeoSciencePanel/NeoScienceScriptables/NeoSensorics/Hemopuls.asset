@@ -17,12 +17,12 @@ MonoBehaviour:
   spellDescription: "Zak\u0142\xF3casz przep\u0142yw krwi i dzia\u0142anie organ\xF3w
     przeciwnika, powoduj\u0105c powa\u017Cne os\u0142abienie. Cel musi wykona\u0107
     rzut obronny (Kondycja). Je\u015Bli go nie zda, wybierasz jeden z efekt\xF3w:
-    Krwawienie \u2013 Cel otrzymuje 1k6 obra\u017Ce\u0144 na pocz\u0105tku swojej
+    \nKrwawienie \u2013 Cel otrzymuje 1k6 obra\u017Ce\u0144 na pocz\u0105tku swojej
     tury przez 1 minut\u0119 (mo\u017Ce zako\u0144czy\u0107 stan testem Kondycji
-    na ko\u0144cu ka\u017Cdej tury).  Spowolnienie \u2013 Cel ma o po\u0142ow\u0119
-    zmniejszon\u0105 pr\u0119dko\u015B\u0107 na 1 minut\u0119. Og\u0142uszenie \u2013
-    Cel nie mo\u017Ce wykonywa\u0107 akcji ani reakcji do ko\u0144ca swojej nast\u0119pnej
-    tury.  "
+    na ko\u0144cu ka\u017Cdej tury).  \n Spowolnienie \u2013 Cel ma o po\u0142ow\u0119
+    zmniejszon\u0105 pr\u0119dko\u015B\u0107 na 1 minut\u0119. \n Og\u0142uszenie
+    \u2013 Cel nie mo\u017Ce wykonywa\u0107 akcji ani reakcji do ko\u0144ca swojej
+    nast\u0119pnej tury."
   Spellcategory: 1
   spellType: 3
   spellCost: 3

@@ -16,10 +16,10 @@ MonoBehaviour:
   spellName: Ostateczna Diagnoza
   spellDescription: "Twoje sensoryczne zdolno\u015Bci pozwalaj\u0105 ci natychmiast
     oceni\u0107 krytyczny stan istoty. Wybierasz jedno stworzenie w zasi\u0119gu
-    wzroku i poznajesz nast\u0119puj\u0105ce informacje: Obecny poziom punkt\xF3w
-    wytrzyma\u0142o\u015Bci (HP) oraz ich maksymaln\u0105 warto\u015B\u0107. Obecne
+    wzroku i poznajesz nast\u0119puj\u0105ce informacje: \n Obecny poziom punkt\xF3w
+    wytrzyma\u0142o\u015Bci oraz ich maksymaln\u0105 warto\u015B\u0107. \n Obecne
     negatywne efekty i stany, na kt\xF3re istota jest podatna (np. zatrucie, parali\u017C).
-    Czy istota jest bliska \u015Bmierci (je\u015Bli jej HP jest poni\u017Cej 25%
+    \n Czy istota jest bliska \u015Bmierci (je\u015Bli jej HP jest poni\u017Cej 25%
     maksymalnej warto\u015Bci). "
   Spellcategory: 1
   spellType: 3

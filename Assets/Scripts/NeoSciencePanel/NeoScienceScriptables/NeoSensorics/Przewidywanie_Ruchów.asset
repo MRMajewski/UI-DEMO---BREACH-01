@@ -15,9 +15,8 @@ MonoBehaviour:
   neoScienceCategory: 2
   spellName: "Przewidywanie Ruch\xF3w"
   spellDescription: "Przez 1 tur\u0119 Sensor otrzymuje przewag\u0119 na testy obrony
-    przeciwko jednemu wybranemu przeciwnikowi. Je\u015Bli przeciwnik wykonuje atak,
-    Sensor zyskuje r\xF3wnie\u017C przewag\u0119 do testu ataku przeciwko niemu.\nKoszt:
-    2"
+    przeciwko jednemu wybranemu przeciwnikowi. \nJe\u015Bli przeciwnik wykonuje atak,
+    Sensor zyskuje r\xF3wnie\u017C przewag\u0119 do testu ataku przeciwko niemu."
   Spellcategory: 1
   spellType: 1
   spellCost: 2

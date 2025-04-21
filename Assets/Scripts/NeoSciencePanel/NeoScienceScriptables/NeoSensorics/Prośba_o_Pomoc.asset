@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: "Pro\u015Bba_o_Pomoc"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: "Pro\u015Bba o Pomoc"
+  spellDescription: "Sensor mo\u017Ce przyzwa\u0107 do pomocy istot\u0119 z innego
+    wymiaru, wykorzystuj\u0105c ich unikalne w\u0142a\u015Bciwo\u015Bci w ofensywie.
+    Rzut k6 decyduje, jak silna b\u0119dzie przyzwana istota: \n 1\u20132: Przywo\u0142any
+    byt jest s\u0142aby, oferuje tylko podstawowe wsparcie, np. ostrze\u017Cenie
+    przed atakiem lub drobn\u0105 pomoc w walce (np. ma\u0142y atak energetyczny
+    lub informacja o przeciwniku).  \n 3\u20135: Zwyk\u0142a istota, kt\xF3ra mo\u017Ce
+    zaoferowa\u0107 bardziej znacz\u0105ce wsparcie, np. wystrzeli\u0107 energetyczny
+    pocisk, wywo\u0142a\u0107 os\u0142on\u0119 lub zaoferowa\u0107 lepsze informacje
+    o przeciwniku, \u015Brodowisku lub sytuacji. Mo\u017Cliwo\u015B\u0107 interakcji
+    z przeciwnikiem, jak z neutralnym bytem.  \n 6: Pot\u0119\u017Cny byt, kt\xF3ry
+    mo\u017Ce wywo\u0142a\u0107 ogromne zmiany w walce, np. zniszczy\u0107 przeszkody,
+    wywo\u0142a\u0107 masowy atak energetyczny lub wywo\u0142a\u0107 naturalne zjawisko,
+    takie jak burz\u0119 czy trz\u0119sienie ziemi (w zale\u017Cno\u015Bci od okoliczno\u015Bci).
+    Efekt jest pot\u0119\u017Cny, ale wymaga du\u017Cych umiej\u0119tno\u015Bci kontrolowania
+    tego typu byt\xF3w. Mo\u017Ce to tak\u017Ce wp\u0142yn\u0105\u0107 na otoczenie,
+    tworz\u0105c trwa\u0142e zmiany w \u015Bwiecie lub przyci\u0105gaj\u0105c inne
+    istoty z innych wymiar\xF3w. "
+  Spellcategory: 1
+  spellType: 2
+  spellCost: 5

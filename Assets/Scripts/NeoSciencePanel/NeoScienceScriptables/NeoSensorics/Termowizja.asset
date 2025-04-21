@@ -15,7 +15,8 @@ MonoBehaviour:
   neoScienceCategory: 2
   spellName: Termowizja
   spellDescription: "Sensor mo\u017Ce dostrzega\u0107 \u017Ar\xF3d\u0142a ciep\u0142a,
-    widz\u0105c istoty \u017Cywe w ciemno\u015Bci.\nKoszt: 1"
+    widz\u0105c istoty \u017Cywe w ciemno\u015Bci. Nie ma utrudnie\u0144 w walce
+    z niewidocznym przeciwnikiem w zasi\u0119gu dzia\u0142ania zmys\u0142u."
   Spellcategory: 0
   spellType: 0
   spellCost: 1

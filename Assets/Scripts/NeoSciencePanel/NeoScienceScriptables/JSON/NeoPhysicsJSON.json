@@ -6,7 +6,7 @@
       "type": "Grawiturgia",
       "castingTime": "Akcja",
       "range": "9 metrów",
-      "description": "Wskazujesz przedmiot o masie do 5 kg w promieniu 9 metrów, który natychmiast przylatuje do twojej ręki. Jeśli obiekt jest trzymany przez inną istotę, wykonuje ona rzut obronny na Siłę (ST 10 + mod. Inteligencji)."
+      "description": "Wskazujesz przedmiot o masie do 5 kg w promieniu 9 metrów, który natychmiast przylatuje do twojej ręki. Jeśli obiekt jest trzymany przez inną istotę, wykonuje ona rzut obronny na Siłę."
     },
     {
       "name": "Grawitacyjna Szrama",
@@ -14,7 +14,7 @@
       "type": "Grawiturgia",
       "castingTime": "Akcja",
       "range": "9 metrów (obszar 3x3 m)",
-      "description": "Zakrzywiasz czasoprzestrzeń, zostawiając niewidzialny ślad. Następna istota, która wejdzie na to miejsce w ciągu 1 rundy, musi wykonać rzut obronny na Zręczność (ST 10 + mod. Inteligencji). W przypadku porażki zostaje przewrócona."
+      "description": "Zakrzywiasz czasoprzestrzeń, zostawiając niewidzialny ślad. Następna istota, która wejdzie na to miejsce w ciągu 1 rundy, musi wykonać rzut obronny na Zręczność. W przypadku porażki zostaje przewrócona."
     },
     {
       "name": "Uderzenie Grawitacyjne",
@@ -22,7 +22,7 @@
       "type": "Grawiturgia",
       "castingTime": "Akcja",
       "range": "6 metrów",
-      "description": "Tworzysz krótką, skoncentrowaną falę grawitacyjną, która wciska przeciwnika w ziemię. Cel musi wykonać rzut obronny na Siłę (ST 10 + mod. Inteligencji), w przeciwnym razie:\nZostaje powalony na ziemię. Otrzymuje 1k6 obrażeń obuchowych. Po osiągnięciu 5. poziomu, obrażenia wzrastają do 2k6."
+      "description": "Tworzysz krótką, skoncentrowaną falę grawitacyjną, która wciska przeciwnika w ziemię. Cel musi wykonać rzut obronny na Siłę, w przeciwnym razie:\nZostaje powalony na ziemię. Otrzymuje 1k6 obrażeń obuchowych. Po osiągnięciu 5. poziomu, obrażenia wzrastają do 2k6."
     },
     {
       "name": "Piórkospadanie",
@@ -46,7 +46,7 @@
       "type": "Grawiturgia",
       "castingTime": "Akcja",
       "range": "9 metrów",
-      "description": "Uderzasz pojedynczego przeciwnika falą grawitacyjną. Musi wykonać rzut obronny na Siłę (ST sekwencji), w przeciwnym razie:\nZostaje przewrócony.\nOtrzymuje 2k6 obrażeń obuchowych.\nNa wyższym poziomie: Przy rzuceniu na poziomie 3 lub wyższym, zwiększasz obrażenia o 1k6 za każdy poziom powyżej 1.\nZdany ST powoduje, że istota otrzymuje tylko połowę obrażeń."
+      "description": "Uderzasz pojedynczego przeciwnika falą grawitacyjną. Musi wykonać rzut obronny na Siłę, w przeciwnym razie:\nZostaje przewrócony.\nOtrzymuje 2k6 obrażeń obuchowych.\nNa wyższym poziomie: Przy rzuceniu na poziomie 3 lub wyższym, zwiększasz obrażenia o 1k6 za każdy poziom powyżej 1.\nZdany ST powoduje, że istota otrzymuje tylko połowę obrażeń."
     },
     {
       "name": "Grawitacyjny Impuls",
@@ -54,7 +54,7 @@
       "type": "Grawiturgia",
       "castingTime": "1 akcja",
       "range": "Wokół ciebie (promień 3 m)",
-      "description": "Wytwarzasz silny impuls grawitacyjny, który odrzuca wszystkich wrogów w promieniu 3 metrów o 3 metry od ciebie.\nMuszą wykonać rzut obronny na Siłę (ST sekwencji), w przeciwnym razie zostają odepchnięci i otrzymują 2k6+U obrażeń obuchowych.\nZdany ST zadaje tylko połowę obrażeń"
+      "description": "Wytwarzasz silny impuls grawitacyjny, który odrzuca wszystkich wrogów w promieniu 3 metrów o 3 metry od ciebie.\nMuszą wykonać rzut obronny na Siłę, w przeciwnym razie zostają odepchnięci i otrzymują 2k6+U obrażeń obuchowych.\nZdany ST zadaje tylko połowę obrażeń"
     },
     {
       "name": "Lewitacja",
@@ -73,7 +73,7 @@
       "description": "Unosisz w powietrzu przedmioty o wadze do 50 kg, kontrolując ich ruchy. Używając bonusowej akcji możesz poruszyć przedmioty się o 9 metrów na rundę."
     },
     {
-      "name": "Grawitacyjne Uderzenie (wersja silniejsza)",
+      "name": "Grawitacyjne Uderzenie - Mistrz",
       "level": 3,
       "type": "Grawiturgia",
       "castingTime": "1 akcja",
@@ -174,7 +174,7 @@
       "type": "Chronoturgia",
       "castingTime": "1 akcja",
       "range": "18 metrów (obszar o promieniu 3 metrów)",
-      "description": "Tworzysz niestabilne zakłócenie w strumieniu czasu na wybranym obszarze. Wszystkie istoty w jego obrębie muszą wykonać rzut obronny na Mądrość (ST sekwencji). Przy porażce:\nIch tura zostaje przesunięta na koniec rundy, niezależnie od aktualnej kolejności w inicjatywie.\nDo końca rundy mają utrudnienie na testy Zręczności.\nIstoty odporne na efekty paraliżu lub ogłuszenia wykonują ten rzut z premią +2."
+      "description": "Tworzysz niestabilne zakłócenie w strumieniu czasu na wybranym obszarze. Wszystkie istoty w jego obrębie muszą wykonać rzut obronny na Mądrość. Przy porażce:\nIch tura zostaje przesunięta na koniec rundy, niezależnie od aktualnej kolejności w inicjatywie.\nDo końca rundy mają utrudnienie na testy Zręczności.\nIstoty odporne na efekty paraliżu lub ogłuszenia wykonują ten rzut z premią +2."
     },
     {
       "name": "Czasowa Entropia",

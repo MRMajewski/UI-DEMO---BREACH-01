@@ -16,8 +16,8 @@ MonoBehaviour:
   spellName: Psychiczny Cios
   spellDescription: "Atakujesz umys\u0142 istoty w zasi\u0119gu 36 metr\xF3w. Cel
     wykonuje rzut obronny na Inteligencj\u0119.\nNiepowodzenie: 1k6 obra\u017Ce\u0144
-    psychicznych.\nObra\u017Cenia rosn\u0105 z poziomem:\n5. poziom= 2k6\n11 poziom=
-    3k6\n15poziom=4k6"
+    psychicznych.\n Obra\u017Cenia rosn\u0105 z poziomem:\n 5. poziom= 2k6\n 11 poziom=
+    3k6 \n 15 poziom=4k6"
   Spellcategory: 0
   spellType: 0
   spellCost: 0

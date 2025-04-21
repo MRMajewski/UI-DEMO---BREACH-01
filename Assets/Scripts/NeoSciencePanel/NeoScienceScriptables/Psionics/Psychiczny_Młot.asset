@@ -16,8 +16,8 @@ MonoBehaviour:
   spellName: "Psychiczny M\u0142ot"
   spellDescription: "Tworzysz telekinetyczn\u0105 d\u0142o\u0144, kt\xF3ra chwyta
     jedno stworzenie w zasi\u0119gu 36 metr\xF3w. Cel wykonuje rzut obronny na Si\u0142\u0119.
-    Niepowodzenie: otrzymuje 1d6 obra\u017Ce\u0144 od si\u0142y i (je\u015Bli jest
-    Du\u017Cy lub mniejszy) zostaje przesuni\u0119ty o 3 metry w wybranym kierunku.\nNie
+    \n Niepowodzenie: otrzymuje 1d6 obra\u017Ce\u0144 od si\u0142y i (je\u015Bli
+    jest Du\u017Cy lub mniejszy) zostaje przesuni\u0119ty o 3 metry w wybranym kierunku.\nNie
     mo\u017Cna unie\u015B\u0107 celu w powietrze, chyba \u017Ce ju\u017C tam by\u0142."
   Spellcategory: 0
   spellType: 0

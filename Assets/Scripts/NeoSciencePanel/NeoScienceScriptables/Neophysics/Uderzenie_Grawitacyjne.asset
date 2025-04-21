@@ -16,9 +16,9 @@ MonoBehaviour:
   spellName: Uderzenie Grawitacyjne
   spellDescription: "Tworzysz kr\xF3tk\u0105, skoncentrowan\u0105 fal\u0119 grawitacyjn\u0105,
     kt\xF3ra wciska przeciwnika w ziemi\u0119. Cel musi wykona\u0107 rzut obronny
-    na Si\u0142\u0119 (ST 10 + mod. Inteligencji), w przeciwnym razie:\nZostaje powalony
-    na ziemi\u0119. Otrzymuje 1k6 obra\u017Ce\u0144 obuchowych. Po osi\u0105gni\u0119ciu
-    5. poziomu, obra\u017Cenia wzrastaj\u0105 do 2k6."
+    na Si\u0142\u0119, w przeciwnym razie:\nZostaje powalony na ziemi\u0119. Otrzymuje
+    1k6 obra\u017Ce\u0144 obuchowych. Po osi\u0105gni\u0119ciu 5. poziomu, obra\u017Cenia
+    wzrastaj\u0105 do 2k6."
   spellLevel: 0
   spellType: 0
   spellCastingTime: Akcja

@@ -49,12 +49,12 @@
       "description": "Czas trwania: Koncentracja, do 1 minuty\nTwój głos wpływa na ośrodek wymiotny mózgu, wywołując mdłości i osłabienie. Cel musi wykonać rzut obronny na Kondycję. W przypadku porażki cierpi na silne nudności, co powoduje stan ogłuszenia do końca działania Fonemu."
     },
     {
-      "name": "Fonem Fałszywego Przeznaczenia",
-      "level": 2,
-      "type": "",
-      "castingTime": "1 akcja",
-      "range": "9 metrów",
-      "description": "Czas trwania: 1 minuta\nTwój głos wmawia przeciwnikowi, że jego porażka jest nieunikniona. Cel musi wykonać rzut obronny na Charyzmę. W przypadku porażki w każdej swojej turze musi wykonać rzut k20 – na wyniku 5 lub niższym traci akcję, tkwiąc w przekonaniu, że nie ma sensu działać."
+        "name": "Fonem Fałszywego Przeznaczenia",
+        "level": 2,
+        "type": "",
+        "castingTime": "1 akcja",
+        "range": "9 metrów",
+        "description": "Czas trwania: 1 minuta\nTwój głos wmawia przeciwnikowi, że jego porażka jest nieunikniona. Cel musi wykonać rzut obronny na Charyzmę. W przypadku porażki w każdej swojej turze musi wykonać rzut k20 – na wyniku 5 lub niższym traci akcję, tkwiąc w przekonaniu, że nie ma sensu działać. Test ponawia na koniec każdej tury."
     },
     {
       "name": "Fonem Mistrzostwa",

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class NeoScienceSubPanel : MonoBehaviour
@@ -10,7 +11,7 @@ public class NeoScienceSubPanel : MonoBehaviour
 
     public void Setup<T>(List<T> spellList) where T : SpellData
     {
-
+        // Usuñ stare UI
         foreach (var node in instantiatedSpells)
         {
             if (node != null)
@@ -19,12 +20,58 @@ public class NeoScienceSubPanel : MonoBehaviour
 
         instantiatedSpells.Clear();
 
+        // Dodaj nowe
         foreach (var spell in spellList)
         {
             var spellUI = Instantiate(spellPrefab, spellListParent);
-
             spellUI.Setup(spell);
             instantiatedSpells.Add(spellUI);
+        }
+    }
+
+    public void SortByName()
+    {
+        var sorted = instantiatedSpells
+            .OrderBy(n => n.NameText.text)
+            .ToList();
+
+        ReorderNodes(sorted);
+    }
+
+    public void GroupByType()
+    {
+        var sorted = instantiatedSpells
+            .OrderBy(n => n.TypeText.text)
+            .ThenBy(l =>
+            {
+                int.TryParse(l.LevelText.text, out int lvl);
+                return lvl;
+            })
+            .ToList();
+
+        ReorderNodes(sorted);
+    }
+
+    public void GroupByLevel()
+    {
+        var sorted = instantiatedSpells
+            .OrderBy(n =>
+            {
+                int.TryParse(n.LevelText.text, out int lvl);
+                return lvl;
+            })
+          //  .ThenBy(n => n.CategoryText.text)
+            .ThenBy(n => n.TypeText.text)
+            .ToList();
+
+        ReorderNodes(sorted);
+    }
+
+    private void ReorderNodes(List<SpellNode> sortedList)
+    {
+        for (int i = 0; i < sortedList.Count; i++)
+        {
+            sortedList[i].transform.SetSiblingIndex(i);
         }
     }
 }

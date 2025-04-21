@@ -8,8 +8,6 @@ public class NeoScienceInfoPanel : AttributesInfoPanel
     [SerializeField]
     private NeoScienceDatabase neoScienceDatabase;
 
-    [SerializeField] private List<NeoScienceSubPanel> subPanels;
-
     [SerializeField] private NeoScienceSubPanel neoPhysicsSubPanel;
     [SerializeField] private NeoScienceSubPanel neoLinguisticSubPanel;
     [SerializeField] private NeoScienceSubPanel neoSensoricsSubPanel;
@@ -19,7 +17,6 @@ public class NeoScienceInfoPanel : AttributesInfoPanel
     {
         base.InitializePanel();
     }
-
 
     [ContextMenu("Initialize Sub Panels Data")]
     public void InitSubPanelsData()

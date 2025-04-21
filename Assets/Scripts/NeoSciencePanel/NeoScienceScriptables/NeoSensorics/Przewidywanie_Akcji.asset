@@ -17,7 +17,7 @@ MonoBehaviour:
   spellDescription: "Sensor wybiera jednego przeciwnika \u2013 MG ujawnia jego planowane
     dzia\u0142ania w nadchodz\u0105cej turze. Je\u015Bli przeciwnik wykona ujawnion\u0105
     akcj\u0119, Sensor otrzymuje +2 do ataku lub obrony przeciwko niemu do ko\u0144ca
-    tej tury.\nKoszt: 3"
+    tej tury."
   Spellcategory: 1
   spellType: 1
   spellCost: 3

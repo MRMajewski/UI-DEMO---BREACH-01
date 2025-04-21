@@ -15,7 +15,7 @@ MonoBehaviour:
   neoScienceCategory: 2
   spellName: "\u015Awiadomo\u015B\u0107 Przestrzenna"
   spellDescription: "Sensor zawsze wie, gdzie si\u0119 znajduje, nawet w kompletnej
-    ciemno\u015Bci lub przy iluzjach przestrzennych.\nKoszt: 1"
+    ciemno\u015Bci lub przy iluzjach przestrzennych."
   Spellcategory: 0
   spellType: 0
   spellCost: 1
