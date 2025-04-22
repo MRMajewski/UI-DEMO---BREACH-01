@@ -20,7 +20,7 @@ MonoBehaviour:
     mocno i konkretnie. Lubi walk\u0119 bezpo\u015Bredni\u0105 i brutaln\u0105 z
     u\u017Cyciem du\u017Cych niebezpiecznych narz\u0119dzi np. rakietowych m\u0142ot\xF3w,
     albo plazmowych topor\xF3w. "
-  classIcon: {fileID: 21300000, guid: 3c6ff6ba6df54894a819b59c9cd106ce, type: 3}
+  classIcon: {fileID: 21300000, guid: 1426ef3cfee7ffb49a52dc2bd88495e3, type: 3}
   subclasses:
   - "\t<size=150%>Wata\u017Cka</size>\nWojownik, specjalista od napieprzania. Dobiera
     styl walki jak wojownik\n\r\n\t<size=120%>- Styl Walki (Fighting Style):</size>\nNa

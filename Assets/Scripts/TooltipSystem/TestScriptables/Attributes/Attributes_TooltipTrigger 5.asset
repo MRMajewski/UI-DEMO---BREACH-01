@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerName: "Atrybuty Inteligencja Si\u0142a Zmys\u0142y Charyzma Zr\u0119czno\u015B\u0107
     Budowa"
-  tooltipText: "Je\u015Bli chcesz i\u0119 dowiedzie\u0107 wi\u0119cej o Cechach Heros\xF3w..."
+  tooltipText: "Je\u015Bli chcesz si\u0119 dowiedzie\u0107 wi\u0119cej o Cechach
+    Heros\xF3w..."
   tooltipType: 1
   actionName: ToAttributes

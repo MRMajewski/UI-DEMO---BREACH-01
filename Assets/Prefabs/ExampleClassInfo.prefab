@@ -2253,6 +2253,7 @@ GameObject:
   - component: {fileID: 3598946040506287519}
   - component: {fileID: 8946618313602834041}
   - component: {fileID: 6497585497770289330}
+  - component: {fileID: 365398323810462255}
   m_Layer: 5
   m_Name: ExampleClassInfo
   m_TagString: Untagged
@@ -2343,6 +2344,20 @@ MonoBehaviour:
   triggerAdders:
   - {fileID: 3398574876317298503}
   triggerAddersProficiencies: {fileID: 0}
+--- !u!114 &365398323810462255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4773206482580718855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0f0bde3bd7c70498158ff762d45033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 8013305370816840491}
+  scrollDuration: 0.25
 --- !u!1 &4854340325243398414
 GameObject:
   m_ObjectHideFlags: 0
@@ -3355,6 +3370,7 @@ MonoBehaviour:
   DetailedDescriptionText: {fileID: 93181108403766368}
   DetailedDescriptionGameObject: {fileID: 3800662525783215181}
   isOpen: 0
+  uIScrollViewFitter: {fileID: 365398323810462255}
   levelIndexText: {fileID: 1847767501524843158}
   levelProficiencyBonusText: {fileID: 8597777832592316378}
   triggerAdders:
@@ -4200,6 +4216,7 @@ MonoBehaviour:
   DetailedDescriptionText: {fileID: 1841198195401029420}
   DetailedDescriptionGameObject: {fileID: 7385475005421731763}
   isOpen: 0
+  uIScrollViewFitter: {fileID: 365398323810462255}
 --- !u!114 &7260494204316500591
 MonoBehaviour:
   m_ObjectHideFlags: 0

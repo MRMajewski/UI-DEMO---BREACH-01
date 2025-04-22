@@ -4,7 +4,6 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-
 public class KnowledgeNode : KnowledgeNodeBase
 {
     [SerializeField]
@@ -25,5 +24,7 @@ public class KnowledgeNode : KnowledgeNodeBase
         contentText.gameObject.SetActive(isOpen);
 
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.parent.GetComponent<RectTransform>());
+
+        CheckVisibilityDelayed();
     }
 }

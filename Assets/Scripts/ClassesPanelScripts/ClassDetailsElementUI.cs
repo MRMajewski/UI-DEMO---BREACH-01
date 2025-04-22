@@ -18,6 +18,9 @@ public class ClassDetailsElementUI : MonoBehaviour
     [SerializeField]
     protected bool isOpen = false;
 
+    [SerializeField]
+    protected UIScrollViewFitter uIScrollViewFitter;
+
     public virtual void Initialize(SubClassInfo data)
     { 
         SimpleDescription.text = data.subClassName;
@@ -36,5 +39,21 @@ public class ClassDetailsElementUI : MonoBehaviour
         LayoutRebuilder.ForceRebuildLayoutImmediate(DetailedDescriptionText.GetComponent<RectTransform>());
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.GetComponent<RectTransform>());
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.parent.GetComponent<RectTransform>());
+
+
+        CheckVisibilityDelayed();
+    }
+
+    public void CheckVisibilityDelayed()
+    {
+        if (this.gameObject.activeSelf)
+            StartCoroutine(EnsureVisibleNextFrame(uIScrollViewFitter));
+    }
+
+    private IEnumerator EnsureVisibleNextFrame(UIScrollViewFitter uIScrollViewFitter)
+    {
+        yield return new WaitForEndOfFrame();
+
+        uIScrollViewFitter?.EnsureVisibleSmooth(this.GetComponent<RectTransform>());
     }
 }

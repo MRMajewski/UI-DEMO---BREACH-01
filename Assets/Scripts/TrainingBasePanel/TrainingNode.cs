@@ -29,6 +29,8 @@ public class TrainingNode : KnowledgeNodeBase
         contentText.gameObject.SetActive(isOpen);
 
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.parent.GetComponent<RectTransform>());
+
+        CheckVisibilityDelayed();
     }
 
     private void Start()

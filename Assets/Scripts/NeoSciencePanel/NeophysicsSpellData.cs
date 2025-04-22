@@ -11,7 +11,7 @@ public class NeophysicsSpellData : SpellData
     public string spellRange;
     private void OnEnable()
     {
-        neoScienceCategory = NeoScienceCategory.Neophysics; // Przypisz odpowiedni¹ wartoœæ
+        neoScienceCategory = NeoScienceCategory.Neophysics; 
     }
 }
 

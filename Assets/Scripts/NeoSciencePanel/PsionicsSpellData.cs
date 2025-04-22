@@ -11,6 +11,6 @@ public class PsionicsSpellData : SpellData
 
     private void OnEnable()
     {
-        neoScienceCategory = NeoScienceCategory.Psionics; // Przypisz odpowiedni¹ wartoœæ
+        neoScienceCategory = NeoScienceCategory.Psionics; 
     }
 }

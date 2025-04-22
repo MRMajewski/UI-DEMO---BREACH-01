@@ -21,7 +21,7 @@ MonoBehaviour:
     rzeczy, kt\xF3re umykaj\u0105 zwyk\u0142ym ludziom, a ich zdolno\u015Bci pozwalaj\u0105
     na wykrywanie, leczenie, przewidywanie przysz\u0142o\u015Bci i manipulowanie
     energi\u0105 w r\xF3\u017Cnorodny spos\xF3b."
-  classIcon: {fileID: 21300000, guid: a4faa8cf5c945534fbe0e27de6d8a723, type: 3}
+  classIcon: {fileID: 21300000, guid: 52ca266cf4901b44ca2de5645e02b228, type: 3}
   subclasses:
   - "\t<size=150%>Wieszcz</size>\nMistrzowie percepcji i intuicji. Potrafi\u0105
     przewidywa\u0107 przysz\u0142o\u015B\u0107 na kr\xF3tki okres, co daje im niesamowit\u0105

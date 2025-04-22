@@ -33,8 +33,6 @@ public class NeoScienceDatabase : MonoBehaviour
 
         Debug.Log($"Znaleziono: Neofizyka {NeophysicsSpellsList.Count}, Linguistics {NeoLinguisticsSpellsList.Count}, Sensorics {NeoSensoricsSpellsList.Count}, Psionika {PsionicsSpellsList.Count}");
 
-
-
         void LoadNeophysicsData()
         {
             string[] guids = AssetDatabase.FindAssets("t:ScriptableObject", new[] { "Assets/Scripts/NeoSciencePanel/NeoScienceScriptables/Neophysics" });
@@ -85,9 +83,7 @@ public class NeoScienceDatabase : MonoBehaviour
                 if (so is PsionicsSpellData)
                     PsionicsSpellsList.Add((PsionicsSpellData)so);
             }
-
         }
-
     }
 #endif
 }

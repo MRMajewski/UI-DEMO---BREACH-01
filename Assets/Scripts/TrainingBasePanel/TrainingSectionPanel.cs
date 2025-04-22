@@ -30,7 +30,8 @@ public class TrainingSectionPanel : MonoBehaviour
 
     public List<TooltipTriggerGameObjectAdder> TriggerGameObjectAdder { get { return triggerAdders; } }
 
-
+    [SerializeField]
+    protected UIScrollViewFitter uIScrollViewFitter;
 
     public void InitializeTrainingSection(TrainingBaseDataSection trainingBaseDataSection)
     {
@@ -59,7 +60,6 @@ public class TrainingSectionPanel : MonoBehaviour
             {
                 DestroyImmediate(item.gameObject);
             }
-
 
             foreach (TrainingBaseDataNode trainingNode in trainingBaseNodesList)
             {

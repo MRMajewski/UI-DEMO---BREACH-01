@@ -11,7 +11,6 @@ public class NeoScienceSubPanel : MonoBehaviour
 
     public void Setup<T>(List<T> spellList) where T : SpellData
     {
-        // Usuñ stare UI
         foreach (var node in instantiatedSpells)
         {
             if (node != null)
@@ -20,7 +19,6 @@ public class NeoScienceSubPanel : MonoBehaviour
 
         instantiatedSpells.Clear();
 
-        // Dodaj nowe
         foreach (var spell in spellList)
         {
             var spellUI = Instantiate(spellPrefab, spellListParent);
@@ -60,7 +58,6 @@ public class NeoScienceSubPanel : MonoBehaviour
                 int.TryParse(n.LevelText.text, out int lvl);
                 return lvl;
             })
-          //  .ThenBy(n => n.CategoryText.text)
             .ThenBy(n => n.TypeText.text)
             .ToList();
 
@@ -72,6 +69,15 @@ public class NeoScienceSubPanel : MonoBehaviour
         for (int i = 0; i < sortedList.Count; i++)
         {
             sortedList[i].transform.SetSiblingIndex(i);
+        }
+    }
+
+    public void CloseAllSpells()
+    {
+        foreach (var spellNode in instantiatedSpells)
+        {
+            if (spellNode.IsOpen)
+                spellNode.SelectionClick();
         }
     }
 }

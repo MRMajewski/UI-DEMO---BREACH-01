@@ -17,7 +17,7 @@ MonoBehaviour:
   savingThrowInfos: 1
   abilityInfos: 000000000100000002000000040000000700000008000000090000000a0000000b0000000d000000
   classDescription: "Zwi\u0119kszona szybko\u015B\u0107, refleks, agent specjalny."
-  classIcon: {fileID: 21300000, guid: b8f41e8adb47d854a9f9d503943f048a, type: 3}
+  classIcon: {fileID: 21300000, guid: 124e567b77afae04786f83da35309bf2, type: 3}
   subclasses:
   - "\t<size=150%>Snajper</size>\nSkrada si\u0119, strzela z bonusami z dystansu,
     u\u017Cywa min, aby nikt si\u0119 do niego nie zakrad\u0142"

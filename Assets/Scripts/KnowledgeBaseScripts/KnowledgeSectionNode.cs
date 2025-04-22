@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -14,9 +15,12 @@ public class KnowledgeSectionNode : KnowledgeNodeBase
     private Transform contentPanel;
 
     public Transform ContentPanel { get => contentPanel; }
+
     public override void SelectionClick()
     {
         base.SelectionClick();
         contentPanel.gameObject.SetActive(isOpen);
+
+        CheckVisibilityDelayed();
     }
 }

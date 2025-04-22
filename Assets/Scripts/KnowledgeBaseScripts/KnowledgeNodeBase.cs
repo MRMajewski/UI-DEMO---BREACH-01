@@ -31,6 +31,9 @@ public class KnowledgeNodeBase : MonoBehaviour
     [SerializeField]
     protected VerticalLayoutGroup layoutGroup;
 
+    [SerializeField]
+    protected UIScrollViewFitter uIScrollViewFitter;
+
     public virtual void SelectionClick()
     {
         isOpen = !isOpen;
@@ -44,5 +47,19 @@ public class KnowledgeNodeBase : MonoBehaviour
         {
             dropDownImage.sprite = openSprite;
         }
+       
+    }
+
+    public void CheckVisibilityDelayed()
+    {
+        if(this.gameObject.activeSelf)
+        StartCoroutine(EnsureVisibleNextFrame(uIScrollViewFitter));
+    }
+
+    private IEnumerator EnsureVisibleNextFrame(UIScrollViewFitter uIScrollViewFitter)
+    {
+        yield return new WaitForEndOfFrame();
+
+        uIScrollViewFitter?.EnsureVisibleSmooth(this.GetComponent<RectTransform>());
     }
 }

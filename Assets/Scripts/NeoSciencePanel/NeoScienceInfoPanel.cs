@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,5 +27,14 @@ public class NeoScienceInfoPanel : AttributesInfoPanel
         neoLinguisticSubPanel.Setup(neoScienceDatabase.NeoLinguisticsSpellsList);
         neoSensoricsSubPanel.Setup(neoScienceDatabase.NeoSensoricsSpellsList);
         PsionicsSubPanel.Setup(neoScienceDatabase.PsionicsSpellsList);
+    }
+
+    public override void DisablePanel()
+    {
+        base.DisablePanel();
+        neoPhysicsSubPanel.CloseAllSpells();
+        neoLinguisticSubPanel.CloseAllSpells();
+        neoSensoricsSubPanel.CloseAllSpells();
+        PsionicsSubPanel.CloseAllSpells();
     }
 }

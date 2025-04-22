@@ -20,7 +20,7 @@ MonoBehaviour:
     wymiaru pobudzi\u0142a umys\u0142 tego herosa i mo\u017Ce teraz u\u017Cywa\u0107
     mocy psionicznych :) Do wi\u0119kszo\u015Bci czar\xF3w nie musi u\u017Cywa\u0107
     s\u0142\xF3w i przedmiot\xF3w, a jedynie gest\xF3w."
-  classIcon: {fileID: 21300000, guid: 4938a4d82010fcf4a8be352c6ae85209, type: 3}
+  classIcon: {fileID: 21300000, guid: ee3a0b6233d6f614aa45789a29c824ee, type: 3}
   subclasses:
   - "\t<size=150%>Telekineza</size>\nPorusza przedmioty i istoty za pomoc\u0105 si\u0142y
     woli"
