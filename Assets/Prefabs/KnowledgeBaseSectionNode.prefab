@@ -354,7 +354,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 75d8edc151647c745bcfef51d3e7844a, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -363,7 +363,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 1.25
 --- !u!114 &461265784049427795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -524,6 +524,7 @@ MonoBehaviour:
   openSprite: {fileID: 21300000, guid: 9103a89a3647bd240b3ba160ab2784c3, type: 3}
   closedSprite: {fileID: 21300000, guid: 88f80e052318fdc49bb178ad084d8811, type: 3}
   layoutGroup: {fileID: 8358090007022804513}
+  uIScrollViewFitter: {fileID: 0}
   isSectionName: 1
   contentPanel: {fileID: 109457662125535238}
 --- !u!114 &3786719716545051308

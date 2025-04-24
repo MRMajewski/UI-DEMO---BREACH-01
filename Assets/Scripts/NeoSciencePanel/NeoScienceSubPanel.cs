@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NeoScienceSubPanel : MonoBehaviour
 {
@@ -25,6 +26,9 @@ public class NeoScienceSubPanel : MonoBehaviour
             spellUI.Setup(spell);
             instantiatedSpells.Add(spellUI);
         }
+
+        CloseAllSpells();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.parent.GetComponent<RectTransform>());
     }
 
     public void SortByName()

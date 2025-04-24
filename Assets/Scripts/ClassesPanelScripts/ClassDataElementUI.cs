@@ -33,9 +33,6 @@ public class ClassDataElementUI : MonoBehaviour, ISnapperPanel,ISnapperPanelElem
 
     public List<TooltipTriggerGameObjectAdder> TriggerGameObjectAdder { get { return triggerAdders; } }
 
-    [SerializeField]
-    private TooltipTriggerGameObjectAdder triggerAddersProficiencies;
-
     public void Initialize(ClassData data)
     {
         classNameText.text = data.className;
