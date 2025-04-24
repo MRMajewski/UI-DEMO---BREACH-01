@@ -12,67 +12,125 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e1c3593874969348be5b7b6f2f0a687, type: 3}
   m_Name: MartialArtistClassData
   m_EditorClassIdentifier: 
-  className: ATLETA
+  className: ADEPT
   reductionDiceInfos: 1
   savingThrowInfos: 1
   abilityInfos: 000000000100000004000000050000000700000009000000
-  classDescription: "Zwi\u0119kszona szybko\u015B\u0107 i refleks. Szybki, precyzyjny
-    wojownik, walcz\u0105cy bez broni, broni\u0105 lekk\u0105 lub kr\xF3tk\u0105
-    broni\u0105 paln\u0105!"
+  classDescription: "Zwi\u0119kszona szybko\u015B\u0107 i refleks. Precyzyjny, szybki
+    wojownik, kt\xF3ry potrafi walczy\u0107 zar\xF3wno bez broni, jak i z lekk\u0105
+    lub kr\xF3tk\u0105 broni\u0105 paln\u0105. Gdy nie ma broni, jego cia\u0142o
+    staje si\u0119 narz\u0119dziem zniszczenia \u2014 silne, szybkie i gotowe do
+    wykorzystania w ka\u017Cdej sytuacji. "
   classIcon: {fileID: 21300000, guid: 7056e9af214fcc64f9ed13205ebd5ecd, type: 3}
-  subclasses:
-  - "\t<size=150%>Gun Fu</size>\nBieg\u0142y w u\u017Cywaniu pistolet\xF3w, r\xF3wnie\u017C
-    w bezpo\u015Brednim dystansie. Taki John Wick albo inny Neo.\r"
-  - "\t<size=150%>Akrobata</size>\nNajszybsza klasa herosa. Bonus do pr\u0119dko\u015Bci
-    poruszania. Potrafi bez problemu wyj\u015B\u0107 z  zwarcia i zaatakowa\u0107
-    ponownie z szar\u017Cy"
-  - "\t<size=150%>Wojownik</size>\n Typowy Mistrz Sztuk Walki. W odr\xF3\u017Cnieniu
-    od zwyk\u0142ego Monka z DnD, potrafi te\u017C grapplowa\u0107 w akcji bonusowej"
-  - "\t<size=150%>Zapa\u015Bnik</size>\n>>>W trakcie tworzenia>>>"
   levelUpTable:
   - level: 1
-    skills: Sztuki Walki, Walka bez pancerza
+    skills: Sztuki Walki/KI
     proficiencyBonus: 2
-    skillsDescription: "\t-Trans Bojowy \nPodczas swojej tury mo\u017Cesz wej\u015B\u0107
-      w Trans Bojowy jako akcj\u0119 dodatkow\u0105. Podczas trwania Transu Bojowego
-      zyskujesz nast\u0119puj\u0105ce korzy\u015Bci, je\u015Bli nie nosisz ci\u0119\u017Ckiej
-      zbroi: Masz przewag\u0119 na testy Si\u0142y i rzuty obronne bazuj\u0105ce
-      na Sile. Kiedy wykonujesz atak broni\u0105 do walki wr\u0119cz u\u017Cywaj\u0105c
-      Si\u0142y, otrzymujesz premi\u0119 +2 do rzutu na obra\u017Cenia. Ta premia
-      zwi\u0119ksza si\u0119 wraz z poziomem. Masz odporno\u015B\u0107 na obra\u017Cenia
-      od uderze\u0144, k\u0142ucia i ci\u0119cia. Je\u015Bli potrafisz u\u017Cywa\u0107
-      NeoNauki, nie mo\u017Cesz ich rzuca\u0107 ani utrzymywa\u0107 koncentracji
-      na umiej\u0119tno\u015Bciach podczas trwania Transu. Tw\xF3j Trans trwa przez
-      1 minut\u0119. Ko\u0144czy si\u0119 wcze\u015Bniej, je\u015Bli stracisz przytomno\u015B\u0107.
-      Mo\u017Cesz tak\u017Ce zako\u0144czy\u0107 Trans Bojowy w swojej turze jako
-      akcj\u0119 dodatkow\u0105. Mo\u017Cesz u\u017Cy\u0107 Transu Bojowego okre\u015Blon\u0105
-      liczb\u0119 razy na podstawie swojego poziomu Wojownika. Liczba u\u017Cy\u0107
-      odnawia si\u0119 po d\u0142ugim odpoczynku. \n\n\tDzika Obrona\r\nKiedy nie
-      nosisz \u017Cadnej zbroi, do unikania mo\u017Cesz u\u017Cy\u0107 Modyfikatora
-      z Kondycji zamiast Zr\u0119czno\u015Bci.\r\nDodatkowo, kiedy zadasz obra\u017Cenia
-      przeciwnikowi za pomoc\u0105 ataku, do pocz\u0105tku twojej nast\u0119pnej
-      tury, za ka\u017Cdym razem, gdy otrzymasz obra\u017Cenia od ataku broni\u0105,
-      zmniejszasz te obra\u017Cenia o warto\u015B\u0107 r\xF3wn\u0105 twojemu modyfikatorowi
-      Kondycji.\r\n"
+    skillsDescription: "<b>Sztuki walki:</b>\r\nTwoja praktyka sztuk walki daje ci
+      mistrzostwo w stylach walki wykorzystuj\u0105cych nieuzbrojone ciosy i bro\u0144
+      mnicha, kt\xF3ra obejmuje wszystkie bro\u0144 do walki wr\u0119cz, nie maj\u0105c\u0105
+      w\u0142a\u015Bciwo\u015Bci Ci\u0119\u017Ckiej.\nZyskujesz nast\u0119puj\u0105ce
+      korzy\u015Bci, gdy jeste\u015B nieuzbrojony lub dzier\u017Cysz tylko bro\u0144
+      mnicha i nosisz lekk\u0105 zbroj\u0119 lub nie masz zbroi:\r\nMo\u017Cesz u\u017Cywa\u0107
+      Zr\u0119czno\u015Bci zamiast Si\u0142y do atak\xF3w i obra\u017Ce\u0144 dla
+      nieuzbrojonych cios\xF3w lub broni mnicha.\r\nMo\u017Cesz rzuca\u0107 ko\u015Bci\u0105
+      d4 zamiast zwyk\u0142ych obra\u017Ce\u0144 dla nieuzbrojonych cios\xF3w lub
+      broni mnicha. Ta ko\u015B\u0107 zmienia si\u0119, gdy zdobywasz poziomy mnicha,
+      zgodnie z tabel\u0105 Sztuk Walki w tabeli Mnicha.\r\nKiedy u\u017Cywasz akcji
+      Ataku z nieuzbrojonym ciosem lub broni\u0105 mnicha w swojej turze, mo\u017Cesz
+      wykona\u0107 jeden nieuzbrojony cios jako akcj\u0119 bonusow\u0105. Na przyk\u0142ad,
+      je\u015Bli wykonasz akcj\u0119 Ataku i zaatakujesz \u0107wier\u0107bu\u0142aw\u0105,
+      mo\u017Cesz tak\u017Ce wykona\u0107 nieuzbrojony cios jako akcj\u0119 bonusow\u0105,
+      pod warunkiem, \u017Ce nie wykona\u0142e\u015B ju\u017C \u017Cadnej akcji bonusowej
+      w tej turze.\r\n\r\n\r\n<b>KI</b>\r\nZaczynaj\u0105c od 2. poziomu, twoje szkolenie
+      pozwala ci wykorzystywa\u0107 mistyczn\u0105 energi\u0119 ki. Dost\u0119p do
+      tej energii reprezentowany jest przez liczb\u0119 punkt\xF3w ki. Tw\xF3j poziom
+      mnicha okre\u015Bla liczb\u0119 punkt\xF3w, kt\xF3re posiadasz, jak pokazano
+      w kolumnie Punkt\xF3w Ki w tabeli Adepta.\nMo\u017Cesz wyda\u0107 te punkty,
+      by zasila\u0107 r\xF3\u017Cne umiej\u0119tno\u015Bci ki. Zaczynasz od znajomo\u015Bci
+      trzech takich umiej\u0119tno\u015Bci: Seria Cios\xF3w, Cierpliwa Obrona i Krok
+      Wiatru. Uczysz si\u0119 kolejnych umiej\u0119tno\u015Bci ki w miar\u0119 zdobywania
+      poziom\xF3w w tej klasie. \r\nNiekt\xF3re z twoich umiej\u0119tno\u015Bci ki
+      wymagaj\u0105 od celu wykonania rzutu obronnego, aby op\xF3r przed efektami
+      umiej\u0119tno\u015Bci. DC rzutu obronnego jest obliczane w nast\u0119puj\u0105cy
+      spos\xF3b:\r\n\nKi save DC = 8 + tw\xF3j bonus bieg\u0142o\u015Bci + tw\xF3j
+      modyfikator M\u0105dro\u015Bci\r\n\nOdzyskujesz 1 punkt ki jako akcj\u0119
+      bonusow\u0105, gdy nie wykonujesz akcji Ataku w swojej turze LUB nie u\u017Cywasz
+      punkt\xF3w ki na umiej\u0119tno\u015Bci.\r\n-Seria Cios\xF3w:\nNatychmiast
+      po wykonaniu akcji Ataku w swojej turze, mo\u017Cesz wyda\u0107 1 punkt ki,
+      by wykona\u0107 dwa nieuzbrojone ciosy jako akcj\u0119 bonusow\u0105.\r\n-Cierpliwa
+      Obrona:\nMo\u017Cesz wyda\u0107 1 punkt ki, aby wykona\u0107 akcj\u0119 Uniku
+      jako akcj\u0119 bonusow\u0105 w swojej turze.\r\n-Krok Wiatru:\nMo\u017Cesz
+      wyda\u0107 1 punkt ki, aby wykona\u0107 akcj\u0119 Wycofania lub Dash jako
+      akcj\u0119 bonusow\u0105 w swojej turze, a twoja odleg\u0142o\u015B\u0107 skoku
+      podwaja si\u0119 na t\u0119 tur\u0119."
   - level: 2
-    skills: Trening
+    skills: Trening/Walka bez pancerza
     proficiencyBonus: 2
-    skillsDescription: "Przeprowadzasz dwa treningi. Nie mo\u017Cna wykona\u0107
-      dw\xF3ch takich samych trening\xF3w w tym samym momencie"
+    skillsDescription: "<b>Trening</b>\nPrzeprowadzasz dwa treningi. Nie mo\u017Cna
+      wykona\u0107 dw\xF3ch takich samych trening\xF3w w tym samym momencie\n\n<b>Walka
+      bez pancerza</b>\r\nZaczynaj\u0105c od 2. poziomu, twoja pr\u0119dko\u015B\u0107
+      zwi\u0119ksza si\u0119 o 10 st\xF3p, gdy nie nosisz zbroi ani nie u\u017Cywasz
+      tarczy. Ta premia zwi\u0119ksza si\u0119, gdy osi\u0105gasz pewne poziomy mnicha,
+      jak pokazano w tabeli Mnicha. "
   - level: 3
-    skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
+    skills: "Umiej\u0119tno\u015B\u0107 Podklasy/Odbicie pocisk\xF3w"
     proficiencyBonus: 2
-    skillsDescription: "Opis poni\u017Cej w opisie podklas"
+    skillsDescription: "\n<b>ODBICIE POCISK\xD3W</b>\r\nZaczynaj\u0105c od 2. poziomu,
+      mo\u017Cesz u\u017Cy\u0107 swojej reakcji, aby odbi\u0107 lub z\u0142apa\u0107
+      pocisk, gdy zostaniesz trafiony przez atak z broni dystansowej. Kiedy to robisz,
+      obra\u017Cenia, kt\xF3re otrzymujesz od ataku, zostan\u0105 zredukowane o k6
+      + tw\xF3j modyfikator Zr\u0119czno\u015Bci + tw\xF3j poziom adepta.\nJe\u015Bli
+      zredukujesz obra\u017Cenia do 0, mo\u017Cesz z\u0142apa\u0107 pocisk, je\u015Bli
+      jest wystarczaj\u0105co ma\u0142y, by\u015B m\xF3g\u0142 go trzyma\u0107 w
+      jednej r\u0119ce i masz przynajmniej jedn\u0105 woln\u0105 r\u0119k\u0119.
+      Je\u015Bli z\u0142apiesz pocisk w ten spos\xF3b, mo\u017Cesz wyda\u0107 1 punkt
+      ki, by wykona\u0107 atak dystansowy (zasi\u0119g do 12m) z broni\u0105 lub
+      amunicj\u0105, kt\xF3r\u0105 w\u0142a\u015Bnie z\u0142apa\u0142e\u015B, jako
+      cz\u0119\u015B\u0107 tej samej reakcji. Ten atak wykonujesz z bieg\u0142o\u015Bci\u0105,
+      niezale\u017Cnie od swoich bieg\u0142o\u015Bci w broni, a pocisk liczy si\u0119
+      jako bro\u0144 mnicha dla tego ataku. \n\n"
   subClassesTable:
   - subClassName: Gun Fu
-    subClassDescription: "\tBieg\u0142y w u\u017Cywaniu pistolet\xF3w, r\xF3wnie\u017C
-      w bezpo\u015Brednim dystansie. Taki John Wick albo inny Neo."
+    subClassDescription: "<b>Mistrz w u\u017Cywaniu pistolet\xF3w, szczeg\xF3lnie
+      w walce na bliskim dystansie. Jak John Wick czy Neo \u2013 szybki, z precyzyjnym
+      okiem, strzela i walczy bez wahania. </b>\r\n\r\n<b>POZIOM 3</b>\r\n<b>GUN
+      FU TECHNIQUES</b>\r\nKiedy wybierzesz t\u0119 tradycj\u0119 na 3. poziomie,
+      zyskujesz bieg\u0142o\u015B\u0107 w ci\u0119\u017Ckich pistoletach i pistoletach
+      maszynowych. Te bronie staj\u0105 si\u0119 broniami mnicha dla ciebie, a ty
+      zyskujesz nast\u0119puj\u0105ce korzy\u015Bci:\r\nBycie w odleg\u0142o\u015Bci
+      5 st\xF3p od wrogiej istoty nie nak\u0142ada niekorzystnych warunk\xF3w na
+      rzuty ataku z broni palnej.\r\nNatychmiast po wykonaniu akcji Ataku w swojej
+      turze, by wykona\u0107 nieuzbrojony cios, mo\u017Cesz wyda\u0107 1 punkt ki,
+      aby wykona\u0107 dodatkowy atak z broni palnej jako akcj\u0119 bonusow\u0105."
   - subClassName: Akrobata
-    subClassDescription: "\tNajszybsza klasa herosa. Bonus do pr\u0119dko\u015Bci
-      poruszania. Potrafi bez problemu wyj\u015B\u0107 z  zwarcia i zaatakowa\u0107
-      ponownie z szar\u017Cy"
-  - subClassName: Wojownik
-    subClassDescription: "\tTypowy Mistrz Sztuk Walki. W odr\xF3\u017Cnieniu od zwyk\u0142ego
-      Monka z DnD, potrafi te\u017C grapplowa\u0107 w akcji bonusowej"
-  - subClassName: "Zapa\u015Bnik"
-    subClassDescription: "\t>>>W trakcie tworzenia>>>"
+    subClassDescription: "<b>Najszybsza klasa herosa. Zyskuje bonus do pr\u0119dko\u015Bci
+      poruszania i mo\u017Ce b\u0142yskawicznie opu\u015Bci\u0107 zwarcie, by ponownie
+      zaatakowa\u0107 z pe\u0142nym impetem. Szybko\u015B\u0107 i zwinno\u015B\u0107
+      to jego atuty! </b>\r\n\r\n<b>POZIOM 3</b>\n\r\n<b>Dodatkowe wyszkolenie:</b>\r\nKiedy
+      wybierzesz t\u0119 tradycj\u0119 na 3. poziomie, zyskujesz bieg\u0142o\u015B\u0107
+      w umiej\u0119tno\u015Bci Performance, je\u015Bli jeszcze jej nie posiadasz.
+      \r\n\r\n<b>RUCHY BREAKDANCE: </b>\r\nNa 3. poziomie uczysz si\u0119 szybko
+      obraca\u0107 i zmienia\u0107 pozycj\u0119, jako cz\u0119\u015B\u0107 swojej
+      Serii Cios\xF3w. Za ka\u017Cdym razem, gdy u\u017Cywasz Serii Cios\xF3w, zyskujesz
+      korzy\u015B\u0107 z akcji odst\u0105pienia, a twoja pr\u0119dko\u015B\u0107
+      chodzenia wzrasta o 3m do ko\u0144ca bie\u017C\u0105cej tury.\r\nKiedy u\u017Cyjesz
+      przynajmniej 1 punktu ki w swojej turze i mo\u017Cesz porusza\u0107 si\u0119
+      w prost linii w stron\u0119 wroga na odleg\u0142o\u015B\u0107 co najmniej 3m,
+      mo\u017Cesz wykona\u0107 specjalny atak na\u0142adowania. Ten atak ma przewag\u0119,
+      a po trafieniu zadaje obra\u017Cenia r\xF3wne 3 * ko\u015Bci sztuki walki +
+      modyfikator z Zr\u0119czno\u015Bci (np. 3k4 + 3)."
+  - subClassName: Mistrz Sztuk Walki
+    subClassDescription: "<b>Typowy mistrz sztuk walki. W odr\xF3\u017Cnieniu od
+      klasycznego Monka, potrafi nie tylko atakowa\u0107, ale tak\u017Ce skutecznie
+      stosowa\u0107 techniki grapplingu w walce. Zawsze znajdzie spos\xF3b na unieruchomienie
+      wroga! </b>\r\n\r\n<b>POZIOM 3</b>\n\r\n<b>SZKOLENIE BEZ BRONI </b>\r\nKiedy
+      trafisz istot\u0119 nieuzbrojonym atakiem w swojej turze, mo\u017Cesz u\u017Cy\u0107
+      akcji bonusowej, aby z\u0142apa\u0107 cel. Za ka\u017Cdym razem, gdy trafisz
+      istot\u0119 jednym z atak\xF3w przyznanych przez Flurry of Blows, mo\u017Cesz
+      na\u0142o\u017Cy\u0107 na ni\u0105 jeden z nast\u0119puj\u0105cych efekt\xF3w:\r\nMusi
+      zda\u0107 rzut ratunkowy Zr\u0119czno\u015Bci, inaczej zostanie powalona na
+      ziemi\u0119.\r\nMusi zda\u0107 rzut ratunkowy Si\u0142y. Je\u015Bli nie uda
+      jej si\u0119, mo\u017Cesz odepchn\u0105\u0107 j\u0105 na odleg\u0142o\u015B\u0107
+      do 10 st\xF3p od siebie.\r\nNie mo\u017Ce podejmowa\u0107 reakcji do ko\u0144ca
+      twojej nast\u0119pnej tury."

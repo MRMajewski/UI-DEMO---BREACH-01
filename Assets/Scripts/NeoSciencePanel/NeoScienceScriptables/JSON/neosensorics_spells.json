@@ -122,7 +122,7 @@
         {
             "name": "Sekcja w Czasie Rzeczywistym",
             "category": "Talent",
-            "type": "Biospecja",
+            "type": "Biomancja",
             "description": "Twoja znajomość anatomii i zdolność do odczytywania ruchów przeciwnika sprawia, że lepiej trafiasz w słabe punkty. Twoje ataki krytyczne występują na wyniku 19 i 20 na kości k20.",
             "cost": 3
         },
@@ -130,101 +130,101 @@
         {
             "name": "Analiza Ciała",
             "category": "Talent",
-            "type": "Biospecja",
+            "type": "Biomancja",
             "description": "Zyskujesz przewagę na testy związane z wykrywaniem ran, chorób, trucizn oraz oceną stanu fizycznego istot. Możesz szybko określić ich kondycję bojową – np. czy przeciwnik jest ranny, zmęczony, osłabiony.",
             "cost": 3
         },
         {
             "name": "Wykrywanie Słabości",
             "category": "Dyscyplina",
-            "type": "Biospecja",
+            "type": "Biomancja",
             "description": "Wybierasz jedną istotę w zasięgu wzroku i koncentrujesz się na jej budowie ciała. Przez 1 minutę zyskujesz wiedzę o jej fizycznych słabych punktach, a twoje ataki przeciwko tej istocie ignorują naturalne pancerze i redukcję obrażeń wynikającą z budowy ciała. ",
             "cost": 2
         },
         {
             "name": "Hemopuls",
             "category": "Dyscyplina",
-            "type": "Biospecja",
+            "type": "Biomancja",
             "description": "Zakłócasz przepływ krwi i działanie organów przeciwnika, powodując poważne osłabienie. Cel musi wykonać rzut obronny (Kondycja). Jeśli go nie zda, wybierasz jeden z efektów: \nKrwawienie – Cel otrzymuje 1k6 obrażeń na początku swojej tury przez 1 minutę (może zakończyć stan testem Kondycji na końcu każdej tury).  \n Spowolnienie – Cel ma o połowę zmniejszoną prędkość na 1 minutę. \n Ogłuszenie – Cel nie może wykonywać akcji ani reakcji do końca swojej następnej tury.",
             "cost": 3
         },
         {
             "name": "Puls Życia",
             "category": "Dyscyplina",
-            "type": "Biospecja",
+            "type": "Biomancja",
             "description": "Twój zmysł pozwala ci wyczuć wszystkie żywe istoty w promieniu 30 metrów, nawet przez ściany i inne przeszkody. Nie poznajesz szczegółów, ale odróżniasz istoty od obiektów martwych. Efekt trwa 1 minutę. ",
             "cost": 4
         },
         {
             "name": "Ostateczna Diagnoza",
             "category": "Dyscyplina",
-            "type": "Biospecja",
+            "type": "Biomancja",
             "description": "Twoje sensoryczne zdolności pozwalają ci natychmiast ocenić krytyczny stan istoty. Wybierasz jedno stworzenie w zasięgu wzroku i poznajesz następujące informacje: \n Obecny poziom punktów wytrzymałości oraz ich maksymalną wartość. \n Obecne negatywne efekty i stany, na które istota jest podatna (np. zatrucie, paraliż). \n Czy istota jest bliska śmierci (jeśli jej HP jest poniżej 25% maksymalnej wartości). ",
             "cost": 4
         },
         {
             "name": "Przebłysk Regeneracji",
             "category": "Dyscyplina",
-            "type": "Biospecja",
+            "type": "Biomancja",
             "description": "Analizując biologię istoty, możesz przywrócić jej organizm do naturalnej równowagi. Wybierasz cel (może to być ty lub sojusznik), który natychmiast regeneruje punkty wytrzymałości równe twojemu poziomowi Sensora + modyfikator Mądrości. Nie działa na istoty martwe. ",
             "cost": 4
         },
         {
             "name": "Wstrząs Neurokinetyczny",
             "category": "Dyscyplina",
-            "type": "Biospecja",
+            "type": "Biomancja",
             "description": "Atakujesz układ nerwowy przeciwnika, powodując nagłą i bolesną reakcję ciała. Cel musi wykonać rzut obronny (Kondycja). Jeśli go nie zda, otrzymuje 3k6 obrażeń psychicznych i przez 1 turę ma utrudnienie na testy ataku. ",
             "cost": 5
         },
         {
             "name": "Oczy Spoza Rzeczywistości",
             "category": "Talent",
-            "type": "Szamanizm",
+            "type": "Neospirytyzm",
             "description": "Sensor widzi istoty niematerialne (np. astralne byty, istoty energetyczne, byty z innych wymiarów) oraz może wyczuwać ich obecność, nawet jeśli nie są fizycznie obecne w tym wymiarze. Daje to przewagę na testy Percepcji i Śledztwa związane z wykrywaniem bytów i energii spoza rzeczywistości. ",
             "cost": 3
         },
-            {
-                "name": "Psychometria",
-                "category": "Talent",
-                "type": "Szamanizm",
-                "description": "Dotykając przedmiotu lub powierzchni, Sensor może „odczytać” intensywne wspomnienia związane z tym miejscem lub przedmiotem. Widzi wizje, które są efektem przeszłych wydarzeń, w których uczestniczyły istoty z innych wymiarów, co daje wgląd w tajemnice i historie związane z miejscami o silnych energetycznych oddziaływaniach.",
-                "cost": 3
-            },
-            {
-                "name": "Widmowa Interwencja",
-                "category": "Dyscyplina",
-                "type": "Szamanizm",
-                "description": "Sensor może przyzwać istotę z innego wymiaru (np. energię, byta astralnego lub byt energetyczny), która udziela wsparcia. Efekt zależy od rzutu k6 i kontekstu miejsca, a istota może zaoferować pomoc w formie ataku, informacji, zwiadu lub innych form wsparcia.",
-                "cost": 3
-            },
-            {
-                "name": "Echo Przeszłości",
-                "category": "Dyscyplina",
-                "type": "Szamanizm",
-                "description": "Sensor może przyzwać istotę z innego wymiaru (np. energię, byta astralnego lub byt energetyczny), która udziela wsparcia. Efekt zależy od rzutu k6 i kontekstu miejsca, a istota może zaoferować pomoc w formie ataku, informacji, zwiadu lub innych form wsparcia.",
-                "cost": 2
-            },
-            {
-                "name": "Zaklęcie Istot",
-                "category": "Dyscyplina",
-                "type": "Szamanizm",
-                "description": "Sensor nawiązuje tymczasowe połączenie z istotą z innego wymiaru i prosi ją o pomoc. Istota może odpowiedzieć na prośbę w formie informacji, ochrony lub innych usług, ale jej odpowiedź może być zależna od jej natury (np. czy jest przyjazna, neutralna czy wroga wobec tego wymiaru).",
-                "cost": 2
-            },
-            {
-                "name": "Wymiarowy Dotyk",
-                "category": "Dyscyplina",
-                "type": "Szamanizm",
-                "description": "Sensor może dotknąć istoty, sprawiając, że część jej bytu jest tymczasowo wyciągnięta z innego wymiaru do fizycznego świata. Cel musi wykonać rzut obronny na Charyzmę (CD 14) lub otrzymuje stan Oszołomienia na 1 turę i staje się bardziej podatny na obrażenia energetyczne lub nekrotyczne przez 1 minutę.",
-                "cost": 3
-            },
-            {
-                "name": "Prośba o Pomoc",
-                "category": "Dyscyplina",
-                "type": "Szamanizm",
-                "description": "Sensor może przyzwać do pomocy istotę z innego wymiaru, wykorzystując ich unikalne właściwości w ofensywie. Rzut k6 decyduje, jak silna będzie przyzwana istota: \n 1–2: Przywołany byt jest słaby, oferuje tylko podstawowe wsparcie, np. ostrzeżenie przed atakiem lub drobną pomoc w walce (np. mały atak energetyczny lub informacja o przeciwniku).  \n 3–5: Zwykła istota, która może zaoferować bardziej znaczące wsparcie, np. wystrzelić energetyczny pocisk, wywołać osłonę lub zaoferować lepsze informacje o przeciwniku, środowisku lub sytuacji. Możliwość interakcji z przeciwnikiem, jak z neutralnym bytem.  \n 6: Potężny byt, który może wywołać ogromne zmiany w walce, np. zniszczyć przeszkody, wywołać masowy atak energetyczny lub wywołać naturalne zjawisko, takie jak burzę czy trzęsienie ziemi (w zależności od okoliczności). Efekt jest potężny, ale wymaga dużych umiejętności kontrolowania tego typu bytów. Może to także wpłynąć na otoczenie, tworząc trwałe zmiany w świecie lub przyciągając inne istoty z innych wymiarów. ",
-                "cost": 5
-            }
+        {
+            "name": "Psychometria",
+            "category": "Talent",
+            "type": "Neospirytyzm",
+            "description": "Dotykając przedmiotu lub powierzchni, Sensor może „odczytać” intensywne wspomnienia związane z tym miejscem lub przedmiotem. Widzi wizje, które są efektem przeszłych wydarzeń, w których uczestniczyły istoty z innych wymiarów, co daje wgląd w tajemnice i historie związane z miejscami o silnych energetycznych oddziaływaniach.",
+            "cost": 3
+        },
+        {
+            "name": "Widmowa Interwencja",
+            "category": "Dyscyplina",
+            "type": "Neospirytyzm",
+            "description": "Sensor może przyzwać istotę z innego wymiaru (np. energię, byta astralnego lub byt energetyczny), która udziela wsparcia. Efekt zależy od rzutu k6 i kontekstu miejsca, a istota może zaoferować pomoc w formie ataku, informacji, zwiadu lub innych form wsparcia.",
+            "cost": 3
+        },
+        {
+            "name": "Echo Przeszłości",
+            "category": "Dyscyplina",
+            "type": "Neospirytyzm",
+            "description": "Sensor może przyzwać istotę z innego wymiaru (np. energię, byta astralnego lub byt energetyczny), która udziela wsparcia. Efekt zależy od rzutu k6 i kontekstu miejsca, a istota może zaoferować pomoc w formie ataku, informacji, zwiadu lub innych form wsparcia.",
+            "cost": 2
+        },
+        {
+            "name": "Zaklęcie Istot",
+            "category": "Dyscyplina",
+            "type": "Neospirytyzm",
+            "description": "Sensor nawiązuje tymczasowe połączenie z istotą z innego wymiaru i prosi ją o pomoc. Istota może odpowiedzieć na prośbę w formie informacji, ochrony lub innych usług, ale jej odpowiedź może być zależna od jej natury (np. czy jest przyjazna, neutralna czy wroga wobec tego wymiaru).",
+            "cost": 2
+        },
+        {
+            "name": "Wymiarowy Dotyk",
+            "category": "Dyscyplina",
+            "type": "Neospirytyzm",
+            "description": "Sensor może dotknąć istoty, sprawiając, że część jej bytu jest tymczasowo wyciągnięta z innego wymiaru do fizycznego świata. Cel musi wykonać rzut obronny na Charyzmę (CD 14) lub otrzymuje stan Oszołomienia na 1 turę i staje się bardziej podatny na obrażenia energetyczne lub nekrotyczne przez 1 minutę.",
+            "cost": 3
+        },
+        {
+            "name": "Prośba o Pomoc",
+            "category": "Dyscyplina",
+            "type": "Neospirytyzm",
+            "description": "Sensor może przyzwać do pomocy istotę z innego wymiaru, wykorzystując ich unikalne właściwości w ofensywie. Rzut k6 decyduje, jak silna będzie przyzwana istota: \n 1–2: Przywołany byt jest słaby, oferuje tylko podstawowe wsparcie, np. ostrzeżenie przed atakiem lub drobną pomoc w walce (np. mały atak energetyczny lub informacja o przeciwniku).  \n 3–5: Zwykła istota, która może zaoferować bardziej znaczące wsparcie, np. wystrzelić energetyczny pocisk, wywołać osłonę lub zaoferować lepsze informacje o przeciwniku, środowisku lub sytuacji. Możliwość interakcji z przeciwnikiem, jak z neutralnym bytem.  \n 6: Potężny byt, który może wywołać ogromne zmiany w walce, np. zniszczyć przeszkody, wywołać masowy atak energetyczny lub wywołać naturalne zjawisko, takie jak burzę czy trzęsienie ziemi (w zależności od okoliczności). Efekt jest potężny, ale wymaga dużych umiejętności kontrolowania tego typu bytów. Może to także wpłynąć na otoczenie, tworząc trwałe zmiany w świecie lub przyciągając inne istoty z innych wymiarów. ",
+            "cost": 5
+        }
 
     ]
 }

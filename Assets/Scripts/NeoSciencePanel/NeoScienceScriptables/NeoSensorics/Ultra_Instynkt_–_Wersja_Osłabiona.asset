@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f4a3057204104b936c6a348f2f538, type: 3}
+  m_Name: "Ultra_Instynkt_\u2013_Wersja_Os\u0142abiona"
+  m_EditorClassIdentifier: 
+  neoScienceCategory: 2
+  spellName: "Ultra Instynkt \u2013 Wersja Os\u0142abiona"
+  spellDescription: "Na 1 tur\u0119 Sensor otrzymuje przewag\u0119 na wszystkie rzuty
+    obronne (dowolnego typu) oraz u\u0142atwienie w ich wykonaniu.\nKoszt: 2"
+  Spellcategory: 0
+  spellType: 1
+  spellCost: 2

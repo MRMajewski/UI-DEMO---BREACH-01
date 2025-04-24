@@ -40,9 +40,10 @@ public class ClassDataElementUI : MonoBehaviour, ISnapperPanel,ISnapperPanelElem
     {
         classNameText.text = data.className;
 
-        classDescriptionText.text = "<size=150%>Opis:</size><br>" + data.classDescription;
+     //   classDescriptionText.text = "<size=150%>Opis:</size><br>" + data.classDescription;
+        classDescriptionText.text = data.classDescription;
 
-        subclassesDescriptionText.text = "<size=150%>Subklasy:</size><br>" + string.Join("<br>", data.subclasses);
+        //  subclassesDescriptionText.text = "<size=150%>Subklasy:</size><br>" + string.Join("<br>", data.subclasses);
 
         string reductionDiceDescription = classesDatabase.GetReductionDiceDescription(data.reductionDiceInfos);
         string savingThrowDescription = classesDatabase.GetSavingThrowDescription(data.savingThrowInfos);

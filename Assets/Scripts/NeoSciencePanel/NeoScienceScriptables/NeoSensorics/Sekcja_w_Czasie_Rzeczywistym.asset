@@ -16,7 +16,8 @@ MonoBehaviour:
   spellName: Sekcja w Czasie Rzeczywistym
   spellDescription: "Twoja znajomo\u015B\u0107 anatomii i zdolno\u015B\u0107 do odczytywania
     ruch\xF3w przeciwnika sprawia, \u017Ce lepiej trafiasz w s\u0142abe punkty. Twoje
-    ataki krytyczne wyst\u0119puj\u0105 na wyniku 19 i 20 na ko\u015Bci k20."
+    ataki krytyczne wyst\u0119puj\u0105 na wyniku 19 i 20 na ko\u015Bci k20.\nKoszt:
+    3"
   Spellcategory: 0
-  spellType: 3
+  spellType: 0
   spellCost: 3

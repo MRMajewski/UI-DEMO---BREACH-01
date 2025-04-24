@@ -16,7 +16,8 @@ MonoBehaviour:
   spellName: "Wizje D\u0142ugoterminowe"
   spellDescription: "Sensor uzyskuje wgl\u0105d w potencjaln\u0105 przysz\u0142o\u015B\u0107
     o istotnym znaczeniu \u2013 politycznym, militarnym lub osobistym. MG przekazuje
-    wskaz\xF3wki dotycz\u0105ce mo\u017Cliwych wydarze\u0144 lub zagro\u017Ce\u0144."
-  Spellcategory: 1
+    wskaz\xF3wki dotycz\u0105ce mo\u017Cliwych wydarze\u0144 lub zagro\u017Ce\u0144.\nKoszt:
+    5"
+  Spellcategory: 0
   spellType: 1
   spellCost: 5

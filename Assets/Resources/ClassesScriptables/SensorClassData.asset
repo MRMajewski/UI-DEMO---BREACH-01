@@ -22,39 +22,87 @@ MonoBehaviour:
     na wykrywanie, leczenie, przewidywanie przysz\u0142o\u015Bci i manipulowanie
     energi\u0105 w r\xF3\u017Cnorodny spos\xF3b."
   classIcon: {fileID: 21300000, guid: 52ca266cf4901b44ca2de5645e02b228, type: 3}
-  subclasses:
-  - "\t<size=150%>Wieszcz</size>\nMistrzowie percepcji i intuicji. Potrafi\u0105
-    przewidywa\u0107 przysz\u0142o\u015B\u0107 na kr\xF3tki okres, co daje im niesamowit\u0105
-    przewag\u0119 w walce i podczas interakcji spo\u0142ecznych. "
-  - "\t<size=150%>Gu\u015Blarz</size>\n>>>W trakcie tworzenia>>>"
-  - "\t<size=150%>Echo</size>\nEcho Adept specjalizuje si\u0119 w wykrywaniu i manipulowaniu
-    falami d\u017Awi\u0119kowymi. Potrafi\u0105 wykorzysta\u0107 te zdolno\u015Bci
-    zar\xF3wno w ofensywie, jak i defensywie. "
-  - "\t<size=150%>Biomancer</size>\n>>>W trakcie tworzenia>>>"
   levelUpTable:
   - level: 1
-    skills: "Nadwra\u017Cliwo\u015B\u0107"
+    skills: Neosensoryka/Specjalizacja
     proficiencyBonus: 2
-    skillsDescription: 
+    skillsDescription: "<b>Neosensoryka</b>\r\nNeosensoryka to dziedzina Neonauki
+      zajmuj\u0105ca si\u0119 nowymi, wyostrzonymi zmys\u0142ami oraz ich praktycznymi
+      zastosowaniami. Bada, w jaki spos\xF3b percepcja mo\u017Ce zosta\u0107 poszerzona,
+      zmodyfikowana lub ca\u0142kowicie przedefiniowana pod wp\u0142ywem ekspozycji
+      na Wyrwy \u2013 punkty styku naszej rzeczywisto\u015Bci z obcymi wymiarami.
+      Dzi\u0119ki Neosensoryce herosi zyskuj\u0105 zdolno\u015B\u0107 do postrzegania
+      \u015Bwiata z niespotykan\u0105 precyzj\u0105 \u2013 widz\u0105 d\u017Awi\u0119ki,
+      s\u0142ysz\u0105 \u015Bwiat\u0142o, wyczuwaj\u0105 emocje lub zak\u0142\xF3cenia
+      w czasoprzestrzeni.\r\nOsoby wystawione na dzia\u0142anie Wyrw, kt\xF3re jednocze\u015Bnie
+      posiadaj\u0105 wysok\u0105 neuroplastyczno\u015B\u0107 i odporno\u015B\u0107
+      psychiczn\u0105, mog\u0105 rozwin\u0105\u0107 zmys\u0142y ponadnaturalne, wykraczaj\u0105ce
+      daleko poza ludzkie standardy.\r\n\r\nUmiej\u0119tno\u015Bci neosensoryczne
+      dziel\u0105 si\u0119 na:\r\nTalenty \u2013 Pasywne dostrojenia uk\u0142adu
+      nerwowego do konkretnych bod\u017Ac\xF3w, takich jak wibracje, ciep\u0142o,
+      pole elektromagnetyczne czy struktury emocjonalne. Ich liczba jest ograniczona
+      przez Punkty Pasywnej Percepcji (PP), odpowiadaj\u0105ce neurologicznej pojemno\u015Bci
+      Herosa. Ka\u017Cdy poziom w profesji Sensora zwi\u0119ksza t\u0119 pojemno\u015B\u0107,
+      pozwalaj\u0105c na jednoczesne aktywowanie wi\u0119kszej liczby Talent\xF3w.\r\nDyscypliny
+      \u2013 Aktywowane techniki sensoryczne, wykorzystuj\u0105ce nadnaturalnie rozwini\u0119te
+      zmys\u0142y do lokalizacji wrog\xF3w, rozpoznawania k\u0142amstw, widzenia
+      przez \u015Bciany lub wykrywania anomalii rzeczywisto\u015Bci. Wymagaj\u0105
+      one skupienia i zu\u017Cycia zasob\xF3w mentalnych, ale potrafi\u0105 diametralnie
+      zmieni\u0107 przebieg starcia lub eksploracji.\r\n\r\nNa 1 poziomie masz 2PP
+      oraz 6AP. Zasoby te rosn\u0105 wraz z poziomem herosa. Ich pula mo\u017Ce by\u0107
+      zwi\u0119kszona przez specjalne treningi lub przedmioty.\n\n<b>Specjalizacja</b>\r\nMasz
+      dost\u0119p do talent\xF3w i dyscyplin z wybranej specjalizacji"
   - level: 2
-    skills: Trening
+    skills: "Trening/2PP/7AP/Odbodz\u0301cowanie"
     proficiencyBonus: 2
-    skillsDescription: "Przeprowadzasz dwa treningi. Nie mo\u017Cna wykona\u0107
-      dw\xF3ch takich samych trening\xF3w w tym samym momencie"
+    skillsDescription: "<b>Trening</b>\nPrzeprowadzasz dwa treningi. Nie mo\u017Cna
+      wykona\u0107 dw\xF3ch takich samych trening\xF3w w tym samym momencie\n\n<b>2PP
+      - 7AP</b>\nPunkty Pasywnej Percepcji wynosz\u0105 2PP,\nPunkty Aktywnej Percepcji
+      rosn\u0105 do 7AP\n\n<b>Odbodz\u0301cowanie</b>\r\nRaz na dob\u0119, podczas
+      kr\xF3tkiego odpoczynku, oddajesz si\u0119 medytacji celem uspokojenia swojego
+      uk\u0142adu nerwowego. Chwila w ciszy przywraca Ci k6/2 (zaokr\u0105glone w
+      d\xF3\u0142) punkt\xF3w AP\n"
   - level: 3
-    skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
+    skills: "Umiej\u0119tno\u015B\u0107 Podklasy/Szybkie przekalibrowanie"
     proficiencyBonus: 2
-    skillsDescription: "Opis poni\u017Cej w opisie podklas"
+    skillsDescription: "Opis poni\u017Cej w opisie podklas\n\n<b>Specjalizacja</b>\r\nMasz
+      dost\u0119p umiej\u0119tno\u015Bci z wybranej specjalizacji\n\n<b>Szybkie przekalibrowanie</b>\r\nRaz
+      na dob\u0119, w ramach akcji mo\u017Cesz wymieni\u0107 jeden z aktywnych Talent\xF3w
+      na inny dla Ciebie dost\u0119pny o koszcie r\xF3wnym, b\u0105d\u017A mniejszym
+      ni\u017C koszt zast\u0119powanego Talentu\n\n"
   subClassesTable:
-  - subClassName: Wieszcz
-    subClassDescription: "\tMistrzowie percepcji i intuicji. Potrafi\u0105 przewidywa\u0107
-      przysz\u0142o\u015B\u0107 na kr\xF3tki okres, co daje im niesamowit\u0105 przewag\u0119
-      w walce i podczas interakcji spo\u0142ecznych. "
-  - subClassName: "Gu\u015Blarz"
-    subClassDescription: "\t>>>W trakcie tworzenia>>>"
-  - subClassName: Echo
-    subClassDescription: "\tEcho Adept specjalizuje si\u0119 w wykrywaniu i manipulowaniu
-      falami d\u017Awi\u0119kowymi. Potrafi\u0105 wykorzysta\u0107 te zdolno\u015Bci
-      zar\xF3wno w ofensywie, jak i defensywie. "
-  - subClassName: Biomancer
-    subClassDescription: '>>>W trakcie tworzenia>>>'
+  - subClassName: BIOMANCJA
+    subClassDescription: "<b>Biomancja to specjalizacja, kt\xF3ra pozwala Sensorowi
+      czyta\u0107, wp\u0142ywa\u0107 i wzmacnia\u0107 organizmy. Dzi\u0119ki niej
+      heros mo\u017Ce analizowa\u0107 stan fizyczny istot, leczy\u0107 je, ale r\xF3wnie\u017C
+      skuteczniej atakowa\u0107 s\u0142abe punkty.</b>\r\n\r\n<b>Dodatkowe talenty
+      i dycypliny</b>\r\nDo puli znanych talent\xF3w i dyscyplin dodajesz te z tabeli
+      Neosensoryka z specjalizacji Biomacja\r\n\r\n<b>POZIOM 3</b>\r\n<b>Anatomiczna
+      ekspertyza</b>\r\nSensor podczas test\xF3w leczenia jest w stanie uleczy\u0107
+      dodatkowe k6 obra\u017Ce\u0144. Ma u\u0142atwienie w testach na stabilizowanie
+      istoty\r\n"
+  - subClassName: FUTURISPEKCJA
+    subClassDescription: "<b>Specjalizacja  pozwala na dynamiczne przewidywanie ruch\xF3w
+      przeciwnik\xF3w i nadchodz\u0105cych wydarze\u0144, oferuj\u0105c zar\xF3wno
+      pasywne zdolno\u015Bci do reagowania na zagro\u017Cenia, jak i aktywne umiej\u0119tno\u015Bci,
+      kt\xF3re umo\u017Cliwiaj\u0105 przewidywanie atak\xF3w, ruch\xF3w oraz przysz\u0142ych
+      wydarze\u0144 w grze. Dodatkowo, zyskujesz pot\u0119\u017Cne umiej\u0119tno\u015Bci
+      defensywne oraz mo\u017Cliwo\u015B\u0107 planowania ruch\xF3w przeciwnika.</b>\r\n\r\n<b>Dodatkowe
+      talenty i dycypliny</b>\r\nDo puli znanych talent\xF3w i dyscyplin dodajesz
+      te z tabeli Neosensoryka z specjalizacji Futurispekcja\n\r\n<b>POZIOM 3</b>\n\r\n<b>Przeciwdzia\u0142anie</b>\r\nRaz
+      podczas doby, poprzez przewidzenie ataku jeste\u015B go w stanie unikn\u0105\u0107.
+      Rzut obronny ST jest automatycznie zdany."
+  - subClassName: NEOSPIRYTYZM
+    subClassDescription: "<b>Specjalizacja ta pozwala Sensorowi dostrzega\u0107 i
+      komunikowa\u0107 si\u0119 z istotami z innych wymiar\xF3w, kt\xF3re mog\u0105
+      by\u0107 energetyczne, astralne lub posiada\u0107 formy, kt\xF3rych ludzkie
+      zmys\u0142y nie potrafi\u0105 normalnie uchwyci\u0107. Sensor jest w stanie
+      wyczuwa\u0107 obecno\u015B\u0107 tych byt\xF3w, komunikowa\u0107 si\u0119 z
+      nimi, a tak\u017Ce przyzywa\u0107 je do pomocy.</b>\r\n\r\n<b>Dodatkowe talenty
+      i dycypliny</b>\r\nDo puli znanych talent\xF3w i dyscyplin dodajesz te z tabeli
+      Neosensoryka z specjalizacji Neospirytyzm\n\r\n<b>POZIOM 3</b>\n\r\n<b>Precyzyjne
+      Zobaczenie Aury</b>\r\nRaz podczas doby, jeste\u015B w stanie precyzyjnie zobaczy\u0107
+      aur\u0119 istoty. Jeste\u015B w stanie okre\u015Bli\u0107 jej nastr\xF3j, obawy,
+      stwierdzi\u0107 czy w ostatnim czasie do\u015Bwiadczy\u0142a skrajnych emocji.
+      Daje Ci to u\u0142atwienie w kolejnym rzucie na Intuicj\u0119, Zastraszanie
+      lub Empati\u0119."

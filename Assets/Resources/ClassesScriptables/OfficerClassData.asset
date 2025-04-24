@@ -16,50 +16,36 @@ MonoBehaviour:
   reductionDiceInfos: 0
   savingThrowInfos: 5
   abilityInfos: 00000000010000000300000004000000070000000b0000000c000000
-  classDescription: "Officer to posta\u0107 o zwi\u0119kszonej charyzmie i bystro\u015Bci
+  classDescription: "Oficer to posta\u0107 o zwi\u0119kszonej charyzmie i bystro\u015Bci
     umys\u0142u, kt\xF3rej g\u0142\xF3wnym zadaniem jest koordynowanie zespo\u0142u.
     Dzi\u0119ki swoim zdolno\u015Bciom dow\xF3dczym potrafi inspirowa\u0107 towarzyszy,
-    daj\u0105c im buffy i inspiracj\u0119, co pozwala im wykonywa\u0107 swoje zadania
-    z maksymaln\u0105 precyzj\u0105."
+    daj\u0105c im wzmocnienia i inspiracj\u0119, co pozwala im wykonywa\u0107 swoje
+    zadania z maksymaln\u0105 precyzj\u0105. "
   classIcon: {fileID: 21300000, guid: a87fb805c6e59ef449297a67e1dae86b, type: 3}
-  subclasses:
-  - "\t<size=150%>Sier\u017Cant</size>\nBonusy do HP dla towarzyszy, sam r\xF3wnie\u017C
-    potrafi solidnie przywali\u0107 i przyj\u0105\u0107 na klat\u0119"
-  - "\t<size=150%>Lider</size>\nPosiada pul\u0119 dodatkowych ko\u015Bci Rozkaz\xF3w,
-    kt\xF3rych mo\u017Ce u\u017Cy\u0107, aby inna posta\u0107 mia\u0142a w swojej
-    reakcji dodatkow\u0105 akcj\u0119 np. ataku albo wycofania si\u0119 "
-  - "\t<size=150%>As</size>\nAs posiadaj\u0105cy ekspertyz\u0119 w wybranej dziedzinie
-    np. strzelaniu, walce wr\u0119cz, pilotowaniu itp. Mo\u017Ce inspirowa\u0107
-    zar\xF3wno towarzyszy swoimi umiej\u0119tno\u015Bciami, jak i samego siebie"
-  - "\t<size=150%>M\xF3wca</size>\nRozwini\u0119ta Neolingwistyka, dodatkowe sloty
-    i bonusy"
   levelUpTable:
   - level: 1
-    skills: "Przyw\xF3dca, NeoLingwistyka"
+    skills: "Przyw\xF3dztwo/Inspiracja"
     proficiencyBonus: 2
-    skillsDescription: "\t-Trans Bojowy \nPodczas swojej tury mo\u017Cesz wej\u015B\u0107
-      w Trans Bojowy jako akcj\u0119 dodatkow\u0105. Podczas trwania Transu Bojowego
-      zyskujesz nast\u0119puj\u0105ce korzy\u015Bci, je\u015Bli nie nosisz ci\u0119\u017Ckiej
-      zbroi: Masz przewag\u0119 na testy Si\u0142y i rzuty obronne bazuj\u0105ce
-      na Sile. Kiedy wykonujesz atak broni\u0105 do walki wr\u0119cz u\u017Cywaj\u0105c
-      Si\u0142y, otrzymujesz premi\u0119 +2 do rzutu na obra\u017Cenia. Ta premia
-      zwi\u0119ksza si\u0119 wraz z poziomem. Masz odporno\u015B\u0107 na obra\u017Cenia
-      od uderze\u0144, k\u0142ucia i ci\u0119cia. Je\u015Bli potrafisz u\u017Cywa\u0107
-      NeoNauki, nie mo\u017Cesz ich rzuca\u0107 ani utrzymywa\u0107 koncentracji
-      na umiej\u0119tno\u015Bciach podczas trwania Transu. Tw\xF3j Trans trwa przez
-      1 minut\u0119. Ko\u0144czy si\u0119 wcze\u015Bniej, je\u015Bli stracisz przytomno\u015B\u0107.
-      Mo\u017Cesz tak\u017Ce zako\u0144czy\u0107 Trans Bojowy w swojej turze jako
-      akcj\u0119 dodatkow\u0105. Mo\u017Cesz u\u017Cy\u0107 Transu Bojowego okre\u015Blon\u0105
-      liczb\u0119 razy na podstawie swojego poziomu Wojownika. Liczba u\u017Cy\u0107
-      odnawia si\u0119 po d\u0142ugim odpoczynku. \n\n\tDzika Obrona\r\nKiedy nie
-      nosisz \u017Cadnej zbroi, do unikania mo\u017Cesz u\u017Cy\u0107 Modyfikatora
-      z Kondycji zamiast Zr\u0119czno\u015Bci.\r\nDodatkowo, kiedy zadasz obra\u017Cenia
-      przeciwnikowi za pomoc\u0105 ataku, do pocz\u0105tku twojej nast\u0119pnej
-      tury, za ka\u017Cdym razem, gdy otrzymasz obra\u017Cenia od ataku broni\u0105,
-      zmniejszasz te obra\u017Cenia o warto\u015B\u0107 r\xF3wn\u0105 twojemu modyfikatorowi
-      Kondycji.\r\n"
+    skillsDescription: "<b>Przyw\xF3dztwo</b>\r\nOd 1. poziomu mo\u017Cesz zareagowa\u0107,
+      gdy sojusznik, kt\xF3rego widzisz, wykona test umiej\u0119tno\u015Bci, rzut
+      obronny lub atak. Mo\u017Cesz to zrobi\u0107 po rzucie ko\u015Bci\u0105, ale
+      przed og\u0142oszeniem wyniku.\r\nJako reakcja, dodajesz sw\xF3j modyfikator
+      Charyzmy do tego rzutu.\r\nNie mo\u017Cesz u\u017Cy\u0107 tej zdolno\u015Bci
+      wi\u0119cej ni\u017C raz na t\u0119 sam\u0105 posta\u0107, zanim nie zako\u0144czysz
+      kr\xF3tkiego lub d\u0142ugiego odpoczynku.\n\n<b>Inspiracja </b>\r\nOd 2. poziomu
+      potrafisz inspirowa\u0107 innych za pomoc\u0105 porywaj\u0105cych s\u0142\xF3w.
+      U\u017Cyj akcji dodatkowej, by wybra\u0107 jedn\u0105 istot\u0119 w promieniu
+      18 metr\xF3w, kt\xF3ra Ci\u0119 s\u0142yszy (poza Tob\u0105). Ta posta\u0107
+      otrzymuje ko\u015B\u0107 Inspiracji (k6).\r\nW ci\u0105gu kolejnych 10 minut
+      mo\u017Ce raz doda\u0107 t\u0119 ko\u015B\u0107 do testu umiej\u0119tno\u015Bci,
+      rzutu obronnego lub ataku.\nMo\u017Ce to zrobi\u0107 po rzucie d20, ale przed
+      og\u0142oszeniem sukcesu lub pora\u017Cki. Po u\u017Cyciu ko\u015B\u0107 przepada.
+      Posta\u0107 mo\u017Ce mie\u0107 tylko jedn\u0105 ko\u015B\u0107 Inspiracji
+      na raz.\r\nMo\u017Cesz u\u017Cy\u0107 tej cechy liczb\u0119 razy r\xF3wn\u0105
+      poziomowi Oficera + modyfikator Charyzmy (minimum raz). Odzyskujesz wszystkie
+      u\u017Cycia po d\u0142ugim odpoczynku.\r\n\r\n"
   - level: 2
-    skills: Inspiracja, Trening
+    skills: Trening
     proficiencyBonus: 2
     skillsDescription: "Przeprowadzasz dwa treningi. Nie mo\u017Cna wykona\u0107
       dw\xF3ch takich samych trening\xF3w w tym samym momencie"
@@ -69,15 +55,93 @@ MonoBehaviour:
     skillsDescription: "Opis poni\u017Cej w opisie podklas"
   subClassesTable:
   - subClassName: "Sier\u017Cant"
-    subClassDescription: "\tBonusy do HP dla towarzyszy, sam r\xF3wnie\u017C potrafi
-      solidnie przywali\u0107 i przyj\u0105\u0107 na klat\u0119"
+    subClassDescription: "<b>Wsparcie i si\u0142a na pierwszej linii. Daje towarzyszom
+      bonusy do zdrowia i, gdy zajdzie potrzeba, sam nie boi si\u0119 stan\u0105\u0107
+      na czo\u0142owej linii, daj\u0105c w ko\u015B\u0107 wroga.</b> \r\n\r\n<b>POZIOM
+      3</b> \n\r\n<b>Komenda na pe\u0142nej mocy!</b> \r\nPocz\u0105wszy od 3. poziomu,
+      gdy u\u017Cywasz swojej zdolno\u015Bci Inspiracja, mo\u017Cesz obdarzy\u0107
+      do sze\u015Bciu stworze\u0144, kt\xF3re ci\u0119 widz\u0105 i s\u0142ysz\u0105,
+      ko\u015Bci\u0105 inspiracji.\nNadal liczy si\u0119 to jako jedno u\u017Cycie
+      tej zdolno\u015Bci.  \r\n\r\n<b>Twarda r\u0119ka</b>\r\nPocz\u0105wszy od 3.
+      poziomu, zyskujesz bieg\u0142o\u015B\u0107 w Broni Wojskowej i Pancerzach Bojowych,
+      je\u015Bli jeszcze jej nie masz.\nJe\u015Bli ju\u017C masz t\u0119 bieg\u0142o\u015B\u0107,
+      zyskujesz bieg\u0142o\u015B\u0107 w Broni Ci\u0119\u017Ckiej i Pancerzu Wspomaganym.\nJe\u015Bli
+      ju\u017C posiadasz r\xF3wnie\u017C te bieg\u0142o\u015Bci, twoje maksymalne
+      punkty \u017Cycia zwi\u0119kszaj\u0105 si\u0119 o 8, a nast\u0119pnie o kolejne
+      2 punkty za ka\u017Cdy poziom Oficera, kt\xF3ry osi\u0105gniesz.\r\nNa pocz\u0105tku
+      tury ka\u017Cdej istoty, kt\xF3ra posiada ko\u015B\u0107 inspiracji od ciebie,
+      otrzymuje ona tymczasowe punkty \u017Cycia r\xF3wne twojemu modyfikatorowi
+      Charyzmy."
   - subClassName: Lider
-    subClassDescription: "\tPosiada pul\u0119 dodatkowych ko\u015Bci Rozkaz\xF3w,
-      kt\xF3rych mo\u017Ce u\u017Cy\u0107, aby inna posta\u0107 mia\u0142a w swojej
-      reakcji dodatkow\u0105 akcj\u0119 np. ataku albo wycofania si\u0119 "
+    subClassDescription: "<b>Dow\xF3dca, kt\xF3ry kontroluje sytuacj\u0119 na polu
+      bitwy. Posiada pul\u0119 dodatkowych ko\u015Bci Rozkaz\xF3w, kt\xF3re pozwalaj\u0105
+      przydzieli\u0107 innym postaciom dodatkow\u0105 akcj\u0119 \u2013 atak, wycofanie
+      czy cokolwiek, co pomo\u017Ce wygra\u0107 walk\u0119. </b>\r\n\r\n<b>POZIOM
+      3</b>\n \r\n<b>Wyszkolony Dow\xF3dca</b> \r\nPocz\u0105wszy od 3. poziomu,
+      gdy wybierasz t\u0119 specjalizacj\u0119 bojow\u0105, uczysz si\u0119 Rozkaz\xF3w,
+      kt\xF3re korzystaj\u0105 ze specjalnych ko\u015Bci zwanych Ko\u015B\u0107mi
+      Dowodzenia.\n\r\nRozkazy\r\nPoznajesz liczb\u0119 rozkaz\xF3w r\xF3wn\u0105
+      twojemu modyfikatorowi Charyzmy (minimum 1), kt\xF3re s\u0105 opisane poni\u017Cej.
+      Na wy\u017Cszych poziomach uczysz si\u0119 dodatkowych rozkaz\xF3w.\r\nKo\u015Bci
+      Dowodzenia (Leadership Dice)\r\nMasz liczb\u0119 Ko\u015Bci Dowodzenia r\xF3wn\u0105
+      twojemu Premii z Bieg\u0142o\u015Bci plus tw\xF3j modyfikator Charyzmy. Na
+      pocz\u0105tku s\u0105 to ko\u015Bci k4. Efekty Ko\u015Bci Dowodzenia opisane
+      s\u0105 w konkretnych rozkazach.\nWszystkie zu\u017Cyte Ko\u015Bci Dowodzenia
+      odnawiasz po zako\u0144czeniu kr\xF3tkiego lub d\u0142ugiego odpoczynku. Ich
+      rozmiar zwi\u0119ksza si\u0119 na wy\u017Cszych poziomach.\r\n\r\n<b>Lista
+      Rozkaz\xF3w</b>\r\n-Ognia! (Fire on My Target)\nGdy wykonujesz akcj\u0119 ataku,
+      by zaatakowa\u0107 na dystans, mo\u017Cesz wskaza\u0107 liczb\u0119 ch\u0119tnych
+      sojusznik\xF3w w promieniu 60 st\xF3p i wyda\u0107 po jednej Ko\u015Bci Dowodzenia
+      na ka\u017Cdego z nich.\nKa\u017Cdy z tych sojusznik\xF3w, je\u015Bli widzi
+      ten sam cel co ty, mo\u017Ce u\u017Cy\u0107 swojej reakcji, by wykona\u0107
+      atak przeciwko temu samemu celowi. Dodaje wtedy wynik z Ko\u015Bci Dowodzenia
+      do obra\u017Ce\u0144.\r\n-Padnij! (Get Your Head Down)\nGdy sojusznik w promieniu
+      5 st\xF3p od ciebie zostaje celem ataku dystansowego, mo\u017Cesz jako reakcj\u0119
+      wyda\u0107 jedn\u0105 Ko\u015B\u0107 Dowodzenia i doda\u0107 jej wynik do jego
+      CA (klasy pancerza).\r\n-Supresja (Suppression)\nWykonuj\u0105c akcj\u0119
+      Suporessja, mo\u017Cesz wyda\u0107 dowoln\u0105 liczb\u0119 Ko\u015Bci Dowodzenia.
+      Tyle samo sojusznik\xF3w mo\u017Ce u\u017Cy\u0107 swoich reakcji, by wsp\xF3lnie
+      prowadzi\u0107 ogie\u0144 zaporowy.\nZa ka\u017Cd\u0105 osob\u0119, kt\xF3ra
+      wzi\u0119\u0142a udzia\u0142, mo\u017Cesz obj\u0105\u0107 ogniem dodatkowy
+      cel. Ka\u017Cdy z uczestnik\xF3w zu\u017Cywa 5 naboj\xF3w \u2013 je\u015Bli
+      nie ma ich w magazynku, nie do\u0142\u0105cza do akcji.\r\n-Zbi\xF3rka (Rally)\nW
+      swojej turze mo\u017Cesz jako akcj\u0119 dodatkow\u0105 wyda\u0107 jedn\u0105
+      Ko\u015B\u0107 Dowodzenia, by wskaza\u0107 sojusznika w promieniu 30 st\xF3p.\nTen
+      sojusznik odzyskuje Ko\u015B\u0107 Dowodzenia + modyfikator Charyzmy punkt\xF3w
+      \u017Cycia.\nTylko postacie w stanie Kod Triage \u017B\xF3\u0142ty lub Zielony
+      mog\u0105 by\u0107 celem tego rozkazu. Mo\u017Cesz wskaza\u0107 kilku sojusznik\xF3w,
+      wydaj\u0105c po jednej Ko\u015Bci Dowodzenia na ka\u017Cdego.\r\n-Podw\xF3jne
+      Tempo (Double Time)\nW swojej turze wskazujesz liczb\u0119 ch\u0119tnych sojusznik\xF3w
+      w promieniu 60 st\xF3p i wydajesz po jednej Ko\u015Bci Dowodzenia na ka\u017Cdego.\nKa\u017Cdy
+      z nich mo\u017Ce u\u017Cy\u0107 akcji Dash jako akcji dodatkowej. Rzu\u0107
+      Ko\u015Bci\u0105 Dowodzenia \u2013 efekt trwa przez tyle rund, ile wypadnie.\r\n-Przegrupowanie
+      (Reposition)\nDzia\u0142a jak Podw\xF3jne Tempo, ale pozwala u\u017Cy\u0107
+      Disengage jako akcji dodatkowej. Efekt trwa tyle rund, ile wskazuje rzut Ko\u015Bci\u0105
+      Dowodzenia.\r\n-Do Os\u0142ony! (Take Cover)\nW swojej turze wskazujesz sojusznik\xF3w
+      i wydajesz po jednej Ko\u015Bci Dowodzenia na ka\u017Cdego.\nKa\u017Cdy z nich
+      zyskuje +2 do premii z os\u0142ony. Efekt trwa tyle rund, ile wskazuje rzut
+      Ko\u015Bci\u0105 Dowodzenia.\r\n-Tryb Cichy (Go Silent)\nDzia\u0142a jak powy\u017Csze,
+      ale dodaje +10 do rzut\xF3w na Stealth. Efekt trwa tyle minut, ile wskazuje
+      rzut Ko\u015Bci\u0105 Dowodzenia.\r\n-Zabezpieczenie Terenu (Security)\nW swojej
+      turze wskazujesz sojusznik\xF3w w promieniu 60 st\xF3p i wydajesz po jednej
+      Ko\u015Bci Dowodzenia na ka\u017Cdego.\nKa\u017Cdy z nich otrzymuje premi\u0119
+      z przewag\u0105 do atak\xF3w, je\u015Bli w tej turze zrezygnuje z ruchu. Efekt
+      trwa tyle minut, ile wskazuje Ko\u015B\u0107 Dowodzenia."
   - subClassName: As
-    subClassDescription: "\tAs posiadaj\u0105cy ekspertyz\u0119 w wybranej dziedzinie
-      np. strzelaniu, walce wr\u0119cz, pilotowaniu itp. Mo\u017Ce inspirowa\u0107
-      zar\xF3wno towarzyszy swoimi umiej\u0119tno\u015Bciami, jak i samego siebie"
-  - subClassName: "M\xF3wca"
-    subClassDescription: "\tRozwini\u0119ta Neolingwistyka, dodatkowe sloty i bonusy"
+    subClassDescription: "<b>Mistrz w swojej dziedzinie \u2013 czy to strzelanie,
+      walka wr\u0119cz, czy pilotowanie. Jego umiej\u0119tno\u015Bci nie tylko inspiruj\u0105
+      dru\u017Cyn\u0119, ale tak\u017Ce potrafi\u0105 wzmocni\u0107 jego samego,
+      gdy sytuacja tego wymaga. </b>\r\n\r\n<b>POZIOM 3</b>\n\r\n<b>Ekspertyza </b>\r\nNa
+      3. poziomie wybierasz dwie posiadane przez siebie bieg\u0142o\u015Bci (w umiej\u0119tno\u015Bciach,
+      systemach lub narz\u0119dziach).\nTw\xF3j premia z bieg\u0142o\u015Bci jest
+      podwajana przy ka\u017Cdym te\u015Bcie z u\u017Cyciem wybranych bieg\u0142o\u015Bci.\r\nAlternatywnie:
+      Mo\u017Cesz wybra\u0107 jeden styl walki i zyska\u0107 jedn\u0105 dodatkow\u0105
+      bieg\u0142o\u015B\u0107.\r\n\r\n\r\n<b>Arogant </b> \r\nOd 3. poziomu mo\u017Cesz
+      u\u017Cy\u0107 Inspiracji na sobie, jako akcj\u0119 dodatkow\u0105 lub reakcj\u0119,
+      zanim wykonasz rzut na atak, test umiej\u0119tno\u015Bci lub rzut obronny.\r\nZyskujesz
+      dodatkowe u\u017Cycia Inspiracji r\xF3wne modyfikatorowi Charyzmy.\r\n(\u0141\u0105cznie
+      mo\u017Cesz u\u017Cywa\u0107 Inspiracji r\xF3wnej poziomowi + 2 \xD7 Charyzma
+      na d\u0142ugi odpoczynek.)\r\n\r\n<b>Efekt WOW</b>\r\nGdy wyrzucisz krytyczny
+      sukces lub zadbasz o ostatni cios, ka\u017Cdy sojusznik w promieniu 9 metr\xF3w,
+      kt\xF3ry to widzia\u0142, otrzymuje od Ciebie ko\u015B\u0107 Inspiracji.\r\nTa
+      ko\u015B\u0107 nie wlicza si\u0119 do Twojego limitu u\u017Cy\u0107 Inspiracji."

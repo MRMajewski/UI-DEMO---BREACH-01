@@ -41,8 +41,8 @@ public enum NeoSensoricsCategory
 {
     Wspólna,
     Futurispecja,
-    Szamanizm,
-    Biospecja
+    Neospirytyzm,
+    Biomancja
 }
 public enum PsionicsCategory
 {

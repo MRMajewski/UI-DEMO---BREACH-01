@@ -16,38 +16,102 @@ MonoBehaviour:
   reductionDiceInfos: 0
   savingThrowInfos: 3
   abilityInfos: 02000000040000000500000006000000070000000a0000000b000000
-  classDescription: "Zwi\u0119kszone umiej\u0119tno\u015Bci analityczne. Rzuca czary
-    przy pomocy tableta bojowego z wgranymi algorytmami i szybkimi obliczeniami w
-    my\u015Blach. No jak mag :) Co nie przeszkadza mu strzeli\u0107 z pistoleta!
-    Magia w za\u0142o\u017Ceniu ma by\u0107 bardziej wyka\u0144czaj\u0105ca, ale
-    i bardziej efektywna."
+  classDescription: "Zwi\u0119kszone umiej\u0119tno\u015Bci analityczne. Korzystaj\u0105c
+    z tabletu bojowego z wgranymi algorytmami i szybkimi obliczeniami w g\u0142owie,
+    rzuca czary niczym mag \u2013 szybko i skutecznie. Jego umiej\u0119tno\u015Bci
+    s\u0105 jest precyzyjne, wyka\u0144czaj\u0105ce i efektywne. I nie boi si\u0119
+    te\u017C wyci\u0105gn\u0105\u0107 pistoletu, gdy sytuacja tego wymaga. "
   classIcon: {fileID: 21300000, guid: 65796fc02d0d76f44a1361540104867d, type: 3}
-  subclasses:
-  - "\t<size=150%>Grawitacja</size>\nManipulacja si\u0142\u0105 przyci\u0105gania
-    dzia\u0142aj\u0105c\u0105 na istoty i przedmioty"
-  - "\t<size=150%>Czas</size>\nManipulacja up\u0142ywu czasu"
-  - "\t<size=150%>Energia</size>\nManipulacja r\xF3\u017Cnymi rodzajami energii np
-    ciep\u0142em, elektryczno\u015Bci\u0105, promieniowaniem"
   levelUpTable:
   - level: 1
-    skills: Neofizyka
+    skills: Neofizyka/ 2F/2S/ 2-1p
     proficiencyBonus: 2
-    skillsDescription: Neo Geo Leo
+    skillsDescription: "Neofizyka to dziedzina Neonauki badaj\u0105ca nowe zasady
+      fizyki, ujawnione po pojawieniu si\u0119 Wyrw. Obejmuje zjawiska, kt\xF3re
+      wykraczaj\u0105 poza znane prawa natury \u2014 zakrzywienia czasu, zmienn\u0105
+      grawitacj\u0119, anomalie energetyczne, manipulacje drganiami, \u015Bwiat\u0142em
+      i przestrzeni\u0105. Jej celem jest zintegrowanie klasycznej fizyki z tymi
+      nowo odkrytymi regu\u0142ami, by tworzy\u0107 zaawansowane technologie i wyj\u0105tkowe
+      zdolno\u015Bci operacyjne.\r\nOsoby o wybitnych zdolno\u015Bciach analitycznych,
+      wystawione na wp\u0142yw Wyrw \u2014 potrafi\u0105 przetwarza\u0107 z\u0142o\u017Cone
+      obliczenia w pami\u0119ci i obs\u0142ugiwa\u0107 specjalistyczne urz\u0105dzenia
+      do manipulowania zasadami neofizyki.\r\nDo tego celu s\u0142u\u017Cy urz\u0105dzenie
+      elektroniczne zawieraj\u0105ce dedykowane programy, kt\xF3re wywo\u0142uj\u0105
+      zjawiska zwane NeoManipulacjami.\r\nNeoManipulacje dziel\u0105 si\u0119 na
+      dwie kategorie:\r\nFormu\u0142y \u2013 szybkie, precyzyjne manipulacje. Daj\u0105
+      natychmiastowy efekt, obejmuj\u0105 niewielki obszar i maj\u0105 ograniczony
+      czas dzia\u0142ania. Idealne do reagowania w dynamicznych sytuacjach.\r\nSekwencje
+      \u2013 z\u0142o\u017Cone operacje wymagaj\u0105ce skupienia. S\u0105 znacznie
+      pot\u0119\u017Cniejsze, ale wymagaj\u0105 u\u017Cycia tzw. Jednostek \u2013
+      miniprogram\xF3w odpalanych z pomoc\u0105 specjalnych tablet\xF3w lub smartfon\xF3w.
+      Jednostki r\xF3\u017Cni\u0105 si\u0119 poziomem zaawansowania (od 1 do 4),
+      kt\xF3ry decyduje o sile i z\u0142o\u017Cono\u015Bci danej Sekwencji.\r\n\r\nZnana
+      ilo\u015B\u0107 formu\u0142 i sekwencja jest zale\u017Cna od poziomu herosa.
+      \r\nJednocze\u015Bnie w ci\u0105gu doby aktywnych i przygotowanych sekwencji,
+      heros mo\u017Ce mie\u0107 w liczbie r\xF3wnej jego modyfikatorowi z Inteligencji
+      + modyfikator Wyszkolenia. \nNa 1 poziomie to 2 formu\u0142y i 2 Sekwencje"
   - level: 2
-    skills: Trening
+    skills: Trening 2F/2S/ 3-1p
     proficiencyBonus: 2
     skillsDescription: "Przeprowadzasz dwa treningi. Nie mo\u017Cna wykona\u0107
-      dw\xF3ch takich samych trening\xF3w w tym samym momencie"
+      dw\xF3ch takich samych trening\xF3w w tym samym momencie\n\n<b>2F/2S/ 3-1p</b>\nPosiadasz
+      znane 2 Formu\u0142y , 2 Sekwencje, \nTwoje jednostki: 3 x 1 poziom"
   - level: 3
-    skills: "Umiej\u0119tno\u015B\u0107 podklasy"
+    skills: 'Specjalizacja 2F/3S/ 4-1p '
     proficiencyBonus: 2
-    skillsDescription: "Opis poni\u017Cej w opisie podklas"
+    skillsDescription: "Opis poni\u017Cej w opisie podklas\n\n<b>2F/2S/ 3-1p</b>\nPosiadasz
+      znane 2 Formu\u0142y , 3 Sekwencje, \nTwoje jednostki: 4 x 1 poziom"
   subClassesTable:
-  - subClassName: Grawitacja
-    subClassDescription: "Manipulacja si\u0142\u0105 przyci\u0105gania dzia\u0142aj\u0105c\u0105
-      na istoty i przedmioty"
-  - subClassName: Czas
-    subClassDescription: "Manipulacja up\u0142ywu czasu"
-  - subClassName: Energia
-    subClassDescription: "Manipulacja r\xF3\u017Cnymi rodzajami energii np ciep\u0142em,
-      elektryczno\u015Bci\u0105, promieniowaniem"
+  - subClassName: GRAWITURGIA
+    subClassDescription: "<b>Ekspert w kontroli si\u0142 przyci\u0105gania. Mo\u017Ce
+      zwi\u0119ksza\u0107 lub zmniejsza\u0107 grawitacj\u0119 w wybranych obszarach,
+      wp\u0142ywaj\u0105c na ruch obiekt\xF3w i istot. </b>\n\r\n<b>POZIOM 3</b>\n\r\n<b>Regulacja
+      G\u0119sto\u015Bci </b>\r\nJako akcja mo\u017Cesz magicznie zmieni\u0107 ci\u0119\u017Car
+      jednego obiektu lub istoty, kt\xF3r\u0105 widzisz w promieniu 9 metr\xF3w.
+      Obiekt lub istota musi mie\u0107 rozmiar co najwy\u017Cej Du\u017Cy. Waga celu
+      zostaje zmniejszona o po\u0142ow\u0119 lub podwojona na maksymalnie 1 minut\u0119
+      lub do momentu, gdy stracisz koncentracj\u0119 (jak w przypadku utrzymywania
+      czaru).\r\n-Zmniejszenie wagi:\r\nCel zyskuje +3 metry do szybko\u015Bci ruchu.\r\nMo\u017Ce
+      skaka\u0107 dwukrotnie dalej ni\u017C normalnie.\r\nOtrzymuje kar\u0119 (utrudnienie)
+      do test\xF3w i rzut\xF3w obronnych opartych na Sile.\r\n-Zwi\u0119kszenie wagi:\r\nSzybko\u015B\u0107
+      ruchu celu zostaje zmniejszona o 3 metry.\r\nOtrzymuje premi\u0119 (u\u0142atwienie)
+      do test\xF3w i rzut\xF3w obronnych opartych na Sile.\n\r\nPo osi\u0105gni\u0119ciu
+      10. poziomu w tej dziedzinie, mo\u017Cesz wp\u0142ywa\u0107 tak\u017Ce na Bardzo
+      Du\u017Ce istoty i obiekty.\r\n\r\n<b>Dodatkowe formu\u0142y i sekwencje</b>\r\nZnasz
+      dodatkowo jedn\u0105 formu\u0142\u0119 , oraz 2 wybrane sekwencje poziomu 1
+      z specjalizacji Grawiturgii."
+  - subClassName: CHRONOTURGIA
+    subClassDescription: "<b>Chronoturgia to ga\u0142\u0105\u017A Neofizyki pozwalaj\u0105ca
+      na manipulacj\u0119 czasem w skali mikro i makro. U\u017Cytkownicy tej dziedziny
+      mog\u0105 przyspiesza\u0107 lub spowalnia\u0107 istoty, a tak\u017Ce wp\u0142ywa\u0107
+      na szybko\u015B\u0107 proces\xF3w zachodz\u0105cych w materii. W bardziej zaawansowanej
+      formie potrafi\u0105 nawet lokalnie zatrzymywa\u0107 czas lub przyspiesza\u0107
+      jego up\u0142yw do ekstremalnych warto\u015Bci.</b>\r\n\r\n<b>POZIOM 3</b>\n\r\n<b>Refleks
+      Chronomanty</b>\r\nTwoje po\u0142\u0105czenie z czasem sprawia, \u017Ce jeste\u015B
+      zawsze o krok przed innymi. Zyskujesz premi\u0119 do test\xF3w Inicjatywy r\xF3wn\u0105
+      twojemu modyfikatorowi Inteligencji (minimum +1).\n\r\n <b>D\xE9j\xE0 Vu </b>\r\nMasz
+      przeczucie, jakby\u015B ju\u017C prze\u017Cy\u0142 ten moment. Raz na odpoczynek
+      kr\xF3tki lub d\u0142ugi mo\u017Cesz powt\xF3rzy\u0107 jeden sw\xF3j rzut d20.
+      Musisz zaakceptowa\u0107 nowy wynik, nawet je\u015Bli jest gorszy.\r\n\n<b>Dodatkowe
+      formu\u0142y i sekwencje</b>\r\nZnasz dodatkowo jedn\u0105 formu\u0142\u0119
+      , oraz 2 wybrane sekwencje poziomu 1 z specjalizacji Chronoturgii."
+  - subClassName: ENERGODYNAMIKA
+    subClassDescription: "<b>Energetyka to sztuka manipulowania energi\u0105 w r\xF3\u017Cnych
+      formach \u2013 ciep\u0142a, elektryczno\u015Bci, kinetyki czy bardziej egzotycznych
+      si\u0142. U\u017Cytkownik tej dziedziny potrafi nie tylko wytwarza\u0107 i
+      kierowa\u0107 energi\u0105, ale tak\u017Ce j\u0105 poch\u0142ania\u0107, przekierowywa\u0107
+      oraz przeobra\u017Ca\u0107 w r\xF3\u017Cne efekty.</b>\n\r\n<b>POZIOM 3</b>\n\r\n<b>Pomiar
+      Energii</b>\r\nTw\xF3j zmys\u0142 energetyczny pozwala ci wykrywa\u0107 obecno\u015B\u0107
+      i intensywno\u015B\u0107 r\xF3\u017Cnych form energii w promieniu 10 metr\xF3w.
+      Mo\u017Cesz okre\u015Bli\u0107, czy dany obiekt lub istota emituje ciep\u0142o,
+      jest na\u0142adowana elektrycznie lub przechowuje inn\u0105 form\u0119 energii.
+      Nie daje to dok\u0142adnych warto\u015Bci, ale pozwala na intuicyjn\u0105 ocen\u0119
+      mocy \u017Ar\xF3d\u0142a.\n\r\n<b>Kondensacja Energii</b>\r\nMo\u017Cesz skumulowa\u0107
+      niewielk\u0105 ilo\u015B\u0107 energii w przedmiocie, powoduj\u0105c jego nagrzanie,
+      sch\u0142odzenie lub na\u0142adowanie statyczne. Przedmiot nie staje si\u0119
+      niebezpieczny, ale mo\u017Ce by\u0107 odczuwalnie gor\u0105cy, zimny lub lekko
+      elektryzuj\u0105cy. Efekt mo\u017Ce mie\u0107 zastosowanie u\u017Cytkowe \u2013
+      np. oszronienie szk\u0142a, nagrzanie zamka lub naelektryzowanie metalowej
+      klamki, by wywo\u0142a\u0107 ma\u0142y szok u dotykaj\u0105cego.\r\n\r\n<b>Dodatkowe
+      formu\u0142y i sekwencje</b>\r\nZnasz dodatkowo jedn\u0105 formu\u0142\u0119
+      , oraz 2 wybrane sekwencje poziomu 1 z specjalizacji Energodynamiki."

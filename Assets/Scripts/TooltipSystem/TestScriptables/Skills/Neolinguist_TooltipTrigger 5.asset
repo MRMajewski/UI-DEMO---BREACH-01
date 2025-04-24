@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Neolinguist_TooltipTrigger 5
   m_EditorClassIdentifier: 
   triggerName: Neolingwistyka
-  tooltipText: "Je\u015Bli chcesz i\u0119 dowiedzie\u0107 wi\u0119cej o Neolingwistyce..."
+  tooltipText: "Je\u015Bli chcesz si\u0119 dowiedzie\u0107 wi\u0119cej o Neolingwistyce..."
   tooltipType: 1
   actionName: ToNeolinguwisticPanel

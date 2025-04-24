@@ -17,9 +17,9 @@ MonoBehaviour:
   spellDescription: "Sensor otrzymuje +2 do test\xF3w Percepcji i Przetrwania opartych
     na w\u0119chu, wykrywaj\u0105c subtelne zapachy. Mo\u017Ce wykrywa\u0107 zapachy,
     kt\xF3rych normalnie nie dostrzegaj\u0105 ludzie, np. \u015Blady krwi, toksyny
-    w powietrzu czy emocje istot (strach, agresj\u0119).\nJe\u015Bli sp\u0119dzi
-    kilka sekund na analizie, mo\u017Ce odr\xF3\u017Cni\u0107 zapachy poszczeg\xF3lnych
-    os\xF3b i stworze\u0144."
+    w powietrzu czy emocje istot (strach, agresj\u0119). Je\u015Bli sp\u0119dzi kilka
+    sekund na analizie, mo\u017Ce odr\xF3\u017Cni\u0107 zapachy poszczeg\xF3lnych
+    os\xF3b i stworze\u0144.\nKoszt: 1"
   Spellcategory: 0
   spellType: 0
   spellCost: 1

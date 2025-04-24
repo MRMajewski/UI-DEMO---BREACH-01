@@ -21,13 +21,13 @@ public class ClassData : ScriptableObject, ISnapperPanelData
     public string classDescription;
     public Sprite classIcon;
 
-    [TextArea(1, 10)]
-    public string[] subclasses;
+    //[TextArea(1, 10)]
+    //public string[] subclasses;
 
     [Header("Ability Infos")]
     public List<LevelUpTable> levelUpTable;
 
-    [Header("Ability Infos")]
+    [Header("Subclasses Infos")]
     public List<SubClassInfo> subClassesTable;
 
     public Sprite GetMiniatureIcon()

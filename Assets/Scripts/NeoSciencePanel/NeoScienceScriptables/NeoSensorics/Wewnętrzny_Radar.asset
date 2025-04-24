@@ -15,9 +15,8 @@ MonoBehaviour:
   neoScienceCategory: 2
   spellName: "Wewn\u0119trzny Radar"
   spellDescription: "Sensor czuje ruchome istoty w promieniu 6m, nawet przez \u015Bciany
-    i mg\u0142\u0119. Nie ma utrudnie\u0144 w walce z niewidocznym przeciwnikiem
-    w zasi\u0119gu dzia\u0142ania zmys\u0142u.. \nMocniejsza wersja (2 PP): Zasi\u0119g
-    ro\u015Bnie do 12m."
+    i mg\u0142\u0119. Mocniejsza wersja (2 PP): Zasi\u0119g ro\u015Bnie do 12m.\nKoszt:
+    1"
   Spellcategory: 0
   spellType: 0
   spellCost: 1

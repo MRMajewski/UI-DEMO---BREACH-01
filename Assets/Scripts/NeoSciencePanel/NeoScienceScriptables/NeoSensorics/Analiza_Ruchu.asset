@@ -15,7 +15,7 @@ MonoBehaviour:
   neoScienceCategory: 2
   spellName: Analiza Ruchu
   spellDescription: "Sensor przewiduje drobne ruchy przeciwnik\xF3w, zwi\u0119kszaj\u0105c
-    swoj\u0105 obron\u0119 +1 przeciwko atakom wr\u0119cz."
+    swoj\u0105 obron\u0119 +1 przeciwko atakom wr\u0119cz.\nKoszt: 1"
   Spellcategory: 0
   spellType: 0
   spellCost: 1

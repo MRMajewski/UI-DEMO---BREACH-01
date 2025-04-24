@@ -15,8 +15,8 @@ MonoBehaviour:
   neoScienceCategory: 2
   spellName: "Przewidywanie Wydarze\u0144"
   spellDescription: "Sensor otrzymuje przewag\u0119 na testy Percepcji w celu wykrycia
-    pu\u0142apek, zasadzek lub nadchodz\u0105cych zagro\u017Ce\u0144. \nZyskuje tak\u017Ce
-    +1 do rzut\xF3w na Inicjatyw\u0119."
+    pu\u0142apek, zasadzek lub nadchodz\u0105cych zagro\u017Ce\u0144. Zyskuje tak\u017Ce
+    +1 do rzut\xF3w na Inicjatyw\u0119.\nKoszt: 1"
   Spellcategory: 0
   spellType: 1
   spellCost: 1

@@ -16,7 +16,8 @@ MonoBehaviour:
   spellName: "Mgnienie Przysz\u0142o\u015Bci"
   spellDescription: "Sensor natychmiast wykonuje ruch, kt\xF3ry pozwala mu ca\u0142kowicie
     unikn\u0105\u0107 ataku lub zmieni\u0107 pozycj\u0119 na bezpieczn\u0105 (w zasi\u0119gu
-    ruchu). Mo\u017Ce u\u017Cy\u0107 tylko w momencie, gdy przewidzi zagro\u017Cenie."
-  Spellcategory: 1
+    ruchu). Mo\u017Ce u\u017Cy\u0107 tylko w momencie, gdy przewidzi zagro\u017Cenie.\nKoszt:
+    3"
+  Spellcategory: 0
   spellType: 1
   spellCost: 3

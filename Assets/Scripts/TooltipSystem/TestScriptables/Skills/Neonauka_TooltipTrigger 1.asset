@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Neonauka_TooltipTrigger 1
   m_EditorClassIdentifier: 
   triggerName: Neonauka
-  tooltipText: "Je\u015Bli chcesz i\u0119 dowiedzie\u0107 wi\u0119cej o Neonauce..."
+  tooltipText: "Je\u015Bli chcesz si\u0119 dowiedzie\u0107 wi\u0119cej o Neonauce..."
   tooltipType: 1
   actionName: ToNeoSciencePanel

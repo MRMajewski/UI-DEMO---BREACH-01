@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Psionika_TooltipTrigger 4
   m_EditorClassIdentifier: 
   triggerName: Psionika
-  tooltipText: "Je\u015Bli chcesz i\u0119 dowiedzie\u0107 wi\u0119cej o Psionice..."
+  tooltipText: "Je\u015Bli chcesz si\u0119 dowiedzie\u0107 wi\u0119cej o Psionice..."
   tooltipType: 1
   actionName: ToPsionicsPanel
