@@ -23,19 +23,19 @@ MonoBehaviour:
   classIcon: {fileID: 21300000, guid: 124e567b77afae04786f83da35309bf2, type: 3}
   levelUpTable:
   - level: 1
-    skills: "Ukradkowy Atak/Podst\u0119pna akcja"
+    skills: "Podst\u0119pny Atak/Sprytne Dzia\u0142anie"
     proficiencyBonus: 2
     skillsDescription: "<b>Podst\u0119pny Atak </b>\r\nOd 1. poziomu, potrafisz precyzyjnie
       atakowa\u0107 i wykorzysta\u0107 rozproszenie przeciwnika. Raz na tur\u0119,
-      mo\u017Cesz zada\u0107 dodatkowe obra\u017Cenia 1d6 istocie, kt\xF3r\u0105
+      mo\u017Cesz zada\u0107 dodatkowe obra\u017Cenia 1k6 istocie, kt\xF3r\u0105
       trafisz w ataku, je\u015Bli masz przewag\u0119 w rzucie ataku. Nie musisz mie\u0107
       przewagi w rzucie ataku, je\u015Bli cel otrzyma\u0142 obra\u017Cenia w tej
       turze, lub je\u015Bli inny wr\xF3g celu znajduje si\u0119 w odleg\u0142o\u015Bci
-      5 st\xF3p od niego, ten wr\xF3g nie jest niezdolny do dzia\u0142ania, a ty
-      nie masz niekorzystnych rzut\xF3w w ataku. \r\n\r\n<b>SPRYTNE DZIA\u0141ANIE 
-      </b>\r\nOd 2. poziomu, twoja szybka my\u015Bl i zwinno\u015B\u0107 pozwalaj\u0105
-      ci dzia\u0142a\u0107 b\u0142yskawicznie. Mo\u017Cesz podj\u0105\u0107 akcj\u0119
-      sprintu, odst\u0105pienia lub ukrycia jako akcj\u0119 bonusow\u0105. "
+      1,5m od niego, ten wr\xF3g nie jest niezdolny do dzia\u0142ania, a ty nie masz
+      niekorzystnych rzut\xF3w w ataku. \r\n\r\n<b>SPRYTNE DZIA\u0141ANIE  </b>\r\nOd
+      2. poziomu, twoja szybka my\u015Bl i zwinno\u015B\u0107 pozwalaj\u0105 ci dzia\u0142a\u0107
+      b\u0142yskawicznie. Mo\u017Cesz podj\u0105\u0107 akcj\u0119 sprintu, odst\u0105pienia
+      lub ukrycia jako akcj\u0119 bonusow\u0105. "
   - level: 2
     skills: Trening
     proficiencyBonus: 2
@@ -56,22 +56,19 @@ MonoBehaviour:
       Je\u015Bli atak trafi, liczy si\u0119 jako trafienie krytyczne. Je\u015Bli
       trafi\u0142e\u015B krytycznie, obra\u017Cenia zostan\u0105 potrojone. "
   - subClassName: Duch
-    subClassDescription: "<b>Mistrz skradania si\u0119 i dostawania w miejsca, gdzie
-      nikt nie ma prawa by\u0107. Cie\u0144 to posta\u0107, kt\xF3ra potrafi przej\u015B\u0107
-      obok wrog\xF3w niezauwa\u017Cona, wykradaj\u0105c to, czego nikt si\u0119 nie
-      spodziewa. Prawdziwy mistrz infiltracji.  </b> \r\n\r\n<b>POZIOM 3 </b>\n\n<b>SZEROKIE
-      SPOJRZENIE  </b>\r\nOd 3. poziomu, potrafisz oceni\u0107 teren i zyska\u0107
-      przewag\u0119 dzi\u0119ki jednemu b\u0142yskawicznemu spojrzeniu, kt\xF3re
-      cz\u0119sto umyka innym.\nMo\u017Cesz u\u017Cy\u0107 bonusowej akcji, wynikaj\u0105cej
-      z Twojej Cunning Action, aby wykona\u0107 akcj\u0119 \"Przeszukiwania\". Zyskujesz
-      r\xF3wnie\u017C przewag\u0119 na sprawdzanie pu\u0142apek, urz\u0105dze\u0144
-      szpiegowskich, dr\xF3g ucieczki oraz drogocennych przedmiot\xF3w, kt\xF3re
-      mo\u017Cna \u0142atwo ukry\u0107 i zabra\u0107.\r\n\r\n<b>UKRYTY KROK </b>
-      \r\nJako bonusow\u0105 akcj\u0119 mo\u017Cesz magicznie sta\u0107 si\u0119
-      niewidzialny a\u017C do pocz\u0105tku swojej nast\u0119pnej tury lub do momentu,
-      w kt\xF3rym zaatakujesz, wykonasz rzut obra\u017Ce\u0144 lub zmusisz kogo\u015B
-      do wykonania rzutu obronnego. Po u\u017Cyciu tej zdolno\u015Bci, nie mo\u017Cesz
-      jej u\u017Cy\u0107 ponownie, dop\xF3ki nie odpoczniesz kr\xF3tko lub d\u0142ugo."
+    subClassDescription: "<b>POZIOM 3 </b>\n\r\n<b>SZEROKIE SPOJRZENIE  </b>\r\nOd
+      3. poziomu, potrafisz oceni\u0107 teren i zyska\u0107 przewag\u0119 dzi\u0119ki
+      jednemu b\u0142yskawicznemu spojrzeniu, kt\xF3re cz\u0119sto umyka innym.\nMo\u017Cesz
+      u\u017Cy\u0107 bonusowej akcji, wynikaj\u0105cej z Sprytnego Dzia\u0142ania,
+      aby wykona\u0107 akcj\u0119 \"Przeszukiwania\". Zyskujesz r\xF3wnie\u017C przewag\u0119
+      na sprawdzanie pu\u0142apek, urz\u0105dze\u0144 szpiegowskich, dr\xF3g ucieczki
+      oraz drogocennych przedmiot\xF3w, kt\xF3re mo\u017Cna \u0142atwo ukry\u0107
+      i zabra\u0107.\r\n\r\n<b>UKRYTY KROK </b> \r\nJako bonusow\u0105 akcj\u0119
+      mo\u017Cesz sta\u0107 si\u0119 ukryty a\u017C do pocz\u0105tku swojej nast\u0119pnej
+      tury lub do momentu, w kt\xF3rym zaatakujesz, wykonasz rzut obra\u017Ce\u0144
+      lub zmusisz kogo\u015B do wykonania rzutu obronnego. Po u\u017Cyciu tej zdolno\u015Bci,
+      nie mo\u017Cesz jej u\u017Cy\u0107 ponownie, dop\xF3ki nie odpoczniesz kr\xF3tko
+      lub d\u0142ugo. "
   - subClassName: Oprych
     subClassDescription: "<b>Nie bierze je\u0144c\xF3w. Zasady? Dla niego nie istniej\u0105.
       Strzela pierwszy, zaskakuje przeciwnika i z zimn\u0105 krwi\u0105 wykonuje
@@ -80,6 +77,6 @@ MonoBehaviour:
       </b>\n\r\n<b>ZAWSZE STRZELAJ PIERWSZY  </b>\r\nOd 3. poziomu zyskujesz przewag\u0119
       na rzutach inicjatywy oraz zyskujesz bieg\u0142o\u015B\u0107 w jednej umiej\u0119tno\u015Bci,
       zestawie narz\u0119dzi lub systemie, kt\xF3ry wybierzesz. \r\n\r\n<b>BEZLITOSNY 
-      </b>\r\nOd 3. poziomu Twoja zdolno\u015B\u0107 Cunning Action zostaje rozszerzona
+      </b>\r\nOd 3. poziomu Twoja zdolno\u015B\u0107 Sprytnej Akcji zostaje rozszerzona
       o opcje pchni\u0119cia, rozbrojenia lub obezw\u0142adnienia przeciwnika. Do
       tych dzia\u0142a\u0144 u\u017Cywasz przeciwnego rzutu atletyki. "

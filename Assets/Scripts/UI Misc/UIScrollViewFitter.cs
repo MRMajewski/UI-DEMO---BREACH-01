@@ -14,33 +14,25 @@ public class UIScrollViewFitter : MonoBehaviour
         RectTransform content = scrollRect.content;
         RectTransform viewport = scrollRect.viewport;
 
-        Vector3[] itemWorldCorners = new Vector3[4];
-        Vector3[] viewWorldCorners = new Vector3[4];
-
-        target.GetWorldCorners(itemWorldCorners);
-        viewport.GetWorldCorners(viewWorldCorners);
-
-        float itemTop = itemWorldCorners[1].y;
-        float itemBottom = itemWorldCorners[0].y;
-        float viewTop = viewWorldCorners[1].y;
-        float viewBottom = viewWorldCorners[0].y;
+        float itemTop = GetTopY(target);
+        float viewTop = GetTopY(viewport);
 
         float delta = 0f;
 
-        if (itemTop > viewTop)
-        {
-            delta = itemTop - viewTop;
-        }
-        else if (itemBottom < viewBottom)
-        {
-            delta = itemBottom - viewBottom;
-        }
+        delta = viewTop - itemTop;
 
         if (Mathf.Abs(delta) > 1f)
         {
             Vector2 newPos = content.anchoredPosition;
-            newPos.y -= delta;
+            newPos.y += delta;
             content.DOAnchorPos(newPos, scrollDuration).SetEase(Ease.OutCubic);
+        }
+
+        float GetTopY(RectTransform rt)
+        {
+            Vector3[] corners = new Vector3[4];
+            rt.GetWorldCorners(corners);
+            return corners[1].y;
         }
     }
 }

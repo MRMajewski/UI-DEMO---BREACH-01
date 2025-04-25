@@ -11,6 +11,6 @@ public class NeoSensoricsSpellData : SpellData
 
     private void OnEnable()
     {
-        neoScienceCategory = NeoScienceCategory.Neosensorics; // Przypisz odpowiedni¹ wartoœæ
+        neoScienceCategory = NeoScienceCategory.Neosensorics; 
     }
 }

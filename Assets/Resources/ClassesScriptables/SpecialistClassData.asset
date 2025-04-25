@@ -23,7 +23,7 @@ MonoBehaviour:
   classIcon: {fileID: 21300000, guid: bc8e9963558122b43bad1824bb87b2e6, type: 3}
   levelUpTable:
   - level: 1
-    skills: Ekspertyza/IInfuzja Przedmiotu
+    skills: Ekspertyza/Infuzja Przedmiotu
     proficiencyBonus: 2
     skillsDescription: "<b>Bieg\u0142o\u015B\u0107 Ekspercka</b>\nOd 1. poziomu wybierasz
       dwie posiadane bieg\u0142o\u015Bci (umiej\u0119tno\u015Bci, systemy lub narz\u0119dzia).
@@ -38,7 +38,7 @@ MonoBehaviour:
       ka\u017Cdym razem, gdy zdobywasz nowy poziom w tej klasie, mo\u017Cesz wymieni\u0107
       jedn\u0105 z poznanych infuzji na inn\u0105 z listy. "
   - level: 2
-    skills: "Szybki d\u0142onie, Trening"
+    skills: "Szybki R\u0119ce/Trening"
     proficiencyBonus: 2
     skillsDescription: "<b>Szybkie R\u0119ce</b>\r\nOd 2. poziomu mo\u017Cesz u\u017Cy\u0107
       zestawu narz\u0119dzi, przedmiotu lub umiej\u0119tno\u015Bci, kt\xF3rej normalne
@@ -61,7 +61,7 @@ MonoBehaviour:
       u\u017Cy\u0107 tej zdolno\u015Bci liczb\u0119 razy r\xF3wn\u0105 Twojej premii
       z bieg\u0142o\u015Bci na d\u0142ugi odpoczynek.\r\n\r\n<b>Dodatkowa infuzja</b>\r\nW
       danej chwili mo\u017Cesz mie\u0107 aktywne dwie infuzje jednocze\u015Bnie.
-      Druga infuzja musi by\u0107 typu \u201EWzmocnij Bro\u0144\u201D (Enhance Weapon). "
+      Druga infuzja musi by\u0107 typu \u201EWzmocnij Bro\u0144\u201D . "
   - subClassName: "In\u017Cynier"
     subClassDescription: "<b>Z\u0142ota r\u0105czka z \u017Celazn\u0105 wol\u0105.
       Na plecach niesie jednego drona \u2013 ale za to takiego, kt\xF3rego sam sobie
@@ -74,29 +74,29 @@ MonoBehaviour:
       mo\u017Cliw\u0105 akcj\u0119).\r\nJe\u015Bli jeste\u015B unieruchomiony (incapacitated),
       mo\u017Ce sam decydowa\u0107, co robi (nie ogranicza si\u0119 do Uniku).\n\r\nWyb\xF3r
       konfiguracji:\r\nPo zdobyciu tej cechy wybierasz jeden z dw\xF3ch wariant\xF3w
-      towarzysza:\r\n-Stalowy Obro\u0144ca (Steel Defender)\r\nKlasyczny bojowy towarzysz.
-      Broni, blokuje i wspiera.\n\r\n-Stalowy Zwiadowca (Steel Scout)\r\nWyposa\u017Cony
-      w kamer\u0119 przesy\u0142aj\u0105c\u0105 obraz do Twojego urz\u0105dzenia
-      in\u017Cynierskiego. \u015Awietnie sprawdza si\u0119 do rozpoznania i zwiadu,
-      cho\u0107 nie jest tak wytrzyma\u0142y jak jego bojowy odpowiednik."
+      towarzysza:\r\n-Stalowy Obro\u0144ca\r\nKlasyczny bojowy towarzysz. Broni,
+      blokuje i wspiera.\n\r\n-Stalowy Zwiadowca\r\nWyposa\u017Cony w kamer\u0119
+      przesy\u0142aj\u0105c\u0105 obraz do Twojego urz\u0105dzenia in\u017Cynierskiego.
+      \u015Awietnie sprawdza si\u0119 do rozpoznania i zwiadu, cho\u0107 nie jest
+      tak wytrzyma\u0142y jak jego bojowy odpowiednik."
   - subClassName: Medyk
     subClassDescription: "<b>Tw\xF3j najlepszy przyjaciel w piekle Wyrwy. \u0141ata
       rany, wzmacnia cia\u0142o, dba o morale. Gdy on jest w dru\u017Cynie, mo\u017Cesz
-      od\u0142o\u017Cy\u0107 panik\u0119 na p\xF3\u017Aniej. </b>  \r\n\r\n\r\n<b>Pierwszy
-      Ratownik</b>  \r\nOd 3. poziomu, gdy wybierasz t\u0119 specjalizacj\u0119:\r\nZyskujesz
-      bieg\u0142o\u015B\u0107 w u\u017Cywaniu apteczek, je\u015Bli jeszcze jej nie
-      posiadasz.\r\nJe\u015Bli masz ju\u017C bieg\u0142o\u015B\u0107 w apteczkach,
-      ale nie w Medycynie \u2013 zyskujesz bieg\u0142o\u015B\u0107 w Medycynie.\r\nJe\u015Bli
-      masz bieg\u0142o\u015B\u0107 zar\xF3wno w Medycynie, jak i w apteczkach, dodajesz
-      premi\u0119 z bieg\u0142o\u015Bci do wszystkich test\xF3w leczenia \u017Cywych
-      istot.\r\nDodatkowo:\nZa ka\u017Cdym razem, gdy u\u017Cywasz apteczki do leczenia
-      lub stabilizacji \u017Cywego celu, ta istota mo\u017Ce wyda\u0107 liczb\u0119
-      swoich Kostek Trafie\u0144 r\xF3wn\u0105 Twojemu modyfikatorowi bieg\u0142o\u015Bci,
-      by si\u0119 uleczy\u0107.\r\nJako akcja mo\u017Cesz zu\u017Cy\u0107 jedno u\u017Cycie
-      apteczki, by udzieli\u0107 pomocy istocie i przywr\xF3ci\u0107 jej 1d6 + 4
-      punkt\xF3w \u017Cycia, plus dodatkowe punkty r\xF3wne maksymalnej liczbie jej
-      Kostek Trafie\u0144.\nIstota nie mo\u017Ce zosta\u0107 w ten spos\xF3b uleczona
-      ponownie, dop\xF3ki nie zako\u0144czy kr\xF3tkiego lub d\u0142ugiego odpoczynku.\r\n\r\n\r\n<b>Infuzja
+      od\u0142o\u017Cy\u0107 panik\u0119 na p\xF3\u017Aniej. </b>  \r\n\r\n\r\n<b>Ratownik</b> 
+      \r\nOd 3. poziomu, gdy wybierasz t\u0119 specjalizacj\u0119:\r\nZyskujesz bieg\u0142o\u015B\u0107
+      w u\u017Cywaniu apteczek, je\u015Bli jeszcze jej nie posiadasz.\r\nJe\u015Bli
+      masz ju\u017C bieg\u0142o\u015B\u0107 w apteczkach, ale nie w Medycynie \u2013
+      zyskujesz bieg\u0142o\u015B\u0107 w Medycynie.\r\nJe\u015Bli masz bieg\u0142o\u015B\u0107
+      zar\xF3wno w Medycynie, jak i w apteczkach, dodajesz premi\u0119 z bieg\u0142o\u015Bci
+      do wszystkich test\xF3w leczenia \u017Cywych istot.\r\nDodatkowo:\nZa ka\u017Cdym
+      razem, gdy u\u017Cywasz apteczki do leczenia lub stabilizacji \u017Cywego celu,
+      ta istota mo\u017Ce wyda\u0107 liczb\u0119 swoich Kostek Trafie\u0144 r\xF3wn\u0105
+      Twojemu modyfikatorowi bieg\u0142o\u015Bci, by si\u0119 uleczy\u0107.\r\nJako
+      akcja mo\u017Cesz zu\u017Cy\u0107 jedno u\u017Cycie apteczki, by udzieli\u0107
+      pomocy istocie i przywr\xF3ci\u0107 jej 1d6 + 4 punkt\xF3w \u017Cycia, plus
+      dodatkowe punkty r\xF3wne maksymalnej liczbie jej Kostek Trafie\u0144.\nIstota
+      nie mo\u017Ce zosta\u0107 w ten spos\xF3b uleczona ponownie, dop\xF3ki nie
+      zako\u0144czy kr\xF3tkiego lub d\u0142ugiego odpoczynku.\r\n\r\n\r\n<b>Infuzja
       Bonusowa: Jednostka Resuscytacyjna :\r\nMontowana do pancerza. Ma jedno gniazdo
       (\u0142adunek), kt\xF3re musi zosta\u0107 uzupe\u0142nione przez Medyka po
       u\u017Cyciu.\nKiedy PZ bohatera spadn\u0105 do 0, zamiast tego zostaj\u0105

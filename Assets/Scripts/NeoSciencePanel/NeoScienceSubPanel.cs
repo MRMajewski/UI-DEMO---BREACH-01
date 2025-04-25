@@ -10,6 +10,8 @@ public class NeoScienceSubPanel : MonoBehaviour
     [SerializeField] private SpellNode spellPrefab;
     [SerializeField] private List<SpellNode> instantiatedSpells = new();
 
+    [SerializeField] private UIScrollViewFitter uIScrollViewFitter;
+
     public void Setup<T>(List<T> spellList) where T : SpellData
     {
         foreach (var node in instantiatedSpells)
@@ -22,13 +24,14 @@ public class NeoScienceSubPanel : MonoBehaviour
 
         foreach (var spell in spellList)
         {
-            var spellUI = Instantiate(spellPrefab, spellListParent);
+            SpellNode spellUI = Instantiate(spellPrefab, spellListParent);
             spellUI.Setup(spell);
+            spellUI.UIScrollViewFitter = this.uIScrollViewFitter;
             instantiatedSpells.Add(spellUI);
         }
 
         CloseAllSpells();
-        LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.parent.GetComponent<RectTransform>());
+        LayoutRebuilder.ForceRebuildLayoutImmediate(this.spellListParent.GetComponent<RectTransform>());
     }
 
     public void SortByName()

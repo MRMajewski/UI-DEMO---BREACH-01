@@ -34,6 +34,8 @@ public class KnowledgeNodeBase : MonoBehaviour
     [SerializeField]
     protected UIScrollViewFitter uIScrollViewFitter;
 
+    public UIScrollViewFitter UIScrollViewFitter { get=>uIScrollViewFitter; set=>uIScrollViewFitter=value; }
+
     public virtual void SelectionClick()
     {
         isOpen = !isOpen;

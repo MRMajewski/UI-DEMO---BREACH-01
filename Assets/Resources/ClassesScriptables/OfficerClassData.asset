@@ -91,42 +91,40 @@ MonoBehaviour:
       rozmiar zwi\u0119ksza si\u0119 na wy\u017Cszych poziomach.\r\n\r\n<b>Lista
       Rozkaz\xF3w</b>\r\n-Ognia! (Fire on My Target)\nGdy wykonujesz akcj\u0119 ataku,
       by zaatakowa\u0107 na dystans, mo\u017Cesz wskaza\u0107 liczb\u0119 ch\u0119tnych
-      sojusznik\xF3w w promieniu 60 st\xF3p i wyda\u0107 po jednej Ko\u015Bci Dowodzenia
+      sojusznik\xF3w w promieniu 18m i wyda\u0107 po jednej Ko\u015Bci Dowodzenia
       na ka\u017Cdego z nich.\nKa\u017Cdy z tych sojusznik\xF3w, je\u015Bli widzi
       ten sam cel co ty, mo\u017Ce u\u017Cy\u0107 swojej reakcji, by wykona\u0107
       atak przeciwko temu samemu celowi. Dodaje wtedy wynik z Ko\u015Bci Dowodzenia
       do obra\u017Ce\u0144.\r\n-Padnij! (Get Your Head Down)\nGdy sojusznik w promieniu
       5 st\xF3p od ciebie zostaje celem ataku dystansowego, mo\u017Cesz jako reakcj\u0119
       wyda\u0107 jedn\u0105 Ko\u015B\u0107 Dowodzenia i doda\u0107 jej wynik do jego
-      CA (klasy pancerza).\r\n-Supresja (Suppression)\nWykonuj\u0105c akcj\u0119
-      Suporessja, mo\u017Cesz wyda\u0107 dowoln\u0105 liczb\u0119 Ko\u015Bci Dowodzenia.
-      Tyle samo sojusznik\xF3w mo\u017Ce u\u017Cy\u0107 swoich reakcji, by wsp\xF3lnie
+      ST na Unik.\r\n-Supresja (Suppression)\nWykonuj\u0105c akcj\u0119 Suporessja,
+      mo\u017Cesz wyda\u0107 dowoln\u0105 liczb\u0119 Ko\u015Bci Dowodzenia. Tyle
+      samo sojusznik\xF3w mo\u017Ce u\u017Cy\u0107 swoich reakcji, by wsp\xF3lnie
       prowadzi\u0107 ogie\u0144 zaporowy.\nZa ka\u017Cd\u0105 osob\u0119, kt\xF3ra
       wzi\u0119\u0142a udzia\u0142, mo\u017Cesz obj\u0105\u0107 ogniem dodatkowy
       cel. Ka\u017Cdy z uczestnik\xF3w zu\u017Cywa 5 naboj\xF3w \u2013 je\u015Bli
       nie ma ich w magazynku, nie do\u0142\u0105cza do akcji.\r\n-Zbi\xF3rka (Rally)\nW
       swojej turze mo\u017Cesz jako akcj\u0119 dodatkow\u0105 wyda\u0107 jedn\u0105
-      Ko\u015B\u0107 Dowodzenia, by wskaza\u0107 sojusznika w promieniu 30 st\xF3p.\nTen
+      Ko\u015B\u0107 Dowodzenia, by wskaza\u0107 sojusznika w promieniu 9m.\nTen
       sojusznik odzyskuje Ko\u015B\u0107 Dowodzenia + modyfikator Charyzmy punkt\xF3w
-      \u017Cycia.\nTylko postacie w stanie Kod Triage \u017B\xF3\u0142ty lub Zielony
-      mog\u0105 by\u0107 celem tego rozkazu. Mo\u017Cesz wskaza\u0107 kilku sojusznik\xF3w,
-      wydaj\u0105c po jednej Ko\u015Bci Dowodzenia na ka\u017Cdego.\r\n-Podw\xF3jne
-      Tempo (Double Time)\nW swojej turze wskazujesz liczb\u0119 ch\u0119tnych sojusznik\xF3w
-      w promieniu 60 st\xF3p i wydajesz po jednej Ko\u015Bci Dowodzenia na ka\u017Cdego.\nKa\u017Cdy
-      z nich mo\u017Ce u\u017Cy\u0107 akcji Dash jako akcji dodatkowej. Rzu\u0107
-      Ko\u015Bci\u0105 Dowodzenia \u2013 efekt trwa przez tyle rund, ile wypadnie.\r\n-Przegrupowanie
-      (Reposition)\nDzia\u0142a jak Podw\xF3jne Tempo, ale pozwala u\u017Cy\u0107
-      Disengage jako akcji dodatkowej. Efekt trwa tyle rund, ile wskazuje rzut Ko\u015Bci\u0105
-      Dowodzenia.\r\n-Do Os\u0142ony! (Take Cover)\nW swojej turze wskazujesz sojusznik\xF3w
-      i wydajesz po jednej Ko\u015Bci Dowodzenia na ka\u017Cdego.\nKa\u017Cdy z nich
-      zyskuje +2 do premii z os\u0142ony. Efekt trwa tyle rund, ile wskazuje rzut
-      Ko\u015Bci\u0105 Dowodzenia.\r\n-Tryb Cichy (Go Silent)\nDzia\u0142a jak powy\u017Csze,
-      ale dodaje +10 do rzut\xF3w na Stealth. Efekt trwa tyle minut, ile wskazuje
-      rzut Ko\u015Bci\u0105 Dowodzenia.\r\n-Zabezpieczenie Terenu (Security)\nW swojej
-      turze wskazujesz sojusznik\xF3w w promieniu 60 st\xF3p i wydajesz po jednej
-      Ko\u015Bci Dowodzenia na ka\u017Cdego.\nKa\u017Cdy z nich otrzymuje premi\u0119
-      z przewag\u0105 do atak\xF3w, je\u015Bli w tej turze zrezygnuje z ruchu. Efekt
-      trwa tyle minut, ile wskazuje Ko\u015B\u0107 Dowodzenia."
+      \u017Cycia..\r\n-Podw\xF3jne Tempo (Double Time)\nW swojej turze wskazujesz
+      liczb\u0119 ch\u0119tnych sojusznik\xF3w w promieniu 18m i wydajesz po jednej
+      Ko\u015Bci Dowodzenia na ka\u017Cdego.\nKa\u017Cdy z nich mo\u017Ce u\u017Cy\u0107
+      akcji Dash jako akcji dodatkowej. Rzu\u0107 Ko\u015Bci\u0105 Dowodzenia \u2013
+      efekt trwa przez tyle rund, ile wypadnie.\r\n-Przegrupowanie (Reposition)\nDzia\u0142a
+      jak Podw\xF3jne Tempo, ale pozwala u\u017Cy\u0107 Odst\u0105pienia jako akcji
+      dodatkowej. Efekt trwa tyle rund, ile wskazuje rzut Ko\u015Bci\u0105 Dowodzenia.\r\n-Do
+      Os\u0142ony! (Take Cover)\nW swojej turze wskazujesz sojusznik\xF3w i wydajesz
+      po jednej Ko\u015Bci Dowodzenia na ka\u017Cdego.\nKa\u017Cdy z nich zyskuje
+      +2 do premii z os\u0142ony. Efekt trwa tyle rund, ile wskazuje rzut Ko\u015Bci\u0105
+      Dowodzenia.\r\n-Tryb Cichy (Go Silent)\nDzia\u0142a jak powy\u017Csze, ale
+      dodaje +10 do rzut\xF3w na Skradanie. Efekt trwa tyle minut, ile wskazuje rzut
+      Ko\u015Bci\u0105 Dowodzenia.\r\n-Zabezpieczenie Terenu (Security)\nW swojej
+      turze wskazujesz sojusznik\xF3w w promieniu 18m i wydajesz po jednej Ko\u015Bci
+      Dowodzenia na ka\u017Cdego.\nKa\u017Cdy z nich otrzymuje premi\u0119 z przewag\u0105
+      do atak\xF3w, je\u015Bli w tej turze zrezygnuje z ruchu. Efekt trwa tyle minut,
+      ile wskazuje Ko\u015B\u0107 Dowodzenia."
   - subClassName: As
     subClassDescription: "<b>Mistrz w swojej dziedzinie \u2013 czy to strzelanie,
       walka wr\u0119cz, czy pilotowanie. Jego umiej\u0119tno\u015Bci nie tylko inspiruj\u0105

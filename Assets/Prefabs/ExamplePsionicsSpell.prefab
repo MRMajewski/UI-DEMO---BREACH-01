@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0884e316c773e544a98c6d76b4d38b88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isOpen: 0
+  isOpen: 1
   titleText: {fileID: 8366196361916035739}
   dropDownImage: {fileID: 6535436516106752853}
   openSprite: {fileID: 21300000, guid: 9103a89a3647bd240b3ba160ab2784c3, type: 3}

@@ -23,7 +23,7 @@ MonoBehaviour:
   classIcon: {fileID: 21300000, guid: 0823326af7dbe614b8d9ece0fca433f6, type: 3}
   levelUpTable:
   - level: 1
-    skills: Styl Walki/Drugi Oddech
+    skills: "Styl Walki/G\u0142\u0119boki Wdech"
     proficiencyBonus: 2
     skillsDescription: "<b>Styl Walki</b> \r\nWybierasz jeden z poni\u017Cszych styl\xF3w
       walki jako swoj\u0105 specjalno\u015B\u0107. Mo\u017Cesz wybra\u0107 tylko
@@ -34,7 +34,7 @@ MonoBehaviour:
       jeste\u015B o\u015Blepiony lub w ciemno\u015Bci. Dodatkowo, mo\u017Cesz zobaczy\u0107
       niewidzialn\u0105 istot\u0119 w tym zasi\u0119gu, chyba \u017Ce ta istota skutecznie
       si\u0119 ukryje.\r\n-Obrona\nPodczas gdy nosisz zbroj\u0119, zyskujesz premi\u0119
-      +1 do Klasy Pancerza (AC).\r\n-Skupienie na Walce Wr\u0119cz\nKiedy rzucasz
+      +2 do redukcji obra\u017Ce\u0144\r\n-Skupienie na Walce Wr\u0119cz\nKiedy rzucasz
       1 lub 2 na ko\u015Bci obra\u017Ce\u0144 podczas ataku broni\u0105 do walki
       wr\u0119cz, mo\u017Cesz ponownie rzuci\u0107 ko\u015Bci\u0105 i musisz u\u017Cy\u0107
       nowego wyniku, nawet je\u015Bli wynik b\u0119dzie 1 lub 2.\r\n-Ochrona\nKiedy
@@ -51,14 +51,13 @@ MonoBehaviour:
       Je\u015Bli nie trzymasz \u017Cadnej broni ani tarczy podczas rzutu ataku, ko\u015B\u0107
       obra\u017Ce\u0144 zmienia si\u0119 na 1k8. Na pocz\u0105tku ka\u017Cdej swojej
       tury mo\u017Cesz zada\u0107 1k4 obra\u017Ce\u0144 mia\u017Cd\u017C\u0105cych
-      jednej istocie, kt\xF3r\u0105 masz w uchwycie.\r\n\r\n<b>Drugi Oddech</b>\r\nPosiadasz
-      ograniczon\u0105 rezerw\u0119 energii, kt\xF3r\u0105 mo\u017Cesz wykorzysta\u0107,
-      aby chroni\u0107 si\u0119 przed obra\u017Ceniami. Podczas swojej tury mo\u017Cesz
-      u\u017Cy\u0107 akcji bonusowej, aby odzyska\u0107 punkty \u017Cycia r\xF3wne
-      1k10 + tw\xF3j poziom klasy. Gdy u\u017Cyjesz tej zdolno\u015Bci, musisz odpocz\u0105\u0107
-      przez kr\xF3tk\u0105 lub d\u0142ug\u0105 przerw\u0119, zanim b\u0119dziesz
-      m\xF3g\u0142 jej u\u017Cy\u0107 ponownie. Mo\u017Cesz u\u017Cy\u0107 tej zdolno\u015Bci
-      tylko, gdy masz stan Triage \u201Epomara\u0144czowy\u201D lub lepszy. "
+      jednej istocie, kt\xF3r\u0105 masz w uchwycie.\r\n\r\n<b>G\u0142\u0119boki
+      Wdech</b>\r\nPosiadasz ograniczon\u0105 rezerw\u0119 energii, kt\xF3r\u0105
+      mo\u017Cesz wykorzysta\u0107, aby chroni\u0107 si\u0119 przed obra\u017Ceniami.
+      Podczas swojej tury mo\u017Cesz u\u017Cy\u0107 akcji bonusowej, aby odzyska\u0107
+      punkty \u017Cycia r\xF3wne 1k10 + tw\xF3j poziom klasy. Gdy u\u017Cyjesz tej
+      zdolno\u015Bci, musisz odpocz\u0105\u0107 przez kr\xF3tk\u0105 lub d\u0142ug\u0105
+      przerw\u0119, zanim b\u0119dziesz m\xF3g\u0142 jej u\u017Cy\u0107 ponownie. "
   - level: 2
     skills: "Trening/Przyp\u0142yw Energii"
     proficiencyBonus: 2
@@ -77,16 +76,16 @@ MonoBehaviour:
     subClassDescription: "<b>Wielozadaniowy \u017Co\u0142nierz, przeszkolony w r\xF3\u017Cnych
       stylach walki. Dzi\u0119ki temu jego krytyczne trafienie to nie tylko szcz\u0119\u015Bcie
       \u2014 to zas\u0142uga umiej\u0119tno\u015Bci, bo na 19 i 20 ka\u017Cdemu wrogowi
-      pada szcz\u0119ka. </b>\r\n\r\n<b>POZIOM 3</b>\r\n<b>Ulepszony Krytyk</b>\r\nOd
+      pada szcz\u0119ka. </b>\r\n\r\n<b>POZIOM 3</b>\n\r\n<b>Ulepszony Krytyk</b>\r\nOd
       momentu wybrania tej specjalizacji na 3 poziomie, twoje ataki broni\u0105 zadaj\u0105
       krytyczny cios na dodatkowym wyniku na ko\u015Bci k20, zazwyczaj 19 lub 20. 
-      \r\n<b>Dodatkowy Styl Walki </b>\r\nDodatkowo mo\u017Cesz wybra\u0107 drugi
+      \n\r\n<b>Dodatkowy Styl Walki </b>\r\nDodatkowo mo\u017Cesz wybra\u0107 drugi
       styl walki z listy dost\u0119pnej w ramach Lista Styl\xF3w Walki "
   - subClassName: "Ci\u0119\u017Cki Strzelec"
     subClassDescription: "<b>Ekspert w broni ci\u0119\u017Ckiej. W r\u0119kach tego
       wojaka wyrzutnie rakiet, ogromne karabiny i lasery to tylko narz\u0119dzia
       pracy. \u017Badnych kompromis\xF3w, tylko ogie\u0144 z pe\u0142n\u0105 moc\u0105.
-      </b>\r\n\r\n<b>POZIOM 3</b>\r\n<b>Wi\u0119ksze znaczy lepsze</b>\r\nOd momentu
+      </b>\r\n\r\n<b>POZIOM 3</b>\n\r\n<b>Wi\u0119ksze znaczy lepsze</b>\r\nOd momentu
       wybrania tej specjalizacji na 3. poziomie, zyskujesz bieg\u0142o\u015B\u0107
       we wszystkich ci\u0119\u017Ckich broniach oraz broniach pojazd\xF3w, a tak\u017Ce
       w zestawach wybuchowych. Zwi\u0119ksz o 1 stopie\u0144 trudno\u015Bci wszystkich

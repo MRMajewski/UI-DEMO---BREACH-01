@@ -28,7 +28,7 @@ public class SpellNode : TrainingNode
         base.SelectionClick();
         contentGameObject.gameObject.SetActive(isOpen);
 
-        LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.parent.GetComponent<RectTransform>());
+        LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
 
         CheckVisibilityDelayed();
     }
