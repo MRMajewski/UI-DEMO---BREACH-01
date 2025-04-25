@@ -4,13 +4,29 @@ using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
 
-public class DiceRollerPanelManager : SimpleUIPanelMobiles
+public class DiceRollerPanelManager : SimpleUIPanelMobiles, ISnapperPanel
 {
     [SerializeField]
     private List<CanvasGroup> diceRollerPanels;
 
+    //[SerializeField]
+    //private Button firstTab;
+
+    [Header("Snapper references")]
     [SerializeField]
-    private Button firstTab;
+    protected UIElementsSnapper snapper;
+
+    [SerializeField]
+    protected RectTransform viewportRect;
+
+    [SerializeField]
+    protected MiniatureIconsChanger iconChanger;
+
+    [SerializeField]
+    protected List<Button> iconButtons;
+
+    [SerializeField]
+    protected List<RectTransform> snapperPanelsList;
 
     public override void DisablePanel()
     {
@@ -20,16 +36,17 @@ public class DiceRollerPanelManager : SimpleUIPanelMobiles
 
     public override void InitializePanel()
     {
-        firstTab.onClick.Invoke();
-      //  ShowPanel(diceRollerPanels[0]);
+
+        snapper.OnPanelChanged += iconChanger.SetAlphaForIndex;
+
+        foreach (Button icon in iconButtons)
+        {
+            int index = iconButtons.IndexOf(icon);
+            icon.onClick.AddListener(() => snapper.SnapToPanelFromButton(index));
+        }
+        InitializeCategory(0);
     }
 
-    public override void EnablePanel()
-    {
-        this.gameObject.SetActive(true);
-
-        panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
-    }
     public void ShowPanel(CanvasGroup panelToShow)
     {
         foreach (var panel in diceRollerPanels)
@@ -56,5 +73,23 @@ public class DiceRollerPanelManager : SimpleUIPanelMobiles
                         {
                             buttonGameObject.transform.DOScale(1f, .15f).SetEase(Ease.InOutBounce);
                         });
+    }
+
+    public void InitializeCategory(int index)
+    {
+        iconButtons[index].onClick.Invoke();
+    }
+
+    protected void OnEnable()
+    {
+        ResizeSnappedPanel();
+    }
+    public void ResizeSnappedPanel()
+    {
+        foreach (RectTransform classData in snapperPanelsList)
+        {
+            classData.sizeDelta =
+                new Vector2(viewportRect.rect.width, classData.sizeDelta.y);
+        }
     }
 }
