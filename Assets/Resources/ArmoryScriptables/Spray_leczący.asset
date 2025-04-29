@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b7059f1707af84cbc04659ff8b3aac, type: 3}
+  m_Name: "Spray_lecz\u0105cy"
+  m_EditorClassIdentifier: 
+  itemName: "Spray lecz\u0105cy"
+  icon: {fileID: 0}
+  description: "Szybki i dora\u017Any spos\xF3b leczenia, kt\xF3ry przywraca 1k6
+    + Knd leczonego P\u017B. Jest to mniej pot\u0119\u017Cne rozwi\u0105zanie ni\u017C
+    apteczka, ale pozwala na natychmiastowe leczenie."
+  categories: 0200000005000000

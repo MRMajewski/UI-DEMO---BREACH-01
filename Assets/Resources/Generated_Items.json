@@ -1,0 +1,224 @@
+{
+    "items": [
+        {
+            "name": "Nóż surwiwalowy",
+            "description": "Nóż z długim ostrzem \n Obrażenia cięte k6 \n Finezyjny, Lekki",
+            "categories": "Broń, Broń_Biała, Cywilny"
+        },
+        {
+            "name": "Toporek taktyczny",
+            "description": "Wszechstronne narzędzie i poręczna broń \n Obrażenia cięte k6+1 \n ",
+            "categories": "Broń, Broń_Biała, Cywilny"
+        },
+        {
+            "name": "Metalowy kij teleskopowy",
+            "description": "Metalowy kij \n Obrażenia obuchowe k6+1+U \n Oburęczny, Finezyjny, Lekki ",
+            "categories": "Broń, Broń_Biała, Cywilny"
+        },
+        {
+            "name": "Pistolet Cywilny G-Compact",
+            "description": "Mały pistolet cywilny przeznaczony do samoobrony. \n Obrażenia przebijające 2k6 \n Zasięg bliski \n Lekki, Amunicja 12 ",
+            "categories": "Broń, Pistolet, Broń_Palna, Cywilny"
+        },
+        {
+            "name": "Rewolwer",
+            "description": "Rewolwer przeznaczony do samoobrony \n Obrażenia przebijające 2k6+U \n Zasięg bliski, średni \n Amunicja 6, Wolne Przeładowanie ",
+            "categories": "Broń, Broń_Palna, Pistolet, Cywilny"
+        },
+        {
+            "name": "Pistolet Taktyczny M9",
+            "description": "Ciężki pistolet wojskowy, niezawodny i kompaktowy. \n Obrażenia przebijające 2k6+U \n Zasięg bliski, średni \n Amunicja 8 ",
+            "categories": "Broń, Broń_Palna, Pistolet, Militarny"
+        },
+        {
+            "name": "Pistolet Maszynowy Stinger",
+            "description": "Pistolet maszynowy przeznaczony do walki na krótkim dystansie. \n Obrażenia przebijające 2k6+U \n Zasięg bliski \n Seria, Lekki, Amunicja 20 ",
+            "categories": "Broń,  Broń_Palna, SMG, Militarny"
+        },
+        {
+            "name": "Ciężki Pistolet Maszynowy VX-5",
+            "description": "Lekki i szybki pistolet maszynowy używany przez jednostki specjalne. \n Obrażenia przebijające 2k6+1+U \n Zasięg bliski, średni \n Seria, Dwuręczny, Amunicja 30 ",
+            "categories": "Broń,  Broń_Palna, SMG, Militarny"
+        },
+        {
+            "name": "Karabin myśliwski",
+            "description": "Karabin myśliwski \n Obrażenia przebijające 2k6+2+U.\n Zasięg średni, daleki \n Dwuręczny, Amunicja 1 ",
+            "categories": "Broń,  Broń_Palna, Karabin, Cywilny"
+        },
+        {
+            "name": "Obrzyn",
+            "description": "Strzelba z obciętą lufą \n Obrażenia przebijające 2k6+2+U.\n Zasięg bliski \n Dwuręczny, Krótki Dystans, Amunicja 2 ",
+            "categories": "Broń,Broń_Palna, Strzelba, Cywilny"
+        },
+        {
+            "name": "Miecz",
+            "description": "Ostrze średniej długości z dobrej jakości stali \n Obrażenia cięte k6+3+U \n Oburęczny, Ciężki 10 ",
+            "categories": "Broń, Broń_Biała, Militarny"
+        },
+        {
+            "name": "Młot bojowy",
+            "description": "Ostrze średniej długości z dobrej jakości stali \n Obrażenia obuchowe 2k6+1 \n Dwuręczny, Ciężki 14 ",
+            "categories": "Broń, Broń_Biała, Militarny"
+        },
+        {
+            "name": "Piła łańcuchowa",
+            "description": "Piła łańcuchowa \n Obrażenia cięte 2k6+U \n Dwuręczny, Ciężki 12 ",
+            "categories": "Broń, Broń_Biała, Militarny"
+        },
+        {
+            "name": "Łańcuch bojowy",
+            "description": "Łańcuch z ostrzem na jednym końcu \n Obrażenia cięte k6+1+U \n Zasięg 3m, Oburęczny, Finezyjny ",
+            "categories": "Broń, Broń_Biała, Militarny"
+        },
+        {
+            "name": "Rękawica bojowa ciężka",
+            "description": "Piła łańcuchowa \n Obrażenia obuchowe  k6+2+U \n Ciężki 12 ",
+            "categories": "Broń, Broń_Biała, Militarny"
+        },
+        {
+            "name": "Karabin Szturmowy",
+            "description": "Nowoczesny karabin szturmowy \n Obrażenia przebijające 3k6 \n Seria, Dwuręczny, Ciężki 12, Amunicja 30 ",
+            "categories": "Broń, Broń_Palna, Karabin_Szturmowy, Militarny"
+        },
+        {
+            "name": "Strzelba Automatyczna",
+            "description": "Taktyczna strzelba o dużej sile rażenia, idealna w walce na krótkim dystansie.",
+            "categories": "Broń,Broń_Palna, Strzelba, Militarny"
+        },
+        {
+            "name": "Karabin Ciężki Tytan",
+            "description": "Karabin ciężki dużego kalibru przeznaczony do wsparcia ogniowego. \n Obrażenia przebijające 3k6+2+U \nSeria, Dwuręczny, Ciężki 14, Wolne Przeładowanie, Amunicja 60 ",
+            "categories": "Broń, Broń_Palna, Broń_Ciężka, Militarny"
+        },
+        {
+            "name": "Karabin Tesli",
+            "description": "Eksperymentalny karabin strzelający wyładowaniami elektrycznymi.\n Obrażenia elektryczne 4k6 \n Zasięg bliski, średni \n Dwuręczny, Ciężki 14, Wolne Przeładowanie, Amunicja 4 ",
+            "categories": "Broń, Broń_Palna, Broń_Ciężka, Militarny, Eksperymentalny"
+        },
+        {
+            "name": "Karabin laserowy",
+            "description": "Eksperymentalny karabin strzelajacy skondensowaną energią cieplną\n Obrażenia ogniste 4k6+U \n Zasięg średni, daleki \n Dwuręczny, Ciężki 14, Wolne Przeładowanie, Amunicja 1 ",
+            "categories": "Broń, Broń_Palna, Broń_Ciężka, Militarny, Eksperymentalny"
+        },
+        {
+            "name": "Miotacz Ognia Vulcan",
+            "description": "Broń oparta na projekcji płomieni krótkiego zasięgu.\n Obrażenia ogniste 3k6+U \n Zasięg bliski \n Dwuręczny, Ciężki 14, Wolne Przeładowanie, Amunicja 5 ",
+            "categories": "Broń, Broń_Palna, Broń_Ciężka, Militarny, Eksperymentalny"
+        },
+        {
+            "name": "Karabin",
+            "description": "Karabin dalekiego zasięgu.\n Obrażenia przebijające 3k6+U.\n Zasięg średni, daleki \n Dwuręczny, Amunicja 6 ",
+            "categories": "Broń,Broń_Palna, Karabin, Militarny"
+        },
+        {
+            "name": "Snajperka Delta-M",
+            "description": "Karabin snajperski.\n Obrażenia przebijające 3k6+2+U.\n Zasięg średni, daleki \n Dwuręczny, Amunicja 6 ",
+            "categories": "Broń,Broń_Palna, Karabin, Militarny"
+        },
+        {
+            "name": "Granat Zamrażający Cryo-G",
+            "description": "Granat wyzwalający zamrażający obłok w promieniu 4,5m metrów. \n Obrażenia od zimna 2k6+U.",
+            "categories": "Inne, Eksperymentalny"
+        },
+        {
+            "name": "Granat Zapalający ",
+            "description": "Granat zapalający w promieniu 4,5m metrów.\n Obrażenia od ognia 3k6+U.",
+            "categories": "Inne, Militarny"
+        },
+        {
+            "name": "Wyrzutnia granatów ",
+            "description": "Zwiększa skuteczny zasięg rzutu granatem do zasięgu średniego.",
+            "categories": "Broń, Broń_Palna,Inne, Militarny"
+        },
+        {
+            "name": "Mina Zbliżeniowa Spider",
+            "description": "Nowoczesna mina przeciwpiechotna z aktywatorem ruchu.",
+            "categories": "Inne, Militarny"
+        },
+        {
+            "name": "Mina Zamrażająca",
+            "description": "Mina wyzwalająca zamrażający obłok w promieniu 4,5m metrów. \n Obrażenia od zimna 2k6+U.",
+            "categories": "Inne, Militarny"
+        },
+        {
+            "name": "Dron Zwiadowczy ",
+            "description": "Dron rozpoznawczy klasy mikro wyposażony w kamery.",
+            "categories": "Akcesorium, Militarny"
+        },
+        {
+            "name": "Dron Medyczny ",
+            "description": "Dron medyczny przenoszący zasoby medyczne pozwalające na przywrócenie przytomności oraz uleczenie w sumie 4k6 PŻ",
+            "categories": "Akcesorium, Militarny"
+        },
+        {
+            "name": "Egzoszkielet Lekki ARES",
+            "description": "Wzmacniana kamizelka z lekkim wspomaganiem ruchu. Zwiększa zasięg ruchu o 3m \n Redukcja obrażeń: \n-Fizyczne - 2 \n -Energetyczne - 2 \n -Pozostałe - 2",
+            "categories": "Pancerz, Akcesorium, Militarny"
+        },
+        {
+            "name": "Kamizelka kuloodporna",
+            "description": "Redukcja obrażeń: \n-Fizyczne - 2 \n -Energetyczne - 0 \n -Pozostałe - 0",
+            "categories": "Pancerz, Cywilny"
+        },
+        {
+            "name": "Kamizelka Kuloodporna Defender",
+            "description": "Redukcja obrażeń: \n-Fizyczne - 3 \n -Energetyczne - 3 \n -Pozostałe - 0",
+            "categories": "Pancerz, Militarny"
+        },
+        {
+            "name": "Płaszcz Taktyczny Feniks",
+            "description": "Ognioodporny i balistycznie wzmocniony płaszcz taktyczny. \n Redukcja obrażeń: \n-Fizyczne - 3 \n -Energetyczne - 5 \n -Pozostałe - 5",
+            "categories": "Pancerz, Militarny"
+        },
+        {
+            "name": "Granat Dźwiękowy Flash-X",
+            "description": "Granat hukowy ogłuszający cele w promieniu 4,5m metrów. \n Obrażenia dźwiękowe 2k6+U.",
+            "categories": "Inne, Militarny"
+        },
+        {
+            "name": "Ciężki pancerz taktyczny",
+            "description": "Redukcja obrażeń: \n-Fizyczne - 8 \n -Energetyczne - 8 \n -Pozostałe - 0",
+            "categories": "Pancerz, Militarny"
+        },
+        {
+            "name": "Ciężki płaszcz",
+            "description": "Klasyczny, długi, ciężki wzmocniony prochowiec. \n Redukcja obrażeń: \n-Fizyczne - 8 \n -Energetyczne - 8 \n -Pozostałe - 0",
+            "categories": "Pancerz, Cywilny"
+        },
+        {
+            "name": "Płaszcz zwiadowcy",
+            "description": "Wzmocniony płaszcz z kamuflażem optycznym. Zapewnia dodatkową premię z Wyszkolenia w testach skradania \n Redukcja obrażeń: \n-Fizyczne - 5 \n -Energetyczne - 2 \n -Pozostałe - 0",
+            "categories": "Pancerz, Militarny, Eksprymentalny"
+        },
+        {
+            "name": "Neosmartfon",
+            "description": "Fokus dla postaci posługujących się neofizyką. Służy jako przekaźnik do wywoływania efektów neofizyczncyh jak Formuły i Sekwencje",
+            "categories": "Akcesorium, Narzędzie, Militarny"
+        },
+        {
+            "name": "Lina z hakiem",
+            "description": "Pozwala na szybkie poruszanie się po powierzchniach pionowych. Posiada wciągarkę. Zasięg do 15m",
+            "categories": "Narzędzie, Cywilny"
+        },
+        {
+            "name": "Spray leczący",
+            "description": "Szybki i doraźny sposób leczenia, który przywraca 1k6 + Knd leczonego PŻ. Jest to mniej potężne rozwiązanie niż apteczka, ale pozwala na natychmiastowe leczenie.",
+            "categories": "Akcesorium, Cywilny"
+        },
+        {
+            "name": "Apteczka",
+            "description": "Leczy 2k6 + Knd leczonego PŻ. Jest to efektywne narzędzie leczenia, które można wykorzystać, gdy postać potrzebuje odbudować zdrowie.",
+            "categories": "Akcesorium, Cywilny"
+        },
+        {
+            "name": "Antybiotyki",
+            "description": "Pozwala przerzucić test na przeciwstawienie się efektom zatrucia i chorób",
+            "categories": "Akcesorium, Cywilny"
+        },
+        {
+            "name": "Środki przeciwbólowe",
+            "description": "Nie przywracają PŻ, ale dodają dodatkową pulę 2k6 tymczasowych PŻ, które zużywają się w pierwszej kolejności",
+            "categories": "Akcesorium, Cywilny"
+        }
+    ]
+}

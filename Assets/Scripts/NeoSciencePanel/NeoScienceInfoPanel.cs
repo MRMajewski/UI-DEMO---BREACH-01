@@ -19,7 +19,6 @@ public class NeoScienceInfoPanel : AttributesInfoPanel
         base.InitializePanel();
     }
 
-    [ContextMenu("Initialize Sub Panels Data")]
     public void InitSubPanelsData()
     {
 

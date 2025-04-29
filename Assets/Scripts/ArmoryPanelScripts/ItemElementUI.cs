@@ -17,7 +17,7 @@ public enum ItemCategory
     Karabin_Szturmowy,
     Broñ_Ciê¿ka,
     Strzelba,
-    Narzêdze,
+    Narzêdzie,
     Inne
 }
 

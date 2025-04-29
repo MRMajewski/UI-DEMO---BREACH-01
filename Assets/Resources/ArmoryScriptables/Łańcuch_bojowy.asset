@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b7059f1707af84cbc04659ff8b3aac, type: 3}
+  m_Name: "\u0141a\u0144cuch_bojowy"
+  m_EditorClassIdentifier: 
+  itemName: "\u0141a\u0144cuch bojowy"
+  icon: {fileID: 0}
+  description: "\u0141a\u0144cuch z ostrzem na jednym ko\u0144cu \n Obra\u017Cenia
+    ci\u0119te k6+1+U \n Zasi\u0119g 3m, Obur\u0119czny, Finezyjny "
+  categories: 000000000400000006000000

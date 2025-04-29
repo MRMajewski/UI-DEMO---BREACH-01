@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b7059f1707af84cbc04659ff8b3aac, type: 3}
+  m_Name: Lina_z_hakiem
+  m_EditorClassIdentifier: 
+  itemName: Lina z hakiem
+  icon: {fileID: 0}
+  description: "Pozwala na szybkie poruszanie si\u0119 po powierzchniach pionowych.
+    Posiada wci\u0105gark\u0119. Zasi\u0119g do 15m"
+  categories: 0e00000005000000

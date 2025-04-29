@@ -15,7 +15,7 @@ public class ItemDetailsPanel : MonoBehaviour
         nameText.text = itemData.itemName;
         descriptionText.text = itemData.description;
 
-        string categories = string.Join(", ", itemData.categories);
+        string categories = string.Join(", ", itemData.categories).Replace('_',' ');
         categoriesText.text = $"Kategorie : {categories}";
     }
 }

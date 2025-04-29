@@ -31,6 +31,7 @@ public class FilterUI : MonoBehaviour
     [SerializeField]
     private RectTransform filterContainerRectTransform;
 
+
     public void CreateCategoryButtons()
     {
         allCategories.Clear();
@@ -57,7 +58,7 @@ public class FilterUI : MonoBehaviour
                 Debug.LogError("FilterButtonPrefab must have Button and Text components.");
                 continue;
             }
-            buttonText.text = category.ToString();
+            buttonText.text = category.ToString().Replace('_',' ');
             newButton.name = newButton.name + " " + buttonText.text;
             allCategoriesButtons.Add(button);
             button.onClick.AddListener(() => ToggleCategory(category, button));

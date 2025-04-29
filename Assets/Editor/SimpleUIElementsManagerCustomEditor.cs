@@ -144,3 +144,18 @@ public class NeoScienceDatabaseCustomEditor : Editor
         }
     }
 }
+
+[CustomEditor(typeof(ItemDatabase))]
+public class ItemDatabaseCustomEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        DrawDefaultInspector();
+        ItemDatabase script = (ItemDatabase)target;
+
+        if (GUILayout.Button(("Load All Items Scriptables Data")))
+        {
+            script.LoadAllFromFolder();
+        }
+    }
+}

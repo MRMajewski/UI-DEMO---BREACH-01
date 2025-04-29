@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b7059f1707af84cbc04659ff8b3aac, type: 3}
+  m_Name: "Mina_Zbli\u017Ceniowa_Spider"
+  m_EditorClassIdentifier: 
+  itemName: "Mina Zbli\u017Ceniowa Spider"
+  icon: {fileID: 0}
+  description: Nowoczesna mina przeciwpiechotna z aktywatorem ruchu.
+  categories: 0f00000006000000

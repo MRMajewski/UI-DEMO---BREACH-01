@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 public class ItemDatabase : MonoBehaviour
@@ -8,11 +9,26 @@ public class ItemDatabase : MonoBehaviour
     [Tooltip("List of all items available in the game.")]
     public List<ItemData> AllItems = new List<ItemData>();
 
-    private void Start()
+
+    public void LoadAllFromFolder()
     {
-        if(AllItems==null)
+
+        AllItems.Clear();
+
+        LoadItemsData();
+
+        void LoadItemsData()
         {
-            AllItems = Resources.LoadAll<ItemData>("ArmoryScriptables").ToList();
+            string[] guids = AssetDatabase.FindAssets("t:ScriptableObject", new[] { "Assets/Resources/ArmoryScriptables" });
+            foreach (string guid in guids)
+            {
+                string path = AssetDatabase.GUIDToAssetPath(guid);
+                ScriptableObject itemDataScriptable = AssetDatabase.LoadAssetAtPath<ScriptableObject>(path);
+
+                if (itemDataScriptable is ItemData)
+                    AllItems.Add((ItemData)itemDataScriptable);
+            }
+
         }
     }
 }

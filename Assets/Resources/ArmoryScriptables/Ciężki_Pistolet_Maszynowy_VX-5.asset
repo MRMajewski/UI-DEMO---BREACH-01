@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b7059f1707af84cbc04659ff8b3aac, type: 3}
+  m_Name: "Ci\u0119\u017Cki_Pistolet_Maszynowy_VX-5"
+  m_EditorClassIdentifier: 
+  itemName: "Ci\u0119\u017Cki Pistolet Maszynowy VX-5"
+  icon: {fileID: 0}
+  description: "Lekki i szybki pistolet maszynowy u\u017Cywany przez jednostki specjalne.
+    \n Obra\u017Cenia przebijaj\u0105ce 2k6+1+U \n Zasi\u0119g bliski, \u015Bredni
+    \n Seria, Dwur\u0119czny, Amunicja 30 "
+  categories: 00000000030000000900000006000000

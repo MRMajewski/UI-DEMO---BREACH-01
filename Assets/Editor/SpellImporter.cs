@@ -5,7 +5,7 @@ using System.IO;
 
 public class SpellImporter : EditorWindow
 {
-    [MenuItem("Tools/Import Spells from JSON (Neophysics)")]
+    [MenuItem("Data Import/Import Spells from JSON (Neophysics)")]
     public static void ImportSpells()
     {
         string path = EditorUtility.OpenFilePanel("Select Neophysics JSON file", "", "json");
@@ -41,7 +41,7 @@ public class SpellImporter : EditorWindow
         Debug.Log($"✅ Neophysics: Imported {spellList.spells.Count} spells.");
     }
 
-    [MenuItem("Tools/Import Spells from JSON (Psionics)")]
+    [MenuItem("Data Import/Import Spells from JSON (Psionics)")]
     public static void ImportPsionicsSpells()
     {
         string path = EditorUtility.OpenFilePanel("Select Psionics JSON file", "", "json");
@@ -75,7 +75,7 @@ public class SpellImporter : EditorWindow
         Debug.Log($"✅ Psionics: Imported {spellList.spells.Count} spells.");
     }
 
-    [MenuItem("Tools/Import Spells from JSON (NeoSensorics)")]
+    [MenuItem("Data Import/Import Spells from JSON (NeoSensorics)")]
     public static void ImportNeoSensoricsSpells()
     {
         string path = EditorUtility.OpenFilePanel("Select NeoSensorics JSON file", "", "json");
@@ -109,7 +109,7 @@ public class SpellImporter : EditorWindow
         Debug.Log($"✅ NeoSensorics: Imported {spellList.spells.Count} spells.");
     }
 
-    [MenuItem("Tools/Import Spells from JSON (NeoLinguistics)")]
+    [MenuItem("Data Import/Import Spells from JSON (NeoLinguistics)")]
     public static void ImportNeoLinguisticsSpells()
     {
         string path = EditorUtility.OpenFilePanel("Select NeoLinguistics JSON file", "", "json");

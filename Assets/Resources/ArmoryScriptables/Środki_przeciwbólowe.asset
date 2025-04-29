@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b7059f1707af84cbc04659ff8b3aac, type: 3}
+  m_Name: "\u015Arodki_przeciwb\xF3lowe"
+  m_EditorClassIdentifier: 
+  itemName: "\u015Arodki przeciwb\xF3lowe"
+  icon: {fileID: 0}
+  description: "Nie przywracaj\u0105 P\u017B, ale dodaj\u0105 dodatkow\u0105 pul\u0119
+    2k6 tymczasowych P\u017B, kt\xF3re zu\u017Cywaj\u0105 si\u0119 w pierwszej kolejno\u015Bci"
+  categories: 0200000005000000
