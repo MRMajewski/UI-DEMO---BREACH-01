@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: "Mina_Zbli\u017Ceniowa_Spider"
   m_EditorClassIdentifier: 
   itemName: "Mina Zbli\u017Ceniowa Spider"
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: d1a86b8bcf9b2eb439b3ff520b6bf8e4, type: 3}
   description: Nowoczesna mina przeciwpiechotna z aktywatorem ruchu.
   categories: 0f00000006000000

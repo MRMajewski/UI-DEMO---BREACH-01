@@ -12,6 +12,25 @@ public class DiceRollerDamagePanel : DiceRollerBasePanel
         diceInputField.text =diceAmount.ToString();
         GetDiceRange();
     }
+
+
+
+    public void OnDiceValueChanged(string text)
+    {
+        if (int.TryParse(text, out int value))
+        {
+            if (value < 0) value = 0;
+            if (value > 10) value = 10;
+            diceInputField.text = value.ToString();
+
+        }
+        else
+        {
+            diceInputField.text = "0";
+        }
+        diceAmount = ParseInput(diceInputField.text);
+    }
+
     public override void RollDice()
     {
         diceAmount = ParseInput(diceInputField.text);

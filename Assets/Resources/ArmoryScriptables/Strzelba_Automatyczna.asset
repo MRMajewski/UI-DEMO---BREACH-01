@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Strzelba_Automatyczna
   m_EditorClassIdentifier: 
   itemName: Strzelba Automatyczna
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: cf6f196789c565645a660ae987257b09, type: 3}
   description: "Taktyczna strzelba o du\u017Cej sile ra\u017Cenia, idealna w walce
-    na kr\xF3tkim dystansie."
+    na kr\xF3tkim dystansie \n Obra\u017Cenia przebijaj\u0105ce 3k6+1\n Zasi\u0119g
+    bliski \n Dwur\u0119czny, Kr\xF3tki Dystans, Amunicja 7 "
   categories: 00000000030000000d00000006000000

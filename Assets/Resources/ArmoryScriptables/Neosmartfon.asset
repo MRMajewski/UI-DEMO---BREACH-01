@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Neosmartfon
   m_EditorClassIdentifier: 
   itemName: Neosmartfon
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 81365fa5b966b81489316d1906bc034c, type: 3}
   description: "Fokus dla postaci pos\u0142uguj\u0105cych si\u0119 neofizyk\u0105.
     S\u0142u\u017Cy jako przeka\u017Anik do wywo\u0142ywania efekt\xF3w neofizyczncyh
     jak Formu\u0142y i Sekwencje"

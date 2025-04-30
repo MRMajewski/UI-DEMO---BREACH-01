@@ -31,6 +31,8 @@ public class ButtonsGeneralReactionsManager :  MonoBehaviour
     private float bigSizeVeryVerySubtle = 1.025f;
 
     [SerializeField]
+    private float SmallestSizeSubtle = 1.01f;
+    [SerializeField]
     private float normalSize = 1f;
 
     [SerializeField]
@@ -106,7 +108,7 @@ public class ButtonsGeneralReactionsManager :  MonoBehaviour
         float scaleValue = bigSizeVeryVerySubtle;
         if (buttonTransform.GetComponent<RectTransform>().rect.height > 1400)
         {
-            scaleValue = bigSizeVeryVerySubtle;
+            scaleValue = SmallestSizeSubtle;
         }
         buttonTransform.DOScale(scaleValue, tweenTime).SetEase(easeTypeScale);
     }

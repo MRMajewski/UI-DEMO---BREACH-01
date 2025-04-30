@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pistolet_Cywilny_G-Compact
   m_EditorClassIdentifier: 
   itemName: Pistolet Cywilny G-Compact
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 3e387394a42ae1141a39e172632a8c74, type: 3}
   description: "Ma\u0142y pistolet cywilny przeznaczony do samoobrony. \n Obra\u017Cenia
     przebijaj\u0105ce 2k6 \n Zasi\u0119g bliski \n Lekki, Amunicja 12 "
   categories: 00000000080000000300000005000000

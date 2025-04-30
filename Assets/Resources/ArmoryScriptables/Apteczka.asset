@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Apteczka
   m_EditorClassIdentifier: 
   itemName: Apteczka
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 9afec0bc07bbb794c8997320616b85b9, type: 3}
   description: "Leczy 2k6 + Knd leczonego P\u017B. Jest to efektywne narz\u0119dzie
     leczenia, kt\xF3re mo\u017Cna wykorzysta\u0107, gdy posta\u0107 potrzebuje odbudowa\u0107
     zdrowie."

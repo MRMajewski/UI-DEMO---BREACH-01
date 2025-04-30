@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Antybiotyki
   m_EditorClassIdentifier: 
   itemName: Antybiotyki
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a203c4886b6a89f4586a5100c95b7330, type: 3}
   description: "Pozwala przerzuci\u0107 test na przeciwstawienie si\u0119 efektom
     zatrucia i chor\xF3b"
   categories: 0200000005000000

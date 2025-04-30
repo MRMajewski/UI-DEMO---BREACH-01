@@ -34,11 +34,11 @@ public class WelcomingUIPanel : SimpleUIPanelMobiles
 
         AnimateOpeningText();
 
-        continueTextGameObject.alpha = 1;
+       //continueTextGameObject.alpha = 1;
 
-       continueTextGameObject.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime)
-           .SetLoops(-1,LoopType.Yoyo)
-           .SetEase(Ease.InOutSine);
+       //continueTextGameObject.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime)
+       //    .SetLoops(-1,LoopType.Yoyo)
+       //    .SetEase(Ease.InOutSine);
     }
     private void AnimateOpeningText()
     {
@@ -63,8 +63,18 @@ public class WelcomingUIPanel : SimpleUIPanelMobiles
               .OnComplete(() =>
               {
                   openingText.transform.localScale = Vector3.one;
+                  AnimateContinueText();
                   isAfterOpeningAnim = true;
               });    
+    }
+
+    private void AnimateContinueText()
+    {
+        continueTextGameObject.alpha = 1;
+
+        continueTextGameObject.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime)
+            .SetLoops(-1, LoopType.Yoyo)
+            .SetEase(Ease.InOutSine);
     }
 
     public override void EnablePanel()

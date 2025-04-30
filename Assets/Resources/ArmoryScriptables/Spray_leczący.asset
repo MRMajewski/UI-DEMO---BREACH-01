@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Spray_lecz\u0105cy"
   m_EditorClassIdentifier: 
   itemName: "Spray lecz\u0105cy"
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 19eae6df51d9a7149990ae0937dbf929, type: 3}
   description: "Szybki i dora\u017Any spos\xF3b leczenia, kt\xF3ry przywraca 1k6
     + Knd leczonego P\u017B. Jest to mniej pot\u0119\u017Cne rozwi\u0105zanie ni\u017C
     apteczka, ale pozwala na natychmiastowe leczenie."

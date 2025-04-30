@@ -9,26 +9,24 @@ public class ItemDatabase : MonoBehaviour
     [Tooltip("List of all items available in the game.")]
     public List<ItemData> AllItems = new List<ItemData>();
 
-
+#if UNITY_EDITOR
     public void LoadAllFromFolder()
     {
-
         AllItems.Clear();
-
         LoadItemsData();
+    }
 
-        void LoadItemsData()
+    private void LoadItemsData()
+    {
+        string[] guids = AssetDatabase.FindAssets("t:ScriptableObject", new[] { "Assets/Resources/ArmoryScriptables" });
+        foreach (string guid in guids)
         {
-            string[] guids = AssetDatabase.FindAssets("t:ScriptableObject", new[] { "Assets/Resources/ArmoryScriptables" });
-            foreach (string guid in guids)
-            {
-                string path = AssetDatabase.GUIDToAssetPath(guid);
-                ScriptableObject itemDataScriptable = AssetDatabase.LoadAssetAtPath<ScriptableObject>(path);
+            string path = AssetDatabase.GUIDToAssetPath(guid);
+            ScriptableObject itemDataScriptable = AssetDatabase.LoadAssetAtPath<ScriptableObject>(path);
 
-                if (itemDataScriptable is ItemData)
-                    AllItems.Add((ItemData)itemDataScriptable);
-            }
-
+            if (itemDataScriptable is ItemData)
+                AllItems.Add((ItemData)itemDataScriptable);
         }
     }
+#endif
 }

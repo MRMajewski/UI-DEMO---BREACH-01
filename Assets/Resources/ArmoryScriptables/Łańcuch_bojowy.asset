@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "\u0141a\u0144cuch_bojowy"
   m_EditorClassIdentifier: 
   itemName: "\u0141a\u0144cuch bojowy"
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 17697b0b74a9b8f4e925345fa9d354a0, type: 3}
   description: "\u0141a\u0144cuch z ostrzem na jednym ko\u0144cu \n Obra\u017Cenia
     ci\u0119te k6+1+U \n Zasi\u0119g 3m, Obur\u0119czny, Finezyjny "
   categories: 000000000400000006000000

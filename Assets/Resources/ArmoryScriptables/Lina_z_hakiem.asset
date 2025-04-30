@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lina_z_hakiem
   m_EditorClassIdentifier: 
   itemName: Lina z hakiem
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 95058e539f9d9fb47b80086629f693d8, type: 3}
   description: "Pozwala na szybkie poruszanie si\u0119 po powierzchniach pionowych.
     Posiada wci\u0105gark\u0119. Zasi\u0119g do 15m"
   categories: 0e00000005000000

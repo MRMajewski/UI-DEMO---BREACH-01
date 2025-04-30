@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Metalowy_kij_teleskopowy
   m_EditorClassIdentifier: 
   itemName: Metalowy kij teleskopowy
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: d44e895f50d3f9840b359f486a25a7ef, type: 3}
   description: "Metalowy kij \n Obra\u017Cenia obuchowe k6+1+U \n Obur\u0119czny,
     Finezyjny, Lekki "
   categories: 000000000400000005000000

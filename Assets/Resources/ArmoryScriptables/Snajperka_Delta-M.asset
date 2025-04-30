@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Snajperka_Delta-M
   m_EditorClassIdentifier: 
   itemName: Snajperka Delta-M
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: ed08e1478d63ee54991e542c993a3adf, type: 3}
   description: "Karabin snajperski.\n Obra\u017Cenia przebijaj\u0105ce 3k6+2+U.\n
     Zasi\u0119g \u015Bredni, daleki \n Dwur\u0119czny, Amunicja 6 "
   categories: 00000000030000000a00000006000000

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "R\u0119kawica_bojowa_ci\u0119\u017Cka"
   m_EditorClassIdentifier: 
   itemName: "R\u0119kawica bojowa ci\u0119\u017Cka"
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: eed8e63825f126d499bc1e6fda03a9f0, type: 3}
   description: "Pi\u0142a \u0142a\u0144cuchowa \n Obra\u017Cenia obuchowe  k6+2+U
     \n Ci\u0119\u017Cki 12 "
   categories: 000000000400000006000000

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Granat_D\u017Awi\u0119kowy_Flash-X"
   m_EditorClassIdentifier: 
   itemName: "Granat D\u017Awi\u0119kowy Flash-X"
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 4bbd40aa2d5c05349a59b664a8c75e6d, type: 3}
   description: "Granat hukowy og\u0142uszaj\u0105cy cele w promieniu 4,5m metr\xF3w.
     \n Obra\u017Cenia d\u017Awi\u0119kowe 2k6+U."
   categories: 0f00000006000000

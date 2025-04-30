@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Pi\u0142a_\u0142a\u0144cuchowa"
   m_EditorClassIdentifier: 
   itemName: "Pi\u0142a \u0142a\u0144cuchowa"
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 9f7ca191439acb140bc9c8656b63f4fc, type: 3}
   description: "Pi\u0142a \u0142a\u0144cuchowa \n Obra\u017Cenia ci\u0119te 2k6+U
     \n Dwur\u0119czny, Ci\u0119\u017Cki 12 "
   categories: 000000000400000006000000

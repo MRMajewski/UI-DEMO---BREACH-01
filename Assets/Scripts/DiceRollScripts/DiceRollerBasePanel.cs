@@ -25,6 +25,7 @@ public class DiceRollerBasePanel : MonoBehaviour
 
     public enum DiceType
     {
+        DiceD4,
         DiceD6,
         DiceD8,
         DiceD10,
@@ -51,6 +52,9 @@ public class DiceRollerBasePanel : MonoBehaviour
     {
         switch (diceType)
         {
+            case DiceType.DiceD4:
+                diceRange = 5;
+                break;
             case DiceType.DiceD6:
                 diceRange = 7;
                 break;
@@ -222,5 +226,21 @@ public class DiceRollerBasePanel : MonoBehaviour
             return result;
         }
         return 0;
+    }
+
+    public void OnModifierValueChanged(string text)
+    {
+        if (int.TryParse(text, out int value))
+        {
+            if (value < 0) value = 0;
+            if (value > 99) value = 99;
+            modifierInputField.text = value.ToString();
+           
+        }
+        else
+        {
+            modifierInputField.text = "0";
+        }
+        modifierValue = ParseInput(modifierInputField.text);
     }
 }

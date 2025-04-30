@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "P\u0142aszcz_zwiadowcy"
   m_EditorClassIdentifier: 
   itemName: "P\u0142aszcz zwiadowcy"
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 0ff0c3eeab909564aa251845f5f1fe31, type: 3}
   description: "Wzmocniony p\u0142aszcz z kamufla\u017Cem optycznym. Zapewnia dodatkow\u0105
     premi\u0119 z Wyszkolenia w testach skradania \n Redukcja obra\u017Ce\u0144:
     \n-Fizyczne - 5 \n -Energetyczne - 2 \n -Pozosta\u0142e - 0"
