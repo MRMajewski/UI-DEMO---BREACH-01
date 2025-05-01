@@ -22,6 +22,7 @@ MonoBehaviour:
     daj\u0105c im wzmocnienia i inspiracj\u0119, co pozwala im wykonywa\u0107 swoje
     zadania z maksymaln\u0105 precyzj\u0105. "
   classIcon: {fileID: 21300000, guid: a87fb805c6e59ef449297a67e1dae86b, type: 3}
+  classColor: {r: 1, g: 0.80784315, b: 0.44705883, a: 1}
   levelUpTable:
   - level: 1
     skills: "Przyw\xF3dztwo/Inspiracja"

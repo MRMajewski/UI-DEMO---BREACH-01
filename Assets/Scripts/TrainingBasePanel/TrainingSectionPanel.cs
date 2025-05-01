@@ -24,7 +24,6 @@ public class TrainingSectionPanel : MonoBehaviour
     [SerializeField]
     private Transform trainingNodesContainer;
 
-
     [SerializeField]
     private List<TooltipTriggerGameObjectAdder> triggerAdders;
 
@@ -46,6 +45,9 @@ public class TrainingSectionPanel : MonoBehaviour
         trainingSectionImage.sprite = trainingBaseDataSection.TrainingDataSectionIcon;
 
         trainingSectionDescription.text = trainingBaseDataSection.TrainingDataSectionDescription;
+
+    
+        trainingSectionImage.color = new Color(trainingBaseDataSection.TrainingDataSectionIconColor.r, trainingBaseDataSection.TrainingDataSectionIconColor.g, trainingBaseDataSection.TrainingDataSectionIconColor.b, 50f / 255f);
 
         trainingNodesList.Clear();
         trainingNodesList.TrimExcess();

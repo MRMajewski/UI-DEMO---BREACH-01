@@ -21,6 +21,7 @@ MonoBehaviour:
     inni si\u0119gaj\u0105 po bro\u0144, on ju\u017C uruchamia gad\u017Cet, kt\xF3ry
     zmienia zasady gry. "
   classIcon: {fileID: 21300000, guid: bc8e9963558122b43bad1824bb87b2e6, type: 3}
+  classColor: {r: 0, g: 0.72156864, b: 0.8509804, a: 1}
   levelUpTable:
   - level: 1
     skills: Ekspertyza/Infuzja Przedmiotu

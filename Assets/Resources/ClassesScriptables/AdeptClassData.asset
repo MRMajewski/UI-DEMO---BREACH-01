@@ -22,6 +22,7 @@ MonoBehaviour:
     staje si\u0119 narz\u0119dziem zniszczenia \u2014 silne, szybkie i gotowe do
     wykorzystania w ka\u017Cdej sytuacji. "
   classIcon: {fileID: 21300000, guid: 7056e9af214fcc64f9ed13205ebd5ecd, type: 3}
+  classColor: {r: 0.7490196, g: 0.3529412, b: 0.21176471, a: 1}
   levelUpTable:
   - level: 1
     skills: Sztuki Walki/KI

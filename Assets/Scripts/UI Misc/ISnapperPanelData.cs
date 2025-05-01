@@ -6,11 +6,7 @@ public interface ISnapperPanelData
 {
     public Sprite GetMiniatureIcon();
 
-}
-
-public interface ISnapperPanelElement
-{
-
+    public Color GetMiniatureIconColor();
 }
 
 public interface ISnapperPanel

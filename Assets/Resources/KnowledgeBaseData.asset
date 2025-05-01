@@ -405,12 +405,12 @@ MonoBehaviour:
         si\u0119 pomys\u0142owo\u015Bci\u0105."
     - titleText: Punkty Wyrw
       contentInfoText: "\tNa pocz\u0105tku rozgrywki liczba Punkt\xF3w Wyrw jest
-        o jeden mniejsza ni\u017C liczba graczy.\n\t S\u0142u\u017C\u0105 one Mistrzowi
-        Gry (MG) do: \nAktywowania specjalnych zdarze\u0144 fabularnych. \nUtrudniania
+        o jeden mniejsza ni\u017C liczba graczy. Punkty Wyrw odzwierciedlaj\u0105
+        reakcj\u0119 otoczenia na dzia\u0142ania bohater\xF3w,  zwi\u0119kszaj\u0105c
+        napi\u0119cie i dynamik\u0119 gry.\n\n\t S\u0142u\u017C\u0105 one Mistrzowi
+        Gry (MG) do: \n\n-Aktywowania specjalnych zdarze\u0144 fabularnych. \n-Utrudniania
         zada\u0144 bohaterom, np. poprzez wzmocnienie przeciwnik\xF3w lub wprowadzenie
-        dodatkowych komplikacji. \nTworzenia nowych przeszk\xF3d, takich jak niszcz\u0105ce
-        si\u0119 otoczenie czy niespodziewane ataki wrog\xF3w. \nWymuszania przerzut\xF3w
+        dodatkowych komplikacji. \n-Tworzenia nowych przeszk\xF3d, takich jak niszcz\u0105ce
+        si\u0119 otoczenie czy niespodziewane ataki wrog\xF3w. \n-Wymuszania przerzut\xF3w
         graczy, zmuszaj\u0105c ich do ponownego rzutu, nawet je\u015Bli wynik by\u0142
-        dla nich korzystny.  \n\tPunkty Wyrw odzwierciedlaj\u0105 reakcj\u0119 otoczenia
-        na dzia\u0142ania bohater\xF3w, zwi\u0119kszaj\u0105c napi\u0119cie i dynamik\u0119
-        gry."
+        dla nich korzystny.  \n\n\t"

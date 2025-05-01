@@ -14,80 +14,81 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trainingDataSectionName: "TRENINGI WALKI WR\u0118CZ"
   trainingDataSectionIcon: {fileID: 21300000, guid: ab529392da6c4b84387ca1c9b8c163ae, type: 3}
+  trainingDataSectionIconColor: {r: 0.69411767, g: 0.26666668, b: 0.26666668, a: 1}
   trainingDataSectionDescription: "Szlifowanie technik walki w zwarciu, zar\xF3wno
     z u\u017Cyciem improwizowanej broni, jak i w\u0142asnego cia\u0142a."
   trainingBaseDataNodesList:
   - titleText: "Trening z broni\u0105 bia\u0142\u0105"
-    contentInfoText: "<size=150%>Ka\u017Cdy poziom tego szkolenia mo\u017Cna podj\u0105\u0107
+    contentInfoText: "<size=120%>Ka\u017Cdy poziom tego szkolenia mo\u017Cna podj\u0105\u0107
       raz dla ka\u017Cdej bieg\u0142o\u015Bci w broni.\r\nPoziom 1 </size>:\nZyskujesz
       bieg\u0142o\u015B\u0107 w jednej grupie broni bia\u0142ej. Grupy broni to:
       (No\u017Ce), (Miecz), (Topory), (Bro\u0144 obuchowa), (Bro\u0144 drzewcowa),
-      (Bro\u0144 wojskowa).\r\n<size=150%>Poziom 2 </size>:\nZyskujesz zdolno\u015B\u0107
+      (Bro\u0144 wojskowa).\r\n<size=120%>Poziom 2 </size>:\nZyskujesz zdolno\u015B\u0107
       Pewny Cios\nPewny Cios:\nJako akcj\u0119 bonusow\u0105, mo\u017Cesz doda\u0107
       1d4 do wszystkich rzut\xF3w ataku broni\u0105 bia\u0142\u0105, kt\xF3re wykonasz
-      do pocz\u0105tku swojej nast\u0119pnej tury.\r\n<size=150%>Poziom 3 </size>:\nZyskujesz
+      do pocz\u0105tku swojej nast\u0119pnej tury.\r\n<size=120%>Poziom 3 </size>:\nZyskujesz
       zdolno\u015B\u0107 Odnowienie\nOdnowienie:\nMo\u017Cesz zignorowa\u0107 jedno
       krytyczne niepowodzenie podczas u\u017Cywania broni bia\u0142ej. Otrzymujesz
       mo\u017Cliwo\u015B\u0107 ponownego u\u017Cycia tej zdolno\u015Bci po zako\u0144czeniu
-      kr\xF3tkiej przerwy.\r\n<size=150%>Poziom 4 </size>:\nZyskujesz zdolno\u015B\u0107
+      kr\xF3tkiej przerwy.\r\n<size=120%>Poziom 4 </size>:\nZyskujesz zdolno\u015B\u0107
       Zaawansowane Odnowienie\nZaawansowane Odnowienie:\nMo\u017Cesz zignorowa\u0107
       liczb\u0119 krytycznych niepowodze\u0144 podczas u\u017Cywania broni bia\u0142ej
       r\xF3wn\u0105 Twojemu bonusowi do Zr\u0119czno\u015Bci (minimalnie 1), zamiast
       tylko raz. Otrzymujesz mo\u017Cliwo\u015B\u0107 ponownego u\u017Cycia tej zdolno\u015Bci
       po zako\u0144czeniu kr\xF3tkiej przerwy."
   - titleText: "Zaawansowany Trening w Broni Bia\u0142ej"
-    contentInfoText: "<size=150%>Musisz mie\u0107 Poziom 2 Szkolenia w Broni Bia\u0142ej,
+    contentInfoText: "<size=120%>Musisz mie\u0107 Poziom 2 Szkolenia w Broni Bia\u0142ej,
       aby zdoby\u0107 poziomy z tego szkolenia.\r\nPoziom 1 </size>:\nZyskujesz +1
-      do wszystkich atak\xF3w w wybranej grupie broni.\r\n<size=150%>Poziom 2 </size>:\nZyskujesz
-      +1 do wszystkich rzut\xF3w obra\u017Ce\u0144 w wybranej grupie broni.\r\n<size=150%>Poziom
-      3 </size>:\nZyskujesz +1 do wszystkich atak\xF3w w wybranej grupie broni.\r\n<size=150%>Poziom
+      do wszystkich atak\xF3w w wybranej grupie broni.\r\n<size=120%>Poziom 2 </size>:\nZyskujesz
+      +1 do wszystkich rzut\xF3w obra\u017Ce\u0144 w wybranej grupie broni.\r\n<size=120%>Poziom
+      3 </size>:\nZyskujesz +1 do wszystkich atak\xF3w w wybranej grupie broni.\r\n<size=120%>Poziom
       4 </size>:\nZyskujesz +1 do wszystkich rzut\xF3w obra\u017Ce\u0144 w wybranej
       grupie broni."
   - titleText: Trening w walce dwoma broniami
-    contentInfoText: "<size=150%>Wymaga Zr\u0119czno\u015Bci 16 lub wy\u017Cszej\r\nPoziom
+    contentInfoText: "<size=120%>Wymaga Zr\u0119czno\u015Bci 16 lub wy\u017Cszej\r\nPoziom
       1 </size>:\nMo\u017Cesz wykona\u0107 atak bonusowy drug\u0105 r\u0119k\u0105
       przy u\u017Cyciu broni bia\u0142ej, kt\xF3re nie maj\u0105 w\u0142a\u015Bciwo\u015Bci
-      \"lekkiej\".\r\n<size=150%>Poziom 2</size>:\nZyskujesz +1 do wszystkich rzut\xF3w
+      \"lekkiej\".\r\n<size=120%>Poziom 2</size>:\nZyskujesz +1 do wszystkich rzut\xF3w
       ataku i obra\u017Ce\u0144 wykonanych broni\u0105 w dowolnej r\u0119ce, gdy
-      walczysz dwoma broniami.\r\n<size=150%>Poziom 3 </size>:\nMo\u017Cesz wykona\u0107
-      dwa podstawowe ataki drug\u0105 r\u0119k\u0105 jako akcj\u0119 bonusow\u0105.\r\n<size=150%>Poziom
+      walczysz dwoma broniami.\r\n<size=120%>Poziom 3 </size>:\nMo\u017Cesz wykona\u0107
+      dwa podstawowe ataki drug\u0105 r\u0119k\u0105 jako akcj\u0119 bonusow\u0105.\r\n<size=120%>Poziom
       4 </size>:\nMo\u017Cesz teraz u\u017Cywa\u0107 dw\xF3ch r\u0119cznych broni,
       ale atakujesz z niekorzy\u015Bci\u0105."
   - titleText: Trening Bojowy
-    contentInfoText: "<size=150%>Poziom 1</size>:\nKiedy u\u017Cywasz broni bia\u0142ej
-      lub \u0142uku, mo\u017Cesz ponownie rzuca\u0107 obra\u017Cenia 1 i 2.\r\n<size=150%>Poziom
+    contentInfoText: "<size=120%>Poziom 1</size>:\nKiedy u\u017Cywasz broni bia\u0142ej
+      lub \u0142uku, mo\u017Cesz ponownie rzuca\u0107 obra\u017Cenia 1 i 2.\r\n<size=120%>Poziom
       2</size>:\nKiedy zadasz cios krytyczny broni\u0105 bia\u0142\u0105 lub \u0142ukiem,
       albo zmniejszysz liczb\u0119 Punkt\xF3w \u017Bycia istoty do 0 jednym z tych
       atak\xF3w, mo\u017Cesz wykona\u0107 atak broni\u0105 bia\u0142\u0105 lub \u0142ukiem
-      jako akcj\u0119 bonusow\u0105.\r\n<size=150%>Poziom 3</size>:\nPrzed wykonaniem
+      jako akcj\u0119 bonusow\u0105.\r\n<size=120%>Poziom 3</size>:\nPrzed wykonaniem
       ataku broni\u0105 bia\u0142\u0105 lub \u0142ukiem, mo\u017Cesz wybra\u0107,
       aby doda\u0107 -5 do rzutu ataku. Je\u015Bli atak trafi, dodaj +10 do obra\u017Ce\u0144
-      tego ataku.\r\n<size=150%>Poziom 4</size>:\nKiedy zadasz cios krytyczny broni\u0105
+      tego ataku.\r\n<size=120%>Poziom 4</size>:\nKiedy zadasz cios krytyczny broni\u0105
       bia\u0142\u0105 lub \u0142ukiem, albo zmniejszysz liczb\u0119 Punkt\xF3w \u017Bycia
       istoty do 0 jednym z tych atak\xF3w, mo\u017Cesz wykona\u0107 dwa ataki\r\n
-      broni\u0105 bia\u0142\u0105 jako akcj\u0119 bonusow\u0105 zamiast jednego.\r\n<size=150%>Poziom
+      broni\u0105 bia\u0142\u0105 jako akcj\u0119 bonusow\u0105 zamiast jednego.\r\n<size=120%>Poziom
       5</size>:\nKiedy u\u017Cywasz broni bia\u0142ej lub \u0142uku, mo\u017Cesz
       ponownie rzuca\u0107 ka\u017Cde obra\u017Cenie, nie tylko 1 i 2."
   - titleText: Zaawansowany Trening Bojowy
-    contentInfoText: "<size=150%>Wymaga poziomu 2 w Szkoleniu Bojowym, aby zdoby\u0107
+    contentInfoText: "<size=120%>Wymaga poziomu 2 w Szkoleniu Bojowym, aby zdoby\u0107
       poziomy w tym szkoleniu.\r\nPoziom 1</size>:\nZyskujesz liczb\u0119 Punkt\xF3w
       Techniki Bojowej r\xF3wn\u0105 2 razy liczba poziom\xF3w w Szkoleniu Bojowym
       i Zaawansowanym Szkoleniu Bojowym oraz uczysz si\u0119 3 technik walki wr\u0119cz
-      (patrz poni\u017Cej).\r\n<size=150%>Poziom 2</size>:\nZyskujesz odporno\u015B\u0107
-      na obra\u017Cenia ci\u0119te/przebijaj\u0105ce.\r\n<size=150%>Poziom 3</size>:\nIstoty
+      (patrz poni\u017Cej).\r\n<size=120%>Poziom 2</size>:\nZyskujesz odporno\u015B\u0107
+      na obra\u017Cenia ci\u0119te/przebijaj\u0105ce.\r\n<size=120%>Poziom 3</size>:\nIstoty
       wywo\u0142uj\u0105 ataki okazji od Ciebie, nawet je\u015Bli u\u017Cywaj\u0105
-      akcji \"ucieczka\".\r\n<size=150%>Poziom 4</size>:\nUczysz si\u0119 3 dodatkowych
-      technik walki wr\u0119cz.\r\n<size=150%>Poziom 5</size>:\nKiedy trafiasz istot\u0119
+      akcji \"ucieczka\".\r\n<size=120%>Poziom 4</size>:\nUczysz si\u0119 3 dodatkowych
+      technik walki wr\u0119cz.\r\n<size=120%>Poziom 5</size>:\nKiedy trafiasz istot\u0119
       atakiem okazji, jej pr\u0119dko\u015B\u0107 staje si\u0119 0 do ko\u0144ca
       tej tury."
   - titleText: Punkty Techniki Bojowej cz I
-    contentInfoText: "<size=150%>Twoje szkolenie pozwala Ci wykonywa\u0107 zaawansowane
+    contentInfoText: "<size=120%>Twoje szkolenie pozwala Ci wykonywa\u0107 zaawansowane
       akcje z u\u017Cyciem broni bia\u0142ej. Dost\u0119p do tego jest reprezentowany
       przez liczb\u0119 Punkt\xF3w Techniki Bojowej. Poziom twojego szkolenia okre\u015Bla
       liczb\u0119 punkt\xF3w, kt\xF3re masz, jak pokazano powy\u017Cej.\nKiedy wydasz
       Punkt Techniki Bojowej, jest on niedost\u0119pny a\u017C do zako\u0144czenia
       kr\xF3tkiego lub d\u0142ugiego odpoczynku, po kt\xF3rym odzyskujesz wszystkie
-      zu\u017Cyte Punkty Techniki Bojowej.\r\n\r</size>\nTechniki Bojowe\nMo\u017Cesz
+      zu\u017Cyte Punkty Techniki Bojowej.\r\n\r</size>\n\nTechniki Bojowe\nMo\u017Cesz
       wydawa\u0107 Punkty Techniki, aby wykona\u0107 r\xF3\u017Cne Techniki z u\u017Cyciem
       broni bia\u0142ej. Na pocz\u0105tku znasz 3 takie umiej\u0119tno\u015Bci. Uczysz
       si\u0119 dodatkowych Technik z broni bia\u0142ej, gdy poziom Twojego Zaawansowanego

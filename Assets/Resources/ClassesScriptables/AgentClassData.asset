@@ -21,6 +21,7 @@ MonoBehaviour:
     kt\xF3rego obecno\u015B\u0107 jest niezauwa\u017Calna, a cel nigdy nie wie, co
     go spotka."
   classIcon: {fileID: 21300000, guid: 124e567b77afae04786f83da35309bf2, type: 3}
+  classColor: {r: 0.10980392, g: 0.18039216, b: 0.2901961, a: 1}
   levelUpTable:
   - level: 1
     skills: "Podst\u0119pny Atak/Sprytne Dzia\u0142anie"

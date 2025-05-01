@@ -21,6 +21,7 @@ MonoBehaviour:
     by nie? Doskona\u0142y w walce na odleg\u0142o\u015B\u0107, a jak trzeba, to
     te\u017C dobrze wchodzi w ogie\u0144, niczym kapitan Bomba. "
   classIcon: {fileID: 21300000, guid: 0823326af7dbe614b8d9ece0fca433f6, type: 3}
+  classColor: {r: 0.20392157, g: 0.28235295, b: 0.1882353, a: 1}
   levelUpTable:
   - level: 1
     skills: "Styl Walki/G\u0142\u0119boki Wdech"

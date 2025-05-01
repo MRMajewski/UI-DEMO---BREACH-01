@@ -14,6 +14,12 @@ public class TrainingBaseDataSection : ScriptableObject, ISnapperPanelData
     private Sprite trainingDataSectionIcon;
 
     public Sprite TrainingDataSectionIcon { get => trainingDataSectionIcon; }
+
+    [SerializeField]
+    private Color trainingDataSectionIconColor;
+
+    public Color TrainingDataSectionIconColor { get => trainingDataSectionIconColor; }
+
     [TextArea(1, 30)]
     [SerializeField]
     private string trainingDataSectionDescription;
@@ -31,4 +37,8 @@ public class TrainingBaseDataSection : ScriptableObject, ISnapperPanelData
         return trainingDataSectionIcon;
     }
 
+    public Color GetMiniatureIconColor()
+    {
+        return trainingDataSectionIconColor;
+    }
 }

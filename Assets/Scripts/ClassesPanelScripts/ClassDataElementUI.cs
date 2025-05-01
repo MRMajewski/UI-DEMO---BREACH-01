@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class ClassDataElementUI : MonoBehaviour, ISnapperPanel,ISnapperPanelElement
+public class ClassDataElementUI : MonoBehaviour, ISnapperPanel
 {
     [SerializeField]
     private TextMeshProUGUI classNameText;
@@ -14,7 +15,10 @@ public class ClassDataElementUI : MonoBehaviour, ISnapperPanel,ISnapperPanelElem
     private TextMeshProUGUI subclassesDescriptionText;
     [SerializeField]
     private TextMeshProUGUI skillsDescriptionText;
-
+    [Space]
+    [SerializeField]
+    private Image backgroundImage;
+    [Space]
     [SerializeField]
     private ClassLevelUpDetailsElementUI levelUpDetailsPrefab;
     [SerializeField]
@@ -36,14 +40,12 @@ public class ClassDataElementUI : MonoBehaviour, ISnapperPanel,ISnapperPanelElem
     public void Initialize(ClassData data)
     {
         classNameText.text = data.className;
-
-     //   classDescriptionText.text = "<size=150%>Opis:</size><br>" + data.classDescription;
         classDescriptionText.text = data.classDescription;
-
-        //  subclassesDescriptionText.text = "<size=150%>Subklasy:</size><br>" + string.Join("<br>", data.subclasses);
 
         string reductionDiceDescription = classesDatabase.GetReductionDiceDescription(data.reductionDiceInfos);
         string savingThrowDescription = classesDatabase.GetSavingThrowDescription(data.savingThrowInfos);
+
+        backgroundImage.color = new Color(data.classColor.r, data.classColor.g, data.classColor.b, 100f / 255f);
 
         List<string> abilityDescriptions = new List<string>();
         foreach (var ability in data.abilityInfos)
@@ -56,10 +58,8 @@ public class ClassDataElementUI : MonoBehaviour, ISnapperPanel,ISnapperPanelElem
             $"<b>Rzuty obronne:</b> {savingThrowDescription}<br>" +
             $"<b>Zdolnoœci (dwie do wyboru): </b>{string.Join(" ", abilityDescriptions)}";
 
-
         GenerateLevelUpDetails(data.levelUpTable);
         GenerateSubClassesDetails(data.subClassesTable);
-
     }
 
     private void GenerateLevelUpDetails(List<LevelUpTable> levelUpTable)
@@ -89,7 +89,6 @@ public class ClassDataElementUI : MonoBehaviour, ISnapperPanel,ISnapperPanelElem
                 newSubclassDetails.Initialize(subclass);
             }
         }
-
         subClassDetailsPrefab.gameObject.SetActive(false);
     }
 

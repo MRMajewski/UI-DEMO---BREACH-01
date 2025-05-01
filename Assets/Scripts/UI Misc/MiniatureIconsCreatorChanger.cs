@@ -23,6 +23,7 @@ public abstract class MiniatureIconsCreatorChanger : MiniatureIconsChanger
             Button newIcon = Instantiate(iconExample, iconsParent);
             Image iconImage = newIcon.GetComponent<Image>();
             iconImage.sprite = data.GetMiniatureIcon();
+            iconImage.color = data.GetMiniatureIconColor();
 
             newIcon.name = "Icon " + iconList.Count;
             iconList.Add(iconImage);

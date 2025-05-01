@@ -22,6 +22,7 @@ MonoBehaviour:
     na wykrywanie, leczenie, przewidywanie przysz\u0142o\u015Bci i manipulowanie
     energi\u0105 w r\xF3\u017Cnorodny spos\xF3b."
   classIcon: {fileID: 21300000, guid: 52ca266cf4901b44ca2de5645e02b228, type: 3}
+  classColor: {r: 0.24313726, g: 0.84705883, b: 0.7058824, a: 1}
   levelUpTable:
   - level: 1
     skills: Neosensoryka/Specjalizacja

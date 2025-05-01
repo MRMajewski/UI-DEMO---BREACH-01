@@ -22,6 +22,7 @@ MonoBehaviour:
     s\u0105 jest precyzyjne, wyka\u0144czaj\u0105ce i efektywne. I nie boi si\u0119
     te\u017C wyci\u0105gn\u0105\u0107 pistoletu, gdy sytuacja tego wymaga. "
   classIcon: {fileID: 21300000, guid: 65796fc02d0d76f44a1361540104867d, type: 3}
+  classColor: {r: 0.44313726, g: 0.49803922, b: 0.9254902, a: 1}
   levelUpTable:
   - level: 1
     skills: Neofizyka/ 2F/2S/ 2-1p

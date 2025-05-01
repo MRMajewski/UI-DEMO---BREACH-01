@@ -21,6 +21,7 @@ public class ClassData : ScriptableObject, ISnapperPanelData
     public string classDescription;
     public Sprite classIcon;
 
+    public Color classColor;
     //[TextArea(1, 10)]
     //public string[] subclasses;
 
@@ -33,6 +34,12 @@ public class ClassData : ScriptableObject, ISnapperPanelData
     public Sprite GetMiniatureIcon()
     {
         return classIcon;
+    }
+    public Color GetMiniatureIconColor()
+    {
+        if(classColor == null)
+            return Color.white;
+        return classColor;
     }
 
     public void ResizeClassDataElement()
