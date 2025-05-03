@@ -25,6 +25,7 @@ public class KnowledgeNode : KnowledgeNodeBase
 
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.parent.GetComponent<RectTransform>());
 
-        CheckVisibilityDelayed();
+        if (isOpen)
+            CheckVisibilityDelayed();
     }
 }

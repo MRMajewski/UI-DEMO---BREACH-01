@@ -1,5 +1,7 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +13,14 @@ public class NeoScienceSubPanel : MonoBehaviour
     [SerializeField] private List<SpellNode> instantiatedSpells = new();
 
     [SerializeField] private UIScrollViewFitter uIScrollViewFitter;
+
+    [SerializeField] private GameObject NeoScienceListGameObject;
+
+    [SerializeField] private TextMeshProUGUI neoScienceListButtonText;
+
+    [SerializeField]
+    protected bool isListOpen = false;
+    public bool IsListOpen { get => isListOpen; }
 
     public void Setup<T>(List<T> spellList) where T : SpellData
     {
@@ -29,9 +39,31 @@ public class NeoScienceSubPanel : MonoBehaviour
             spellUI.UIScrollViewFitter = this.uIScrollViewFitter;
             instantiatedSpells.Add(spellUI);
         }
-
         CloseAllSpells();
+
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.spellListParent.GetComponent<RectTransform>());
+    }
+
+    public void ToggleListPanel()
+    {
+        isListOpen = !isListOpen;
+        NeoScienceListGameObject.SetActive(isListOpen);
+        neoScienceListButtonText.text = isListOpen ? " Ukryj listê Manipulacji" : "Rozwiñ listê Manipulacji";
+
+        if (isListOpen)
+            CheckVisibilityDelayed();
+
+        void CheckVisibilityDelayed()
+        {
+            StartCoroutine(EnsureVisibleNextFrame(uIScrollViewFitter));
+        }
+
+        IEnumerator EnsureVisibleNextFrame(UIScrollViewFitter uIScrollViewFitter)
+        {
+            yield return new WaitForEndOfFrame();
+
+            uIScrollViewFitter?.EnsureVisibleSmooth(NeoScienceListGameObject.GetComponent<RectTransform>());
+        }
     }
 
     public void SortByName()
@@ -86,5 +118,8 @@ public class NeoScienceSubPanel : MonoBehaviour
             if (spellNode.IsOpen)
                 spellNode.SelectionClick();
         }
+
+        if (isListOpen)
+            ToggleListPanel();
     }
 }

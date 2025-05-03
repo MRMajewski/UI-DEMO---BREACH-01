@@ -21,6 +21,7 @@ public class KnowledgeSectionNode : KnowledgeNodeBase
         base.SelectionClick();
         contentPanel.gameObject.SetActive(isOpen);
 
-        CheckVisibilityDelayed();
+        if (isOpen)
+            CheckVisibilityDelayed();
     }
 }

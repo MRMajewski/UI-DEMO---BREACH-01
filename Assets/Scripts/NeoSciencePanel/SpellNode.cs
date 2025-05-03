@@ -30,6 +30,7 @@ public class SpellNode : TrainingNode
 
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
 
+        if(isOpen)
         CheckVisibilityDelayed();
     }
 

@@ -54,7 +54,6 @@ public class KnowledgeNodeBase : MonoBehaviour
 
     public void CheckVisibilityDelayed()
     {
-        if(this.gameObject.activeSelf)
         StartCoroutine(EnsureVisibleNextFrame(uIScrollViewFitter));
     }
 
