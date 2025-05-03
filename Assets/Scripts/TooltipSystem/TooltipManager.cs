@@ -28,9 +28,6 @@ public class TooltipManager : MonoBehaviour
     private TooltipTrigger currentlyInspectedTrigger;
     public TooltipTrigger CurrentlyInspectedTrigger { get => currentlyInspectedTrigger; set => currentlyInspectedTrigger = value; }
 
-    [SerializeField]
-    private RectTransform inspectedRectTransformDummy;
-
     [Space]
     [Header("Tween related refs")]
 
@@ -49,7 +46,6 @@ public class TooltipManager : MonoBehaviour
 
     private Sequence showSequence;
     private Sequence hideSequence;
-    private Vector3 CurrentTooltipNewPosition;
 
     public bool IsDuringAnimation { get; private set; } = false;
 
@@ -137,27 +133,15 @@ public class TooltipManager : MonoBehaviour
 
         RectTransform rectTransform = currentTooltip.GetComponent<RectTransform>();
 
-        rectTransform.position = GetCurrentTooltipNewPos();
+        Vector2 screenPoint = RectTransformUtility.WorldToScreenPoint(null, inspectedRectTransform.position);
+
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(tooltipsContainer,screenPoint,null,out Vector2 localPoint);
+
+        rectTransform.anchoredPosition = localPoint;
 
         AdjustTooltipPosition(inspectedRectTransform, rectTransform, tooltipsContainer);
 
         rectTransform.anchoredPosition = AdjustWontLeaveScreen(rectTransform, tooltipsContainer, rectTransform.anchoredPosition);
-
-        Vector3 GetCurrentTooltipNewPos()
-        {
-            inspectedRectTransformDummy.transform.SetParent(inspectedRectTransform.transform.parent);
-            inspectedRectTransformDummy.transform.SetAsLastSibling();
-
-            inspectedRectTransformDummy.sizeDelta = inspectedRectTransform.sizeDelta;
-            inspectedRectTransformDummy.pivot = inspectedRectTransform.pivot;
-            inspectedRectTransformDummy.anchoredPosition = inspectedRectTransform.anchoredPosition;
-            inspectedRectTransformDummy.transform.localPosition = inspectedRectTransform.transform.localPosition;
-
-            inspectedRectTransformDummy.transform.SetParent(null);
-            Debug.Log(inspectedRectTransformDummy.transform.parent);
-            CurrentTooltipNewPosition = inspectedRectTransformDummy.localPosition;
-            return CurrentTooltipNewPosition;
-        }
 
         void AdjustTooltipPosition(RectTransform triggerRect, RectTransform tooltipRect, RectTransform canvasRect)
         {
@@ -191,7 +175,6 @@ public class TooltipManager : MonoBehaviour
                 else
                     adjustedPosition.y = triggerLocalPosition.y - triggerSize.y / 2 - tooltipSize.y / 2;
             }
-
             tooltipRect.anchoredPosition = adjustedPosition;
         }
 
@@ -248,7 +231,6 @@ public class TooltipManager : MonoBehaviour
                 tooltip.Trigger.IsTriggered = false;
                 IsDuringAnimation = false;
                 Destroy(tooltip.gameObject);
-              
             })
             .SetUpdate(true);
     }
