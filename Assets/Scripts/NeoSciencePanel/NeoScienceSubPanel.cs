@@ -61,7 +61,7 @@ public class NeoScienceSubPanel : MonoBehaviour
         IEnumerator EnsureVisibleNextFrame(UIScrollViewFitter uIScrollViewFitter)
         {
             yield return new WaitForEndOfFrame();
-
+            yield return new WaitForEndOfFrame();
             uIScrollViewFitter?.EnsureVisibleSmooth(NeoScienceListGameObject.GetComponent<RectTransform>());
         }
     }

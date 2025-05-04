@@ -6,7 +6,6 @@ public class UIScrollViewFitter : MonoBehaviour
 {
     [SerializeField] private ScrollRect scrollRect;
     [SerializeField] private float scrollDuration = 0.25f;
-
     public void EnsureVisibleSmooth(RectTransform target)
     {
         Canvas.ForceUpdateCanvases();
@@ -14,18 +13,21 @@ public class UIScrollViewFitter : MonoBehaviour
         RectTransform content = scrollRect.content;
         RectTransform viewport = scrollRect.viewport;
 
-        float itemTop = GetTopY(target);
-        float viewTop = GetTopY(viewport);
+        Vector3[] targetCorners = new Vector3[4];
+        Vector3[] viewportCorners = new Vector3[4];
 
-        float delta = 0f;
+        target.GetWorldCorners(targetCorners);
+        viewport.GetWorldCorners(viewportCorners);
 
-        delta = viewTop - itemTop;
+        float targetTopY = GetTopY(target);
+        float viewportTopY = GetTopY(viewport);
+
+        float delta = viewportTopY - targetTopY;
 
         if (Mathf.Abs(delta) > 1f)
         {
-            Vector2 newPos = content.anchoredPosition;
-            newPos.y += delta;
-            content.DOAnchorPos(newPos, scrollDuration).SetEase(Ease.OutCubic);
+            Vector2 newAnchoredPos = content.anchoredPosition + new Vector2(0f, delta / scrollRect.content.lossyScale.y);
+            content.DOAnchorPos(newAnchoredPos, scrollDuration).SetEase(Ease.OutCubic);
         }
 
         float GetTopY(RectTransform rt)
