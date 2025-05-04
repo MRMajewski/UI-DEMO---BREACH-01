@@ -43,11 +43,11 @@ public class KnowledgePanel : SimpleUIPanelMobiles
         BuildKnowledgeBase();
     }
 
-    public override void InitializePanelData()
-    {
-        BuildKnowledgeBase();
-        ProcessTooltipTriggers();
-    }
+    //public override void InitializePanelData()
+    //{
+    //    BuildKnowledgeBase();
+    //    ProcessTooltipTriggers();
+    //}
 
     public override void DisablePanel()
     {

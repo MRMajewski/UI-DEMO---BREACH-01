@@ -80,8 +80,9 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
     }
     private void Start()
     {
-        InitSimpleUIPanels();
+      StartCoroutine(InitSimpleUIPanels()); 
     }
+
     public void InitPanelsData()
     {
         foreach (var simplePanel in SimplePanels)
@@ -89,15 +90,19 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
             simplePanel.simplePanel.InitializePanel();
         }
     }
-
-    public void InitSimpleUIPanels()
+    public  IEnumerator InitSimpleUIPanels()
     {
         isTransitioning = true;
         currentPanel = firstPanel;
 
         foreach (var simplePanel in SimplePanels)
         {
+            simplePanel.simplePanel.gameObject.SetActive(true);
+            yield return new WaitForEndOfFrame();
+            simplePanel.simplePanel.InitializePanelData();
             simplePanel.simplePanel.InitializePanel();
+
+            yield return new WaitForEndOfFrame();
 
             if (simplePanel.simplePanel == firstPanel)
             {
@@ -110,6 +115,7 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         }
         isTransitioning = false;
     }
+
     public void SwitchPanel(SimpleUIPanelMobiles newPanel)
     {
         if (isTransitioning) return;
