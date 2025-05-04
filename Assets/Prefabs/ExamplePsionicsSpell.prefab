@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4453871726911783016}
   - component: {fileID: 4620580612956463930}
   - component: {fileID: 7853847123248749935}
-  - component: {fileID: 7032648437701335300}
   - component: {fileID: 5208227186716092170}
   - component: {fileID: 856763441216389454}
   - component: {fileID: 626957021315143421}
@@ -61,7 +60,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 0
+  m_ChildAlignment: 1
   m_Spacing: 10
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
@@ -84,19 +83,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 1
---- !u!114 &7032648437701335300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1218133284187198762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b9a60a455247a2479eb1fc792b3187c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animationType: 4
 --- !u!114 &5208227186716092170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -485,11 +471,11 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 0
+  m_ChildAlignment: 1
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
+  m_ChildControlWidth: 1
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
@@ -888,6 +874,7 @@ GameObject:
   - component: {fileID: 1991247343164373300}
   - component: {fileID: 2927863658573851033}
   - component: {fileID: 2386341999369546089}
+  - component: {fileID: 7072599111249859919}
   m_Layer: 5
   m_Name: NeophysicsBaseNodeButton
   m_TagString: Untagged
@@ -1032,6 +1019,19 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &7072599111249859919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5023181003750846859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b9a60a455247a2479eb1fc792b3187c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationType: 4
 --- !u!1 &7131635676623090302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,8 +1202,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 456.5, y: -68.885}
-  m_SizeDelta: {x: 913, y: 0}
+  m_AnchoredPosition: {x: 466.5, y: -68.885}
+  m_SizeDelta: {x: 933, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3701410494911496819
 CanvasRenderer:
