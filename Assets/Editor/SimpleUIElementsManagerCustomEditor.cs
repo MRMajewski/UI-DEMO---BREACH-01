@@ -79,10 +79,6 @@ public class ClassPanelCustomEditor : Editor
         {
             script.InitializeClasses();
         }
-        if (GUILayout.Button("Wykonaj Inicjacjê Tooltip Triggerów"))
-        {
-            script.InitializePanelData();
-        }
     }
 }
 
@@ -98,10 +94,6 @@ public class TrainingPanelCustomEditor : Editor
         if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
         {
             script.InitailizeTrainingPanelDatabase();
-        }
-        if (GUILayout.Button("Wykonaj Inicjacjê Tooltip Triggerów"))
-        {
-            script.InitializePanelData();
         }
     }
 }
@@ -122,10 +114,6 @@ public class NeoScienceInfoPanelCustomEditor : Editor
         if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
         {
             script.InitializePanel ();
-        }
-        if (GUILayout.Button("Wykonaj Inicjacjê Tooltip Triggerów"))
-        {
-            script.InitializePanelData();
         }
     }
 }

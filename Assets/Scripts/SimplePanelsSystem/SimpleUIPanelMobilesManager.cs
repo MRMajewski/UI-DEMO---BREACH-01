@@ -44,6 +44,8 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
     [Header("Transition Elements")]
     [SerializeField] private RectTransform leftCurtain;
     [SerializeField] private RectTransform rightCurtain;
+    [Space]
+    [SerializeField] private CanvasGroup splashImage;
 
     public enum SimplePanelNames
     {
@@ -80,7 +82,7 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
     }
     private void Start()
     {
-      StartCoroutine(InitSimpleUIPanels()); 
+        StartCoroutine(InitSimpleUIPanels());
     }
 
     public void InitPanelsData()
@@ -90,8 +92,10 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
             simplePanel.simplePanel.InitializePanel();
         }
     }
-    public  IEnumerator InitSimpleUIPanels()
+    public IEnumerator InitSimpleUIPanels()
     {
+        PlaySplashAnimation();
+
         isTransitioning = true;
         currentPanel = firstPanel;
 
@@ -102,16 +106,14 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
             simplePanel.simplePanel.InitializePanelData();
             simplePanel.simplePanel.InitializePanel();
 
-            yield return new WaitForEndOfFrame();
-
-            if (simplePanel.simplePanel == firstPanel)
-            {
-                simplePanel.simplePanel.EnablePanel();
-            }
-            else
-            {
+            //if (simplePanel.simplePanel == firstPanel)
+            //{
+            //    simplePanel.simplePanel.EnablePanel();
+            //}
+            //else
+            //{
                 simplePanel.simplePanel.DisablePanel();
-            }
+           // }
         }
         isTransitioning = false;
     }
@@ -200,8 +202,30 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
             .AppendInterval(transitionTime / 2)
 
             .Append(leftCurtain.DOScaleX(0, transitionTime).SetEase(Ease.InOutQuad))
-            .Join(rightCurtain.DOScaleX(0, transitionTime).SetEase(Ease.InOutQuad));
+            .Join(rightCurtain.DOScaleX(0, transitionTime).SetEase(Ease.InOutQuad))
+            .SetUpdate(true);
     }
+
+
+    public void PlaySplashAnimation()
+    {
+        if (!splashImage.gameObject.activeSelf)
+            splashImage.gameObject.SetActive(true);
+
+        Sequence splashSequence = DOTween.Sequence();
+
+        splashSequence
+            .Append(splashImage.DOFade(1, 1f).SetEase(Ease.InOutQuad))
+            .AppendInterval(4f)
+            .Append(splashImage.DOFade(0, 1f).SetEase(Ease.InOutQuad)).
+              OnComplete(() =>
+              {
+                  splashImage.gameObject.SetActive(false);          
+                  firstPanel.EnablePanel();
+                  splashSequence.Kill();
+              }
+              ).SetUpdate(true);
+    }  
 
     private void HandleBackButton()
     {

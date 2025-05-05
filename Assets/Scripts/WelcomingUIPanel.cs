@@ -34,11 +34,6 @@ public class WelcomingUIPanel : SimpleUIPanelMobiles
 
         AnimateOpeningText();
 
-       //continueTextGameObject.alpha = 1;
-
-       //continueTextGameObject.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime)
-       //    .SetLoops(-1,LoopType.Yoyo)
-       //    .SetEase(Ease.InOutSine);
     }
     private void AnimateOpeningText()
     {

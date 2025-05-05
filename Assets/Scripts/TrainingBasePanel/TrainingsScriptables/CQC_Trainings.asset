@@ -18,7 +18,7 @@ MonoBehaviour:
   trainingDataSectionDescription: "Szlifowanie technik walki w zwarciu, zar\xF3wno
     z u\u017Cyciem improwizowanej broni, jak i w\u0142asnego cia\u0142a."
   trainingBaseDataNodesList:
-  - titleText: "Trening z broni\u0105 bia\u0142\u0105"
+  - titleText: "Trening w broni\u0105 bia\u0142\u0105"
     contentInfoText: "<size=120%>Ka\u017Cdy poziom tego szkolenia mo\u017Cna podj\u0105\u0107
       raz dla ka\u017Cdej bieg\u0142o\u015Bci w broni.\r\nPoziom 1 </size>:\nZyskujesz
       bieg\u0142o\u015B\u0107 w jednej grupie broni bia\u0142ej. Grupy broni to:

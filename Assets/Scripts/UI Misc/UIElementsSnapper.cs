@@ -20,7 +20,7 @@ public class UIElementsSnapper : MonoBehaviour
 
     private void Start()
     {
-        swipeThreshold = Screen.width * 0.15f; // Dynamiczne dopasowanie
+        swipeThreshold = Screen.width * 0.15f;
         Debug.LogError("Swipe threshold set to: " + swipeThreshold);
     }
 
@@ -28,11 +28,11 @@ public class UIElementsSnapper : MonoBehaviour
     {
         if (Application.platform == RuntimePlatform.WebGLPlayer || Application.isEditor)
         {
-            HandleMouseInput(); // Obs³uga dotyku przez mysz w WebGL
+            HandleMouseInput(); 
         }
         else
         {
-            HandleTouchInput(); // Standardowa obs³uga dotyku w aplikacjach mobilnych
+            HandleTouchInput();
         }
     }
 
@@ -105,11 +105,11 @@ public class UIElementsSnapper : MonoBehaviour
         {
             if (dragDistance < 0)
             {
-                currentPanelIndex = (currentPanelIndex + 1) % panels.Count; // Zapêtlenie w prawo
+                currentPanelIndex = (currentPanelIndex + 1) % panels.Count; 
             }
             else if (dragDistance > 0)
             {
-                currentPanelIndex = (currentPanelIndex - 1 + panels.Count) % panels.Count; // Zapêtlenie w lewo
+                currentPanelIndex = (currentPanelIndex - 1 + panels.Count) % panels.Count; 
             }
 
             SnapToPanel(currentPanelIndex);
@@ -120,7 +120,7 @@ public class UIElementsSnapper : MonoBehaviour
     private void SnapToPanel(int panelIndex)
     {
         Vector2 targetPosition = new Vector2(-panels[panelIndex].anchoredPosition.x, content.anchoredPosition.y);
-        content.DOAnchorPos(targetPosition, 0.3f).SetEase(Ease.InOutSine);
+        content.DOAnchorPos(targetPosition, 0.3f).SetEase(Ease.InOutSine).SetUpdate(true);
     }
 
     public void InitPanels(List<ClassDataElementUI> classesDataElementsUIList)

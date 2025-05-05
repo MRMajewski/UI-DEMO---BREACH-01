@@ -19,7 +19,7 @@ MonoBehaviour:
     planowania dzia\u0142a\u0144 i adaptacji do zmieniaj\u0105cych si\u0119 warunk\xF3w
     walki."
   trainingBaseDataNodesList:
-  - titleText: Trening w Unikaniu
+  - titleText: Trening Unikania
     contentInfoText: "<size=120%>Poziom 1 </size>: Mo\u017Cesz wycofa\u0107 si\u0119
       jako akcj\u0119 dodatkow\u0105.\r\n<size=120%>Poziom 2 </size>: Masz przewag\u0119
       w rzutach obronnych wykonywanych w celu unikni\u0119cia lub zneutralizowania
@@ -34,7 +34,7 @@ MonoBehaviour:
       obra\u017Cenia z tego ataku o po\u0142ow\u0119.\r\n<size=120%>Poziom 5 </size>:
       \u017Baden rzut na atak przeciwko tobie nie ma przewagi, o ile nie jeste\u015B
       nieprzytomny."
-  - titleText: "Trening w Okr\u0105\u017Caniu"
+  - titleText: Trening Otaczania
     contentInfoText: "<size=120%>Poziom 1 </size>: Mo\u017Cesz zyska\u0107 przewag\u0119
       w rzutach na atak wr\u0119cz, je\u015Bli co najmniej jedno przyjazne stworzenie
       znajduje si\u0119 obok ciebie, oraz mo\u017Cesz zyska\u0107 przewag\u0119 w
