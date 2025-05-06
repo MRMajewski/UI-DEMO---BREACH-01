@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb47f03a01de0d4abf88d6bfca95ef3, type: 3}
+  m_Name: Mental_Trainings
+  m_EditorClassIdentifier: 
+  trainingDataSectionName: TRENINGI MENTALNE
+  trainingDataSectionIcon: {fileID: 21300000, guid: 9208cf04b36a95a42b1e27a81e8f72e1, type: 3}
+  trainingDataSectionIconColor: {r: 0.44705883, g: 0.38431373, b: 0.7019608, a: 1}
+  trainingDataSectionDescription: "\u0106wiczenia wzmacniaj\u0105ce odporno\u015B\u0107
+    psychiczn\u0105, kontrol\u0119 emocji i koncentracj\u0119 w stresuj\u0105cych
+    sytuacjach."
+  trainingBaseDataNodesList:
+  - titleText: Trening Akademicki
+    contentInfoText: "<size=120%>Poziom 1 </size>:   Zwi\u0119ksz Inteligencj\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 2 </size>:  Zwi\u0119ksz Inteligencj\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 3 </size>:  Zwi\u0119ksz Inteligencj\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 4 </size>:  Zwi\u0119ksz Inteligencj\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 5 </size>: : Zwi\u0119ksz Inteligencj\u0119
+      o 1 do maksymalnie 20"
+  - titleText: "Trening Uwa\u017Cno\u015Bci"
+    contentInfoText: "<size=120%>Poziom 1 </size>:  Zwi\u0119ksz Zmys\u0142y o 1
+      do maksymalnie 20\r\n<size=120%>Poziom 2 </size>:  Zwi\u0119ksz Zmys\u0142y
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 3 </size>:  Zwi\u0119ksz Zmys\u0142y
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 4 </size>:  Zwi\u0119ksz Zmys\u0142y
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 5 </size>:  Zwi\u0119ksz Zmys\u0142y
+      o 1 do maksymalnie 20"
+  - titleText: "Trening Umiej\u0119tno\u015Bci Mi\u0119kkich "
+    contentInfoText: "<size=120%>Poziom 1 </size>:  Zwi\u0119ksz Charyzm\u0119 o
+      1 do maksymalnie 20\r\n<size=120%>Poziom 2 </size>:  Zwi\u0119ksz Charyzm\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 3 </size>:  Zwi\u0119ksz Charyzm\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 4 </size>:  Zwi\u0119ksz Charyzm\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 5 </size>: : Zwi\u0119ksz Charyzm\u0119
+      o 1 do maksymalnie 20"
+  - titleText: "Trening Mentalnych Rzut\xF3w Obronnych"
+    contentInfoText: "<size=120%>Poziom 1 </size>:  Zyskaj bieg\u0142o\u015B\u0107
+      w jednym z nast\u0119puj\u0105cych rzut\xF3w obronnych: Inteligencja, Zmys\u0142y
+      lub Charyzma.\n<size=120%>Poziom 2 </size>:  Zyskaj +1 do wszystkich rzut\xF3w
+      obronnych wykonywanych za pomoc\u0105 wybranego atrybutu.\n<size=120%>Poziom
+      3 </size>:  Zyskaj +1 do wszystkich rzut\xF3w obronnych wykonywanych za pomoc\u0105
+      wybranego atrybutu.\n<size=120%>Poziom 4 </size>:  Zyskaj przewag\u0119 na
+      wszystkich rzutach obronnych wykonywanych za pomoc\u0105 wybranego atrybutu. "
+  - titleText: "Trening Umiej\u0119tno\u015Bci Mentalnych"
+    contentInfoText: "<size=120%>Poziom 1 </size>:  Zyskaj bieg\u0142o\u015B\u0107
+      w jednej z nast\u0119puj\u0105cych Umiej\u0119tno\u015Bci: Biologia, Empatia,
+      Intuicja, Medycyna, Neonauka, Percepcja, Przetrwanie, \u015Aledztwo, Technologia,
+      Zastraszania (Mo\u017Cna wykupi\u0107 wielokrotnie)\r\n<size=120%>Poziom 2
+      </size>:  Zyskaj +1 do wszystkich test\xF3w zwi\u0105zanych z wybran\u0105
+      bieg\u0142o\u015Bci\u0105 w Umiej\u0119tno\u015Bci.\r\n<size=120%>Poziom 3
+      </size>: : Mo\u017Cesz zignorowa\u0107 krytyczn\u0105 pora\u017Ck\u0119 w tej
+      umiej\u0119tno\u015Bci. Mo\u017Cliwo\u015B\u0107 ta odnawia si\u0119 po zako\u0144czeniu"

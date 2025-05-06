@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1c3593874969348be5b7b6f2f0a687, type: 3}
+  m_Name: SpecialistClassData
+  m_EditorClassIdentifier: 
+  className: SPECJALISTA
+  reductionDiceInfos: 0
+  savingThrowInfos: 3
+  abilityInfos: 020000000300000004000000050000000600000007000000080000000b000000
+  classDescription: "Mistrz dziedziny, czarodziej odr\u0119twia\u0142ej techniki.
+    \u0141\u0105czy stal z strategi\u0105 \u2013 leczy, wzmacnia, zabezpiecza. Kiedy
+    inni si\u0119gaj\u0105 po bro\u0144, on ju\u017C uruchamia gad\u017Cet, kt\xF3ry
+    zmienia zasady gry. "
+  classIcon: {fileID: 21300000, guid: bc8e9963558122b43bad1824bb87b2e6, type: 3}
+  classColor: {r: 0, g: 0.72156864, b: 0.8509804, a: 1}
+  levelUpTable:
+  - level: 1
+    skills: Ekspertyza/Infuzja Przedmiotu
+    proficiencyBonus: 2
+    skillsDescription: "<b>Bieg\u0142o\u015B\u0107 Ekspercka</b>\nOd 1. poziomu wybierasz
+      dwie posiadane bieg\u0142o\u015Bci (umiej\u0119tno\u015Bci, systemy lub narz\u0119dzia).
+      Za ka\u017Cdym razem, gdy wykonujesz test zwi\u0105zany z jedn\u0105 z wybranych
+      bieg\u0142o\u015Bci, Tw\xF3j premiowy modyfikator bieg\u0142o\u015Bci jest
+      podwajany.\n(Uwaga: nie wp\u0142ywa to na liczb\u0119 Punkt\xF3w Kontroli podczas
+      u\u017Cywania interfejsu sterowania robotem). \n\r\n\r<b>Infuzja przedmiotu</b>\r\nKiedy
+      zdobywasz t\u0119 cech\u0119, wybierasz cztery \u201Einfuzje\u201D \u2013 specjalne
+      ulepszenia przedmiot\xF3w \u2013 z listy \u201EInfuzje Specjalisty\u201D znajduj\u0105cej
+      si\u0119 na ko\u0144cu opisu klasy. Uczysz si\u0119 kolejnych infuzji na wy\u017Cszych
+      poziomach, zgodnie z kolumn\u0105 \u201EZnane Infuzje\u201D w tabeli Specjalisty.\nZa
+      ka\u017Cdym razem, gdy zdobywasz nowy poziom w tej klasie, mo\u017Cesz wymieni\u0107
+      jedn\u0105 z poznanych infuzji na inn\u0105 z listy. "
+  - level: 2
+    skills: "Szybki R\u0119ce/Trening"
+    proficiencyBonus: 2
+    skillsDescription: "<b>Szybkie R\u0119ce</b>\r\nOd 2. poziomu mo\u017Cesz u\u017Cy\u0107
+      zestawu narz\u0119dzi, przedmiotu lub umiej\u0119tno\u015Bci, kt\xF3rej normalne
+      u\u017Cycie wymaga akcji, jako akcji dodatkowej. "
+  - level: 3
+    skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
+    proficiencyBonus: 2
+    skillsDescription: "Opis poni\u017Cej w opisie podklas"
+  subClassesTable:
+  - subClassName: Pirotechnik
+    subClassDescription: "<b>Ekspert od kontrolowanych eksplozji. Cho\u0107 definicj\u0119
+      \u201Ekontrolowane\u201D traktuje do\u015B\u0107 lu\u017Ano. Bro\u0144 eksperymentalna
+      to jego drugie imi\u0119, trzecie to \u201ESorry, wybuch\u0142o\u201D. </b>\r\n\r\n\r\n<b>Dodatkowe
+      wyszkolenie</b>\r\nZyskujesz wyszkolenie we wszystkich typach broni (wyj\u0105tkiem
+      s\u0105 bronie posiadaj\u0105ce wymagania statystyk \u2013 nie mo\u017Cesz
+      ich u\u017Cywa\u0107 bez spe\u0142nienia warunk\xF3w). \r\n\r\n<b>Przegrzanie</b>\r\nMo\u017Cesz
+      wybra\u0107 jedn\u0105 z dw\xF3ch opcji przy ataku broni\u0105:\r\nDodaj dodatkow\u0105
+      ko\u015B\u0107 obra\u017Ce\u0144 do ataku broni\u0105\nLUB\r\nPrzerzu\u0107
+      dowolne ko\u015Bci obra\u017Ce\u0144, gdy zadajesz obra\u017Cenia broni\u0105\r\nMo\u017Cesz
+      u\u017Cy\u0107 tej zdolno\u015Bci liczb\u0119 razy r\xF3wn\u0105 Twojej premii
+      z bieg\u0142o\u015Bci na d\u0142ugi odpoczynek.\r\n\r\n<b>Dodatkowa infuzja</b>\r\nW
+      danej chwili mo\u017Cesz mie\u0107 aktywne dwie infuzje jednocze\u015Bnie.
+      Druga infuzja musi by\u0107 typu \u201EWzmocnij Bro\u0144\u201D . "
+  - subClassName: "In\u017Cynier"
+    subClassDescription: "<b>Z\u0142ota r\u0105czka z \u017Celazn\u0105 wol\u0105.
+      Na plecach niesie jednego drona \u2013 ale za to takiego, kt\xF3rego sam sobie
+      wybra\u0142: pancerny tank albo zwinny zwiadowca. I zawsze wie, co naprawi\u0107,
+      zanim si\u0119 zepsuje.</b> \r\n\r\n<b>Dron towarzysz</b>\r\nW walce:\r\nDzieli
+      z Tob\u0105 inicjatyw\u0119, ale dzia\u0142a bezpo\u015Brednio po Tobie.\r\nMo\u017Ce
+      porusza\u0107 si\u0119 i u\u017Cywa\u0107 reakcji samodzielnie.\r\nDomy\u015Blnie
+      wykonuje tylko akcj\u0119 Unik, chyba \u017Ce u\u017Cyjesz akcji dodatkowej,
+      by nakaza\u0107 mu inn\u0105 akcj\u0119 (z jego stat bloku lub dowoln\u0105
+      mo\u017Cliw\u0105 akcj\u0119).\r\nJe\u015Bli jeste\u015B unieruchomiony (incapacitated),
+      mo\u017Ce sam decydowa\u0107, co robi (nie ogranicza si\u0119 do Uniku).\n\r\nWyb\xF3r
+      konfiguracji:\r\nPo zdobyciu tej cechy wybierasz jeden z dw\xF3ch wariant\xF3w
+      towarzysza:\r\n-Stalowy Obro\u0144ca\r\nKlasyczny bojowy towarzysz. Broni,
+      blokuje i wspiera.\n\r\n-Stalowy Zwiadowca\r\nWyposa\u017Cony w kamer\u0119
+      przesy\u0142aj\u0105c\u0105 obraz do Twojego urz\u0105dzenia in\u017Cynierskiego.
+      \u015Awietnie sprawdza si\u0119 do rozpoznania i zwiadu, cho\u0107 nie jest
+      tak wytrzyma\u0142y jak jego bojowy odpowiednik."
+  - subClassName: Medyk
+    subClassDescription: "<b>Tw\xF3j najlepszy przyjaciel w piekle Wyrwy. \u0141ata
+      rany, wzmacnia cia\u0142o, dba o morale. Gdy on jest w dru\u017Cynie, mo\u017Cesz
+      od\u0142o\u017Cy\u0107 panik\u0119 na p\xF3\u017Aniej. </b>  \r\n\r\n\r\n<b>Ratownik</b> 
+      \r\nOd 3. poziomu, gdy wybierasz t\u0119 specjalizacj\u0119:\r\nZyskujesz bieg\u0142o\u015B\u0107
+      w u\u017Cywaniu apteczek, je\u015Bli jeszcze jej nie posiadasz.\r\nJe\u015Bli
+      masz ju\u017C bieg\u0142o\u015B\u0107 w apteczkach, ale nie w Medycynie \u2013
+      zyskujesz bieg\u0142o\u015B\u0107 w Medycynie.\r\nJe\u015Bli masz bieg\u0142o\u015B\u0107
+      zar\xF3wno w Medycynie, jak i w apteczkach, dodajesz premi\u0119 z bieg\u0142o\u015Bci
+      do wszystkich test\xF3w leczenia \u017Cywych istot.\r\nDodatkowo:\nZa ka\u017Cdym
+      razem, gdy u\u017Cywasz apteczki do leczenia lub stabilizacji \u017Cywego celu,
+      ta istota mo\u017Ce wyda\u0107 liczb\u0119 swoich Kostek Trafie\u0144 r\xF3wn\u0105
+      Twojemu modyfikatorowi bieg\u0142o\u015Bci, by si\u0119 uleczy\u0107.\r\nJako
+      akcja mo\u017Cesz zu\u017Cy\u0107 jedno u\u017Cycie apteczki, by udzieli\u0107
+      pomocy istocie i przywr\xF3ci\u0107 jej 1d6 + 4 punkt\xF3w \u017Cycia, plus
+      dodatkowe punkty r\xF3wne maksymalnej liczbie jej Kostek Trafie\u0144.\nIstota
+      nie mo\u017Ce zosta\u0107 w ten spos\xF3b uleczona ponownie, dop\xF3ki nie
+      zako\u0144czy kr\xF3tkiego lub d\u0142ugiego odpoczynku.\r\n\r\n\r\n<b>Infuzja
+      Bonusowa: Jednostka Resuscytacyjna :\r\nMontowana do pancerza. Ma jedno gniazdo
+      (\u0142adunek), kt\xF3re musi zosta\u0107 uzupe\u0142nione przez Medyka po
+      u\u017Cyciu.\nKiedy PZ bohatera spadn\u0105 do 0, zamiast tego zostaj\u0105
+      zredukowane do 1 punktu \u017Cycia. "

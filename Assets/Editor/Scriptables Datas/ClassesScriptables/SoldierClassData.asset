@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1c3593874969348be5b7b6f2f0a687, type: 3}
+  m_Name: SoldierClassData
+  m_EditorClassIdentifier: 
+  className: "\u017BO\u0141NIERZ"
+  reductionDiceInfos: 1
+  savingThrowInfos: 2
+  abilityInfos: 00000000010000000400000007000000080000000c000000
+  classDescription: "\u017Bo\u0142nierz o zwi\u0119kszonej wytrzyma\u0142o\u015Bci
+    i refleksie. Mistrz w pos\u0142ugiwaniu si\u0119 broni\u0105 paln\u0105, bo czemu
+    by nie? Doskona\u0142y w walce na odleg\u0142o\u015B\u0107, a jak trzeba, to
+    te\u017C dobrze wchodzi w ogie\u0144, niczym kapitan Bomba. "
+  classIcon: {fileID: 21300000, guid: 0823326af7dbe614b8d9ece0fca433f6, type: 3}
+  classColor: {r: 0.20392157, g: 0.28235295, b: 0.1882353, a: 1}
+  levelUpTable:
+  - level: 1
+    skills: "Styl Walki/G\u0142\u0119boki Wdech"
+    proficiencyBonus: 2
+    skillsDescription: "<b>Styl Walki</b> \r\nWybierasz jeden z poni\u017Cszych styl\xF3w
+      walki jako swoj\u0105 specjalno\u015B\u0107. Mo\u017Cesz wybra\u0107 tylko
+      jeden styl walki, nawet je\u015Bli p\xF3\u017Aniej b\u0119dziesz mia\u0142
+      okazj\u0119 wybra\u0107 ponownie. \r\n\r\n-Walka na o\u015Blep\nPosiadasz zdolno\u015B\u0107
+      widzenia w ciemno\u015Bci na odleg\u0142o\u015B\u0107 3 metr\xF3w. W tym zasi\u0119gu
+      widzisz wszystko, co nie jest za pe\u0142n\u0105 os\u0142on\u0105, nawet je\u015Bli
+      jeste\u015B o\u015Blepiony lub w ciemno\u015Bci. Dodatkowo, mo\u017Cesz zobaczy\u0107
+      niewidzialn\u0105 istot\u0119 w tym zasi\u0119gu, chyba \u017Ce ta istota skutecznie
+      si\u0119 ukryje.\r\n-Obrona\nPodczas gdy nosisz zbroj\u0119, zyskujesz premi\u0119
+      +2 do redukcji obra\u017Ce\u0144\r\n-Skupienie na Walce Wr\u0119cz\nKiedy rzucasz
+      1 lub 2 na ko\u015Bci obra\u017Ce\u0144 podczas ataku broni\u0105 do walki
+      wr\u0119cz, mo\u017Cesz ponownie rzuci\u0107 ko\u015Bci\u0105 i musisz u\u017Cy\u0107
+      nowego wyniku, nawet je\u015Bli wynik b\u0119dzie 1 lub 2.\r\n-Ochrona\nKiedy
+      istota, kt\xF3r\u0105 widzisz, atakuje cel inny ni\u017C ty, kt\xF3ry znajduje
+      si\u0119 w odleg\u0142o\u015Bci 1,5 metra od ciebie, mo\u017Cesz u\u017Cy\u0107
+      swojej reakcji, aby na\u0142o\u017Cy\u0107 dyskomfort (dyswantage) na rzut
+      ataku.\r\n-Walka Dwoma Broniami\nPodczas walki dwoma broniami mo\u017Cesz doda\u0107
+      sw\xF3j modyfikator zdolno\u015Bci do obra\u017Ce\u0144 drugiego ataku.\r\n-Strzelec\nZyskujesz
+      premi\u0119 +1 do rzut\xF3w ataku wykonanych dwur\u0119czn\u0105 broni\u0105
+      dystansow\u0105.\r\n-Skupienie na Broni Przybocznej\nPodczas trzymania broni
+      dystansowej w jednej r\u0119ce i braku broni w drugiej, zadajesz dodatkowe
+      2 obra\u017Cenia.\r\n-Walka Bez Broni\nTwoje nieuzbrojone ciosy mog\u0105 zadawa\u0107
+      obra\u017Cenia mia\u017Cd\u017C\u0105ce r\xF3wne 1k6 + modyfikator Si\u0142y.
+      Je\u015Bli nie trzymasz \u017Cadnej broni ani tarczy podczas rzutu ataku, ko\u015B\u0107
+      obra\u017Ce\u0144 zmienia si\u0119 na 1k8. Na pocz\u0105tku ka\u017Cdej swojej
+      tury mo\u017Cesz zada\u0107 1k4 obra\u017Ce\u0144 mia\u017Cd\u017C\u0105cych
+      jednej istocie, kt\xF3r\u0105 masz w uchwycie.\r\n\r\n<b>G\u0142\u0119boki
+      Wdech</b>\r\nPosiadasz ograniczon\u0105 rezerw\u0119 energii, kt\xF3r\u0105
+      mo\u017Cesz wykorzysta\u0107, aby chroni\u0107 si\u0119 przed obra\u017Ceniami.
+      Podczas swojej tury mo\u017Cesz u\u017Cy\u0107 akcji bonusowej, aby odzyska\u0107
+      punkty \u017Cycia r\xF3wne 1k10 + tw\xF3j poziom klasy. Gdy u\u017Cyjesz tej
+      zdolno\u015Bci, musisz odpocz\u0105\u0107 przez kr\xF3tk\u0105 lub d\u0142ug\u0105
+      przerw\u0119, zanim b\u0119dziesz m\xF3g\u0142 jej u\u017Cy\u0107 ponownie. "
+  - level: 2
+    skills: "Trening/Przyp\u0142yw Energii"
+    proficiencyBonus: 2
+    skillsDescription: "<b>Trening</b>\nPrzeprowadzasz dwa treningi. Nie mo\u017Cna
+      wykona\u0107 dw\xF3ch takich samych trening\xF3w w tym samym momencie\n\n<b>Przyp\u0142yw
+      Energii</b>\r\nOd 2. poziomu mo\u017Cesz na chwil\u0119 przekroczy\u0107 swoje
+      normalne granice. Podczas swojej tury mo\u017Cesz podj\u0105\u0107 jedn\u0105
+      dodatkow\u0105 akcj\u0119 opr\xF3cz zwyk\u0142ej akcji i ewentualnej akcji
+      bonusowej. \n"
+  - level: 3
+    skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
+    proficiencyBonus: 2
+    skillsDescription: "Opis poni\u017Cej w opisie podklas"
+  subClassesTable:
+  - subClassName: Komandos
+    subClassDescription: "<b>Wielozadaniowy \u017Co\u0142nierz, przeszkolony w r\xF3\u017Cnych
+      stylach walki. Dzi\u0119ki temu jego krytyczne trafienie to nie tylko szcz\u0119\u015Bcie
+      \u2014 to zas\u0142uga umiej\u0119tno\u015Bci, bo na 19 i 20 ka\u017Cdemu wrogowi
+      pada szcz\u0119ka. </b>\r\n\r\n<b>POZIOM 3</b>\n\r\n<b>Ulepszony Krytyk</b>\r\nOd
+      momentu wybrania tej specjalizacji na 3 poziomie, twoje ataki broni\u0105 zadaj\u0105
+      krytyczny cios na dodatkowym wyniku na ko\u015Bci k20, zazwyczaj 19 lub 20. 
+      \n\r\n<b>Dodatkowy Styl Walki </b>\r\nDodatkowo mo\u017Cesz wybra\u0107 drugi
+      styl walki z listy dost\u0119pnej w ramach Lista Styl\xF3w Walki "
+  - subClassName: "Ci\u0119\u017Cki Strzelec"
+    subClassDescription: "<b>Ekspert w broni ci\u0119\u017Ckiej. W r\u0119kach tego
+      wojaka wyrzutnie rakiet, ogromne karabiny i lasery to tylko narz\u0119dzia
+      pracy. \u017Badnych kompromis\xF3w, tylko ogie\u0144 z pe\u0142n\u0105 moc\u0105.
+      </b>\r\n\r\n<b>POZIOM 3</b>\n\r\n<b>Wi\u0119ksze znaczy lepsze</b>\r\nOd momentu
+      wybrania tej specjalizacji na 3. poziomie, zyskujesz bieg\u0142o\u015B\u0107
+      we wszystkich ci\u0119\u017Ckich broniach oraz broniach pojazd\xF3w, a tak\u017Ce
+      w zestawach wybuchowych. Zwi\u0119ksz o 1 stopie\u0144 trudno\u015Bci wszystkich
+      rzut\xF3w obronnych, kt\xF3re s\u0105 wykonane przeciwko twoim atakom. \r\n\r\n<b>Bez
+      lito\u015Bci</b>\r\nd 3. poziomu, kiedy u\u017Cywasz jakiejkolwiek broni automatycznej,
+      oddajesz maksymaln\u0105 liczb\u0119 strza\u0142\xF3w w ka\u017Cdej serii,
+      co pozwala na ponowne rzucenie obra\u017Ce\u0144, gdy wynik wynosi 1 lub 2. "
+  - subClassName: Szturmowiec
+    subClassDescription: "<b>Szturmowiec na pierwszej linii. Shotgun, tarcza, i nienawidzi
+      dystansu. Spec od walki w zwarciu, z bonusami do inicjatywy i reakcji, nie
+      daje czasu na my\u015Blenie. </b>\r\n\r\n<b>POZIOM 3</b>\r\n<b>Zatrwa\u017Caj\u0105ca
+      Si\u0142a</b> \r\nW swojej turze, kiedy zadasz krytyczny cios broni\u0105 lub
+      zredukujesz istot\u0119 do 0 punkt\xF3w \u017Cycia, mo\u017Cesz wykona\u0107
+      jeden atak broni\u0105 jako akcj\u0119 bonusow\u0105. \r\n\r\n<b>CQC </b>\r\nB\u0119d\u0105c
+      w odleg\u0142o\u015Bci 5 st\xF3p od wrogiej istoty, nie masz utrudnienia w
+      rzucie ataku z broni dystansowej.\nKiedy u\u017Cywasz akcji Ataku i atakujesz
+      broni\u0105 dystansow\u0105, mo\u017Cesz u\u017Cy\u0107 akcji bonusowej, by
+      wykona\u0107 atak broni\u0105 do walki wr\u0119cz. "

@@ -103,16 +103,18 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         {
             simplePanel.simplePanel.gameObject.SetActive(true);
             yield return new WaitForEndOfFrame();
-            simplePanel.simplePanel.InitializePanelData();
+        
             simplePanel.simplePanel.InitializePanel();
+            simplePanel.simplePanel.InitializePanelData();
 
+            yield return new WaitForEndOfFrame();
             //if (simplePanel.simplePanel == firstPanel)
             //{
             //    simplePanel.simplePanel.EnablePanel();
             //}
             //else
             //{
-                simplePanel.simplePanel.DisablePanel();
+            simplePanel.simplePanel.DisablePanel();
            // }
         }
         isTransitioning = false;

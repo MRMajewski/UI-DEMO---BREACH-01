@@ -18,7 +18,7 @@ public class ItemDatabase : MonoBehaviour
 
     private void LoadItemsData()
     {
-        string[] guids = AssetDatabase.FindAssets("t:ScriptableObject", new[] { "Assets/Resources/ArmoryScriptables" });
+        string[] guids = AssetDatabase.FindAssets("t:ScriptableObject", new[] { "Assets/Editor/Scriptables Datas/ArmoryScriptables" });
         foreach (string guid in guids)
         {
             string path = AssetDatabase.GUIDToAssetPath(guid);

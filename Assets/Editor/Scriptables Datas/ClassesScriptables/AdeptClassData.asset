@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1c3593874969348be5b7b6f2f0a687, type: 3}
+  m_Name: AdeptClassData
+  m_EditorClassIdentifier: 
+  className: ADEPT
+  reductionDiceInfos: 1
+  savingThrowInfos: 1
+  abilityInfos: 000000000100000004000000050000000700000009000000
+  classDescription: "Zwi\u0119kszona szybko\u015B\u0107 i refleks. Precyzyjny, szybki
+    wojownik, kt\xF3ry potrafi walczy\u0107 zar\xF3wno bez broni, jak i z lekk\u0105
+    lub kr\xF3tk\u0105 broni\u0105 paln\u0105. Gdy nie ma broni, jego cia\u0142o
+    staje si\u0119 narz\u0119dziem zniszczenia \u2014 silne, szybkie i gotowe do
+    wykorzystania w ka\u017Cdej sytuacji. "
+  classIcon: {fileID: 21300000, guid: 7056e9af214fcc64f9ed13205ebd5ecd, type: 3}
+  classColor: {r: 0.7490196, g: 0.3529412, b: 0.21176471, a: 1}
+  levelUpTable:
+  - level: 1
+    skills: Sztuki Walki/KI
+    proficiencyBonus: 2
+    skillsDescription: "<b>Sztuki walki:</b>\r\nTwoja praktyka sztuk walki daje ci
+      mistrzostwo w stylach walki wykorzystuj\u0105cych nieuzbrojone ciosy i bro\u0144
+      adepta, kt\xF3ra obejmuje wszystkie bro\u0144 do walki wr\u0119cz, nie maj\u0105c\u0105
+      w\u0142a\u015Bciwo\u015Bci Ci\u0119\u017Ckiej.\nZyskujesz nast\u0119puj\u0105ce
+      korzy\u015Bci, gdy jeste\u015B nieuzbrojony lub dzier\u017Cysz tylko bro\u0144
+      mnicha i nosisz lekk\u0105 zbroj\u0119 lub nie masz zbroi:\r\nMo\u017Cesz u\u017Cywa\u0107
+      Zr\u0119czno\u015Bci zamiast Si\u0142y do atak\xF3w i obra\u017Ce\u0144 dla
+      nieuzbrojonych cios\xF3w lub broni adepta.\r\nMo\u017Cesz rzuca\u0107 ko\u015Bci\u0105
+      d6 zamiast zwyk\u0142ych obra\u017Ce\u0144 dla nieuzbrojonych cios\xF3w lub
+      broni mnicha. Ta ko\u015B\u0107 zmienia si\u0119, gdy zdobywasz poziomy adepta,
+      zgodnie z tabel\u0105 Sztuk Walki w tabeli Adepta.\r\nKiedy u\u017Cywasz akcji
+      Ataku z nieuzbrojonym ciosem lub broni\u0105 mnicha w swojej turze, mo\u017Cesz
+      wykona\u0107 jeden nieuzbrojony cios jako akcj\u0119 bonusow\u0105. Na przyk\u0142ad,
+      je\u015Bli wykonasz akcj\u0119 Ataku i zaatakujesz ostrzem, mo\u017Cesz tak\u017Ce
+      wykona\u0107 nieuzbrojony cios jako akcj\u0119 bonusow\u0105, pod warunkiem,
+      \u017Ce nie wykona\u0142e\u015B ju\u017C \u017Cadnej akcji bonusowej w tej
+      turze.\r\n\r\n\r\n<b>KI</b>\r\nZaczynaj\u0105c od 2. poziomu, twoje szkolenie
+      pozwala ci wykorzystywa\u0107 mistyczn\u0105 energi\u0119 ki. Dost\u0119p do
+      tej energii reprezentowany jest przez liczb\u0119 punkt\xF3w ki. Tw\xF3j poziom
+      mnicha okre\u015Bla liczb\u0119 punkt\xF3w, kt\xF3re posiadasz, jak pokazano
+      w kolumnie Punkt\xF3w Ki w tabeli Adepta.\nMo\u017Cesz wyda\u0107 te punkty,
+      by zasila\u0107 r\xF3\u017Cne umiej\u0119tno\u015Bci ki. Zaczynasz od znajomo\u015Bci
+      trzech takich umiej\u0119tno\u015Bci: Seria Cios\xF3w, Cierpliwa Obrona i Krok
+      Wiatru. Uczysz si\u0119 kolejnych umiej\u0119tno\u015Bci ki w miar\u0119 zdobywania
+      poziom\xF3w w tej klasie. \r\nNiekt\xF3re z twoich umiej\u0119tno\u015Bci ki
+      wymagaj\u0105 od celu wykonania rzutu obronnego, aby op\xF3r przed efektami
+      umiej\u0119tno\u015Bci. DC rzutu obronnego jest obliczane w nast\u0119puj\u0105cy
+      spos\xF3b:\r\n\nKi ST = 8 + bonus wyszkolenia + tw\xF3j modyfikator Zmys\u0142\xF3w\r\n\nOdzyskujesz
+      1 punkt ki jako akcj\u0119 bonusow\u0105, gdy nie wykonujesz akcji Ataku w
+      swojej turze LUB nie u\u017Cywasz punkt\xF3w ki na umiej\u0119tno\u015Bci.\r\n-Seria
+      Cios\xF3w:\nNatychmiast po wykonaniu akcji Ataku w swojej turze, mo\u017Cesz
+      wyda\u0107 1 punkt ki, by wykona\u0107 dwa nieuzbrojone ciosy jako akcj\u0119
+      bonusow\u0105.\r\n-Cierpliwa Obrona:\nMo\u017Cesz wyda\u0107 1 punkt ki, aby
+      wykona\u0107 akcj\u0119 Uniku jako akcj\u0119 bonusow\u0105 w swojej turze.\r\n-Krok
+      Wiatru:\nMo\u017Cesz wyda\u0107 1 punkt ki, aby wykona\u0107 akcj\u0119 Wycofania
+      lub Sprintu jako akcj\u0119 bonusow\u0105 w swojej turze, a twoja odleg\u0142o\u015B\u0107
+      skoku podwaja si\u0119 na t\u0119 tur\u0119."
+  - level: 2
+    skills: Trening/Walka bez pancerza
+    proficiencyBonus: 2
+    skillsDescription: "<b>Trening</b>\nPrzeprowadzasz dwa treningi. Nie mo\u017Cna
+      wykona\u0107 dw\xF3ch takich samych trening\xF3w w tym samym momencie\n\n<b>Walka
+      bez pancerza</b>\r\nZaczynaj\u0105c od 2. poziomu, twoja pr\u0119dko\u015B\u0107
+      zwi\u0119ksza si\u0119 o 10 st\xF3p, gdy nie nosisz zbroi ani nie u\u017Cywasz
+      tarczy. Ta premia zwi\u0119ksza si\u0119, gdy osi\u0105gasz pewne poziomy mnicha,
+      jak pokazano w tabeli Adepta. "
+  - level: 3
+    skills: "Specjalizacja/Odbicie pocisk\xF3w"
+    proficiencyBonus: 2
+    skillsDescription: "Opis umiej\u0119tno\u015Bci specjalizacji poni\u017Cej w
+      opisie podklas\n\n\n<b>ODBICIE POCISK\xD3W</b>\r\nZaczynaj\u0105c od 3. poziomu,
+      mo\u017Cesz u\u017Cy\u0107 swojej reakcji, aby odbi\u0107 lub z\u0142apa\u0107
+      pocisk, gdy zostaniesz trafiony przez atak z broni dystansowej. Kiedy to robisz,
+      obra\u017Cenia, kt\xF3re otrzymujesz od ataku, zostan\u0105 zredukowane o 1k10
+      + tw\xF3j modyfikator Zr\u0119czno\u015Bci + tw\xF3j poziom adepta.\nJe\u015Bli
+      zredukujesz obra\u017Cenia do 0, mo\u017Cesz z\u0142apa\u0107 pocisk, je\u015Bli
+      jest wystarczaj\u0105co ma\u0142y, by\u015B m\xF3g\u0142 go trzyma\u0107 w
+      jednej r\u0119ce i masz przynajmniej jedn\u0105 woln\u0105 r\u0119k\u0119.
+      Je\u015Bli z\u0142apiesz pocisk w ten spos\xF3b, mo\u017Cesz wyda\u0107 1 punkt
+      ki, by wykona\u0107 atak dystansowy (zasi\u0119g do 12m) z broni\u0105 lub
+      amunicj\u0105, kt\xF3r\u0105 w\u0142a\u015Bnie z\u0142apa\u0142e\u015B, jako
+      cz\u0119\u015B\u0107 tej samej reakcji. Ten atak wykonujesz z bieg\u0142o\u015Bci\u0105,
+      niezale\u017Cnie od swoich bieg\u0142o\u015Bci w broni, a pocisk liczy si\u0119
+      jako bro\u0144 mnicha dla tego ataku. "
+  subClassesTable:
+  - subClassName: Gun Fu
+    subClassDescription: "<b>Mistrz w u\u017Cywaniu pistolet\xF3w, szczeg\xF3lnie
+      w walce na bliskim dystansie. Jak John Wick czy Neo \u2013 szybki, z precyzyjnym
+      okiem, strzela i walczy bez wahania. </b>\r\n\r\n<b>POZIOM 3</b>\r\n\r\n<b>Techniki
+      Walki Broni\u0105 Paln\u0105</b>\r\nKiedy wybierzesz t\u0119 tradycj\u0119
+      na 3. poziomie, zyskujesz bieg\u0142o\u015B\u0107 w ci\u0119\u017Ckich pistoletach
+      i pistoletach maszynowych. Te bronie staj\u0105 si\u0119 broniami mnicha dla
+      ciebie, a ty zyskujesz nast\u0119puj\u0105ce korzy\u015Bci:\r\nBycie w odleg\u0142o\u015Bci
+      1,5m od wrogiej istoty nie nak\u0142ada niekorzystnych warunk\xF3w na rzuty
+      ataku z broni palnej.\r\nNatychmiast po wykonaniu akcji Ataku w swojej turze,
+      by wykona\u0107 nieuzbrojony cios, mo\u017Cesz wyda\u0107 1 punkt ki, aby wykona\u0107
+      dodatkowy atak z broni palnej jako akcj\u0119 bonusow\u0105."
+  - subClassName: Akrobata
+    subClassDescription: "<b>Najszybsza klasa herosa. Zyskuje bonus do pr\u0119dko\u015Bci
+      poruszania i mo\u017Ce b\u0142yskawicznie opu\u015Bci\u0107 zwarcie, by ponownie
+      zaatakowa\u0107 z pe\u0142nym impetem. Szybko\u015B\u0107 i zwinno\u015B\u0107
+      to jego atuty! </b>\r\n\r\n<b>POZIOM 3</b>\n\r\n<b>Zwi\u0119kszona Pr\u0119dko\u015B\u0107:</b>\r\nTwoja
+      pr\u0119dko\u015B\u0107 zwi\u0119ksza si\u0119 o 3m\r\n\r\n\r\n<b>RUCHY BREAKDANCE:
+      </b>\r\nNa 3. poziomie uczysz si\u0119 szybko obraca\u0107 i zmienia\u0107
+      pozycj\u0119, jako cz\u0119\u015B\u0107 swojej Serii Cios\xF3w. Za ka\u017Cdym
+      razem, gdy u\u017Cywasz Serii Cios\xF3w, zyskujesz korzy\u015B\u0107 z akcji
+      odst\u0105pienia, a twoja pr\u0119dko\u015B\u0107 chodzenia wzrasta o 3m do
+      ko\u0144ca bie\u017C\u0105cej tury.\r\nKiedy u\u017Cyjesz przynajmniej 1 punktu
+      ki w swojej turze i mo\u017Cesz porusza\u0107 si\u0119 w prost linii w stron\u0119
+      wroga na odleg\u0142o\u015B\u0107 co najmniej 3m, mo\u017Cesz wykona\u0107
+      specjalny atak na\u0142adowania. Ten atak ma przewag\u0119, a po trafieniu
+      zadaje obra\u017Cenia r\xF3wne 3 * ko\u015Bci sztuki walki + modyfikator z
+      Zr\u0119czno\u015Bci (np. 3k6 + 3)."
+  - subClassName: Mistrz Sztuk Walki
+    subClassDescription: "<b>Typowy mistrz sztuk walki. W odr\xF3\u017Cnieniu od
+      klasycznego Monka, potrafi nie tylko atakowa\u0107, ale tak\u017Ce skutecznie
+      stosowa\u0107 technik zapa\u015Bniczych w walce. Zawsze znajdzie spos\xF3b
+      na unieruchomienie wroga! </b>\r\n\r\n<b>POZIOM 3</b>\n\r\n<b>Klincz</b>\r\nKiedy
+      trafisz istot\u0119 nieuzbrojonym atakiem w swojej turze, mo\u017Cesz u\u017Cy\u0107
+      akcji bonusowej, aby z\u0142apa\u0107 cel. Za ka\u017Cdym razem, gdy trafisz
+      istot\u0119 jednym z atak\xF3w przyznanych przez Seri\u0119 Cios\xF3w, mo\u017Cesz
+      na\u0142o\u017Cy\u0107 na ni\u0105 jeden z nast\u0119puj\u0105cych efekt\xF3w:\r\nMusi
+      zda\u0107 rzut ST na Zr\u0119czno\u015B\u0107, inaczej zostanie powalona na
+      ziemi\u0119.\r\nMusi zda\u0107 rzut ST na Si\u0142\u0119. Je\u015Bli nie uda
+      jej si\u0119, mo\u017Cesz odepchn\u0105\u0107 j\u0105 na odleg\u0142o\u015B\u0107
+      do 3m od siebie.\r\nNie mo\u017Ce podejmowa\u0107 reakcji do ko\u0144ca twojej
+      nast\u0119pnej tury."

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1c3593874969348be5b7b6f2f0a687, type: 3}
+  m_Name: PsionicClassData
+  m_EditorClassIdentifier: 
+  className: PSIONIK
+  reductionDiceInfos: 0
+  savingThrowInfos: 5
+  abilityInfos: 00000000020000000300000004000000060000000700000008000000090000000a000000
+  classDescription: "Zwi\u0119kszona podatno\u015B\u0107 na magi\u0119. Magia z innego
+    wymiaru pobudzi\u0142a umys\u0142 tego herosa i mo\u017Ce teraz u\u017Cywa\u0107
+    mocy psionicznych :) Do wi\u0119kszo\u015Bci czar\xF3w nie musi u\u017Cywa\u0107
+    s\u0142\xF3w i przedmiot\xF3w, a jedynie gest\xF3w."
+  classIcon: {fileID: 21300000, guid: ee3a0b6233d6f614aa45789a29c824ee, type: 3}
+  classColor: {r: 0.91764706, g: 0.69803923, b: 0.8980392, a: 1}
+  levelUpTable:
+  - level: 1
+    skills: Psionika/Specjalizacja
+    proficiencyBonus: 2
+    skillsDescription: "<b>Psionika</b>\nPsionika to ga\u0142\u0105\u017A Neonauki
+      badaj\u0105ca zdolno\u015Bci mentalne, kt\xF3re rozwin\u0119\u0142y si\u0119
+      pod wp\u0142ywem oddzia\u0142ywania Wyrw. Jej celem jest zrozumienie, w jaki
+      spos\xF3b \u015Bwiadomo\u015B\u0107 istot \u017Cywych zosta\u0142a pobudzona
+      przez nieziemskie impulsy \u2013 oraz jak to przebudzenie przek\u0142ada si\u0119
+      na nowe, psychiczne zdolno\u015Bci oddzia\u0142uj\u0105ce na rzeczywisto\u015B\u0107.\r\nUmiej\u0119tno\u015Bci
+      psioniczne nosz\u0105 nazw\u0119 Manifestacji i dziel\u0105 si\u0119 na dwie
+      g\u0142\xF3wne kategorie:\r\nTalenty \u2013 podstawowe manifestacje, drobne
+      ingerencje w otaczaj\u0105cy \u015Bwiat, z kt\xF3rych Psionik mo\u017Ce korzysta\u0107
+      bez ogranicze\u0144. S\u0105 one intuicyjne i nie wymagaj\u0105 wydatku energii.\r\nDyscypliny
+      \u2013 zaawansowane manifestacje wp\u0142ywaj\u0105ce bezpo\u015Brednio na
+      rzeczywisto\u015B\u0107. Ich u\u017Cycie wymaga skupienia i kosztuje PSI, czyli
+      punkty zasob\xF3w mentalnych. Wi\u0119kszo\u015B\u0107 Dyscyplin skaluje si\u0119
+      w zale\u017Cno\u015Bci od liczby PSI u\u017Cytych w danej akcji, co pozwala
+      Psionikowi dostosowywa\u0107 si\u0142\u0119 efektu do sytuacji. Limit PSI,
+      jaki mo\u017Cna u\u017Cy\u0107 jednorazowo, okre\u015Bla Atrybut Psionika.\r\nNa
+      pierwszym poziomie Psionik ma dost\u0119p do 2 Talent\xF3w i 2 Dyscyplin. Ich
+      liczba ro\u015Bnie wraz z poziomem Herosa, a dodatkowe Manifestacje mog\u0105
+      zosta\u0107 odblokowane r\xF3wnie\u017C dzi\u0119ki Treningowi lub odpowiednim
+      przedmiotom.\n\n<b>Specjalizacja</b>\r\nTwoja lista dost\u0119pnych do wybrania
+      talent\xF3w i dyscyplin rozszerza si\u0119 o te z wybranej specjalizacji.\r\n\r\n\r\n<b>Dodatkowa
+      Dyscyplina</b>\r\nTwoja lista dost\u0119pnych dyscyplin zwi\u0119ksza si\u0119
+      o jedn\u0105 wybran\u0105."
+  - level: 2
+    skills: Trening/PSI-6LIMIT -2
+    proficiencyBonus: 2
+    skillsDescription: "<b>Trening</b>\nPrzeprowadzasz dwa treningi. Nie mo\u017Cna
+      wykona\u0107 dw\xF3ch takich samych trening\xF3w w tym samym momencie\n\n<b>Trening/PSI-6LIMIT
+      -2</b>\nCa\u0142kowite punkty PSI rosn\u0105 do 12\nLimit PSI do jednej manifestacji
+      ro\u015Bnie do 3"
+  - level: 3
+    skills: PSI-12/LIMIT -3
+    proficiencyBonus: 2
+    skillsDescription: "<b>Trening/PSI-12 / LIMIT -3</b>\nCa\u0142kowite punkty PSI
+      rosn\u0105 do 12\nLimit PSI do jednej manifestacji ro\u015Bnie do 3"
+  subClassesTable:
+  - subClassName: Telekineza
+    subClassDescription: "<b>Potrafisz przekszta\u0142ca\u0107 energi\u0119 w ruch.
+      Z pomoc\u0105 umys\u0142u poruszasz obiektami i istotami, kontroluj\u0105c
+      je jak marionetki. </b>\n\n<b>Specjalizacja</b>\r\nTwoja lista dost\u0119pnych
+      do wybrania talent\xF3w i dyscyplin rozszerza si\u0119 o te z wybranej specjalizacji."
+  - subClassName: Pyrokineza
+    subClassDescription: "<b>Manipulujesz energi\u0105 ciepln\u0105, potrafisz tworzy\u0107
+      i kontrolowa\u0107 ogie\u0144, wykraczaj\u0105c poza naturalne procesy fizyczne.</b>\n\n<b>Specjalizacja</b>\r\nTwoja
+      lista dost\u0119pnych do wybrania talent\xF3w i dyscyplin rozszerza si\u0119
+      o te z wybranej specjalizacji."
+  - subClassName: Psychokineza
+    subClassDescription: "<b>Emitujesz zak\u0142\xF3cenia, kt\xF3re parali\u017Cuj\u0105
+      umys\u0142y wrog\xF3w. Twoja psioniczna moc atakuje nie cia\u0142a, a \u015Bwiadomo\u015Bci
+      przeciwnik\xF3w.</b>\n\n<b>Specjalizacja</b>\r\nTwoja lista dost\u0119pnych
+      do wybrania talent\xF3w i dyscyplin rozszerza si\u0119 o te z wybranej specjalizacji."

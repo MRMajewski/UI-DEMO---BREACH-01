@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb47f03a01de0d4abf88d6bfca95ef3, type: 3}
+  m_Name: Guns_Trainings
+  m_EditorClassIdentifier: 
+  trainingDataSectionName: TRENINGI Z BRONI PALNEJ
+  trainingDataSectionIcon: {fileID: 21300000, guid: 1a8289acea825bf41aa3d62944a64898, type: 3}
+  trainingDataSectionIconColor: {r: 0.8509804, g: 0.49411765, b: 0.21960784, a: 1}
+  trainingDataSectionDescription: "Doskonalenie celno\u015Bci, szybko\u015Bci reakcji
+    i umiej\u0119tno\u015Bci obs\u0142ugi r\xF3\u017Cnych rodzaj\xF3w broni palnej."
+  trainingBaseDataNodesList:
+  - titleText: Trening w Broni Dystansowej
+    contentInfoText: "<size=120%> Ka\u017Cdy poziom szkolenia mo\u017Ce by\u0107
+      wzi\u0119ty raz dla ka\u017Cdej grupy bieg\u0142o\u015Bci w broni.\r\nPoziom
+      1: </size>: Zyskujesz bieg\u0142o\u015B\u0107 w jednej grupie broni dystansowej.
+      Grupy broni obejmuj\u0105: (Pistolety kieszonkowe), (Pistolety zapasowe), (Pistolety
+      s\u0142u\u017Cbowe), (Rewolwery zapasowe), (Rewolwery s\u0142u\u017Cbowe),
+      (Rewolwery my\u015Bliwskie), (Karabiny p\xF3\u0142automatyczne), (Karabiny
+      szturmowe), (Strzelby jednostrza\u0142owe), (Strzelby pompowe), (Strzelby p\xF3\u0142automatyczne),
+      (Strzelby automatyczne), (Karabiny jednostrza\u0142owe), (Submachine Guns),
+      (Bro\u0144 r\u0119czna i kusze), (Karabiny maszynowe og\xF3lnego przeznaczenia),
+      (Karabiny maszynowe ci\u0119\u017Ckie), (Wyrzutnie granat\xF3w), (Wyrzutnie
+      rakiet), (Granaty).\r\n<size=120%>Poziom 2 </size>: Zyskujesz umiej\u0119tno\u015B\u0107
+      \u201ESzybkiego prze\u0142adowania\u201D: Mo\u017Cesz wykona\u0107 akcj\u0119
+      prze\u0142adowania broni wybranej grupy broni dystansowej jako akcj\u0119 dodatkow\u0105
+      lub mo\u017Cesz wykona\u0107 akcj\u0119 prze\u0142adowania w miejsce jednego
+      ataku, je\u015Bli mo\u017Cesz wykona\u0107 wi\u0119cej ni\u017C jeden atak
+      podczas jednej tury.\r\n<size=120%>Poziom 3 </size>: Zyskujesz umiej\u0119tno\u015B\u0107
+      \u201ENatychmiastowej Akcji\u201D: Ignorujesz 1 krytyczn\u0105 pora\u017Ck\u0119
+      zwi\u0105zan\u0105 z zaci\u0119ciem lub awari\u0105 broni. Po kr\xF3tkiej przerwie
+      mo\u017Cesz u\u017Cy\u0107 tej umiej\u0119tno\u015Bci ponownie.\r\n<size=120%>Poziom
+      4 </size>: Zyskujesz umiej\u0119tno\u015B\u0107 \u201EAkcji Naprawczej\u201D:
+      Ignorujesz 1 krytyczn\u0105 pora\u017Ck\u0119 zwi\u0105zan\u0105 z zaci\u0119ciem,
+      awari\u0105 lub uszkodzeniem broni. Po kr\xF3tkiej przerwie mo\u017Cesz u\u017Cy\u0107
+      tej umiej\u0119tno\u015Bci ponownie."
+  - titleText: Zaawansowany Trening w Broni Dystansowej
+    contentInfoText: "<size=120%>Wymaga poziomu 2 w Szkoleniu w Broni Dystansowej.\r\nPoziom
+      1 </size>: Zyskujesz +1 do wszystkich rzut\xF3w ataku i trudno\u015Bci atak\xF3w
+      wykonywanych broni\u0105 wybranej grupy.\r\n<size=120%>Poziom 2 </size>: Zyskujesz
+      +1 do wszystkich rzut\xF3w obra\u017Ce\u0144 wykonanych broni\u0105 wybranej
+      grupy.\r\n<size=120%>Poziom 3 </size>: Zyskujesz +1 do wszystkich rzut\xF3w
+      ataku i trudno\u015Bci atak\xF3w wykonywanych broni\u0105 wybranej grupy.\r\n<size=120%>Poziom
+      4 </size>: Zyskujesz +1 do wszystkich rzut\xF3w obra\u017Ce\u0144 wykonanych
+      broni\u0105 wybranej grupy."
+  - titleText: Trening Strzelectwa Precyzyjnym
+    contentInfoText: "<size=120%>Poziom 1 </size>: Mo\u017Cesz celowa\u0107 jako
+      akcj\u0119 dodatkow\u0105.\r\n<size=120%>Poziom 2 </size>: Liczysz wrog\xF3w
+      jako maj\u0105cych o jeden poziom os\u0142ony mniej ni\u017C w rzeczywisto\u015Bci.\r\n<size=120%>Poziom
+      3 </size>: Mo\u017Cesz poruszy\u0107 si\u0119 o pe\u0142n\u0105 odleg\u0142o\u015B\u0107
+      i nadal korzysta\u0107 z korzy\u015Bci celowania.\r\n<size=120%>Poziom 4 </size>:
+      Ignorujesz wszystkie os\u0142ony podczas obliczania rzut\xF3w obronnych, z
+      wyj\u0105tkiem pe\u0142nej os\u0142ony."
+  - titleText: Trening Celownia Precyzyjnego
+    contentInfoText: "<size=120%>Wymaga poziomu 2 w Szkoleniu w Strzelectwie Precyzyjnym.\r\nPoziom
+      1 </size>: Kiedy celujesz w cz\u0119\u015B\u0107 cia\u0142a, mo\u017Cesz zmniejszy\u0107
+      kar\u0119 za celowanie o 1.\r\n<size=120%>Poziom 2 </size>: Mo\u017Cesz doda\u0107
+      sw\xF3j bonus bieg\u0142o\u015Bci do trudno\u015Bci atak\xF3w celuj\u0105cych
+      w konkretne cz\u0119\u015Bci cia\u0142a.\r\n<size=120%>Poziom 3 </size>: Kiedy
+      celujesz w cz\u0119\u015B\u0107 cia\u0142a, mo\u017Cesz zmniejszy\u0107 kar\u0119
+      za celowanie o 2.\r\n<size=120%>Poziom 4 </size>: Cele maj\u0105 niekorzystny
+      rzut obronny w przypadku twoich strza\u0142\xF3w celowanych w cz\u0119\u015Bci
+      cia\u0142a."
+  - titleText: "Trening w U\u017Cywaniu Granat\xF3w"
+    contentInfoText: "<size=120%>Poziom 1 </size>: Zyskujesz premi\u0119 do wszystkich
+      rzut\xF3w obra\u017Ce\u0144 zwi\u0105zanych z granatami i wyrzutniami granat\xF3w
+      r\xF3wn\u0105 swojemu modyfikatorowi M\u0105dro\u015Bci.\r\n<size=120%>Poziom
+      2 </size>: Zyskujesz po\u0142ow\u0119 swojego bonusu bieg\u0142o\u015Bci (zaokr\u0105glon\u0105
+      w g\xF3r\u0119) do trudno\u015Bci rzut\xF3w jakichkolwiek granat\xF3w i wyrzutni
+      granat\xF3w, kt\xF3re u\u017Cywasz.\r\n<size=120%>Poziom 3 </size>: Mo\u017Cesz
+      ponownie rzuci\u0107 ko\u015B\u0107 dewiacji, u\u017Cywaj\u0105c dowolnego
+      wyniku.\r\n<size=120%>Poziom 4 </size>: Zyskujesz pe\u0142ny bonus bieg\u0142o\u015Bci
+      do trudno\u015Bci rzut\xF3w jakichkolwiek granat\xF3w i wyrzutni granat\xF3w,
+      kt\xF3re u\u017Cywasz."
+  - titleText: "Trening w U\u017Cywaniu Broni Miotanych"
+    contentInfoText: "<size=120%>Poziom 1 </size>: Zwi\u0119kszasz sw\xF3j zasi\u0119g
+      rzutu broni\u0105 o 5 st\xF3p.\r\n<size=120%>Poziom 2 </size>: Mo\u017Cesz
+      ponownie rzuci\u0107 jedno krytyczne niepowodzenie podczas rzucania broni\u0105
+      na dzie\u0144.\r\n<size=120%>Poziom 3 </size>: Zwi\u0119kszasz sw\xF3j zasi\u0119g
+      rzutu broni\u0105 o 5 st\xF3p.\r\n<size=120%>Poziom 4 </size>: Mo\u017Cesz
+      ponownie rzuci\u0107 liczb\u0119 krytycznych niepowodze\u0144 zwi\u0105zan\u0105
+      z rzutem broni\u0105, r\xF3wn\u0105 twojemu bonusowi Zr\u0119czno\u015Bci.
+      Te mo\u017Cliwo\u015Bci ponownego rzutu odzyskujesz po d\u0142ugiej przerwie."
+  - titleText: "Trening w u\u017Cywaniu Broni Automatycznej"
+    contentInfoText: "<size=120%>Poziom 1 </size>: Podczas trybu \u201ESkupienie
+      i Strza\u0142y\u201D zyskujesz +1 do wszystkich trudno\u015Bci atak\xF3w.\r\n<size=120%>Poziom
+      2 </size>: Podczas trybu \u201ESkupienie i Strza\u0142y\u201D zyskujesz +1
+      do wszystkich trudno\u015Bci atak\xF3w.\r\n<size=120%>Poziom 3 </size>: Podczas
+      trybu \u201ESkupienie i Strza\u0142y\u201D zyskujesz +1 do wszystkich trudno\u015Bci
+      atak\xF3w.\r\n<size=120%>Poziom 4 </size>: Podczas trybu \u201ESkupienie i
+      Strza\u0142y\u201D zyskujesz +1 do wszystkich trudno\u015Bci atak\xF3w.\r\n<size=120%>Poziom
+      5 </size>: Podczas trybu \u201ESkupienie i Strza\u0142y\u201D cel ma niekorzystny
+      rzut na ratunek."
+  - titleText: "Zaawansowany Trening w w u\u017Cywaniu Broni Automatycznej"
+    contentInfoText: "<size=120%>Wymaga poziomu 2 w Szkoleniu w Broni Automatycznej.
+      \nPoziom 1 </size>: Mo\u017Cesz ustali\u0107 sw\xF3j modyfikator Zr\u0119czno\u015Bci
+      plus jeden przy okre\u015Blaniu maksymalnej liczby cel\xF3w lub salw podczas
+      trybu \u201ERiddle\u201D i \u201ESpray\u201D. \n<size=120%>Poziom 1 </size>:
+      Mo\u017Cesz ustali\u0107 sw\xF3j modyfikator Zr\u0119czno\u015Bci razy dwa
+      przy okre\u015Blaniu maksymalnej liczby cel\xF3w lub salw podczas trybu \u201ERiddle\u201D
+      i \u201ESpray\u201D."
+  - titleText: "Trening Strzelecki na Bliskim Zasi\u0119gu"
+    contentInfoText: "<size=120%>Poziom 1 </size>: Zyskujesz +1 do rzut\xF3w ataku
+      wykonanych w odleg\u0142o\u015Bci jednego zakresu.\r\n<size=120%>Poziom 2 </size>:
+      Zyskujesz +1 do wszystkich rzut\xF3w obra\u017Ce\u0144 wykonanych w odleg\u0142o\u015Bci
+      jednego zakresu.\r\n<size=120%>Poziom 3 </size>: Zyskujesz +2 do rzut\xF3w
+      ataku wykonanych w odleg\u0142o\u015Bci jednego zakresu.\r\n<size=120%>Poziom
+      4 </size>: Zyskujesz +2 do wszystkich rzut\xF3w obra\u017Ce\u0144 wykonanych
+      w odleg\u0142o\u015Bci jednego zakresu."
+  - titleText: "Trening Strzelecki na D\u0142ugim Zasi\u0119gu"
+    contentInfoText: "<size=120%>Poziom 1 </size>: Przy atakach na d\u0142ugi zasi\u0119g
+      zawsze liczysz siebie jako strzelaj\u0105cego na jednym poziomie mniejszego
+      mno\u017Cnika zasi\u0119gu (minimalnie 1).\r\n<size=120%>Poziom 2 </size>:
+      Zyskujesz +1 do rzut\xF3w ataku wykonywanych na wi\u0119kszych zasi\u0119gach
+      ni\u017C jeden zakres.\r\n<size=120%>Poziom 3 </size>: Zyskujesz +1 do wszystkich
+      rzut\xF3w obra\u017Ce\u0144 wykonywanych na wi\u0119kszych zasi\u0119gach ni\u017C
+      jeden zakres.\r\n<size=120%>Poziom 4 </size>: Przy atakach na d\u0142ugi zasi\u0119g
+      zawsze liczysz siebie jako strzelaj\u0105cego na dw\xF3ch poziomach mniejszego
+      mno\u017Cnika zasi\u0119gu (minimalnie 1).\r\n<size=120%>Poziom 5 </size>:
+      Zyskujesz +1 do rzut\xF3w ataku wykonywanych na wi\u0119kszych zasi\u0119gach
+      ni\u017C jeden zakres.\r\n<size=120%>Poziom 6 </size>: Zyskujesz +1 do wszystkich
+      rzut\xF3w obra\u017Ce\u0144 wykonywanych na wi\u0119kszych zasi\u0119gach ni\u017C
+      jeden zakres."
+  - titleText: "Trening w Dualnym Pos\u0142ugiwaniu si\u0119 Broni\u0105"
+    contentInfoText: "Wymaga Zr\u0119czno\u015Bci 14 lub wy\u017Cszej. \n<size=120%>Poziom
+      1 </size>: Mo\u017Cesz wykona\u0107 atak przy u\u017Cyciu broni w r\u0119ce
+      niedominuj\u0105cej, nawet je\u015Bli bro\u0144 nie ma w\u0142a\u015Bciwo\u015Bci
+      \u201ELekka\u201D. \n<size=120%>Poziom 2 </size>: Zyskujesz +1 do wszystkich
+      rzut\xF3w ataku i obra\u017Ce\u0144 wykonanych broni\u0105 w dowolnej r\u0119ce,
+      gdy walczysz dwoma broniami dystansowymi. \n<size=120%>Poziom 3 </size>: Mo\u017Cesz
+      wykona\u0107 dwa ataki przy u\u017Cyciu r\u0119ki niedominuj\u0105cej jako
+      akcj\u0119 dodatkow\u0105. \n<size=120%>Poziom 4 </size>: Mo\u017Cesz teraz
+      u\u017Cywa\u0107 dw\xF3ch broni dystansowych dwur\u0119cznych, ale atakujesz
+      z niekorzystnym rzutem."

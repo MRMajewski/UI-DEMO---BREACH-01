@@ -65,11 +65,10 @@ public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
                 new Vector2(viewportRect.rect.width, classDataElementPrefab.GetComponent<RectTransform>().sizeDelta.y);
         }
     }
-    //private void OnEnable()
-    //{
-    //    ResizeSnappedPanel();
-
-    //}
+    private void OnEnable()
+    {
+        ResizeSnappedPanel();
+    }
 
     private void Start()
     {   
@@ -80,7 +79,6 @@ public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
     {
         base.EnablePanel();
         snapper.OnPanelChanged += classIconChanger.SetAlphaForIndex;
-        ResizeSnappedPanel();
     }
     public override void DisablePanel()
     {
