@@ -59,16 +59,6 @@ MonoBehaviour:
       i nadal korzysta\u0107 z korzy\u015Bci celowania.\r\n<size=120%>Poziom 4 </size>:
       Ignorujesz wszystkie os\u0142ony podczas obliczania rzut\xF3w obronnych, z
       wyj\u0105tkiem pe\u0142nej os\u0142ony."
-  - titleText: Trening Celownia Precyzyjnego
-    contentInfoText: "<size=120%>Wymaga poziomu 2 w Szkoleniu w Strzelectwie Precyzyjnym.\r\nPoziom
-      1 </size>: Kiedy celujesz w cz\u0119\u015B\u0107 cia\u0142a, mo\u017Cesz zmniejszy\u0107
-      kar\u0119 za celowanie o 1.\r\n<size=120%>Poziom 2 </size>: Mo\u017Cesz doda\u0107
-      sw\xF3j bonus bieg\u0142o\u015Bci do trudno\u015Bci atak\xF3w celuj\u0105cych
-      w konkretne cz\u0119\u015Bci cia\u0142a.\r\n<size=120%>Poziom 3 </size>: Kiedy
-      celujesz w cz\u0119\u015B\u0107 cia\u0142a, mo\u017Cesz zmniejszy\u0107 kar\u0119
-      za celowanie o 2.\r\n<size=120%>Poziom 4 </size>: Cele maj\u0105 niekorzystny
-      rzut obronny w przypadku twoich strza\u0142\xF3w celowanych w cz\u0119\u015Bci
-      cia\u0142a."
   - titleText: "Trening w U\u017Cywaniu Granat\xF3w"
     contentInfoText: "<size=120%>Poziom 1 </size>: Zyskujesz premi\u0119 do wszystkich
       rzut\xF3w obra\u017Ce\u0144 zwi\u0105zanych z granatami i wyrzutniami granat\xF3w
