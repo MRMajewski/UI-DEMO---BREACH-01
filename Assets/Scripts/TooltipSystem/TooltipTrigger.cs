@@ -10,7 +10,6 @@ public class TooltipTrigger : MonoBehaviour, IPointerClickHandler
     [SerializeField] private TooltipType tooltipType;
     [SerializeField] private string tooltipText;
     [SerializeField] private string actionName="";
-
     private bool isTriggered = false;
 
     public TooltipType Type
@@ -58,7 +57,6 @@ private void HandleTooltipEnter()
         TooltipManager.Instance.CurrentTooltip.ResizeTooltip();
 
         TooltipManager.Instance.ShowTooltip();
-        isTriggered = true;
     }
 
     public void OnTriggerButtonAddAction()

@@ -222,13 +222,13 @@ public class TooltipManager : MonoBehaviour
     {
         if (showSequence != null) showSequence.Kill();
 
+        tooltip.Trigger.IsTriggered = false;
+
         hideSequence = DOTween.Sequence();
         hideSequence
             .Append(tooltip.CanvasGroup.DOFade(0f, tweenSpeed))
-            .AppendInterval(tweenSpeed)
             .OnComplete(() =>
             {
-                tooltip.Trigger.IsTriggered = false;
                 IsDuringAnimation = false;
                 Destroy(tooltip.gameObject);
             })
