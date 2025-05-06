@@ -38,10 +38,6 @@ public class ArmoryPanel : SimpleUIPanelMobiles
 
         currentItems[0].button.onClick.Invoke();
     }
-    public override void DisablePanel()
-    {
-        this.gameObject.SetActive(false);
-    }
 
     public override void EnablePanel()
     {
