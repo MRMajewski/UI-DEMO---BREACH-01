@@ -10,11 +10,13 @@ public class MusicManager : MonoBehaviour
     [SerializeField] private Button musicToggleButton;
     [SerializeField] private Sprite musicOnSprite;
     [SerializeField] private Sprite musicOffSprite;
-    [SerializeField] private List<SoundEntry> soundEntries; 
+    [SerializeField] private List<SoundEntry> soundEntries;
+    [SerializeField] private Slider volumeSlider;
 
     private Dictionary<string, AudioClip> soundEffects = new Dictionary<string, AudioClip>(); 
     private bool isPlaying = true;
 
+    private bool isSliderOn = false;
     private void Awake()
     {
         if (Instance == null)
@@ -31,14 +33,9 @@ public class MusicManager : MonoBehaviour
     {
         AddSoundsToDictionary(soundEntries);
 
-        if (musicToggleButton != null)
-        {
-            musicToggleButton.onClick.AddListener(ToggleMusic);
-        }
-
         UpdateButtonIcon();
 
-
+        volumeSlider.value = musicSource.volume;
 
         void AddSoundsToDictionary(List<SoundEntry> soundEntries)
         {
@@ -56,23 +53,27 @@ public class MusicManager : MonoBehaviour
         }
     }
 
-
-    public void ToggleMusic()
+    public void SetVolume(float value)
     {
-        isPlaying = !isPlaying;
+        musicSource.volume = value; 
 
-        if (isPlaying)
-        {
-            musicSource.Play();
-        }
+        if (value==0f)
+            ToggleMusic(false);
         else
-        {
-            musicSource.Pause();
-        }
+            ToggleMusic(true);
+    }
 
+    public void ToggleMusic(bool isPlaying)
+    {
+       this.isPlaying = isPlaying;
         UpdateButtonIcon();
     }
 
+    public void ToggleSlider()
+    {
+        isSliderOn = !isSliderOn;
+        volumeSlider.gameObject.SetActive(isSliderOn);
+    }
     public void PlaySound(string soundName)
     {
         if (soundEffects.TryGetValue(soundName, out AudioClip clip))

@@ -49,6 +49,9 @@ public class TooltipManager : MonoBehaviour
 
     public bool IsDuringAnimation { get; private set; } = false;
 
+    [SerializeField]
+    private Vector2 offsideFromScreenBorder;
+
     #endregion
 
     #region Init Methods
@@ -180,10 +183,10 @@ public class TooltipManager : MonoBehaviour
 
         Vector2 AdjustWontLeaveScreen(RectTransform currentRect, RectTransform CanvasRect, Vector3 newPos)
         {
-            float minX = (CanvasRect.rect.width * -0.5f) + (currentRect.rect.width * 0.5f);
-            float maxX = (CanvasRect.rect.width * 0.5f) - (currentRect.rect.width * 0.5f);
-            float minY = (CanvasRect.rect.height * -0.5f) + (currentRect.rect.height * 0.5f);
-            float maxY = (CanvasRect.rect.height * 0.5f) - (currentRect.rect.height * 0.5f);
+            float minX = (CanvasRect.rect.width * -0.5f) + (currentRect.rect.width * 0.5f)+offsideFromScreenBorder.x;
+            float maxX = (CanvasRect.rect.width * 0.5f) - (currentRect.rect.width * 0.5f) - offsideFromScreenBorder.x;
+            float minY = (CanvasRect.rect.height * -0.5f) + (currentRect.rect.height * 0.5f) - offsideFromScreenBorder.y;
+            float maxY = (CanvasRect.rect.height * 0.5f) - (currentRect.rect.height * 0.5f) + offsideFromScreenBorder.y;
 
             newPos.x = Mathf.Clamp(newPos.x, minX, maxX);
             newPos.y = Mathf.Clamp(newPos.y, minY, maxY);
