@@ -19,7 +19,7 @@ public class ItemDetailsPanel : MonoBehaviour
 
     public IEnumerator ShowDetailsCoroutine(ItemData itemData)
     {
-        TooltipManager.Instance.HideAllTooltips();
+        TooltipManager.Instance.HideTooltip();
 
         iconImage.sprite = itemData.icon;
         nameText.text = itemData.itemName;

@@ -48,8 +48,8 @@ public class TooltipUI : MonoBehaviour
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
     }
 
-    public void HandleTooltipExit()
-    {
-        TooltipManager.Instance.HideTooltip(this);
-    }
+    //public void HandleTooltipExit()
+    //{
+    //    TooltipManager.Instance.HideTooltip();
+    //}
 }

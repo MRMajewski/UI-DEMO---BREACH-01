@@ -8,9 +8,9 @@ public class TooltipManager : MonoBehaviour
 
     public static TooltipManager Instance;
 
+    // [SerializeField]
+    // private TooltipUI tooltipPrefab;
     [SerializeField]
-    private TooltipUI tooltipPrefab;
-
     private TooltipUI currentTooltip;
     public TooltipUI CurrentTooltip => currentTooltip;
 
@@ -24,9 +24,9 @@ public class TooltipManager : MonoBehaviour
     private RectTransform inspectedRectTransform;
     public RectTransform InspectedRectTransform { get => inspectedRectTransform; set => inspectedRectTransform = value; }
 
-    [SerializeField]
-    private TooltipTrigger currentlyInspectedTrigger;
-    public TooltipTrigger CurrentlyInspectedTrigger { get => currentlyInspectedTrigger; set => currentlyInspectedTrigger = value; }
+    //[SerializeField]
+    //private TooltipTrigger currentlyInspectedTrigger;
+    //public TooltipTrigger CurrentlyInspectedTrigger { get => currentlyInspectedTrigger; set => currentlyInspectedTrigger = value; }
 
     [Space]
     [Header("Tween related refs")]
@@ -52,6 +52,8 @@ public class TooltipManager : MonoBehaviour
     [SerializeField]
     private Vector2 offsideFromScreenBorder;
 
+    [SerializeField] private CanvasGroup backgroundOverlay;
+
     #endregion
 
     #region Init Methods
@@ -67,33 +69,33 @@ public class TooltipManager : MonoBehaviour
         }
     }
 
-    internal void CreateCurrentTooltip(TooltipTrigger trigger)
-    {
-        if (IsDuringAnimation) return;
+    //internal void CreateCurrentTooltip(TooltipTrigger trigger)
+    //{
+    //    if (IsDuringAnimation) return;
 
-        if (tooltipPrefab == null)
-        {
-            Debug.LogError("Tooltip prefab is not assigned!");
-            return;
-        }
-        TooltipUI tooltipInstance = Instantiate(tooltipPrefab, tooltipsContainer);
+    //    if (tooltipPrefab == null)
+    //    {
+    //        Debug.LogError("Tooltip prefab is not assigned!");
+    //        return;
+    //    }
+    //    TooltipUI tooltipInstance = Instantiate(tooltipPrefab, tooltipsContainer);
 
-        tooltipInstance.Trigger = trigger;
+    //    tooltipInstance.Trigger = trigger;
 
-        currentTooltip = tooltipInstance;
+    //    currentTooltip = tooltipInstance;
 
-        if (currentTooltip == null)
-        {
-            Debug.LogError("Tooltip prefab does not contain a TooltipUI component!");
-            Destroy(tooltipInstance.gameObject);
-            return;
-        }
+    //    if (currentTooltip == null)
+    //    {
+    //        Debug.LogError("Tooltip prefab does not contain a TooltipUI component!");
+    //        Destroy(tooltipInstance.gameObject);
+    //        return;
+    //    }
 
-        RectTransform tooltipRect = tooltipInstance.GetComponent<RectTransform>();
+    //    RectTransform tooltipRect = tooltipInstance.GetComponent<RectTransform>();
 
-        tooltipInstance.gameObject.SetActive(true);
-        tooltipsQueque.Add(currentTooltip);
-    }
+    //    tooltipInstance.gameObject.SetActive(true);
+    //    tooltipsQueque.Add(currentTooltip);
+    //}
     internal void ExecuteAction(string actionName)
     {
         var action = tooltipActions.Find(a => a.actionName == actionName);
@@ -114,15 +116,49 @@ public class TooltipManager : MonoBehaviour
         OpenTooltipUI();
     }
 
+    //internal void ShowTooltip()
+    //{
+    //    if (IsDuringAnimation || currentTooltip == null) return;
+
+    //    IsDuringAnimation = true;
+    //    RepositionToolTip();
+
+    //    if (hideSequence != null) hideSequence.Kill();
+    //    if (showSequence != null) showSequence.Kill();
+
+    //    currentTooltip.CanvasGroup.alpha = 0;
+
+    //    showSequence = DOTween.Sequence();
+
+    //    if (tooltipBackground != null)
+    //    {
+    //        showSequence.Append(tooltipBackground.DOFade(1f, tweenSpeed).OnUpdate(() =>
+    //        {
+    //            tooltipBackground.interactable = tooltipBackground.alpha > 0.9f;
+    //            tooltipBackground.blocksRaycasts = tooltipBackground.alpha > 0.9f;
+    //        }));
+    //    }
+
+    //    showSequence.Append(currentTooltip.CanvasGroup.DOFade(1f, tweenSpeed))
+    //        .OnComplete(() => IsDuringAnimation = false)
+    //        .SetUpdate(true);
+    //}
+
     private void OpenTooltipUI()
     {
         if (hideSequence != null) hideSequence.Kill();
-
+        currentTooltip.gameObject.SetActive(true);
         currentTooltip.CanvasGroup.alpha = 0;
+
+        backgroundOverlay.gameObject.SetActive(true);
+        backgroundOverlay.alpha = 0;
+        backgroundOverlay.blocksRaycasts = true;
+        backgroundOverlay.interactable = true;
 
         showSequence = DOTween.Sequence();
         showSequence
         .Append(currentTooltip.CanvasGroup.DOFade(1f, tweenSpeed))
+        .Join(backgroundOverlay.DOFade(1f, tweenSpeed))
         .OnComplete(() => IsDuringAnimation = false)
         .SetUpdate(true);
     }
@@ -198,42 +234,57 @@ public class TooltipManager : MonoBehaviour
     #endregion
 
     #region Hide Tooltips Methods
-    internal void HideTooltip(TooltipUI tooltip)
+    internal void HideTooltip()
     {
         if (IsDuringAnimation) return;
 
         IsDuringAnimation = true;
-        tooltipsQueque.Remove(tooltip);
-        CloseTooltipUI(tooltip);
+      //  tooltipsQueque.Remove(tooltip);
+        CloseTooltipUI();
     }
 
-    internal void HideAllTooltips()
-    {
-        if (IsDuringAnimation || tooltipsQueque.Count == 0)
-            return;
+    //internal void HideAllTooltips()
+    //{
+    //    if (IsDuringAnimation || tooltipsQueque.Count == 0)
+    //        return;
 
-        IsDuringAnimation = true;
-        foreach (TooltipUI tooltip in tooltipsQueque)
-        {
-            CloseTooltipUI(tooltip);
-        }
-        tooltipsQueque.Clear();
-        tooltipsQueque.TrimExcess();
-    }
+    //    IsDuringAnimation = true;
+    //    foreach (TooltipUI tooltip in tooltipsQueque)
+    //    {
+    //        CloseTooltipUI(tooltip);
+    //    }
+    //    tooltipsQueque.Clear();
+    //    tooltipsQueque.TrimExcess();
 
-    private void CloseTooltipUI(TooltipUI tooltip)
+    //    currentTooltip.gameObject.SetActive(true);
+    //}
+
+    private void CloseTooltipUI()
     {
         if (showSequence != null) showSequence.Kill();
 
-        tooltip.Trigger.IsTriggered = false;
+        //  if(currentTooltip.Trigger != null)
+        //  currentTooltip.Trigger.IsTriggered = false;
+
+        //backgroundOverlay.gameObject.SetActive(true);
+        //backgroundOverlay.alpha = 0;
+        //backgroundOverlay.blocksRaycasts = true;
+        //backgroundOverlay.interactable = true;
+
 
         hideSequence = DOTween.Sequence();
         hideSequence
-            .Append(tooltip.CanvasGroup.DOFade(0f, tweenSpeed))
+            .Append(currentTooltip.CanvasGroup.DOFade(0f, tweenSpeed))
+              .Join(backgroundOverlay.DOFade(0f, tweenSpeed))
             .OnComplete(() =>
             {
                 IsDuringAnimation = false;
-                Destroy(tooltip.gameObject);
+
+                currentTooltip.gameObject.SetActive(false);
+                backgroundOverlay.gameObject.SetActive(false);
+                backgroundOverlay.alpha = 0;
+                backgroundOverlay.blocksRaycasts = true;
+                backgroundOverlay.interactable = true;
             })
             .SetUpdate(true);
     }
