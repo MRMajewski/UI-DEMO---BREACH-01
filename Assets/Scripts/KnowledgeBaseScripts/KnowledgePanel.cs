@@ -38,10 +38,10 @@ public class KnowledgePanel : SimpleUIPanelMobiles
     [SerializeField]
     private Button ExpandAllButton;
 
-    public override void InitializePanel()
-    {
-        BuildKnowledgeBase();
-    }
+    //public override void initializepanel()
+    //{
+    //    buildknowledgebase();
+    //}
 
     //public override void InitializePanelData()
     //{
@@ -60,7 +60,7 @@ public class KnowledgePanel : SimpleUIPanelMobiles
         panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
     }
 
-    void BuildKnowledgeBase()
+    public void BuildKnowledgeBase()
     {
         DestroyPreviousNodes();
 

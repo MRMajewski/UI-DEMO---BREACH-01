@@ -61,7 +61,8 @@ public class KnowledgePanelCustomEditor : Editor
 
         if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
         {
-            script.InitializePanelData();
+        //    script.InitializePanelData()
+                  script.BuildKnowledgeBase();
         }
     }
 }

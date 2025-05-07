@@ -15,7 +15,7 @@ public abstract class SimpleUIPanelMobiles : MonoBehaviour, ISimpleUIPanelMobile
 
     public virtual void DisablePanel()
     {
-        TooltipManager.Instance.HideAllTooltips();
+        TooltipManager.Instance.HideTooltip();
         panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).
         OnComplete(() => this.gameObject.SetActive(false));     
     }
