@@ -1,9 +1,10 @@
+using DG.Tweening;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ClassDataElementUI : MonoBehaviour, ISnapperPanel
+public class ClassDataElementUI : MonoBehaviour, ISnappedElement
 {
     [SerializeField]
     private TextMeshProUGUI classNameText;
@@ -37,6 +38,29 @@ public class ClassDataElementUI : MonoBehaviour, ISnapperPanel
 
     public List<TooltipTriggerGameObjectAdder> TriggerGameObjectAdder { get { return triggerAdders; } }
 
+
+    [SerializeField]
+    private RectTransform rectTransform;
+
+    [SerializeField]
+    private RectTransform content;
+
+    public RectTransform GetContentTransform()
+    {
+        return content;
+    }
+
+    public RectTransform GetRectTransform()
+    {
+        return rectTransform;
+    }
+
+    public void ResetRectScroll()
+    {
+        Vector2 targetPosition = new Vector2(content.anchoredPosition.x, 0f);
+        content.DOAnchorPos(targetPosition, 0.3f).SetEase(Ease.InOutSine).SetUpdate(true);
+    }
+
     public void Initialize(ClassData data)
     {
         classNameText.text = data.className;
@@ -61,6 +85,7 @@ public class ClassDataElementUI : MonoBehaviour, ISnapperPanel
         GenerateLevelUpDetails(data.levelUpTable);
         GenerateSubClassesDetails(data.subClassesTable);
     }
+
 
     private void GenerateLevelUpDetails(List<LevelUpTable> levelUpTable)
     {
@@ -90,10 +115,5 @@ public class ClassDataElementUI : MonoBehaviour, ISnapperPanel
             }
         }
         subClassDetailsPrefab.gameObject.SetActive(false);
-    }
-
-    public void ResizeSnappedPanel()
-    {
-        throw new System.NotImplementedException();
     }
 }

@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
-public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
+public class ClassPanel : SimpleUIPanelMobiles
 {
     [SerializeField]
     private RectTransform container;
@@ -24,6 +25,19 @@ public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
     [SerializeField]
     private MiniatureClassIconsChanger classIconChanger;
 
+
+    public override void InitializePanel()
+    {
+        CastSnappedElements();
+        base.InitializePanel();
+
+        void CastSnappedElements()
+        {
+            List<ISnappedElement> snappedElements = classesDataElementsUIList.Cast<ISnappedElement>().ToList();
+
+            snapper.InitPanels(snappedElements);
+        }
+    }
     public void InitializeClasses()
     {
         foreach (ClassDataElementUI classData in classesDataElementsUIList)
@@ -49,10 +63,7 @@ public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
         }
         classDataElementPrefab.gameObject.SetActive(false);
 
-        snapper.InitPanels(classesDataElementsUIList);
         classIconChanger.CreateIcons(ClassesDataBase);
-
-        snapper.OnPanelChanged += classIconChanger.SetAlphaForIndex;
     }
 
     public void ResizeSnappedPanel()
@@ -82,7 +93,8 @@ public class ClassPanel : SimpleUIPanelMobiles, ISnapperPanel
     }
     public override void DisablePanel()
     {
-        base.DisablePanel();
+        base.DisablePanel(); 
+        snapper.ResetAllScrolls();
         snapper.OnPanelChanged -= classIconChanger.SetAlphaForIndex;
     }
 }

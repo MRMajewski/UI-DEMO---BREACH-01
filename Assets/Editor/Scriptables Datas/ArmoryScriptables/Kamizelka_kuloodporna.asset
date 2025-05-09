@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Kamizelka kuloodporna
   icon: {fileID: 21300000, guid: 79ad09522ed42fb4999fdd8b85962d96, type: 3}
-  description: "Redukcja obra\u017Ce\u0144: \n-Fizyczne - 2 \n -Energetyczne - 0
-    \n -Pozosta\u0142e - 0"
+  description: "Redukcja obra\u017Ce\u0144: \n-Fizyczne - 2 \n-Energetyczne - 0 \n-Pozosta\u0142e
+    - 0"
   categories: 0100000005000000

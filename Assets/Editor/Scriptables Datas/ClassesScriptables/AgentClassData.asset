@@ -48,8 +48,8 @@ MonoBehaviour:
     skillsDescription: "Opis poni\u017Cej w opisie podklas"
   subClassesTable:
   - subClassName: Snajper
-    subClassDescription: "<b>Mistrz w precyzyjnych eliminacjach z daleka. Snajper
-      potrafi przemkn\u0105\u0107 przez teren jak cie\u0144, a jego strza\u0142y
+    subClassDescription: "<b>Mistrz w precyzyjnych eliminacjach na odleg\u0142o\u015B\u0107.
+      Snajper potrafi przemkn\u0105\u0107 przez teren jak cie\u0144, a jego strza\u0142y
       to niemal pewna \u015Bmier\u0107 dla przeciwnika. Im dalej, tym lepiej \u2013
       na dystansie jest niepokonany.  </b>\n\r\n\r<b>POZIOM 3 </b>\n\n<b>Precyzyjny
       Strza\u0142 </b>\r\nOd 3. poziomu, jako akcj\u0119 mo\u017Cesz odda\u0107 jeden

@@ -6,7 +6,7 @@ using System;
 
 public class UIElementsSnapper : MonoBehaviour
 {
-    public List<RectTransform> panels;
+
     public RectTransform content;
 
     private int currentPanelIndex = 0;
@@ -18,10 +18,11 @@ public class UIElementsSnapper : MonoBehaviour
 
     public event Action<int> OnPanelChanged;
 
+    private List<ISnappedElement> snappedElements = new();
+
     private void Start()
     {
         swipeThreshold = Screen.width * 0.15f;
-        Debug.LogError("Swipe threshold set to: " + swipeThreshold);
     }
 
     private void Update()
@@ -70,8 +71,7 @@ public class UIElementsSnapper : MonoBehaviour
     {
         touchStartPosition = position;
         isHorizontalSwipe = false;
-        hasSwiped = false;
-      
+        hasSwiped = false;     
     }
 
     private void MoveTouch(Vector2 position)
@@ -101,54 +101,55 @@ public class UIElementsSnapper : MonoBehaviour
     {
         float dragDistance = endPosition.x - touchStartPosition.x;
 
+        snappedElements[currentPanelIndex].ResetRectScroll();
+
         if (Mathf.Abs(dragDistance) > swipeThreshold)
         {
             if (dragDistance < 0)
             {
-                currentPanelIndex = (currentPanelIndex + 1) % panels.Count; 
+                currentPanelIndex = (currentPanelIndex + 1) % snappedElements.Count; 
             }
             else if (dragDistance > 0)
             {
-                currentPanelIndex = (currentPanelIndex - 1 + panels.Count) % panels.Count; 
+                currentPanelIndex = (currentPanelIndex - 1 + snappedElements.Count) % snappedElements.Count; 
             }
-
             SnapToPanel(currentPanelIndex);
             OnPanelChanged?.Invoke(currentPanelIndex);
+
+            TooltipManager.Instance.HideTooltip();
         }
     }
 
     private void SnapToPanel(int panelIndex)
     {
-        Vector2 targetPosition = new Vector2(-panels[panelIndex].anchoredPosition.x, content.anchoredPosition.y);
+        Vector2 targetPosition = new Vector2(-snappedElements[panelIndex].GetRectTransform().anchoredPosition.x, content.anchoredPosition.y);
         content.DOAnchorPos(targetPosition, 0.3f).SetEase(Ease.InOutSine).SetUpdate(true);
     }
 
-    public void InitPanels(List<ClassDataElementUI> classesDataElementsUIList)
+    public void InitPanels(List<ISnappedElement> classesDataElementsUIList)
     {
-        panels.Clear();
-        panels.TrimExcess();
+        snappedElements.Clear();
+        snappedElements.TrimExcess();
 
-        foreach (ClassDataElementUI item in classesDataElementsUIList)
+        foreach (ISnappedElement item in classesDataElementsUIList)
         {
-            RectTransform newPanel = item.GetComponent<RectTransform>();
-            panels.Add(newPanel);
+            snappedElements.Add(item);
         }
     }
 
-    public void InitPanels(List<TrainingSectionPanel> snapperPanelElementsList)
+    public void ResetAllScrolls()
     {
-        panels.Clear();
-        panels.TrimExcess();
-
-        foreach (TrainingSectionPanel item in snapperPanelElementsList)
+        if (snappedElements == null)
+            return;
+        foreach (var element in snappedElements)
         {
-            RectTransform newPanel = item.GetComponent<RectTransform>();
-            panels.Add(newPanel);
+            element.ResetRectScroll();
         }
     }
 
     public void SnapToPanelFromButton(int panelIndex)
     {
+        snappedElements[currentPanelIndex].ResetRectScroll();
         SnapToPanel(panelIndex);
         currentPanelIndex = panelIndex;
         OnPanelChanged?.Invoke(currentPanelIndex);

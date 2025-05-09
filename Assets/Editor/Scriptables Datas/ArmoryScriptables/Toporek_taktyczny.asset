@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Toporek taktyczny
   icon: {fileID: 21300000, guid: 823edb93329bab346ac6613a491fc613, type: 3}
-  description: "Wszechstronne narz\u0119dzie i por\u0119czna bro\u0144 \n Obra\u017Cenia
+  description: "Wszechstronne narz\u0119dzie i por\u0119czna bro\u0144 \nObra\u017Cenia
     ci\u0119te k6+1 \n "
   categories: 000000000400000005000000

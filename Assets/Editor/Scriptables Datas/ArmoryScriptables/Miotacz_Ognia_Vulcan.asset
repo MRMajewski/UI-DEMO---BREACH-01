@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Miotacz Ognia <i>Vulcan</i>
   icon: {fileID: 21300000, guid: 42345ddbb13d4b9438e1a28d0f07d004, type: 3}
-  description: "Bro\u0144 oparta na projekcji p\u0142omieni kr\xF3tkiego zasi\u0119gu.\n
-    Obra\u017Cenia ogniste 3k6+U \n Zasi\u0119g bliski \n Dwur\u0119czny, Ci\u0119\u017Cki
-    14, Wolne Prze\u0142adowanie, Amunicja 5 "
+  description: "Bro\u0144 oparta na projekcji p\u0142omieni kr\xF3tkiego zasi\u0119gu.\nObra\u017Cenia
+    ogniste 3k6+U \nZasi\u0119g bliski \nDwur\u0119czny, Ci\u0119\u017Cki 14, Wolne
+    Prze\u0142adowanie, Amunicja 5 "
   categories: 00000000030000000c0000000600000007000000

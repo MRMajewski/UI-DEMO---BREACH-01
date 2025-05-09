@@ -94,7 +94,7 @@ public class TrainingPanelCustomEditor : Editor
 
         if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
         {
-            script.InitailizeTrainingPanelDatabase();
+            script.InitializeTrainingPanelDatabase();
         }
     }
 }

@@ -15,6 +15,6 @@ MonoBehaviour:
   itemName: "P\u0142aszcz Taktyczny <i>Feniks</i>"
   icon: {fileID: 21300000, guid: 0ff0c3eeab909564aa251845f5f1fe31, type: 3}
   description: "Ognioodporny i balistycznie wzmocniony p\u0142aszcz taktyczny. \n
-    Redukcja obra\u017Ce\u0144: \n-Fizyczne - 3 \n -Energetyczne - 5 \n -Pozosta\u0142e
+    Redukcja obra\u017Ce\u0144: \n-Fizyczne - 3 \n-Energetyczne - 5 \n-Pozosta\u0142e
     - 5"
   categories: 0100000006000000

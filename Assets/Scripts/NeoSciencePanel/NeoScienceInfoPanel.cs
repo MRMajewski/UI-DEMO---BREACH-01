@@ -2,13 +2,16 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NeoScienceInfoPanel : AttributesInfoPanel
 {
     [SerializeField]
     private NeoScienceDatabase neoScienceDatabase;
 
+    [SerializeField] private UIElementSnapper generalSubPanel;
     [SerializeField] private NeoScienceSubPanel neoPhysicsSubPanel;
     [SerializeField] private NeoScienceSubPanel neoLinguisticSubPanel;
     [SerializeField] private NeoScienceSubPanel neoSensoricsSubPanel;
@@ -16,7 +19,27 @@ public class NeoScienceInfoPanel : AttributesInfoPanel
 
     public override void InitializePanel()
     {
-        base.InitializePanel();
+        CastSnappedElements();
+
+        snapper.OnPanelChanged += iconChanger.SetAlphaForIndex;
+
+        foreach (Button icon in iconButtons)
+        {
+            int index = iconButtons.IndexOf(icon);
+            icon.onClick.AddListener(() => snapper.SnapToPanelFromButton(index));
+        }
+        InitializeCategory(0);
+
+        void CastSnappedElements()
+        {
+            List<ISnappedElement> snappedElements = new List<ISnappedElement>();
+            snappedElements.Add((ISnappedElement)generalSubPanel);
+            snappedElements.Add((ISnappedElement)neoPhysicsSubPanel);
+            snappedElements.Add((ISnappedElement)neoSensoricsSubPanel);
+            snappedElements.Add((ISnappedElement)PsionicsSubPanel);
+            snappedElements.Add((ISnappedElement)neoLinguisticSubPanel);
+            snapper.InitPanels(snappedElements);
+        }
     }
 
     public void InitSubPanelsData()

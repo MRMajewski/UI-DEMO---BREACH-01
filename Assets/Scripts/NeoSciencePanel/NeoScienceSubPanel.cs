@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -5,7 +6,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NeoScienceSubPanel : MonoBehaviour
+public class NeoScienceSubPanel : MonoBehaviour, ISnappedElement
 {
     [SerializeField] private NeoScienceCategory category;
     [SerializeField] private Transform spellListParent;
@@ -21,6 +22,12 @@ public class NeoScienceSubPanel : MonoBehaviour
     [SerializeField]
     protected bool isListOpen = false;
     public bool IsListOpen { get => isListOpen; }
+
+    [SerializeField]
+    private RectTransform rectTransform;
+
+    [SerializeField]
+    private RectTransform content;
 
     public void Setup<T>(List<T> spellList) where T : SpellData
     {
@@ -121,5 +128,21 @@ public class NeoScienceSubPanel : MonoBehaviour
 
         if (isListOpen)
             ToggleListPanel();
+    }
+
+    public RectTransform GetContentTransform()
+    {
+        return content;
+    }
+
+    public RectTransform GetRectTransform()
+    {
+        return rectTransform;
+    }
+
+    public void ResetRectScroll()
+    {
+        Vector2 targetPosition = new Vector2(content.anchoredPosition.x, 0f);
+        content.DOAnchorPos(targetPosition, 0.3f).SetEase(Ease.InOutSine).SetUpdate(true); 
     }
 }

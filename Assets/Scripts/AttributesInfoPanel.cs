@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AttributesInfoPanel : SimpleUIPanelMobiles, ISnapperPanel
+public class AttributesInfoPanel : SimpleUIPanelMobiles
 {
     [SerializeField]
     protected UIElementsSnapper snapper;
@@ -18,10 +19,12 @@ public class AttributesInfoPanel : SimpleUIPanelMobiles, ISnapperPanel
     protected List<Button> iconButtons;
 
     [SerializeField]
-    protected List<RectTransform> snapperPanelsList;
+    protected List<UIElementSnapper> snapperElementsList;
 
     public override void InitializePanel()
     {
+        CastSnappedElements();
+
         snapper.OnPanelChanged += iconChanger.SetAlphaForIndex;
 
         foreach (Button icon in iconButtons)
@@ -30,6 +33,13 @@ public class AttributesInfoPanel : SimpleUIPanelMobiles, ISnapperPanel
             icon.onClick.AddListener(() => snapper.SnapToPanelFromButton(index));
         }
         InitializeCategory(0);
+
+        void CastSnappedElements()
+        {
+            List<ISnappedElement> snappedElements = snapperElementsList.Cast<ISnappedElement>().ToList();
+
+            snapper.InitPanels(snappedElements);
+        }
     }
 
     public void InitializeCategory(int index)
@@ -43,10 +53,16 @@ public class AttributesInfoPanel : SimpleUIPanelMobiles, ISnapperPanel
     }
     public void ResizeSnappedPanel()
     {
-        foreach (RectTransform classData in snapperPanelsList)
+        foreach (UIElementSnapper classData in snapperElementsList)
         {
-            classData.sizeDelta =
-                new Vector2(viewportRect.rect.width, classData.sizeDelta.y);
+            classData.GetRectTransform().sizeDelta =
+                new Vector2(viewportRect.rect.width, classData.GetRectTransform().sizeDelta.y);
         }
+    }
+
+    public override void DisablePanel()
+    {
+        snapper.ResetAllScrolls();
+        base.DisablePanel();     
     }
 }

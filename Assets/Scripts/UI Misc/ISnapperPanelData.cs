@@ -9,8 +9,10 @@ public interface ISnapperPanelData
     public Color GetMiniatureIconColor();
 }
 
-public interface ISnapperPanel
+public interface ISnappedElement
 {
-    public void ResizeSnappedPanel();
+    public RectTransform GetRectTransform();
+    public RectTransform GetContentTransform();
+    public void ResetRectScroll();
 }
 

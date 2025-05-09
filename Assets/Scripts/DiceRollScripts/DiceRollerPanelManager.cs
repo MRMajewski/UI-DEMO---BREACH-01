@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
+using System.Linq;
 
-public class DiceRollerPanelManager : SimpleUIPanelMobiles, ISnapperPanel
+public class DiceRollerPanelManager : SimpleUIPanelMobiles
 {
     [SerializeField]
     private List<CanvasGroup> diceRollerPanels;
@@ -28,6 +29,12 @@ public class DiceRollerPanelManager : SimpleUIPanelMobiles, ISnapperPanel
     [SerializeField]
     protected List<RectTransform> snapperPanelsList;
 
+
+
+    [SerializeField]
+    protected List<DiceRollerBasePanel> diceRollerSnappedPanels;
+
+
     public override void DisablePanel()
     {
         panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).
@@ -36,6 +43,7 @@ public class DiceRollerPanelManager : SimpleUIPanelMobiles, ISnapperPanel
 
     public override void InitializePanel()
     {
+        CastSnappedElements();
 
         snapper.OnPanelChanged += iconChanger.SetAlphaForIndex;
 
@@ -45,6 +53,15 @@ public class DiceRollerPanelManager : SimpleUIPanelMobiles, ISnapperPanel
             icon.onClick.AddListener(() => snapper.SnapToPanelFromButton(index));
         }
         InitializeCategory(0);
+
+        CastSnappedElements();
+
+        void CastSnappedElements()
+        {
+            List<ISnappedElement> snappedElements = diceRollerSnappedPanels.Cast<ISnappedElement>().ToList();
+
+            snapper.InitPanels(snappedElements);
+        }
     }
 
     public void ShowPanel(CanvasGroup panelToShow)

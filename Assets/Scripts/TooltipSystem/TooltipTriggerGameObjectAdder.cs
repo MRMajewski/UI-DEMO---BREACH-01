@@ -114,7 +114,7 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
         string[] triggerWords = triggerName.Split(' ');
 
 
-        Debug.Log("trigger Words" + triggerWords);
+       // Debug.Log("trigger Words" + triggerWords);
         textMeshProText.ForceMeshUpdate();
         for (int i = 0; i < textMeshProText.textInfo.wordCount; i++)
         {

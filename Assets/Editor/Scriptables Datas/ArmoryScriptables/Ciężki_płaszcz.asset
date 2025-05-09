@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: "Ci\u0119\u017Cki p\u0142aszcz"
   icon: {fileID: 21300000, guid: 188c5415e2dc3894aa475b9f0c112ebe, type: 3}
-  description: "Klasyczny, d\u0142ugi, ci\u0119\u017Cki wzmocniony prochowiec. \n
-    Redukcja obra\u017Ce\u0144: \n-Fizyczne - 8 \n -Energetyczne - 8 \n -Pozosta\u0142e
-    - 0"
+  description: "Klasyczny, d\u0142ugi, ci\u0119\u017Cki wzmocniony prochowiec. \nRedukcja
+    obra\u017Ce\u0144: \n-Fizyczne - 8 \n-Energetyczne - 8 \n-Pozosta\u0142e - 0"
   categories: 0100000005000000

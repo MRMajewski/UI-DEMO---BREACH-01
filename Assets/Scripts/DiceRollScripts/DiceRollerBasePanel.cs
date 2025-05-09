@@ -1,9 +1,10 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class DiceRollerBasePanel : MonoBehaviour
+public class DiceRollerBasePanel : MonoBehaviour, ISnappedElement
 {
     [SerializeField] protected TMP_InputField diceInputField;
     [SerializeField] protected DiceType diceType;
@@ -11,6 +12,11 @@ public class DiceRollerBasePanel : MonoBehaviour
     [SerializeField] protected TMP_Dropdown modeDropdown;
     [SerializeField] protected TextMeshProUGUI resultText;
 
+    [SerializeField]
+    private RectTransform rectTransform;
+
+    [SerializeField]
+    private RectTransform content;
 
     protected int diceAmount=1; 
     protected int modifierValue = 0;
@@ -242,5 +248,20 @@ public class DiceRollerBasePanel : MonoBehaviour
             modifierInputField.text = "0";
         }
         modifierValue = ParseInput(modifierInputField.text);
+    }
+    public RectTransform GetContentTransform()
+    {
+        return content;
+    }
+
+    public RectTransform GetRectTransform()
+    {
+        return rectTransform;
+    }
+
+    public void ResetRectScroll()
+    {
+    //    Vector2 targetPosition = new Vector2(content.anchoredPosition.x, 0f);
+     //   content.DOAnchorPos(targetPosition, 0.3f).SetEase(Ease.InOutSine).SetUpdate(true);
     }
 }

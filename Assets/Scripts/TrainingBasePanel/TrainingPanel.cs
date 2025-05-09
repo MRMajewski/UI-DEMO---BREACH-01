@@ -1,7 +1,6 @@
 using DG.Tweening;
-using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,6 +21,24 @@ public class TrainingPanel : AttributesInfoPanel
 
     [SerializeField]
     private List<TrainingSectionPanel> trainingSectionPanels = new List<TrainingSectionPanel>();
+    public override void InitializePanel()
+    {
+        CastSnappedElements();
+
+        foreach (Button icon in iconButtons)
+        {
+            int index = iconButtons.IndexOf(icon);
+            icon.onClick.AddListener(() => snapper.SnapToPanelFromButton(index));
+        }
+        InitializeCategory(0);
+
+        void CastSnappedElements()
+        {
+            List<ISnappedElement> snappedElements = trainingSectionPanels.Cast<ISnappedElement>().ToList();
+
+            snapper.InitPanels(snappedElements);
+        }
+    }
 
     public override void EnablePanel()
     {
@@ -40,19 +57,13 @@ public class TrainingPanel : AttributesInfoPanel
         }
     }
 
-    private void Start()
-    {
-        InitializeCategory(0);
-    }
-
     public override void DisablePanel()
     {
         base.DisablePanel();
         snapper.OnPanelChanged -= trainingsIconChanger.SetAlphaForIndex;
     }
 
-    [ContextMenu("BUILD TRAININGS MENU")]
-    public void InitailizeTrainingPanelDatabase()
+    public void InitializeTrainingPanelDatabase()
     {
         DestroyPreviousNodes();
       
@@ -70,20 +81,19 @@ public class TrainingPanel : AttributesInfoPanel
 
             newElement.InitializeTrainingSection(sectionData);
             trainingSectionPanels.Add(newElement);
-            snapperPanelsList.Add(newElement.GetComponent<RectTransform>());
-
             tooltipTriggerAdders.AddRange(newElement.TriggerGameObjectAdder);
         }
         exampleTrainingSectionPanel.gameObject.SetActive(false);
 
-        snapper.InitPanels(trainingSectionPanels);
+        List<ISnappedElement> snappedElements = trainingSectionPanels.Cast<ISnappedElement>().ToList();
+        snapper.InitPanels(snappedElements);
+
         trainingsIconChanger.CreateIcons(trainingBaseData);
 
         for (int i = 0; i < trainingsIconChanger.IconList.Count; i++)
         {
             iconButtons.Add(trainingsIconChanger.IconList[i].GetComponent<Button>());
         }
-
 
         void DestroyPreviousNodes()
         {
@@ -94,9 +104,6 @@ public class TrainingPanel : AttributesInfoPanel
             }
             trainingSectionPanels.Clear();
             trainingSectionPanels.TrimExcess();
-
-            snapperPanelsList.Clear();
-            snapperPanelsList.TrimExcess();
         }
     }
 }

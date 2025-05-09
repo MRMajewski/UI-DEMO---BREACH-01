@@ -15,6 +15,6 @@ MonoBehaviour:
   itemName: Pistolet Maszynowy <i>Lis</i>
   icon: {fileID: 21300000, guid: 9c812121ee5fec34587639134d980111, type: 3}
   description: "Pistolet maszynowy przeznaczony do walki na kr\xF3tkim dystansie.
-    \n Obra\u017Cenia przebijaj\u0105ce 2k6+U \n Zasi\u0119g bliski \n Seria, Lekki,
+    \nObra\u017Cenia przebijaj\u0105ce 2k6+U \nZasi\u0119g bliski \nSeria, Lekki,
     Amunicja 20 "
   categories: 00000000030000000900000006000000
