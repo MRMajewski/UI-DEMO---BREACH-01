@@ -76,19 +76,19 @@ MonoBehaviour:
   - level: 3
     skills: "Specjalizacja/Odbicie pocisk\xF3w"
     proficiencyBonus: 2
-    skillsDescription: "Opis umiej\u0119tno\u015Bci specjalizacji poni\u017Cej w
-      opisie podklas\n\n\n<b>ODBICIE POCISK\xD3W</b>\r\nZaczynaj\u0105c od 3. poziomu,
-      mo\u017Cesz u\u017Cy\u0107 swojej reakcji, aby odbi\u0107 lub z\u0142apa\u0107
-      pocisk, gdy zostaniesz trafiony przez atak z broni dystansowej. Kiedy to robisz,
-      obra\u017Cenia, kt\xF3re otrzymujesz od ataku, zostan\u0105 zredukowane o 1k10
-      + tw\xF3j modyfikator Zr\u0119czno\u015Bci + tw\xF3j poziom adepta.\nJe\u015Bli
-      zredukujesz obra\u017Cenia do 0, mo\u017Cesz z\u0142apa\u0107 pocisk, je\u015Bli
-      jest wystarczaj\u0105co ma\u0142y, by\u015B m\xF3g\u0142 go trzyma\u0107 w
-      jednej r\u0119ce i masz przynajmniej jedn\u0105 woln\u0105 r\u0119k\u0119.
-      Je\u015Bli z\u0142apiesz pocisk w ten spos\xF3b, mo\u017Cesz wyda\u0107 1 punkt
-      ki, by wykona\u0107 atak dystansowy (zasi\u0119g do 12m) z broni\u0105 lub
-      amunicj\u0105, kt\xF3r\u0105 w\u0142a\u015Bnie z\u0142apa\u0142e\u015B, jako
-      cz\u0119\u015B\u0107 tej samej reakcji. Ten atak wykonujesz z bieg\u0142o\u015Bci\u0105,
+    skillsDescription: "Szczeg\xF3\u0142y umiej\u0119tno\u015Bci specjalizacji znajduj\u0105
+      si\u0119 w opisie podklas poni\u017Cej.\n\n\n<b>ODBICIE POCISK\xD3W</b>\r\nZaczynaj\u0105c
+      od 3. poziomu, mo\u017Cesz u\u017Cy\u0107 swojej reakcji, aby odbi\u0107 lub
+      z\u0142apa\u0107 pocisk, gdy zostaniesz trafiony przez atak z broni dystansowej.
+      Kiedy to robisz, obra\u017Cenia, kt\xF3re otrzymujesz od ataku, zostan\u0105
+      zredukowane o 1k10 + tw\xF3j modyfikator Zr\u0119czno\u015Bci + tw\xF3j poziom
+      adepta.\nJe\u015Bli zredukujesz obra\u017Cenia do 0, mo\u017Cesz z\u0142apa\u0107
+      pocisk, je\u015Bli jest wystarczaj\u0105co ma\u0142y, by\u015B m\xF3g\u0142
+      go trzyma\u0107 w jednej r\u0119ce i masz przynajmniej jedn\u0105 woln\u0105
+      r\u0119k\u0119. Je\u015Bli z\u0142apiesz pocisk w ten spos\xF3b, mo\u017Cesz
+      wyda\u0107 1 punkt ki, by wykona\u0107 atak dystansowy (zasi\u0119g do 12m)
+      z broni\u0105 lub amunicj\u0105, kt\xF3r\u0105 w\u0142a\u015Bnie z\u0142apa\u0142e\u015B,
+      jako cz\u0119\u015B\u0107 tej samej reakcji. Ten atak wykonujesz z bieg\u0142o\u015Bci\u0105,
       niezale\u017Cnie od swoich bieg\u0142o\u015Bci w broni, a pocisk liczy si\u0119
       jako bro\u0144 mnicha dla tego ataku. "
   subClassesTable:

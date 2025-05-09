@@ -4,17 +4,8 @@ using UnityEngine;
 
 public class IntroInfoPanel : SimpleUIPanelMobiles
 {
-
-
-
-    
+ 
     public override void InitializePanel()
     {
-      //  ProcessTooltipTriggers();
     }
-
-
-
-
-
 }

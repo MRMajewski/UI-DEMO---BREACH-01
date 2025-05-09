@@ -60,8 +60,9 @@ MonoBehaviour:
   - level: 3
     skills: 'Specjalizacja 2F/3S/ 4-1p '
     proficiencyBonus: 2
-    skillsDescription: "Opis poni\u017Cej w opisie podklas\n\n<b>2F/2S/ 3-1p</b>\nPosiadasz
-      znane 2 Formu\u0142y , 3 Sekwencje, \nTwoje jednostki: 4 x 1 poziom"
+    skillsDescription: "Szczeg\xF3\u0142y umiej\u0119tno\u015Bci specjalizacji znajduj\u0105
+      si\u0119 w opisie podklas poni\u017Cej.\n\n<b>2F/2S/ 3-1p</b>\nPosiadasz znane
+      2 Formu\u0142y , 3 Sekwencje, \nTwoje jednostki: 4 x 1 poziom"
   subClassesTable:
   - subClassName: GRAWITURGIA
     subClassDescription: "<b>Ekspert w kontroli si\u0142 przyci\u0105gania. Mo\u017Ce

@@ -33,7 +33,6 @@ public class WelcomingUIPanel : SimpleUIPanelMobiles
         panelsCanvasGroup.DOFade(1, blinkDuration).SetEase(Ease.InOutSine);
 
         AnimateOpeningText();
-
     }
     private void AnimateOpeningText()
     {

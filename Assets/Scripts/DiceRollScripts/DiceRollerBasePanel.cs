@@ -18,6 +18,10 @@ public class DiceRollerBasePanel : MonoBehaviour, ISnappedElement
     [SerializeField]
     private RectTransform content;
 
+    [SerializeField]
+    private RectTransform viewportRectTransform;
+
+
     protected int diceAmount=1; 
     protected int modifierValue = 0;
     protected int diceRange;
@@ -258,10 +262,15 @@ public class DiceRollerBasePanel : MonoBehaviour, ISnappedElement
     {
         return rectTransform;
     }
+    public RectTransform GetViewportTransform()
+    {
+        return viewportRectTransform;
+    }
 
     public void ResetRectScroll()
     {
     //    Vector2 targetPosition = new Vector2(content.anchoredPosition.x, 0f);
      //   content.DOAnchorPos(targetPosition, 0.3f).SetEase(Ease.InOutSine).SetUpdate(true);
     }
+
 }

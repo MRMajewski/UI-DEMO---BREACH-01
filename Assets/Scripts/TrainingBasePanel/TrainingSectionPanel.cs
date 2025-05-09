@@ -34,6 +34,8 @@ public class TrainingSectionPanel : MonoBehaviour, ISnappedElement
     protected UIScrollViewFitter uIScrollViewFitter;
 
     [SerializeField]
+    private RectTransform viewportRectTransform;
+    [SerializeField]
     private RectTransform rectTransform;
     [SerializeField]
     private RectTransform content;
@@ -98,6 +100,11 @@ public class TrainingSectionPanel : MonoBehaviour, ISnappedElement
     {
         Vector2 targetPosition = new Vector2(content.anchoredPosition.x, 0f);
         content.DOAnchorPos(targetPosition, 0.3f).SetEase(Ease.InOutSine).SetUpdate(true);
+    }
+
+    public RectTransform GetViewportTransform()
+    {
+        return viewportRectTransform;
     }
 }
 

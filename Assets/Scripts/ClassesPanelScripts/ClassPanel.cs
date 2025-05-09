@@ -25,7 +25,6 @@ public class ClassPanel : SimpleUIPanelMobiles
     [SerializeField]
     private MiniatureClassIconsChanger classIconChanger;
 
-
     public override void InitializePanel()
     {
         CastSnappedElements();
@@ -64,21 +63,6 @@ public class ClassPanel : SimpleUIPanelMobiles
         classDataElementPrefab.gameObject.SetActive(false);
 
         classIconChanger.CreateIcons(ClassesDataBase);
-    }
-
-    public void ResizeSnappedPanel()
-    {
-        Debug.Log(viewportRect.rect.width);
-
-        foreach (ClassDataElementUI classData in classesDataElementsUIList)
-        {
-            classData.GetComponent<RectTransform>().sizeDelta =
-                new Vector2(viewportRect.rect.width, classDataElementPrefab.GetComponent<RectTransform>().sizeDelta.y);
-        }
-    }
-    private void OnEnable()
-    {
-        ResizeSnappedPanel();
     }
 
     private void Start()

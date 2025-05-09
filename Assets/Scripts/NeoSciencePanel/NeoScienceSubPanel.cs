@@ -28,6 +28,8 @@ public class NeoScienceSubPanel : MonoBehaviour, ISnappedElement
 
     [SerializeField]
     private RectTransform content;
+    [SerializeField]
+    private RectTransform viewportRectTransform;
 
     public void Setup<T>(List<T> spellList) where T : SpellData
     {
@@ -144,5 +146,10 @@ public class NeoScienceSubPanel : MonoBehaviour, ISnappedElement
     {
         Vector2 targetPosition = new Vector2(content.anchoredPosition.x, 0f);
         content.DOAnchorPos(targetPosition, 0.3f).SetEase(Ease.InOutSine).SetUpdate(true); 
+    }
+
+    public RectTransform GetViewportTransform()
+    {
+        return viewportRectTransform;
     }
 }

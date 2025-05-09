@@ -135,6 +135,17 @@ public class UIElementsSnapper : MonoBehaviour
         {
             snappedElements.Add(item);
         }
+
+        ResizeSnappedPanel();
+    }
+
+    public  void ResizeSnappedPanel()
+    {
+        foreach (ISnappedElement snappedElement in snappedElements)
+        {
+            snappedElement.GetRectTransform().sizeDelta =
+                new Vector2(snappedElement.GetViewportTransform().rect.width, snappedElement.GetRectTransform().sizeDelta.y);
+        }
     }
 
     public void ResetAllScrolls()

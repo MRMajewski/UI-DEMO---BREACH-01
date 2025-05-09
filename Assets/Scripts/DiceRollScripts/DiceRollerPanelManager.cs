@@ -29,11 +29,8 @@ public class DiceRollerPanelManager : SimpleUIPanelMobiles
     [SerializeField]
     protected List<RectTransform> snapperPanelsList;
 
-
-
     [SerializeField]
     protected List<DiceRollerBasePanel> diceRollerSnappedPanels;
-
 
     public override void DisablePanel()
     {

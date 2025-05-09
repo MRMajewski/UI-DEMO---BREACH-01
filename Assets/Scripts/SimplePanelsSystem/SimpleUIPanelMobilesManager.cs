@@ -105,17 +105,12 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
             yield return new WaitForEndOfFrame();
         
             simplePanel.simplePanel.InitializePanel();
+            yield return new WaitForEndOfFrame();
             simplePanel.simplePanel.InitializePanelData();
 
             yield return new WaitForEndOfFrame();
-            //if (simplePanel.simplePanel == firstPanel)
-            //{
-            //    simplePanel.simplePanel.EnablePanel();
-            //}
-            //else
-            //{
+
             simplePanel.simplePanel.DisablePanel();
-           // }
         }
         isTransitioning = false;
     }

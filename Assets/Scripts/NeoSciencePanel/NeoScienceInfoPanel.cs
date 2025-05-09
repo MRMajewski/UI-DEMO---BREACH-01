@@ -28,6 +28,7 @@ public class NeoScienceInfoPanel : AttributesInfoPanel
             int index = iconButtons.IndexOf(icon);
             icon.onClick.AddListener(() => snapper.SnapToPanelFromButton(index));
         }
+
         InitializeCategory(0);
 
         void CastSnappedElements()

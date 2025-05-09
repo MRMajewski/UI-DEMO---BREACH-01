@@ -47,19 +47,6 @@ public class AttributesInfoPanel : SimpleUIPanelMobiles
         iconButtons[index].onClick.Invoke();
     }
 
-    protected void OnEnable()
-    {
-        ResizeSnappedPanel();
-    }
-    public void ResizeSnappedPanel()
-    {
-        foreach (UIElementSnapper classData in snapperElementsList)
-        {
-            classData.GetRectTransform().sizeDelta =
-                new Vector2(viewportRect.rect.width, classData.GetRectTransform().sizeDelta.y);
-        }
-    }
-
     public override void DisablePanel()
     {
         snapper.ResetAllScrolls();

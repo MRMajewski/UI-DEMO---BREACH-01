@@ -47,7 +47,8 @@ MonoBehaviour:
   - level: 3
     skills: "Umiej\u0119tno\u015B\u0107 Podklasy"
     proficiencyBonus: 2
-    skillsDescription: "Opis poni\u017Cej w opisie podklas"
+    skillsDescription: "Szczeg\xF3\u0142y umiej\u0119tno\u015Bci specjalizacji znajduj\u0105
+      si\u0119 w opisie podklas poni\u017Cej."
   subClassesTable:
   - subClassName: Pirotechnik
     subClassDescription: "<b>Ekspert od kontrolowanych eksplozji. Cho\u0107 definicj\u0119

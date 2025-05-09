@@ -38,17 +38,6 @@ public class KnowledgePanel : SimpleUIPanelMobiles
     [SerializeField]
     private Button ExpandAllButton;
 
-    //public override void initializepanel()
-    //{
-    //    buildknowledgebase();
-    //}
-
-    //public override void InitializePanelData()
-    //{
-    //    BuildKnowledgeBase();
-    //    ProcessTooltipTriggers();
-    //}
-
     public override void DisablePanel()
     {
         this.gameObject.SetActive(false);

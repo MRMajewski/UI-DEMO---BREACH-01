@@ -45,8 +45,6 @@ public class TrainingPanel : AttributesInfoPanel
         this.gameObject.SetActive(true);
         panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
 
-        ResizeSnappedPanel();
-
         snapper.OnPanelChanged += trainingsIconChanger.SetAlphaForIndex;
         trainingsIconChanger.SetAlphaForIndex(0);
 

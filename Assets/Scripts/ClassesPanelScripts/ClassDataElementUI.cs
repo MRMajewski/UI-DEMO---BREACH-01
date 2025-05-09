@@ -44,6 +44,8 @@ public class ClassDataElementUI : MonoBehaviour, ISnappedElement
 
     [SerializeField]
     private RectTransform content;
+    [SerializeField]
+    private RectTransform viewportRectTransform;
 
     public RectTransform GetContentTransform()
     {
@@ -54,7 +56,10 @@ public class ClassDataElementUI : MonoBehaviour, ISnappedElement
     {
         return rectTransform;
     }
-
+    public RectTransform GetViewportTransform()
+    {
+        return viewportRectTransform;
+    }
     public void ResetRectScroll()
     {
         Vector2 targetPosition = new Vector2(content.anchoredPosition.x, 0f);
@@ -116,4 +121,6 @@ public class ClassDataElementUI : MonoBehaviour, ISnappedElement
         }
         subClassDetailsPrefab.gameObject.SetActive(false);
     }
+
+
 }

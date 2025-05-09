@@ -11,6 +11,7 @@ public interface ISnapperPanelData
 
 public interface ISnappedElement
 {
+    public RectTransform GetViewportTransform();
     public RectTransform GetRectTransform();
     public RectTransform GetContentTransform();
     public void ResetRectScroll();

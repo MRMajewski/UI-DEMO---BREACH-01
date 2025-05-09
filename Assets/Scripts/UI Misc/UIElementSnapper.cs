@@ -7,6 +7,10 @@ using UnityEngine;
 public class UIElementSnapper : MonoBehaviour, ISnappedElement
 {
     [SerializeField]
+    private RectTransform viewportRect;
+
+
+    [SerializeField]
     private RectTransform rectTransform;
 
     [SerializeField]
@@ -21,6 +25,11 @@ public class UIElementSnapper : MonoBehaviour, ISnappedElement
     public RectTransform GetRectTransform()
     {
         return rectTransform;
+    }
+
+    public RectTransform GetViewportTransform()
+    {
+        return viewportRect;
     }
 
     public void ResetRectScroll()
