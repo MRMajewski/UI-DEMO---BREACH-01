@@ -13,8 +13,6 @@ MonoBehaviour:
   m_Name: Burst_A_Tooltip 1
   m_EditorClassIdentifier: 
   triggerName: Seria
-  tooltipText: "Mo\u017Ce strzela\u0107 w jeden cel lub ostrzela\u0107 obszar 3\xD73
-    m w zasi\u0119gu, zu\u017Cywaj\u0105c 10 naboj\xF3w. Wrogowie w obszarze wykonuj\u0105
-    rzut obronny na Zr\u0119czno\u015B\u0107 (ST: 8 + wyszkolenie + Zr\u0119czno\u015B\u0107)."
+  tooltipText: "Bro\u0144 strzela seriami zu\u017Cywaj\u0105c przy strzale 3 pociski"
   tooltipType: 0
   actionName: 

@@ -69,6 +69,8 @@ public class DiceRollerDamagePanel : DiceRollerBasePanel
         totalRoll += modifier;
 
         resultText.text = $"<size=200%>{totalRoll}</size><br> (Rzuty: {rollDetails}) + {modifier}";
+
+        RollDiceAnimation();
     }
 
     public void IncreaseDiceAmount()

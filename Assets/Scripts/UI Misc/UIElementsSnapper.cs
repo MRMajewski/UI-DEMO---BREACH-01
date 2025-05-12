@@ -22,7 +22,7 @@ public class UIElementsSnapper : MonoBehaviour
 
     private void Start()
     {
-        swipeThreshold = Screen.width * 0.15f;
+        swipeThreshold = Screen.width * 0.2f;
     }
 
     private void Update()
@@ -101,10 +101,10 @@ public class UIElementsSnapper : MonoBehaviour
     {
         float dragDistance = endPosition.x - touchStartPosition.x;
 
-        snappedElements[currentPanelIndex].ResetRectScroll();
-
         if (Mathf.Abs(dragDistance) > swipeThreshold)
         {
+            snappedElements[currentPanelIndex].ResetRectScroll();
+
             if (dragDistance < 0)
             {
                 currentPanelIndex = (currentPanelIndex + 1) % snappedElements.Count; 

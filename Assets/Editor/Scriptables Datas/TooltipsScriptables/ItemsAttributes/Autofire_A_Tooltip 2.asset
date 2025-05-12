@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebd5feaaf2b2f746a1fb73a78c9f72c, type: 3}
+  m_Name: Autofire_A_Tooltip 2
+  m_EditorClassIdentifier: 
+  triggerName: Automat
+  tooltipText: "Mo\u017Ce strzela\u0107 w jeden cel lub ostrzela\u0107 obszar 3\xD73
+    m w zasi\u0119gu, zu\u017Cywaj\u0105c 10 naboj\xF3w. Wrogowie w obszarze wykonuj\u0105
+    rzut obronny na Zr\u0119czno\u015B\u0107 (ST: 8 + wyszkolenie + Zr\u0119czno\u015B\u0107)."
+  tooltipType: 0
+  actionName: 

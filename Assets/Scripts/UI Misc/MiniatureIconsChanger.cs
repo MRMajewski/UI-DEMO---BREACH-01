@@ -9,6 +9,13 @@ public class MiniatureIconsChanger : MonoBehaviour
 
     public List<Image> IconList { get => iconList; }
 
+
+    [SerializeField]
+    protected List<Color> iconColorsList;
+    public List<Color> IconColorsList { get => iconColorsList; }
+
+    [SerializeField]
+    protected Color defaultColor;
     [SerializeField]
     protected UIElementsSnapper snapper;
 
@@ -18,6 +25,21 @@ public class MiniatureIconsChanger : MonoBehaviour
     [SerializeField]
     protected Transform iconsParent;
 
+    //public void SetAlphaForIndex(int index)
+    //{
+    //    if (index < 0 || index >= iconList.Count)
+    //    {
+    //        Debug.LogWarning("Index out of bounds");
+    //        return;
+    //    }
+
+    //    for (int i = 0; i < iconList.Count; i++)
+    //    {
+    //        Color color = iconList[i].color;
+    //        color.a = (i == index) ? 1f : 0.5f;
+    //        iconList[i].color = color;
+    //    }
+    //}
     public void SetAlphaForIndex(int index)
     {
         if (index < 0 || index >= iconList.Count)
@@ -28,9 +50,19 @@ public class MiniatureIconsChanger : MonoBehaviour
 
         for (int i = 0; i < iconList.Count; i++)
         {
-            Color color = iconList[i].color;
-            color.a = (i == index) ? 1f : 0.5f;
-            iconList[i].color = color;
+            if (i == index)
+            {
+                Color color = iconColorsList[i];
+                color.a = 1f;
+                iconList[i].color = color;
+            }
+            else
+            {
+                // Pó³przezroczysty + defaultColor
+                Color color = defaultColor;
+                color.a = 0.5f;
+                iconList[i].color = color;
+            }
         }
     }
 

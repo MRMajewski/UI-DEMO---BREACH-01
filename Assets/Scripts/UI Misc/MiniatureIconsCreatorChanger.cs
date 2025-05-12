@@ -27,6 +27,7 @@ public abstract class MiniatureIconsCreatorChanger : MiniatureIconsChanger
 
             newIcon.name = "Icon " + iconList.Count;
             iconList.Add(iconImage);
+            iconColorsList.Add(iconImage.color);
         }
         iconExample.gameObject.SetActive(false);
         AddOnClickMethodsToIcons();
@@ -39,6 +40,8 @@ public abstract class MiniatureIconsCreatorChanger : MiniatureIconsChanger
             }
             iconList.Clear();
             iconList.TrimExcess();
+            iconColorsList.Clear();
+            iconColorsList.TrimExcess();
         }
     }
 

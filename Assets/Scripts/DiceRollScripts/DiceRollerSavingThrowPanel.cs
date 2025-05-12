@@ -67,5 +67,7 @@ public class DiceRollerSavingThrowPanel : DiceRollerBasePanel
         totalRoll = totalRoll+modifier + GetProficiencyBonus();
 
         resultText.text = $"<size=200%>{totalRoll}</size><br>(Rzuty: {rollDetails}) + {GetProficiencyBonus()} + {modifier}";
+
+        RollDiceAnimation();
     }
 }

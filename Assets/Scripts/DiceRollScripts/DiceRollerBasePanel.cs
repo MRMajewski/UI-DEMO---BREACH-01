@@ -21,10 +21,18 @@ public class DiceRollerBasePanel : MonoBehaviour, ISnappedElement
     [SerializeField]
     private RectTransform viewportRectTransform;
 
+    [SerializeField]
+    private float tweenTime = 0.15f;
+    [SerializeField]
+    private float scaleValue = 1.15f;
+    [SerializeField]
+    private Ease easeTypeScale;
 
     protected int diceAmount=1; 
     protected int modifierValue = 0;
     protected int diceRange;
+
+    protected Sequence resultsSeq;
 
     public enum DamageRollMode
     {
@@ -130,9 +138,21 @@ public class DiceRollerBasePanel : MonoBehaviour, ISnappedElement
         }
         totalRoll = totalRoll + modifierValue;
         resultText.text = $"Wynik ({currentMode}): {totalRoll}";
+
+        RollDiceAnimation();
+   
     }
 
+    protected void RollDiceAnimation()
+    {
+        if (resultsSeq != null) resultsSeq.Kill();
 
+        resultsSeq = DOTween.Sequence();
+        resultsSeq
+        .Append(resultText.transform.DOScale(scaleValue, tweenTime).SetEase(easeTypeScale))
+         .AppendInterval(tweenTime/2)
+          .Append(resultText.transform.DOScale(1f, tweenTime).SetEase(easeTypeScale));
+    }
     protected virtual int RollNormal(int diceCount)
     {
         int total = 0;

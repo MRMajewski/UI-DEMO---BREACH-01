@@ -41,5 +41,7 @@ public class DiceRollerMiscPanel : DiceRollerBasePanel
         totalRoll += modifier;
 
         resultText.text = $"<size=200%>{totalRoll}</size><br>(Rzuty: {rollDetails}) + {modifier}";
+
+        RollDiceAnimation();
     }
 }
