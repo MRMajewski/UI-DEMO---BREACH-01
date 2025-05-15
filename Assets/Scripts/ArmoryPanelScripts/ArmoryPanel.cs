@@ -106,6 +106,10 @@ public class ArmoryPanel : SimpleUIPanelMobiles
         }
         itemUIPrefab.gameObject.SetActive(false);
 
+
+        if(currentItems.Count > 0)
+            currentItems[0].button.onClick.Invoke();
+
         LayoutRebuilder.ForceRebuildLayoutImmediate(filterUIRectTransform.GetComponent<RectTransform>());
 
         AdjustScrollRect();

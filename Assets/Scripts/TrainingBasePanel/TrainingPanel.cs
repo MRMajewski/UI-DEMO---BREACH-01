@@ -46,7 +46,6 @@ public class TrainingPanel : AttributesInfoPanel
         panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
 
         snapper.OnPanelChanged += trainingsIconChanger.SetAlphaForIndex;
-        trainingsIconChanger.SetAlphaForIndex(0);
 
         foreach (Button icon in iconButtons)
         {

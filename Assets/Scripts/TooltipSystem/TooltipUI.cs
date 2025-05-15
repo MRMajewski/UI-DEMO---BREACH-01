@@ -34,6 +34,7 @@ public class TooltipUI : MonoBehaviour
         if (buttonAction!=null)
         {
             actionButton.gameObject.SetActive(true);
+            actionButton.onClick.RemoveAllListeners();
             actionButton.onClick.AddListener(buttonAction);
         }
         else
@@ -47,9 +48,4 @@ public class TooltipUI : MonoBehaviour
         LayoutRebuilder.ForceRebuildLayoutImmediate(tooltipText.GetComponent<RectTransform>());
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
     }
-
-    //public void HandleTooltipExit()
-    //{
-    //    TooltipManager.Instance.HideTooltip();
-    //}
 }

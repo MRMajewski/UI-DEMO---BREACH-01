@@ -22,8 +22,6 @@ public class ClassData : ScriptableObject, ISnapperPanelData
     public Sprite classIcon;
 
     public Color classColor;
-    //[TextArea(1, 10)]
-    //public string[] subclasses;
 
     [Header("Ability Infos")]
     public List<LevelUpTable> levelUpTable;
