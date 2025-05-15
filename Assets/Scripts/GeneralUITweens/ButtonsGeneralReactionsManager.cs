@@ -132,7 +132,6 @@ public class ButtonsGeneralReactionsManager :  MonoBehaviour
         }
     }
 
-
     public void ScaleDown(Transform buttonTransform)
     {
         buttonTransform.DOScale(normalSize, tweenTime).SetEase(easeTypeScale);

@@ -5,10 +5,6 @@ using UnityEngine.UI;
 
 public class SpellUIElement : ItemElementUI
 {
-    //public Image icon;
-    //public TextMeshProUGUI nameText;
-    //public Button button;
-
     private ItemData itemData;
 
     [SerializeField]

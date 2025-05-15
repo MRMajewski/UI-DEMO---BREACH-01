@@ -157,7 +157,6 @@ public class UIElementsSnapper : MonoBehaviour
             element.ResetRectScroll();
         }
     }
-
     public void SnapToPanelFromButton(int panelIndex)
     {
         snappedElements[currentPanelIndex].ResetRectScroll();

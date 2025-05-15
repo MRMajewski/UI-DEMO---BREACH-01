@@ -7,7 +7,6 @@ using static ButtonsGeneralReactionsManager;
 
 public class ButtonsGeneralReactions : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerEnterHandler, IPointerExitHandler
 {
-
     [SerializeField]
     protected ButtonAnimationType animationType;
 

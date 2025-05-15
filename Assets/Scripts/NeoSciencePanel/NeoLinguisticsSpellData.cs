@@ -10,6 +10,6 @@ public class NeoLinguisticsSpellData : SpellData
     public string spellRange;
     private void OnEnable()
     {
-        neoScienceCategory = NeoScienceCategory.Neolinguistics; // Przypisz odpowiedni¹ wartoœæ
+        neoScienceCategory = NeoScienceCategory.Neolinguistics; 
     }
 }

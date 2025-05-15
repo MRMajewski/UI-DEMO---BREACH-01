@@ -14,14 +14,11 @@ public class NumericInputHandler : MonoBehaviour
         {
             inputField = GetComponent<TMP_InputField>();
         }
-
-        // Otwórz klawiaturê numeryczn¹ po klikniêciu na InputField
         inputField.onSelect.AddListener(OpenNumericKeyboard);
     }
 
     private void OpenNumericKeyboard(string text)
     {
         TouchScreenKeyboard.Open("", TouchScreenKeyboardType.NumberPad);
-      //  TouchScreenKeyboard.Open("", TouchScreenKeyboardType.NumberPad);
     }
 }

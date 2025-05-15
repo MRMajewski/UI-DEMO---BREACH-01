@@ -8,8 +8,6 @@ public class TooltipManager : MonoBehaviour
 
     public static TooltipManager Instance;
 
-    // [SerializeField]
-    // private TooltipUI tooltipPrefab;
     [SerializeField]
     private TooltipUI currentTooltip;
     public TooltipUI CurrentTooltip => currentTooltip;
@@ -23,10 +21,6 @@ public class TooltipManager : MonoBehaviour
 
     private RectTransform inspectedRectTransform;
     public RectTransform InspectedRectTransform { get => inspectedRectTransform; set => inspectedRectTransform = value; }
-
-    //[SerializeField]
-    //private TooltipTrigger currentlyInspectedTrigger;
-    //public TooltipTrigger CurrentlyInspectedTrigger { get => currentlyInspectedTrigger; set => currentlyInspectedTrigger = value; }
 
     [Space]
     [Header("Tween related refs")]
@@ -69,33 +63,6 @@ public class TooltipManager : MonoBehaviour
         }
     }
 
-    //internal void CreateCurrentTooltip(TooltipTrigger trigger)
-    //{
-    //    if (IsDuringAnimation) return;
-
-    //    if (tooltipPrefab == null)
-    //    {
-    //        Debug.LogError("Tooltip prefab is not assigned!");
-    //        return;
-    //    }
-    //    TooltipUI tooltipInstance = Instantiate(tooltipPrefab, tooltipsContainer);
-
-    //    tooltipInstance.Trigger = trigger;
-
-    //    currentTooltip = tooltipInstance;
-
-    //    if (currentTooltip == null)
-    //    {
-    //        Debug.LogError("Tooltip prefab does not contain a TooltipUI component!");
-    //        Destroy(tooltipInstance.gameObject);
-    //        return;
-    //    }
-
-    //    RectTransform tooltipRect = tooltipInstance.GetComponent<RectTransform>();
-
-    //    tooltipInstance.gameObject.SetActive(true);
-    //    tooltipsQueque.Add(currentTooltip);
-    //}
     internal void ExecuteAction(string actionName)
     {
         var action = tooltipActions.Find(a => a.actionName == actionName);
@@ -115,34 +82,6 @@ public class TooltipManager : MonoBehaviour
         RepositionToolTip();
         OpenTooltipUI();
     }
-
-    //internal void ShowTooltip()
-    //{
-    //    if (IsDuringAnimation || currentTooltip == null) return;
-
-    //    IsDuringAnimation = true;
-    //    RepositionToolTip();
-
-    //    if (hideSequence != null) hideSequence.Kill();
-    //    if (showSequence != null) showSequence.Kill();
-
-    //    currentTooltip.CanvasGroup.alpha = 0;
-
-    //    showSequence = DOTween.Sequence();
-
-    //    if (tooltipBackground != null)
-    //    {
-    //        showSequence.Append(tooltipBackground.DOFade(1f, tweenSpeed).OnUpdate(() =>
-    //        {
-    //            tooltipBackground.interactable = tooltipBackground.alpha > 0.9f;
-    //            tooltipBackground.blocksRaycasts = tooltipBackground.alpha > 0.9f;
-    //        }));
-    //    }
-
-    //    showSequence.Append(currentTooltip.CanvasGroup.DOFade(1f, tweenSpeed))
-    //        .OnComplete(() => IsDuringAnimation = false)
-    //        .SetUpdate(true);
-    //}
 
     private void OpenTooltipUI()
     {
@@ -239,38 +178,12 @@ public class TooltipManager : MonoBehaviour
         if (IsDuringAnimation) return;
 
         IsDuringAnimation = true;
-      //  tooltipsQueque.Remove(tooltip);
         CloseTooltipUI();
     }
-
-    //internal void HideAllTooltips()
-    //{
-    //    if (IsDuringAnimation || tooltipsQueque.Count == 0)
-    //        return;
-
-    //    IsDuringAnimation = true;
-    //    foreach (TooltipUI tooltip in tooltipsQueque)
-    //    {
-    //        CloseTooltipUI(tooltip);
-    //    }
-    //    tooltipsQueque.Clear();
-    //    tooltipsQueque.TrimExcess();
-
-    //    currentTooltip.gameObject.SetActive(true);
-    //}
 
     private void CloseTooltipUI()
     {
         if (showSequence != null) showSequence.Kill();
-
-        //  if(currentTooltip.Trigger != null)
-        //  currentTooltip.Trigger.IsTriggered = false;
-
-        //backgroundOverlay.gameObject.SetActive(true);
-        //backgroundOverlay.alpha = 0;
-        //backgroundOverlay.blocksRaycasts = true;
-        //backgroundOverlay.interactable = true;
-
 
         hideSequence = DOTween.Sequence();
         hideSequence

@@ -289,8 +289,6 @@ public class DiceRollerBasePanel : MonoBehaviour, ISnappedElement
 
     public void ResetRectScroll()
     {
-    //    Vector2 targetPosition = new Vector2(content.anchoredPosition.x, 0f);
-     //   content.DOAnchorPos(targetPosition, 0.3f).SetEase(Ease.InOutSine).SetUpdate(true);
-    }
 
+    }
 }

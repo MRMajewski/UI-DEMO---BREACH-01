@@ -39,11 +39,6 @@ public class ClassData : ScriptableObject, ISnapperPanelData
             return Color.white;
         return classColor;
     }
-
-    public void ResizeClassDataElement()
-    {
-        throw new System.NotImplementedException();
-    }
 }
 [System.Serializable]
 public struct LevelUpTable

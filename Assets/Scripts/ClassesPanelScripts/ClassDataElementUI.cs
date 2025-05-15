@@ -82,11 +82,6 @@ public class ClassDataElementUI : MonoBehaviour, ISnappedElement
             abilityDescriptions.Add(classesDatabase.GetAbilityDescription(ability));
         }
 
-        //classProficienciesDescriptionText.text = "<size=150%><i><b>Wyszkolenia:</size></i></b><br>" +
-        //    $"<b>Kostka redukcji:</b> {reductionDiceDescription}<br>" +
-        //    $"<b>Rzuty obronne:</b> {savingThrowDescription}<br>" +
-        //    $"<b>Zdolnoœci (dwie do wyboru): </b>{string.Join(" ", abilityDescriptions)}";
-
         classProficienciesDescriptionText.text =
            $"<b>Kostka redukcji:</b> {reductionDiceDescription}<br>" +
            $"<b>Rzuty obronne:</b> {savingThrowDescription}<br>" +

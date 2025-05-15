@@ -53,7 +53,6 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
         {
             string triggerName = trigger.TriggerName;
 
-            // Wyszukaj wszystkie pasuj¹ce frazy lub pojedyncze s³owa w zale¿noœci od wartoœci boola
             var matches = searchIndividualPhrases
                 ? FindWordMatches(triggerName)
                 : FindPhraseMatches(triggerName);
@@ -113,8 +112,6 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
 
         string[] triggerWords = triggerName.Split(' ');
 
-
-       // Debug.Log("trigger Words" + triggerWords);
         textMeshProText.ForceMeshUpdate();
         for (int i = 0; i < textMeshProText.textInfo.wordCount; i++)
         {
@@ -140,7 +137,6 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
         {
             text = text.Replace(word, wordWithTag);
         }
-
         return text;
     }
 

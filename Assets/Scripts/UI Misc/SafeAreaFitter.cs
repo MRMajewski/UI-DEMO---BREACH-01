@@ -9,7 +9,6 @@ public class SafeAreaFitter : MonoBehaviour
 
     void Awake()
     {
-      //  rectTransform = GetComponent<RectTransform>();
         ApplySafeArea();
     }
 
