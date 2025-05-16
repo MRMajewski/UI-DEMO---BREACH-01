@@ -2,6 +2,7 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -29,6 +30,9 @@ public class ArmoryPanel : SimpleUIPanelMobiles
     [SerializeField]
     private RectTransform armoryViewportRectTransform;
 
+    [SerializeField]
+    private TMP_InputField searchInputField;
+
     public override void InitializePanel()
     {
         filterUI.CreateCategoryButtons();
@@ -44,6 +48,8 @@ public class ArmoryPanel : SimpleUIPanelMobiles
         panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
 
         StartCoroutine(UpdateFiltersLayoutCoroutine());
+
+        ResetSearchInput();
     }
 
     public IEnumerator UpdateFiltersLayoutCoroutine()
@@ -68,6 +74,13 @@ public class ArmoryPanel : SimpleUIPanelMobiles
     {
         currentSearchText = searchText;
         FilterAndRefreshUI();
+    }
+
+    public void ResetSearchInput()
+    {
+        currentSearchText =string.Empty;
+        searchInputField.text = currentSearchText;
+        OnSearchInputChanged(currentSearchText);
     }
 
     public void OnCategorySelected(List<ItemCategory> newSelectedCategories)
