@@ -50,6 +50,8 @@ public class ArmoryPanel : SimpleUIPanelMobiles
         StartCoroutine(UpdateFiltersLayoutCoroutine());
 
         ResetSearchInput();
+
+        filterUI.ClearSelection();
     }
 
     public IEnumerator UpdateFiltersLayoutCoroutine()

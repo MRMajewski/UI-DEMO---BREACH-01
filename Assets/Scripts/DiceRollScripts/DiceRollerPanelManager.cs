@@ -32,6 +32,9 @@ public class DiceRollerPanelManager : SimpleUIPanelMobiles
     [SerializeField]
     protected List<DiceRollerBasePanel> diceRollerSnappedPanels;
 
+    [SerializeField]
+    protected float diceResultsScaleValue=1.1f;
+
     public override void DisablePanel()
     {
         panelsCanvasGroup.DOFade(0, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine).
@@ -82,7 +85,7 @@ public class DiceRollerPanelManager : SimpleUIPanelMobiles
 
     public void OnRollClickTween(GameObject buttonGameObject)
     {
-        buttonGameObject.transform.DOScale(1.15f,0.15f).SetEase(Ease.InOutBounce)
+        buttonGameObject.transform.DOScale(diceResultsScaleValue, 0.15f).SetEase(Ease.InOutBounce)
                         .OnComplete(() =>
                         {
                             buttonGameObject.transform.DOScale(1f, .15f).SetEase(Ease.InOutBounce);

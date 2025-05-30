@@ -1,0 +1,395 @@
+fileFormatVersion: 2
+guid: 25d5fbb16bce7b64b8e15a311755f04d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_Tooltips_1_5
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 619
+        width: 743
+        height: 361
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 110, y: 100, z: 110, w: 110}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a8d5ef2a685684fa5c2899971c9d28
+      internalID: -87594279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Tooltips_1_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 597
+        width: 746
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 110, y: 100, z: 110, w: 110}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda997723f1512c43be9f6e7d2725195
+      internalID: -84282066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Tooltips_1_29
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 187
+        width: 900
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 300, y: 110, z: 300, w: 110}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f21a230834ac63469f62c27607da4e4
+      internalID: 1393263530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Tooltips_1_31
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 203
+        width: 901
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 300, y: 110, z: 300, w: 110}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954357d18127af44aaa4a265cb7f4eb1
+      internalID: -2108023541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Tooltips_1_71
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 68
+        width: 402
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 20, z: 50, w: 20}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee34913d7703c914ca9a425a69b6d92f
+      internalID: -1964909093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Tooltips_1_80
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 26
+        width: 401
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 50, y: 25, z: 50, w: 25}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d90b8c6e38bcfd4a8fe94d3eec5e900
+      internalID: 520398087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UI_Tooltips_1_0: -540905864
+      UI_Tooltips_1_1: -933076592
+      UI_Tooltips_1_10: 1121596112
+      UI_Tooltips_1_100: -1824320986
+      UI_Tooltips_1_101: -1125441810
+      UI_Tooltips_1_102: 5437793
+      UI_Tooltips_1_11: 1174067887
+      UI_Tooltips_1_12: -1172169611
+      UI_Tooltips_1_13: -737814309
+      UI_Tooltips_1_14: -256323326
+      UI_Tooltips_1_15: -967532023
+      UI_Tooltips_1_16: -1259091381
+      UI_Tooltips_1_17: -1278134600
+      UI_Tooltips_1_18: -778911819
+      UI_Tooltips_1_19: -1336987235
+      UI_Tooltips_1_2: 1037621316
+      UI_Tooltips_1_20: -1297925210
+      UI_Tooltips_1_21: -1651165739
+      UI_Tooltips_1_22: 1628375121
+      UI_Tooltips_1_23: 1145609038
+      UI_Tooltips_1_24: 1800598967
+      UI_Tooltips_1_25: 35733998
+      UI_Tooltips_1_26: 1411740556
+      UI_Tooltips_1_27: 1181948707
+      UI_Tooltips_1_28: 903494648
+      UI_Tooltips_1_29: 1393263530
+      UI_Tooltips_1_3: -1374438788
+      UI_Tooltips_1_30: -1131637346
+      UI_Tooltips_1_31: -2108023541
+      UI_Tooltips_1_32: 1177885093
+      UI_Tooltips_1_33: 1853813930
+      UI_Tooltips_1_34: 53285968
+      UI_Tooltips_1_35: 1083374397
+      UI_Tooltips_1_36: -1894329014
+      UI_Tooltips_1_37: -1406264154
+      UI_Tooltips_1_38: -1181734428
+      UI_Tooltips_1_39: 647400701
+      UI_Tooltips_1_4: 539967572
+      UI_Tooltips_1_40: -1369176975
+      UI_Tooltips_1_41: -362960838
+      UI_Tooltips_1_42: -326787811
+      UI_Tooltips_1_43: -1461181030
+      UI_Tooltips_1_44: -611218010
+      UI_Tooltips_1_45: -1353073447
+      UI_Tooltips_1_46: -1874029453
+      UI_Tooltips_1_47: -1665488847
+      UI_Tooltips_1_48: 1538529418
+      UI_Tooltips_1_49: 449057680
+      UI_Tooltips_1_5: -87594279
+      UI_Tooltips_1_50: 1022282734
+      UI_Tooltips_1_51: -1452893518
+      UI_Tooltips_1_52: -531950912
+      UI_Tooltips_1_53: 1232571575
+      UI_Tooltips_1_54: 2066037263
+      UI_Tooltips_1_55: -1296988756
+      UI_Tooltips_1_56: -981960615
+      UI_Tooltips_1_57: -1626528086
+      UI_Tooltips_1_58: 1480674387
+      UI_Tooltips_1_59: 874457456
+      UI_Tooltips_1_6: 643192456
+      UI_Tooltips_1_60: 1692908530
+      UI_Tooltips_1_61: -1410494669
+      UI_Tooltips_1_62: -1111560696
+      UI_Tooltips_1_63: 69507895
+      UI_Tooltips_1_64: 880563461
+      UI_Tooltips_1_65: 1426875866
+      UI_Tooltips_1_66: 2012703041
+      UI_Tooltips_1_67: 1231006893
+      UI_Tooltips_1_68: -1470750767
+      UI_Tooltips_1_69: -2086226723
+      UI_Tooltips_1_7: 1095677641
+      UI_Tooltips_1_70: -2040958660
+      UI_Tooltips_1_71: -1964909093
+      UI_Tooltips_1_72: 489078189
+      UI_Tooltips_1_73: 750495796
+      UI_Tooltips_1_74: -1727816594
+      UI_Tooltips_1_75: -2105697846
+      UI_Tooltips_1_76: 336021057
+      UI_Tooltips_1_77: -1756798839
+      UI_Tooltips_1_78: 797029982
+      UI_Tooltips_1_79: -649407720
+      UI_Tooltips_1_8: -84282066
+      UI_Tooltips_1_80: 520398087
+      UI_Tooltips_1_81: 931681319
+      UI_Tooltips_1_82: 1352579239
+      UI_Tooltips_1_83: -1867403553
+      UI_Tooltips_1_84: -1706903592
+      UI_Tooltips_1_85: -306697762
+      UI_Tooltips_1_86: -1899264975
+      UI_Tooltips_1_87: 1405258697
+      UI_Tooltips_1_88: -957741862
+      UI_Tooltips_1_89: -687621243
+      UI_Tooltips_1_9: 1202761662
+      UI_Tooltips_1_90: 342622604
+      UI_Tooltips_1_91: 784137645
+      UI_Tooltips_1_92: 279310409
+      UI_Tooltips_1_93: 1394162043
+      UI_Tooltips_1_94: 1114729872
+      UI_Tooltips_1_95: 1482659649
+      UI_Tooltips_1_96: 396555166
+      UI_Tooltips_1_97: -960373003
+      UI_Tooltips_1_98: -552524871
+      UI_Tooltips_1_99: 1946561241
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
