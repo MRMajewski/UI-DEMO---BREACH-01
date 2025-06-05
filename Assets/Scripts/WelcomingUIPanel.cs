@@ -79,6 +79,7 @@ public class WelcomingUIPanel : SimpleUIPanelMobiles
     {
         if(isAfterOpeningAnim)
         SimpleUIPanelMobilesManager.Instance.SwitchPanel("Main");
+        SimpleUIPanelMobilesManager.Instance.InitBackGroundDecor();
         TurnOnMusicToggle();
 
         void  TurnOnMusicToggle()

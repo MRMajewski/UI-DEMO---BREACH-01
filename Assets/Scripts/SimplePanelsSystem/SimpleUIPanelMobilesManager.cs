@@ -41,11 +41,22 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
     [SerializeField]
     private bool isTransitioning = false;
 
-    [Header("Transition Elements")]
+    [Header("Tween Animation Elements")]
     [SerializeField] private RectTransform leftCurtain;
     [SerializeField] private RectTransform rightCurtain;
+
+    private Vector2 leftStartPos;
+    private Vector2 rightStartPos;
+    private Vector2 leftTargetPos;
+    private Vector2 rightTargetPos;
+
     [Space]
     [SerializeField] private CanvasGroup splashImage;
+
+    [Space]
+    [SerializeField] private RectTransform backgroundDecor;
+    [SerializeField] private RectTransform backgroundStillDecor;
+    [SerializeField] private float backGroundAnimationTime = 2f;
 
     public enum SimplePanelNames
     {
@@ -71,8 +82,9 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         {
             Instance = this;
         }
-    }
 
+        ResizeTransitionCurtains();
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape) && !isTransitioning)
@@ -113,6 +125,24 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
             simplePanel.simplePanel.DisablePanel();
         }
         isTransitioning = false;
+    }
+
+    private void ResizeTransitionCurtains()
+    {
+        if(!leftCurtain.gameObject.activeSelf)
+        leftCurtain.gameObject.SetActive(true);
+        if (!rightCurtain.gameObject.activeSelf)
+            rightCurtain.gameObject.SetActive(true);
+
+        leftTargetPos = leftCurtain.anchoredPosition;
+        rightTargetPos = rightCurtain.anchoredPosition;
+
+        float screenWidth = Screen.width;
+        leftStartPos = leftTargetPos + Vector2.left * screenWidth;
+        rightStartPos = rightTargetPos + Vector2.right * screenWidth;
+
+        leftCurtain.anchoredPosition = leftStartPos;
+        rightCurtain.anchoredPosition = rightStartPos;
     }
 
     public void SwitchPanel(SimpleUIPanelMobiles newPanel)
@@ -185,24 +215,67 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         isTransitioning = false;
     }
 
-    public void PlayCurtainScaleAnimation()
+    public void InitBackGroundDecor()
     {
-        leftCurtain.localScale = new Vector3(0, 1, 1);
-        rightCurtain.localScale = new Vector3(0, 1, 1);
-
-        Sequence curtainSequence = DOTween.Sequence();
-
-        curtainSequence
-            .Append(leftCurtain.DOScaleX(1, transitionTime).SetEase(Ease.InOutQuad))
-            .Join(rightCurtain.DOScaleX(1, transitionTime).SetEase(Ease.InOutQuad))
-
-            .AppendInterval(transitionTime / 2)
-
-            .Append(leftCurtain.DOScaleX(0, transitionTime).SetEase(Ease.InOutQuad))
-            .Join(rightCurtain.DOScaleX(0, transitionTime).SetEase(Ease.InOutQuad))
-            .SetUpdate(true);
+        StartCoroutine(InitBackgroundDecorCoroutine());
+    }
+    IEnumerator InitBackgroundDecorCoroutine()
+    {
+        yield return new WaitForSecondsRealtime(transitionTime);
+        InitBackgroundDecorMethod();
     }
 
+    public void InitBackgroundDecorMethod()
+    {
+        backgroundStillDecor.gameObject.SetActive(true);
+
+        PlayBackGroundAnimation();
+
+            void PlayBackGroundAnimation()
+        {
+            float screenHeight = Screen.height;
+            float objectHeight = backgroundDecor.rect.height;
+
+            float startY = -screenHeight / 2 - objectHeight / 2;
+            float endY = screenHeight / 2 + objectHeight / 2;
+
+            backgroundDecor.anchoredPosition = new Vector2(backgroundDecor.anchoredPosition.x, startY);
+
+            DOTween.Sequence()
+                .Append(backgroundDecor.DOAnchorPosY(endY, backGroundAnimationTime).SetEase(Ease.Linear))
+                .AppendCallback(() => backgroundDecor.anchoredPosition = new Vector2(backgroundDecor.anchoredPosition.x, startY))
+                .SetLoops(-1);
+        }
+    }
+
+    public void PlayCurtainScaleAnimation()
+    {
+        Sequence seq = DOTween.Sequence();
+
+        seq.Append(leftCurtain.DOAnchorPos(leftTargetPos, transitionTime).SetEase(Ease.OutCubic));
+        seq.Join(rightCurtain.DOAnchorPos(rightTargetPos, transitionTime).SetEase(Ease.OutCubic));
+
+        seq.AppendInterval(transitionTime / 2);
+
+        seq.Append(leftCurtain.DOAnchorPos(leftStartPos, transitionTime).SetEase(Ease.InCubic));
+        seq.Join(rightCurtain.DOAnchorPos(rightStartPos, transitionTime).SetEase(Ease.InCubic));
+    }
+
+    public void PlayBackGroundAnimation()
+    {
+        float screenHeight = Screen.height;
+        float objectHeight = backgroundDecor.rect.height;
+
+        float startY = -screenHeight / 2 - objectHeight / 2; 
+        float endY = screenHeight / 2 + objectHeight / 2; 
+
+        backgroundDecor.anchoredPosition = new Vector2(backgroundDecor.anchoredPosition.x, startY);
+
+        DOTween.Sequence()
+            .Append(backgroundDecor.DOAnchorPosY(endY, backGroundAnimationTime).SetEase(Ease.Linear))
+            .AppendCallback(() => backgroundDecor.anchoredPosition = new Vector2(backgroundDecor.anchoredPosition.x, startY))
+            .SetLoops(-1);
+    }
 
     public void PlaySplashAnimation()
     {

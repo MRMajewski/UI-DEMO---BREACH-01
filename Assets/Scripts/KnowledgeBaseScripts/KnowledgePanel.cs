@@ -47,6 +47,7 @@ public class KnowledgePanel : SimpleUIPanelMobiles
     {
         this.gameObject.SetActive(true);
         panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
+        OnStartCloseAll();
     }
 
     public void BuildKnowledgeBase()
@@ -114,6 +115,28 @@ public class KnowledgePanel : SimpleUIPanelMobiles
             }
         }
         areAllTabsExpanded = !areAllTabsExpanded;
+        RefreshExpandAllIconAndText();
+    }
+
+    private void OnStartCloseAll()
+    {
+
+        foreach (KnowledgeNodeBase knowledgeNode in knowledgeBaseNodes)
+        {
+            if (knowledgeNode.IsOpen == true)
+            {
+                if (knowledgeNode.GetComponent<KnowledgeNodeBase>() != null)
+                {
+                    knowledgeNode.SelectionClick();
+                }
+            }
+            else
+            {
+                continue;
+            }
+        }
+        areAllTabsExpanded = true;
+
         RefreshExpandAllIconAndText();
     }
 

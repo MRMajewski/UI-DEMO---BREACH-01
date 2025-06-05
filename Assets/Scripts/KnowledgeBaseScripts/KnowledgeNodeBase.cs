@@ -43,13 +43,11 @@ public class KnowledgeNodeBase : MonoBehaviour
         if (isOpen)
         {
             dropDownImage.sprite = closedSprite;
-
         }
         else
         {
             dropDownImage.sprite = openSprite;
-        }
-       
+        }   
     }
 
     public void CheckVisibilityDelayed()

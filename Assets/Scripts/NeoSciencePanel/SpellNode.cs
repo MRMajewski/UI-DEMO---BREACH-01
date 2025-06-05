@@ -28,12 +28,19 @@ public class SpellNode : TrainingNode
         base.SelectionClick();
         contentGameObject.gameObject.SetActive(isOpen);
 
-        LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
-
         if(isOpen)
         CheckVisibilityDelayed();
+
+        StartCoroutine(UIRebuildCoroutine());
     }
 
+    IEnumerator UIRebuildCoroutine()
+    {
+        yield return new WaitForEndOfFrame();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
+        yield return new WaitForEndOfFrame();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.parent.GetComponent<RectTransform>());
+    }
     public void Setup(SpellData spellData)
     {
         nameText.text = spellData.spellName;
