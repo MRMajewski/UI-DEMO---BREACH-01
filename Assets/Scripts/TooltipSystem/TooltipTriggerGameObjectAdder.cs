@@ -101,7 +101,6 @@ public class TooltipTriggerGameObjectAdder : MonoBehaviour
                 }
             }
         }
-
         return matchingWords;
     }
 

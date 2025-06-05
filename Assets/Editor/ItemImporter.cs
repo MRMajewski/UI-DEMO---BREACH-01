@@ -57,7 +57,6 @@ public class ItemImporter : EditorWindow
                 Debug.LogWarning($"Could not parse '{part}' to ItemCategory enum.");
             }
         }
-
         return categories.ToArray();
     }
 

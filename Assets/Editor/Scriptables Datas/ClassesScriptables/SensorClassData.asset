@@ -64,12 +64,12 @@ MonoBehaviour:
       uk\u0142adu nerwowego. Chwila w ciszy przywraca Ci k6/2 (zaokr\u0105glone w
       d\xF3\u0142) punkt\xF3w AP\n"
   - level: 3
-    skills: "Umiej\u0119tno\u015B\u0107 Podklasy/Szybkie przekalibrowanie"
+    skills: "Umiej\u0119tno\u015B\u0107 Podklasy/Szybka kalibracja"
     proficiencyBonus: 2
     skillsDescription: "Opis poni\u017Cej w opisie podklas\n\n<b>Specjalizacja</b>\r\nSzczeg\xF3\u0142y
       umiej\u0119tno\u015Bci specjalizacji znajduj\u0105 si\u0119 w opisie podklas
-      poni\u017Cej.\n\n<b>Szybkie przekalibrowanie</b>\r\nRaz na dob\u0119, w ramach
-      akcji mo\u017Cesz wymieni\u0107 jeden z aktywnych Talent\xF3w na inny dla Ciebie
+      poni\u017Cej.\n\n<b>Szybka kalibracja</b>\r\nRaz na dob\u0119, w ramach akcji
+      mo\u017Cesz wymieni\u0107 jeden z aktywnych Talent\xF3w na inny dla Ciebie
       dost\u0119pny o koszcie r\xF3wnym, b\u0105d\u017A mniejszym ni\u017C koszt
       zast\u0119powanego Talentu\n\n"
   subClassesTable:

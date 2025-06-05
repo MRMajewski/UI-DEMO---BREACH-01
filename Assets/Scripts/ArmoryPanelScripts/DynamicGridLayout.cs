@@ -68,7 +68,6 @@ public class DynamicGridLayout : MonoBehaviour
 
         float totalHeight = Mathf.Abs(currentY) + maxRowHeight + padding/2;
         parentRect.sizeDelta = new Vector2(parentRect.sizeDelta.x, totalHeight);
-
     }
 
 

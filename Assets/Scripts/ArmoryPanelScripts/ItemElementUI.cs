@@ -32,7 +32,7 @@ public class ItemElementUI : MonoBehaviour
     [SerializeField]
     private ItemDetailsPanel itemDetailsPanel;
 
-    public void SetUp(ItemData data)
+    public virtual void SetUp(ItemData data)
     {
         itemData = data;
         icon.sprite = data.icon;

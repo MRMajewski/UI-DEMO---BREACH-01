@@ -13,10 +13,7 @@ public class TooltipUI : MonoBehaviour
 
     [SerializeField]
     private CanvasGroup canvasGroup;
-
     public CanvasGroup CanvasGroup=>canvasGroup;
-
-    WaitForEndOfFrame wait = new WaitForEndOfFrame();
 
     [SerializeField]
     private GameObject gameObjectTooltip;

@@ -31,7 +31,6 @@ public class FilterUI : MonoBehaviour
     [SerializeField]
     private RectTransform filterContainerRectTransform;
 
-
     public void CreateCategoryButtons()
     {
         allCategories.Clear();

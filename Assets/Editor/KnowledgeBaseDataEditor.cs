@@ -25,7 +25,6 @@ public class KnowledgeBaseDataEditor : Editor
                 SerializedProperty sectionName = section.FindPropertyRelative("knowledgeDataSectionName");
                 SerializedProperty nodesList = section.FindPropertyRelative("knowledgeBaseDataNodesList");
 
-                // Foldout dla sekcji
                 foldoutStates[i] = EditorGUILayout.Foldout(foldoutStates[i], sectionName.stringValue != "" ? sectionName.stringValue : $"Section {i + 1}", true, EditorStyles.foldoutHeader);
 
                 if (foldoutStates[i])
@@ -51,14 +50,11 @@ public class KnowledgeBaseDataEditor : Editor
                             EditorGUILayout.EndVertical();
                         }
                     }
-
                     EditorGUILayout.EndVertical();
                 }
-
                 EditorGUILayout.Space(10);
             }
         }
-
         serializedObject.ApplyModifiedProperties();
     }
 

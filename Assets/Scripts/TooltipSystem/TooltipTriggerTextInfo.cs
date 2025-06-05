@@ -7,8 +7,8 @@ using UnityEngine.UI;
 [Serializable]
 public struct TooltipAction
 {
-    public string actionName; // Nazwa metody
-    public UnityEvent actionEvent; // Event, który mo¿na przypisaæ w edytorze
+    public string actionName; 
+    public UnityEvent actionEvent; 
 
     public void Invoke()
     {
@@ -34,7 +34,7 @@ public class TooltipTriggerTextInfo : ScriptableObject
     public TooltipType TooltipType => tooltipType;
 
     [SerializeField]
-    private string actionName; // Nowa struktura akcji
+    private string actionName; 
     public string ActionName => actionName;
 }
 

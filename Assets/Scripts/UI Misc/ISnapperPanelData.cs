@@ -5,7 +5,6 @@ using UnityEngine;
 public interface ISnapperPanelData
 {
     public Sprite GetMiniatureIcon();
-
     public Color GetMiniatureIconColor();
 }
 

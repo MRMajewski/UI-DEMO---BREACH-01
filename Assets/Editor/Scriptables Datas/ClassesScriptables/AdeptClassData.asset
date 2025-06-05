@@ -25,47 +25,45 @@ MonoBehaviour:
   classColor: {r: 0.7490196, g: 0.3529412, b: 0.21176471, a: 1}
   levelUpTable:
   - level: 1
-    skills: Sztuki Walki/KI
+    skills: Sztuki Walki/KI-3
     proficiencyBonus: 2
-    skillsDescription: "<b>Sztuki walki:</b>\r\nTwoja praktyka sztuk walki daje ci
-      mistrzostwo w stylach walki wykorzystuj\u0105cych nieuzbrojone ciosy i bro\u0144
-      adepta, kt\xF3ra obejmuje wszystkie bro\u0144 do walki wr\u0119cz, nie maj\u0105c\u0105
-      w\u0142a\u015Bciwo\u015Bci Ci\u0119\u017Ckiej.\nZyskujesz nast\u0119puj\u0105ce
-      korzy\u015Bci, gdy jeste\u015B nieuzbrojony lub dzier\u017Cysz tylko bro\u0144
-      mnicha i nosisz lekk\u0105 zbroj\u0119 lub nie masz zbroi:\r\nMo\u017Cesz u\u017Cywa\u0107
-      Zr\u0119czno\u015Bci zamiast Si\u0142y do atak\xF3w i obra\u017Ce\u0144 dla
-      nieuzbrojonych cios\xF3w lub broni adepta.\r\nMo\u017Cesz rzuca\u0107 ko\u015Bci\u0105
-      d6 zamiast zwyk\u0142ych obra\u017Ce\u0144 dla nieuzbrojonych cios\xF3w lub
-      broni mnicha. Ta ko\u015B\u0107 zmienia si\u0119, gdy zdobywasz poziomy adepta,
-      zgodnie z tabel\u0105 Sztuk Walki w tabeli Adepta.\r\nKiedy u\u017Cywasz akcji
-      Ataku z nieuzbrojonym ciosem lub broni\u0105 mnicha w swojej turze, mo\u017Cesz
-      wykona\u0107 jeden nieuzbrojony cios jako akcj\u0119 bonusow\u0105. Na przyk\u0142ad,
-      je\u015Bli wykonasz akcj\u0119 Ataku i zaatakujesz ostrzem, mo\u017Cesz tak\u017Ce
-      wykona\u0107 nieuzbrojony cios jako akcj\u0119 bonusow\u0105, pod warunkiem,
-      \u017Ce nie wykona\u0142e\u015B ju\u017C \u017Cadnej akcji bonusowej w tej
-      turze.\r\n\r\n\r\n<b>KI</b>\r\nZaczynaj\u0105c od 2. poziomu, twoje szkolenie
-      pozwala ci wykorzystywa\u0107 mistyczn\u0105 energi\u0119 ki. Dost\u0119p do
-      tej energii reprezentowany jest przez liczb\u0119 punkt\xF3w ki. Tw\xF3j poziom
-      mnicha okre\u015Bla liczb\u0119 punkt\xF3w, kt\xF3re posiadasz, jak pokazano
-      w kolumnie Punkt\xF3w Ki w tabeli Adepta.\nMo\u017Cesz wyda\u0107 te punkty,
-      by zasila\u0107 r\xF3\u017Cne umiej\u0119tno\u015Bci ki. Zaczynasz od znajomo\u015Bci
-      trzech takich umiej\u0119tno\u015Bci: Seria Cios\xF3w, Cierpliwa Obrona i Krok
-      Wiatru. Uczysz si\u0119 kolejnych umiej\u0119tno\u015Bci ki w miar\u0119 zdobywania
-      poziom\xF3w w tej klasie. \r\nNiekt\xF3re z twoich umiej\u0119tno\u015Bci ki
-      wymagaj\u0105 od celu wykonania rzutu obronnego, aby op\xF3r przed efektami
-      umiej\u0119tno\u015Bci. DC rzutu obronnego jest obliczane w nast\u0119puj\u0105cy
-      spos\xF3b:\r\n\nKi ST = 8 + bonus wyszkolenia + tw\xF3j modyfikator Zmys\u0142\xF3w\r\n\nOdzyskujesz
-      1 punkt ki jako akcj\u0119 bonusow\u0105, gdy nie wykonujesz akcji Ataku w
-      swojej turze LUB nie u\u017Cywasz punkt\xF3w ki na umiej\u0119tno\u015Bci.\r\n-Seria
-      Cios\xF3w:\nNatychmiast po wykonaniu akcji Ataku w swojej turze, mo\u017Cesz
-      wyda\u0107 1 punkt ki, by wykona\u0107 dwa nieuzbrojone ciosy jako akcj\u0119
-      bonusow\u0105.\r\n-Cierpliwa Obrona:\nMo\u017Cesz wyda\u0107 1 punkt ki, aby
-      wykona\u0107 akcj\u0119 Uniku jako akcj\u0119 bonusow\u0105 w swojej turze.\r\n-Krok
-      Wiatru:\nMo\u017Cesz wyda\u0107 1 punkt ki, aby wykona\u0107 akcj\u0119 Wycofania
-      lub Sprintu jako akcj\u0119 bonusow\u0105 w swojej turze, a twoja odleg\u0142o\u015B\u0107
-      skoku podwaja si\u0119 na t\u0119 tur\u0119."
+    skillsDescription: "<b>Sztuki walki:</b>\r\nTwoje szkolenie w sztukach walki
+      daje ci bieg\u0142o\u015B\u0107 w walce wr\u0119cz z wykorzystaniem nieuzbrojonych
+      cios\xF3w oraz broni adepta \u2014 ka\u017Cdej broni do walki wr\u0119cz, kt\xF3ra
+      nie ma cechy Ci\u0119\u017Cka.\r\nZyskujesz nast\u0119puj\u0105ce korzy\u015Bci,
+      gdy jeste\u015B nieuzbrojony lub dzier\u017Cysz wy\u0142\u0105cznie bro\u0144
+      adepta i masz na sobie lekk\u0105 zbroj\u0119 albo nie nosisz \u017Cadnej zbroi:\r\n\r\n   
+      -Mo\u017Cesz u\u017Cywa\u0107 Zr\u0119czno\u015Bci zamiast Si\u0142y do rzut\xF3w
+      ataku i obra\u017Ce\u0144 dla nieuzbrojonych cios\xF3w oraz broni adepta.\r\n   
+      -Zamiast standardowych obra\u017Ce\u0144 dla nieuzbrojonych cios\xF3w i broni
+      adepta, mo\u017Cesz rzuca\u0107 ko\u015Bci\u0105 k6. Ko\u015B\u0107 ta zmienia
+      si\u0119 wraz ze wzrostem twojego poziomu adepta \u2014 patrz tabela \u201ESztuki
+      Walki\u201D w opisie klasy Adepta.\r\n    -Gdy u\u017Cywasz akcji Ataku z nieuzbrojonym
+      ciosem lub broni\u0105 adepta w swojej turze, mo\u017Cesz wykona\u0107 jeden
+      nieuzbrojony cios jako akcj\u0119 bonusow\u0105. Przyk\u0142ad: je\u015Bli
+      zaatakujesz broni\u0105, mo\u017Cesz jeszcze raz uderzy\u0107 nieuzbrojon\u0105
+      r\u0119k\u0105 jako akcj\u0119 bonusow\u0105 (o ile nie u\u017Cy\u0142e\u015B
+      ju\u017C wcze\u015Bniej akcji bonusowej w tej turze).\r\n\r\n\r\n<b>KI</b>\r\nOd
+      2. poziomu twoje szkolenie pozwala ci korzysta\u0107 z mistycznej energii zwanej
+      ki. Liczba punkt\xF3w ki, kt\xF3rymi dysponujesz, r\xF3wna si\u0119 twojemu
+      poziomowi Adepta (sprawd\u017A kolumn\u0119 Punkt\xF3w Ki w tabeli klasy).\r\n\r\nPunkty
+      ki mo\u017Cesz wydawa\u0107 na specjalne techniki, z kt\xF3rych na pocz\u0105tku
+      znasz trzy:\r\n    -Seria Cios\xF3w\r\n    -Cierpliwa Obrona\r\n    -Krok Wiatru\r\n\r\nZ
+      czasem poznajesz kolejne.\r\n\r\nNiekt\xF3re techniki wymagaj\u0105 od celu
+      wykonania rzutu obronnego. ST (Stopie\u0144 Trudno\u015Bci) tych rzut\xF3w
+      obliczasz tak:\r\n\r\nST Ki = 8 + bonus wyszkolenia + modyfikator Zmys\u0142\xF3w\r\n\r\nDodatkowo,
+      mo\u017Cesz odzyska\u0107 1 punkt ki jako akcj\u0119 bonusow\u0105, je\u015Bli
+      w swojej turze nie wykonasz akcji Ataku ani nie wydasz \u017Cadnych punkt\xF3w
+      ki.\r\nTechniki Ki:\r\n\r\n    -Seria Cios\xF3w:\r\n    Po wykonaniu akcji
+      Ataku w swojej turze, mo\u017Cesz wyda\u0107 1 punkt ki, by wykona\u0107 dwa
+      nieuzbrojone ciosy jako akcj\u0119 bonusow\u0105.\r\n\r\n    -Cierpliwa Obrona:\r\n   
+      Wydaj\u0105c 1 punkt ki, mo\u017Cesz wykona\u0107 akcj\u0119 Uniku jako akcj\u0119
+      bonusow\u0105.\r\n\r\n    -Krok Wiatru:\r\n    Wydaj\u0105c 1 punkt ki, mo\u017Cesz
+      wykona\u0107 akcj\u0119 Wycofania lub Sprintu jako akcj\u0119 bonusow\u0105.\r\n   
+      Na t\u0119 tur\u0119 podwajasz dystans skoku. (Zamiast np. 3 metr\xF3w, skaczesz
+      6 metr\xF3w w dal.)"
   - level: 2
-    skills: Trening/Walka bez pancerza
+    skills: Trening/Walka bez pancerza/KI-3
     proficiencyBonus: 2
     skillsDescription: "<b>Trening</b>\nPrzeprowadzasz dwa treningi. Nie mo\u017Cna
       wykona\u0107 dw\xF3ch takich samych trening\xF3w w tym samym momencie\n\n<b>Walka
@@ -74,7 +72,7 @@ MonoBehaviour:
       tarczy. Ta premia zwi\u0119ksza si\u0119, gdy osi\u0105gasz pewne poziomy mnicha,
       jak pokazano w tabeli Adepta. "
   - level: 3
-    skills: "Specjalizacja/Odbicie pocisk\xF3w"
+    skills: "Specjalizacja/Odbicie pocisk\xF3w/KI-4"
     proficiencyBonus: 2
     skillsDescription: "Szczeg\xF3\u0142y umiej\u0119tno\u015Bci specjalizacji znajduj\u0105
       si\u0119 w opisie podklas poni\u017Cej.\n\n\n<b>ODBICIE POCISK\xD3W</b>\r\nZaczynaj\u0105c

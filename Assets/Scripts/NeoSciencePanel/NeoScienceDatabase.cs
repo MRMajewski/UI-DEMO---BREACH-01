@@ -6,8 +6,6 @@ using UnityEngine;
 
 public class NeoScienceDatabase : MonoBehaviour
 {
-    
-
     [Tooltip("List of all items available in the game.")]
     public List<NeophysicsSpellData> NeophysicsSpellsList = new List<NeophysicsSpellData>();
 
@@ -45,8 +43,8 @@ public class NeoScienceDatabase : MonoBehaviour
             if (so is NeophysicsSpellData)
                 NeophysicsSpellsList.Add((NeophysicsSpellData)so);
         }
-
     }
+
     private void LoadLinguisticssData()
     {
         string[] guids = AssetDatabase.FindAssets("t:ScriptableObject", new[] { "Assets/Scripts/NeoSciencePanel/NeoScienceScriptables/NeoLinguistics" });
@@ -58,8 +56,8 @@ public class NeoScienceDatabase : MonoBehaviour
             if (so is NeoLinguisticsSpellData)
                 NeoLinguisticsSpellsList.Add((NeoLinguisticsSpellData)so);
         }
-
     }
+
     private void LoadNeoSensoricsData()
     {
         string[] guids = AssetDatabase.FindAssets("t:ScriptableObject", new[] { "Assets/Scripts/NeoSciencePanel/NeoScienceScriptables/NeoSensorics" });
@@ -71,7 +69,6 @@ public class NeoScienceDatabase : MonoBehaviour
             if (so is NeoSensoricsSpellData)
                 NeoSensoricsSpellsList.Add((NeoSensoricsSpellData)so);
         }
-
     }
     private void LoadPsionicsData()
     {
@@ -87,5 +84,3 @@ public class NeoScienceDatabase : MonoBehaviour
     }
 #endif
 }
-
-

@@ -9,13 +9,11 @@ public class UIElementSnapper : MonoBehaviour, ISnappedElement
     [SerializeField]
     private RectTransform viewportRect;
 
-
     [SerializeField]
     private RectTransform rectTransform;
 
     [SerializeField]
     private RectTransform content;
-
 
     public RectTransform GetContentTransform()
     {

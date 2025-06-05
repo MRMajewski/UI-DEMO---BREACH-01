@@ -35,9 +35,7 @@ public class ClassDataElementUI : MonoBehaviour, ISnappedElement
 
     [SerializeField]
     private List<TooltipTriggerGameObjectAdder> triggerAdders;
-
     public List<TooltipTriggerGameObjectAdder> TriggerGameObjectAdder { get { return triggerAdders; } }
-
 
     [SerializeField]
     private RectTransform rectTransform;
@@ -91,7 +89,6 @@ public class ClassDataElementUI : MonoBehaviour, ISnappedElement
         GenerateSubClassesDetails(data.subClassesTable);
     }
 
-
     private void GenerateLevelUpDetails(List<LevelUpTable> levelUpTable)
     {
         foreach (var levelData in levelUpTable)
@@ -121,6 +118,4 @@ public class ClassDataElementUI : MonoBehaviour, ISnappedElement
         }
         subClassDetailsPrefab.gameObject.SetActive(false);
     }
-
-
 }

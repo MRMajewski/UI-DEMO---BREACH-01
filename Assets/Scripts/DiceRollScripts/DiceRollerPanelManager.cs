@@ -10,9 +10,6 @@ public class DiceRollerPanelManager : SimpleUIPanelMobiles
     [SerializeField]
     private List<CanvasGroup> diceRollerPanels;
 
-    //[SerializeField]
-    //private Button firstTab;
-
     [Header("Snapper references")]
     [SerializeField]
     protected UIElementsSnapper snapper;

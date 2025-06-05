@@ -6,9 +6,7 @@ public class MiniatureIconsChanger : MonoBehaviour
 {
     [SerializeField]
     protected List<Image> iconList;
-
     public List<Image> IconList { get => iconList; }
-
 
     [SerializeField]
     protected List<Color> iconColorsList;
@@ -70,7 +68,6 @@ public class MiniatureIconsChanger : MonoBehaviour
             SetAlphaForIndex(index);
         }
     }
-
     protected void Start()
     {
         AddOnClickMethodsToIcons();

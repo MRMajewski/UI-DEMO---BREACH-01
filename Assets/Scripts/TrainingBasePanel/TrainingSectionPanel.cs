@@ -27,7 +27,6 @@ public class TrainingSectionPanel : MonoBehaviour, ISnappedElement
 
     [SerializeField]
     private List<TooltipTriggerGameObjectAdder> triggerAdders;
-
     public List<TooltipTriggerGameObjectAdder> TriggerGameObjectAdder { get { return triggerAdders; } }
 
     [SerializeField]

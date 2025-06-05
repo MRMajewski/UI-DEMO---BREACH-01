@@ -221,7 +221,7 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
     }
     IEnumerator InitBackgroundDecorCoroutine()
     {
-        yield return new WaitForSecondsRealtime(transitionTime);
+        yield return new WaitForSecondsRealtime(transitionTime*2f);
         InitBackgroundDecorMethod();
     }
 

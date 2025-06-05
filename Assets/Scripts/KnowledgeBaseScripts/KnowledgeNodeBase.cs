@@ -36,6 +36,7 @@ public class KnowledgeNodeBase : MonoBehaviour
 
     public UIScrollViewFitter UIScrollViewFitter { get=>uIScrollViewFitter; set=>uIScrollViewFitter=value; }
 
+    private WaitForEndOfFrame wait = new WaitForEndOfFrame();
     public virtual void SelectionClick()
     {
         isOpen = !isOpen;
@@ -57,7 +58,7 @@ public class KnowledgeNodeBase : MonoBehaviour
 
     private IEnumerator EnsureVisibleNextFrame(UIScrollViewFitter uIScrollViewFitter)
     {
-        yield return new WaitForEndOfFrame();
+        yield return wait;
 
         uIScrollViewFitter?.EnsureVisibleSmooth(this.GetComponent<RectTransform>());
     }

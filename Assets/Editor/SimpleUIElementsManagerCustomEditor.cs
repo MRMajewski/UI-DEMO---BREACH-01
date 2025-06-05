@@ -61,8 +61,7 @@ public class KnowledgePanelCustomEditor : Editor
 
         if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
         {
-        //    script.InitializePanelData()
-                  script.BuildKnowledgeBase();
+            script.BuildKnowledgeBase();
         }
     }
 }
@@ -114,7 +113,7 @@ public class NeoScienceInfoPanelCustomEditor : Editor
         }
         if (GUILayout.Button("Wykonaj Inicjacjê Danych na Panelach"))
         {
-            script.InitializePanel ();
+            script.InitializePanel();
         }
     }
 }

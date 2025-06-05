@@ -10,7 +10,7 @@ public class SpellUIElement : ItemElementUI
     [SerializeField]
     private ItemDetailsPanel itemDetailsPanel;
 
-    public void SetUp(ItemData data)
+    public override void SetUp(ItemData data)
     {
         itemData = data;
         icon.sprite = data.icon;

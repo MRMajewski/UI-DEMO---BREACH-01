@@ -10,10 +10,9 @@ public class DiceRollerDamagePanel : DiceRollerBasePanel
         modeDropdown.onValueChanged.AddListener(OnModeChanged);
         OnModeChanged(modeDropdown.value);
         diceInputField.text =diceAmount.ToString();
+        diceType = DiceType.DiceD4;
         GetDiceRange();
     }
-
-
 
     public void OnDiceValueChanged(string text)
     {
@@ -22,7 +21,6 @@ public class DiceRollerDamagePanel : DiceRollerBasePanel
             if (value < 0) value = 0;
             if (value > 10) value = 10;
             diceInputField.text = value.ToString();
-
         }
         else
         {

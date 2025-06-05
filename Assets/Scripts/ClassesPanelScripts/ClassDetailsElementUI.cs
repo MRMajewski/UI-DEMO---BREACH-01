@@ -6,7 +6,6 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ClassDetailsElementUI : MonoBehaviour
 {
-
     [SerializeField]
     protected TextMeshProUGUI SimpleDescription;
     [SerializeField]
@@ -24,9 +23,7 @@ public class ClassDetailsElementUI : MonoBehaviour
     public virtual void Initialize(SubClassInfo data)
     { 
         SimpleDescription.text = data.subClassName;
-
         DetailedDescriptionText.text = data.subClassDescription;
-
         DetailedDescriptionGameObject.SetActive(isOpen);
     }
 
@@ -39,7 +36,6 @@ public class ClassDetailsElementUI : MonoBehaviour
         LayoutRebuilder.ForceRebuildLayoutImmediate(DetailedDescriptionText.GetComponent<RectTransform>());
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.GetComponent<RectTransform>());
         LayoutRebuilder.ForceRebuildLayoutImmediate(this.transform.parent.GetComponent<RectTransform>());
-
 
         CheckVisibilityDelayed();
     }

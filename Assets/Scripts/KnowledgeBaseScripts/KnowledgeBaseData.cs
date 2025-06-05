@@ -12,7 +12,6 @@ using UnityEngine;
 
         public KnowledgeBaseDataNode(string title, string info)
         {
-
             titleText = title;
             contentInfoText = info;
         }
