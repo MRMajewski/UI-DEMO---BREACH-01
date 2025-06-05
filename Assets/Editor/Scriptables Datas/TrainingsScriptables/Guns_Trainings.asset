@@ -18,7 +18,7 @@ MonoBehaviour:
   trainingDataSectionDescription: "Doskonalenie celno\u015Bci, szybko\u015Bci reakcji
     i umiej\u0119tno\u015Bci obs\u0142ugi r\xF3\u017Cnych rodzaj\xF3w broni palnej."
   trainingBaseDataNodesList:
-  - titleText: Trening w Broni Dystansowej
+  - titleText: "Bro\u0144 Dystansowa"
     contentInfoText: "<size=120%> Ka\u017Cdy poziom szkolenia mo\u017Ce by\u0107
       wzi\u0119ty raz dla ka\u017Cdej grupy bieg\u0142o\u015Bci w broni.\r\nPoziom
       1: </size>: Zyskujesz bieg\u0142o\u015B\u0107 w jednej grupie broni dystansowej.
@@ -51,7 +51,7 @@ MonoBehaviour:
       ataku i trudno\u015Bci atak\xF3w wykonywanych broni\u0105 wybranej grupy.\r\n<size=120%>Poziom
       4 </size>: Zyskujesz +1 do wszystkich rzut\xF3w obra\u017Ce\u0144 wykonanych
       broni\u0105 wybranej grupy."
-  - titleText: Trening Strzelectwa Precyzyjnym
+  - titleText: Strzelectwo Precyzyjne
     contentInfoText: "<size=120%>Poziom 1 </size>: Mo\u017Cesz celowa\u0107 jako
       akcj\u0119 dodatkow\u0105.\r\n<size=120%>Poziom 2 </size>: Liczysz wrog\xF3w
       jako maj\u0105cych o jeden poziom os\u0142ony mniej ni\u017C w rzeczywisto\u015Bci.\r\n<size=120%>Poziom
@@ -59,7 +59,7 @@ MonoBehaviour:
       i nadal korzysta\u0107 z korzy\u015Bci celowania.\r\n<size=120%>Poziom 4 </size>:
       Ignorujesz wszystkie os\u0142ony podczas obliczania rzut\xF3w obronnych, z
       wyj\u0105tkiem pe\u0142nej os\u0142ony."
-  - titleText: "Trening w U\u017Cywaniu Granat\xF3w"
+  - titleText: Granaty
     contentInfoText: "<size=120%>Poziom 1 </size>: Zyskujesz premi\u0119 do wszystkich
       rzut\xF3w obra\u017Ce\u0144 zwi\u0105zanych z granatami i wyrzutniami granat\xF3w
       r\xF3wn\u0105 swojemu modyfikatorowi M\u0105dro\u015Bci.\r\n<size=120%>Poziom
@@ -70,7 +70,7 @@ MonoBehaviour:
       wyniku.\r\n<size=120%>Poziom 4 </size>: Zyskujesz pe\u0142ny bonus bieg\u0142o\u015Bci
       do trudno\u015Bci rzut\xF3w jakichkolwiek granat\xF3w i wyrzutni granat\xF3w,
       kt\xF3re u\u017Cywasz."
-  - titleText: "Trening w U\u017Cywaniu Broni Miotanych"
+  - titleText: "Bro\u0144 Miotana"
     contentInfoText: "<size=120%>Poziom 1 </size>: Zwi\u0119kszasz sw\xF3j zasi\u0119g
       rzutu broni\u0105 o 5 st\xF3p.\r\n<size=120%>Poziom 2 </size>: Mo\u017Cesz
       ponownie rzuci\u0107 jedno krytyczne niepowodzenie podczas rzucania broni\u0105
@@ -79,7 +79,7 @@ MonoBehaviour:
       ponownie rzuci\u0107 liczb\u0119 krytycznych niepowodze\u0144 zwi\u0105zan\u0105
       z rzutem broni\u0105, r\xF3wn\u0105 twojemu bonusowi Zr\u0119czno\u015Bci.
       Te mo\u017Cliwo\u015Bci ponownego rzutu odzyskujesz po d\u0142ugiej przerwie."
-  - titleText: "Trening w u\u017Cywaniu Broni Automatycznej"
+  - titleText: "Bro\u0144 Automatyczna"
     contentInfoText: "<size=120%>Poziom 1 </size>: Podczas trybu \u201ESkupienie
       i Strza\u0142y\u201D zyskujesz +1 do wszystkich trudno\u015Bci atak\xF3w.\r\n<size=120%>Poziom
       2 </size>: Podczas trybu \u201ESkupienie i Strza\u0142y\u201D zyskujesz +1
@@ -97,7 +97,7 @@ MonoBehaviour:
       Mo\u017Cesz ustali\u0107 sw\xF3j modyfikator Zr\u0119czno\u015Bci razy dwa
       przy okre\u015Blaniu maksymalnej liczby cel\xF3w lub salw podczas trybu \u201ERiddle\u201D
       i \u201ESpray\u201D."
-  - titleText: "Trening Strzelecki na Bliskim Zasi\u0119gu"
+  - titleText: "Strzelectwo Na Bliskim Zasi\u0119gu"
     contentInfoText: "<size=120%>Poziom 1 </size>: Zyskujesz +1 do rzut\xF3w ataku
       wykonanych w odleg\u0142o\u015Bci jednego zakresu.\r\n<size=120%>Poziom 2 </size>:
       Zyskujesz +1 do wszystkich rzut\xF3w obra\u017Ce\u0144 wykonanych w odleg\u0142o\u015Bci
@@ -105,7 +105,7 @@ MonoBehaviour:
       ataku wykonanych w odleg\u0142o\u015Bci jednego zakresu.\r\n<size=120%>Poziom
       4 </size>: Zyskujesz +2 do wszystkich rzut\xF3w obra\u017Ce\u0144 wykonanych
       w odleg\u0142o\u015Bci jednego zakresu."
-  - titleText: "Trening Strzelecki na D\u0142ugim Zasi\u0119gu"
+  - titleText: "Strzelectwo Na Dlugim Zasi\u0119gu"
     contentInfoText: "<size=120%>Poziom 1 </size>: Przy atakach na d\u0142ugi zasi\u0119g
       zawsze liczysz siebie jako strzelaj\u0105cego na jednym poziomie mniejszego
       mno\u017Cnika zasi\u0119gu (minimalnie 1).\r\n<size=120%>Poziom 2 </size>:
@@ -119,7 +119,7 @@ MonoBehaviour:
       ni\u017C jeden zakres.\r\n<size=120%>Poziom 6 </size>: Zyskujesz +1 do wszystkich
       rzut\xF3w obra\u017Ce\u0144 wykonywanych na wi\u0119kszych zasi\u0119gach ni\u017C
       jeden zakres."
-  - titleText: "Trening w Dualnym Pos\u0142ugiwaniu si\u0119 Broni\u0105"
+  - titleText: "Dualne Pos\u0142ugiwanie Si\u0119 Broni\u0105"
     contentInfoText: "Wymaga Zr\u0119czno\u015Bci 14 lub wy\u017Cszej. \n<size=120%>Poziom
       1 </size>: Mo\u017Cesz wykona\u0107 atak przy u\u017Cyciu broni w r\u0119ce
       niedominuj\u0105cej, nawet je\u015Bli bro\u0144 nie ma w\u0142a\u015Bciwo\u015Bci

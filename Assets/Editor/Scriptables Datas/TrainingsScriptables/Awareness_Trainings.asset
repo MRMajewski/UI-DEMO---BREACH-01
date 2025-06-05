@@ -18,7 +18,7 @@ MonoBehaviour:
   trainingDataSectionDescription: "\u0106wiczenie spostrzegawczo\u015Bci, refleksu
     i intuicji, by szybciej reagowa\u0107 na zagro\u017Cenia i unika\u0107 zasadzek."
   trainingBaseDataNodesList:
-  - titleText: "Trening Czujno\u015Bci "
+  - titleText: "Czujno\u015B\u0107"
     contentInfoText: "<size=120%>Poziom 1 </size>: Przy\u0107mione \u015Bwiat\u0142o
       nie nak\u0142ada na ciebie niekorzystnych warunk\xF3w na testy Zmys\u0142\xF3w
       (Percepcji) opieraj\u0105ce si\u0119 na wzroku.\r\n<size=120%>Poziom 1 </size>:
@@ -36,7 +36,7 @@ MonoBehaviour:
       4 </size>: Je\u015Bli jeste\u015B w stanie s\u0142ysze\u0107, jeste\u015B \u015Bwiadomy
       lokalizacji ukrytych lub niewidzialnych stworze\u0144 w odleg\u0142o\u015Bci
       do 20 st\xF3p od ciebie."
-  - titleText: "Trening z  Przeciwdzia\u0142ania Zasadzkom"
+  - titleText: "Przeciwdzia\u0142anie Zasadzkom"
     contentInfoText: "<size=120%>Poziom 1 </size>:  Masz przewag\u0119 na testach
       Zmys\u0142\xF3w (Percepcji) i Inteligencji (\u015Aledztwa) wykonywanych w celu
       wykrycia pu\u0142apek lub atak\xF3w z zaskoczenia.\r\n<size=120%>Poziom 2 </size>: 

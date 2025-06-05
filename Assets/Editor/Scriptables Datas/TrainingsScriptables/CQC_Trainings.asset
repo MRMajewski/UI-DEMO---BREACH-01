@@ -18,7 +18,7 @@ MonoBehaviour:
   trainingDataSectionDescription: "Szlifowanie technik walki w zwarciu, zar\xF3wno
     z u\u017Cyciem improwizowanej broni, jak i w\u0142asnego cia\u0142a."
   trainingBaseDataNodesList:
-  - titleText: "Trening w broni\u0105 bia\u0142\u0105"
+  - titleText: "Bro\u0144 Bia\u0142a"
     contentInfoText: "<size=120%>Ka\u017Cdy poziom tego szkolenia mo\u017Cna podj\u0105\u0107
       raz dla ka\u017Cdej bieg\u0142o\u015Bci w broni.\r\nPoziom 1 </size>:\nZyskujesz
       bieg\u0142o\u015B\u0107 w jednej grupie broni bia\u0142ej. Grupy broni to:
@@ -44,7 +44,7 @@ MonoBehaviour:
       3 </size>:\nZyskujesz +1 do wszystkich atak\xF3w w wybranej grupie broni.\r\n<size=120%>Poziom
       4 </size>:\nZyskujesz +1 do wszystkich rzut\xF3w obra\u017Ce\u0144 w wybranej
       grupie broni."
-  - titleText: Trening w walce dwoma broniami
+  - titleText: "Walka Dwoma Bro\u0144mi"
     contentInfoText: "<size=120%>Wymaga Zr\u0119czno\u015Bci 16 lub wy\u017Cszej\r\nPoziom
       1 </size>:\nMo\u017Cesz wykona\u0107 atak bonusowy drug\u0105 r\u0119k\u0105
       przy u\u017Cyciu broni bia\u0142ej, kt\xF3re nie maj\u0105 w\u0142a\u015Bciwo\u015Bci
