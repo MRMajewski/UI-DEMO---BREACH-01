@@ -64,7 +64,7 @@ MonoBehaviour:
       si\u0119 w opisie podklas poni\u017Cej.\n\n<b>2F/2S/ 3-1p</b>\nPosiadasz znane
       2 Formu\u0142y , 3 Sekwencje, \nTwoje jednostki: 4 x 1 poziom"
   subClassesTable:
-  - subClassName: GRAWITURGIA
+  - subClassName: Grawiturgia
     subClassDescription: "<b>Ekspert w kontroli si\u0142 przyci\u0105gania. Mo\u017Ce
       zwi\u0119ksza\u0107 lub zmniejsza\u0107 grawitacj\u0119 w wybranych obszarach,
       wp\u0142ywaj\u0105c na ruch obiekt\xF3w i istot. </b>\n\r\n<b>POZIOM 3</b>\n\r\n<b>Regulacja
@@ -82,7 +82,7 @@ MonoBehaviour:
       Du\u017Ce istoty i obiekty.\r\n\r\n<b>Dodatkowe formu\u0142y i sekwencje</b>\r\nZnasz
       dodatkowo jedn\u0105 formu\u0142\u0119 , oraz 2 wybrane sekwencje poziomu 1
       z specjalizacji Grawiturgii."
-  - subClassName: CHRONOTURGIA
+  - subClassName: Chronoturgia
     subClassDescription: "<b>Chronoturgia to ga\u0142\u0105\u017A Neofizyki pozwalaj\u0105ca
       na manipulacj\u0119 czasem w skali mikro i makro. U\u017Cytkownicy tej dziedziny
       mog\u0105 przyspiesza\u0107 lub spowalnia\u0107 istoty, a tak\u017Ce wp\u0142ywa\u0107
@@ -97,7 +97,7 @@ MonoBehaviour:
       Musisz zaakceptowa\u0107 nowy wynik, nawet je\u015Bli jest gorszy.\r\n\n<b>Dodatkowe
       formu\u0142y i sekwencje</b>\r\nZnasz dodatkowo jedn\u0105 formu\u0142\u0119
       , oraz 2 wybrane sekwencje poziomu 1 z specjalizacji Chronoturgii."
-  - subClassName: ENERGODYNAMIKA
+  - subClassName: Energodynamika
     subClassDescription: "<b>Energetyka to sztuka manipulowania energi\u0105 w r\xF3\u017Cnych
       formach \u2013 ciep\u0142a, elektryczno\u015Bci, kinetyki czy bardziej egzotycznych
       si\u0142. U\u017Cytkownik tej dziedziny potrafi nie tylko wytwarza\u0107 i

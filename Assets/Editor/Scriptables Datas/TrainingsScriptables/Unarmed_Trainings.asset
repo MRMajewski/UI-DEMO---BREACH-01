@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trainingDataSectionName: TRENINGI W WALCE BEZ BRONI
   trainingDataSectionIcon: {fileID: 21300000, guid: 08a9f8eab05682041b207faf8d3756bf, type: 3}
-  trainingDataSectionIconColor: {r: 0.77254903, g: 0.6313726, b: 0.46666667, a: 1}
+  trainingDataSectionIconColor: {r: 0.7075472, g: 0.51808065, b: 0.29703632, a: 1}
   trainingDataSectionDescription: "Doskonalenie technik unieszkodliwiania przeciwnika
     za pomoc\u0105 chwyt\xF3w, d\u017Awigni i cios\xF3w bez u\u017Cycia uzbrojenia."
   trainingBaseDataNodesList:

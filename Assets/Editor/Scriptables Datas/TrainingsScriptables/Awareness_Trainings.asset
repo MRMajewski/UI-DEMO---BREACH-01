@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trainingDataSectionName: "TRENINGI CZUJNO\u015ACI"
   trainingDataSectionIcon: {fileID: 21300000, guid: 38bccbe9d3adfa440b11d2493b287817, type: 3}
-  trainingDataSectionIconColor: {r: 0.9098039, g: 0.85882354, b: 0.4, a: 1}
+  trainingDataSectionIconColor: {r: 0.7058824, g: 0.65882355, b: 0.19607843, a: 1}
   trainingDataSectionDescription: "\u0106wiczenie spostrzegawczo\u015Bci, refleksu
     i intuicji, by szybciej reagowa\u0107 na zagro\u017Cenia i unika\u0107 zasadzek."
   trainingBaseDataNodesList:

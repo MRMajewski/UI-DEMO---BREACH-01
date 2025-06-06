@@ -39,7 +39,7 @@ MonoBehaviour:
       ka\u017Cdym razem, gdy zdobywasz nowy poziom w tej klasie, mo\u017Cesz wymieni\u0107
       jedn\u0105 z poznanych infuzji na inn\u0105 z listy. "
   - level: 2
-    skills: "Szybki R\u0119ce/Trening"
+    skills: "Szybkie R\u0119ce/Trening"
     proficiencyBonus: 2
     skillsDescription: "<b>Szybkie R\u0119ce</b>\r\nOd 2. poziomu mo\u017Cesz u\u017Cy\u0107
       zestawu narz\u0119dzi, przedmiotu lub umiej\u0119tno\u015Bci, kt\xF3rej normalne

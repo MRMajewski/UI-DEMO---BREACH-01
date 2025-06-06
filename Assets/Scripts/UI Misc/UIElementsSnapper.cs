@@ -6,7 +6,7 @@ using System;
 
 public class UIElementsSnapper : MonoBehaviour
 {
-
+    [SerializeField] private RectTransform swipeDetectionArea;
     public RectTransform content;
 
     private int currentPanelIndex = 0;
@@ -69,6 +69,9 @@ public class UIElementsSnapper : MonoBehaviour
 
     private void StartTouch(Vector2 position)
     {
+        if (!RectTransformUtility.RectangleContainsScreenPoint(swipeDetectionArea, position, null))
+            return;
+
         touchStartPosition = position;
         isHorizontalSwipe = false;
         hasSwiped = false;     
@@ -146,6 +149,8 @@ public class UIElementsSnapper : MonoBehaviour
             snappedElement.GetRectTransform().sizeDelta =
                 new Vector2(snappedElement.GetViewportTransform().rect.width, snappedElement.GetRectTransform().sizeDelta.y);
         }
+
+        LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
     }
 
     public void ResetAllScrolls()

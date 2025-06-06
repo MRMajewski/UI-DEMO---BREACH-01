@@ -73,7 +73,7 @@ MonoBehaviour:
       dost\u0119pny o koszcie r\xF3wnym, b\u0105d\u017A mniejszym ni\u017C koszt
       zast\u0119powanego Talentu\n\n"
   subClassesTable:
-  - subClassName: BIOMANCJA
+  - subClassName: Biomancja
     subClassDescription: "<b>Biomancja to specjalizacja, kt\xF3ra pozwala Sensorowi
       czyta\u0107, wp\u0142ywa\u0107 i wzmacnia\u0107 organizmy. Dzi\u0119ki niej
       heros mo\u017Ce analizowa\u0107 stan fizyczny istot, leczy\u0107 je, ale r\xF3wnie\u017C
@@ -83,7 +83,7 @@ MonoBehaviour:
       ekspertyza</b>\r\nSensor podczas test\xF3w leczenia jest w stanie uleczy\u0107
       dodatkowe k6 obra\u017Ce\u0144. Ma u\u0142atwienie w testach na stabilizowanie
       istoty\r\n"
-  - subClassName: FUTURISPEKCJA
+  - subClassName: Futurispekcja
     subClassDescription: "<b>Specjalizacja  pozwala na dynamiczne przewidywanie ruch\xF3w
       przeciwnik\xF3w i nadchodz\u0105cych wydarze\u0144, oferuj\u0105c zar\xF3wno
       pasywne zdolno\u015Bci do reagowania na zagro\u017Cenia, jak i aktywne umiej\u0119tno\u015Bci,
@@ -94,7 +94,7 @@ MonoBehaviour:
       te z tabeli Neosensoryka z specjalizacji Futurispekcja\n\r\n<b>POZIOM 3</b>\n\r\n<b>Przeciwdzia\u0142anie</b>\r\nRaz
       podczas doby, poprzez przewidzenie ataku jeste\u015B go w stanie unikn\u0105\u0107.
       Rzut obronny ST jest automatycznie zdany."
-  - subClassName: NEOSPIRYTYZM
+  - subClassName: Neospirytyzm
     subClassDescription: "<b>Specjalizacja ta pozwala Sensorowi dostrzega\u0107 i
       komunikowa\u0107 si\u0119 z istotami z innych wymiar\xF3w, kt\xF3re mog\u0105
       by\u0107 energetyczne, astralne lub posiada\u0107 formy, kt\xF3rych ludzkie
