@@ -9,6 +9,8 @@ public class TooltipUI : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI tooltipText;
     [SerializeField]
+    private VerticalLayoutGroup tooltipVerticalLayout;
+    [SerializeField]
     private Button actionButton;
 
     [SerializeField]
@@ -30,12 +32,14 @@ public class TooltipUI : MonoBehaviour
 
         if (buttonAction!=null)
         {
+            tooltipVerticalLayout.padding.bottom = 50;
             actionButton.gameObject.SetActive(true);
             actionButton.onClick.RemoveAllListeners();
             actionButton.onClick.AddListener(buttonAction);
         }
         else
         {
+            tooltipVerticalLayout.padding.bottom = 25;
             actionButton.gameObject.SetActive(false);
         }
     }

@@ -20,24 +20,25 @@ MonoBehaviour:
     ochrony w walce."
   trainingBaseDataNodesList:
   - titleText: Lekka Zbroja
-    contentInfoText: "<size=120%>Poziom 1 </size>: Zyskaj wyszkolenie w lekkiej zbroi.\r\n<size=120%>Poziom
-      2 </size>: Zyskaj +1 do redukcji obra\u017Ce\u0144 podczas noszenia lekkiej
-      zbroi.\r\n<size=120%>Poziom 3 </size>:  Zyskaj +2 do redukcji obra\u017Ce\u0144
-      podczas noszenia lekkiej zbroi.\r\n<size=120%>Poziom 4 </size>: Zyskaj Szkolenie
-      w Rzutach Fizycznych Poziom 1 w rzutach obronnych na Zr\u0119czno\u015B\u0107,
-      lub Ekspertyz\u0119 w rzutach na Zr\u0119czno\u015B\u0107, je\u015Bli ju\u017C
-      posiadasz Szkolenie w Rzutach Fizycznych Poziom 1 na Zr\u0119czno\u015B\u0107."
+    contentInfoText: "<size=120%>Poziom 1 </size>: \nZyskaj wyszkolenie w lekkiej
+      zbroi.\r\n<size=120%>Poziom 2 </size>: \nZyskaj +1 do redukcji obra\u017Ce\u0144
+      podczas noszenia lekkiej zbroi.\r\n<size=120%>Poziom 3 </size>:  \nZyskaj +2
+      do redukcji obra\u017Ce\u0144 podczas noszenia lekkiej zbroi.\r\n<size=120%>Poziom
+      4 </size>: \nZyskaj Szkolenie w Rzutach Fizycznych Poziom 1 w rzutach obronnych
+      na Zr\u0119czno\u015B\u0107, lub Ekspertyz\u0119 w rzutach na Zr\u0119czno\u015B\u0107,
+      je\u015Bli ju\u017C posiadasz Szkolenie w Rzutach Fizycznych Poziom 1 na Zr\u0119czno\u015B\u0107."
   - titleText: "\u015Arednia Zbroja"
-    contentInfoText: "<size=120%>Poziom 1 </size>: Zyskaj wyszkolenie w \u015Bredniej
-      zbroi.\r\n<size=120%>Poziom 2 </size>: Zyskaj dodatkowe punkty \u017Cycia r\xF3wne
-      Twojej bieg\u0142o\u015Bci.\r\n<size=120%>Poziom 3 </size>:: Zyskaj Szkolenie
-      w Rzutach Fizycznych Poziom 1 w rzutach obronnych na Kondycj\u0119, lub Ekspertyz\u0119
-      w rzutach na Kondycj\u0119, je\u015Bli ju\u017C posiadasz Szkolenie w Rzutach
-      Fizycznych Poziom 1 na Kondycj\u0119.\r\n<size=120%>Poziom 4 </size>:: Zyskaj
-      dodatkowe punkty \u017Cycia r\xF3wne dwukrotno\u015Bci Twojej bieg\u0142o\u015Bci."
+    contentInfoText: "<size=120%>Poziom 1 </size>: \nZyskaj wyszkolenie w \u015Bredniej
+      zbroi.\r\n<size=120%>Poziom 2 </size>: \nZyskaj dodatkowe punkty \u017Cycia
+      r\xF3wne Twojej bieg\u0142o\u015Bci.\r\n<size=120%>Poziom 3 </size>: \nZyskaj
+      Szkolenie w Rzutach Fizycznych Poziom 1 w rzutach obronnych na Kondycj\u0119,
+      lub Ekspertyz\u0119 w rzutach na Kondycj\u0119, je\u015Bli ju\u017C posiadasz
+      Szkolenie w Rzutach Fizycznych Poziom 1 na Kondycj\u0119.\r\n<size=120%>Poziom
+      4 </size>: \nZyskaj dodatkowe punkty \u017Cycia r\xF3wne dwukrotno\u015Bci
+      Twojej bieg\u0142o\u015Bci."
   - titleText: "Ci\u0119\u017Cka Zbroja"
-    contentInfoText: "<size=120%>Poziom 1 </size>: Zyskaj wyszkolenie w ci\u0119\u017Ckiej
-      zbroi.\r\n<size=120%>Poziom 2 </size>: Zyskaj redukcj\u0119 obra\u017Ce\u0144
-      o 1 ze wszystkich \u017Ar\xF3de\u0142.\r\n<size=120%>Poziom 3 </size>: Zyskaj
+    contentInfoText: "<size=120%>Poziom 1 </size>: \nZyskaj wyszkolenie w ci\u0119\u017Ckiej
+      zbroi.\r\n<size=120%>Poziom 2 </size>: \nZyskaj redukcj\u0119 obra\u017Ce\u0144
+      o 1 ze wszystkich \u017Ar\xF3de\u0142.\r\n<size=120%>Poziom 3 </size>: \nZyskaj
       redukcj\u0119 obra\u017Ce\u0144 o 2 ze wszystkich \u017Ar\xF3de\u0142.\r\n<size=120%>Poziom
-      4 </size>: Zyskaj redukcj\u0119 obra\u017Ce\u0144 o 3 ze wszystkich \u017Ar\xF3de\u0142."
+      4 </size>: \nZyskaj redukcj\u0119 obra\u017Ce\u0144 o 3 ze wszystkich \u017Ar\xF3de\u0142."

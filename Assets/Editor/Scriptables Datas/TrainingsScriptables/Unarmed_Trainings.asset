@@ -19,7 +19,7 @@ MonoBehaviour:
     za pomoc\u0105 chwyt\xF3w, d\u017Awigni i cios\xF3w bez u\u017Cycia uzbrojenia."
   trainingBaseDataNodesList:
   - titleText: 'Walka Bez Broni '
-    contentInfoText: "<size=120%>Poziom 1 </size>: Zyskujesz bieg\u0142o\u015B\u0107
+    contentInfoText: "<size=120%>Poziom 1 </size>: \nZyskujesz bieg\u0142o\u015B\u0107
       w atakach bez broni. Twoje ataki bez broni zadaj\u0105 1D4 obra\u017Ce\u0144,
       a do atak\xF3w i obra\u017Ce\u0144 mo\u017Cesz u\u017Cywa\u0107 swojego bonusu
       do Zr\u0119czno\u015Bci lub Si\u0142y.\r\n<size=120%>Poziom 2 </size>: \nKiedy

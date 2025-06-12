@@ -20,33 +20,33 @@ MonoBehaviour:
     walki."
   trainingBaseDataNodesList:
   - titleText: Trening Unikania
-    contentInfoText: "<size=120%>Poziom 1 </size>: Mo\u017Cesz wycofa\u0107 si\u0119
-      jako akcj\u0119 dodatkow\u0105.\r\n<size=120%>Poziom 2 </size>: Masz przewag\u0119
+    contentInfoText: "<size=120%>Poziom 1 </size>: \nMo\u017Cesz wycofa\u0107 si\u0119
+      jako akcj\u0119 dodatkow\u0105.\r\n<size=120%>Poziom 2 </size>: \nMasz przewag\u0119
       w rzutach obronnych wykonywanych w celu unikni\u0119cia lub zneutralizowania
-      pu\u0142apek.\r\n<size=120%>Poziom 3 </size>: Zwinne uniki pozwalaj\u0105 ci
-      unika\u0107 efekt\xF3w obszarowych, takich jak granaty lub eksplozje rakiet.
+      pu\u0142apek.\r\n<size=120%>Poziom 3 </size>: \nZwinne uniki pozwalaj\u0105
+      ci unika\u0107 efekt\xF3w obszarowych, takich jak granaty lub eksplozje rakiet.
       Gdy jeste\u015B nara\u017Cony na efekt, kt\xF3ry pozwala wykona\u0107 rzut
       obronny na Zr\u0119czno\u015B\u0107, aby zmniejszy\u0107 obra\u017Cenia o po\u0142ow\u0119,
       zamiast tego nie otrzymujesz obra\u017Ce\u0144, je\u015Bli rzut si\u0119 powiedzie,
       a jedynie po\u0142ow\u0119 obra\u017Ce\u0144, je\u015Bli rzut nie powiedzie
-      si\u0119.\r\n<size=120%>Poziom 4 </size>: Kiedy widoczny dla ciebie przeciwnik
+      si\u0119.\r\n<size=120%>Poziom 4 </size>: \nKiedy widoczny dla ciebie przeciwnik
       trafia ci\u0119 atakiem, mo\u017Cesz u\u017Cy\u0107 swojej reakcji, aby zredukowa\u0107
       obra\u017Cenia z tego ataku o po\u0142ow\u0119.\r\n<size=120%>Poziom 5 </size>:
-      \u017Baden rzut na atak przeciwko tobie nie ma przewagi, o ile nie jeste\u015B
+      \n\u017Baden rzut na atak przeciwko tobie nie ma przewagi, o ile nie jeste\u015B
       nieprzytomny."
   - titleText: Trening Otaczania
-    contentInfoText: "<size=120%>Poziom 1 </size>: Mo\u017Cesz zyska\u0107 przewag\u0119
+    contentInfoText: "<size=120%>Poziom 1 </size>: \nMo\u017Cesz zyska\u0107 przewag\u0119
       w rzutach na atak wr\u0119cz, je\u015Bli co najmniej jedno przyjazne stworzenie
       znajduje si\u0119 obok ciebie, oraz mo\u017Cesz zyska\u0107 przewag\u0119 w
       broni do walki wr\u0119cz (CQC), je\u015Bli jedno przyjazne stworzenie znajduje
-      si\u0119 pod k\u0105tem 90 stopni.\r\n<size=120%>Poziom 2 </size>: Gdy stworzenie
+      si\u0119 pod k\u0105tem 90 stopni.\r\n<size=120%>Poziom 2 </size>: \nGdy stworzenie
       w odleg\u0142o\u015Bci 5 st\xF3p od ciebie wykonuje atak na cel inny ni\u017C
       ty (i ten cel nie ma tego szkolenia), mo\u017Cesz u\u017Cy\u0107 swojej reakcji,
       aby zaatakowa\u0107 bro\u0144 do walki wr\u0119cz lub bro\u0144 CQC atakuj\u0105ce
-      stworzenie.\r\n<size=120%>Poziom 3 </size>: Mo\u017Cesz zyska\u0107 przewag\u0119
+      stworzenie.\r\n<size=120%>Poziom 3 </size>: \nMo\u017Cesz zyska\u0107 przewag\u0119
       w rzutach na atak dystansowy, je\u015Bli co najmniej jedno przyjazne stworzenie
       znajduje si\u0119 pod k\u0105tem 90 stopni i w odleg\u0142o\u015Bci do 30 st\xF3p
-      od ciebie.\r\n<size=120%>Poziom 4 </size>: Gdy stworzenie w odleg\u0142o\u015Bci
+      od ciebie.\r\n<size=120%>Poziom 4 </size>: \nGdy stworzenie w odleg\u0142o\u015Bci
       30 st\xF3p od ciebie wykonuje atak na cel inny ni\u017C ty (i ten cel nie ma
       tego szkolenia), mo\u017Cesz u\u017Cy\u0107 swojej reakcji, aby zaatakowa\u0107
       bro\u0144 dystansow\u0105 atakuj\u0105ce stworzenie."

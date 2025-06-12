@@ -81,9 +81,9 @@ public class ClassDataElementUI : MonoBehaviour, ISnappedElement
         }
 
         classProficienciesDescriptionText.text =
-           $"<b>Kostka redukcji:</b> {reductionDiceDescription}<br>" +
-           $"<b>Rzuty obronne:</b> {savingThrowDescription}<br>" +
-           $"<b>Zdolnoœci (dwie do wyboru): </b>{string.Join(" ", abilityDescriptions)}";
+            $"<b>Kostka redukcji: </b> {reductionDiceDescription}<br>" +
+            $"<b>Rzuty obronne: </b> {savingThrowDescription}<br>" +
+            $"<b>Zdolnoœci (dwie do wyboru): </b> {" "}{string.Join("  ", abilityDescriptions)}{" "}";
 
         GenerateLevelUpDetails(data.levelUpTable);
         GenerateSubClassesDetails(data.subClassesTable);

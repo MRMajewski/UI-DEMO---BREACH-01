@@ -20,40 +20,40 @@ MonoBehaviour:
     sytuacjach."
   trainingBaseDataNodesList:
   - titleText: Trening Akademicki
-    contentInfoText: "<size=120%>Poziom 1 </size>:   Zwi\u0119ksz Inteligencj\u0119
-      o 1 do maksymalnie 20\r\n<size=120%>Poziom 2 </size>:  Zwi\u0119ksz Inteligencj\u0119
-      o 1 do maksymalnie 20\r\n<size=120%>Poziom 3 </size>:  Zwi\u0119ksz Inteligencj\u0119
-      o 1 do maksymalnie 20\r\n<size=120%>Poziom 4 </size>:  Zwi\u0119ksz Inteligencj\u0119
-      o 1 do maksymalnie 20\r\n<size=120%>Poziom 5 </size>: : Zwi\u0119ksz Inteligencj\u0119
+    contentInfoText: "<size=120%>Poziom 1 </size>:   \nZwi\u0119ksz Inteligencj\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 2 </size>:  \nZwi\u0119ksz Inteligencj\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 3 </size>:  \nZwi\u0119ksz Inteligencj\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 4 </size>:  \nZwi\u0119ksz Inteligencj\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 5 </size>: \nZwi\u0119ksz Inteligencj\u0119
       o 1 do maksymalnie 20"
   - titleText: "Trening Uwa\u017Cno\u015Bci"
-    contentInfoText: "<size=120%>Poziom 1 </size>:  Zwi\u0119ksz Zmys\u0142y o 1
-      do maksymalnie 20\r\n<size=120%>Poziom 2 </size>:  Zwi\u0119ksz Zmys\u0142y
-      o 1 do maksymalnie 20\r\n<size=120%>Poziom 3 </size>:  Zwi\u0119ksz Zmys\u0142y
-      o 1 do maksymalnie 20\r\n<size=120%>Poziom 4 </size>:  Zwi\u0119ksz Zmys\u0142y
-      o 1 do maksymalnie 20\r\n<size=120%>Poziom 5 </size>:  Zwi\u0119ksz Zmys\u0142y
+    contentInfoText: "<size=120%>Poziom 1 </size>:  \nZwi\u0119ksz Zmys\u0142y o
+      1 do maksymalnie 20\r\n<size=120%>Poziom 2 </size>:  \nZwi\u0119ksz Zmys\u0142y
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 3 </size>:  \nZwi\u0119ksz Zmys\u0142y
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 4 </size>:  \nZwi\u0119ksz Zmys\u0142y
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 5 </size>:  \nZwi\u0119ksz Zmys\u0142y
       o 1 do maksymalnie 20"
   - titleText: "Trening Umiej\u0119tno\u015Bci Mi\u0119kkich "
-    contentInfoText: "<size=120%>Poziom 1 </size>:  Zwi\u0119ksz Charyzm\u0119 o
-      1 do maksymalnie 20\r\n<size=120%>Poziom 2 </size>:  Zwi\u0119ksz Charyzm\u0119
-      o 1 do maksymalnie 20\r\n<size=120%>Poziom 3 </size>:  Zwi\u0119ksz Charyzm\u0119
-      o 1 do maksymalnie 20\r\n<size=120%>Poziom 4 </size>:  Zwi\u0119ksz Charyzm\u0119
-      o 1 do maksymalnie 20\r\n<size=120%>Poziom 5 </size>: : Zwi\u0119ksz Charyzm\u0119
+    contentInfoText: "<size=120%>Poziom 1 </size>:  \nZwi\u0119ksz Charyzm\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 2 </size>:  \nZwi\u0119ksz Charyzm\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 3 </size>:  \nZwi\u0119ksz Charyzm\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 4 </size>:  \nZwi\u0119ksz Charyzm\u0119
+      o 1 do maksymalnie 20\r\n<size=120%>Poziom 5 </size>: \nZwi\u0119ksz Charyzm\u0119
       o 1 do maksymalnie 20"
   - titleText: "Trening Mentalnych Rzut\xF3w Obronnych"
-    contentInfoText: "<size=120%>Poziom 1 </size>:  Zyskaj bieg\u0142o\u015B\u0107
+    contentInfoText: "<size=120%>Poziom 1 </size>:  \nZyskaj bieg\u0142o\u015B\u0107
       w jednym z nast\u0119puj\u0105cych rzut\xF3w obronnych: Inteligencja, Zmys\u0142y
-      lub Charyzma.\n<size=120%>Poziom 2 </size>:  Zyskaj +1 do wszystkich rzut\xF3w
+      lub Charyzma.\n<size=120%>Poziom 2 </size>:  \nZyskaj +1 do wszystkich rzut\xF3w
       obronnych wykonywanych za pomoc\u0105 wybranego atrybutu.\n<size=120%>Poziom
-      3 </size>:  Zyskaj +1 do wszystkich rzut\xF3w obronnych wykonywanych za pomoc\u0105
-      wybranego atrybutu.\n<size=120%>Poziom 4 </size>:  Zyskaj przewag\u0119 na
+      3 </size>:  \nZyskaj +1 do wszystkich rzut\xF3w obronnych wykonywanych za pomoc\u0105
+      wybranego atrybutu.\n<size=120%>Poziom 4 </size>:  \nZyskaj przewag\u0119 na
       wszystkich rzutach obronnych wykonywanych za pomoc\u0105 wybranego atrybutu. "
   - titleText: "Trening Umiej\u0119tno\u015Bci Mentalnych"
-    contentInfoText: "<size=120%>Poziom 1 </size>:  Zyskaj bieg\u0142o\u015B\u0107
+    contentInfoText: "<size=120%>Poziom 1 </size>:  \nZyskaj bieg\u0142o\u015B\u0107
       w jednej z nast\u0119puj\u0105cych Umiej\u0119tno\u015Bci: Biologia, Empatia,
       Intuicja, Medycyna, Neonauka, Percepcja, Przetrwanie, \u015Aledztwo, Technologia,
       Zastraszania (Mo\u017Cna wykupi\u0107 wielokrotnie)\r\n<size=120%>Poziom 2
-      </size>:  Zyskaj +1 do wszystkich test\xF3w zwi\u0105zanych z wybran\u0105
+      </size>:  \nZyskaj +1 do wszystkich test\xF3w zwi\u0105zanych z wybran\u0105
       bieg\u0142o\u015Bci\u0105 w Umiej\u0119tno\u015Bci.\r\n<size=120%>Poziom 3
-      </size>: : Mo\u017Cesz zignorowa\u0107 krytyczn\u0105 pora\u017Ck\u0119 w tej
+      </size>: \nMo\u017Cesz zignorowa\u0107 krytyczn\u0105 pora\u017Ck\u0119 w tej
       umiej\u0119tno\u015Bci. Mo\u017Cliwo\u015B\u0107 ta odnawia si\u0119 po zako\u0144czeniu"
