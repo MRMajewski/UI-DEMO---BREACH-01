@@ -6,8 +6,11 @@ using UnityEngine.UI;
 public class FilterUI : MonoBehaviour
 {
     [Header("Filter Buttons")]
-    public Transform filterButtonContainer;
-    public GameObject filterButtonPrefab; 
+    [SerializeField]
+    private Transform filterButtonContainer;
+
+    [SerializeField]
+    private GameObject filterButtonPrefab; 
 
     private HashSet<ItemCategory> selectedCategories = new HashSet<ItemCategory>();
     [SerializeField]
@@ -57,7 +60,8 @@ public class FilterUI : MonoBehaviour
                 Debug.LogError("FilterButtonPrefab must have Button and Text components.");
                 continue;
             }
-            buttonText.text = category.ToString().Replace('_',' ');
+            //  buttonText.text = category.ToString().Replace('_',' ');
+            buttonText.text = ItemCategoryLocalization.GetCategoryName(category);
             newButton.name = newButton.name + " " + buttonText.text;
             allCategoriesButtons.Add(button);
             button.onClick.AddListener(() => ToggleCategory(category, button));
@@ -94,7 +98,7 @@ public class FilterUI : MonoBehaviour
         else
         {
            selectedCategories.Add(category);
-            SetButtonState(button, true); 
+           SetButtonState(button, true); 
         }
         itemPanel.OnCategorySelected(new List<ItemCategory>(selectedCategories));
     }
@@ -117,11 +121,8 @@ public class FilterUI : MonoBehaviour
 
         foreach (Transform child in filterButtonContainer)
         {
-            Button button = child.GetComponent<Button>();
-            if (button != null)
-            {
+            if (child.TryGetComponent<Button>(out Button button))
                 SetButtonState(button, false);
-            }
         }
         itemPanel.OnCategorySelected(new List<ItemCategory>());
     }

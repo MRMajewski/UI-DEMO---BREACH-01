@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using System.Linq;
 
 public class ItemDetailsPanel : MonoBehaviour
 {
@@ -30,7 +31,7 @@ public class ItemDetailsPanel : MonoBehaviour
         nameText.text = itemData.itemName;
         descriptionText.text = itemData.description;
 
-        string categories = string.Join(", ", itemData.categories).Replace('_', ' ');
+        string categories = string.Join(", ", itemData.categories.Select(c => ItemCategoryLocalization.GetCategoryName(c)));
         categoriesText.text = $"Kategorie : {categories}";
 
         yield return new WaitForEndOfFrame();
