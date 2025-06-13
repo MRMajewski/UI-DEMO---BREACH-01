@@ -5,12 +5,17 @@ using System.Collections;
 
 public class ItemDetailsPanel : MonoBehaviour
 {
-    public Image iconImage;
-    public TextMeshProUGUI nameText;
-    public TextMeshProUGUI descriptionText;
-    public TextMeshProUGUI categoriesText;
+    [SerializeField]
+    private Image iconImage;
+    [SerializeField]
+    private TextMeshProUGUI nameText;
+    [SerializeField]
+    private TextMeshProUGUI descriptionText;
+    [SerializeField]
+    private TextMeshProUGUI categoriesText;
 
-    public ArmoryPanel armoryPanel;
+    [SerializeField]
+    private ArmoryPanel armoryPanel;
 
     public void ShowDetails(ItemData itemData)
     {
