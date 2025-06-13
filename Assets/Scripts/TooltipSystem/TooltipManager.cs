@@ -188,7 +188,7 @@ public class TooltipManager : MonoBehaviour
         hideSequence = DOTween.Sequence();
         hideSequence
             .Append(currentTooltip.CanvasGroup.DOFade(0f, tweenSpeed))
-              .Join(backgroundOverlay.DOFade(0f, tweenSpeed))
+            .Join(backgroundOverlay.DOFade(0f, tweenSpeed))
             .OnComplete(() =>
             {
                 IsDuringAnimation = false;

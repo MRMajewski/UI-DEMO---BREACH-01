@@ -39,7 +39,7 @@ public class ArmoryPanel : SimpleUIPanelMobiles
 
         RefreshUI(itemDatabase.AllItems);
 
-        currentItems[0].button.onClick.Invoke();
+        currentItems.FirstOrDefault()?.Button.onClick.Invoke();
     }
     public override void EnablePanel()
     {
@@ -121,8 +121,7 @@ public class ArmoryPanel : SimpleUIPanelMobiles
         itemUIPrefab.gameObject.SetActive(false);
 
 
-        if(currentItems.Count > 0)
-            currentItems[0].button.onClick.Invoke();
+        currentItems.FirstOrDefault()?.Button.onClick.Invoke();
 
         LayoutRebuilder.ForceRebuildLayoutImmediate(filterUIRectTransform.GetComponent<RectTransform>());
 

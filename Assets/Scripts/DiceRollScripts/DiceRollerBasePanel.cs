@@ -150,8 +150,8 @@ public class DiceRollerBasePanel : MonoBehaviour, ISnappedElement
         resultsSeq = DOTween.Sequence();
         resultsSeq
         .Append(resultText.transform.DOScale(scaleValue, tweenTime).SetEase(easeTypeScale))
-         .AppendInterval(tweenTime/2)
-          .Append(resultText.transform.DOScale(1f, tweenTime).SetEase(easeTypeScale));
+        .AppendInterval(tweenTime/2)
+        .Append(resultText.transform.DOScale(1f, tweenTime).SetEase(easeTypeScale));
     }
     protected virtual int RollNormal(int diceCount)
     {
@@ -264,8 +264,7 @@ public class DiceRollerBasePanel : MonoBehaviour, ISnappedElement
         {
             if (value < 0) value = 0;
             if (value > 99) value = 99;
-            modifierInputField.text = value.ToString();
-           
+            modifierInputField.text = value.ToString();       
         }
         else
         {

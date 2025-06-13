@@ -287,8 +287,8 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         splashSequence
             .Append(splashImage.DOFade(1, 1f).SetEase(Ease.InOutQuad))
             .AppendInterval(4f)
-            .Append(splashImage.DOFade(0, 1f).SetEase(Ease.InOutQuad)).
-              OnComplete(() =>
+            .Append(splashImage.DOFade(0, 1f).SetEase(Ease.InOutQuad))
+            .OnComplete(() =>
               {
                   splashImage.gameObject.SetActive(false);          
                   firstPanel.EnablePanel();

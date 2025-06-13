@@ -28,11 +28,15 @@ public class SpellNode : TrainingNode
         base.SelectionClick();
         contentGameObject.gameObject.SetActive(isOpen);
 
-        if(isOpen)
-        CheckVisibilityDelayed();
+        if (isOpen)
+            CheckVisibilityDelayed();
 
+#if UNITY_EDITOR
+        if (!Application.isPlaying) return;
+#endif
         StartCoroutine(UIRebuildCoroutine());
     }
+
 
     IEnumerator UIRebuildCoroutine()
     {
@@ -50,7 +54,7 @@ public class SpellNode : TrainingNode
         if (spellData is NeophysicsSpellData n)
         {
             levelText.text = n.spellLevel.ToString();
-            typeText.text= n.spellType.ToString();
+            typeText.text = n.spellType.ToString();
             ContentText.text += "\nZasiêg: " + n.spellRange;
             ContentText.text += "\nCzas rzucania: " + n.spellCastingTime;
         }
@@ -64,7 +68,7 @@ public class SpellNode : TrainingNode
 
         if (spellData is PsionicsSpellData p)
         {
-            categoryText.text=p.Spellcategory.ToString();
+            categoryText.text = p.Spellcategory.ToString();
             typeText.text = p.spellType.ToString();
             levelText.text = p.spellCost.ToString();
         }

@@ -44,8 +44,8 @@ public class DynamicGridLayout : MonoBehaviour
             if (!child.gameObject.activeSelf)
                 continue;
 
-            RectTransform childRect = child.GetComponent<RectTransform>();
-            if (childRect == null) continue;
+            if (!child.TryGetComponent<RectTransform>(out var childRect)) 
+                continue;
 
             float childWidth = childRect.sizeDelta.x;
             float childHeight = childRect.sizeDelta.y;
@@ -90,8 +90,8 @@ public class DynamicGridLayout : MonoBehaviour
             if (!child.gameObject.activeSelf)
                 continue;
 
-            RectTransform childRect = child.GetComponent<RectTransform>();
-            if (childRect == null) continue;
+            if (!child.TryGetComponent<RectTransform>(out var childRect)) 
+                continue;
 
             float childWidth = childRect.sizeDelta.x;
             float childHeight = childRect.sizeDelta.y;

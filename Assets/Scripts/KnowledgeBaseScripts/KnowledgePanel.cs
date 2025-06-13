@@ -108,9 +108,9 @@ public class KnowledgePanel : SimpleUIPanelMobiles
             }
             else
             {
-                if (knowledgeNode.GetComponent<KnowledgeNodeBase>() != null)
+                if (knowledgeNode.TryGetComponent<KnowledgeNodeBase>(out var node))
                 {
-                    knowledgeNode.SelectionClick();
+                    node.SelectionClick();
                 }
             }
         }
@@ -125,9 +125,9 @@ public class KnowledgePanel : SimpleUIPanelMobiles
         {
             if (knowledgeNode.IsOpen == true)
             {
-                if (knowledgeNode.GetComponent<KnowledgeNodeBase>() != null)
+                if (knowledgeNode.TryGetComponent<KnowledgeNodeBase>(out var node))
                 {
-                    knowledgeNode.SelectionClick();
+                    node.SelectionClick();
                 }
             }
             else

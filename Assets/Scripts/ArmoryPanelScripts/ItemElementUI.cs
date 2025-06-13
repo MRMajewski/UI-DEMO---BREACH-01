@@ -23,14 +23,18 @@ public enum ItemCategory
 
 public class ItemElementUI : MonoBehaviour
 {
-    public Image icon;
-    public TextMeshProUGUI nameText;
-    public Button button;
+    [SerializeField] 
+    private Image icon;
+    [SerializeField] 
+    private TextMeshProUGUI nameText;
+    [SerializeField] 
+    private Button button;
+    [SerializeField]
+    private ItemDetailsPanel itemDetailsPanel;
 
     private ItemData itemData;
 
-    [SerializeField]
-    private ItemDetailsPanel itemDetailsPanel;
+    public Button Button { get => button;}
 
     public virtual void SetUp(ItemData data)
     {
