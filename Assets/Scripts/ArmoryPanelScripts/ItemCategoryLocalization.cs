@@ -1,25 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public enum ItemCategory
-{
-    Weapon,
-    Armor,
-    Accessory,
-    Firearm,
-    Melee,
-    Civilian,
-    Military,
-    Experimental,
-    Pistol,
-    SMG,
-    Rifle,
-    AssaultRifle,
-    HeavyWeapon,
-    Shotgun,
-    Tool,
-    Other
-}
+//public enum ItemCategory
+//{
+//    Weapon,
+//    Armor,
+//    Accessory,
+//    Firearm,
+//    Melee,
+//    Civilian,
+//    Military,
+//    Experimental,
+//    Pistol,
+//    SMG,
+//    Rifle,
+//    AssaultRifle,
+//    HeavyWeapon,
+//    Shotgun,
+//    Tool,
+//    Other
+//}
 
 public class ItemCategoryLocalization : MonoBehaviour
 {
@@ -45,6 +45,6 @@ public class ItemCategoryLocalization : MonoBehaviour
 
     public static string GetCategoryName(ItemCategory category)
     {
-        return ItemCategoryNames.TryGetValue(category, out var name) ? name : category.ToString();
+        return ItemCategoryNames.TryGetValue(category, out string name) ? name : category.ToString();
     }
 }

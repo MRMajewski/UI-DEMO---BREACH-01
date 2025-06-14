@@ -33,27 +33,6 @@ public class ArmoryPanel : SimpleUIPanelMobiles
     [SerializeField]
     private TMP_InputField searchInputField;
 
-
-    public static Dictionary<ItemCategory, string> PolishNames = new()
-    {
-        { ItemCategory.Weapon, "Broñ" },
-        { ItemCategory.Armor, "Pancerz" },
-        { ItemCategory.Accessory, "Akcesorium" },
-        { ItemCategory.Firearm, "Broñ palna" },
-        { ItemCategory.Melee, "Broñ bia³a" },
-        { ItemCategory.Civilian, "Cywilny" },
-        { ItemCategory.Military, "Militarny" },
-        { ItemCategory.Experimental, "Eksperymentalny" },
-        { ItemCategory.Pistol, "Pistolet" },
-        { ItemCategory.SMG, "SMG" },
-        { ItemCategory.Rifle, "Karabin" },
-        { ItemCategory.AssaultRifle, "Karabin szturmowy" },
-        { ItemCategory.HeavyWeapon, "Broñ ciê¿ka" },
-        { ItemCategory.Shotgun, "Strzelba" },
-        { ItemCategory.Tool, "Narzêdzie" },
-        { ItemCategory.Other, "Inne" }
-    };
-
     public override void InitializePanel()
     {
         filterUI.CreateCategoryButtons();

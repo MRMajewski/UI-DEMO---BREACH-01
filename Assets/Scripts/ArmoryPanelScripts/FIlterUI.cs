@@ -60,8 +60,7 @@ public class FilterUI : MonoBehaviour
                 Debug.LogError("FilterButtonPrefab must have Button and Text components.");
                 continue;
             }
-            //  buttonText.text = category.ToString().Replace('_',' ');
-            buttonText.text = ItemCategoryLocalization.GetCategoryName(category);
+            buttonText.text = EnumTranslator.GetName(category);
             newButton.name = newButton.name + " " + buttonText.text;
             allCategoriesButtons.Add(button);
             button.onClick.AddListener(() => ToggleCategory(category, button));

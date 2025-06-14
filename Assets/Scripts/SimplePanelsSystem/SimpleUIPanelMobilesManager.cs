@@ -58,6 +58,10 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
     [SerializeField] private RectTransform backgroundStillDecor;
     [SerializeField] private float backGroundAnimationTime = 2f;
 
+
+    [SerializeField]
+    private EnumTranslatorInitializer enumTranslatorInitializer;
+
     public enum SimplePanelNames
     {
         Welcome,
@@ -84,6 +88,8 @@ public class SimpleUIPanelMobilesManager : MonoBehaviour
         }
 
         ResizeTransitionCurtains();
+
+        EnumTranslatorInitializer.RegisterAll();
     }
     private void Update()
     {

@@ -54,7 +54,7 @@ public class SpellNode : TrainingNode
         if (spellData is NeophysicsSpellData n)
         {
             levelText.text = n.spellLevel.ToString();
-            typeText.text = n.spellType.ToString();
+            typeText.text = EnumTranslator.GetName(n.spellType);
             ContentText.text += "\nZasiêg: " + n.spellRange;
             ContentText.text += "\nCzas rzucania: " + n.spellCastingTime;
         }
@@ -68,15 +68,15 @@ public class SpellNode : TrainingNode
 
         if (spellData is PsionicsSpellData p)
         {
-            categoryText.text = p.Spellcategory.ToString();
-            typeText.text = p.spellType.ToString();
+            categoryText.text = EnumTranslator.GetName(p.Spellcategory);
+            typeText.text = EnumTranslator.GetName(p.spellType);
             levelText.text = p.spellCost.ToString();
         }
 
         if (spellData is NeoSensoricsSpellData s)
         {
-            categoryText.text = s.Spellcategory.ToString();
-            typeText.text = s.spellType.ToString();
+            categoryText.text = EnumTranslator.GetName(s.Spellcategory);
+            typeText.text = EnumTranslator.GetName(s.spellType);
             levelText.text = s.spellCost.ToString();
         }
         gameObject.name = spellData.spellName;

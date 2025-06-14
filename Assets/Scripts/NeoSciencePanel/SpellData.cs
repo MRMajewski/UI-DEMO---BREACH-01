@@ -12,41 +12,41 @@ public abstract class SpellData : ScriptableObject
     public string spellDescription;
 }
 
-public enum NeoScienceCategory
-{
-    Neophysics,
-    Neolinguistics,
-    Neosensorics,
-    Psionics
-}
+//public enum NeoScienceCategory
+//{
+//    Neophysics,
+//    Neolinguistics,
+//    Neosensorics,
+//    Psionics
+//}
 
-public enum NeoPhysicsCategory
-{
-    Grawiturgia,
-    Chronoturgia,
-    Energodynamika,
-    Neooptyka,
-    Neoakustyka,
-    Inne
-}
-public enum NeoSensoricsCategory
-{
-    Wspólna,
-    Futurispecja,
-    Neospirytyzm,
-    Biomancja
-}
-public enum PsionicsCategory
-{
-    Wspólna,
-    Telekineza,
-    Pyrokineza,
-    Psychokineza
-}
+//public enum NeoPhysicsCategory
+//{
+//    Grawiturgia,
+//    Chronoturgia,
+//    Energodynamika,
+//    Neooptyka,
+//    Neoakustyka,
+//    Inne
+//}
+//public enum NeoSensoricsCategory
+//{
+//    Wspólna,
+//    Futurispecja,
+//    Neospirytyzm,
+//    Biomancja
+//}
+//public enum PsionicsCategory
+//{
+//    Wspólna,
+//    Telekineza,
+//    Pyrokineza,
+//    Psychokineza
+//}
 
-public enum TypesCategory
-{
-    Talent,
-    Dyscyplina
-}
+//public enum TypesCategory
+//{
+//    Talent,
+//    Dyscyplina
+//}
 
