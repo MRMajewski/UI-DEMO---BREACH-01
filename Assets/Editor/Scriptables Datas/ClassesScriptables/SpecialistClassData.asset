@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: SpecialistClassData
   m_EditorClassIdentifier: 
   className: SPECJALISTA
-  reductionDiceInfos: 0
-  savingThrowInfos: 3
+  reductionDiceInfo: 0
+  savingThrowInfo: 3
   abilityInfos: 020000000300000004000000050000000600000007000000080000000b000000
   classDescription: "Mistrz dziedziny, czarodziej odr\u0119twia\u0142ej techniki.
     \u0141\u0105czy stal z strategi\u0105 \u2013 leczy, wzmacnia, zabezpiecza. Kiedy

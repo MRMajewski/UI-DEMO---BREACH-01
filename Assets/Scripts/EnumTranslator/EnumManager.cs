@@ -3,14 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class EnumTranslator
+public class EnumManager
 {
     private static readonly Dictionary<Type, Dictionary<Enum, string>> allTranslations = new();
 
-    public static IReadOnlyDictionary<System.Type, Dictionary<Enum, string>> GetAllTranslations()
-    {
-        return allTranslations;
-    }
     public static int GetTotalTranslationCount()
     {
         return allTranslations.Values.Sum(innerDict => innerDict.Count);
@@ -51,10 +47,10 @@ public class EnumTranslator
         {
             return result;
         }
-
-        return value.ToString(); // fallback
+        return value.ToString();
     }
 }
+#region NeoScience Enums
 public enum NeoScienceCategory
 {
     Neophysics,
@@ -93,6 +89,10 @@ public enum TypesCategory
     Talent,
     Discipline
 }
+
+#endregion
+
+#region Armory Enums
 public enum ItemCategory
 {
     Weapon,
@@ -112,3 +112,40 @@ public enum ItemCategory
     Tool,
     Other
 }
+#endregion
+
+#region ClassPanel Enums
+public enum ReductionDiceType
+{
+    d8,
+    d10,
+    d12
+}
+public enum SavingThrowType
+{
+    Strength,
+    Dexterity,
+    Constitution,
+    Intelligence,
+    Senses,
+    Charisma
+}
+
+public enum AbilityType
+{
+    Acrobatics,
+    Athletics,
+    Biology,
+    Empathy,
+    Insight,
+    Medicine,
+    Neoscience,
+    Perception,
+    Precision,
+    Survival,
+    Stealth,
+    Investigation,
+    Technology,
+    Intimidation
+}
+#endregion

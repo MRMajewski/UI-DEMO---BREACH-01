@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: AdeptClassData
   m_EditorClassIdentifier: 
   className: ADEPT
-  reductionDiceInfos: 1
-  savingThrowInfos: 1
+  reductionDiceInfo: 1
+  savingThrowInfo: 1
   abilityInfos: 000000000100000004000000050000000700000009000000
   classDescription: "Zwi\u0119kszona szybko\u015B\u0107 i refleks. Precyzyjny, szybki
     wojownik, kt\xF3ry potrafi walczy\u0107 zar\xF3wno bez broni, jak i z lekk\u0105

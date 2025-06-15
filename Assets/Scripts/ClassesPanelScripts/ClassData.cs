@@ -9,10 +9,10 @@ public class ClassData : ScriptableObject, ISnapperPanelData
     public string className;
 
     [Header("Reduction Dice Infos")]
-    public ReductionDiceType reductionDiceInfos;
+    public ReductionDiceType reductionDiceInfo;
 
     [Header("Saving Throw Infos")]
-    public SavingThrowType savingThrowInfos;
+    public SavingThrowType savingThrowInfo;
 
     [Header("Ability Infos")]
     public List<AbilityType> abilityInfos;

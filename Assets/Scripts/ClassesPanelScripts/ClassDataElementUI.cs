@@ -69,15 +69,18 @@ public class ClassDataElementUI : MonoBehaviour, ISnappedElement
         classNameText.text = data.className;
         classDescriptionText.text = data.classDescription;
 
-        string reductionDiceDescription = classesDatabase.GetReductionDiceDescription(data.reductionDiceInfos);
-        string savingThrowDescription = classesDatabase.GetSavingThrowDescription(data.savingThrowInfos);
+        string reductionDiceDescription = EnumManager.GetName(data.reductionDiceInfo);
+        string savingThrowDescription = EnumManager.GetName(data.savingThrowInfo);
+
+        //string reductionDiceDescription = classesDatabase.GetReductionDiceDescription(data.reductionDiceInfo);
+        //string savingThrowDescription = classesDatabase.GetSavingThrowDescription(data.savingThrowInfo);
 
         backgroundImage.color = new Color(data.classColor.r, data.classColor.g, data.classColor.b, 100f / 255f);
 
         List<string> abilityDescriptions = new List<string>();
         foreach (var ability in data.abilityInfos)
         {
-            abilityDescriptions.Add(classesDatabase.GetAbilityDescription(ability));
+            abilityDescriptions.Add(EnumManager.GetName(ability));
         }
 
         classProficienciesDescriptionText.text =

@@ -31,7 +31,7 @@ public class ItemDetailsPanel : MonoBehaviour
         nameText.text = itemData.itemName;
         descriptionText.text = itemData.description;
 
-        string categories = string.Join(", ", itemData.categories.Select(c => EnumTranslator.GetName(c)));
+        string categories = string.Join(", ", itemData.categories.Select(c => EnumManager.GetName(c)));
         categoriesText.text = $"Kategorie : {categories}";
 
         yield return new WaitForEndOfFrame();

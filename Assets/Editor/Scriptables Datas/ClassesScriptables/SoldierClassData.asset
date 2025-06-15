@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: SoldierClassData
   m_EditorClassIdentifier: 
   className: "\u017BO\u0141NIERZ"
-  reductionDiceInfos: 1
-  savingThrowInfos: 2
+  reductionDiceInfo: 1
+  savingThrowInfo: 2
   abilityInfos: 00000000010000000400000007000000080000000c000000
   classDescription: "\u017Bo\u0142nierz o zwi\u0119kszonej wytrzyma\u0142o\u015Bci
     i refleksie. Mistrz w pos\u0142ugiwaniu si\u0119 broni\u0105 paln\u0105, bo czemu

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: CoderClassData
   m_EditorClassIdentifier: 
   className: KODER
-  reductionDiceInfos: 0
-  savingThrowInfos: 3
+  reductionDiceInfo: 0
+  savingThrowInfo: 3
   abilityInfos: 02000000040000000500000006000000070000000a0000000b000000
   classDescription: "Zwi\u0119kszone umiej\u0119tno\u015Bci analityczne. Korzystaj\u0105c
     z tabletu bojowego z wgranymi algorytmami i szybkimi obliczeniami w g\u0142owie,

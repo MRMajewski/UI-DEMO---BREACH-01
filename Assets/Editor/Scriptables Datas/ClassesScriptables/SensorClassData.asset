@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: SensorClassData
   m_EditorClassIdentifier: 
   className: SENSOR
-  reductionDiceInfos: 0
-  savingThrowInfos: 4
+  reductionDiceInfo: 0
+  savingThrowInfo: 4
   abilityInfos: 020000000300000004000000050000000600000007000000080000000a000000
   classDescription: "Sensorzy to mistrzowie percepcji, wyczuleni na subtelne zmiany
     w otoczeniu. Dzi\u0119ki swoim zaawansowanym zmys\u0142om potrafi\u0105 dostrzega\u0107

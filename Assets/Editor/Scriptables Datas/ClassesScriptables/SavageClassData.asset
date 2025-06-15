@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: SavageClassData
   m_EditorClassIdentifier: 
   className: BOJOWNIK
-  reductionDiceInfos: 2
-  savingThrowInfos: 0
+  reductionDiceInfo: 2
+  savingThrowInfo: 0
   abilityInfos: 010000000200000007000000080000000c000000
   classDescription: "Zwi\u0119kszona si\u0142a i wytrzyma\u0142o\u015B\u0107. Uderza
     mocno i konkretnie. Lubi walk\u0119 bezpo\u015Bredni\u0105 i brutaln\u0105 z

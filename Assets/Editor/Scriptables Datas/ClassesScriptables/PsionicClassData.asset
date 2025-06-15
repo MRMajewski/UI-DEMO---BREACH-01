@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: PsionicClassData
   m_EditorClassIdentifier: 
   className: PSIONIK
-  reductionDiceInfos: 0
-  savingThrowInfos: 5
+  reductionDiceInfo: 0
+  savingThrowInfo: 5
   abilityInfos: 00000000020000000300000004000000060000000700000008000000090000000a000000
   classDescription: "Zwi\u0119kszona podatno\u015B\u0107 na magi\u0119. Magia z innego
     wymiaru pobudzi\u0142a umys\u0142 tego herosa i mo\u017Ce teraz u\u017Cywa\u0107

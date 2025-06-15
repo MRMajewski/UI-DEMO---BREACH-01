@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: OfficerClassData
   m_EditorClassIdentifier: 
   className: OFICER
-  reductionDiceInfos: 0
-  savingThrowInfos: 5
+  reductionDiceInfo: 1
+  savingThrowInfo: 5
   abilityInfos: 00000000010000000300000004000000070000000b0000000c000000
   classDescription: "Oficer to posta\u0107 o zwi\u0119kszonej charyzmie i bystro\u015Bci
     umys\u0142u, kt\xF3rej g\u0142\xF3wnym zadaniem jest koordynowanie zespo\u0142u.

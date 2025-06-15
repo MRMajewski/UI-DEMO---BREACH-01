@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: AgentClassData
   m_EditorClassIdentifier: 
   className: AGENT
-  reductionDiceInfos: 0
-  savingThrowInfos: 1
+  reductionDiceInfo: 1
+  savingThrowInfo: 1
   abilityInfos: 000000000100000002000000040000000700000008000000090000000a0000000b0000000d000000
   classDescription: "Zwi\u0119kszona szybko\u015B\u0107, refleks i niezr\xF3wnana
     zdolno\u015B\u0107 do cichego poruszania si\u0119. Skradacz, agent specjalny,
