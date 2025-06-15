@@ -14,12 +14,12 @@ public class ItemDetailsPanel : MonoBehaviour
     private TextMeshProUGUI descriptionText;
     [SerializeField]
     private TextMeshProUGUI categoriesText;
+ 
+    private System.Action onDetailsShown;
 
-    [SerializeField]
-    private ArmoryPanel armoryPanel;
-
-    public void ShowDetails(ItemData itemData)
+    public void ShowDetails(ItemData itemData, System.Action onShown = null)
     {
+        onDetailsShown = onShown;
         StartCoroutine(ShowDetailsCoroutine(itemData));
     }
 
@@ -32,10 +32,11 @@ public class ItemDetailsPanel : MonoBehaviour
         descriptionText.text = itemData.description;
 
         string categories = string.Join(", ", itemData.categories.Select(c => EnumManager.GetName(c)));
-        categoriesText.text = $"Kategorie : {categories}";
+        categoriesText.text = $"Kategorie: {categories}";
 
         yield return new WaitForEndOfFrame();
 
-        armoryPanel.InitializePanelData();
+        onDetailsShown?.Invoke();
+        onDetailsShown = null;
     }
 }

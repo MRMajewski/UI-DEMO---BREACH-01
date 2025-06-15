@@ -6,21 +6,21 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ArmoryPanel : SimpleUIPanelMobiles
+public class ArmoryPanel : SimpleUIPanelMobiles, IFilterablePanel<ItemCategory>
 {
     public Transform itemListContainer;
     public ItemElementUI itemUIPrefab;
     public ItemDatabase itemDatabase;
 
-    private List<ItemCategory> selectedCategories = new List<ItemCategory>();
+    private HashSet<ItemCategory> selectedCategories = new HashSet<ItemCategory>();
     private string currentSearchText = "";
 
     [SerializeField]
-    private FilterUI filterUI;
-
+    private FilterUIItems filterUI;
     [SerializeField]
     private List<ItemElementUI> currentItems;
-
+    [SerializeField]
+    private RectTransform armoryRectTransform;
     [SerializeField]
     private RectTransform filterUIRectTransform;
     [SerializeField]
@@ -31,7 +31,12 @@ public class ArmoryPanel : SimpleUIPanelMobiles
     private RectTransform armoryViewportRectTransform;
 
     [SerializeField]
+    private ItemDetailsPanel itemDetailsPanel;
+    [SerializeField]
     private TMP_InputField searchInputField;
+
+    [SerializeField] 
+    private float scrollPadding = 20f;
 
     public override void InitializePanel()
     {
@@ -39,10 +44,20 @@ public class ArmoryPanel : SimpleUIPanelMobiles
 
         RefreshUI(itemDatabase.AllItems);
 
+        AutoSelectFirstItem();
+    }
+    private void AutoSelectFirstItem()
+    {
         currentItems.FirstOrDefault()?.Button.onClick.Invoke();
+    }
+    public override void DisablePanel()
+    {
+        base.DisablePanel();
+        filterUI.OnFilterChanged -= FilterUpdated;
     }
     public override void EnablePanel()
     {
+        filterUI.OnFilterChanged += FilterUpdated;
         this.gameObject.SetActive(true);
 
         panelsCanvasGroup.DOFade(1, SimpleUIPanelMobilesManager.Instance.TransitionTime).SetEase(Ease.InOutSine);
@@ -57,7 +72,7 @@ public class ArmoryPanel : SimpleUIPanelMobiles
     public IEnumerator UpdateFiltersLayoutCoroutine()
     {
         yield return new WaitForEndOfFrame();
-        LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
+        LayoutRebuilder.ForceRebuildLayoutImmediate(armoryRectTransform);
         filterUI.UpdateFiltersLayout();
         AdjustScrollRect();
     }
@@ -69,7 +84,7 @@ public class ArmoryPanel : SimpleUIPanelMobiles
     public IEnumerator UpdateContentLayoutCoroutine()
     {
         yield return new WaitForEndOfFrame();
-        LayoutRebuilder.ForceRebuildLayoutImmediate(this.GetComponent<RectTransform>());
+        LayoutRebuilder.ForceRebuildLayoutImmediate(armoryRectTransform);
         AdjustScrollRect();
     }
     public void OnSearchInputChanged(string searchText)
@@ -83,12 +98,6 @@ public class ArmoryPanel : SimpleUIPanelMobiles
         currentSearchText =string.Empty;
         searchInputField.text = currentSearchText;
         OnSearchInputChanged(currentSearchText);
-    }
-
-    public void OnCategorySelected(List<ItemCategory> newSelectedCategories)
-    {
-        selectedCategories = newSelectedCategories;
-        FilterAndRefreshUI();
     }
 
     private void FilterAndRefreshUI()
@@ -105,8 +114,6 @@ public class ArmoryPanel : SimpleUIPanelMobiles
 
     private void RefreshUI(List<ItemData> items)
     {
-        itemUIPrefab.gameObject.SetActive(true);
-
         foreach (ItemElementUI itemElement in currentItems)
         {
             Destroy(itemElement.gameObject);
@@ -118,33 +125,39 @@ public class ArmoryPanel : SimpleUIPanelMobiles
         {
             CreateItemUI(item);
         }
-        itemUIPrefab.gameObject.SetActive(false);
-
-
-        currentItems.FirstOrDefault()?.Button.onClick.Invoke();
-
-        LayoutRebuilder.ForceRebuildLayoutImmediate(filterUIRectTransform.GetComponent<RectTransform>());
-
+        AutoSelectFirstItem();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(filterUIRectTransform);
         AdjustScrollRect();
     }
 
     private void CreateItemUI(ItemData itemData)
-    {
+    {    
         ItemElementUI newItemUI = Instantiate(itemUIPrefab, itemListContainer);
-        newItemUI.SetUp(itemData);
+        newItemUI.gameObject.SetActive(true);
+        newItemUI.SetUp(itemData, OnItemClicked);
         currentItems.Add(newItemUI);
-    }
 
+        void OnItemClicked(ItemData data)
+        {
+            itemDetailsPanel.ShowDetails(data, InitializePanelData);
+        }
+    }
     private void AdjustScrollRect()
     {
         float contentHeight = filterUIRectTransform.rect.height + detailsRectTransform.rect.height;
         float parentHeight = armoryContentRectTransform.rect.height;
-        float test = parentHeight - contentHeight - 20f;
+        float test = parentHeight - contentHeight - scrollPadding;
         float newViewportHeight = Mathf.Clamp(test, 0, parentHeight);
 
         Vector2 newSize = armoryViewportRectTransform.sizeDelta;
         newSize.y = newViewportHeight;
         armoryViewportRectTransform.sizeDelta = newSize;
+    }
+
+    public void FilterUpdated(HashSet<ItemCategory> selectedFilters)
+    {
+        selectedCategories = selectedFilters;
+        FilterAndRefreshUI();
     }
 }
 
