@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Zmys\u0142_Drga\u0144_(Tremorsense)"
   m_EditorClassIdentifier: 
   neoScienceCategory: 2
-  spellName: "Zmys\u0142 Drga\u0144 (Tremorsense)"
+  spellName: "Zmys\u0142 Drga\u0144"
   spellDescription: "Sensor wykrywa ruch istot st\u0105paj\u0105cych po ziemi w promieniu
     6m. Mocniejsza wersja (2 PP): Zasi\u0119g ro\u015Bnie do 12m i wykrywa r\xF3wnie\u017C
     drobne zmiany ci\u015Bnienia w powietrzu.\nKoszt: 1"

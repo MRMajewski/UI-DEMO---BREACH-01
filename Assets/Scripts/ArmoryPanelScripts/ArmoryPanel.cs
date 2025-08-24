@@ -26,6 +26,8 @@ public class ArmoryPanel : SimpleUIPanelMobiles, IFilterablePanel<ItemCategory>
     [SerializeField]
     private RectTransform detailsRectTransform;
     [SerializeField]
+    private RectTransform  searchRectTransform;
+    [SerializeField]
     private RectTransform armoryContentRectTransform;
     [SerializeField]
     private RectTransform armoryViewportRectTransform;
@@ -144,7 +146,7 @@ public class ArmoryPanel : SimpleUIPanelMobiles, IFilterablePanel<ItemCategory>
     }
     private void AdjustScrollRect()
     {
-        float contentHeight = filterUIRectTransform.rect.height + detailsRectTransform.rect.height;
+        float contentHeight = filterUIRectTransform.rect.height + detailsRectTransform.rect.height+searchRectTransform.rect.height;
         float parentHeight = armoryContentRectTransform.rect.height;
         float test = parentHeight - contentHeight - scrollPadding;
         float newViewportHeight = Mathf.Clamp(test, 0, parentHeight);
